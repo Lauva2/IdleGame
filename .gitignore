@@ -1,0 +1,53 @@
+# Unity-generated caches and local state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/.gradle/
+
+# Build output
+/[Bb]uild/
+/[Bb]uilds/
+*.apk
+*.aab
+*.unitypackage
+
+# Generated IDE files
+/.vs/
+/.idea/
+/.vscode/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+*.csproj.meta
+*.pidb.meta
+
+# Crash dumps and OS files
+/sysinfo.txt
+*.stackdump
+*.dmp
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local credentials, signing files and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.pfx
+*.p12
+/.codex/
+/.agents/
+/.aws/
