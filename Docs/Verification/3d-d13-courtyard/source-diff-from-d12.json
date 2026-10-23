@@ -1,0 +1,17 @@
+{
+  "changed": [
+    "Assets/Editor/BuildTools.cs",
+    "Assets/Scripts/Core/Economy.cs",
+    "Assets/Scripts/Core/GameData.cs",
+    "Assets/Scripts/Core/Persistence.cs",
+    "Assets/Scripts/Runtime/ForestViews.cs",
+    "Assets/Scripts/Runtime/ForestWorld3D.cs",
+    "ProjectSettings/ProjectSettings.asset"
+  ],
+  "added": [
+    "Assets/Editor/ForestCourtyardPreview.cs",
+    "Assets/Editor/ForestCourtyardPreview.cs.meta"
+  ],
+  "removed": [],
+  "scope": "Development preview sources; not a frozen Android candidate. Current user deferred formal acceptance."
+}

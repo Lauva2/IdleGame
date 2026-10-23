@@ -30,17 +30,17 @@ namespace ForestShop
         {
             var world = World(); world.Bind(State); world.SetVisible(true);
             content = Scroll(page, 0, 0, 2600, "Treehouse 3D scroll");
-            string[] regions = { "树屋全景", "庭院", "工坊", "店面" };
+            string[] regions = { "森林小院", "庭院", "工坊", "店面" };
             for (int i = 0; i < regions.Length; i++)
             {
                 int region = i;
                 Button(content, regions[i], 25 + i * 263, 14, 242, 78, () => { world.SetRegion(region); ShowPage("小店"); }, true, world.Region == i);
             }
-            float viewHeight = world.Region == 0 ? 1320 : 980;
+            float viewHeight = world.Region == 0 ? 1320 : 1280;
             var view = Rect(content, "Live 3D treehouse", 0, 112, 1080, viewHeight);
             var image = view.gameObject.AddComponent<RawImage>(); image.texture = world.View;
             var pointer = view.gameObject.AddComponent<ForestWorldPointer>(); pointer.world = world;
-            if (world.Region == 1) for (int i = 0; i < 6; i++)
+            if (world.Region == 1) for (int i = 0; i < Catalog.MaxPlots; i++)
             {
                 Vector2 at = world.PlotMarker(i);
                 var badge = Panel(view, "Garden marker " + (i + 1), Paper, Mathf.Clamp(at.x * 1080 - 25, 4, 1022), Mathf.Clamp((1 - at.y) * viewHeight - 25, 4, viewHeight - 58), 54, 54);
@@ -65,14 +65,14 @@ namespace ForestShop
             float y = 210 + viewHeight;
             if (world.Region == 1)
             {
-                for (int i = 0; i < 6; i++)
+                for (int i = 0; i < Catalog.MaxPlots; i++)
                 {
                     int n = i; bool built = i < State.plots.Length;
                     var b = Button(content, "", 35 + i % 3 * 341, y + i / 3 * 160, 322, 139, () => { if (n >= State.plots.Length) OpenObject("expansion", 0); else if (State.tutorial == 0) Act(Engine.HarvestFirst, "薄荷已入库，庭院开始自动种植。", true); else OpenObject("plot", n); });
                     var label = b.GetComponentInChildren<Text>(); label.fontSize = 25;
                     bindings.Add(() => { if (!built) label.text = "+ 扩建地块 " + (n + 1); else { var f = State.plots[n]; int crop = Math.Max(0, f.workItem >= 0 ? f.workItem : f.config); label.text = "地块 " + (n + 1) + " · " + Catalog.Crops[crop] + "\n" + (State.tutorial == 0 ? "成熟 · 点按收获" : f.remaining > 0 ? Math.Ceiling(f.remaining) + " 秒 · 生长中" : f.remaining == 0 ? "成熟 · 等待入库" : "满仓 · 等待"); } });
                 }
-                y += 325;
+                y += Mathf.CeilToInt(Catalog.MaxPlots / 3f) * 160 + 5;
             }
             else if (world.Region == 2)
             {
@@ -98,8 +98,8 @@ namespace ForestShop
             }
             else
             {
-                Label(content, "树屋里的一点小魔法", 38, Sage, 40, y, 1000, 68);
-                Label(content, "庭院自动种植，工坊循环加工，货架将商品送到邻居手中。\n上方切换区域，可以近看每一处经营细节。", 30, Ink, 40, y + 76, 1000, 150);
+                Label(content, "沿着石板路，照看森林小院", 38, Sage, 40, y, 1000, 68);
+                Label(content, "树屋小店迎接邻居，独立工坊制作奇物，庭院逐步开放十二块田地。\n上方切换区域，近看种植、加工与营业。", 30, Ink, 40, y + 76, 1000, 150);
                 y += 245;
             }
             Button(content, "仓库", 35, y, 310, 92, () => OpenObject("warehouse", 0));
@@ -318,7 +318,7 @@ namespace ForestShop
             else
             {
                 int p = State.plots.Length, sh = State.shelves.Length;
-                if (p < 6) Row("第 " + (p + 1) + " 块地", "", 0, "扩建地块", () => Act(Engine.BuyPlot, "新的地块已开放。"), true, () => State.coins >= Catalog.PlotCost[p] && (p != 1 || Engine.TotalSold >= 3) && State.reputation >= Catalog.PlotRep[p] && (p < 4 || State.sideRoom), () => Engine.PlotRequirement + "\n已有 " + State.coins + " / 所需 " + Catalog.PlotCost[p]);
+                if (p < Catalog.MaxPlots) Row("第 " + (p + 1) + " 块地 · 共十二块", "", 0, "扩建地块", () => Act(Engine.BuyPlot, "新的地块已开放。"), true, () => State.coins >= Catalog.PlotCost[p] && (p != 1 || Engine.TotalSold >= 3) && State.reputation >= Catalog.PlotRep[p] && (p < 4 || State.sideRoom), () => Engine.PlotRequirement + "\n已有 " + State.coins + " / 所需 " + Catalog.PlotCost[p]);
                 if (State.machines.Length == 1) Row("修复附魔工作台", "", 11, "修复", () => Act(Engine.RepairWorkbench, "工坊亮起了新的魔法微光。"), true, () => State.reputation >= 10 && State.coins >= 260, () => "声望 10 · 已有 " + State.coins + " / 所需 260\n解锁蘑菇与萤光瓶");
                 if (sh < 4) Row("第 " + (sh + 1) + " 个货架", "", 12, "增加货架", () => Act(Engine.BuyShelf, "新的货架已开放。"), true, () => State.coins >= Catalog.ShelfCost[sh] && State.machines.Length > 1 && (sh != 2 || State.reputation >= 60) && (sh != 3 || State.sideRoom), () => (sh == 1 ? "先修复附魔台" : sh == 2 ? "声望 60" : "先修复侧屋") + "\n已有 " + State.coins + " / 所需 " + Catalog.ShelfCost[sh]);
                 if (!State.sideRoom) Row("修复侧屋", "", 14, "修复侧屋", () => Act(Engine.RepairSideRoom, "侧屋恢复了，更多经营位置已开放。"), true, () => State.reputation >= 100 && State.sales >= 15000 && State.coins >= 5000, () => "声望 " + State.reputation + "/100 · 销售额 " + State.sales + "/15000\n已有 " + State.coins + " / 所需 5000");

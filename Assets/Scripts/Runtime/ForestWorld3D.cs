@@ -31,9 +31,13 @@ namespace ForestShop
         public Action DoorEntered;
         Camera worldCamera, portraitCamera;
         Transform worldRoot, portraitRoot, sideClosed, sideOpen, lowerRoom, upperRoom, canopy, roof, oak, landscape, woodland;
+        Transform shopArea, workshopArea, gardenArea, workshopRoof, shopRoofCap, workshopRoofCap;
+        static readonly Vector3 ShopOrigin = V(.5f, -3.726f, 5.3f);
+        static readonly Vector3 WorkshopOrigin = V(-7.2f, 0, -1.6f);
+        static readonly Vector3 GardenOrigin = V(3, 0, -9.1f);
         RenderTexture fullView, closeView;
-        readonly Transform[] plots = new Transform[6], cropModels = new Transform[24], shelves = new Transform[4], goods = new Transform[24], machines = new Transform[2], visitors = new Transform[5];
-        readonly Transform[] emptyPlots = new Transform[6], emptyShelves = new Transform[4];
+        readonly Transform[] plots = new Transform[Catalog.MaxPlots], cropModels = new Transform[Catalog.MaxPlots * 4], shelves = new Transform[4], goods = new Transform[24], machines = new Transform[2], visitors = new Transform[5];
+        readonly Transform[] emptyPlots = new Transform[Catalog.MaxPlots], emptyShelves = new Transform[4];
         readonly ForestResidentMotion[] residentMotion = new ForestResidentMotion[5];
         readonly Transform[] shoppingBags = new Transform[5];
         readonly Transform[] passageCurtains = new Transform[2];
@@ -52,16 +56,16 @@ namespace ForestShop
             worldRoot = Group(transform, "Handcrafted forest diorama");
             worldCamera = CameraFor("World camera", 10, transform); worldCamera.backgroundColor = Hex(0xDCE3CD);
             fullView = new RenderTexture(864, 1056, 24) { name = "Live 3D forest panorama", antiAliasing = 2 }; fullView.Create();
-            closeView = new RenderTexture(864, 784, 24) { name = "Live 3D forest detail", antiAliasing = 2 }; closeView.Create();
+            closeView = new RenderTexture(864, 1024, 24) { name = "Live 3D forest detail", antiAliasing = 2 }; closeView.Create();
             View = fullView; worldCamera.targetTexture = View;
             RenderSettings.ambientMode = UnityEngine.Rendering.AmbientMode.Trilight;
             RenderSettings.ambientSkyColor = Hex(0x929D88); RenderSettings.ambientEquatorColor = Hex(0x827E6C); RenderSettings.ambientGroundColor = Hex(0x5F6151); RenderSettings.ambientIntensity = .75f;
-            QualitySettings.shadows = ShadowQuality.All; QualitySettings.shadowResolution = ShadowResolution.VeryHigh; QualitySettings.shadowDistance = 25; QualitySettings.shadowCascades = 2;
+            QualitySettings.shadows = ShadowQuality.All; QualitySettings.shadowResolution = ShadowResolution.VeryHigh; QualitySettings.shadowDistance = 65; QualitySettings.shadowCascades = 2;
             var sun = Group(transform, "Afternoon sun").gameObject.AddComponent<Light>(); sun.type = LightType.Directional; sun.color = Hex(0xFFF3DE); sun.intensity = .84f; sun.transform.localEulerAngles = V(42, -35, 0); sun.shadows = LightShadows.Soft; sun.shadowStrength = .32f; sun.shadowBias = .045f; sun.cullingMask = 1 << 10;
             sun.shadowCustomResolution = 2048;
             Shader.SetGlobalFloat("_ForestShadowTexelSize", 1f / 2048);
             var fill = Group(transform, "Forest reflected light").gameObject.AddComponent<Light>(); fill.type = LightType.Directional; fill.color = Hex(0xC4DDC7); fill.intensity = .18f; fill.transform.localEulerAngles = V(25, 140, 0); fill.cullingMask = 1 << 10;
-            BuildArchitecture(); BuildObjects();
+            BuildArchitecture(); BuildObjects(); ArrangeForestCourtyard();
             portraitRoot = Group(null, "3D portrait studio", V(2000, 0, 0)); portraitRoot.gameObject.layer = 11;
             portraitCamera = CameraFor("Portrait camera", 11, portraitRoot); portraitCamera.enabled = false; portraitCamera.backgroundColor = Color.clear;
             portraitCamera.transform.localPosition = V(2.7f, 2.2f, -7); portraitCamera.transform.LookAt(portraitRoot.position + V(0, 1.05f, 0)); portraitCamera.orthographicSize = 1.36f;
@@ -76,30 +80,59 @@ namespace ForestShop
         public void RestartVisitSequence() { visitEpoch = Time.unscaledTime; }
         public void RenderNow() { if (worldCamera != null) worldCamera.Render(); }
         public Vector2 PlotMarker(int index)
-        { Vector3 v = worldCamera.WorldToViewportPoint(plots[index].TransformPoint(V(0, .25f, -.68f))); return new Vector2(v.x, v.y); }
+        { Vector3 v = worldCamera.WorldToViewportPoint(plots[index].TransformPoint(V(0, .25f, -.96f))); return new Vector2(v.x, v.y); }
         public Vector2 ShelfMarker(int index)
         { Vector3 v = worldCamera.WorldToViewportPoint(shelves[index].TransformPoint(V(0, 1.85f, 0))); return new Vector2(v.x, v.y); }
         public void SetRegion(int region)
         {
             Region = region;
             View = region == 0 ? fullView : closeView; worldCamera.targetTexture = View;
-            Vector3 focus = region == 1 ? V(0, .3f, -4.7f) : region == 2 ? V(0, 2.25f, .1f) : region == 3 ? V(0, 5.85f, .1f) : V(0, 5.1f, 0);
-            worldCamera.orthographicSize = region == 0 ? 9.3f : region == 1 ? 3.8f : 4.65f;
-            worldCamera.transform.position = transform.position + focus + (region == 0 ? V(7, 7, -20) : region == 1 ? V(2, 14, -12) : V(2, 6, -17));
-            worldCamera.transform.LookAt(transform.position + focus);
+            Vector3 focus = region == 1 ? gardenArea.TransformPoint(V(0, .4f, .05f))
+                : region == 2 ? workshopArea.TransformPoint(V(0, 2.4f, -.2f))
+                : region == 3 ? shopArea.TransformPoint(V(.55f, 5.7f, .1f)) : transform.position + V(-.8f, 2.2f, -2.7f);
+            worldCamera.orthographicSize = region == 0 ? 16.4f : region == 1 ? 7.1f : region == 2 ? 6.25f : 6.85f;
+            worldCamera.transform.position = focus + (region == 0 ? V(3.5f, 25, -33) : region == 1 ? V(.7f, 18, -15) : V(2, 7, -18));
+            worldCamera.transform.LookAt(focus);
+            workshopArea.gameObject.SetActive(region == 0 || region == 2);
+            shopArea.gameObject.SetActive(region == 0 || region == 3);
+            gardenArea.gameObject.SetActive(region == 0 || region == 1);
             if (lowerRoom != null) lowerRoom.gameObject.SetActive(region == 0 || region == 2);
             if (upperRoom != null) upperRoom.gameObject.SetActive(region == 0 || region == 3);
             if (canopy != null) canopy.gameObject.SetActive(region == 0);
             if (oak != null) oak.gameObject.SetActive(region == 0);
-            if (landscape != null) landscape.gameObject.SetActive(region == 0 || region == 1);
+            if (landscape != null) landscape.gameObject.SetActive(true);
             if (woodland != null) woodland.gameObject.SetActive(region == 0);
-            if (roof != null) roof.gameObject.SetActive(region == 0 || region == 3);
+            if (roof != null) roof.gameObject.SetActive(region == 0);
+            if (workshopRoof != null) workshopRoof.gameObject.SetActive(region == 0);
+            if (shopRoofCap != null) shopRoofCap.gameObject.SetActive(region == 3);
+            if (workshopRoofCap != null) workshopRoofCap.gameObject.SetActive(region == 2);
             if (state != null) Bind(state);
+            if (region == 2 || region == 3) FitArea(region == 2 ? workshopArea : shopArea);
+        }
+        void FitArea(Transform area)
+        {
+            Vector3 right = worldCamera.transform.right, up = worldCamera.transform.up;
+            Vector3 origin = worldCamera.transform.position;
+            float left = float.PositiveInfinity, bottom = float.PositiveInfinity, rightEdge = float.NegativeInfinity, top = float.NegativeInfinity;
+            foreach (var r in area.GetComponentsInChildren<MeshRenderer>())
+            {
+                if (!r.enabled) continue; Bounds b = r.bounds;
+                for (int x = -1; x <= 1; x += 2) for (int y = -1; y <= 1; y += 2) for (int z = -1; z <= 1; z += 2)
+                {
+                    Vector3 point = b.center + Vector3.Scale(b.extents, V(x, y, z)) - origin;
+                    float px = Vector3.Dot(point, right), py = Vector3.Dot(point, up);
+                    left = Mathf.Min(left, px); rightEdge = Mathf.Max(rightEdge, px); bottom = Mathf.Min(bottom, py); top = Mathf.Max(top, py);
+                }
+            }
+            if (float.IsInfinity(left)) return;
+            worldCamera.transform.position += right * ((left + rightEdge) * .5f) + up * ((bottom + top) * .5f);
+            float aspect = (float)View.width / View.height;
+            worldCamera.orthographicSize = Mathf.Max((top - bottom) * .5f, (rightEdge - left) * .5f / aspect) * 1.08f;
         }
         void BuildArchitecture()
         {
             var s = landscape = Group(worldRoot, "Forest garden ground");
-            Shape(s, "Rounded garden island", Lathe(new[] { new Vector2(0, -.7f), new Vector2(5.6f, -.7f), new Vector2(6.7f, -.3f), new Vector2(6.9f, 0), new Vector2(6.7f, .12f), new Vector2(0, .12f) }, 48), V(0, 0, -.3f), V(1, 1, 1.05f), Hex(0x90A477));
+            Shape(s, "Broad forest courtyard clearing", Lathe(new[] { new Vector2(0, -.7f), new Vector2(5.6f, -.7f), new Vector2(6.7f, -.3f), new Vector2(6.9f, 0), new Vector2(6.7f, .12f), new Vector2(0, .12f) }, 64), V(-1.7f, 0, -3), V(1.96f, 1, 2.45f), Hex(0x90A477));
             oak = Group(worldRoot, "Living oak trunk and boughs");
             Sculpture(oak, "Continuous curved oak with spreading roots", "OakTrunk", Vector3.zero, Vector3.one, Color.white);
             canopy = Group(worldRoot, "Oak leaf canopy");
@@ -108,7 +141,7 @@ namespace ForestShop
             LeafRelief(canopy, Vector3.zero, Vector3.one, Color.white);
             woodland = Group(worldRoot, "Woodland edge behind the shop");
             // Different age, lean and crown proportion establish a small grove.
-            Vector3[] treeAt = { V(-4.8f, .05f, 3.1f), V(4.6f, .05f, 3.1f), V(-3.8f, .05f, 4), V(3.6f, .05f, 4.2f) };
+            Vector3[] treeAt = { V(-10, .05f, 6.5f), V(8.4f, .05f, 6.8f), V(-6.8f, .05f, 9.5f), V(5.5f, .05f, 10.8f) };
             Vector3[] treeScale = { V(.32f, .35f, .34f), V(.35f, .32f, .35f), V(.28f, .44f, .30f), V(.26f, .40f, .28f) };
             for (int i = 0; i < treeAt.Length; i++)
             {
@@ -167,21 +200,7 @@ namespace ForestShop
             for (int row = 0; row < 5; row++) for (int col = 0; col < 18; col++)
                 Box(roof, "Overlapping leaf roof tile", V(-4.45f + col * .52f + row % 2 * .13f, 8.6f - row * .17f + Mathf.Sin(col * 1.7f) * .012f, 1.72f - row * .66f), V(.57f, .11f, .85f), (row * 13 + col * 7) % 5 == 0 ? Hex(0x53745A) : (row + col * 3) % 4 == 0 ? Hex(0x486B54) : Deep, V(-14, 0, col % 3 - 1));
             Tube(roof, "Roof copper ridge", V(-4.7f, 8.72f, 2), V(4.7f, 8.72f, 2), .11f, Copper); Combine(roof);
-            for (int step = 0; step < 4; step++) Box(s, "Entrance stone step", V(-.6f, .2f + step * .22f, -2.3f + step * .28f), V(2.6f - step * .15f, .22f, .45f), Hex(0xAEAE98));
-            for (int i = 0; i < 12; i++) Ball(s, "Garden stepping stone", V(-4.9f + i % 4 * .65f, .14f, -2.4f - i / 4 * .67f), V(.55f, .12f, .4f), i % 2 == 0 ? Hex(0xCBC6AA) : Hex(0xB6B89C), V(0, i * 29, 0));
-            for (int side = -1; side <= 1; side += 2)
-                for (int i = 0; i < 4; i++)
-                {
-                    Ball(s, "Shrub", V(side * (5.3f + .2f * Mathf.Sin(i)), .35f, -2.8f + i * 1.4f), V(1.1f, .7f, 1), i % 2 == 0 ? Leaf : Moss);
-                    for (int j = 0; j < 3; j++) ForestModels.Flower(s, V(side * 5.3f + j * .14f, .7f + j % 2 * .13f, -2.8f + i * 1.4f), .09f, Cream);
-                }
-            for (int i = 0; i < 29; i++)
-            {
-                float a = i * 2.4f, r = 5.8f + Mathf.Sin(i * 4.1f) * .35f; Vector3 at = V(Mathf.Sin(a) * r, .14f, -.3f + Mathf.Cos(a) * r * .86f);
-                if (at.z < -5.1f || (Mathf.Abs(at.x) < 4.6f && at.z < 2)) continue;
-                for (int blade = 0; blade < 3; blade++) Shape(s, "Forest floor fern", OakLeaf(), at + V(blade * .08f, .08f, 0), V(.3f, .35f, .7f), i % 2 == 0 ? Leaf : Deep, V(-35, i * 27 + blade * 55, 0));
-                if (i % 4 == 0) { Ball(s, "Mossy stone", at, V(.6f, .24f, .4f), Hex(0x959A7B)); ForestModels.Flower(s, at + V(0, .26f, 0), .09f, Cream); }
-            }
+            CourtyardPaths(s);
             for (int i = 0; i < 8; i++)
             {
                 var a = V(-4.65f + i * 1.32f, 7.65f + Mathf.Abs(i - 3.5f) * .09f, -2.08f);
@@ -201,6 +220,107 @@ namespace ForestShop
             signOld = Sign(false); signNew = Sign(true);
             potPlain = Planter(false); potFlowers = Planter(true);
             Hotspot(worldRoot, "decoration", 0, V(4.6f, .65f, -2.2f), V(1.1f, 1.4f, 1.1f));
+        }
+        void CourtyardPaths(Transform ground)
+        {
+            foreach (var origin in new[] { V(ShopOrigin.x, 0, ShopOrigin.z), WorkshopOrigin })
+                for (int step = 0; step < 4; step++)
+                    Box(ground, "Independent porch step", origin + V(-.65f, .2f + step * .22f, -2.65f + step * .3f), V(2.7f - step * .15f, .22f, .48f), Hex(0xAEAE98));
+            StonePath(ground, V(-.2f, .14f, 2.4f), V(-3.2f, .14f, .9f), 8);
+            StonePath(ground, V(-3.2f, .14f, .9f), V(-7.8f, .14f, -4.7f), 14);
+            StonePath(ground, V(-6.9f, .14f, -4.8f), V(-2.4f, .14f, -6.4f), 10);
+            StonePath(ground, V(-2.4f, .14f, -4.5f), V(-2.4f, .14f, -14.3f), 21);
+            StonePath(ground, V(-2.4f, .14f, -6.4f), V(6.8f, .14f, -6.4f), 19);
+            StonePath(ground, V(-2.4f, .14f, -11.8f), V(6.8f, .14f, -11.8f), 19);
+            for (int i = 0; i < 34; i++)
+            {
+                float a = i * 2.39996f; var at = V(-1.7f + Mathf.Sin(a) * 12.1f, .14f, -3 + Mathf.Cos(a) * 14.7f);
+                if (at.x > -2 && at.x < 9 && at.z > -15.5f && at.z < -3.4f) continue;
+                Ball(ground, "Clearing edge shrub", at + V(0, .2f, 0), V(.85f + i % 3 * .14f, .65f, .85f), i % 2 == 0 ? Leaf : Moss);
+                if (i % 3 == 0) ForestModels.Flower(ground, at + V(.16f, .61f, -.08f), .11f, Cream);
+                for (int j = 0; j < 3; j++) Shape(ground, "Forest floor fern", OakLeaf(), at + V((j - 1) * .14f, .05f, -.5f), V(.3f, .4f, .7f), Deep, V(-35, i * 27 + j * 55, 0));
+            }
+        }
+        void StonePath(Transform parent, Vector3 from, Vector3 to, int count)
+        {
+            for (int i = 0; i <= count; i++)
+            {
+                Vector3 at = Vector3.Lerp(from, to, (float)i / count);
+                at.x += Mathf.Sin(i * 2.1f) * .06f;
+                Ball(parent, "Courtyard stepping stone", at, V(.68f, .10f, .46f), i % 3 == 0 ? Hex(0xCBC6AA) : Hex(0xB6B89C), V(0, i * 23, 0));
+            }
+        }
+        void MoveToArea(Transform child, Transform area, float lift = 0)
+        {
+            child.SetParent(area, false);
+            child.localPosition += V(0, lift, 0);
+        }
+        void ArrangeForestCourtyard()
+        {
+            // Keep facility-local coordinates and animation paths together when
+            // moving each business into its own building. Save indices stay put.
+            workshopArea = Group(worldRoot, "Independent magic workshop", WorkshopOrigin);
+            shopArea = Group(worldRoot, "Treehouse village shop", ShopOrigin);
+            workshopArea.localScale = shopArea.localScale = Vector3.one * 1.08f;
+            gardenArea = Group(worldRoot, "Twelve-bed woodland garden", GardenOrigin);
+            MoveToArea(lowerRoom, workshopArea);
+            foreach (var t in machines) MoveToArea(t, workshopArea);
+            foreach (var t in new[] { curtainPlain, curtainLeaves, matPlain, matBread }) MoveToArea(t, workshopArea);
+            MoveToArea(upperRoom, shopArea); MoveToArea(roof, shopArea);
+            foreach (var t in shelves) MoveToArea(t, shopArea);
+            foreach (var t in emptyShelves) MoveToArea(t, shopArea);
+            foreach (var t in visitors) MoveToArea(t, shopArea);
+            foreach (var t in passageCurtains) MoveToArea(t, shopArea);
+            foreach (var t in new[] { sideClosed, sideOpen, signOld, signNew, potPlain, potFlowers }) MoveToArea(t, shopArea, 3.45f);
+            MoveToArea(worldRoot.Find("Touch decoration0"), shopArea, 3.45f);
+            for (int i = 0; i < Catalog.MaxPlots; i++) { MoveToArea(plots[i], gardenArea); MoveToArea(emptyPlots[i], gardenArea); }
+            var livingTree = Group(worldRoot, "Shop's sheltering oak", V(ShopOrigin.x, 0, ShopOrigin.z + .8f));
+            livingTree.localScale = Vector3.one * .72f;
+            MoveToArea(oak, livingTree); MoveToArea(canopy, livingTree);
+            workshopRoof = Group(workshopArea, "Workshop honey tiled roof");
+            for (int row = 0; row < 5; row++) for (int col = 0; col < 18; col++)
+                Box(workshopRoof, "Warm clay roof tile", V(-4.45f + col * .52f + row % 2 * .13f, 5.15f - row * .17f, 1.72f - row * .66f), V(.57f, .11f, .85f), (row + col) % 4 == 0 ? Hex(0xAB7651) : Hex(0x99734E), V(-14, 0, col % 3 - 1));
+            Tube(workshopRoof, "Workshop roof ridge", V(-4.7f, 5.27f, 2), V(4.7f, 5.27f, 2), .10f, Copper); Combine(workshopRoof);
+            shopRoofCap = RoofCap(shopArea, "Shop cutaway rear roof", 8.6f, false);
+            workshopRoofCap = RoofCap(workshopArea, "Workshop cutaway rear roof", 5.15f, true);
+            var supplies = Group(workshopArea, "Workshop outdoor supplies");
+            ForestModels.Pot(supplies, V(-4.8f, .16f, -1.8f), 1.25f, false);
+            for (int i = 0; i < 4; i++) Box(supplies, "Stacked supply crate", V(4.8f, .4f + i / 2 * .58f, -1.5f + i % 2 * .7f), V(.75f, .56f, .63f), i % 2 == 0 ? Honey : Wood);
+            Combine(supplies);
+            GardenBorders();
+            Physics.SyncTransforms();
+        }
+        Transform RoofCap(Transform parent, string name, float height, bool clay)
+        {
+            var cap = Group(parent, name);
+            for (int row = 0; row < 2; row++) for (int col = 0; col < 18; col++)
+                Box(cap, "Rear eave tile", V(-4.45f + col * .52f + row % 2 * .13f, height - row * .17f, 1.72f - row * .66f), V(.57f, .11f, .85f), clay ? (col % 4 == 0 ? Hex(0xAB7651) : Hex(0x99734E)) : (col % 4 == 0 ? Hex(0x53745A) : Deep), V(-14, 0, col % 3 - 1));
+            Box(cap, "Timber eave apron joins wall to rear roof", V(0, height - .57f, 1.97f), V(8.6f, 1.12f, .19f), Wood);
+            Tube(cap, "Rear roof ridge", V(-4.7f, height + .12f, 2), V(4.7f, height + .12f, 2), .10f, Copper); Combine(cap); return cap;
+        }
+        void GardenBorders()
+        {
+            var border = Group(gardenArea, "Garden hedges and low oak fence");
+            for (int side = -1; side <= 1; side += 2)
+                for (int i = 0; i < 9; i++)
+                {
+                    float z = -5.4f + i * 1.35f;
+                    // Openings line up with the two cross paths.
+                    if (side < 0 && (i == 2 || i == 6)) continue;
+                    Box(border, "Low garden post", V(side * 4.75f, .45f, z), V(.11f, .65f, .11f), Wood);
+                    if (i < 8 && !(side < 0 && (i == 1 || i == 5)))
+                        for (int rail = 0; rail < 2; rail++) Box(border, "Garden rail", V(side * 4.75f, .32f + rail * .24f, z + .675f), V(.07f, .08f, 1.35f), Honey);
+                    Ball(border, "Herb border", V(side * 5.15f, .28f, z), V(.55f, .4f, .65f), i % 2 == 0 ? Leaf : Moss);
+                    if (i % 3 == 0) ForestModels.Flower(border, V(side * 5.16f, .54f, z), .09f, Cream);
+                }
+            var tools = Group(border, "Garden potting bench", V(5.2f, .13f, 2.6f));
+            Box(tools, "Potting surface", V(0, .85f, 0), V(.8f, .12f, 1.8f), Honey);
+            for (int side = -1; side <= 1; side += 2) Box(tools, "Bench legs", V(0, .42f, side * .65f), V(.55f, .84f, .12f), DarkWood);
+            ForestModels.Pot(tools, V(0, .94f, .45f), .55f, false);
+            Ball(tools, "Watering can", V(0, 1.1f, -.4f), V(.37f, .4f, .4f), Blue);
+            Tube(tools, "Watering spout", V(0, 1.1f, -.55f), V(0, 1.28f, -.94f), .045f, Copper);
+            Ring(tools, "Watering handle", V(0, 1.28f, -.24f), .19f, .025f, Copper, V(0, 90, 0));
+            Combine(border);
         }
         void LeafRelief(Transform parent, Vector3 at, Vector3 scale, Color tint)
         {
@@ -290,20 +410,22 @@ namespace ForestShop
         }
         void BuildObjects()
         {
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < Catalog.MaxPlots; i++)
             {
-                Vector3 at = V(-2.75f + i % 3 * 2.3f, .13f, -3.9f - i / 3 * 1.9f);
+                Vector3 at = V(-3.15f + i % 3 * 3.15f, .13f, 4.05f - i / 3 * 2.7f);
                 plots[i] = Group(worldRoot, "Garden bed " + i, at);
                 var bed = Group(plots[i], "Raised oak frame");
+                bed.localScale = V(1.28f, 1, 1.25f);
                 Box(bed, "Rich soil", V(0, .14f, 0), V(1.7f, .25f, 1.42f), Hex(0x725A40));
                 for (int side = -1; side <= 1; side += 2)
                 { Box(bed, "Bed side", V(side * .88f, .24f, 0), V(.12f, .35f, 1.55f), Honey); Box(bed, "Bed edge", V(0, .24f, side * .73f), V(1.8f, .35f, .12f), Wood); }
                 Combine(bed);
-                for (int crop = 0; crop < 4; crop++) { var g = ForestModels.Crop(plots[i], crop); g.localPosition = V(0, .29f, 0); g.localScale = Vector3.one * 1.3f; cropModels[i * 4 + crop] = g; }
-                Hotspot(plots[i], "plot", i, V(0, .6f, 0), V(1.9f, 1.4f, 1.6f));
+                for (int crop = 0; crop < 4; crop++) { var g = ForestModels.Crop(plots[i], crop); g.localPosition = V(0, .29f, 0); g.localScale = Vector3.one * 1.6f; cropModels[i * 4 + crop] = g; }
+                Hotspot(plots[i], "plot", i, V(0, .7f, 0), V(2.4f, 1.65f, 2));
                 emptyPlots[i] = Group(worldRoot, "Unbuilt garden bed " + i, at);
                 for (int j = 0; j < 3; j++) Box(emptyPlots[i], "Stacked timber", V((j - 1) * .2f, .14f + j * .1f, 0), V(1.3f, .12f, .25f), Honey, V(0, -j * 13, 0));
-                Hotspot(emptyPlots[i], "expansion", 0, V(0, .4f, 0), V(1.8f, 1, 1.5f)); Combine(emptyPlots[i]);
+                for (int corner = 0; corner < 4; corner++) Box(emptyPlots[i], "Future bed corner stake", V((corner % 2 == 0 ? -1 : 1) * 1.12f, .3f, (corner < 2 ? -1 : 1) * .91f), V(.07f, .34f, .07f), Wood);
+                Hotspot(emptyPlots[i], "expansion", 0, V(0, .4f, 0), V(2.4f, 1, 2)); Combine(emptyPlots[i]);
             }
             machines[0] = ForestModels.Cauldron(worldRoot); machines[0].localPosition = V(-1.65f, 1.19f, .2f); machines[0].localScale = Vector3.one * 1.05f;
             spoon = machines[0].Find("Stirring spoon"); Hotspot(machines[0], "machine", 0, V(0, .9f, 0), V(2.4f, 2.2f, 2.2f));
@@ -356,17 +478,18 @@ namespace ForestShop
         {
             if (state != current) { state = current; lastSale = state.sales; saleAt = -100; }
             bool workshop = Region == 0 || Region == 2;
-            sideClosed.gameObject.SetActive(!state.sideRoom && Region == 0); sideOpen.gameObject.SetActive(state.sideRoom && Region == 0);
+            bool shop = Region == 0 || Region == 3;
+            sideClosed.gameObject.SetActive(!state.sideRoom && shop); sideOpen.gameObject.SetActive(state.sideRoom && shop);
             curtainPlain.gameObject.SetActive(workshop && !state.decoration[1]); curtainLeaves.gameObject.SetActive(workshop && state.decoration[1]); matPlain.gameObject.SetActive(workshop && !state.decoration[2]); matBread.gameObject.SetActive(workshop && state.decoration[2]);
-            signOld.gameObject.SetActive(workshop && !state.decoration[0]); signNew.gameObject.SetActive(workshop && state.decoration[0]); potPlain.gameObject.SetActive(Region == 0 && !state.decoration[3]); potFlowers.gameObject.SetActive(Region == 0 && state.decoration[3]);
+            signOld.gameObject.SetActive(shop && !state.decoration[0]); signNew.gameObject.SetActive(shop && state.decoration[0]); potPlain.gameObject.SetActive(shop && !state.decoration[3]); potFlowers.gameObject.SetActive(shop && state.decoration[3]);
             UpdateResidents();
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < Catalog.MaxPlots; i++)
             {
                 bool built = i < state.plots.Length; bool shown = Region == 0 || Region == 1; plots[i].gameObject.SetActive(built && shown); emptyPlots[i].gameObject.SetActive(!built && shown);
                 if (!built) continue; var f = state.plots[i]; int crop = Mathf.Max(0, f.workItem >= 0 ? f.workItem : f.config);
                 for (int j = 0; j < 4; j++) cropModels[i * 4 + j].gameObject.SetActive(crop == j);
                 float growth = f.remaining > 0 ? Mathf.Clamp01(1 - (float)(f.remaining / (Catalog.CropSeconds[crop] / Catalog.Speed[f.level - 1]))) : 1;
-                cropModels[i * 4 + crop].localScale = Vector3.one * Mathf.Lerp(.46f, 1.3f, growth);
+                cropModels[i * 4 + crop].localScale = Vector3.one * Mathf.Lerp(.52f, 1.6f, growth);
             }
             machines[0].gameObject.SetActive(workshop); machines[1].gameObject.SetActive(state.machines.Length > 1 && workshop);
             for (int i = 0; i < 4; i++)

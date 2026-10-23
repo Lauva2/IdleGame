@@ -176,6 +176,40 @@ public static class CoreTests
                 s.sold[0] = 3; Check(e.BuyPlot(), "second plot blocked");
                 s.reputation = 100; s.sales = 15000; Check(e.RepairSideRoom() && !e.RepairSideRoom(), "side room duplicate");
             });
+            Test("twelve garden beds expand one at a time and persist without duplicate charges", () => {
+                var s = Running(); var e = new Economy(s); s.coins = 1000000; s.reputation = 100; s.sold[0] = 3;
+                while (s.plots.Length < 4) Check(e.BuyPlot(), "original plot gates changed");
+                long blocked = s.coins; Check(!e.BuyPlot() && s.coins == blocked, "side-room gate bypassed");
+                s.sideRoom = true;
+                while (s.plots.Length < Catalog.MaxPlots)
+                {
+                    int next = s.plots.Length; long before = s.coins;
+                    Check(e.BuyPlot() && s.plots.Length == next + 1, "expansion failed " + next);
+                    Check(before - s.coins == Catalog.PlotCost[next], "wrong expansion cost");
+                    StateValidation.Check(s);
+                }
+                long full = s.coins; Check(!e.BuyPlot() && s.coins == full, "thirteenth bed accepted/charged");
+                StateValidation.Check(Clone(s));
+                var invalid = Clone(s); Array.Resize(ref invalid.plots, Catalog.MaxPlots + 1); invalid.plots[Catalog.MaxPlots] = new Facility();
+                bool rejected = false; try { StateValidation.Check(invalid); } catch (InvalidDataException) { rejected = true; }
+                Check(rejected, "oversized garden accepted by save validation");
+            });
+            Test("twelve-bed fractional production matches offline without changing chapter requirements", () => {
+                var a = Running(); a.reputation = 100; a.sideRoom = true; a.tutorial = 4;
+                a.plots = new Facility[Catalog.MaxPlots];
+                for (int i = 0; i < a.plots.Length; i++) a.plots[i] = new Facility { config = i % 4, level = 3 };
+                a.machines = new[] { new Facility { config = 3, level = 3 }, new Facility { config = 5, level = 3 } };
+                a.shelves = new[] { new Facility { config = 3 }, new Facility { config = 5 } };
+                var b = Clone(a); var ea = new Economy(a); var eb = new Economy(b);
+                ea.Advance(3600); for (int i = 0; i < 108000; i++) eb.Advance(1d / 30);
+                Check(a.coins == b.coins && a.sales == b.sales && a.harvests == b.harvests && a.crafts == b.crafts, "twelve-bed fractional totals differ");
+                for (int i = 0; i < 4; i++) Check(a.crops[i] == b.crops[i], "crop totals differ");
+                for (int i = 0; i < 6; i++) Check(a.items[i] == b.items[i] && a.sold[i] == b.sold[i], "item totals differ");
+                StateValidation.Check(a); StateValidation.Check(b);
+                var original = Running(); original.stories = 5; original.sideRoom = true; original.reputation = 150; original.sales = 60000;
+                for (int i = 0; i < 6; i++) original.sold[i] = 1;
+                new Economy(original).Advance(0); Check(original.chapterComplete, "new beds became a chapter requirement");
+            });
             Test("new-save full chapter reachable using normal actions and no gifts", FullChapter);
             Console.WriteLine("TOTAL " + passed + " tests passed"); return 0;
         }

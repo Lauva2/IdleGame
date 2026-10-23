@@ -16,7 +16,7 @@ namespace ForestShop.Core
             CheckArray(s.crops, 4); CheckArray(s.items, 6); CheckArray(s.sold, 6); CheckArray(s.friendship, 5);
             if (s.decoration == null || s.decoration.Length != 4 || s.report == null || s.orders == null || s.orders.Length > 3) throw new InvalidDataException("存档结构无效");
             CheckArray(s.report.cropDelta, 4, true); CheckArray(s.report.itemDelta, 6, true);
-            CheckFacilities(s.plots, 1, 6, 4); CheckFacilities(s.machines, 1, 2, 6); CheckFacilities(s.shelves, 1, 4, 6);
+            CheckFacilities(s.plots, 1, Catalog.MaxPlots, 4); CheckFacilities(s.machines, 1, 2, 6); CheckFacilities(s.shelves, 1, 4, 6);
             int active = 0; foreach (var o in s.orders)
             {
                 if (o == null || o.id < 1 || o.resident < 0 || o.resident > 4 || o.item < 0 || o.item > 5 || o.count < 1 || o.count > 8 || (o.active && o.cancelled)) throw new InvalidDataException("委托无效");

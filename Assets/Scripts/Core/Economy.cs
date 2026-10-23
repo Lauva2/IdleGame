@@ -172,14 +172,14 @@ namespace ForestShop.Core
             get
             {
                 int n = State.plots.Length;
-                if (n >= 6) return "地块已全部开放";
+                if (n >= Catalog.MaxPlots) return "十二块田地已全部开放";
                 return n == 1 ? "累计售出 3 件商品" : n >= 4 ? "先修复侧屋" : "声望达到 " + Catalog.PlotRep[n];
             }
         }
         public bool BuyPlot()
         {
             int n = State.plots.Length;
-            if (n >= 6 || (n == 1 && TotalSold < 3) || (n >= 4 && !State.sideRoom) || State.reputation < Catalog.PlotRep[n] || State.coins < Catalog.PlotCost[n]) return false;
+            if (n >= Catalog.MaxPlots || (n == 1 && TotalSold < 3) || (n >= 4 && !State.sideRoom) || State.reputation < Catalog.PlotRep[n] || State.coins < Catalog.PlotCost[n]) return false;
             State.coins -= Catalog.PlotCost[n]; var p = new Facility { config = 0 };
             var plots = State.plots; Array.Resize(ref plots, n + 1); plots[n] = p; State.plots = plots; Advance(0); return true;
         }

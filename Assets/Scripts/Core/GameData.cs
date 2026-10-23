@@ -38,8 +38,9 @@ namespace ForestShop.Core
         public static readonly int[] Upgrade = { 0, 120, 360, 1000, 2800 };
         public static readonly int[] Capacity = { 20, 40, 80, 160 };
         public static readonly int[] WarehouseCost = { 0, 300, 1200, 4000 };
-        public static readonly int[] PlotCost = { 0, 80, 500, 1200, 2500, 4000 };
-        public static readonly int[] PlotRep = { 0, 0, 25, 45, 100, 100 };
+        public const int MaxPlots = 12;
+        public static readonly int[] PlotCost = { 0, 80, 500, 1200, 2500, 4000, 6000, 8500, 11500, 15000, 19000, 24000 };
+        public static readonly int[] PlotRep = { 0, 0, 25, 45, 100, 100, 100, 100, 100, 100, 100, 100 };
         public static readonly int[] ShelfCost = { 0, 350, 1600, 3200 };
         public static readonly int[] StoryItem = { 0, 1, 2, 3, 4 };
         public static readonly int[] StoryCount = { 3, 4, 5, 6, 6 };

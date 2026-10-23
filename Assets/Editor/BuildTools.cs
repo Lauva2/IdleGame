@@ -14,6 +14,7 @@ namespace ForestShop.Editor
         [MenuItem("Forest Shop/Prepare Project")]
         public static void Prepare()
         {
+            StartupBranding.Configure();
             PlayerSettings.companyName = "Forest Atelier";
             PlayerSettings.productName = "林间奇物铺";
             PlayerSettings.bundleVersion = "0.1.0";
