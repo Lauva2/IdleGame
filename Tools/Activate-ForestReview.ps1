@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory=$true)][string]$Folder,
-    [Parameter(Mandatory=$true)][ValidateSet('late','initial','unrestored','states','chapter','report','dialogue0','dialogue1','dialogue2','dialogue3','dialogue4')][string]$Variant
+    [Parameter(Mandatory=$true)][ValidateSet('late','visits','initial','unrestored','states','chapter','report','dialogue0','dialogue1','dialogue2','dialogue3','dialogue4')][string]$Variant
 )
 $ErrorActionPreference='Stop'
 Set-Location (Split-Path -Parent $PSScriptRoot)

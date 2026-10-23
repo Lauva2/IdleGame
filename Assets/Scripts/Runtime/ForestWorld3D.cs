@@ -21,7 +21,7 @@ namespace ForestShop
             Vector2 at = shelf ? world.ShelfMarker(index) : world.PlotMarker(index);
             bool visible = at.x > .03f && at.x < .97f && at.y > .035f && at.y < .97f;
             // Keep the full badge above the fixed camera controls and gesture legend.
-            if (at.y < .125f && (at.x > .65f || at.x < .42f)) visible = false;
+            if (at.y < .125f && at.x > .65f) visible = false;
             foreach (var g in GetComponentsInChildren<Graphic>()) g.enabled = visible;
             rect.anchoredPosition = new Vector2(at.x * parent.rect.width - rect.rect.width / 2, -(1 - at.y) * parent.rect.height + rect.rect.height / 2);
         }
@@ -125,6 +125,7 @@ namespace ForestShop
         public void SetVisible(bool visible) { if (worldCamera != null) worldCamera.enabled = visible; }
         public void RestartVisitSequence() { visitEpoch = Time.unscaledTime; }
         public void RenderNow() { if (worldCamera != null) worldCamera.Render(); }
+        public void SetViewportAspect(float aspect) { worldCamera.aspect = aspect; }
         public Vector2 PlotMarker(int index)
         { Vector3 v = worldCamera.WorldToViewportPoint(plots[index].TransformPoint(V(0, .25f, -.96f))); return new Vector2(v.x, v.y); }
         public Vector2 ShelfMarker(int index)
@@ -133,11 +134,12 @@ namespace ForestShop
         {
             Region = region;
             View = region == 0 ? fullView : closeView; worldCamera.targetTexture = View;
+            worldCamera.ResetAspect();
             Vector3 focus = region == 1 ? gardenArea.TransformPoint(V(0, .4f, .05f))
                 : region == 2 ? workshopArea.TransformPoint(V(0, 2.4f, -.2f))
                 : region == 3 ? shopArea.TransformPoint(V(.55f, 5.7f, .1f)) : transform.position + V(-.5f, 1.8f, 0);
             cameraFocus = focus;
-            worldCamera.orthographicSize = region == 0 ? 26 : region == 1 ? 7.1f : region == 2 ? 6.25f : 6.85f;
+            worldCamera.orthographicSize = region == 0 ? 22.5f : region == 1 ? 7.1f : region == 2 ? 6.25f : 6.85f;
             worldCamera.transform.position = focus + (region == 0 ? V(2, 36, -38) : region == 1 ? V(.7f, 18, -15) : V(2, 25, -23));
             worldCamera.transform.LookAt(focus);
             workshopArea.gameObject.SetActive(true);
@@ -211,16 +213,17 @@ namespace ForestShop
             Sculpture(oak, "Blender sheltering oak", "CanopyOak", Vector3.zero, Vector3.one * 1.25f, Color.white);
             canopy = Group(worldRoot, "Oak leaf canopy");
             woodland = Group(worldRoot, "Surrounding layered woodland");
-            string[] trees = { "CanopyOak", "SilverBirch", "WoodlandLinden" };
+            string[] trees = { "CanopyOak", "SilverBirch", "WoodlandLinden", "OpenRowan", "YoungBirch", "LowHazel" };
             // Closed forest edge, staggered groves beyond it, one opening for the road.
-            for (int row = 0; row < 3; row++) for (int i = 0; i < 38 + row * 10; i++)
+            for (int row = 0; row < 3; row++) for (int i = 0; i < 32 + row * 8; i++)
             {
-                float a = (i + row * .43f) * Mathf.PI * 2 / (38 + row * 10);
-                var at = V(Mathf.Sin(a) * (23.5f + row * 7) + Mathf.Sin(i * 4.3f), .08f, 2 + Mathf.Cos(a) * (27 + row * 8));
+                float a = (i + row * .43f) * Mathf.PI * 2 / (32 + row * 8) + Mathf.Sin(i * 3.7f) * .036f;
+                float clump = Mathf.Sin(a * 5 + row * .7f) * 1.7f + Mathf.Cos(i * 1.6f) * .7f;
+                var at = V(Mathf.Sin(a) * (24 + row * 7 + clump), .08f, 2 + Mathf.Cos(a) * (27 + row * 8 + clump));
                 if (at.z < -19 && Mathf.Abs(at.x + 5.4f) < 3.8f) continue;
-                float scale = .92f + (i * 7 % 9) * .045f + row * .07f;
-                Sculpture(woodland, "Blender grove " + row + " tree " + i, trees[(i + row) % 3], at, Vector3.one * scale,
-                    i % 4 == 0 ? Hex(0xE5E8CD) : Color.white).localEulerAngles = V(0, i * 137.5f, 0);
+                float scale = .81f + (i * 7 % 11) * .045f + row * .05f;
+                Sculpture(woodland, "Blender grove " + row + " tree " + i, trees[(i * 7 + i / 3 + row * 3) % 6], at, V(scale * (1 + .13f * Mathf.Sin(i)), scale, scale * (1 + .12f * Mathf.Cos(i))),
+                    Color.Lerp(Hex(0xC8D7BD), Color.white, .55f + .45f * Mathf.Sin(a * 3 + row))).localEulerAngles = V(0, i * 137.5f, 0);
             }
             Combine(woodland);
             for (int floor = 0; floor < 2; floor++)
@@ -321,6 +324,14 @@ namespace ForestShop
         }
         void CourtyardPaths(Transform ground)
         {
+            // Low contrast painted washes, scattered meadow islands and quiet open paths.
+            var meadow = Group(ground, "Meadow light and moss washes");
+            for (int i = 0; i < 24; i++)
+            {
+                float a = i * 2.39996f, r = 4 + Mathf.Sqrt(i / 23f) * 15;
+                var at = V(Mathf.Sin(a) * r, .112f + i * .0001f, 2 + Mathf.Cos(a) * r);
+                MeadowPatch(meadow, at, new Vector2(2.1f + i % 4 * .7f, 1.5f + i % 3 * .6f), i % 3 == 0 ? Hex(0x9CAC7C) : Hex(0x889F70), i * 1.7f);
+            }
             for (int step = 0; step < 5; step++)
             {
                 Box(ground, "Shop entrance stone stair", V(-5.4f, .18f + step * .23f, -15.8f + step * .45f), V(2.5f, .25f, .53f), Hex(0xB9B69B));
@@ -348,12 +359,21 @@ namespace ForestShop
             ForestModels.Pot(rest, V(-1.8f, .02f, -.2f), .9f, true);
             for (int i = 0; i < 76; i++)
             {
-                float a = i * 2.39996f; var at = V(Mathf.Sin(a) * (20.8f + i % 3 * .65f), .13f, 2 + Mathf.Cos(a) * (23.2f + i % 3 * .6f));
+                float a = i * 2.39996f; float bank = 20.8f + Mathf.Sin(i * 2.1f) * 1.5f + i % 3 * .65f;
+                var at = V(Mathf.Sin(a) * bank, .13f, 2 + Mathf.Cos(a) * (bank + 2.2f));
                 if (at.z < -17 && Mathf.Abs(at.x + 5.4f) < 3.1f) continue;
-                Ball(ground, "Fern bank moss", at + V(0, .12f, 0), V(.82f + i % 3 * .14f, .43f, .85f), i % 2 == 0 ? Leaf : Moss);
+                if (i % 5 == 2) continue;
+                Ball(ground, "Fern bank moss", at + V(0, .12f, 0), V(.5f + i % 4 * .24f, .22f + i % 3 * .07f, .6f + i % 3 * .19f), i % 2 == 0 ? Leaf : Moss);
                 if (i % 3 == 0) ForestModels.Flower(ground, at + V(.16f, .61f, -.08f), .11f, Cream);
                 for (int j = 0; j < 3; j++) Shape(ground, "Forest floor fern", OakLeaf(), at + V((j - 1) * .14f, .05f, -.5f), V(.3f, .4f, .7f), Deep, V(-35, i * 27 + j * 55, 0));
             }
+            foreach (var at in new[] { V(-16, .14f, 1), V(15.5f, .14f, -2), V(2, .14f, 17), V(-4, .14f, 14), V(7, .14f, -3) })
+                for (int j = 0; j < 7; j++)
+                {
+                    Vector3 p = at + V(Mathf.Sin(j * 2.4f) * (j % 3) * .5f, 0, Mathf.Cos(j * 2.4f) * .7f);
+                    for (int k = 0; k < 3; k++) Ball(ground, "Meadow clover leaf", p + V((k - 1) * .09f, .08f, 0), V(.20f, .06f, .24f), j % 2 == 0 ? Moss : Leaf, V(0, k * 120, 0));
+                    if (j % 3 == 0) ForestModels.Flower(ground, p + V(0, .25f, 0), .075f, Cream);
+                }
             for (int side = -1; side <= 1; side += 2)
             {
                 var post = V(-5.4f + side * 2.15f, .12f, -23.5f);

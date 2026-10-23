@@ -143,6 +143,30 @@ namespace ForestShop
             var shape = Shape(parent, name, mesh, position, scale, tint);
             shape.GetComponent<MeshRenderer>().sharedMaterial = material; return shape;
         }
+        public static Transform MeadowPatch(Transform parent, Vector3 at, Vector2 radius, Color centre, float phase)
+        {
+            const int sides = 32;
+            var vertices = new Vector3[1 + sides * 2]; var colors = new Color[vertices.Length]; var triangles = new List<int>();
+            vertices[0] = Vector3.zero; colors[0] = centre;
+            Color edge = Hex(0x91A575);
+            for (int ring = 0; ring < 2; ring++) for (int j = 0; j < sides; j++)
+            {
+                float a = j * Mathf.PI * 2 / sides, r = (ring == 0 ? .57f : 1) * (1 + .10f * Mathf.Sin(a * 3 + phase) + .06f * Mathf.Cos(a * 5 - phase));
+                int k = 1 + ring * sides + j;
+                vertices[k] = new Vector3(Mathf.Cos(a) * r * radius.x, 0, Mathf.Sin(a) * r * radius.y);
+                colors[k] = ring == 0 ? Color.Lerp(centre, edge, .32f) : edge;
+                int next = (j + 1) % sides;
+                if (ring == 0) triangles.AddRange(new[] { 0, 1 + next, 1 + j });
+                else triangles.AddRange(new[] { 1 + j, 1 + next, 1 + sides + next, 1 + j, 1 + sides + next, 1 + sides + j });
+            }
+            for (int i = 0; i < colors.Length; i++) colors[i] *= .88f / .92f;
+            var mesh = new Mesh { name = "Soft meadow wash" }; mesh.vertices = vertices; mesh.colors = colors; mesh.SetTriangles(triangles, 0); mesh.RecalculateNormals(); mesh.RecalculateBounds(); ownedMeshes.Add(mesh);
+            const string key = "Meadow vertex paint";
+            if (!materials.TryGetValue(key, out var material)) { material = new Material(Resources.Load<Shader>("ForestSculpture")) { color = Color.white }; materials[key] = material; }
+            var result = Shape(parent, "Soft meadow colour wash", mesh, at, Vector3.one, Color.white);
+            var renderer = result.GetComponent<MeshRenderer>(); renderer.sharedMaterial = material; renderer.shadowCastingMode = ShadowCastingMode.Off;
+            return result;
+        }
         public static Mesh OakLeaf()
         {
             if (meshes.TryGetValue("oak leaf", out var mesh)) return mesh;

@@ -1,0 +1,15 @@
+{
+  "candidate": "3d-d18-forest04",
+  "source": "performance-visits.csv",
+  "validCurrentCandidateRowUtc": "2026-10-23T21:02:49.4814920Z",
+  "frames": 8893,
+  "seconds": 300.018,
+  "fps": 29.64,
+  "p95Milliseconds": 33.33,
+  "maximumMillisecondsIncludingStartup": 1356.95,
+  "historicalRowsExcluded": true,
+  "completeThirtyMinuteTest": false,
+  "postRestorePssKB": 350537,
+  "postRestoreRssKB": 430792,
+  "memoryScope": "One snapshot with actual ordinary offline report open; not a peak or long-run memory test."
+}

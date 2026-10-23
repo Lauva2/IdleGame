@@ -77,7 +77,7 @@ namespace ForestShop
             for (int i = 0; i < regions.Length; i++)
             {
                 int region = i;
-                IconButton(content, regions[i], regionIcons[i], 25 + i * 263, 14, 242, 78, () => { world.SetRegion(region); ShowPage("小店"); }, true, world.Region == i);
+                IconButton(content, regions[i], regionIcons[i], 25 + i * 263, 14, 242, 78, () => { shopPosition = 1; shopBuilt = false; world.SetRegion(region); ShowPage("小店"); }, true, world.Region == i);
             }
             float viewTop = 112;
             if (State.tutorial < 4) { BuildOpeningGuide(content); viewTop = 236; }
@@ -98,6 +98,9 @@ namespace ForestShop
                 viewTop = 214;
             }
             float viewHeight = world.Region == 0 ? 1320 : 1280;
+            Canvas.ForceUpdateCanvases();
+            viewHeight = Mathf.Min(viewHeight, Mathf.Max(900, page.rect.height - viewTop - 104));
+            world.SetViewportAspect(1080 / viewHeight);
             var view = Rect(content, "Live 3D treehouse", 0, viewTop, 1080, viewHeight);
             var image = view.gameObject.AddComponent<RawImage>(); image.texture = world.View;
             view.gameObject.AddComponent<RectMask2D>();
@@ -105,9 +108,7 @@ namespace ForestShop
             IconButton(view, "", ForestSymbol.ZoomOut, 730, viewHeight - 108, 96, 88, () => world.Zoom(1.22f)).name = "Map zoom out";
             IconButton(view, "", ForestSymbol.ZoomIn, 840, viewHeight - 108, 96, 88, () => world.Zoom(1 / 1.22f)).name = "Map zoom in";
             IconButton(view, "", ForestSymbol.Recenter, 950, viewHeight - 108, 96, 88, world.ResetCamera).name = "Map recenter";
-            var gestureHint = Panel(view, "Camera gestures", Paper, 28, viewHeight - 89, 386, 54);
-            gestureHint.GetComponent<Image>().raycastTarget = false;
-            Label(gestureHint, "拖动平移 · 双指缩放", 24, Sage, 8, 0, 370, 54, TextAnchor.MiddleCenter);
+            Label(content, "拖动平移 · 双指缩放", 23, Sage, 350, viewTop + viewHeight + 12, 350, 72, TextAnchor.MiddleCenter).name = "Camera gestures outside world";
             if (world.Region == 3)
                 IconButton(view, "", ForestSymbol.Info, 956, 16, 96, 88, ShowShelfHelp).name = "Shelf details";
             if (world.Region == 1) for (int i = 0; i < Catalog.MaxPlots; i++)

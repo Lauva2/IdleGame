@@ -5,21 +5,39 @@
   "meshes": [
     {
       "asset": "CanopyOak",
-      "vertices": 3210,
-      "triangles": 4616,
-      "bytes": 145284
+      "vertices": 2375,
+      "triangles": 4016,
+      "bytes": 114704
     },
     {
       "asset": "SilverBirch",
-      "vertices": 3060,
-      "triangles": 4336,
-      "bytes": 137724
+      "vertices": 3377,
+      "triangles": 5656,
+      "bytes": 162440
     },
     {
       "asset": "WoodlandLinden",
-      "vertices": 3210,
-      "triangles": 4616,
-      "bytes": 145284
+      "vertices": 1562,
+      "triangles": 2696,
+      "bytes": 76100
+    },
+    {
+      "asset": "OpenRowan",
+      "vertices": 1964,
+      "triangles": 3352,
+      "bytes": 95228
+    },
+    {
+      "asset": "YoungBirch",
+      "vertices": 2225,
+      "triangles": 3736,
+      "bytes": 107144
+    },
+    {
+      "asset": "LowHazel",
+      "vertices": 1562,
+      "triangles": 2696,
+      "bytes": 76100
     }
   ]
 }

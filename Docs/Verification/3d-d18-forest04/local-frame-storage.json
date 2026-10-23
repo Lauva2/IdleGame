@@ -1,0 +1,55 @@
+{
+  "candidate": "3d-d18-forest04",
+  "absoluteFrameRoot": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA",
+  "reason": "Same-machine second authorized writable workspace preserves Unity build-disk headroom.",
+  "videosRemainInProject": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence",
+  "externalUpload": false,
+  "samplingTimeNote": "approxOutputPTS is output sampling time, not an exact input frame or touch timestamp.",
+  "jobs": [
+    {
+      "sourceVideo": "Evidence/visits-1.mp4",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\Visits1Frames2FPS",
+      "sampleFPS": 2
+    },
+    {
+      "sourceVideo": "Evidence/visits-2.mp4",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\Visits2Frames2FPS",
+      "sampleFPS": 2
+    },
+    {
+      "sourceVideo": "Evidence/interactions.mp4",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\InteractionFrames2FPS",
+      "sampleFPS": 2
+    },
+    {
+      "sourceVideo": "Evidence/Long/region-flow.mp4",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\LongFlowFrames2FPS",
+      "sampleFPS": 2
+    },
+    {
+      "sourceVideo": "Evidence/Narrow/region-flow.mp4",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\NarrowFlowFrames2FPS",
+      "sampleFPS": 2
+    },
+    {
+      "sourceVideo": "Evidence/visits-1.mp4",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\DenseVisits1full10FPS",
+      "sampleFPS": 10
+    },
+    {
+      "sourceVideo": "Evidence/visits-2.mp4",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\DenseVisits2full10FPS",
+      "sampleFPS": 10
+    },
+    {
+      "sourceVideo": "Evidence/shop-closeup-1.mp4",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\ShopCloseup1full10FPS",
+      "sampleFPS": 10
+    },
+    {
+      "sourceVideo": "Evidence/shop-closeup-2.mp4",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\ShopCloseup2full10FPS",
+      "sampleFPS": 10
+    }
+  ]
+}

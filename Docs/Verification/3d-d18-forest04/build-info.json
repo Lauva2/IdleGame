@@ -1,0 +1,47 @@
+{
+  "candidate": "3d-d18-forest04",
+  "sha256": "A96082DAA7E6936677373AD0D6AE41AB92E0FAD0E314C6825E99C2D86349ADD3",
+  "bytes": 45114352,
+  "sourceFiles": 151,
+  "unity": "2022.3.62f2 / 7670c08855a9",
+  "development": false,
+  "backend": "IL2CPP Release",
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "apk": "E:\\UnityProject\\IdleGame\\Builds\\Android\\3d-d18-forest04\\ForestShop-3d-d18-forest04.apk",
+  "buildUtc": "2026-10-23T20:45:01.810264+00:00",
+  "sourceZipSha256": "9491C05862F469DA5413963EE991B85785087A15B5AAA236B05C5D04F0DBEC19",
+  "changeFromForest03": "Region buttons reset inherited scroll and shopBuilt state; added three region-handler regression cases. World, models, camera, visitor motion, economy and audio unchanged.",
+  "gate": "Independent art PASS 91.5/100, all seven floors, all eight scenes, zero observed art blockers; complete first-release sound/functional/long-test gates remain unfinished.",
+  "sourceRecheckFiles": 151,
+  "buildSummaryBytesNote": "Raw BuildReport.summary.totalSize is aggregate build content (331281947), not the actual APK file length; actual filesystem APK bytes=45114352 and SHA independently verified.",
+  "independentArtReview": {
+    "role": "/root/art_reviewer_continuation",
+    "report": "Docs/Reviews/3d-d18-forest04/美术评审-R01.md",
+    "reportSha256": "D265C2FEDBB8F8D85881B6F4142671CC6B9D328A83F5965F9485E6125B84F327",
+    "score": 91.5,
+    "scores": [
+      18.5,
+      18,
+      14,
+      19,
+      8.5,
+      9,
+      4.5
+    ],
+    "floors": [
+      16,
+      16,
+      12,
+      16,
+      8,
+      8,
+      4
+    ],
+    "eightScenesPass": true,
+    "observedArtBlockers": 0,
+    "completeFirstReleaseAccepted": false
+  }
+}

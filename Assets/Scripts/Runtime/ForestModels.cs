@@ -165,11 +165,11 @@ namespace ForestShop
             var p = Group(parent, "Crop " + id);
             if (id == 0)
             {
-                for (int i = 0; i < 5; i++)
+                for (int i = 0; i < 3; i++)
                 {
-                    float a = i * 1.7f, x = Mathf.Sin(a) * .23f, z = Mathf.Cos(a) * .21f, height = .55f + i % 2 * .2f;
+                    float a = i * 2.3f, x = Mathf.Sin(a) * .25f, z = Mathf.Cos(a) * .20f, height = .68f + i % 2 * .23f;
                     Tube(p, "Mint stem", V(x, 0, z), V(x * .8f, height, z), .022f, Deep);
-                    for (int j = 0; j < 3; j++) for (int s = -1; s <= 1; s += 2) Ball(p, "Mint leaf", V(x + s * .12f, .16f + j * .16f, z), V(.32f, .055f, .19f), j == 2 ? Blue : Leaf, V(-s * 17, a * 57, s * 22));
+                    for (int j = 0; j < 3; j++) for (int s = -1; s <= 1; s += 2) Ball(p, "Mint leaf", V(x + s * .13f, (.22f + j * .23f) * height / .91f, z), V(.39f, .09f, .25f), j == 2 ? Hex(0x98B88B) : Leaf, V(-s * 32, a * 57 + j * 35, s * 32));
                 }
             }
             if (id == 1)

@@ -1,0 +1,74 @@
+{
+  "steps": [
+    {
+      "shot": "44-initial-welcome"
+    },
+    {
+      "tap": [
+        850,
+        1660
+      ]
+    },
+    {
+      "shot": "45-initial-garden-guide"
+    },
+    {
+      "tap": [
+        880,
+        410
+      ]
+    },
+    {
+      "shot": "46-workshop-guide"
+    },
+    {
+      "tap": [
+        880,
+        410
+      ]
+    },
+    {
+      "shot": "47-initial-recipe"
+    },
+    {
+      "tap": [
+        850,
+        1130
+      ]
+    },
+    {
+      "shot": "48-shop-guide"
+    },
+    {
+      "tap": [
+        880,
+        410
+      ]
+    },
+    {
+      "shot": "49-shelf-unlock-reasons"
+    },
+    {
+      "tap": [
+        850,
+        1140
+      ]
+    },
+    {
+      "wait": 15
+    },
+    {
+      "shot": "50-first-sale"
+    },
+    {
+      "tap": [
+        130,
+        300
+      ]
+    },
+    {
+      "shot": "51-initial-overview"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d18-forest03/Evidence"
+}

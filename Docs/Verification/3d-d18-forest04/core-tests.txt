@@ -1,0 +1,28 @@
+﻿PASS first harvest and tutorial actions are idempotent
+PASS online/offline deterministic equivalence 60 seconds
+PASS online/offline deterministic equivalence 3600 seconds
+PASS online/offline deterministic equivalence 28800 seconds
+PASS full crop warehouse retains mature harvest and resumes
+PASS machine reserves output capacity before consuming input
+PASS same timestamp deposits precede sale and production starts
+PASS full crop warehouse resumes on the exact machine-consumption event
+PASS full upgraded multi-chain state matches fractional frame advances
+PASS upgrade preserves active cycle
+PASS deferred crop/recipe switch and cancellation
+PASS reservation only blocks requested product, releases atomically
+PASS only one accepted order and story pause persists
+PASS offline cap and pending report prevent repeat awards
+PASS rollback keeps high water UTC and no negative/repeated income
+PASS checksummed saves restore valid backup and retain bad files
+PASS verified temporary save survives interrupted final rename
+PASS multi-input and reserved-stock online/offline equivalence at upgraded speeds
+PASS cancelled normal order preserved until explicit refresh; active/story never overwritten
+PASS one-hour and zero-income offline reports, close is not reward
+PASS six-recipe and expansion gates cannot be bought early or twice
+PASS twelve garden beds expand one at a time and persist without duplicate charges
+PASS twelve-bed fractional production matches offline without changing chapter requirements
+  five stories at simulated 1605s, sales=36
+  chapter complete, simulated seconds=76925, sales=60000, reputation=154
+PASS new-save full chapter reachable using normal actions and no gifts
+TOTAL 24 tests passed
+﻿

@@ -186,6 +186,14 @@ namespace ForestShop.Editor
                 Check(liveSymbols.Length > 20 && liveSymbols.All(g => !g.raycastTarget && g.GetComponent<CanvasRenderer>() != null), "Live symbols have renderers and never intercept UI or scene rays");
                 var navigation = Field<System.Collections.Generic.List<Button>>("navigationButtons");
                 Check(navigation.Count == 3 && navigation.Count(b => ((ForestSymbolGraphic)b.GetComponent<ForestButtonVisual>().icon).Light) == 1 && navigation[0].GetComponentInChildren<ForestSymbolGraphic>().Light, "Exactly current bottom navigation has selected symbol palette");
+                // A fitted overview can report normalized position zero. A region jump
+                // must show the new area's navigation and scene, not reuse that footer.
+                foreach (string region in new[] { "庭院", "工坊", "店面" })
+                {
+                    Field("shopPosition", 0f); Field("shopBuilt", true);
+                    Click(region); Canvas.ForceUpdateCanvases();
+                    Check(Field<RectTransform>("content").parent.GetComponent<ScrollRect>().verticalNormalizedPosition > .99f, "Region jump resets inherited footer position: " + region);
+                }
                 Check(!holder.activeInHierarchy && Field<SaveStore>("store") == null && Field<bool>("evidenceActive") && Field<bool>("recovering"), "No active app, SaveStore or normal-player persistence");
                 File.WriteAllText(Output + "/handler-checks.txt", checks.ToString());
                 File.WriteAllText(Output + "/preview-scope.txt", "EDITOR OFFSCREEN PREPARED HUD PREVIEW, NOT ANDROID. Target=1080x1920, full simulated safe rectangle.\nHost Editor Screen=" + Screen.width + "x" + Screen.height + "; modal height still uses host Screen dimensions, so modal viewport/touch fit is NOT established by these offscreen images.\nInactive ForestApp; no Awake, SaveStore, audio, device install or ordinary player progress writes. UI handlers and future-bed rays exercised against memory.\nFirst sale uses 16 simulated seconds; not real-time play or continuous dynamic evidence. Transient toast hidden for static layout captures.\nSix-bed and stocked-shop states are prepared, not imported normal saves. No final art/functional/phone acceptance.\nUnity=" + Application.unityVersion + "\n");

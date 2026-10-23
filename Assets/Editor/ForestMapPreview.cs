@@ -13,7 +13,7 @@ namespace ForestShop.Editor
     public static class ForestMapPreview
     {
         const string Pending = "ForestMapPreview.Pending";
-        const string Output = "Builds/Previews/3d-d18-map";
+        const string Output = "Builds/Previews/3d-d18-forest03-map";
         static ForestMapPreview()
         {
             EditorApplication.playModeStateChanged += c => { if (c == PlayModeStateChange.EnteredPlayMode && SessionState.GetBool(Pending, false)) EditorApplication.delayCall += Capture; };
