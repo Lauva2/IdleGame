@@ -101,18 +101,16 @@ namespace ForestShop
             if (State.sales > previousSales)
             {
                 if (audioController != null) audioController.Cue("sale");
-                production = "店面收入 +" + (State.sales - previousSales) + "金币";
+                production = "收入 +" + (State.sales - previousSales);
                 previousSales = State.sales;
             }
             if (State.harvests > previousHarvests)
-            { if (audioController != null) audioController.Cue("harvest"); production += (production.Length > 0 ? " · " : "") + "庭院收获 +" + (State.harvests - previousHarvests); previousHarvests = State.harvests; }
+            { if (audioController != null) audioController.Cue("harvest"); production += (production.Length > 0 ? " · " : "") + "收获 +" + (State.harvests - previousHarvests); previousHarvests = State.harvests; }
             if (State.crafts > previousCrafts)
-            { if (audioController != null) audioController.Cue("cauldron"); production += (production.Length > 0 ? " · " : "") + "工坊加工 +" + (State.crafts - previousCrafts); previousCrafts = State.crafts; }
-            if (production.Length > 0) { productionLabel.text = production; productionTimer = 3; }
-            else if (productionTimer > 0) { productionTimer -= Time.unscaledDeltaTime; if (productionTimer <= 0) productionLabel.text = "庭院 → 工坊 → 店面 · 自动经营"; }
-            coinsLabel.text = "金币  " + State.coins.ToString("N0");
-            reputationLabel.text = "声望  " + State.reputation;
-            goalLabel.text = Engine.Goal;
+            { if (audioController != null) audioController.Cue("cauldron"); production += (production.Length > 0 ? " · " : "") + "加工 +" + (State.crafts - previousCrafts); previousCrafts = State.crafts; }
+            if (production.Length > 0) { productionLabel.text = production; productionTimer = 3; productionFlow.gameObject.SetActive(false); }
+            else if (productionTimer > 0) { productionTimer -= Time.unscaledDeltaTime; if (productionTimer <= 0) { productionLabel.text = ""; productionFlow.gameObject.SetActive(true); } }
+            RefreshHeader();
             DiagnosticsStage("labels-audio", ref diagnosticStamp);
             if (world3D != null) world3D.Bind(State);
             DiagnosticsStage("world-bind", ref diagnosticStamp);
@@ -189,18 +187,25 @@ namespace ForestShop
             var bg = Panel(c.transform, "Backdrop", Paper); Fill(bg);
             safe = Rect(c.transform, "Safe area", 0, 0, 1080, 1920); ApplySafeArea();
             if (FindObjectOfType<EventSystem>() == null) new GameObject("Touch Input", typeof(EventSystem), typeof(StandaloneInputModule));
-            var header = Panel(safe, "Resources", Paper); AnchorBar(header, true, 112);
-            coinsLabel = Label(header, "", 36, Sage, 38, 20, 400, 70);
-            reputationLabel = Label(header, "", 34, Ink, 460, 22, 320, 70);
-            Button(header, "设置", 840, 18, 190, 72, () => ShowSettings());
-            var goal = Panel(safe, "Current goal", Sand); AnchorBar(goal, true, 132); goal.anchoredPosition = new Vector2(0, -112);
-            Label(goal, "林间奇物铺  ·  第一章", 26, Muted, 36, 10, 1000, 42);
-            goalLabel = Label(goal, "", 30, Ink, 36, 54, 1000, 66);
-            var productionBar = Panel(safe, "Production updates", new Color32(226, 234, 211, 255)); AnchorBar(productionBar, true, 66); productionBar.anchoredPosition = new Vector2(0, -244);
-            productionLabel = Label(productionBar, "庭院 → 工坊 → 店面 · 自动经营", 26, Sage, 28, 0, 1024, 66, TextAnchor.MiddleCenter);
+            var header = Panel(safe, "Resources", Paper); AnchorBar(header, true, 100);
+            Symbol(header, ForestSymbol.Coin, 30, 20, 60);
+            coinsLabel = Label(header, "", 36, Sage, 104, 15, 420, 70);
+            Symbol(header, ForestSymbol.Reputation, 560, 20, 60);
+            reputationLabel = Label(header, "", 34, Ink, 630, 15, 230, 70);
+            IconButton(header, "", ForestSymbol.Settings, 950, 6, 100, 88, ShowSettings).name = "Settings";
+            var goal = Panel(safe, "Current goal", Sand); AnchorBar(goal, true, 88); goal.anchoredPosition = new Vector2(0, -100);
+            Symbol(goal, ForestSymbol.Tea, 30, 13, 60);
+            goalLabel = Label(goal, "", 31, Ink, 108, 8, 805, 72);
+            IconButton(goal, "", ForestSymbol.Info, 950, 0, 100, 88, ShowGoal).name = "Goal details";
+            var productionBar = Panel(safe, "Production updates", new Color32(226, 234, 211, 255)); AnchorBar(productionBar, true, 56); productionBar.anchoredPosition = new Vector2(0, -188);
+            productionFlow = Rect(productionBar, "Automatic production flow", 300, 0, 480, 56);
+            ForestSymbol[] flow = { ForestSymbol.Garden, ForestSymbol.Arrow, ForestSymbol.Workshop, ForestSymbol.Arrow, ForestSymbol.Shop, ForestSymbol.Loop };
+            for (int i = 0; i < flow.Length; i++) Symbol(productionFlow, flow[i], i * 80, 3, 50);
+            productionLabel = Label(productionBar, "", 26, Sage, 28, 0, 1024, 56, TextAnchor.MiddleCenter);
             var bottom = Panel(safe, "Navigation", Paper); AnchorBar(bottom, false, 124);
             string[] nav = { "小店", "委托", "图鉴" };
-            for (int i = 0; i < nav.Length; i++) { string n = nav[i]; Button(bottom, n, 24 + i * 350, 18, 330, 84, () => ShowPage(n)); }
+            ForestSymbol[] navIcons = { ForestSymbol.Home, ForestSymbol.Orders, ForestSymbol.Collection };
+            for (int i = 0; i < nav.Length; i++) { string n = nav[i]; navigationButtons.Add(IconButton(bottom, n, navIcons[i], 24 + i * 350, 18, 330, 84, () => ShowPage(n))); }
             var toast = Panel(safe, "Feedback", Sage); toast.anchorMin = toast.anchorMax = new Vector2(.5f, 0); toast.pivot = new Vector2(.5f, 0); toast.anchoredPosition = new Vector2(0, 140); toast.sizeDelta = new Vector2(930, 90);
             toastLabel = Label(toast, "", 30, Paper, 20, 6, 890, 76, TextAnchor.MiddleCenter); toast.gameObject.SetActive(false);
         }
@@ -270,9 +275,10 @@ namespace ForestShop
         void ShowPage(string name)
         {
             CloseSheet(); currentPage = name; bindings.Clear(); animationBindings.Clear();
+            RefreshNavigation(name);
             if (world3D != null) world3D.SetVisible(name == "小店");
             if (page != null) { page.gameObject.SetActive(false); Destroy(page.gameObject); }
-            page = Rect(safe, "Page " + name, 0, 0, 1080, 1500); Fill(page); page.offsetMin = new Vector2(0, 124); page.offsetMax = new Vector2(0, -310);
+            page = Rect(safe, "Page " + name, 0, 0, 1080, 1500); Fill(page); page.offsetMin = new Vector2(0, 124); page.offsetMax = new Vector2(0, -244);
             if (name == "小店") BuildShop(); else if (name == "委托") BuildOrders(); else BuildCollection();
             toastLabel.transform.parent.SetAsLastSibling();
         }

@@ -40,7 +40,7 @@ namespace ForestShop
             // A separate continuous recording run does no PNG readback or encoding.
             // The native Android recorder observes normal rendered frames.
             if (evidenceVideoOnly) { yield return new WaitForSecondsRealtime(.15f); yield break; }
-            coinsLabel.text = "金币  " + State.coins.ToString("N0"); reputationLabel.text = "声望  " + State.reputation; goalLabel.text = Engine.Goal;
+            RefreshHeader();
             foreach (var b in bindings) b(); foreach (var b in modalBindings) b();
             if (world3D != null) { world3D.Bind(State); world3D.RenderNow(); }
             Canvas.ForceUpdateCanvases();
@@ -159,7 +159,7 @@ namespace ForestShop
         {
             coinsLabel.text = "金币  " + State.coins.ToString("N0");
             reputationLabel.text = "声望  " + State.reputation;
-            goalLabel.text = Engine.Goal;
+            RefreshHeader();
             foreach (var b in bindings) b(); foreach (var b in modalBindings) b();
             var cameraObject = new GameObject("Evidence camera"); var camera = cameraObject.AddComponent<Camera>();
             camera.clearFlags = CameraClearFlags.SolidColor; camera.backgroundColor = Paper; camera.orthographic = true; camera.nearClipPlane = .1f; camera.farClipPlane = 100;

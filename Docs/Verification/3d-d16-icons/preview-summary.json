@@ -1,0 +1,23 @@
+{
+  "candidate": "3d-d16-icons",
+  "baseline": "6efa27565c2550b6eafc1bf100d26a1c022e221d",
+  "round": "Development-r04",
+  "unity_input_files": 132,
+  "checks": 33,
+  "current_pngs": 20,
+  "all_pngs": 60,
+  "all_png_bytes": 52264055,
+  "preview": "Editor actual Canvas/3D, offscreen prepared memory state",
+  "target": "1080x1920",
+  "host_screen": "640x480",
+  "not_proven": [
+    "Android APK",
+    "MuMu input and real-time play",
+    "modal viewport fit",
+    "phone",
+    "dynamic acceptance",
+    "performance",
+    "sound quality",
+    "final art score"
+  ]
+}

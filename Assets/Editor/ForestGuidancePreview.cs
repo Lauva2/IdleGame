@@ -17,7 +17,7 @@ namespace ForestShop.Editor
     public static class ForestGuidancePreview
     {
         const string Pending = "ForestGuidancePreview.Pending";
-        const string Output = "Builds/Previews/3d-d15-guidance";
+        const string Output = "Builds/Previews/3d-d16-icons";
         const BindingFlags Private = BindingFlags.Instance | BindingFlags.NonPublic;
         static ForestApp app;
         static readonly StringBuilder checks = new StringBuilder();
@@ -53,13 +53,18 @@ namespace ForestShop.Editor
             var button = UnityEngine.Object.FindObjectsOfType<Button>().FirstOrDefault(b => b.interactable && b.GetComponentInChildren<Text>()?.text == caption);
             Check(button != null, "UI handler exists: " + caption); button.onClick.Invoke();
         }
+        static void ClickName(string name)
+        {
+            var button = UnityEngine.Object.FindObjectsOfType<Button>().FirstOrDefault(b => b.interactable && b.name == name);
+            Check(button != null, "Named UI handler exists: " + name); button.onClick.Invoke();
+        }
         static void Shot(string name)
         {
-            Field<Text>("coinsLabel").text = "金币  " + app.State.coins.ToString("N0");
-            Field<Text>("reputationLabel").text = "声望  " + app.State.reputation;
-            Field<Text>("goalLabel").text = app.Engine.Goal;
+            Call("RefreshHeader");
             foreach (var binding in Field<System.Collections.Generic.List<Action>>("bindings")) binding();
             foreach (var binding in Field<System.Collections.Generic.List<Action>>("modalBindings")) binding();
+            foreach (var visual in UnityEngine.Object.FindObjectsOfType<ForestButtonVisual>())
+                typeof(ForestButtonVisual).GetMethod("LateUpdate", Private).Invoke(visual, null);
             World.Bind(app.State); World.RenderNow();
             // Static layout preview after transient feedback. No real-time claim.
             Field<Text>("toastLabel").transform.parent.gameObject.SetActive(false);
@@ -97,6 +102,23 @@ namespace ForestShop.Editor
             var uv = World.GetComponentInChildren<Camera>().WorldToViewportPoint(box.transform.TransformPoint(box.center));
             World.Pick(new Vector2(uv.x, uv.y));
         }
+        static void SymbolBoard()
+        {
+            var board = (RectTransform)Call("Panel", Field<RectTransform>("safe"), "Icon contact sheet", (Color)new Color32(255, 249, 228, 255), 0f, 0f, 1080f, 1920f);
+            Call("Label", board, "林间奇物铺 · 原创界面图标", 38, (Color)new Color32(72, 105, 79, 255), 36f, 24f, 1000f, 80f, TextAnchor.MiddleLeft);
+            Call("Label", board, "64px / 深绿底64px / 32px · Editor 原生绘制", 25, (Color)new Color32(112, 105, 82, 255), 36f, 104f, 1000f, 54f, TextAnchor.MiddleLeft);
+            string[] names = { "金币", "声望", "设置", "小院", "庭院", "工坊", "店面", "委托", "图鉴", "仓库", "扩建", "装饰", "收获", "货架", "计时", "循环", "完成", "锁定", "预留", "缺货", "说明", "方向", "关闭", "茶会" };
+            for (int i = 0; i < names.Length; i++)
+            {
+                float x = 30 + i % 4 * 260, y = 190 + i / 4 * 276;
+                Call("Symbol", board, (ForestSymbol)i, x + 8, y + 12, 64f, false);
+                var swatch = (RectTransform)Call("Panel", board, "Selected swatch", (Color)new Color32(72, 105, 79, 255), x + 88, y, 88f, 88f);
+                Call("Symbol", swatch, (ForestSymbol)i, 12f, 12f, 64f, true);
+                Call("Symbol", board, (ForestSymbol)i, x + 201, y + 28, 32f, false);
+                Call("Label", board, names[i], 29, (Color)new Color32(65, 58, 43, 255), x, y + 106, 244f, 54f, TextAnchor.MiddleCenter);
+            }
+            CaptureHud("18-symbol-contact-sheet"); board.gameObject.SetActive(false); UnityEngine.Object.Destroy(board.gameObject);
+        }
         static void Capture()
         {
             SessionState.SetBool(Pending, false);
@@ -113,13 +135,13 @@ namespace ForestShop.Editor
                 Use(new GameState { simpleAnimation = true });
                 Call("FocusOpeningStep"); Call("ShowPage", "小店"); Call("ShowWelcome"); Shot("01-welcome");
                 Click("接过钥匙"); Check(app.State.welcomeRead && World.Region == 1, "Welcome opens garden"); Shot("02-first-harvest-guide");
-                Click("收获薄荷"); Check(app.State.tutorial == 1 && World.Region == 2 && app.State.crops[0] > 0, "Harvest routes to workshop"); Shot("03-workshop-guide");
-                Click("前往坩埚"); Check(Field<string>("currentSheet") == "machine", "Workshop guide opens recipe sheet"); Shot("04-cauldron-recipe");
+                ClickName("Opening action"); Check(app.State.tutorial == 1 && World.Region == 2 && app.State.crops[0] > 0, "Harvest routes to workshop"); Shot("03-workshop-guide");
+                ClickName("Opening action"); Check(Field<string>("currentSheet") == "machine", "Workshop guide opens recipe sheet"); Shot("04-cauldron-recipe");
                 Click("循环制作"); Check(app.State.tutorial == 2 && World.Region == 3 && app.State.machines[0].config == 0, "Recipe handler routes to shop"); Shot("05-shop-guide");
-                Click("前往货架"); Check(Field<string>("currentSheet") == "shelf", "Shop guide opens shelf sheet");
+                ClickName("Opening action"); Check(Field<string>("currentSheet") == "shelf", "Shop guide opens shelf sheet");
                 Click("选择售卖"); Check(app.State.tutorial == 3 && World.Region == 3 && app.State.shelves[0].config == 0, "Shelf handler arms automatic sales"); Shot("06-waiting-first-sale");
                 app.Engine.Advance(16); Check(app.State.tutorial == 4 && app.State.sales > 0, "In-memory simulation reaches first sale"); Shot("07-first-sale-guide");
-                Click("前往委托"); Check(Field<string>("currentPage") == "委托", "Completion guide opens orders"); Shot("08-first-order");
+                ClickName("Opening action"); Check(Field<string>("currentPage") == "委托", "Completion guide opens orders"); Shot("08-first-order");
                 var six = new GameState { welcomeRead = true, tutorial = 4, sideRoom = true, reputation = 150, coins = 6000, simpleAnimation = true };
                 six.plots = Enumerable.Range(0, 6).Select(i => new Facility { config = i % 4, workItem = i % 4, remaining = 0 }).ToArray();
                 Use(six); World.SetRegion(1); Call("ShowPage", "小店"); Shot("09-six-bed-next-expansion");
@@ -129,13 +151,29 @@ namespace ForestShop.Editor
                 Click("扩建地块"); Check(app.State.plots.Length == 7 && app.State.coins == 0, "Actual expansion UI buys only next bed at existing cost");
                 World.SetRegion(1); Field("shopPosition", 1f); Call("ShowPage", "小店"); Shot("11-seven-bed-next-moved");
                 Call("CloseSheet"); PickFuture(9); Check(Field<string>("currentSheet") == null && Field<Text>("toastLabel").text.Contains("第 8 块地"), "Far bed ray explains sequential expansion");
-                Check(UnityEngine.Object.FindObjectsOfType<Button>().Where(b => b.GetComponentInChildren<Text>()?.text.StartsWith("远期田位") == true).All(b => !b.interactable), "Distant future buttons do not skip expansion order");
+                var distant = UnityEngine.Object.FindObjectsOfType<Button>().Where(b => b.name.StartsWith("Plot card ") && int.Parse(b.name.Substring(10)) > app.State.plots.Length).ToArray();
+                Check(distant.Length == 4 && distant.All(b => !b.interactable), "Four distant future buttons do not skip expansion order");
                 Call("EvidenceScroll", false, 0f); Shot("12-future-bed-buttons");
                 app.State.shelves = Enumerable.Range(0, 4).Select(i => new Facility { config = i }).ToArray();
                 for (int i = 0; i < 6; i++) app.State.items[i] = 12;
                 app.State.stories = 5;
                 World.SetRegion(3); Field("shopPosition", 1f); Call("ShowPage", "小店"); Shot("13-old-shop-sign");
                 app.State.decoration[0] = true; World.Bind(app.State); Shot("14-reward-shop-sign");
+                ClickName("Goal details"); Check(Field<string>("currentSheet") == "goal", "Header information icon opens full chapter requirements"); Shot("15-goal-details");
+                Call("CloseSheet"); World.SetRegion(1); Field("shopPosition", 1f); Call("ShowPage", "小店");
+                ClickName("Garden details"); Check(Field<string>("currentSheet") == "garden-help", "Garden information icon opens full cost and ordering explanation"); Shot("16-garden-details");
+                Call("CloseSheet"); World.SetRegion(3); Field("shopPosition", 0f); Call("ShowPage", "小店"); Shot("17-shop-cards-footer");
+                SymbolBoard();
+                app.State.items[0] = 0; app.State.shelves[1].config = -1;
+                app.State.shelves = app.State.shelves.Take(3).ToArray();
+                app.State.orders = new[] { new Order { id = 999, active = true, reserve = true, item = 2, count = 12, resident = 0 } };
+                Check((ForestSymbol)Call("ShelfSymbol", 0) == ForestSymbol.Empty && (ForestSymbol)Call("ShelfSymbol", 1) == ForestSymbol.Settings && (ForestSymbol)Call("ShelfSymbol", 2) == ForestSymbol.Reserved && (ForestSymbol)Call("ShelfSymbol", 3) == ForestSymbol.Lock, "Empty, unconfigured, reserved and locked shelf meanings remain distinct");
+                Field("shopPosition", 1f); Call("ShowPage", "小店"); Shot("19-shelf-state-icons");
+                ClickName("Shelf details"); Check(Field<string>("currentSheet") == "shelf-help", "In-scene information button opens written shelf icon meanings"); Shot("20-shelf-help"); Call("CloseSheet");
+                var liveSymbols = UnityEngine.Object.FindObjectsOfType<ForestSymbolGraphic>();
+                Check(liveSymbols.Length > 20 && liveSymbols.All(g => !g.raycastTarget && g.GetComponent<CanvasRenderer>() != null), "Live symbols have renderers and never intercept UI or scene rays");
+                var navigation = Field<System.Collections.Generic.List<Button>>("navigationButtons");
+                Check(navigation.Count == 3 && navigation.Count(b => ((ForestSymbolGraphic)b.GetComponent<ForestButtonVisual>().icon).Light) == 1 && navigation[0].GetComponentInChildren<ForestSymbolGraphic>().Light, "Exactly current bottom navigation has selected symbol palette");
                 Check(!holder.activeInHierarchy && Field<SaveStore>("store") == null && Field<bool>("evidenceActive") && Field<bool>("recovering"), "No active app, SaveStore or normal-player persistence");
                 File.WriteAllText(Output + "/handler-checks.txt", checks.ToString());
                 File.WriteAllText(Output + "/preview-scope.txt", "EDITOR OFFSCREEN PREPARED HUD PREVIEW, NOT ANDROID. Target=1080x1920, full simulated safe rectangle.\nHost Editor Screen=" + Screen.width + "x" + Screen.height + "; modal height still uses host Screen dimensions, so modal viewport/touch fit is NOT established by these offscreen images.\nInactive ForestApp; no Awake, SaveStore, audio, device install or ordinary player progress writes. UI handlers and future-bed rays exercised against memory.\nFirst sale uses 16 simulated seconds; not real-time play or continuous dynamic evidence. Transient toast hidden for static layout captures.\nSix-bed and stocked-shop states are prepared, not imported normal saves. No final art/functional/phone acceptance.\nUnity=" + Application.unityVersion + "\n");

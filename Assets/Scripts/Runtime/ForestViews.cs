@@ -40,10 +40,11 @@ namespace ForestShop
         }
         void BuildOpeningGuide(Transform parent)
         {
-            var card = Panel(parent, "Opening guide", Paper, 30, 110, 1020, 168);
-            var title = Label(card, "", 32, Sage, 22, 8, 685, 48);
-            var body = Label(card, "", 26, Ink, 22, 58, 680, 98);
-            var action = Button(card, "收获薄荷", 726, 37, 270, 92, () =>
+            var card = Panel(parent, "Opening guide", Paper, 30, 110, 1020, 112);
+            var stepIcon = Symbol(card, ForestSymbol.Harvest, 15, 18, 76);
+            var title = Label(card, "", 31, Sage, 110, 3, 590, 50);
+            var body = Label(card, "", 25, Muted, 110, 55, 590, 48);
+            var action = IconButton(card, "收获", ForestSymbol.Harvest, 726, 12, 270, 88, () =>
             {
                 if (State.tutorial == 0) Act(Engine.HarvestFirst, "薄荷已入库，接着去工坊制作醒神茶。", true);
                 else if (State.tutorial == 1 || State.tutorial == 2)
@@ -54,39 +55,54 @@ namespace ForestShop
                 else if (State.tutorial == 3) OpenObject("shelf", 0);
                 else ShowPage("委托");
             }, true, true);
+            action.name = "Opening action";
             var caption = action.GetComponentInChildren<Text>();
-            string[] titles = { "1/3 · 收获第一份原料", "2/3 · 工坊制作醒神茶", "3/3 · 店面安排售卖", "等待第一笔收入", "自动经营已开启" };
-            string[] descriptions = { "点按成熟薄荷或右侧按钮收获。之后庭院会自动种植。", "打开魔法坩埚，选择醒神茶。材料充足时会自动循环加工。", "选择1号货架售卖醒神茶。\n茶加工完成后会自动出售。", "醒神茶完成后将自动售卖。首笔收入到账，再帮助老师完成委托。", "种植、加工和售卖已连起来。\n去委托板看看老师的心愿。" };
-            string[] captions = { "收获薄荷", "前往坩埚", "前往货架", "查看货架", "前往委托" };
+            string[] titles = { "1/3 · 收获薄荷", "2/3 · 制作醒神茶", "3/3 · 安排售卖", "等待首笔收入", "自动经营已开启" };
+            string[] descriptions = { "收获后自动种植", "坩埚选择醒神茶", "1号货架选择醒神茶", "加工完成后自动出售", "去看看邻居的心愿" };
+            string[] captions = { "收获", "配置", "上架", "查看", "委托" };
+            ForestSymbol[] icons = { ForestSymbol.Harvest, ForestSymbol.Workshop, ForestSymbol.Shelf, ForestSymbol.Timer, ForestSymbol.Orders };
             bindings.Add(() =>
             {
                 int step = Math.Min(4, State.tutorial);
                 title.text = titles[step]; body.text = descriptions[step]; caption.text = captions[step];
+                stepIcon.Symbol = icons[step]; action.GetComponentInChildren<ForestSymbolGraphic>().Symbol = icons[step];
             });
         }
         void BuildShop()
         {
             var world = World(); world.Bind(State); world.SetVisible(true);
             content = Scroll(page, 0, 0, 2600, "Treehouse 3D scroll");
-            string[] regions = { "森林小院", "庭院", "工坊", "店面" };
+            string[] regions = { "小院", "庭院", "工坊", "店面" };
+            ForestSymbol[] regionIcons = { ForestSymbol.Home, ForestSymbol.Garden, ForestSymbol.Workshop, ForestSymbol.Shop };
             for (int i = 0; i < regions.Length; i++)
             {
                 int region = i;
-                Button(content, regions[i], 25 + i * 263, 14, 242, 78, () => { world.SetRegion(region); ShowPage("小店"); }, true, world.Region == i);
+                IconButton(content, regions[i], regionIcons[i], 25 + i * 263, 14, 242, 78, () => { world.SetRegion(region); ShowPage("小店"); }, true, world.Region == i);
             }
             float viewTop = 112;
-            if (State.tutorial < 4) { BuildOpeningGuide(content); viewTop = 300; }
+            if (State.tutorial < 4) { BuildOpeningGuide(content); viewTop = 236; }
             else if (world.Region == 1)
             {
-                var legend = Panel(content, "Garden expansion legend", Paper, 30, 110, 1020, 100);
-                Label(legend, "已开放 " + State.plots.Length + "/12 · 深绿加号是下一块 · 浅色木桩是远期预留", 27, Sage, 20, 4, 980, 44);
-                Label(legend, State.plots.Length < Catalog.MaxPlots ? "第 " + (State.plots.Length + 1) + " 块地需要 " + Catalog.PlotCost[State.plots.Length] + " 金币，点按查看完整条件" : "十二块田都已开放，可自由安排种植", 25, Muted, 20, 48, 980, 44);
-                viewTop = 226;
+                var legend = Panel(content, "Garden expansion legend", Paper, 30, 110, 1020, 88);
+                Symbol(legend, ForestSymbol.Garden, 16, 14, 60);
+                Label(legend, State.plots.Length + "/12", 30, Sage, 88, 7, 170, 74);
+                if (State.plots.Length < Catalog.MaxPlots)
+                {
+                    Symbol(legend, ForestSymbol.Expand, 278, 14, 60);
+                    Label(legend, "+" + (State.plots.Length + 1), 30, Sage, 348, 7, 145, 74);
+                    Symbol(legend, ForestSymbol.Coin, 528, 14, 60);
+                    Label(legend, Catalog.PlotCost[State.plots.Length].ToString("N0"), 30, Ink, 598, 7, 290, 74);
+                }
+                else Symbol(legend, ForestSymbol.Check, 300, 14, 60);
+                IconButton(legend, "", ForestSymbol.Info, 904, 0, 100, 88, ShowGardenHelp).name = "Garden details";
+                viewTop = 214;
             }
             float viewHeight = world.Region == 0 ? 1320 : 1280;
             var view = Rect(content, "Live 3D treehouse", 0, viewTop, 1080, viewHeight);
             var image = view.gameObject.AddComponent<RawImage>(); image.texture = world.View;
             var pointer = view.gameObject.AddComponent<ForestWorldPointer>(); pointer.world = world;
+            if (world.Region == 3)
+                IconButton(view, "", ForestSymbol.Info, 956, 16, 96, 88, ShowShelfHelp).name = "Shelf details";
             if (world.Region == 1) for (int i = 0; i < Catalog.MaxPlots; i++)
             {
                 Vector2 at = world.PlotMarker(i);
@@ -99,27 +115,41 @@ namespace ForestShop
             if (world.Region == 3) for (int i = 0; i < 4; i++)
             {
                 int n = i; Vector2 at = world.ShelfMarker(i);
-                var badge = Panel(view, "Shelf marker " + (i + 1), Paper, Mathf.Clamp(at.x * 1080 - 54, 4, 968), Mathf.Clamp((1 - at.y) * viewHeight - 42, 4, viewHeight - 80), 108, 76);
+                var badge = Panel(view, "Shelf marker " + (i + 1), Paper, Mathf.Clamp(at.x * 1080 - 48, 4, 980), Mathf.Clamp((1 - at.y) * viewHeight - 32, 4, viewHeight - 66), 96, 60);
                 badge.GetComponent<Image>().raycastTarget = false;
-                var text = Label(badge, "", 24, Sage, 0, 0, 108, 76, TextAnchor.MiddleCenter);
-                bindings.Add(() =>
-                {
-                    string status;
-                    if (n >= State.shelves.Length) status = "待开放";
-                    else { int item = State.shelves[n].config; status = item < 0 ? "待配置" : Engine.Reserved(item) > 0 && State.items[item] <= Engine.Reserved(item) ? "预留" : State.items[item] == 0 ? "缺货" : "营业"; }
-                    text.text = (n + 1) + "号架\n" + status;
-                });
+                Label(badge, (n + 1).ToString(), 28, Sage, 3, 0, 35, 60, TextAnchor.MiddleCenter);
+                var status = Symbol(badge, ShelfSymbol(n), 39, 6, 48);
+                bindings.Add(() => status.Symbol = ShelfSymbol(n));
             }
-            Label(content, "点按立体场景中的作物、设备和货架可安排经营", 27, Sage, 38, viewTop + viewHeight + 8, 1000, 68, TextAnchor.MiddleCenter);
-            float y = viewTop + viewHeight + 98;
+            var hint = IconButton(content, "经营说明", ForestSymbol.Info, 400, viewTop + viewHeight + 12, 280, 72, () => { if (world.Region == 3) ShowShelfHelp(); else ShowGoal(); });
+            hint.GetComponentInChildren<Text>().fontSize = 25;
+            float y = viewTop + viewHeight + 106;
             if (world.Region == 1)
             {
                 for (int i = 0; i < Catalog.MaxPlots; i++)
                 {
                     int n = i; bool built = i < State.plots.Length, next = i == State.plots.Length;
                     var b = Button(content, "", 35 + i % 3 * 341, y + i / 3 * 160, 322, 139, () => { if (n == State.plots.Length) OpenObject("expansion", 0); else if (State.tutorial == 0) Act(Engine.HarvestFirst, "薄荷已入库，庭院开始自动种植。", true); else OpenObject("plot", n); }, built || next, next);
+                    b.name = "Plot card " + n;
                     var label = b.GetComponentInChildren<Text>(); label.fontSize = 25;
-                    bindings.Add(() => { if (!built) label.text = next ? "下一块 · 地块 " + (n + 1) + "\n扩建 " + Catalog.PlotCost[n] + " 金币" : "远期田位 " + (n + 1) + "\n按顺序开放"; else { var f = State.plots[n]; int crop = Math.Max(0, f.workItem >= 0 ? f.workItem : f.config); label.text = "地块 " + (n + 1) + " · " + Catalog.Crops[crop] + "\n" + (State.tutorial == 0 ? "成熟 · 点按收获" : f.remaining > 0 ? Math.Ceiling(f.remaining) + " 秒 · 生长中" : f.remaining == 0 ? "成熟 · 等待入库" : "满仓 · 等待"); } });
+                    label.rectTransform.anchoredPosition = new Vector2(108, -10); label.rectTransform.sizeDelta = new Vector2(205, 119);
+                    if (built)
+                    {
+                        var cropImage = Picture(b.transform, "inventory", Math.Max(0, State.plots[n].config), 4, 4, 3, 22, 100, 100);
+                        int shownCrop = State.plots[n].config;
+                        bindings.Add(() => { var f = State.plots[n]; int crop = Math.Max(0, f.workItem >= 0 ? f.workItem : f.config); if (shownCrop != crop) { cropImage.sprite = Art("inventory", crop, 4, 4); shownCrop = crop; } label.text = (n + 1) + " · " + Catalog.Crops[crop] + "\n" + (State.tutorial == 0 ? "收获" : f.remaining > 0 ? Math.Ceiling(f.remaining) + "秒" : f.remaining == 0 ? "待入库" : "满仓"); });
+                    }
+                    else
+                    {
+                        Symbol(b.transform, next ? ForestSymbol.Expand : ForestSymbol.Lock, 21, 37, 64, next);
+                        label.text = next ? "+" + (n + 1) + " · 扩建" : (n + 1) + " · 预留";
+                        if (next)
+                        {
+                            label.rectTransform.sizeDelta = new Vector2(205, 54);
+                            Symbol(b.transform, ForestSymbol.Coin, 110, 78, 32, true);
+                            Label(b.transform, Catalog.PlotCost[n].ToString("N0"), 25, Paper, 151, 67, 164, 54);
+                        }
+                    }
                 }
                 y += Mathf.CeilToInt(Catalog.MaxPlots / 3f) * 160 + 5;
             }
@@ -147,18 +177,24 @@ namespace ForestShop
             }
             else
             {
-                Label(content, "沿着石板路，照看森林小院", 38, Sage, 40, y, 1000, 68);
-                Label(content, "树屋小店迎接邻居，独立工坊制作奇物，庭院逐步开放十二块田地。\n上方切换区域，近看种植、加工与营业。", 30, Ink, 40, y + 76, 1000, 150);
-                y += 245;
+                Label(content, "沿着石板路，照看森林小院", 34, Sage, 40, y, 1000, 68, TextAnchor.MiddleCenter);
+                y += 90;
             }
-            Button(content, "仓库", 35, y, 310, 92, () => OpenObject("warehouse", 0));
-            Button(content, "修复与扩建", 385, y, 310, 92, () => OpenObject("expansion", 0));
-            Button(content, "小店装饰", 735, y, 310, 92, () => OpenObject("decoration", 0)); y += 120;
-            var footer = Panel(content, "Chapter progress", Paper, 30, y, 1020, 210);
-            Label(footer, State.chapterComplete ? "开张茶会 · 第一章已完成" : "让旧树洞重新亮起灯", 34, Sage, 28, 16, 950, 65);
-            var progress = Label(footer, "", 27, Muted, 28, 88, 950, 90);
-            bindings.Add(() => progress.text = "熟客故事 " + State.stories + "/5    声望 " + State.reputation + "/150\n累计销售 " + State.sales.ToString("N0") + "/60,000    六种商品 " + SoldKinds() + "/6");
-            content.sizeDelta = new Vector2(0, y + 240);
+            IconButton(content, "仓库", ForestSymbol.Warehouse, 35, y, 310, 92, () => OpenObject("warehouse", 0));
+            IconButton(content, "扩建", ForestSymbol.Expand, 385, y, 310, 92, () => OpenObject("expansion", 0));
+            IconButton(content, "装饰", ForestSymbol.Decoration, 735, y, 310, 92, () => OpenObject("decoration", 0)); y += 120;
+            var footer = Panel(content, "Chapter progress", Paper, 30, y, 1020, 226);
+            Label(footer, State.chapterComplete ? "开张茶会已完成" : "第一章 · 开张茶会", 32, Sage, 28, 8, 820, 60);
+            IconButton(footer, "", ForestSymbol.Info, 900, 0, 100, 80, ShowGoal);
+            ForestSymbol[] progressIcons = { ForestSymbol.Orders, ForestSymbol.Reputation, ForestSymbol.Coin, ForestSymbol.Collection };
+            for (int i = 0; i < 4; i++)
+            {
+                int n = i; float x = 25 + i % 2 * 500, rowY = 76 + i / 2 * 68;
+                Symbol(footer, progressIcons[i], x, rowY, 54);
+                var value = Label(footer, "", 27, Muted, x + 72, rowY, 400, 58);
+                bindings.Add(() => value.text = n == 0 ? "故事 " + State.stories + "/5" : n == 1 ? "声望 " + State.reputation + "/150" : n == 2 ? "销售 " + Math.Min(60000, State.sales).ToString("N0") + "/60,000" : "商品 " + SoldKinds() + "/6");
+            }
+            content.sizeDelta = new Vector2(0, y + 256);
             Canvas.ForceUpdateCanvases();
             content.parent.GetComponent<ScrollRect>().verticalNormalizedPosition = shopBuilt ? shopPosition : 1;
             shopBuilt = true;
