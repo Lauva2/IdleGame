@@ -22,9 +22,47 @@ namespace ForestShop
             world3D.Selected = (kind, index) =>
             {
                 if (kind == "plot" && State.tutorial == 0) Act(Engine.HarvestFirst, "薄荷已入库，庭院开始自动种植。", true);
+                else if (kind == "futurePlot")
+                {
+                    if (index == State.plots.Length) OpenObject("expansion", 0);
+                    else Toast("田地按顺序开放，请先查看第 " + (State.plots.Length + 1) + " 块地的扩建条件。", 3);
+                }
                 else OpenObject(kind, index);
             };
             return world3D;
+        }
+        void FocusOpeningStep()
+        {
+            if (State.tutorial >= 4) return;
+            var world = World(); world.Bind(State);
+            world.SetRegion(State.tutorial == 0 ? 1 : State.tutorial == 1 ? 2 : 3);
+            shopPosition = 1;
+        }
+        void BuildOpeningGuide(Transform parent)
+        {
+            var card = Panel(parent, "Opening guide", Paper, 30, 110, 1020, 168);
+            var title = Label(card, "", 32, Sage, 22, 8, 685, 48);
+            var body = Label(card, "", 26, Ink, 22, 58, 680, 98);
+            var action = Button(card, "收获薄荷", 726, 37, 270, 92, () =>
+            {
+                if (State.tutorial == 0) Act(Engine.HarvestFirst, "薄荷已入库，接着去工坊制作醒神茶。", true);
+                else if (State.tutorial == 1 || State.tutorial == 2)
+                {
+                    FocusOpeningStep(); ShowPage("小店");
+                    OpenObject(State.tutorial == 1 ? "machine" : "shelf", 0);
+                }
+                else if (State.tutorial == 3) OpenObject("shelf", 0);
+                else ShowPage("委托");
+            }, true, true);
+            var caption = action.GetComponentInChildren<Text>();
+            string[] titles = { "1/3 · 收获第一份原料", "2/3 · 工坊制作醒神茶", "3/3 · 店面安排售卖", "等待第一笔收入", "自动经营已开启" };
+            string[] descriptions = { "点按成熟薄荷或右侧按钮收获。之后庭院会自动种植。", "打开魔法坩埚，选择醒神茶。材料充足时会自动循环加工。", "选择1号货架售卖醒神茶。\n茶加工完成后会自动出售。", "醒神茶完成后将自动售卖。首笔收入到账，再帮助老师完成委托。", "种植、加工和售卖已连起来。\n去委托板看看老师的心愿。" };
+            string[] captions = { "收获薄荷", "前往坩埚", "前往货架", "查看货架", "前往委托" };
+            bindings.Add(() =>
+            {
+                int step = Math.Min(4, State.tutorial);
+                title.text = titles[step]; body.text = descriptions[step]; caption.text = captions[step];
+            });
         }
         void BuildShop()
         {
@@ -36,16 +74,27 @@ namespace ForestShop
                 int region = i;
                 Button(content, regions[i], 25 + i * 263, 14, 242, 78, () => { world.SetRegion(region); ShowPage("小店"); }, true, world.Region == i);
             }
+            float viewTop = 112;
+            if (State.tutorial < 4) { BuildOpeningGuide(content); viewTop = 300; }
+            else if (world.Region == 1)
+            {
+                var legend = Panel(content, "Garden expansion legend", Paper, 30, 110, 1020, 100);
+                Label(legend, "已开放 " + State.plots.Length + "/12 · 深绿加号是下一块 · 浅色木桩是远期预留", 27, Sage, 20, 4, 980, 44);
+                Label(legend, State.plots.Length < Catalog.MaxPlots ? "第 " + (State.plots.Length + 1) + " 块地需要 " + Catalog.PlotCost[State.plots.Length] + " 金币，点按查看完整条件" : "十二块田都已开放，可自由安排种植", 25, Muted, 20, 48, 980, 44);
+                viewTop = 226;
+            }
             float viewHeight = world.Region == 0 ? 1320 : 1280;
-            var view = Rect(content, "Live 3D treehouse", 0, 112, 1080, viewHeight);
+            var view = Rect(content, "Live 3D treehouse", 0, viewTop, 1080, viewHeight);
             var image = view.gameObject.AddComponent<RawImage>(); image.texture = world.View;
             var pointer = view.gameObject.AddComponent<ForestWorldPointer>(); pointer.world = world;
             if (world.Region == 1) for (int i = 0; i < Catalog.MaxPlots; i++)
             {
                 Vector2 at = world.PlotMarker(i);
-                var badge = Panel(view, "Garden marker " + (i + 1), Paper, Mathf.Clamp(at.x * 1080 - 25, 4, 1022), Mathf.Clamp((1 - at.y) * viewHeight - 25, 4, viewHeight - 58), 54, 54);
+                bool built = i < State.plots.Length, next = i == State.plots.Length;
+                float width = next ? 80 : 54;
+                var badge = Panel(view, "Garden marker " + (i + 1), next ? Sage : built ? Paper : new Color32(231, 235, 219, 255), Mathf.Clamp(at.x * 1080 - width / 2, 4, 1076 - width), Mathf.Clamp((1 - at.y) * viewHeight - 25, 4, viewHeight - 58), width, 54);
                 badge.GetComponent<Image>().raycastTarget = false;
-                Label(badge, (i + 1).ToString(), 29, Sage, 0, 0, 54, 54, TextAnchor.MiddleCenter);
+                Label(badge, (next ? "+ " : "") + (i + 1), next ? 27 : 29, next ? Paper : built ? Sage : Muted, 0, 0, width, 54, TextAnchor.MiddleCenter);
             }
             if (world.Region == 3) for (int i = 0; i < 4; i++)
             {
@@ -61,16 +110,16 @@ namespace ForestShop
                     text.text = (n + 1) + "号架\n" + status;
                 });
             }
-            Label(content, "点按立体场景中的作物、设备和货架可安排经营", 27, Sage, 38, 120 + viewHeight, 1000, 68, TextAnchor.MiddleCenter);
-            float y = 210 + viewHeight;
+            Label(content, "点按立体场景中的作物、设备和货架可安排经营", 27, Sage, 38, viewTop + viewHeight + 8, 1000, 68, TextAnchor.MiddleCenter);
+            float y = viewTop + viewHeight + 98;
             if (world.Region == 1)
             {
                 for (int i = 0; i < Catalog.MaxPlots; i++)
                 {
-                    int n = i; bool built = i < State.plots.Length;
-                    var b = Button(content, "", 35 + i % 3 * 341, y + i / 3 * 160, 322, 139, () => { if (n >= State.plots.Length) OpenObject("expansion", 0); else if (State.tutorial == 0) Act(Engine.HarvestFirst, "薄荷已入库，庭院开始自动种植。", true); else OpenObject("plot", n); });
+                    int n = i; bool built = i < State.plots.Length, next = i == State.plots.Length;
+                    var b = Button(content, "", 35 + i % 3 * 341, y + i / 3 * 160, 322, 139, () => { if (n == State.plots.Length) OpenObject("expansion", 0); else if (State.tutorial == 0) Act(Engine.HarvestFirst, "薄荷已入库，庭院开始自动种植。", true); else OpenObject("plot", n); }, built || next, next);
                     var label = b.GetComponentInChildren<Text>(); label.fontSize = 25;
-                    bindings.Add(() => { if (!built) label.text = "+ 扩建地块 " + (n + 1); else { var f = State.plots[n]; int crop = Math.Max(0, f.workItem >= 0 ? f.workItem : f.config); label.text = "地块 " + (n + 1) + " · " + Catalog.Crops[crop] + "\n" + (State.tutorial == 0 ? "成熟 · 点按收获" : f.remaining > 0 ? Math.Ceiling(f.remaining) + " 秒 · 生长中" : f.remaining == 0 ? "成熟 · 等待入库" : "满仓 · 等待"); } });
+                    bindings.Add(() => { if (!built) label.text = next ? "下一块 · 地块 " + (n + 1) + "\n扩建 " + Catalog.PlotCost[n] + " 金币" : "远期田位 " + (n + 1) + "\n按顺序开放"; else { var f = State.plots[n]; int crop = Math.Max(0, f.workItem >= 0 ? f.workItem : f.config); label.text = "地块 " + (n + 1) + " · " + Catalog.Crops[crop] + "\n" + (State.tutorial == 0 ? "成熟 · 点按收获" : f.remaining > 0 ? Math.Ceiling(f.remaining) + " 秒 · 生长中" : f.remaining == 0 ? "成熟 · 等待入库" : "满仓 · 等待"); } });
                 }
                 y += Mathf.CeilToInt(Catalog.MaxPlots / 3f) * 160 + 5;
             }
@@ -116,6 +165,12 @@ namespace ForestShop
             content.parent.GetComponent<ScrollRect>().onValueChanged.AddListener(v => shopPosition = v.y);
         }
         int SoldKinds() { int n = 0; foreach (var value in State.sold) if (value > 0) n++; return n; }
+        string PlotUnlockDetails(int count)
+        {
+            string condition = count == 1 ? "累计售出 " + Engine.TotalSold + "/3 件商品"
+                : (count >= 4 ? (State.sideRoom ? "侧屋已修复" : "侧屋待修复") + " · " : "") + "声望 " + State.reputation + "/" + Catalog.PlotRep[count];
+            return condition + "\n已有 " + State.coins + " / 所需 " + Catalog.PlotCost[count] + " 金币";
+        }
         void EnlargeTouch(Button button, float up, float height)
         {
             var target = button.transform.Find("Touch target") as RectTransform;
@@ -318,7 +373,7 @@ namespace ForestShop
             else
             {
                 int p = State.plots.Length, sh = State.shelves.Length;
-                if (p < Catalog.MaxPlots) Row("第 " + (p + 1) + " 块地 · 共十二块", "", 0, "扩建地块", () => Act(Engine.BuyPlot, "新的地块已开放。"), true, () => State.coins >= Catalog.PlotCost[p] && (p != 1 || Engine.TotalSold >= 3) && State.reputation >= Catalog.PlotRep[p] && (p < 4 || State.sideRoom), () => Engine.PlotRequirement + "\n已有 " + State.coins + " / 所需 " + Catalog.PlotCost[p]);
+                if (p < Catalog.MaxPlots) Row("第 " + (p + 1) + " 块地 · 共十二块", "", 0, "扩建地块", () => Act(Engine.BuyPlot, "新的地块已开放。"), true, () => State.coins >= Catalog.PlotCost[p] && (p != 1 || Engine.TotalSold >= 3) && State.reputation >= Catalog.PlotRep[p] && (p < 4 || State.sideRoom), () => PlotUnlockDetails(p));
                 if (State.machines.Length == 1) Row("修复附魔工作台", "", 11, "修复", () => Act(Engine.RepairWorkbench, "工坊亮起了新的魔法微光。"), true, () => State.reputation >= 10 && State.coins >= 260, () => "声望 10 · 已有 " + State.coins + " / 所需 260\n解锁蘑菇与萤光瓶");
                 if (sh < 4) Row("第 " + (sh + 1) + " 个货架", "", 12, "增加货架", () => Act(Engine.BuyShelf, "新的货架已开放。"), true, () => State.coins >= Catalog.ShelfCost[sh] && State.machines.Length > 1 && (sh != 2 || State.reputation >= 60) && (sh != 3 || State.sideRoom), () => (sh == 1 ? "先修复附魔台" : sh == 2 ? "声望 60" : "先修复侧屋") + "\n已有 " + State.coins + " / 所需 " + Catalog.ShelfCost[sh]);
                 if (!State.sideRoom) Row("修复侧屋", "", 14, "修复侧屋", () => Act(Engine.RepairSideRoom, "侧屋恢复了，更多经营位置已开放。"), true, () => State.reputation >= 100 && State.sales >= 15000 && State.coins >= 5000, () => "声望 " + State.reputation + "/100 · 销售额 " + State.sales + "/15000\n已有 " + State.coins + " / 所需 5000");
@@ -344,8 +399,8 @@ namespace ForestShop
         {
             StartSheet("一把树屋的旧钥匙", "welcome");
             Picture(sheetContent, "residents", 3, 5, 2, 365, 0, 320, 350); sheetY = 370;
-            Paragraph("兔子邮差：欢迎来到森林村庄！这是树洞小店的钥匙，邻居们一直盼着这里重新开张呢。\n切到庭院，点按立体地块收下成熟的月光薄荷吧。", 280, 34);
-            Row("从一杯温暖的茶开始", "种植、加工与销售在教学后会自动循环", 4, "接过钥匙", () => { State.welcomeRead = true; Save(); CloseSheet(); }); EndSheet();
+            Paragraph("兔子邮差：欢迎来到森林村庄！这是树洞小店的钥匙，邻居们一直盼着这里重新开张呢。\n接过钥匙，我们先去庭院收下成熟的月光薄荷吧。", 280, 34);
+            Row("从一杯温暖的茶开始", "种植、加工与销售在教学后会自动循环", 4, "接过钥匙", () => { State.welcomeRead = true; Save(); FocusOpeningStep(); ShowPage("小店"); }); EndSheet();
         }
         void ShowCredits()
         {
@@ -370,7 +425,7 @@ namespace ForestShop
             try
             {
                 store.ArchiveAndReset(); recovering = false; State = new GameState { utcTicks = DateTime.UtcNow.Ticks }; Engine = new Economy(State); previousSales = previousHarvests = previousCrafts = 0;
-                if (audioController == null) audioController = gameObject.AddComponent<ForestAudio>(); audioController.Apply(State); shopBuilt = false; Save(); ShowPage("小店");
+                if (audioController == null) audioController = gameObject.AddComponent<ForestAudio>(); audioController.Apply(State); shopBuilt = false; Save(); FocusOpeningStep(); ShowPage("小店"); ShowWelcome();
             }
             catch (Exception e) { Toast("无法重新开始：" + e.Message, 5); }
         }

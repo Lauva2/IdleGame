@@ -76,6 +76,7 @@ namespace ForestShop
             previousSales = State.sales;
             previousHarvests = State.harvests; previousCrafts = State.crafts;
             audioController = gameObject.AddComponent<ForestAudio>(); audioController.Apply(State);
+            FocusOpeningStep();
             ShowPage("小店");
             if (State.report.pending) ShowReport();
             else if (!State.welcomeRead) ShowWelcome();
@@ -163,11 +164,17 @@ namespace ForestShop
         }
         bool Act(Func<bool> action, string success, bool rebuild = true)
         {
+            int previousTutorial = State.tutorial;
             bool ok = action();
             if (ok)
             {
                 Save(); if (audioController != null) audioController.Cue("confirm"); Toast(success);
-                if (rebuild) { string sheet = currentSheet; int index = selectedIndex; ShowPage(currentPage); if (sheet != null) OpenObject(sheet, index); }
+                if (rebuild)
+                {
+                    if (State.tutorial != previousTutorial && State.tutorial < 4)
+                    { FocusOpeningStep(); ShowPage("小店"); }
+                    else { string sheet = currentSheet; int index = selectedIndex; ShowPage(currentPage); if (sheet != null) OpenObject(sheet, index); }
+                }
             }
             else Toast("条件尚未满足，请查看所需金币、声望或库存。", 3);
             return ok;

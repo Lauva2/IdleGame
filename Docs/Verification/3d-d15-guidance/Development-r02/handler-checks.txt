@@ -1,0 +1,24 @@
+PASS Inactive app has not opened SaveStore
+PASS UI handler exists: 接过钥匙
+PASS Welcome opens garden
+PASS UI handler exists: 收获薄荷
+PASS Harvest routes to workshop
+PASS UI handler exists: 前往坩埚
+PASS Workshop guide opens recipe sheet
+PASS UI handler exists: 循环制作
+PASS Recipe handler routes to shop
+PASS UI handler exists: 前往货架
+PASS Shop guide opens shelf sheet
+PASS UI handler exists: 选择售卖
+PASS Shelf handler arms automatic sales
+PASS In-memory simulation reaches first sale
+PASS UI handler exists: 前往委托
+PASS Completion guide opens orders
+PASS Only next bed has expansion supplies
+PASS Distant future bed remains quiet
+PASS Next bed ray opens expansion conditions
+PASS UI handler exists: 扩建地块
+PASS Actual expansion UI buys only next bed at existing cost
+PASS Far bed ray explains sequential expansion
+PASS Distant future buttons do not skip expansion order
+PASS No active app, SaveStore or normal-player persistence

@@ -40,6 +40,7 @@ namespace ForestShop
         RenderTexture fullView, closeView;
         readonly Transform[] plots = new Transform[Catalog.MaxPlots], cropModels = new Transform[Catalog.MaxPlots * 4], shelves = new Transform[4], goods = new Transform[24], machines = new Transform[2], visitors = new Transform[5];
         readonly Transform[] emptyPlots = new Transform[Catalog.MaxPlots], emptyShelves = new Transform[4];
+        readonly Transform[] nextPlotDetails = new Transform[Catalog.MaxPlots];
         readonly ForestResidentMotion[] residentMotion = new ForestResidentMotion[5];
         readonly Transform[] shoppingBags = new Transform[5];
         readonly Transform[] passageCurtains = new Transform[2];
@@ -408,7 +409,7 @@ namespace ForestShop
         }
         Transform Sign(bool fresh, Transform parent = null)
         {
-            var p = Group(parent ?? worldRoot, fresh ? "Tea party oak sign" : "Old wooden sign", V(0, 3.97f, -3.9f));
+            var p = Group(parent ?? worldRoot, fresh ? "Tea party oak sign" : "Old wooden sign", V(-2.3f, 3.45f, 2.88f));
             Box(p, "Carved wooden sign", Vector3.zero, V(2.4f, .49f, .15f), fresh ? Honey : Wood);
             for (int side = -1; side <= 1; side += 2)
             { Tube(p, "Sign chain", V(side * .8f, .1f, .03f), V(side * .8f, .5f, .03f), .022f, Gold); Ball(p, "Leaf carving", V(side * .94f, 0, -.09f), V(.2f, .3f, .035f), fresh ? Deep : Cream, V(0, 0, side * 25)); }
@@ -457,9 +458,17 @@ namespace ForestShop
                 for (int crop = 0; crop < 4; crop++) { var g = ForestModels.Crop(plots[i], crop); g.localPosition = V(0, .29f, 0); g.localScale = Vector3.one * 1.6f; cropModels[i * 4 + crop] = g; }
                 Hotspot(plots[i], "plot", i, V(0, .7f, 0), V(2.4f, 1.65f, 2));
                 emptyPlots[i] = Group(worldRoot, "Unbuilt garden bed " + i, at);
-                for (int j = 0; j < 3; j++) Box(emptyPlots[i], "Stacked timber", V((j - 1) * .2f, .14f + j * .1f, 0), V(1.3f, .12f, .25f), Honey, V(0, -j * 13, 0));
-                for (int corner = 0; corner < 4; corner++) Box(emptyPlots[i], "Future bed corner stake", V((corner % 2 == 0 ? -1 : 1) * 1.12f, .3f, (corner < 2 ? -1 : 1) * .91f), V(.07f, .34f, .07f), Wood);
-                Hotspot(emptyPlots[i], "expansion", 0, V(0, .4f, 0), V(2.4f, 1, 2)); Combine(emptyPlots[i]);
+                for (int corner = 0; corner < 4; corner++) Box(emptyPlots[i], "Quiet future bed stake", V((corner % 2 == 0 ? -1 : 1) * 1.12f, .2f, (corner < 2 ? -1 : 1) * .91f), V(.07f, .18f, .07f), Hex(0x86916B));
+                Hotspot(emptyPlots[i], "futurePlot", i, V(0, .4f, 0), V(2.4f, 1, 2)); Combine(emptyPlots[i]);
+                var next = nextPlotDetails[i] = Group(emptyPlots[i], "Next expansion supplies");
+                for (int j = 0; j < 3; j++) Box(next, "Stacked timber for next bed", V((j - 1) * .2f, .14f + j * .1f, 0), V(1.3f, .12f, .25f), Honey, V(0, -j * 13, 0));
+                for (int side = -1; side <= 1; side += 2)
+                    Box(next, "Next bed marked edge", V(side * 1.12f, .16f, 0), V(.09f, .1f, 1.9f), Honey);
+                Box(next, "Expansion notice stake", V(0, .48f, .58f), V(.08f, .72f, .09f), Wood);
+                Box(next, "Expansion notice", V(0, .8f, .55f), V(.65f, .45f, .1f), Cream);
+                Box(next, "Expansion notice plus horizontal", V(0, .8f, .485f), V(.33f, .065f, .025f), Deep);
+                Box(next, "Expansion notice plus vertical", V(0, .8f, .48f), V(.065f, .31f, .025f), Deep);
+                Combine(next);
             }
             machines[0] = ForestModels.Cauldron(worldRoot); machines[0].localPosition = V(-2.8f, 1.19f, .4f); machines[0].localScale = Vector3.one * 1.05f;
             spoon = machines[0].Find("Stirring spoon"); Hotspot(machines[0], "machine", 0, V(0, .9f, 0), V(2.4f, 2.2f, 2.2f));
@@ -520,6 +529,7 @@ namespace ForestShop
             for (int i = 0; i < Catalog.MaxPlots; i++)
             {
                 bool built = i < state.plots.Length; bool shown = Region == 0 || Region == 1; plots[i].gameObject.SetActive(built && shown); emptyPlots[i].gameObject.SetActive(!built && shown);
+                nextPlotDetails[i].gameObject.SetActive(!built && i == state.plots.Length);
                 if (!built) continue; var f = state.plots[i]; int crop = Mathf.Max(0, f.workItem >= 0 ? f.workItem : f.config);
                 for (int j = 0; j < 4; j++) cropModels[i * 4 + j].gameObject.SetActive(crop == j);
                 float growth = f.remaining > 0 ? Mathf.Clamp01(1 - (float)(f.remaining / (Catalog.CropSeconds[crop] / Catalog.Speed[f.level - 1]))) : 1;
