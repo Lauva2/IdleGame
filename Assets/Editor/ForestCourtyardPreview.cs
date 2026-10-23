@@ -13,7 +13,7 @@ namespace ForestShop.Editor
     public static class ForestCourtyardPreview
     {
         const string Pending = "ForestCourtyardPreview.Pending";
-        const string Output = "Builds/Previews/3d-d13-courtyard";
+        const string Output = "Builds/Previews/3d-d14-buildings";
         static ForestCourtyardPreview()
         {
             EditorApplication.playModeStateChanged += change =>
@@ -62,7 +62,25 @@ namespace ForestShop.Editor
                     targets.AppendLine(i + "," + uv.x.ToString("F4") + "," + uv.y.ToString("F4") + ",PASS");
                 }
                 File.WriteAllText(Output + "/garden-ray-targets.csv", "plotIndex,viewportX,viewportY,result\n" + targets);
-                world.Bind(new GameState { welcomeRead = true }); world.SetRegion(0); Shot(world, "05-new-game-clearing");
+                var facilities = new System.Text.StringBuilder("region,kind,index,viewportX,viewportY,result\n");
+                for (int region = 2; region <= 3; region++)
+                {
+                    world.SetRegion(region); Physics.SyncTransforms();
+                    foreach (var target in world.GetComponentsInChildren<ForestObject3D>())
+                    {
+                        if (target.kind != "machine" && target.kind != "warehouse" && target.kind != "shelf") continue;
+                        var box = target.GetComponent<BoxCollider>();
+                        Vector3 uv = camera.WorldToViewportPoint(box.transform.TransformPoint(box.center));
+                        string hitKind = null; int hitIndex = -1;
+                        world.Selected = (kind, index) => { hitKind = kind; hitIndex = index; };
+                        world.Pick(new Vector2(uv.x, uv.y));
+                        if (uv.x < .02f || uv.x > .98f || uv.y < .02f || uv.y > .98f || hitKind != target.kind || hitIndex != target.index)
+                            throw new Exception("Facility ray target mismatch: " + target.kind + target.index + " got " + hitKind + hitIndex);
+                        facilities.AppendLine(region + "," + target.kind + "," + target.index + "," + uv.x.ToString("F4") + "," + uv.y.ToString("F4") + ",PASS");
+                    }
+                }
+                File.WriteAllText(Output + "/facility-ray-targets.csv", facilities.ToString());
+                world.Bind(new GameState { welcomeRead = true, simpleAnimation = true }); world.SetRegion(0); Shot(world, "05-new-game-clearing");
                 string old = "Docs/Verification/3d-d12-audio02/normal-final.save";
                 if (File.Exists(old))
                 {

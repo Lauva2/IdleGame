@@ -31,10 +31,12 @@ namespace ForestShop
         public Action DoorEntered;
         Camera worldCamera, portraitCamera;
         Transform worldRoot, portraitRoot, sideClosed, sideOpen, lowerRoom, upperRoom, canopy, roof, oak, landscape, woodland;
-        Transform shopArea, workshopArea, gardenArea, workshopRoof, shopRoofCap, workshopRoofCap;
-        static readonly Vector3 ShopOrigin = V(.5f, -3.726f, 5.3f);
-        static readonly Vector3 WorkshopOrigin = V(-8.3f, 0, -7.0f);
-        static readonly Vector3 GardenOrigin = V(3, 0, -9.1f);
+        Transform shopArea, workshopArea, gardenArea, workshopRoof, shopRoofCap, workshopRoofCap, workshopFrontBeam;
+        static readonly Vector3 ShopOrigin = V(-.2f, -3.726f, 8.2f);
+        static readonly Vector3 WorkshopOrigin = V(-11, 0, -7.5f);
+        static readonly Vector3 GardenOrigin = V(4.5f, 0, -10.1f);
+        const float ShopDoorX = -5, ShopLaneZ = -2.6f;
+        static float ShelfX(int index) => -2.8f + index * 2.35f;
         RenderTexture fullView, closeView;
         readonly Transform[] plots = new Transform[Catalog.MaxPlots], cropModels = new Transform[Catalog.MaxPlots * 4], shelves = new Transform[4], goods = new Transform[24], machines = new Transform[2], visitors = new Transform[5];
         readonly Transform[] emptyPlots = new Transform[Catalog.MaxPlots], emptyShelves = new Transform[4];
@@ -89,8 +91,8 @@ namespace ForestShop
             View = region == 0 ? fullView : closeView; worldCamera.targetTexture = View;
             Vector3 focus = region == 1 ? gardenArea.TransformPoint(V(0, .4f, .05f))
                 : region == 2 ? workshopArea.TransformPoint(V(0, 2.4f, -.2f))
-                : region == 3 ? shopArea.TransformPoint(V(.55f, 5.7f, .1f)) : transform.position + V(-2.0f, 2.2f, -2.7f);
-            worldCamera.orthographicSize = region == 0 ? 16.4f : region == 1 ? 7.1f : region == 2 ? 6.25f : 6.85f;
+                : region == 3 ? shopArea.TransformPoint(V(.55f, 5.7f, .1f)) : transform.position + V(-4, 2.2f, -1.5f);
+            worldCamera.orthographicSize = region == 0 ? 20 : region == 1 ? 7.1f : region == 2 ? 6.25f : 6.85f;
             worldCamera.transform.position = focus + (region == 0 ? V(3.5f, 25, -33) : region == 1 ? V(.7f, 18, -15) : V(2, 7, -18));
             worldCamera.transform.LookAt(focus);
             workshopArea.gameObject.SetActive(region == 0 || region == 2);
@@ -106,6 +108,7 @@ namespace ForestShop
             if (workshopRoof != null) workshopRoof.gameObject.SetActive(region == 0);
             if (shopRoofCap != null) shopRoofCap.gameObject.SetActive(region == 3);
             if (workshopRoofCap != null) workshopRoofCap.gameObject.SetActive(region == 2);
+            if (workshopFrontBeam != null) workshopFrontBeam.gameObject.SetActive(region == 0);
             if (state != null) Bind(state);
             if (region == 2 || region == 3) FitArea(region == 2 ? workshopArea : shopArea);
         }
@@ -132,7 +135,7 @@ namespace ForestShop
         void BuildArchitecture()
         {
             var s = landscape = Group(worldRoot, "Forest garden ground");
-            Shape(s, "Broad forest courtyard clearing", Lathe(new[] { new Vector2(0, -.7f), new Vector2(5.6f, -.7f), new Vector2(6.7f, -.3f), new Vector2(6.9f, 0), new Vector2(6.7f, .12f), new Vector2(0, .12f) }, 64), V(-1.7f, 0, -3), V(1.96f, 1, 2.45f), Hex(0x90A477));
+            Shape(s, "Broad forest courtyard clearing", Lathe(new[] { new Vector2(0, -.7f), new Vector2(5.6f, -.7f), new Vector2(6.7f, -.3f), new Vector2(6.9f, 0), new Vector2(6.7f, .12f), new Vector2(0, .12f) }, 64), V(-3.6f, 0, -1.8f), V(2.5f, 1, 3), Hex(0x90A477));
             oak = Group(worldRoot, "Living oak trunk and boughs");
             Sculpture(oak, "Continuous curved oak with spreading roots", "OakTrunk", Vector3.zero, Vector3.one, Color.white);
             canopy = Group(worldRoot, "Oak leaf canopy");
@@ -141,7 +144,7 @@ namespace ForestShop
             LeafRelief(canopy, Vector3.zero, Vector3.one, Color.white);
             woodland = Group(worldRoot, "Woodland edge behind the shop");
             // Different age, lean and crown proportion establish a small grove.
-            Vector3[] treeAt = { V(-10, .05f, 6.5f), V(8.4f, .05f, 6.8f), V(-6.8f, .05f, 9.5f), V(5.5f, .05f, 10.8f) };
+            Vector3[] treeAt = { V(-13.5f, .05f, 9.5f), V(10.8f, .05f, 9.8f), V(-8.8f, .05f, 13), V(6.2f, .05f, 14) };
             Vector3[] treeScale = { V(.32f, .35f, .34f), V(.35f, .32f, .35f), V(.28f, .44f, .30f), V(.26f, .40f, .28f) };
             for (int i = 0; i < treeAt.Length; i++)
             {
@@ -154,89 +157,118 @@ namespace ForestShop
             {
                 var room = Group(worldRoot, floor == 0 ? "Workshop cutaway" : "Shop cutaway"); if (floor == 0) lowerRoom = room; else upperRoom = room;
                 float y = 1.1f + floor * 3.45f;
-                Box(room, "Floor shadow beam", V(0, y - .18f, -.05f), V(8.9f, .4f, 4.7f), DarkWood);
-                for (int plank = 0; plank < 17; plank++) Box(room, "Honey oak floorboard", V(-4.16f + plank * .52f, y, -.03f), V(.505f, .15f, 4.6f), plank % 3 == 0 ? Honey : Hex(0xBE8C58));
-                if (floor == 0) Box(room, "Cream rear wall", V(0, y + 1.55f, 2.18f), V(8.5f, 3, .2f), Cream);
+                Box(room, "Floor shadow beam", V(0, y - .18f, -.3f), V(12.5f, .4f, 7.3f), DarkWood);
+                for (int plank = 0; plank < 24; plank++) Box(room, "Honey oak floorboard", V(-5.98f + plank * .52f, y, -.3f), V(.505f, .15f, 7.2f), plank % 3 == 0 ? Honey : Hex(0xBE8C58));
+                if (floor == 0) Box(room, "Cream rear wall", V(0, y + 1.55f, 3.18f), V(12.1f, 3, .2f), Cream);
                 else
                 {
-                    Box(room, "Shop rear wall beside passage", V(.58f, y + 1.55f, 2.18f), V(7.34f, 3, .2f), Cream);
-                    Box(room, "Passage lintel wall", V(-3.7f, y + 2.7f, 2.18f), V(1.15f, .7f, .2f), Cream);
-                    Box(room, "Passage floor continues behind curtain", V(-3.7f, y, 3.75f), V(1.5f, .15f, 3.4f), Wood);
-                    Box(room, "Shaded passage rear", V(-3.7f, y + 1.2f, 5.4f), V(1.5f, 2.4f, .15f), DarkWood);
+                    Box(room, "Shop rear wall beside passage", V(.825f, y + 1.55f, 3.18f), V(10.5f, 3, .2f), Cream);
+                    Box(room, "Shop wall left of passage", V(-5.9f, y + 1.55f, 3.18f), V(.65f, 3, .2f), Cream);
+                    Box(room, "Passage lintel wall", V(ShopDoorX, y + 2.7f, 3.18f), V(1.15f, .7f, .2f), Cream);
+                    Box(room, "Passage floor continues behind curtain", V(ShopDoorX, y, 4.8f), V(1.5f, .15f, 3.4f), Wood);
+                    Box(room, "Shaded passage rear", V(ShopDoorX, y + 1.2f, 6.45f), V(1.5f, 2.4f, .15f), DarkWood);
                     for (int side = -1; side <= 1; side += 2)
-                        Box(room, "Passage side wall", V(-3.7f + side * .74f, y + 1.2f, 3.75f), V(.16f, 2.4f, 3.4f), Cream);
+                        Box(room, "Passage side wall", V(ShopDoorX + side * .74f, y + 1.2f, 4.8f), V(.16f, 2.4f, 3.4f), Cream);
                     // Moving panels stay outside the static room mesh batch.
                     for (int side = 0; side < 2; side++)
                     {
-                        var panel = passageCurtains[side] = Group(worldRoot, "Parting linen panel " + side, V(-3.7f, y + 2.08f, 2.02f));
+                        var panel = passageCurtains[side] = Group(worldRoot, "Parting linen panel " + side, V(ShopDoorX, y + 2.08f, 3.02f));
                         for (int fold = 0; fold < 5; fold++)
                             Ball(panel, "Soft hanging linen fold", V((side == 0 ? -1 : 1) * (.055f + fold * .116f), -1.04f, 0), V(.16f, 2.06f, .12f), fold % 2 == 0 ? Deep : Leaf);
                         Combine(panel);
                     }
-                    Tube(room, "Passage curtain rail", V(-4.27f, y + 2.16f, 2), V(-3.08f, y + 2.16f, 2), .055f, Honey);
-                    Box(room, "Doorway threshold", V(-3.7f, y + .09f, 2.07f), V(1.2f, .09f, .45f), Honey);
+                    Tube(room, "Passage curtain rail", V(ShopDoorX - .57f, y + 2.16f, 3), V(ShopDoorX + .62f, y + 2.16f, 3), .055f, Honey);
+                    Box(room, "Doorway threshold", V(ShopDoorX, y + .09f, 3.07f), V(1.2f, .09f, .45f), Honey);
                 }
-                for (int i = -2; i <= 2; i++)
-                    if (floor == 0 || i != -2) Box(room, "Timber wall upright", V(i * 1.95f, y + 1.55f, 2.02f), V(.13f, 3.2f, .19f), Wood);
-                Box(room, "Rear horizontal timber", V(0, y + 2.87f, 2), V(8.6f, .18f, .22f), Wood);
+                for (int i = -3; i <= 3; i++)
+                    Box(room, "Timber wall upright", V(i * 2, y + 1.55f, 3.02f), V(.13f, 3.2f, .19f), Wood);
+                Box(room, "Rear horizontal timber", V(0, y + 2.87f, 3), V(12.3f, .18f, .22f), Wood);
                 for (int side = -1; side <= 1; side += 2)
                 {
-                    Box(room, "Side cutaway wall", V(side * 4.3f, y + .56f, .4f), V(.17f, 1.1f, 3.7f), Cream);
-                    Box(room, "Front support post", V(side * 4.27f, y + 1.5f, -1.9f), V(.23f, 3.2f, .25f), DarkWood);
-                    Tube(room, "Curved corner brace", V(side * 4.25f, y + 2.85f, -1.9f), V(side * 3.4f, y + 3.25f, -1.9f), .12f, Wood);
+                    Box(room, "Side cutaway wall", V(side * 6.1f, y + .56f, -.15f), V(.17f, 1.1f, 6.6f), Cream);
+                    Box(room, "Front support post", V(side * 6.07f, y + 1.5f, -3.48f), V(.23f, 3.2f, .25f), DarkWood);
+                    Tube(room, "Curved corner brace", V(side * 6.05f, y + 2.85f, -3.48f), V(side * 5.2f, y + 3.25f, -3.48f), .12f, Wood);
                 }
-                Window(room, V(floor == 0 ? -2.5f : 0, y + 1.7f, 1.86f));
-                Box(room, "Floor fascia", V(0, y - .22f, -2.32f), V(9.1f, .23f, .21f), Honey);
-                for (int i = 0; i < 12; i++)
+                Window(room, V(floor == 0 ? -3.6f : 1, y + 1.7f, 2.86f));
+                Box(room, "Floor fascia", V(0, y - .22f, -3.92f), V(12.65f, .23f, .21f), Honey);
+                for (int i = 0; i < 16; i++)
                 {
-                    float x = -4.2f + i * .76f;
-                    Ball(room, "Trailing ivy leaf", V(x, y - .39f - (i % 3) * .11f, -2.39f), V(.24f, .37f, .08f), i % 2 == 0 ? Leaf : Moss, V(0, 0, i % 2 == 0 ? 28 : -28));
+                    float x = -5.95f + i * .79f;
+                    Ball(room, "Trailing ivy leaf", V(x, y - .39f - (i % 3) * .11f, -3.99f), V(.24f, .37f, .08f), i % 2 == 0 ? Leaf : Moss, V(0, 0, i % 2 == 0 ? 28 : -28));
                 }
-                if (floor == 0) Box(room, "Front ceiling beam", V(0, y + 3.1f, -2.12f), V(8.7f, .17f, .19f), Wood);
+                if (floor == 0) workshopFrontBeam = Box(worldRoot, "Front ceiling beam", V(0, y + 3.1f, -3.68f), V(12.3f, .17f, .19f), Wood);
                 Combine(room);
             }
             // Scalloped green tiled canopy over the open dollhouse frontage.
             roof = Group(worldRoot, "Moss glazed roof");
-            for (int row = 0; row < 5; row++) for (int col = 0; col < 18; col++)
-                Box(roof, "Overlapping leaf roof tile", V(-4.45f + col * .52f + row % 2 * .13f, 8.6f - row * .17f + Mathf.Sin(col * 1.7f) * .012f, 1.72f - row * .66f), V(.57f, .11f, .85f), (row * 13 + col * 7) % 5 == 0 ? Hex(0x53745A) : (row + col * 3) % 4 == 0 ? Hex(0x486B54) : Deep, V(-14, 0, col % 3 - 1));
-            Tube(roof, "Roof copper ridge", V(-4.7f, 8.72f, 2), V(4.7f, 8.72f, 2), .11f, Copper); Combine(roof);
+            for (int row = 0; row < 4; row++) for (int col = 0; col < 25; col++)
+                Box(roof, "Overlapping leaf roof tile", V(-6.4f + col * .52f + row % 2 * .13f, 8.6f - row * .11f + Mathf.Sin(col * 1.7f) * .012f, 3.2f - row * .85f), V(.57f, .11f, .98f), (row * 13 + col * 7) % 5 == 0 ? Hex(0x53745A) : (row + col * 3) % 4 == 0 ? Hex(0x486B54) : Deep, V(-8, 0, col % 3 - 1));
+            Tube(roof, "Roof copper ridge", V(-6.65f, 8.72f, 3.5f), V(6.65f, 8.72f, 3.5f), .11f, Copper); Combine(roof);
             CourtyardPaths(s);
             for (int i = 0; i < 8; i++)
             {
-                var a = V(-4.65f + i * 1.32f, 7.65f + Mathf.Abs(i - 3.5f) * .09f, -2.08f);
-                if (i < 7) Tube(upperRoom, "Tea party light cord", a, V(a.x + 1.32f, 7.65f + Mathf.Abs(i + 1 - 3.5f) * .09f, a.z), .018f, DarkWood);
+                var a = V(-6.0f + i * 1.7f, 7.65f + Mathf.Abs(i - 3.5f) * .09f, -3.48f);
+                if (i < 7) Tube(upperRoom, "Tea party light cord", a, V(a.x + 1.7f, 7.65f + Mathf.Abs(i + 1 - 3.5f) * .09f, a.z), .018f, DarkWood);
                 Ball(upperRoom, "Warm lantern", a + V(0, -.16f, 0), V(.15f, .21f, .15f), Gold);
             }
-            ForestModels.Pot(lowerRoom, V(-3.7f, 1.18f, -1.65f), 1.15f, false);
-            ForestModels.Pot(upperRoom, V(3.7f, 4.63f, 1.1f), 1.1f, false);
-            Box(lowerRoom, "Warehouse chest", V(3.65f, 1.59f, -.84f), V(1.03f, .78f, .7f), Wood);
-            Box(lowerRoom, "Chest lid", V(3.65f, 2.03f, -.84f), V(1.09f, .16f, .76f), Honey);
-            Box(lowerRoom, "Brass chest latch", V(3.65f, 1.84f, -1.21f), V(.13f, .2f, .035f), Gold);
-            Hotspot(lowerRoom, "warehouse", 0, V(3.65f, 1.65f, -.84f), V(1.4f, 1.1f, 1.1f));
+            ForestModels.Pot(lowerRoom, V(-5.4f, 1.18f, -3.1f), 1.15f, false);
+            ForestModels.Pot(upperRoom, V(5.4f, 4.63f, 2.1f), 1.1f, false);
+            Box(lowerRoom, "Warehouse chest", V(5.15f, 1.59f, .25f), V(1.03f, .78f, .7f), Wood);
+            Box(lowerRoom, "Chest lid", V(5.15f, 2.03f, .25f), V(1.09f, .16f, .76f), Honey);
+            Box(lowerRoom, "Brass chest latch", V(5.15f, 1.84f, -.12f), V(.13f, .2f, .035f), Gold);
+            Hotspot(lowerRoom, "warehouse", 0, V(5.15f, 1.65f, .25f), V(1.4f, 1.1f, 1.1f));
+            WorkshopStorage();
             Combine(s);
             sideClosed = Annex(false); sideOpen = Annex(true);
             curtainPlain = Curtains(false); curtainLeaves = Curtains(true);
             matPlain = Rug(false); matBread = Rug(true);
             signOld = Sign(false); signNew = Sign(true);
             potPlain = Planter(false); potFlowers = Planter(true);
-            Hotspot(worldRoot, "decoration", 0, V(4.6f, .65f, -2.2f), V(1.1f, 1.4f, 1.1f));
+            Hotspot(worldRoot, "decoration", 0, V(6.45f, .65f, -3.7f), V(1.1f, 1.4f, 1.1f));
+        }
+        void WorkshopStorage()
+        {
+            var cabinet = Group(lowerRoom, "Material preparation cabinet", V(.1f, 1.19f, 2.5f));
+            Box(cabinet, "Cabinet body", V(0, .55f, 0), V(1.8f, 1.1f, .7f), Wood);
+            Box(cabinet, "Preparation top", V(0, 1.14f, -.03f), V(1.94f, .15f, .85f), Honey);
+            for (int i = 0; i < 2; i++)
+            {
+                Box(cabinet, "Supply drawer", V(0, .3f + i * .47f, -.37f), V(1.64f, .39f, .06f), Honey);
+                Ring(cabinet, "Drawer pull", V(0, .31f + i * .47f, -.43f), .075f, .018f, Gold, V(90, 0, 0));
+            }
+            for (int i = 0; i < 3; i++)
+            {
+                var jar = ForestModels.Product(cabinet, i == 0 ? 0 : 2);
+                jar.localPosition = V(-.58f + i * .58f, 1.23f, -.08f); jar.localScale = Vector3.one * .65f;
+            }
+            Combine(cabinet);
+            var tools = Group(lowerRoom, "Wall preparation tools", V(2.5f, 3.15f, 2.88f));
+            Box(tools, "Tool rail", Vector3.zero, V(2.3f, .13f, .1f), Honey);
+            for (int i = 0; i < 3; i++)
+            {
+                float x = -.75f + i * .75f;
+                Tube(tools, "Hanging wooden spoon", V(x, -.1f, -.08f), V(x, -.65f, -.08f), .045f, Wood);
+                Ball(tools, "Spoon bowl", V(x, -.75f, -.08f), V(.22f, .3f, .07f), Honey);
+            }
+            Combine(tools);
         }
         void CourtyardPaths(Transform ground)
         {
             foreach (var origin in new[] { V(ShopOrigin.x, 0, ShopOrigin.z), WorkshopOrigin })
                 for (int step = 0; step < 4; step++)
-                    Box(ground, "Independent porch step", origin + V(-.65f, .2f + step * .22f, -2.65f + step * .3f), V(2.7f - step * .15f, .22f, .48f), Hex(0xAEAE98));
-            StonePath(ground, V(-.2f, .14f, 2.4f), V(-2.4f, .14f, .5f), 6);
-            StonePath(ground, V(-2.4f, .14f, .5f), V(-2.4f, .14f, -14.3f), 28);
-            StonePath(ground, V(-2.4f, .14f, -10.6f), V(-8.95f, .14f, -10.6f), 14);
-            StonePath(ground, V(-8.95f, .14f, -10.6f), V(-8.95f, .14f, -9.65f), 2);
-            StonePath(ground, V(-2.4f, .14f, -6.4f), V(6.8f, .14f, -6.4f), 19);
-            StonePath(ground, V(-2.4f, .14f, -11.8f), V(6.8f, .14f, -11.8f), 19);
+                    Box(ground, "Independent porch step", origin + V(-.65f, .2f + step * .22f, -4.7f + step * .3f), V(3.2f - step * .15f, .22f, .48f), Hex(0xAEAE98));
+            StonePath(ground, V(-.85f, .14f, 3.5f), V(-2.2f, .14f, 1.1f), 6);
+            StonePath(ground, V(-2.2f, .14f, 1.1f), V(-2.2f, .14f, -15.3f), 31);
+            StonePath(ground, V(-11.65f, .14f, -12.2f), V(-11.65f, .14f, -12.8f), 1);
+            StonePath(ground, V(-11.65f, .14f, -12.8f), V(-2.2f, .14f, -12.8f), 18);
+            StonePath(ground, V(-2.2f, .14f, -7.4f), V(8.3f, .14f, -7.4f), 21);
+            StonePath(ground, V(-2.2f, .14f, -12.8f), V(8.3f, .14f, -12.8f), 21);
             for (int i = 0; i < 34; i++)
             {
-                float a = i * 2.39996f; var at = V(-1.7f + Mathf.Sin(a) * 12.1f, .14f, -3 + Mathf.Cos(a) * 14.7f);
-                if (at.x > -2 && at.x < 9 && at.z > -15.5f && at.z < -3.4f) continue;
-                if (at.x > -14.2f && at.x < -2.2f && at.z > -11.3f && at.z < -3.2f) continue;
+                float a = i * 2.39996f; var at = V(-3.6f + Mathf.Sin(a) * 15.5f, .14f, -1.8f + Mathf.Cos(a) * 18.9f);
+                if (at.x > -1 && at.x < 11 && at.z > -17 && at.z < -3.5f) continue;
+                if (at.x > -19 && at.x < -3 && at.z > -13 && at.z < -3) continue;
+                if (at.x > -8 && at.x < 10 && at.z > 3 && at.z < 16) continue;
                 Ball(ground, "Clearing edge shrub", at + V(0, .2f, 0), V(.85f + i % 3 * .14f, .65f, .85f), i % 2 == 0 ? Leaf : Moss);
                 if (i % 3 == 0) ForestModels.Flower(ground, at + V(.16f, .61f, -.08f), .11f, Cream);
                 for (int j = 0; j < 3; j++) Shape(ground, "Forest floor fern", OakLeaf(), at + V((j - 1) * .14f, .05f, -.5f), V(.3f, .4f, .7f), Deep, V(-35, i * 27 + j * 55, 0));
@@ -258,13 +290,14 @@ namespace ForestShop
         }
         void ArrangeForestCourtyard()
         {
-            // Keep facility-local coordinates and animation paths together when
-            // moving each business into its own building. Save indices stay put.
+            // Furniture and residents retain their proportions; the room shell
+            // and individual positions provide the extra floor space.
             workshopArea = Group(worldRoot, "Independent magic workshop", WorkshopOrigin);
             shopArea = Group(worldRoot, "Treehouse village shop", ShopOrigin);
             workshopArea.localScale = shopArea.localScale = Vector3.one * 1.08f;
             gardenArea = Group(worldRoot, "Twelve-bed woodland garden", GardenOrigin);
             MoveToArea(lowerRoom, workshopArea);
+            MoveToArea(workshopFrontBeam, workshopArea);
             foreach (var t in machines) MoveToArea(t, workshopArea);
             foreach (var t in new[] { curtainPlain, curtainLeaves, matPlain, matBread }) MoveToArea(t, workshopArea);
             MoveToArea(upperRoom, shopArea); MoveToArea(roof, shopArea);
@@ -275,18 +308,18 @@ namespace ForestShop
             foreach (var t in new[] { sideClosed, sideOpen, signOld, signNew, potPlain, potFlowers }) MoveToArea(t, shopArea, 3.45f);
             MoveToArea(worldRoot.Find("Touch decoration0"), shopArea, 3.45f);
             for (int i = 0; i < Catalog.MaxPlots; i++) { MoveToArea(plots[i], gardenArea); MoveToArea(emptyPlots[i], gardenArea); }
-            var livingTree = Group(worldRoot, "Shop's sheltering oak", V(ShopOrigin.x, 0, ShopOrigin.z + .8f));
+            var livingTree = Group(worldRoot, "Shop's sheltering oak", V(ShopOrigin.x + 1, 0, ShopOrigin.z + 5.5f));
             livingTree.localScale = Vector3.one * .72f;
             MoveToArea(oak, livingTree); MoveToArea(canopy, livingTree);
             workshopRoof = Group(workshopArea, "Workshop honey tiled roof");
-            for (int row = 0; row < 5; row++) for (int col = 0; col < 18; col++)
-                Box(workshopRoof, "Warm clay roof tile", V(-4.45f + col * .52f + row % 2 * .13f, 5.15f - row * .17f, 1.72f - row * .66f), V(.57f, .11f, .85f), (row + col) % 4 == 0 ? Hex(0xAB7651) : Hex(0x99734E), V(-14, 0, col % 3 - 1));
-            Tube(workshopRoof, "Workshop roof ridge", V(-4.7f, 5.27f, 2), V(4.7f, 5.27f, 2), .10f, Copper); Combine(workshopRoof);
+            for (int row = 0; row < 4; row++) for (int col = 0; col < 25; col++)
+                Box(workshopRoof, "Warm clay roof tile", V(-6.4f + col * .52f + row % 2 * .13f, 5.15f - row * .11f, 3.2f - row * .85f), V(.57f, .11f, .98f), (row + col) % 4 == 0 ? Hex(0xAB7651) : Hex(0x99734E), V(-8, 0, col % 3 - 1));
+            Tube(workshopRoof, "Workshop roof ridge", V(-6.65f, 5.27f, 3.5f), V(6.65f, 5.27f, 3.5f), .10f, Copper); Combine(workshopRoof);
             shopRoofCap = RoofCap(shopArea, "Shop cutaway rear roof", 8.6f, false);
             workshopRoofCap = RoofCap(workshopArea, "Workshop cutaway rear roof", 5.15f, true);
             var supplies = Group(workshopArea, "Workshop outdoor supplies");
-            ForestModels.Pot(supplies, V(-4.8f, .16f, -1.8f), 1.25f, false);
-            for (int i = 0; i < 4; i++) Box(supplies, "Stacked supply crate", V(4.55f, .4f + i / 2 * .58f, -1.5f + i % 2 * .7f), V(.75f, .56f, .63f), i % 2 == 0 ? Honey : Wood);
+            ForestModels.Pot(supplies, V(-6.65f, .16f, -3.1f), 1.25f, false);
+            for (int i = 0; i < 4; i++) Box(supplies, "Stacked supply crate", V(6.5f, .4f + i / 2 * .58f, -2.8f + i % 2 * .7f), V(.75f, .56f, .63f), i % 2 == 0 ? Honey : Wood);
             Combine(supplies);
             GardenBorders();
             Physics.SyncTransforms();
@@ -294,10 +327,10 @@ namespace ForestShop
         Transform RoofCap(Transform parent, string name, float height, bool clay)
         {
             var cap = Group(parent, name);
-            for (int row = 0; row < 2; row++) for (int col = 0; col < 18; col++)
-                Box(cap, "Rear eave tile", V(-4.45f + col * .52f + row % 2 * .13f, height - row * .17f, 1.72f - row * .66f), V(.57f, .11f, .85f), clay ? (col % 4 == 0 ? Hex(0xAB7651) : Hex(0x99734E)) : (col % 4 == 0 ? Hex(0x53745A) : Deep), V(-14, 0, col % 3 - 1));
-            Box(cap, "Timber eave apron joins wall to rear roof", V(0, height - .57f, 1.97f), V(8.6f, 1.12f, .19f), Wood);
-            Tube(cap, "Rear roof ridge", V(-4.7f, height + .12f, 2), V(4.7f, height + .12f, 2), .10f, Copper); Combine(cap); return cap;
+            for (int row = 0; row < 2; row++) for (int col = 0; col < 25; col++)
+                Box(cap, "Rear eave tile", V(-6.4f + col * .52f + row % 2 * .13f, height - row * .11f, 3.2f - row * .85f), V(.57f, .11f, .98f), clay ? (col % 4 == 0 ? Hex(0xAB7651) : Hex(0x99734E)) : (col % 4 == 0 ? Hex(0x53745A) : Deep), V(-8, 0, col % 3 - 1));
+            Box(cap, "Timber eave apron joins wall to rear roof", V(0, height - .57f, 3.17f), V(12.3f, 1.12f, .19f), Wood);
+            Tube(cap, "Rear roof ridge", V(-6.65f, height + .12f, 3.5f), V(6.65f, height + .12f, 3.5f), .10f, Copper); Combine(cap); return cap;
         }
         void GardenBorders()
         {
@@ -342,7 +375,7 @@ namespace ForestShop
         }
         Transform Annex(bool restored)
         {
-            var a = Group(worldRoot, restored ? "Restored side room" : "Boarded side room", V(5, 1.3f, .9f));
+            var a = Group(worldRoot, restored ? "Restored side room" : "Boarded side room", V(6.85f, 1.3f, 1.9f));
             Box(a, "Annex wall", V(0, 1.08f, 0), V(1.45f, 2.2f, 1.75f), restored ? Cream : DarkWood);
             for (int i = 0; i < 4; i++) Box(a, "Annex shingle", V(0, 2.32f + i * .12f, -.6f + i * .4f), V(1.8f, .14f, .62f), restored ? Deep : Wood, V(-16, 0, 0));
             if (restored) { Window(a, V(0, 1.1f, -.91f)); ForestModels.Pot(a, V(0, .15f, -1.1f), .75f, true); }
@@ -351,7 +384,7 @@ namespace ForestShop
         }
         Transform Curtains(bool leaves, Transform parent = null)
         {
-            var p = Group(parent ?? worldRoot, leaves ? "Leaf patterned curtains" : "Linen curtains", V(-2.5f, 2.8f, 1.6f));
+            var p = Group(parent ?? worldRoot, leaves ? "Leaf patterned curtains" : "Linen curtains", V(-3.6f, 2.8f, 2.6f));
             Tube(p, "Curtain rail", V(-1.2f, 1.05f, 0), V(1.2f, 1.05f, 0), .045f, Honey);
             for (int side = -1; side <= 1; side += 2) for (int i = 0; i < 5; i++)
             {
@@ -363,7 +396,7 @@ namespace ForestShop
         }
         Transform Rug(bool bread, Transform parent = null)
         {
-            var p = Group(parent ?? worldRoot, bread ? "Bread rug" : "Jute mat", V(0, 1.2f, -.95f));
+            var p = Group(parent ?? worldRoot, bread ? "Bread rug" : "Jute mat", V(0, 1.2f, -2.55f));
             Ball(p, "Woven rug", Vector3.zero, V(2.6f, .04f, 1.2f), bread ? Hex(0xBC8A52) : Hex(0xB2A17B));
             for (int i = 0; i < 11; i++) Tube(p, "Rug weave", V(-1.1f, .025f, -.45f + i * .09f), V(1.1f, .025f, -.45f + i * .09f), .009f, Cream);
             if (bread)
@@ -375,7 +408,7 @@ namespace ForestShop
         }
         Transform Sign(bool fresh, Transform parent = null)
         {
-            var p = Group(parent ?? worldRoot, fresh ? "Tea party oak sign" : "Old wooden sign", V(0, 3.97f, -2.4f));
+            var p = Group(parent ?? worldRoot, fresh ? "Tea party oak sign" : "Old wooden sign", V(0, 3.97f, -3.9f));
             Box(p, "Carved wooden sign", Vector3.zero, V(2.4f, .49f, .15f), fresh ? Honey : Wood);
             for (int side = -1; side <= 1; side += 2)
             { Tube(p, "Sign chain", V(side * .8f, .1f, .03f), V(side * .8f, .5f, .03f), .022f, Gold); Ball(p, "Leaf carving", V(side * .94f, 0, -.09f), V(.2f, .3f, .035f), fresh ? Deep : Cream, V(0, 0, side * 25)); }
@@ -394,7 +427,7 @@ namespace ForestShop
         }
         Transform Planter(bool flowers, Transform parent = null)
         {
-            var p = ForestModels.Pot(parent ?? worldRoot, V(4.6f, .13f, -2.2f), flowers ? 1.65f : 1.4f, flowers);
+            var p = ForestModels.Pot(parent ?? worldRoot, V(6.45f, .13f, -3.7f), flowers ? 1.65f : 1.4f, flowers);
             if (flowers)
             {
                 Ring(p, "Cream planter band", V(0, .36f, 0), .323f, .035f, Cream);
@@ -428,12 +461,12 @@ namespace ForestShop
                 for (int corner = 0; corner < 4; corner++) Box(emptyPlots[i], "Future bed corner stake", V((corner % 2 == 0 ? -1 : 1) * 1.12f, .3f, (corner < 2 ? -1 : 1) * .91f), V(.07f, .34f, .07f), Wood);
                 Hotspot(emptyPlots[i], "expansion", 0, V(0, .4f, 0), V(2.4f, 1, 2)); Combine(emptyPlots[i]);
             }
-            machines[0] = ForestModels.Cauldron(worldRoot); machines[0].localPosition = V(-1.65f, 1.19f, .2f); machines[0].localScale = Vector3.one * 1.05f;
+            machines[0] = ForestModels.Cauldron(worldRoot); machines[0].localPosition = V(-2.8f, 1.19f, .4f); machines[0].localScale = Vector3.one * 1.05f;
             spoon = machines[0].Find("Stirring spoon"); Hotspot(machines[0], "machine", 0, V(0, .9f, 0), V(2.4f, 2.2f, 2.2f));
-            machines[1] = ForestModels.Bench(worldRoot); machines[1].localPosition = V(1.35f, 1.19f, .3f); Hotspot(machines[1], "machine", 1, V(0, .8f, 0), V(2.3f, 1.8f, 1.3f));
+            machines[1] = ForestModels.Bench(worldRoot); machines[1].localPosition = V(2.0f, 1.19f, .8f); Hotspot(machines[1], "machine", 1, V(0, .8f, 0), V(2.3f, 1.8f, 1.3f));
             for (int i = 0; i < 4; i++)
             {
-                var at = V(-2.7f + i * 1.8f, 4.64f, .6f);
+                var at = V(ShelfX(i), 4.64f, 1.5f);
                 shelves[i] = ForestModels.Shelf(worldRoot); shelves[i].localPosition = at;
                 Hotspot(shelves[i], "shelf", i, V(0, .8f, 0), V(1.4f, 1.8f, 1));
                 for (int j = 0; j < 6; j++)
@@ -451,14 +484,14 @@ namespace ForestShop
             }
             for (int i = 0; i < 5; i++)
             {
-                visitors[i] = ForestModels.Resident(worldRoot, i); visitors[i].localPosition = V(-2.8f + i * 1.3f, 4.64f, -1.15f); visitors[i].localScale = Vector3.one * .62f; residentMotion[i] = visitors[i].GetComponent<ForestResidentMotion>();
+                visitors[i] = ForestModels.Resident(worldRoot, i); visitors[i].localPosition = V(-4.8f + i * 2.4f, 4.64f, ShopLaneZ); visitors[i].localScale = Vector3.one * .62f; residentMotion[i] = visitors[i].GetComponent<ForestResidentMotion>();
                 var bag = shoppingBags[i] = Group(residentMotion[i].rightArm, "Purchased goods bag", V(0, -.53f, -.19f));
                 bag.localScale = Vector3.one * 1.35f;
                 Box(bag, "Paper bag", V(0, -.1f, 0), V(.31f, .38f, .23f), Cream);
                 Ring(bag, "Paper handle", V(0, .12f, 0), .11f, .018f, Wood, V(90, 0, 0));
                 Shape(bag, "Shop leaf seal", OakLeaf(), V(0, -.08f, -.124f), V(.22f, .3f, .2f), Leaf, V(90, 0, 0)); Combine(bag);
             }
-            var checkout = Group(upperRoom, "Little checkout desk", V(-3.15f, 4.64f, -.52f));
+            var checkout = Group(upperRoom, "Little checkout desk", V(-3.7f, 4.64f, -1.2f));
             Box(checkout, "Rounded counter body", V(0, .39f, 0), V(1.05f, .78f, .78f), Wood);
             Box(checkout, "Countertop", V(0, .82f, 0), V(1.18f, .13f, .91f), Honey);
             Box(checkout, "Sales ledger", V(-.2f, .93f, 0), V(.38f, .08f, .36f), Deep);
@@ -512,15 +545,15 @@ namespace ForestShop
             float doorOpening = 0;
             for (int i = 0; i < 5; i++)
             {
-                // A single visitor uses the narrow shop aisle at a time. Every
+                // A single visitor uses the entrance aisle at a time. Every
                 // known resident takes a turn, avoiding intersecting waiting poses.
                 int knownCount = Mathf.Min(5, state.stories + 1);
                 float cycle = knownCount * 34, phase = (Time.unscaledTime - visitEpoch + cycle - i * 34) % cycle;
                 bool simple = state.simpleAnimation, known = i < Mathf.Min(5, state.stories + 1);
                 visitors[i].gameObject.SetActive(known && (Region == 0 || Region == 3) && (simple || phase < 33.7f));
                 if (!known) continue;
-                float shelfX = -2.7f + i % state.shelves.Length * 1.8f, lane = -1.5f;
-                Vector3 entrance = V(-3.7f, 4.64f, 4.85f), entryLane = V(-3.7f, 4.64f, lane), browse = V(shelfX, 4.64f, -.15f), counter = V(-2.5f, 4.64f, lane);
+                float shelfX = ShelfX(i % state.shelves.Length), lane = ShopLaneZ;
+                Vector3 entrance = V(ShopDoorX, 4.64f, 5.9f), entryLane = V(ShopDoorX, 4.64f, lane), browse = V(shelfX, 4.64f, .55f), counter = V(-3.3f, 4.64f, lane);
                 if (!simple)
                 {
                     float entering = Mathf.SmoothStep(0, 1, phase / .4f) * (1 - Mathf.SmoothStep(0, 1, (phase - 1.6f) / .9f));
@@ -539,7 +572,7 @@ namespace ForestShop
                 else if (phase < 29) { at = counter; yaw = Mathf.Lerp(155, 0, Mathf.Clamp01((phase - 26) / 1.2f)); walking = false; }
                 else if (phase < 30) { at = Vector3.Lerp(counter, entryLane, phase - 29); yaw = 90; walking = true; }
                 else { at = Vector3.Lerp(entryLane, entrance, Mathf.Clamp01((phase - 30) / 2)); yaw = 180; walking = true; }
-                if (simple) { at = V(-2.8f + i * 1.3f, 4.64f, -1.15f); yaw = -8; walking = false; }
+                if (simple) { at = V(-4.8f + i * 2.4f, 4.64f, ShopLaneZ); yaw = -8; walking = false; }
                 float cadence = i == 0 ? 6.4f : i == 1 ? 7.1f : i == 2 ? 8.2f : i == 3 ? 9 : 5.8f;
                 float stride = walking ? Mathf.Sin(Time.unscaledTime * cadence + i) : 0;
                 float browseGesture = !simple && phase >= 11 && phase < 16 ? Mathf.Sin((phase - 11) * Mathf.PI / 5) : 0;
@@ -558,7 +591,7 @@ namespace ForestShop
             {
                 float direction = side == 0 ? -1 : 1;
                 passageCurtains[side].gameObject.SetActive(Region == 0 || Region == 3);
-                passageCurtains[side].localPosition = V(-3.7f + direction * doorOpening * .52f, 6.63f, 2.02f);
+                passageCurtains[side].localPosition = V(ShopDoorX + direction * doorOpening * .52f, 6.63f, 3.02f);
                 passageCurtains[side].localEulerAngles = V(0, 0, direction * doorOpening * 7);
             }
         }
