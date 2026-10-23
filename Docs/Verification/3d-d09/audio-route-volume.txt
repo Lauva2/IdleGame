@@ -1,0 +1,201 @@
+>    Muted: false
+     Muted Internally: false
+     Min: 1
+>    Max: 5
+     streamVolume:5
+>    Current: 2 (speaker): 5, 40000000 (default): 5
+     Devices: speaker
+  - STREAM_SYSTEM:
+>    Muted: false
+     Muted Internally: false
+     Min: 0
+>    Max: 7
+     streamVolume:5
+>    Current: 2 (speaker): 7, 40000000 (default): 5
+>    Devices: remote_submix
+  - STREAM_RING:
+>    Muted: false
+     Muted Internally: false
+     Min: 0
+>    Max: 7
+     streamVolume:7
+>    Current: 2 (speaker): 7, 40000000 (default): 5
+     Devices: speaker
+> - STREAM_MUSIC:
+>    Muted: false
+     Muted Internally: false
+     Min: 0
+>    Max: 100
+     streamVolume:15
+>    Current: 2 (speaker): 100, 4 (headset): 10, 8 (headphone): 10, 8000 (remote_submix): 15, 40000000 (default): 15
+>    Devices: remote_submix
+  - STREAM_ALARM:
+>    Muted: false
+     Muted Internally: false
+     Min: 1
+>    Max: 7
+     streamVolume:7
+>    Current: 2 (speaker): 7, 40000000 (default): 6
+     Devices: speaker
+  - STREAM_NOTIFICATION:
+>    Muted: false
+     Muted Internally: false
+     Min: 0
+>    Max: 7
+     streamVolume:7
+>    Current: 2 (speaker): 7, 40000000 (default): 5
+     Devices: speaker
+  - STREAM_BLUETOOTH_SCO:
+>    Muted: false
+     Muted Internally: false
+     Min: 0
+>    Max: 15
+     streamVolume:7
+>    Current: 2 (speaker): 7, 40000000 (default): 7
+     Devices: speaker
+  - STREAM_SYSTEM_ENFORCED:
+>    Muted: false
+     Muted Internally: false
+     Min: 0
+>    Max: 7
+     streamVolume:5
+>    Current: 2 (speaker): 7, 8000 (remote_submix): 5, 40000000 (default): 5
+>    Devices: remote_submix
+  - STREAM_DTMF:
+>    Muted: false
+     Muted Internally: false
+     Min: 0
+>    Max: 15
+     streamVolume:5
+>    Current: 2 (speaker): 15, 8000 (remote_submix): 5, 40000000 (default): 11
+>    Devices: remote_submix
+  - STREAM_TTS:
+>    Muted: false
+     Muted Internally: false
+     Min: 0
+>    Max: 15
+     streamVolume:2
+>    Current: 2 (speaker): 2, 4 (headset): 2, 8 (headphone): 2, 8000 (remote_submix): 2, 40000000 (default): 2
+     Devices: speaker
+  - STREAM_ACCESSIBILITY:
+>    Muted: false
+     Muted Internally: false
+     Min: 1
+>    Max: 15
+     streamVolume:3
+>    Current: 2 (speaker): 15, 4 (headset): 2, 8 (headphone): 2, 8000 (remote_submix): 3, 40000000 (default): 3
+>    Devices: remote_submix
+  - STREAM_ASSISTANT:
+>    Muted: false
+     Muted Internally: false
+     Min: 0
+>    Max: 15
+     streamVolume:2
+>    Current: 2 (speaker): 15, 4 (headset): 2, 8 (headphone): 2, 8000 (remote_submix): 2, 40000000 (default): 2
+>    Devices: remote_submix
+  
+  - mute affected streams = 0x6f
+  
+> Volume Groups (device: index)
+> - VOLUME GROUP AUDIO_STREAM_ACCESSIBILITY:
+     Min: 1
+>    Max: 15
+>    Current: 40000000 (default): 3
+>    Devices: remote_submix
+> - VOLUME GROUP AUDIO_STREAM_ALARM:
+     Min: 1
+>    Max: 7
+>    Current: 40000000 (default): 6
+     Devices: speaker
+> - VOLUME GROUP AUDIO_STREAM_ASSISTANT:
+     Min: 0
+>    Max: 15
+>    Current: 40000000 (default): 2
+>    Devices: remote_submix
+> - VOLUME GROUP AUDIO_STREAM_DTMF:
+     Min: 0
+>    Max: 15
+>    Current: 40000000 (default): 11
+>    Devices: remote_submix
+> - VOLUME GROUP AUDIO_STREAM_ENFORCED_AUDIBLE:
+     Min: 0
+>    Max: 7
+>    Current: 40000000 (default): 5
+>    Devices: remote_submix
+> - VOLUME GROUP AUDIO_STREAM_MUSIC:
+     Min: 0
+>    Max: 100
+>    Current: 40000000 (default): 15
+>    Devices: remote_submix
+> - VOLUME GROUP AUDIO_STREAM_NOTIFICATION:
+     Min: 0
+>    Max: 7
+>    Current: 40000000 (default): 5
+     Devices: speaker
+> - VOLUME GROUP AUDIO_STREAM_REROUTING:
+     Min: 0
+>    Max: 100
+>    Current: 40000000 (default): 15
+>    Devices: remote_submix
+> - VOLUME GROUP AUDIO_STREAM_RING:
+     Min: 0
+>    Max: 7
+>    Current: 40000000 (default): 5
+     Devices: speaker
+> - VOLUME GROUP AUDIO_STREAM_SYSTEM:
+     Min: 0
+>    Max: 7
+>    Current: 40000000 (default): 5
+>    Devices: remote_submix
+> - VOLUME GROUP AUDIO_STREAM_VOICE_CALL:
+     Min: 1
+>    Max: 5
+>    Current: 40000000 (default): 5
+     Devices: speaker
+> - VOLUME GROUP AUDIO_STREAM_CALL_ASSISTANT:
+     Min: 0
+>    Max: 100
+>    Current: 40000000 (default): 15
+>    Devices: remote_submix
+  
+  Ringer mode: 
+  - mode (internal) = NORMAL
+> 10-23 03:03:16:117 rec update riid:271 uid:2000 session:257 src:REMOTE_SUBMIX not silenced pack:com.android.shell
+> 10-23 03:17:03:983 rec update riid:287 uid:2000 session:273 src:REMOTE_SUBMIX not silenced pack:com.android.shell
+> 10-23 03:32:50:543 rec update riid:303 uid:2000 session:289 src:REMOTE_SUBMIX not silenced pack:com.android.shell
+> 10-23 03:46:38:775 rec update riid:311 uid:2000 session:297 src:REMOTE_SUBMIX not silenced pack:com.android.shell
+> 10-23 04:31:11:767 rec update riid:383 uid:2000 session:369 src:REMOTE_SUBMIX not silenced pack:com.android.shell
+  
+  AudioDeviceBroker:
+    Message handler (watch for unhandled messages):
+> 	 stream:1 device:remote_submix
+  	 stream:2 device:speaker
+> 	 stream:3 device:remote_submix
+  	 stream:4 device:speaker
+  	 stream:5 device:speaker
+  	 stream:6 device:speaker
+> 	 stream:7 device:remote_submix
+> 	 stream:8 device:remote_submix
+  	 stream:9 device:speaker
+> 	 stream:10 device:remote_submix
+> 	 stream:11 device:remote_submix
+   mDevicesForAttrCache:
+  	AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_SONIFICATION flags=0x808 tags= bundle=null
+  		AudioDeviceAttributes: role:output type:speaker addr:
+> 		AudioDeviceAttributes: role:output type:remote_submix addr:0
+  	AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x801 tags= bundle=null
+> 		AudioDeviceAttributes: role:output type:remote_submix addr:0
+  	AudioAttributes: usage=USAGE_VOICE_COMMUNICATION content=CONTENT_TYPE_SPEECH flags=0x804 tags= bundle=null
+  		AudioDeviceAttributes: role:output type:speaker addr:
+  	AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null
+> 		AudioDeviceAttributes: role:output type:remote_submix addr:0
+  	AudioAttributes: usage=USAGE_ALARM content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+  		AudioDeviceAttributes: role:output type:speaker addr:
+  	AudioAttributes: usage=USAGE_VOICE_COMMUNICATION content=CONTENT_TYPE_SPEECH flags=0x800 tags= bundle=null
+> 		AudioDeviceAttributes: role:output type:remote_submix addr:0
+  	AudioAttributes: usage=USAGE_NOTIFICATION_RINGTONE content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+  		AudioDeviceAttributes: role:output type:speaker addr:
+  	AudioAttributes: usage=USAGE_NOTIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+> 		AudioDeviceAttributes: role:output type:remote_submix addr:0
+  	AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+> 		AudioDeviceAttributes: role:output type:remote_submix addr:0

@@ -1,0 +1,16 @@
+{
+  "isolatedClockFixtures": true,
+  "source": "Docs\\Verification\\3d-d11-release01\\NormalQA\\before-clock-tests-latest.save",
+  "sourceSHA256": "C2DE06D739714FF130EA194015FBE33D4425C587E5E4228C18E3CF912A7EDDC2",
+  "generatedUTC": "2026-10-22T22:00:23.980583+00:00",
+  "changedPayloadFields": [
+    "utcTicks"
+  ],
+  "fixtures": [
+    {
+      "name": "eight-hours-under-cap",
+      "preparedAwaySecondsAtGeneration": 28770,
+      "sha256": "5BC1D794DF580BF97319AA082EEA765D3FA0E5B45D700C5713FFD0A982DA5D44"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+﻿System.Exception: Mismatch: facility 0
+  at CompareAndroidOffline.Equal (System.Boolean condition, System.String field) [0x00014] in <88b3e73d35d44e8ba5d29d184cd6951a>:0 
+  at CompareAndroidOffline.Main (System.String[] args) [0x00220] in <88b3e73d35d44e8ba5d29d184cd6951a>:0 
+﻿

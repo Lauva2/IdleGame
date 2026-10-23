@@ -1,0 +1,595 @@
+--------- beginning of kernel
+--------- beginning of system
+--------- beginning of crash
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: Process: com.example.shiyan5, PID: 12302
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example.shiyan5/com.example.shiyan5.MainActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Button.setOnClickListener(android.view.View$OnClickListener)' on a null object reference
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3449)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Button.setOnClickListener(android.view.View$OnClickListener)' on a null object reference
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at com.example.shiyan5.MainActivity.onCreate(MainActivity.java:40)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:7994)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:7978)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+05-28 06:14:42.905 12302 12302 E AndroidRuntime: 	... 11 more
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: Process: com.example.shiyan5, PID: 12375
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example.shiyan5/com.example.shiyan5.MainActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Button.setOnClickListener(android.view.View$OnClickListener)' on a null object reference
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3449)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Button.setOnClickListener(android.view.View$OnClickListener)' on a null object reference
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at com.example.shiyan5.MainActivity.onCreate(MainActivity.java:40)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:7994)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:7978)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+05-28 06:14:50.837 12375 12375 E AndroidRuntime: 	... 11 more
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: Process: com.example.shiyan5, PID: 12446
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example.shiyan5/com.example.shiyan5.MainActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Button.setOnClickListener(android.view.View$OnClickListener)' on a null object reference
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3449)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Button.setOnClickListener(android.view.View$OnClickListener)' on a null object reference
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at com.example.shiyan5.MainActivity.onCreate(MainActivity.java:40)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:7994)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:7978)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+05-28 06:15:01.955 12446 12446 E AndroidRuntime: 	... 11 more
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: Process: com.example.shiyan5, PID: 12592
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example.shiyan5/com.example.shiyan5.MainActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Button.setOnClickListener(android.view.View$OnClickListener)' on a null object reference
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3449)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Button.setOnClickListener(android.view.View$OnClickListener)' on a null object reference
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at com.example.shiyan5.MainActivity.onCreate(MainActivity.java:40)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:7994)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:7978)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+05-28 06:23:24.443 12592 12592 E AndroidRuntime: 	... 11 more
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: Process: com.example.shiyan5, PID: 12713
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example.shiyan5/com.example.shiyan5.MainActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Button.setOnClickListener(android.view.View$OnClickListener)' on a null object reference
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3449)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Button.setOnClickListener(android.view.View$OnClickListener)' on a null object reference
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at com.example.shiyan5.MainActivity.onCreate(MainActivity.java:40)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:7994)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:7978)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+05-28 06:26:27.674 12713 12713 E AndroidRuntime: 	... 11 more
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: Process: com.example.shiyan5, PID: 12830
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example.shiyan5/com.example.shiyan5.MainActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Button.setOnClickListener(android.view.View$OnClickListener)' on a null object reference
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3449)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Button.setOnClickListener(android.view.View$OnClickListener)' on a null object reference
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at com.example.shiyan5.MainActivity.onCreate(MainActivity.java:40)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:7994)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:7978)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+05-28 06:28:09.913 12830 12830 E AndroidRuntime: 	... 11 more
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: Process: com.example.shiyan5, PID: 12909
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.shiyan5/com.example.shiyan5.CallActivity}; have you declared this activity in your AndroidManifest.xml?
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2065)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1727)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:5314)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:780)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:5272)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:761)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at com.example.shiyan5.MainActivity$3.onClick(MainActivity.java:59)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at android.view.View.performClick(View.java:7448)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1213)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:7425)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at android.view.View.access$3600(View.java:810)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:28305)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 06:30:14.284 12909 12909 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: Process: com.example.shiyan5, PID: 13033
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.shiyan5/com.example.shiyan5.CallActivity}; have you declared this activity in your AndroidManifest.xml?
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2065)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1727)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:5314)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:780)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:5272)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:761)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at com.example.shiyan5.MainActivity$2.onClick(MainActivity.java:45)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at android.view.View.performClick(View.java:7448)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1213)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:7425)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at android.view.View.access$3600(View.java:810)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:28305)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 06:36:30.254 13033 13033 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: Process: com.example.shiyan5, PID: 13108
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.shiyan5/com.example.shiyan5.CallActivity}; have you declared this activity in your AndroidManifest.xml?
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2065)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1727)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:5314)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:780)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:5272)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:761)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at com.example.shiyan5.MainActivity$3.onClick(MainActivity.java:53)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at android.view.View.performClick(View.java:7448)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1213)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:7425)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at android.view.View.access$3600(View.java:810)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:28305)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 06:37:27.586 13108 13108 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: Process: com.example.shiyan5, PID: 13250
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.shiyan5/com.example.shiyan5.CallActivity}; have you declared this activity in your AndroidManifest.xml?
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2065)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1727)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:5314)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:780)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:5272)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:761)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:5658)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:5611)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at com.example.shiyan5.MainActivity.dialNumber(MainActivity.java:96)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at com.example.shiyan5.MainActivity.access$100(MainActivity.java:14)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at com.example.shiyan5.MainActivity$2.onClick(MainActivity.java:43)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at android.view.View.performClick(View.java:7448)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1213)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:7425)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at android.view.View.access$3600(View.java:810)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:28305)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 06:40:22.648 13250 13250 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: Process: com.example.shiyan5, PID: 13327
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.shiyan5/com.example.shiyan5.CallActivity}; have you declared this activity in your AndroidManifest.xml?
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2065)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1727)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:5314)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:780)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:5272)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:761)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:5658)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:5611)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at com.example.shiyan5.MainActivity.dialNumber(MainActivity.java:96)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at com.example.shiyan5.MainActivity.access$100(MainActivity.java:14)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at com.example.shiyan5.MainActivity$2.onClick(MainActivity.java:43)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at android.view.View.performClick(View.java:7448)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1213)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:7425)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at android.view.View.access$3600(View.java:810)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:28305)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 06:41:36.867 13327 13327 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: Process: com.example.shiyan5, PID: 13411
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.shiyan5/com.example.shiyan5.CallActivity}; have you declared this activity in your AndroidManifest.xml?
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2065)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1727)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:5314)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:780)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:5272)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:761)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:5658)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:5611)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at com.example.shiyan5.MainActivity.dialNumber(MainActivity.java:96)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at com.example.shiyan5.MainActivity.access$100(MainActivity.java:14)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at com.example.shiyan5.MainActivity$2.onClick(MainActivity.java:43)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at android.view.View.performClick(View.java:7448)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1213)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:7425)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at android.view.View.access$3600(View.java:810)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:28305)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 06:43:45.995 13411 13411 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: Process: com.example.shiyan5, PID: 14479
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.example.shiyan5/com.example.shiyan5.CallActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Intent.getStringExtra(java.lang.String)' on a null object reference
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3365)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Intent.getStringExtra(java.lang.String)' on a null object reference
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at com.example.shiyan5.CallActivity.<init>(CallActivity.java:15)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at java.lang.Class.newInstance(Native Method)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:45)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at android.app.Instrumentation.newActivity(Instrumentation.java:1253)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3353)
+05-28 07:00:02.515 14479 14479 E AndroidRuntime: 	... 11 more
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: Process: com.example.shiyan5, PID: 14572
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.example.shiyan5/com.example.shiyan5.CallActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Intent.getStringExtra(java.lang.String)' on a null object reference
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3365)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Intent.getStringExtra(java.lang.String)' on a null object reference
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at com.example.shiyan5.CallActivity.<init>(CallActivity.java:15)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at java.lang.Class.newInstance(Native Method)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:45)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at android.app.Instrumentation.newActivity(Instrumentation.java:1253)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3353)
+05-28 07:00:22.627 14572 14572 E AndroidRuntime: 	... 11 more
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: Process: com.example.shiyan5, PID: 14660
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.example.shiyan5/com.example.shiyan5.CallActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Intent.getStringExtra(java.lang.String)' on a null object reference
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3365)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Intent.getStringExtra(java.lang.String)' on a null object reference
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at com.example.shiyan5.CallActivity.<init>(CallActivity.java:16)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at java.lang.Class.newInstance(Native Method)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:45)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at android.app.Instrumentation.newActivity(Instrumentation.java:1253)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3353)
+05-28 07:01:47.174 14660 14660 E AndroidRuntime: 	... 11 more
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: Process: com.example.shiyan5, PID: 14737
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.example.shiyan5/com.example.shiyan5.CallActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Intent.getStringExtra(java.lang.String)' on a null object reference
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3365)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Intent.getStringExtra(java.lang.String)' on a null object reference
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at com.example.shiyan5.CallActivity.<init>(CallActivity.java:15)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at java.lang.Class.newInstance(Native Method)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:45)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at android.app.Instrumentation.newActivity(Instrumentation.java:1253)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3353)
+05-28 07:02:19.899 14737 14737 E AndroidRuntime: 	... 11 more
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: Process: com.example.shiyan5, PID: 16275
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: java.lang.IllegalStateException: Could not find method endCall(View) in a parent or ancestor Context for android:onClick attribute defined on view class com.google.android.material.button.MaterialButton with id 'endCallButton'
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.resolveMethod(AppCompatViewInflater.java:506)
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:464)
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: 	at android.view.View.performClick(View.java:7448)
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1213)
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:7425)
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: 	at android.view.View.access$3600(View.java:810)
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:28305)
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 10:49:40.148 16275 16275 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: Process: com.example.shiyan5, PID: 16332
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: java.lang.IllegalStateException: Could not find method endCall(View) in a parent or ancestor Context for android:onClick attribute defined on view class com.google.android.material.button.MaterialButton with id 'endCallButton'
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.resolveMethod(AppCompatViewInflater.java:506)
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:464)
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: 	at android.view.View.performClick(View.java:7448)
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1213)
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:7425)
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: 	at android.view.View.access$3600(View.java:810)
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:28305)
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 10:49:48.929 16332 16332 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: Process: com.example.shiyan5, PID: 16426
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: java.lang.IllegalStateException: Could not find method endCall(View) in a parent or ancestor Context for android:onClick attribute defined on view class com.google.android.material.button.MaterialButton with id 'endCallButton'
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.resolveMethod(AppCompatViewInflater.java:506)
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:464)
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: 	at android.view.View.performClick(View.java:7448)
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1213)
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:7425)
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: 	at android.view.View.access$3600(View.java:810)
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:28305)
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 10:50:06.499 16426 16426 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: Process: com.example.shiyan5, PID: 16470
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: java.lang.IllegalStateException: Could not find method endCall(View) in a parent or ancestor Context for android:onClick attribute defined on view class com.google.android.material.button.MaterialButton with id 'endCallButton'
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.resolveMethod(AppCompatViewInflater.java:506)
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:464)
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: 	at android.view.View.performClick(View.java:7448)
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1213)
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:7425)
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: 	at android.view.View.access$3600(View.java:810)
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:28305)
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 10:50:16.152 16470 16470 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: Process: com.example.shiyan5, PID: 16753
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: java.lang.IllegalStateException: Could not find method endCall(View) in a parent or ancestor Context for android:onClick attribute defined on view class com.google.android.material.button.MaterialButton with id 'endCallButton'
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.resolveMethod(AppCompatViewInflater.java:506)
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:464)
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: 	at android.view.View.performClick(View.java:7448)
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1213)
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:7425)
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: 	at android.view.View.access$3600(View.java:810)
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:28305)
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 10:51:57.062 16753 16753 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+--------- beginning of main
+05-28 11:18:28.444 18023 18023 D AndroidRuntime: Shutting down VM
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: FATAL EXCEPTION: main
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: Process: com.example.shiyan5, PID: 18023
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: java.lang.IllegalStateException: Could not find method endCall(View) in a parent or ancestor Context for android:onClick attribute defined on view class com.google.android.material.button.MaterialButton with id 'endCallButton'
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.resolveMethod(AppCompatViewInflater.java:506)
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:464)
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: 	at android.view.View.performClick(View.java:7448)
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1213)
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:7425)
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: 	at android.view.View.access$3600(View.java:810)
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:28305)
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-28 11:18:28.444 18023 18023 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+10-22 11:40:38.359 20473 20473 D Unity   : CommandLine:  
+10-22 11:40:38.499 20473 20473 D Unity   : onActivityResumed: com.unity3d.player.UnityPlayerActivity@b085aaf
+10-22 11:40:38.501 20473 20473 I Unity   : onResume
+10-22 11:40:38.649 20473 20501 D Unity   : SetWindow 0 0xe46464d8
+10-22 11:40:38.656 20473 20501 D Unity   : SetWindow 0 0xe46464d8
+10-22 11:40:39.049 20473 20473 I Unity   : windowFocusChanged: true
+10-22 11:40:39.283 20473 20501 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-22 11:40:39.298 20473 20501 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+10-22 11:40:39.300 20473 20501 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+10-22 11:40:39.302 20473 20501 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+10-22 11:40:39.303 20473 20501 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+10-22 11:40:39.304 20473 20501 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+10-22 11:40:39.320 20473 20501 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+10-22 11:40:39.327 20473 20501 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+10-22 11:40:39.330 20473 20501 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+10-22 11:40:39.331 20473 20501 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+10-22 11:40:39.331 20473 20501 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+10-22 11:40:39.332 20473 20501 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+10-22 11:40:39.332 20473 20501 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+10-22 11:40:39.332 20473 20501 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+10-22 11:40:39.332 20473 20501 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+10-22 11:40:39.332 20473 20501 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+10-22 11:40:39.333 20473 20501 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+10-22 11:40:39.333 20473 20501 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+10-22 11:40:39.339 20473 20501 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+10-22 11:40:39.340 20473 20501 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+10-22 11:40:39.340 20473 20501 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+10-22 11:40:39.341 20473 20501 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+10-22 11:40:39.342 20473 20501 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+10-22 11:40:39.342 20473 20501 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+10-22 11:40:39.342 20473 20501 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+10-22 11:40:39.344 20473 20501 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+10-22 11:40:39.344 20473 20501 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+10-22 11:40:39.344 20473 20501 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+10-22 11:40:39.344 20473 20501 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+10-22 11:40:39.345 20473 20501 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+10-22 11:40:39.345 20473 20501 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+10-22 11:40:39.612 20473 20501 D Unity   : Enabling Unity systrace
+10-22 11:40:39.745 20473 20501 D Unity   : [VFS] Mount /data/app/~~2pTT1hHT66l3ETg66NM2Og==/com.forestatelier.curioshop-QzRIAvUh8XMxTfnad_m5jA==/base.apk
+10-22 11:40:39.808 20473 20501 I Unity   : SystemInfo CPU = x86 SSE3 SSE4.1 SSE4.2 AVX AVX2, Cores = 0, Memory = 1980mb
+10-22 11:40:39.809 20473 20501 I Unity   : SystemInfo ARM big.LITTLE configuration: 0 big (mask: 0x0), 0 little (mask: 0x0)
+10-22 11:40:39.818 20473 20501 I Unity   : ApplicationInfo com.forestatelier.curioshop version 0.1.0
+10-22 11:40:39.824 20473 20501 I Unity   : Built from 'origin/2022.3/china_unity/release' branch, Version '2022.3.8f1c1 (4ec8ee1b2212)', Build type 'Development', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+10-22 11:40:39.871 20473 20501 D Unity   : Mono path[0] = '/data/app/~~2pTT1hHT66l3ETg66NM2Og==/com.forestatelier.curioshop-QzRIAvUh8XMxTfnad_m5jA==/base.apk/assets/bin/Data/Managed'
+10-22 11:40:39.871 20473 20501 D Unity   : Mono config path = 'assets/bin/Data/Managed/etc'
+10-22 11:40:39.894 20473 20501 D Unity   : Found 2 interfaces on host :
+10-22 11:40:39.895 20473 20501 D Unity   :  0) 10.0.2.16
+10-22 11:40:39.895 20473 20501 D Unity   :  1) 10.0.2.15
+10-22 11:40:39.895 20473 20501 D Unity   : 
+10-22 11:40:39.912 20473 20501 D Unity   : Multi-casting "[IP] 10.0.2.16 [Port] 55000 [Flags] 2 [Guid] 2066605909 [EditorId] 2868755093 [Version] 1048832 [Id] AndroidPlayer(11,Google_sdk_gphone_x86@10.0.2.16) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] 林间奇物铺" to [225.0.0.222:54997]...
+10-22 11:40:41.529 20473 20501 D Unity   : [EGL] Attaching window :0xe46464d8
+10-22 11:40:41.531 20473 20501 D Unity   : InitializeScriptEngine OK (0xcfdbbe80)
+10-22 11:40:41.806 20473 20501 D Unity   : [Physics::Module] Initialized MultithreadedJobDispatcher with 1 workers.
+10-22 11:40:41.929 20473 20501 D Unity   : PlayerInitEngineNoGraphics OK
+10-22 11:40:41.930 20473 20501 I Unity   : Company Name: Forest Atelier
+10-22 11:40:41.930 20473 20501 I Unity   : Product Name: 林间奇物铺
+10-22 11:40:41.930 20473 20501 D Unity   : AndroidGraphics::Startup window =  0xe46464d8
+10-22 11:40:41.930 20473 20501 D Unity   : [EGL] Attaching window :0xe46464d8
+10-22 11:40:41.936 20473 20501 D Unity   : [Subsystems] Discovering subsystems at path /data/app/~~2pTT1hHT66l3ETg66NM2Og==/com.forestatelier.curioshop-QzRIAvUh8XMxTfnad_m5jA==/base.apk/assets/bin/Data/UnitySubsystems
+10-22 11:40:42.036 20473 20501 D Unity   : [Vulkan init] extensions: count=9
+10-22 11:40:42.036 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_EXT_debug_report [enabled=1, external=0]
+10-22 11:40:42.036 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
+10-22 11:40:42.036 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_android_surface [enabled=1, external=0]
+10-22 11:40:42.036 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
+10-22 11:40:42.037 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
+10-22 11:40:42.037 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
+10-22 11:40:42.037 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
+10-22 11:40:42.037 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
+10-22 11:40:42.037 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
+10-22 11:40:42.100 20473 20501 D Unity   : [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0x0
+10-22 11:40:42.100 20473 20501 D Unity   : [Vulkan init] Physical Device 0xcec5f710 [0]: "SwiftShader Device (LLVM 10.0.0)" deviceType=3 vendorID=1ae0 deviceID=c0de
+10-22 11:40:42.101 20473 20501 D Unity   : Vulkan detection: 2
+10-22 11:40:42.104 20473 20501 D Unity   : [Vulkan init] extensions: count=9
+10-22 11:40:42.104 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_EXT_debug_report [enabled=1, external=0]
+10-22 11:40:42.104 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
+10-22 11:40:42.105 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_android_surface [enabled=1, external=0]
+10-22 11:40:42.105 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
+10-22 11:40:42.105 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
+10-22 11:40:42.105 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
+10-22 11:40:42.105 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
+10-22 11:40:42.105 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
+10-22 11:40:42.105 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
+10-22 11:40:42.149 20473 20501 D Unity   : [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0x0
+10-22 11:40:42.159 20473 20501 D Unity   : [Vulkan init] Physical Device 0xcec5f350 [0]: "SwiftShader Device (LLVM 10.0.0)" deviceType=3 vendorID=1ae0 deviceID=c0de
+10-22 11:40:42.160 20473 20501 D Unity   : [Vulkan init] Selected physical device 0xcec5f350
+10-22 11:40:42.160 20473 20501 D Unity   : [Vulkan init] Graphics queue count=1
+10-22 11:40:42.170 20473 20501 D Unity   : [Vulkan init] extensions: count=13
+10-22 11:40:42.170 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_GOOGLE_display_timing [enabled=1, external=0]
+10-22 11:40:42.170 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_bind_memory2 [enabled=1, external=0]
+10-22 11:40:42.170 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_dedicated_allocation [enabled=1, external=0]
+10-22 11:40:42.170 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_fence [enabled=1, external=0]
+10-22 11:40:42.171 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_memory [enabled=1, external=0]
+10-22 11:40:42.171 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_semaphore [enabled=1, external=0]
+10-22 11:40:42.171 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_memory_requirements2 [enabled=1, external=0]
+10-22 11:40:42.171 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_incremental_present [enabled=0, external=0]
+10-22 11:40:42.171 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_maintenance1 [enabled=1, external=0]
+10-22 11:40:42.171 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_maintenance2 [enabled=1, external=0]
+10-22 11:40:42.171 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_maintenance3 [enabled=0, external=0]
+10-22 11:40:42.171 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion [enabled=1, external=0]
+10-22 11:40:42.171 20473 20501 D Unity   : [Vulkan init] extensions: name=VK_KHR_swapchain [enabled=1, external=0]
+10-22 11:40:42.210 20473 20501 D Unity   : Vulkan API version 1.1.0 (1.2.0 supported by driver, 1.1.0 requested)
+10-22 11:40:42.210 20473 20501 D Unity   : Vulkan vendor=[Unknown (ID=1ae0)] id=[1ae0]
+10-22 11:40:42.210 20473 20501 D Unity   : Vulkan renderer=[SwiftShader Device (LLVM 10.0.0)] id=[c0de]
+10-22 11:40:42.210 20473 20501 D Unity   : Vulkan device type 3
+10-22 11:40:42.210 20473 20501 D Unity   : Vulkan driverversion=[0x01400000] uint=[20971520]
+10-22 11:40:42.247 20473 20501 D Unity   : VK use pretransform: 1
+10-22 11:40:46.112   917   917 D AndroidRuntime: Shutting down VM
+10-22 11:40:46.113   917   917 E AndroidRuntime: FATAL EXCEPTION: main
+10-22 11:40:46.113   917   917 E AndroidRuntime: Process: com.android.phone, PID: 917
+10-22 11:40:46.113   917   917 E AndroidRuntime: DeadSystemException: The system died; earlier logs will point to the root cause
+10-22 11:40:46.862  1808 20404 E AndroidRuntime: FATAL EXCEPTION: [com.google.android.gms.chimera.GmsIntentOperationService$ChimeraService-Executor] operation loader
+10-22 11:40:46.862  1808 20404 E AndroidRuntime: Process: com.google.android.gms, PID: 1808
+10-22 11:40:46.862  1808 20404 E AndroidRuntime: DeadSystemException: The system died; earlier logs will point to the root cause
+10-22 11:40:46.870  1186 20418 E AndroidRuntime: FATAL EXCEPTION: [com.google.android.gms.chimera.PersistentIntentOperationService$ChimeraService-Executor] operation loader
+10-22 11:40:46.870  1186 20418 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 1186
+10-22 11:40:46.870  1186 20418 E AndroidRuntime: DeadSystemException: The system died; earlier logs will point to the root cause
+10-22 11:40:47.398 20579 20579 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+10-22 11:40:47.400 20579 20579 I AndroidRuntime: Using default boot image
+10-22 11:40:47.401 20579 20579 I AndroidRuntime: Leaving lock profiling enabled
+10-22 11:41:08.612 20835 20835 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.

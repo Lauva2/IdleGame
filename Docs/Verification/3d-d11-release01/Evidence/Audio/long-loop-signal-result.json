@@ -1,0 +1,175 @@
+{
+  "recordingSHA256": "85801502B7A59FFEC0CC2C7EC45D75FB5808C6D4E57CAFC8F7009199E2B1947C",
+  "decodedSeconds": 134.912,
+  "finiteSamples": true,
+  "peak": 0.13909912109375,
+  "peakDBFS": -17.133512282307223,
+  "samplesAtOrBeyondFullScale": 0,
+  "noDigitalClippingInDecodedRecording": true,
+  "listeningQualityVerified": false,
+  "limits": "Recorded samples only. Does not prove pleasant mix, inaudible loop seam, absence of perceived stacking or every cue trigger.",
+  "fiveSecondWindows": [
+    {
+      "startSeconds": 0,
+      "endSeconds": 5,
+      "rmsDBFS": -39.62243904173607,
+      "peak": 0.076873779296875
+    },
+    {
+      "startSeconds": 5,
+      "endSeconds": 10,
+      "rmsDBFS": -40.35705516953038,
+      "peak": 0.0616455078125
+    },
+    {
+      "startSeconds": 10,
+      "endSeconds": 15,
+      "rmsDBFS": -37.85032739286908,
+      "peak": 0.078399658203125
+    },
+    {
+      "startSeconds": 15,
+      "endSeconds": 20,
+      "rmsDBFS": -38.04018578294825,
+      "peak": 0.073699951171875
+    },
+    {
+      "startSeconds": 20,
+      "endSeconds": 25,
+      "rmsDBFS": -39.41884834484728,
+      "peak": 0.071563720703125
+    },
+    {
+      "startSeconds": 25,
+      "endSeconds": 30,
+      "rmsDBFS": -38.51442458394283,
+      "peak": 0.101776123046875
+    },
+    {
+      "startSeconds": 30,
+      "endSeconds": 35,
+      "rmsDBFS": -36.81532485783261,
+      "peak": 0.10943603515625
+    },
+    {
+      "startSeconds": 35,
+      "endSeconds": 40,
+      "rmsDBFS": -40.469769642826776,
+      "peak": 0.057281494140625
+    },
+    {
+      "startSeconds": 40,
+      "endSeconds": 45,
+      "rmsDBFS": -37.38286772645874,
+      "peak": 0.08197021484375
+    },
+    {
+      "startSeconds": 45,
+      "endSeconds": 50,
+      "rmsDBFS": -38.95238756280881,
+      "peak": 0.075531005859375
+    },
+    {
+      "startSeconds": 50,
+      "endSeconds": 55,
+      "rmsDBFS": -41.775336557399775,
+      "peak": 0.068084716796875
+    },
+    {
+      "startSeconds": 55,
+      "endSeconds": 60,
+      "rmsDBFS": -37.34337651460921,
+      "peak": 0.1033935546875
+    },
+    {
+      "startSeconds": 60,
+      "endSeconds": 65,
+      "rmsDBFS": -38.19786924429681,
+      "peak": 0.06640625
+    },
+    {
+      "startSeconds": 65,
+      "endSeconds": 70,
+      "rmsDBFS": -38.16692784565551,
+      "peak": 0.076873779296875
+    },
+    {
+      "startSeconds": 70,
+      "endSeconds": 75,
+      "rmsDBFS": null,
+      "peak": 0.0
+    },
+    {
+      "startSeconds": 75,
+      "endSeconds": 80,
+      "rmsDBFS": -38.22392179269923,
+      "peak": 0.13909912109375
+    },
+    {
+      "startSeconds": 80,
+      "endSeconds": 85,
+      "rmsDBFS": -38.12873962397464,
+      "peak": 0.0791015625
+    },
+    {
+      "startSeconds": 85,
+      "endSeconds": 90,
+      "rmsDBFS": -39.6653447971366,
+      "peak": 0.0721435546875
+    },
+    {
+      "startSeconds": 90,
+      "endSeconds": 95,
+      "rmsDBFS": -38.07308987312944,
+      "peak": 0.0775146484375
+    },
+    {
+      "startSeconds": 95,
+      "endSeconds": 100,
+      "rmsDBFS": -39.320727547322946,
+      "peak": 0.07000732421875
+    },
+    {
+      "startSeconds": 100,
+      "endSeconds": 105,
+      "rmsDBFS": -38.17497799754485,
+      "peak": 0.077056884765625
+    },
+    {
+      "startSeconds": 105,
+      "endSeconds": 110,
+      "rmsDBFS": -39.321087766116705,
+      "peak": 0.076568603515625
+    },
+    {
+      "startSeconds": 110,
+      "endSeconds": 115,
+      "rmsDBFS": -38.96732935804751,
+      "peak": 0.066650390625
+    },
+    {
+      "startSeconds": 115,
+      "endSeconds": 120,
+      "rmsDBFS": -37.82484602301189,
+      "peak": 0.09173583984375
+    },
+    {
+      "startSeconds": 120,
+      "endSeconds": 125,
+      "rmsDBFS": -38.97383223756893,
+      "peak": 0.0845947265625
+    },
+    {
+      "startSeconds": 125,
+      "endSeconds": 130,
+      "rmsDBFS": -40.91831283833659,
+      "peak": 0.063934326171875
+    },
+    {
+      "startSeconds": 130,
+      "endSeconds": 134.912,
+      "rmsDBFS": -36.87521915951211,
+      "peak": 0.106903076171875
+    }
+  ]
+}

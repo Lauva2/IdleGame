@@ -1,0 +1,81 @@
+{
+  "device": "MuMu Android12 emulator, not a physical representative device",
+  "pid": 24017,
+  "sameProcessElapsedSeconds": 1844.2300000000005,
+  "physicalDeviceAcceptance": false,
+  "allSixRowsPreserved": true,
+  "rows": [
+    {
+      "utc": "2026-10-22T22:12:51.5610700Z",
+      "frames": 8856,
+      "sampledSeconds": 299.994,
+      "averageFPS": 29.52,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 103709019,
+      "maximumMilliseconds": 3122.56,
+      "condition": "startup and simplified-animation test",
+      "steadyThresholdsMet": true
+    },
+    {
+      "utc": "2026-10-22T22:17:51.5418590Z",
+      "frames": 8947,
+      "sampledSeconds": 299.988,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 105870347,
+      "maximumMilliseconds": 100.0,
+      "condition": "simplified-to-full animation transition",
+      "steadyThresholdsMet": true
+    },
+    {
+      "utc": "2026-10-22T22:22:51.5665350Z",
+      "frames": 6223,
+      "sampledSeconds": 300.025,
+      "averageFPS": 20.74,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 107847963,
+      "maximumMilliseconds": 91095.83,
+      "condition": "actual Android HOME/resume, 91.056486 seconds in background",
+      "steadyThresholdsMet": false
+    },
+    {
+      "utc": "2026-10-22T22:27:51.5552380Z",
+      "frames": 8950,
+      "sampledSeconds": 299.988,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 107851330,
+      "maximumMilliseconds": 108.33,
+      "condition": "full animation; ordinary production, panels, recording, upgrades",
+      "steadyThresholdsMet": true
+    },
+    {
+      "utc": "2026-10-22T22:32:51.5537350Z",
+      "frames": 8962,
+      "sampledSeconds": 300.0,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 107853011,
+      "maximumMilliseconds": 79.17,
+      "condition": "full animation; ordinary production, rotation, timezone, capacity recording",
+      "steadyThresholdsMet": true
+    },
+    {
+      "utc": "2026-10-22T22:37:51.5532640Z",
+      "frames": 8916,
+      "sampledSeconds": 300.0,
+      "averageFPS": 29.72,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 108102051,
+      "maximumMilliseconds": 308.33,
+      "condition": "full animation; ordinary production, capacity recording, local evidence decoding",
+      "steadyThresholdsMet": true
+    }
+  ],
+  "pssKilobytes": {
+    "memory-0627.txt": 304840,
+    "memory-0631.txt": 287340,
+    "memory-final.txt": 286407
+  },
+  "fatalOrSaveErrorLogMatches": []
+}

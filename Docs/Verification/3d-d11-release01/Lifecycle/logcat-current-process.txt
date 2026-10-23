@@ -1,0 +1,6 @@
+--------- beginning of main
+10-23 06:27:10.166 24017 24029 I elier.curiosho: Explicit concurrent copying GC freed 266118(6842KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 9684KB/18MB, paused 20us,8us total 4.201ms
+10-23 06:27:17.179 24017 24017 I UnityMain: type=1400 audit(0.0:6429): avc: denied { link } for name="forest-shop.save" dev="sdc3" ino=5244131 scontext=u:r:untrusted_app:s0:c46,c256,c512,c768 tcontext=u:object_r:media_rw_data_file:s0:c46,c256,c512,c768 tclass=file permissive=1 app=com.forestatelier.curioshop
+10-23 06:28:03.789 24017 24017 I UnityGfxDeviceW: type=1400 audit(0.0:6441): avc: denied { ioctl } for path="/dev/vaddress" dev="tmpfs" ino=10365 ioctlcmd=0x4c19 scontext=u:r:untrusted_app:s0:c46,c256,c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1 app=com.forestatelier.curioshop
+10-23 06:31:41.316 24017 24029 I elier.curiosho: Explicit concurrent copying GC freed 268581(6944KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 9699KB/18MB, paused 18us,11us total 5.491ms
+10-23 06:38:34.512 24017  6752 I elier.curiosho: Explicit concurrent copying GC freed 30300(815KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 9700KB/18MB, paused 10us,6us total 3.986ms

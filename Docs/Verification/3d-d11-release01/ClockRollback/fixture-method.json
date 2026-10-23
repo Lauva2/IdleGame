@@ -1,0 +1,16 @@
+{
+  "isolatedClockFixtures": true,
+  "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d11-release01\\NormalQA\\before-final-isolated-tests.save",
+  "sourceSHA256": "78BD57A044EBB4F47E08AB450C54779A15E786A08315AF0258F3210A25698B84",
+  "generatedUTC": "2026-10-22T22:44:57.016330+00:00",
+  "changedPayloadFields": [
+    "utcTicks"
+  ],
+  "fixtures": [
+    {
+      "name": "rollback-future",
+      "preparedAwaySecondsAtGeneration": -3600,
+      "sha256": "81EB32CCABF1A60057FCFEA82EB4AAEA3E7D3EBD1BFB83E6FB9935C894DD7AAA"
+    }
+  ]
+}

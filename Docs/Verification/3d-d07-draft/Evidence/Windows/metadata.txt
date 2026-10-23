@@ -1,0 +1,10 @@
+Candidate=3d-d07; DEVELOPMENT TEST PREPARATION
+Runtime=WindowsPlayer
+Unity=2022.3.62f2
+Screen=540x960; safe=(x:0.00, y:0.00, width:540.00, height:960.00)
+VideoOnly=False
+Android shots use the actual application framebuffer. Windows shots use actual UI rendered offscreen at named sizes, and are not device screenshots.
+Late progression and sample offline reports are explicitly prepared, not evidence of normal progression or actual away earnings.
+Dynamic production uses normal real-time Update; navigation is automated. Timestamps and simulated elapsed play time are in frames.csv.
+Wall runtime=129.8465s
+Final acceptance, physical device, sound and performance must be separately verified.

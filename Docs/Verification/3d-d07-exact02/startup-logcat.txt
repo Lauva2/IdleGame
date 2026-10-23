@@ -1,0 +1,633 @@
+--------- beginning of main
+10-23 03:24:33.448  1702  1723 W ResourcesProvider: ResourcesProvider android.content.res.loader.ResourcesProvider@96badb4 finalized with non-zero refs: 1
+10-23 03:24:33.449  1702  1723 W ResourcesProvider: ResourcesProvider android.content.res.loader.ResourcesProvider@efdfddd finalized with non-zero refs: 1
+10-23 03:24:33.449  1702  1723 W ResourcesProvider: ResourcesProvider android.content.res.loader.ResourcesProvider@b6c9d52 finalized with non-zero refs: 1
+10-23 03:24:33.449  1702  1723 W ResourcesProvider: ResourcesProvider android.content.res.loader.ResourcesProvider@49a2823 finalized with non-zero refs: 1
+10-23 03:24:33.449  1702  1723 W ResourcesProvider: ResourcesProvider android.content.res.loader.ResourcesProvider@beff120 finalized with non-zero refs: 1
+10-23 03:24:33.449  1702  1723 W ResourcesProvider: ResourcesProvider android.content.res.loader.ResourcesProvider@f619ad9 finalized with non-zero refs: 1
+10-23 03:24:33.456  1518  1529 I ndroid.systemu: Background concurrent copying GC freed 74692(3175KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 9078KB/17MB, paused 18.303ms,20us total 198.424ms
+10-23 03:24:33.457  1518  1531 W System  : A resource failed to call release. 
+--------- beginning of system
+10-23 03:24:33.483  1336  1336 W Looper  : Slow delivery took 213ms main h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@47b746b m=0
+10-23 03:24:33.492  1336  1345 I system_server: Background concurrent copying GC freed 138387(7329KB) AllocSpace objects, 30(824KB) LOS objects, 49% free, 11MB/22MB, paused 4.172ms,167us total 234.619ms
+10-23 03:24:33.496  1336  1347 W System  : A resource failed to call close. 
+10-23 03:24:33.496  1336  1347 W System  : A resource failed to call close. 
+10-23 03:24:33.497  1336  1347 W System  : A resource failed to call close. 
+10-23 03:24:33.497  1336  1347 W System  : A resource failed to call close. 
+10-23 03:24:33.511  2412  2412 D CarrierConfigLoader: mHandler: EVENT_PACKAGE_CHANGED phoneId: 0
+10-23 03:24:33.517  1702  1824 D BaseIconFactory: icon scale is 1.4512576
+10-23 03:24:33.520  1336  1336 V BackupManagerConstants: getFullBackupIntervalMilliseconds(...) returns 86400000
+10-23 03:24:33.520  1336  1336 V BackupManagerConstants: getFullBackupRequiredNetworkType(...) returns 2
+10-23 03:24:33.521  1336  1336 V BackupManagerConstants: getFullBackupRequireCharging(...) returns true
+10-23 03:24:33.541  2124  2152 I PermissionControllerServiceImpl: Updating user sensitive for uid 10044
+10-23 03:24:33.555  1336  1336 W Looper  : Drained
+10-23 03:24:33.565  1702  1824 D BaseIconFactory: icon scale is 1.4512576
+10-23 03:24:33.570  2159  2469 D BoostKit: init() called with: installedPackageList = [[com.forestatelier.curioshop]], listener = [com.mumu.acc.manager.c@ccfdfc0]
+10-23 03:24:33.573  2159  2469 D BoostKit: id:uuromsdk:a6ed33108c3cf3b2
+10-23 03:24:33.573  2159  2469 D SdkInit : doInit() called
+10-23 03:24:33.573  2159  2469 D SdkInit : getGames() called
+10-23 03:24:33.617  3805  3805 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-23 03:24:33.620  3805  3805 I AndroidRuntime: Using default boot image
+10-23 03:24:33.620  3805  3805 I AndroidRuntime: Leaving lock profiling enabled
+10-23 03:24:33.622  3805  3805 W app_process: ART APEX data files are untrusted.
+10-23 03:24:33.630  1702  1824 D BaseIconFactory: icon scale is 1.4775635
+10-23 03:24:33.637  1702  1824 D BaseIconFactory: icon scale is 1.2883644
+10-23 03:24:33.736  3805  3805 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-23 03:24:33.737  3805  3805 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt68l.dat
+10-23 03:24:33.757  3805  3805 W app_process: Unexpected CPU variant for X86 using defaults: x86_64
+10-23 03:24:33.817  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.818  3805  3805 E Zygote  : The " /system/etc/mumu-configs/device-prop-configs/arm.config" app property config file not exists!
+10-23 03:24:33.818  3805  3805 W Zygote  : In ".*shootgame.*" have not valid property config, ignore it
+10-23 03:24:33.818  3805  3805 E Zygote  : The " /system/etc/mumu-configs/device-prop-configs/arm.config" app property config file not exists!
+10-23 03:24:33.818  3805  3805 W Zygote  : In ".*hanju.*" have not valid property config, ignore it
+10-23 03:24:33.819  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.820  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.820  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.820  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.821  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.821  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.821  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.821  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.821  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.821  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.821  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.821  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.822  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.822  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.822  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.823  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/mumu.config
+10-23 03:24:33.826  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.826  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/xiaomi14pro.config
+10-23 03:24:33.826  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/xiaomi14pro.config
+10-23 03:24:33.826  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/xiaomi14pro.config
+10-23 03:24:33.826  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/overseas_sim_info.config
+10-23 03:24:33.827  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/overseas_sim_info.config
+10-23 03:24:33.827  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.827  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.827  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/x86.config
+10-23 03:24:33.829  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.830  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/pad.config
+10-23 03:24:33.832  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.833  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/samsung_s22_ultra.config
+10-23 03:24:33.834  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.834  3805  3805 I Zygote  : config file alreay parse:/system/etc/mumu-configs/device-prop-configs/yyb.config
+10-23 03:24:33.835  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/samsungsms9006.config
+10-23 03:24:33.835  3805  3805 I Zygote  : config file alreay parse:/system/etc/mumu-configs/device-prop-configs/yyb.config
+10-23 03:24:33.835  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.835  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.836  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/coc.config
+10-23 03:24:33.836  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/liapp.config
+10-23 03:24:33.836  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.837  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/overseas_sim_info.config
+10-23 03:24:33.837  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/liapp.config
+10-23 03:24:33.837  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/liapp.config
+10-23 03:24:33.837  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.837  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.837  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.837  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.838  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.838  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/xiaomi14pro.config
+10-23 03:24:33.839  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.839  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.839  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.839  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.839  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.839  3805  3805 I Zygote  : config file alreay parse:/system/etc/mumu-configs/device-prop-configs/yyb.config
+10-23 03:24:33.840  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.840  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.840  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.840  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.840  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.840  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.840  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.840  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.840  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.841  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.841  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/liapp.config
+10-23 03:24:33.841  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.841  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.841  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.841  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.841  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.841  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.841  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.842  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.842  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/yunos.config
+10-23 03:24:33.842  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/yunos.config
+10-23 03:24:33.842  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/yunos.config
+10-23 03:24:33.843  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.843  3805  3805 I Zygote  : config file alreay parse:/system/etc/mumu-configs/device-prop-configs/yyb.config
+10-23 03:24:33.843  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/yunos.config
+10-23 03:24:33.843  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.843  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.843  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.843  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.843  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.843  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.844  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.844  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.844  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.844  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.844  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.844  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.844  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.844  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.844  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.844  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/liapp.config
+10-23 03:24:33.845  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.845  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.845  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.845  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.845  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.845  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.845  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.846  3805  3805 I Zygote  : config file alreay parse:/system/etc/mumu-configs/device-prop-configs/yyb.config
+10-23 03:24:33.846  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.846  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.846  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.846  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/overseas_sim_info.config
+10-23 03:24:33.847  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/overseas_sim_info.config
+10-23 03:24:33.847  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/overseas_sim_info.config
+10-23 03:24:33.847  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.847  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.847  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.847  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.847  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.848  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.848  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.848  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/iQOO15Ultra.config
+10-23 03:24:33.849  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.849  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/yunos.config
+10-23 03:24:33.849  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/overseas_sim_info.config
+10-23 03:24:33.849  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.849  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.850  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/overseas_sim_info.config
+10-23 03:24:33.850  3805  3805 I Zygote  : config file alreay parse:/system/etc/mumu-configs/device-prop-configs/yyb.config
+10-23 03:24:33.850  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/liapp.config
+10-23 03:24:33.851  3805  3805 I Zygote  : config file alreay parse:/data/system/etc/mumu-configs/device-prop-configs/arm64.config
+10-23 03:24:33.854  3805  3805 D Zygote  : Apps device config data:{com\.tencent\.mtt\.x86={ro.product.cpu.abi=x86}, com\.huawei\.appmarket={ro.build.characteristics=tablet}, com\.nexon.*maplem.*={dalvik.vm.isa.x86.variant=--, ro.dalvik.vm.isa.arm64=--, ro.soc.model=SM8850, ro.odm.product.cpu.abilist64=arm64-v8a, ro.boottime.adbd=--, ro.system.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi, ro.hardware=SM8850, ro.vendor.product.cpu.abilist64=arm64-v8a, ro.system.product.cpu.abilist32=armeabi-v7a,armeabi, init.svc.adbd=--, ro.product.cpu.abilist64=arm64-v8a, ro.dalvik.vm.isa.arm=--, dalvik.vm.isa.x86_64.features=--, ro.recovery.usb.adb.pid=--, ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi, ro.dalvik.vm.native.bridge=--, sys.usb.state=--, dalvik.vm.isa.x86.features=--, ro.odm.product.cpu.abilist32=armeabi-v7a,armeabi, persist.adb.wifi.guid=--, ro.adb.secure=1, dalvik.vm.isa.x86_64.variant=--, ro.product.cpu.abi2=armeabi-v7a, adb_drop_privileges=--, ro.enable.native.bridge.exec64=--, service.adb.root=--, qemu.hw.mainkeys=--, ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi, gsm.version.baseband=2.5.1.c1, ro.product.cpu.abi=arm64-v8a, ro.enable.native.bridge.exec=--, ro.bionic.2nd_arch=armeabi-v7a, ro.system.product.cpu.abilist64=arm64-v8a, adb_root=--, ro.debuggable=0, init.svc_debug_pid.adbd=--, ro.product.cpu.abilist32=armeabi-v7a,armeabi, ro.odm.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi, sys.usb.config=--, ro.secure=1, ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi, ro.bionic.arch=arm64}, com\.scopely\.monopolygo.*={dalvik.vm.isa.x86.variant=--, ro.dalvik.vm.isa.arm64=--, ro.soc.model=SM8850, ro.odm.product.cpu.abilist64=arm64-v8a, ro.boottime.adbd=--, ro.system.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi, ro.hardware=SM8850, ro.vendor.product.cpu.abilist64=arm64-v8a, ro.system.product.cpu.abilist32=armeabi-v7a,armeabi, init.svc.adbd=--, ro.product.cpu.abilist64=arm64-v8a, ro.dalvik.vm.isa.arm=--, dalvik.vm.isa.x86_64.features=--, ro.recovery.usb.adb.pid=--, ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi, ro.dalvik.vm.native.bridge=--, sys.usb.state=--, dalvik.vm.isa.x86.features=--, ro.odm.product.cpu.abilist32=armeabi-v7a,armeabi, persist.adb.wifi.guid=--, ro.adb.secure=1, dalvik.vm.isa.x86_64.variant=--, ro.product.cpu.abi2=armeabi-v7a, adb_drop_privileges=--, ro.enable.native.bridge.exec64=--, service.adb.root=--, qemu.hw.mainkeys=--, ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi, gsm.version.baseband=2.5.1.c1, ro.product.cpu.abi=arm64-v8a, ro.enable.native.bridge.exec=--, ro.bionic.2nd_arch=armeabi-v7a, ro.system.product.cpu.abilist64=arm64-v8a, adb_root=--, ro.debuggable=0, init.svc_debug_pid.adbd=--, ro.product.cpu.abilist32=armeabi-v7a,armeabi, ro.odm.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi, sys.usb.config=--, ro.secure=1, ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi, ro.bionic.arch=arm64}, .*sszg\.(sy.*|bdpz2023xin.*)={ro.product.system.name=V2546A, ro.vendor_dlkm.build.fingerprint=Vivo/V2546A/V2546A:12/V417IR/eng.abc.20260521.130647:user/release-keys, ro.product.manufacturer=Vivo, ro.product.system_ext.device=V2546A, ro.product.system_ext.manufacturer=Vivo, ro.product.vendor.name=V2546A, ro.product.system.model=V2546A, ro.product.product.device=V2546A, ro.hardware=Vivo, ro.system.build.fingerprint=Vivo/V2546A/V2546A:12/V417IR/eng.abc.20260521.130647:user/release-keys, ro.product.odm.device=V2546A, ro.product.system_ext.name=V2546A, ro.product.vendor.manufacturer=Vivo, ro.vendor.build.fingerprint=Vivo/V2546A/V2546A:12/V417IR/eng.abc.20260521.130647:user/release-keys, ro.product.name=V2546A, ro.product.brand=Vivo, ro.product.product.manufacturer=Vivo, ro.product.vendor.model=V2546A, ro.build.flavor=missi_V2546A-user, ro.product.vendor.device=V2546A, ro.product.vendor.brand=Vivo, ro.product.vendor_dlkm.device=V2546A, ro.product.vendor_dlkm.name=V2546A, ro.product.vendor_dlkm.manufacturer=Vivo, ro.odm.build.fingerprint=Vivo/V2546A/V2546A:12/V417IR/eng.abc.20260521.130647:user/release-keys, ro.product.model=V2546A, ro.product.system.device=V2546A
+10-23 03:24:33.854  3805  3805 D Zygote  : Apps device config player priority data: []
+10-23 03:24:33.854  3805  3805 E Zygote  : The " /pcgame/app-device-prop-overlay.config" property config file not exists!
+10-23 03:24:33.855  3805  3805 D Zygote  : getAppDeviceChannelConfig pattern = .*\.mi
+10-23 03:24:33.855  3805  3805 D Zygote  : getAppDeviceChannelConfig pattern = .*\.samsung
+10-23 03:24:33.856  3805  3805 D Zygote  : getAppDeviceChannelConfig pattern = .*\.huawei
+10-23 03:24:33.856  3805  3805 D Zygote  : Apps device channel config data:{.*\.mi={ro.product.model=M2102K1AC, ro.product.manufacturer=Xiaomi, ro.product.name=mars, ro.product.board=mars, ro.product.brand=Xiaomi, ro.product.device=mars}, .*\.samsung={ro.product.model=SM-G9910, ro.product.manufacturer=samsung, ro.product.name=SM-G9910, ro.product.board=SM-G9910, ro.product.brand=samsung, ro.product.device=SM-G9910}, .*\.huawei={ro.product.model=BLA-AL00, ro.product.manufacturer=HUAWEI, ro.product.name=BLA-AL00, ro.product.board=BLA-AL00, ro.product.brand=HUAWEI, ro.product.device=BLA-AL00}}
+10-23 03:24:33.870  3805  3805 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+10-23 03:24:33.870  3805  3805 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+10-23 03:24:33.874  3805  3805 W Monkey  : args: [-p, com.forestatelier.curioshop, 1]
+10-23 03:24:33.875  3805  3805 W Monkey  :  arg: "-p"
+10-23 03:24:33.875  3805  3805 W Monkey  :  arg: "com.forestatelier.curioshop"
+10-23 03:24:33.875  3805  3805 W Monkey  :  arg: "1"
+10-23 03:24:33.876  3805  3805 W Monkey  : data="com.forestatelier.curioshop"
+10-23 03:24:33.888  1336  1365 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{fb3844b u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{ec05e28 3805 (unknown name)/2000/u-1 remote:b0063c5}: process gone or crashing
+10-23 03:24:33.897  1084  1084 E SELinux : avc:  denied  { find } for pid=3805 uid=2000 name=permissionmgr scontext=u:r:adbd:s0 tcontext=u:object_r:permissionmgr_service:s0 tclass=service_manager permissive=1
+10-23 03:24:33.899  1336  1615 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity} from uid 2000, pid 3805
+10-23 03:24:33.904  1336  1615 I ActivityTaskManager: [KeepAlive] disabled for com.forestatelier.curioshop
+10-23 03:24:33.905  1336  1615 W ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=217 attached=false
+10-23 03:24:33.908  1336  1615 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10044; state: DISABLED
+10-23 03:24:33.908  1336  1615 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10044; state: DISABLED
+10-23 03:24:33.908  1336  1615 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10044; state: DISABLED
+10-23 03:24:33.908  1336  1615 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10044; state: DISABLED
+10-23 03:24:33.908  1336  1615 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10044; state: DISABLED
+10-23 03:24:33.909  1336  1615 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10044; state: ENABLED
+10-23 03:24:33.919  3805  3805 I Monkey  : Events injected: 1
+10-23 03:24:33.935  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:33.938  1336  1356 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10044; state: DISABLED
+10-23 03:24:33.939  1336  1366 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10044; state: ENABLED
+10-23 03:24:33.946  1956  1956 W WidgetOperateReceiver: onReceive: intent = Intent { act=com.mumu.LAUNCHER_LIFECYCLE flg=0x10 pkg=com.mumu.store cmp=com.mumu.store/.widget.receiver.WidgetOperateReceiver (has extras) } action = com.mumu.LAUNCHER_LIFECYCLE
+10-23 03:24:33.946  1956  1956 W WidgetOperateReceiver: onLauncherLifecycle: launcherLifecycle = ON_PAUSE
+10-23 03:24:33.946  1956  1956 W WidgetManager: updateLauncherLifecycle: launcherLifecycleName = ON_PAUSE
+10-23 03:24:33.950  3805  3805 I Monkey  : ## Network stats: elapsed time=43ms (0ms mobile, 0ms wifi, 43ms not connected)
+10-23 03:24:33.951  3805  3805 I app_process: System.exit called, status: 0
+10-23 03:24:33.951  3805  3805 I AndroidRuntime: VM exiting with result code 0.
+10-23 03:24:33.999  1518  3826 D ndroid.systemu: Features: 0 0 0
+10-23 03:24:33.999  1518  3826 E ndroid.systemu: vulkan version is 4211029
+10-23 03:24:34.001  1518  3826 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:34.006  1518  3826 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:34.008  1518  3826 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:34.041  1488  2304 D Watchdog: upload server response: {"errcode": 100, "errmsg": "ok"}
+10-23 03:24:34.042  1488  2304 D Watchdog: upload result: true
+10-23 03:24:34.043  1488  2304 D Watchdog: upload event: {"architecture":"x86_64","channel":"nochannel-mumu12","country":"zh-CN","engine":"NEMUX","fchannel":"nochannel-mumu12","language":"zh-Hans","mpid":"0","package":"mumu","product":"MuMu5.0","product_version":"5.30.1.3586","usage":"0","uuid":"246a3d6d-9dfb-48a0-a325-edf1c9908ab3","version":"5.30.1.3586","x":{"apk_path":"socket:[517839]","app_name":"林间奇物铺","app_package":"com.forestatelier.curioshop","app_version_code":1,"app_version_name":"0.1.0","error":{"code":0,"msg":"ok"},"extra":{"SupportArchitecture":"armeabi-v7a","amp_name":"林间奇物铺","ampid":0,"is_remote_control":0},"has_installed":1,"token":"417f4d82-2880-4f30-933e-0e136d11a1b1"}}	type: InstallAPP	sign: 1zWGPjI7YuobM8EvZLUOhswRH4Y=	uid: 1000	json:{"apk_path":"socket:[517839]","app_name":"林间奇物铺","app_package":"com.forestatelier.curioshop","app_version_code":1,"app_version_name":"0.1.0","error":{"code":0,"msg":"ok"},"extra":{"SupportArchitecture":"armeabi-v7a","amp_name":"林间奇物铺","ampid":0,"is_remote_control":0},"has_installed":1,"token":"417f4d82-2880-4f30-933e-0e136d11a1b1"}
+10-23 03:24:34.058  1168  1168 D Zygote  : Forked child process 3827
+10-23 03:24:34.063  1336  1366 W ActivityManager: Slow operation: 128ms so far, now at startProcess: returned from zygote!
+10-23 03:24:34.068  1336  1366 W ActivityManager: Slow operation: 134ms so far, now at startProcess: done updating battery stats
+10-23 03:24:34.068  1336  1366 W ActivityManager: Slow operation: 135ms so far, now at startProcess: building log message
+10-23 03:24:34.068  1336  1366 I ActivityManager: Start proc 3827:com.forestatelier.curioshop/u0a44 for pre-top-activity {com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity}
+10-23 03:24:34.068  1336  1366 W ActivityManager: Slow operation: 135ms so far, now at startProcess: starting to update pids map
+10-23 03:24:34.075  1336  1366 W ActivityManager: Slow operation: 142ms so far, now at startProcess: done updating pids map
+10-23 03:24:34.076  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 2629632
+10-23 03:24:34.082  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 2629632
+10-23 03:24:34.087  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:34.092  3827  3827 I Zygote  : fakeProductInfoIfNeed callded! com.forestatelier.curioshop
+10-23 03:24:34.093  1336  1356 I ActivityTaskManager: Config changes=20000480 {1.0 460mcc65535mnc [zh_CN] ldltr sw617dp w617dp h1073dp 280dpi lrg long port finger -keyb/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 1920) mAppBounds=Rect(0, 0 - 1080, 1920) mMaxBounds=Rect(0, 0 - 1080, 1920) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.798 fontWeightAdjustment=0}
+10-23 03:24:34.097  1336  1356 I WindowManager: Override config changes=20000480 {1.0 460mcc65535mnc [zh_CN] ldltr sw617dp w617dp h1073dp 280dpi lrg long port finger -keyb/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 1920) mAppBounds=Rect(0, 0 - 1080, 1920) mMaxBounds=Rect(0, 0 - 1080, 1920) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.798 fontWeightAdjustment=0} for displayId=0
+10-23 03:24:34.099  3827  3827 I Zygote  : fake Product info com.forestatelier.curioshop not matched any pattern
+10-23 03:24:34.099  3827  3827 I Zygote  : fakeProductInfoFromProperties callded! com.forestatelier.curioshop
+10-23 03:24:34.109  1336  1356 I InputManager-JNI: Viewport [0] to add: local:4619827820427265280, isActive: true
+10-23 03:24:34.111  1336  1431 I InputReader: Reconfiguring input devices, changes=DISPLAY_INFO | 
+10-23 03:24:34.112  1336  1431 I InputReader: Device reconfigured: id=3, name='Xiaomi Input', size 1080x1920, orientation 0, mode 1, display id 0
+10-23 03:24:34.112  1518  1518 D StatusBar: Received new disable state. Old: enaihbcrso.qingr | New: enaihbcrso.qingr
+10-23 03:24:34.114  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:34.121  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:34.126  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 270336
+10-23 03:24:34.132  2412  2576 D TelephonyProvider: subIdString = 1 subId = 1
+10-23 03:24:34.132  2412  2576 D TelephonyProvider: subIdString = 1 subId = 1
+10-23 03:24:34.132  2412  2576 D TelephonyProvider: getPreferredApnIdFromApn: for subId 1
+10-23 03:24:34.135  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:34.143  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:34.151  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 184320
+10-23 03:24:34.154  3827  3827 E NemuAppNameUtil: save data success
+10-23 03:24:34.154  1518  1518 W View    : requestLayout() improperly called by android.widget.TextView{4fcfd23 V.ED..... ......ID 0,34-111,68 #7f0b00a6 app:id/app_label} during layout: running second layout pass
+10-23 03:24:34.157  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 184320
+10-23 03:24:34.160  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 184320
+10-23 03:24:34.165  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 184320
+10-23 03:24:34.169  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 184320
+10-23 03:24:34.175  3827  3827 E linker  : do_dlopen failed
+10-23 03:24:34.175  3827  3827 E linker  : load selected hp /system/etc/mumu-configs/shared_libs/libhp12_x86.so failed
+10-23 03:24:34.175  3827  3827 E linker  : library "/system/etc/mumu-configs/shared_libs/libhp12_x86.so" ("/system/etc/mumu-configs/shared_libs/libhp12_x86.so") needed or dlopened by "/apex/com.android.art/lib/libnativebridge.so" is not accessible for the namespace: [name="com_android_art", ld_library_paths="", default_library_paths="/apex/com.android.art/lib", permitted_paths="/apex/com.android.art/lib:/system/lib:/data:/apex/com.android.art/javalib"]
+10-23 03:24:34.175  3827  3827 E linker  : do_dlopen failed
+10-23 03:24:34.175  3827  3827 E linker  : load origin hp /system/etc/mumu-configs/shared_libs/libhp12_x86.so failed
+10-23 03:24:34.177  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 184320
+10-23 03:24:34.181  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 184320
+10-23 03:24:34.183  3827  3827 E linker  : hp entrace has not been loaded, ignored
+10-23 03:24:34.193  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 184320
+10-23 03:24:34.193  3827  3827 W nativebridge: LLLog DoRedirectTranslator not is_gte
+10-23 03:24:34.195  3827  3827 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm.txt as /proc/cpuinfo: No such file or directory
+10-23 03:24:34.195  3827  3827 I Zygote  : seccomp disabled by setenforce 0
+10-23 03:24:34.205  3827  3827 I elier.curiosho: Late-enabling -Xcheck:jni
+10-23 03:24:34.216  1518  1518 I RenderThread: type=1400 audit(0.0:10082): avc: denied { use } for path="/dev/ashmemd7ef1746-0cd9-4dce-95a2-32b19ee7a8f9" dev="tmpfs" ino=13361 scontext=u:r:init:s0 tcontext=u:r:platform_app:s0:c512,c768 tclass=fd permissive=1 app=com.android.systemui
+10-23 03:24:34.218  3827  3827 W elier.curiosho: Unexpected CPU variant for X86 using defaults: x86_64
+10-23 03:24:34.218  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 184320
+10-23 03:24:34.220  3827  3827 V libnb   : enter native_bridge2_initialize /data/user/0/com.forestatelier.curioshop/code_cache arm
+10-23 03:24:34.221  3827  3827 E libnb   : The translator implementation library has not been set.
+10-23 03:24:34.219  3827  3827 I elier.curiosho: type=1400 audit(0.0:10083): avc: denied { search } for name="/" dev="sda6" ino=2 scontext=u:r:untrusted_app:s0:c44,c256,c512,c768 tcontext=u:object_r:unlabeled:s0 tclass=dir permissive=1 app=com.forestatelier.curioshop
+10-23 03:24:34.219  1518  1518 I ndroid.systemui: type=1400 audit(0.0:10084): avc: denied { call } for scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=binder permissive=1 app=com.android.systemui
+10-23 03:24:34.219  3827  3827 I elier.curiosho: type=1400 audit(0.0:10085): avc: denied { getattr } for path="/system/etc/mumu-configs/shared_libs/libhp12_x86.so" dev="sda6" ino=1114 scontext=u:r:untrusted_app:s0:c44,c256,c512,c768 tcontext=u:object_r:unlabeled:s0 tclass=file permissive=1 app=com.forestatelier.curioshop
+10-23 03:24:34.219  3827  3827 I elier.curiosho: type=1400 audit(0.0:10086): avc: denied { open } for path="/data/system/etc/mumu-configs/shared_libs/libhp12_x86.so" dev="sdc3" ino=4849941 scontext=u:r:untrusted_app:s0:c44,c256,c512,c768 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1 app=com.forestatelier.curioshop
+10-23 03:24:34.231  3827  3827 E libnb   : get_callbacks native_handle 0xe327cb99: 1 libnb:/system/lib/libhoudini.so
+10-23 03:24:34.231  3827  3827 I libnb   : Found /system/lib/libhoudini.so version 6
+10-23 03:24:34.231  3827  3827 D HP      : initialize private_dir:/data/user/0/com.forestatelier.curioshop/code_cache instruction_set:arm
+10-23 03:24:34.236  3827  3827 D houdini : [3827] Intel Bridge Technology for Netease internal evaluation only, Copyright(C) Intel Corp. 2012-2025.
+10-23 03:24:34.236  3827  3827 D houdini : [3827] Use permitted only under a valid evaluation software license agreement - all other rights reserved.
+10-23 03:24:34.236  3827  3827 D houdini : [3827] Initialize library(version: 12.0.1_y.Netease_ev4 RELEASE)... successfully.
+10-23 03:24:34.249  1186  1228 I adbd    : jdwp connection from 3827
+10-23 03:24:34.260  3827  3827 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+10-23 03:24:34.282  1336  1978 W OomAdjuster: Fallback pre-set sched group to default: not expected top priority
+10-23 03:24:34.285  1336  1978 D RecentTaskMonitor: onTaskFocusChanged [FALSE] 2
+10-23 03:24:34.285  1336  1978 D RecentTaskMonitor: onTaskFocusChanged [TRUE] 217 ignoreTFC false
+10-23 03:24:34.289  3827  3841 E ashmem  : memfd: ro.vndk.version not defined or invalid (), this is mandated since P.
+10-23 03:24:34.291  1336  1356 D RecentTaskMonitor: task null or not sub display in notifyDisplayOpened
+10-23 03:24:34.291  1336  1356 D RecentTaskMonitor: VAddressShellNotifier#notifyOpenTab :{"uri":"player\/tab","need_response":false,"params":{"id":"task:217","displayId":0,"userId":0,"name":"林间奇物铺","originName":"林间奇物铺","packageName":"com.forestatelier.curioshop","launcher":false,"newTask":true,"icon":"iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAKISURBVEiJvZY9SCNREMd\/u1yq+BFMY6xtYrGIKIedNgp3pWCZRgiIrWAjdiIIEpQUlpZiY6GF2okEQW2iaBHRDbvRlRwSP2I+cPfNNedV2SQe5gZe9d78\/2\/mPzPvAXwHMoB88foF\/ATItgD8Y+U1QAEarTHR\/jC1zPRWggN8a+ZQJBJhenqap6cnXl9f6evrI5FIYFlWUyS+IgWDQYnFYpLJZMTzPFldXZWFhQXxPE9M05R4PC6hUKiR0LU3hoaG5OrqSjzPExGRarUqU1NTMjExIcViUURElFJiWZaMjIx8jiAUCsnZ2ZlUq1URETk4OBDDMETXddF1XXp7e2V7e1uUUuK6rhwfH0s4HK5JUFMDXdd5e3vj8vKSnp4eotEo4+Pj5PN5XNdldHSU\/v5+7u7uuLi44OHhwTf\/viJrmoZSiuvra9ra2pifn2d2dhalFB0dHaRSKe7v7wkEAmiafxs1LNO5uTk2NjZIp9O8vLzgOA67u7tsbm6ysrLC+\/t7Xf+6ZSoiOI7D2toa+\/v7JJNJcrkciUSC8\/NzwuEwIvX71DcCESGXy1EoFBARbm5uqFQquK7L7e0tIkKpVMK2bZRSn4ugXC6ztLSEbdvMzMxweHjIyckJIvL3xoZhMDw8zNbWFu3t7ZTL5ZoEvrNocHCQxcVFurq6cF2XVCrFwMAAtm2TTqcxDINAIEClUmF9fZ3T09PPEQB0d3ezvLxMNBpF0zQ8z8M0TZRSf\/VJJpNks1nfFDWcpsFgkLGxMWKxGJFIBNM0KRQK7OzscHR0RLFYrOfemODDOjs7mZycpFQqsbe3x+PjYzNuzRP8q33Ze6DrtaH+SwROC\/GfAX4AFl\/\/o3gG4r8B6Yqxr4NR+7wAAAAASUVORK5CYII=","canChangeAppOrientation":false,"canReceiveFile":false,"pid":3827,"uid":10044,"action":"open"}}
+10-23 03:24:34.293  1100  1115 D nemuinit: start name: vapi, operation: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, id: 541
+10-23 03:24:34.293  1100  3844 D nemuinit: Proxy: use callback: 1336, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, res: 
+10-23 03:24:34.293  1100  3844 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:34.294  1100  3844 D nemuinit: Proxy: use callback: 1956, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, res: 
+10-23 03:24:34.294  1100  3844 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:34.294  1100  3844 D nemuinit: Proxy: use callback: 1518, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, res: 
+10-23 03:24:34.294  1100  3844 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:34.295  1100  3844 D nemuinit: Proxy: use callback: 1488, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, res: {"errcode":0,"message":"OK"}
+10-23 03:24:34.295  1100  3844 D nemuinit: Proxy: finish handleNemuInitMessage
+10-23 03:24:34.311  3827  3827 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10044; state: ENABLED
+10-23 03:24:34.732  1488  2304 D Watchdog: upload server response: {"errcode": 100, "errmsg": "ok"}
+10-23 03:24:34.732  1488  2304 D Watchdog: upload result: true
+10-23 03:24:34.751  3827  3827 I Typeface: Preloading /system/fonts/Roboto-Regular.ttf
+10-23 03:24:34.854  3827  3827 V GraphicsEnvironment: ANGLE Developer option for 'com.forestatelier.curioshop' set to: 'default'
+10-23 03:24:34.855  3827  3827 V GraphicsEnvironment: ANGLE GameManagerService for com.forestatelier.curioshop: false
+10-23 03:24:34.855  3827  3827 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-23 03:24:34.858  3827  3827 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-23 03:24:34.858  3827  3827 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-23 03:24:35.076  3827  3849 D libEGL  : loaded /system/lib/egl/libEGL_emulation.so
+10-23 03:24:35.099  3827  3849 D elier.curiosho: Features: 0 0 0
+10-23 03:24:35.099  3827  3849 E elier.curiosho: vulkan version is 4211029
+10-23 03:24:35.105  3827  3849 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_emulation.so
+10-23 03:24:35.106  3827  3849 D libEGL  : loaded /system/lib/egl/libGLESv2_emulation.so
+10-23 03:24:35.128  3827  3849 E GraphicsEnv: Failed to get gpu service
+10-23 03:24:35.379  1956  1956 I RxCachedThreadS: type=1400 audit(0.0:10112): avc: denied { search } for name="/" dev="sda6" ino=2 scontext=u:r:system_app:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir permissive=1
+10-23 03:24:35.473  2159  2159 I umu.163.com/...: type=1400 audit(0.0:10113): avc: denied { search } for name="/" dev="sda6" ino=2 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:unlabeled:s0 tclass=dir permissive=1 app=com.mumu.acc
+10-23 03:24:35.591  3827  3827 I Mono    : JNI_OnLoad called
+10-23 03:24:35.594  3827  3827 D Unity   : CommandLine:  
+10-23 03:24:35.635  3827  3827 I Unity   : onResume
+10-23 03:24:35.649  1185  1185 I Binder:1185_3: type=1400 audit(0.0:10114): avc: denied { write } for path="socket:[520392]" dev="sockfs" ino=520392 scontext=u:r:untrusted_app:s0:c44,c256,c512,c768 tcontext=u:r:init:s0 tclass=unix_stream_socket permissive=1
+10-23 03:24:35.654  1336  1978 W WindowManager: Failed looking up window session=Session{adcd983 3827:u0a10044} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:5833 com.android.server.wm.Session.updateRequestedVisibilities:649 android.view.IWindowSession$Stub.onTransact:1175 
+10-23 03:24:35.684  1336  1978 I RecentTaskMonitor: broadcast tab opened in android as it's new task1 217
+10-23 03:24:35.685  1488  1488 D TabManager: setFocusTaskProp 217
+10-23 03:24:35.686  1488  1942 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1181 android.content.ContextWrapper.sendBroadcast:479 com.netease.nemu_vapi_android.thread.NewFileUpdater.notifyFocusedTabChanged:499 com.netease.nemu_vapi_android.thread.NewFileUpdater.onOpenNewTask:421 com.netease.nemu_vapi_android.worker.LocalAppManager.updateOnNewTask:259 
+10-23 03:24:35.686  1488  1942 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1181 android.content.ContextWrapper.sendBroadcast:479 com.netease.nemu_vapi_android.thread.NewFileUpdater.notifyFocusedTabChanged:504 com.netease.nemu_vapi_android.thread.NewFileUpdater.onOpenNewTask:421 com.netease.nemu_vapi_android.worker.LocalAppManager.updateOnNewTask:259 
+10-23 03:24:35.686  1488  1942 D NewFileUpdater: onOpenNewTask focusPkgName set to com.forestatelier.curioshop
+10-23 03:24:35.686  1488  1942 D Watchdog: ignore events AppLaunch: {"app_name":"林间奇物铺","app_package":"com.forestatelier.curioshop","event_duration":0,"failure_reason":"","status_code":0}
+10-23 03:24:35.687  1488  2304 D Watchdog: upload event: {"architecture":"x86_64","channel":"nochannel-mumu12","country":"zh-CN","engine":"NEMUX","fchannel":"nochannel-mumu12","language":"zh-Hans","mpid":"0","package":"mumu","product":"MuMu5.0","product_version":"5.30.1.3586","usage":"0","uuid":"246a3d6d-9dfb-48a0-a325-edf1c9908ab3","version":"5.30.1.3586","x":{"app_name":"林间奇物铺","app_package":"com.forestatelier.curioshop","app_version_code":1,"app_version_name":"0.1.0","error":{"code":0,"msg":"ok"},"extra":{"NB":"{\"NB_MD5\":\"CBB0484AB94828E4C25FC1E75443C206\",\"NB_NAME\":\"libhoudini.so\",\"NB_64BIT\":\"false\",\"NB_STATUS\":\"1\",\"RunningArchitecture\":\"armeabi-v7a\"}","amp_name":"林间奇物铺","ampid":0,"is_remote_control":0},"token":"417f4d82-2880-4f30-933e-0e136d11a1b1"}}	type: LaunchAPP	sign: TCulueOSuGyYk4vrpeHBdM7ECG8=	uid: 1000	json:{"app_name":"林间奇物铺","app_package":"com.forestatelier.curioshop","app_version_code":1,"app_version_name":"0.1.0","error":{"code":0,"msg":"ok"},"extra":{"NB":"{\"NB_MD5\":\"CBB0484AB94828E4C25FC1E75443C206\",\"NB_NAME\":\"libhoudini.so\",\"NB_64BIT\":\"false\",\"NB_STATUS\":\"1\",\"RunningArchitecture\":\"armeabi-v7a\"}","amp_name":"林间奇物铺","ampid":0,"is_remote_control":0},"token":"417f4d82-2880-4f30-933e-0e136d11a1b1"}
+10-23 03:24:35.689  2159  2159 W AccMsgReceiver: AccMsgReceiver: onReceive action = nemu.intent.action.NEW_TASK
+10-23 03:24:35.683  1488  1488 I package_hot_upd: type=1400 audit(0.0:10115): avc: denied { getattr } for path="/system/framework/framework-res.apk" dev="sda6" ino=2338 scontext=u:r:system_app:s0 tcontext=u:object_r:unlabeled:s0 tclass=file permissive=1
+10-23 03:24:35.689  1166  1166 I Binder:1166_2: type=1400 audit(0.0:10116): avc: denied { use } for path="socket:[517940]" dev="sockfs" ino=517940 scontext=u:r:init:s0 tcontext=u:r:system_app:s0 tclass=fd permissive=1
+10-23 03:24:35.693  2159  2159 W AccMsgReceiver: AccMsgReceiver: onReceive action = com.mumu.launcher.ACTION_FOCUSED_TAB_CHANGED
+10-23 03:24:35.702  1336  1926 W ActivityManager: Foreground service started from background can not have location/camera/microphone access: service com.mumu.acc/.AccService
+10-23 03:24:35.704  2159  2808 W AccServiceManager: onAppLaunch: packageName = com.forestatelier.curioshop
+10-23 03:24:35.705  3827  3827 D hw-ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+10-23 03:24:35.707  3827  3850 D Unity   : SetWindow 0 0xca911528
+10-23 03:24:35.707  3827  3850 D Unity   : SetWindow 0 0xca911528
+10-23 03:24:35.707  1085  1085 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-23 03:24:35.707  3827  3827 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@4.0::IMapper instance: default
+10-23 03:24:35.708  1085  1085 I hwservicemanager: Since android.hardware.graphics.mapper@4.0::IMapper/default is not registered, trying to start it as a lazy HAL.
+10-23 03:24:35.708  3827  3827 I Gralloc4: mapper 4.x is not supported
+10-23 03:24:35.709  1085  3855 W libc    : Unable to set property "ctl.interface_start" to "android.hardware.graphics.mapper@4.0::IMapper/default": error code: 0x20
+10-23 03:24:35.709  1085  3855 I hwservicemanager: Tried to start android.hardware.graphics.mapper@4.0::IMapper/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+10-23 03:24:35.709  1085  1085 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device VINTF manifest.
+10-23 03:24:35.709  3827  3827 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@3.0::IMapper instance: default
+10-23 03:24:35.709  1085  1085 I hwservicemanager: Since android.hardware.graphics.mapper@3.0::IMapper/default is not registered, trying to start it as a lazy HAL.
+10-23 03:24:35.710  3827  3827 W Gralloc3: mapper 3.x is not supported
+10-23 03:24:35.710  1085  3856 W libc    : Unable to set property "ctl.interface_start" to "android.hardware.graphics.mapper@3.0::IMapper/default": error code: 0x20
+10-23 03:24:35.710  1085  3856 I hwservicemanager: Tried to start android.hardware.graphics.mapper@3.0::IMapper/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+10-23 03:24:35.712  3827  3827 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@2.0::IMapper instance: default
+10-23 03:24:35.714  1085  1085 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+10-23 03:24:35.714  3827  3827 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@4.0::IAllocator instance: default
+10-23 03:24:35.714  1085  1085 I hwservicemanager: Since android.hardware.graphics.allocator@4.0::IAllocator/default is not registered, trying to start it as a lazy HAL.
+10-23 03:24:35.714  3827  3827 W Gralloc4: allocator 4.x is not supported
+10-23 03:24:35.715  1085  3857 W libc    : Unable to set property "ctl.interface_start" to "android.hardware.graphics.allocator@4.0::IAllocator/default": error code: 0x20
+10-23 03:24:35.715  1085  3857 I hwservicemanager: Tried to start android.hardware.graphics.allocator@4.0::IAllocator/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+10-23 03:24:35.715  1085  1085 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@3.0::IAllocator/default in either framework or device VINTF manifest.
+10-23 03:24:35.715  3827  3827 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@3.0::IAllocator instance: default
+10-23 03:24:35.715  1085  1085 I hwservicemanager: Since android.hardware.graphics.allocator@3.0::IAllocator/default is not registered, trying to start it as a lazy HAL.
+10-23 03:24:35.715  3827  3827 W Gralloc3: allocator 3.x is not supported
+10-23 03:24:35.716  1085  3858 W libc    : Unable to set property "ctl.interface_start" to "android.hardware.graphics.allocator@3.0::IAllocator/default": error code: 0x20
+10-23 03:24:35.716  1085  3858 I hwservicemanager: Tried to start android.hardware.graphics.allocator@3.0::IAllocator/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+10-23 03:24:35.717  3827  3827 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@2.0::IAllocator instance: default
+10-23 03:24:35.729  3827  3827 D elier.curiosho: Features: 0 0 0
+10-23 03:24:35.729  3827  3827 E elier.curiosho: vulkan version is 4211029
+10-23 03:24:35.750  3827  3827 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:35.819  1336  1353 W system_server: Failed to determine oat file name for dex location /data/app/~~F6YOpxrKH573swKnrrvmvw==/com.forestatelier.curioshop-13WVc4Ok4nlWKuNMw0WpIg==/base.apk: Dalvik cache directory does not exist
+10-23 03:24:35.820  1336  1353 I ActivityTaskManager: Displayed com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity: +1s918ms
+10-23 03:24:35.823  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:35.824  3827  3827 I Unity   : windowFocusChanged: true
+10-23 03:24:35.827  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:35.864  3827  3850 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-23 03:24:35.867  3827  3850 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+10-23 03:24:35.867  3827  3850 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+10-23 03:24:35.867  3827  3850 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+10-23 03:24:35.867  3827  3850 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+10-23 03:24:35.867  3827  3850 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+10-23 03:24:35.867  3827  3850 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+10-23 03:24:35.867  3827  3850 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+10-23 03:24:35.868  3827  3850 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+10-23 03:24:35.868  3827  3850 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+10-23 03:24:35.868  3827  3850 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+10-23 03:24:35.868  3827  3850 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+10-23 03:24:35.868  3827  3850 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+10-23 03:24:35.868  3827  3850 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+10-23 03:24:35.868  3827  3850 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+10-23 03:24:35.868  3827  3850 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+10-23 03:24:35.868  3827  3850 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+10-23 03:24:35.868  3827  3850 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+10-23 03:24:35.868  3827  3850 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+10-23 03:24:35.869  3827  3850 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+10-23 03:24:35.869  3827  3850 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+10-23 03:24:35.869  3827  3850 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+10-23 03:24:35.869  3827  3850 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+10-23 03:24:35.869  3827  3850 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+10-23 03:24:35.869  3827  3850 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+10-23 03:24:35.869  3827  3850 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+10-23 03:24:35.869  3827  3850 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+10-23 03:24:35.869  3827  3850 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+10-23 03:24:35.869  3827  3850 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+10-23 03:24:35.869  3827  3850 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+10-23 03:24:35.870  3827  3850 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+10-23 03:24:35.944  3827  3850 D Unity   : Enabling Unity systrace
+10-23 03:24:35.963  1336  1615 W InputManager-JNI: Input channel object 'bbcb2b1 Splash Screen com.forestatelier.curioshop (client)' was disposed without first being removed with the input manager!
+10-23 03:24:35.969  3827  3850 W elier.curiosho: Accessing hidden method Ljava/lang/invoke/MethodHandles$Lookup;-><init>(Ljava/lang/Class;I)V (unsupported, reflection, allowed)
+10-23 03:24:35.987  3827  3850 D Unity   : [VFS] Mount /data/app/~~F6YOpxrKH573swKnrrvmvw==/com.forestatelier.curioshop-13WVc4Ok4nlWKuNMw0WpIg==/base.apk
+10-23 03:24:36.023  3827  3850 I Unity   : SystemInfo CPU = x86-64 SSE3 SSE4.1 SSE4.2 AVX AVX2, Cores = 4, Memory = 5949mb
+10-23 03:24:36.023  3827  3850 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf), 0 little (mask: 0x0)
+10-23 03:24:36.024  3827  3850 I Unity   : ApplicationInfo com.forestatelier.curioshop version 0.1.0
+10-23 03:24:36.024  3827  3850 I Unity   : Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch, Version '2022.3.62f2 (7670c08855a9)', Build type 'Development', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+10-23 03:24:36.032  3827  3850 D Unity   : Mono path[0] = '/data/app/~~F6YOpxrKH573swKnrrvmvw==/com.forestatelier.curioshop-13WVc4Ok4nlWKuNMw0WpIg==/base.apk/assets/bin/Data/Managed'
+10-23 03:24:36.032  3827  3850 D Unity   : Mono config path = 'assets/bin/Data/Managed/etc'
+10-23 03:24:36.038  1518  1518 D StatusBar: Received new disable state. Old: enaihbcrso.qingr | New: enaihbcrso.qingr
+10-23 03:24:36.055  1518  1743 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 184320
+10-23 03:24:36.372  3827  3850 D Unity   : [EGL] Attaching window :0xca911528
+10-23 03:24:36.372  3827  3850 D Unity   : InitializeScriptEngine OK (0xbd2b4e80)
+10-23 03:24:36.377  3827  3850 D Unity   : Found 1 interfaces on host :
+10-23 03:24:36.377  3827  3850 D Unity   :  0) 10.0.2.15
+10-23 03:24:36.377  3827  3850 D Unity   : 
+10-23 03:24:36.378  3827  3850 D Unity   : Player connection [3341074912]  Target information:
+10-23 03:24:36.378  3827  3850 D Unity   : 
+10-23 03:24:36.378  3827  3850 D Unity   : Player connection [3341074912]  * "[IP] 10.0.2.15 [Port] 55000 [Flags] 2 [Guid] 784692159 [EditorId] 410879554 [Version] 1048832 [Id] AndroidPlayer(11,HUAWEI_HBP-AL00@10.0.2.15) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] 林间奇物铺" 
+10-23 03:24:36.378  3827  3850 D Unity   : 
+10-23 03:24:36.378  3827  3850 D Unity   : Player connection [3341074912] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+10-23 03:24:36.378  3827  3850 D Unity   : 
+10-23 03:24:36.399  3827  3850 D Unity   : Input System module state changed to: Initialized.
+10-23 03:24:36.414  3827  3850 D Unity   : [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+10-23 03:24:36.443  3827  3850 D Unity   : PlayerInitEngineNoGraphics OK
+10-23 03:24:36.443  3827  3850 I Unity   : Company Name: Forest Atelier
+10-23 03:24:36.443  3827  3850 I Unity   : Product Name: 林间奇物铺
+10-23 03:24:36.443  3827  3850 D Unity   : AndroidGraphics::Startup window =  0xca911528
+10-23 03:24:36.443  3827  3850 D Unity   : [EGL] Attaching window :0xca911528
+10-23 03:24:36.447  3827  3850 D Unity   : [Subsystems] Discovering subsystems at path /data/app/~~F6YOpxrKH573swKnrrvmvw==/com.forestatelier.curioshop-13WVc4Ok4nlWKuNMw0WpIg==/base.apk/assets/bin/Data/UnitySubsystems
+10-23 03:24:36.457  3827  3850 D elier.curiosho: Features: 0 0 0
+10-23 03:24:36.457  3827  3850 E elier.curiosho: vulkan version is 4211029
+10-23 03:24:36.460  3827  3850 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.configstore@1.0::ISurfaceFlingerConfigs instance: default
+10-23 03:24:36.461  3827  3850 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 03:24:36.462  3827  3850 D Unity   : [EGL] Checking ES 3.2 support...
+10-23 03:24:36.463  3827  3850 D Unity   : [EGL] ES 3.2 support detected
+10-23 03:24:36.463  3827  3850 E EGL_emulation: [getAttribValue] Bad attribute idx
+10-23 03:24:36.463  3827  3850 D EGL_emulation: eglGetConfigAttrib: bad attrib 0x1
+10-23 03:24:36.463  3827  3850 E EGL_emulation: tid 3850: eglGetConfigAttrib(1034): error 0x3004 (EGL_BAD_ATTRIBUTE)
+10-23 03:24:36.464  3827  3850 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 03:24:36.464  3827  3850 D Unity   : GfxDevice: creating device client; threaded=1; jobified=0
+10-23 03:24:36.465  3827  3850 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 03:24:36.467  3827  3850 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 03:24:36.467  3827  3850 D Unity   : [EGL] Request: ES 3.0 RGBA 8888 0/0
+10-23 03:24:36.470  3827  3850 D Unity   : [EGL] Found: ID[1] ES 3.0 RGBA 8888 0/0
+10-23 03:24:36.471  3827  3850 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:36.475  3827  3850 D Unity   : ANativeWindow: (1080/1920) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (1080/1920)
+10-23 03:24:36.500  3827  3850 D Unity   : Renderer: Adreno (TM) 640
+10-23 03:24:36.500  3827  3850 D Unity   : Vendor:   Qualcomm
+10-23 03:24:36.500  3827  3850 D Unity   : Version:  OpenGL ES 3.2 V132
+10-23 03:24:36.500  3827  3850 D Unity   : GLES:     3
+10-23 03:24:36.500  3827  3850 D Unity   :  GL_ANDROID_extension_pack_es31a GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_copy_image GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_primitive_bounding_box GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_io_blocks GL_EXT_shader_texture_lod GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture
+10-23 03:24:36.500  3827  3850 D Unity   : _sRGB_decode GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_geometry_shader GL_OES_packed_depth_stencil GL_OES_primitive_bounding_box GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader
+10-23 03:24:36.500  3827  3850 D Unity   : _image_atomic GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float
+10-23 03:24:36.503  3827  3850 D Unity   : OPENGL LOG: Creating OpenGL ES 3.2 graphics device ; Context level  <OpenGL ES 3.2> ; Context handle -732612784
+10-23 03:24:36.506  1182  1182 I wifi@1.0-servic: type=1400 audit(0.0:10137): avc: denied { write } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_route_socket permissive=1
+10-23 03:24:36.506  1182  1182 I wifi@1.0-servic: type=1400 audit(0.0:10138): avc: denied { nlmsg_readpriv } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_route_socket permissive=1
+10-23 03:24:36.506  1182  1182 I wifi@1.0-servic: type=1400 audit(0.0:10139): avc: denied { read } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_route_socket permissive=1
+10-23 03:24:36.521  3827  3899 D elier.curiosho: Features: 0 0 0
+10-23 03:24:36.521  3827  3899 E elier.curiosho: vulkan version is 4211029
+10-23 03:24:36.528  3827  3850 D Unity   : [EGL] Attaching window :0xca911528
+10-23 03:24:36.529  3827  3850 D Unity   : Requested framebuffer: resolution[1080x1920], rgba[8/8/8/8], depth+stencil[on], samples[1]
+10-23 03:24:36.531  3827  3850 D Unity   : Created framebuffer: resolution[1080x1920], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+10-23 03:24:36.532  3827  3850 D Unity   : [EGL] Attaching window :0xca911528
+10-23 03:24:36.532  3827  3850 D Unity   : Initialize engine version: 2022.3.62f2 (7670c08855a9)
+10-23 03:24:36.589  1183  1183 I AudioOut_D: type=1400 audit(0.0:10140): avc: denied { call } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+10-23 03:24:36.599  3827  3850 D elier.curiosho: PlayerBase::PlayerBase()
+10-23 03:24:36.599  3827  3850 D elier.curiosho: TrackPlayerBase::TrackPlayerBase()
+10-23 03:24:36.599  3827  3850 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+10-23 03:24:36.596  1084  1084 I servicemanager: type=1400 audit(0.0:10141): avc: denied { transfer } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+10-23 03:24:36.601  1183 17829 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000104) and output flags (00000006)
+10-23 03:24:36.601  1183 17829 D AudioFlinger: Client defaulted notificationFrames to 512 for frameCount 4096
+10-23 03:24:36.602  1183 17829 D AF::TrackHandle: OpPlayAudio: track:92 usage:1 not muted
+10-23 03:24:36.603  3827  3850 I AudioTrack: createTrack_l(-300305136): AUDIO_OUTPUT_FLAG_FAST successful; frameCount 0 -> 4096
+10-23 03:24:36.617  1170  2847 D audio_hw_primary: tunnel_pcm_open called!
+10-23 03:24:36.635  3827  3850 D Unity   : Begin MonoManager ReloadAssembly
+10-23 03:24:36.763  1488  2304 D Watchdog: upload server response: {"errcode": 100, "errmsg": "ok"}
+10-23 03:24:36.763  1488  2304 D Watchdog: upload result: true
+10-23 03:24:36.776  1100  1115 D nemuinit: start name: vapi, operation: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, id: 542
+10-23 03:24:36.776  1100  1115 D nemuinit: start name: vapi, operation: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, id: 543
+10-23 03:24:36.776  1100  1115 D nemuinit: start name: vapi, operation: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, id: 544
+10-23 03:24:36.777  1100  3905 D nemuinit: Proxy: use callback: 1336, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, res: 
+10-23 03:24:36.777  1100  3904 D nemuinit: Proxy: use callback: 1336, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.777  1100  3905 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.777  1100  3904 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.777  1100  3906 D nemuinit: Proxy: use callback: 1336, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.777  1100  3906 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.777  1100  3906 D nemuinit: Proxy: use callback: 1956, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.777  1100  1115 D nemuinit: start name: vapi, operation: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, id: 545
+10-23 03:24:36.777  1100  3904 D nemuinit: Proxy: use callback: 1956, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.777  1100  3904 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.777  1100  3905 D nemuinit: Proxy: use callback: 1956, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, res: 
+10-23 03:24:36.777  1100  3905 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.777  1100  3906 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.778  1100  1115 D nemuinit: start name: vapi, operation: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, id: 546
+10-23 03:24:36.778  1100  3905 D nemuinit: Proxy: use callback: 1518, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, res: 
+10-23 03:24:36.778  1100  3904 D nemuinit: Proxy: use callback: 1518, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.778  1100  3904 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.778  1100  3905 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.778  1100  3906 D nemuinit: Proxy: use callback: 1518, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.778  1100  3906 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.778  1100  3908 D nemuinit: Proxy: use callback: 1336, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, res: 
+10-23 03:24:36.778  1100  3908 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.779  1100  1115 D nemuinit: start name: vapi, operation: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, id: 547
+10-23 03:24:36.779  1100  3908 D nemuinit: Proxy: use callback: 1956, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, res: 
+10-23 03:24:36.779  1100  3908 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.779  1100  3907 D nemuinit: Proxy: use callback: 1336, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.779  1100  3907 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.779  1100  3908 D nemuinit: Proxy: use callback: 1518, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, res: 
+10-23 03:24:36.779  1100  3908 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.779  1100  3907 D nemuinit: Proxy: use callback: 1956, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.779  1100  3907 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.779  1100  1115 D nemuinit: start name: vapi, operation: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_gamepad_guid","guid":"off","name":"off","type":"off"}}, id: 548
+10-23 03:24:36.780  1100  3907 D nemuinit: Proxy: use callback: 1518, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.780  1100  3907 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.780  1100  1115 D nemuinit: start name: vapi, operation: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, id: 549
+10-23 03:24:36.780  1100  1115 D nemuinit: start name: vapi, operation: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_gamepad_guid","guid":"off","name":"off","type":"off"}}, id: 550
+10-23 03:24:36.780  1100  3908 D nemuinit: Proxy: use callback: 1488, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, res: {"errcode":0,"message":"OK"}
+10-23 03:24:36.780  1100  3908 D nemuinit: Proxy: finish handleNemuInitMessage
+10-23 03:24:36.780  1100  1115 D nemuinit: start name: vapi, operation: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, id: 551
+10-23 03:24:36.780  1100  3906 D nemuinit: Proxy: use callback: 1488, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: {"errcode":0,"message":"OK"}
+10-23 03:24:36.780  1100  3906 D nemuinit: Proxy: finish handleNemuInitMessage
+10-23 03:24:36.780  1100  3907 D nemuinit: Proxy: use callback: 1488, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: {"errcode":0,"message":"OK"}
+10-23 03:24:36.780  1100  3905 D nemuinit: Proxy: use callback: 1488, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/cmd","method":"POST","params":{"action":"switch_fps_mode","packageName":""}}, res: {"errcode":0,"message":"OK"}
+10-23 03:24:36.780  1100  3905 D nemuinit: Proxy: finish handleNemuInitMessage
+10-23 03:24:36.780  1100  3907 D nemuinit: Proxy: finish handleNemuInitMessage
+10-23 03:24:36.780  1100  3904 D nemuinit: Proxy: use callback: 1488, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: {"errcode":0,"message":"OK"}
+10-23 03:24:36.780  1100  3904 D nemuinit: Proxy: finish handleNemuInitMessage
+10-23 03:24:36.780  1100  3909 D nemuinit: Proxy: use callback: 1336, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.780  1100  3911 D nemuinit: Proxy: use callback: 1336, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.780  1100  3911 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.780  1100  3909 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.780  1100  3911 D nemuinit: Proxy: use callback: 1956, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.780  1100  3911 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.780  1100  3909 D nemuinit: Proxy: use callback: 1956, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.781  1100  3909 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.781  1100  3912 D nemuinit: Proxy: use callback: 1336, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_gamepad_guid","guid":"off","name":"off","type":"off"}}, res: 
+10-23 03:24:36.781  1100  3911 D nemuinit: Proxy: use callback: 1518, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.781  1100  3912 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.781  1100  3911 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.781  1100  3910 D nemuinit: Proxy: use callback: 1336, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_gamepad_guid","guid":"off","name":"off","type":"off"}}, res: 
+10-23 03:24:36.781  1100  3910 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.781  1100  3910 D nemuinit: Proxy: use callback: 1956, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_gamepad_guid","guid":"off","name":"off","type":"off"}}, res: 
+10-23 03:24:36.781  1100  3910 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.781  1100  3912 D nemuinit: Proxy: use callback: 1956, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_gamepad_guid","guid":"off","name":"off","type":"off"}}, res: 
+10-23 03:24:36.781  1100  3912 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.781  1100  3910 D nemuinit: Proxy: use callback: 1518, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_gamepad_guid","guid":"off","name":"off","type":"off"}}, res: 
+10-23 03:24:36.781  1100  3910 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.781  1100  3909 D nemuinit: Proxy: use callback: 1518, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.781  1100  3909 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.781  1100  3911 D nemuinit: Proxy: use callback: 1488, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: {"errcode":0,"message":"OK"}
+10-23 03:24:36.781  1100  3911 D nemuinit: Proxy: finish handleNemuInitMessage
+10-23 03:24:36.781  1100  3912 D nemuinit: Proxy: use callback: 1518, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_gamepad_guid","guid":"off","name":"off","type":"off"}}, res: 
+10-23 03:24:36.781  1100  3912 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.781  1100  3910 D nemuinit: Proxy: use callback: 1488, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_gamepad_guid","guid":"off","name":"off","type":"off"}}, res: {"errcode":0,"message":"OK"}
+10-23 03:24:36.781  1100  3910 D nemuinit: Proxy: finish handleNemuInitMessage
+10-23 03:24:36.782  1100  3912 D nemuinit: Proxy: use callback: 1488, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_gamepad_guid","guid":"off","name":"off","type":"off"}}, res: {"errcode":0,"message":"OK"}
+10-23 03:24:36.782  1100  3912 D nemuinit: Proxy: finish handleNemuInitMessage
+10-23 03:24:36.782  1100  3913 D nemuinit: Proxy: use callback: 1336, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.782  1100  3913 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.782  1100  3909 D nemuinit: Proxy: use callback: 1488, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: {"errcode":0,"message":"OK"}
+10-23 03:24:36.782  1100  3909 D nemuinit: Proxy: finish handleNemuInitMessage
+10-23 03:24:36.782  1100  3913 D nemuinit: Proxy: use callback: 1956, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.782  1100  3913 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.782  1100  3913 D nemuinit: Proxy: use callback: 1518, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: 
+10-23 03:24:36.782  1100  3913 D nemuinit: Proxy: not handleNemuInitMessage, use next callback
+10-23 03:24:36.782  1100  3913 D nemuinit: Proxy: use callback: 1488, handleNemuInitMessage, name: vapi, params: {"uri":"/tools/inputdevice","method":"POST","params":{"action":"set_input_device_list","device":8,"packageName":"com.forestatelier.curioshop","pid":3827,"uid":10044}}, res: {"errcode":0,"message":"OK"}
+10-23 03:24:36.783  1100  3913 D nemuinit: Proxy: finish handleNemuInitMessage
+10-23 03:24:36.918  1336  2114 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+10-23 03:24:37.071  2159  2472 D Volley  : [53] NetworkUtility.logSlowRequests: HTTP response for request=<[ ] https://romsdk-mobile.uu.163.com/v4/game 0x7f54ff1c NORMAL 13> [lifetime=3487], [size=120], [rc=200], [retryCount=0]
+10-23 03:24:37.078  2159  2159 W AccRequestManager: getValidAccPkgDatasAfterRequests: hasMuMuRequestFinished = false, hasUuRequestFinished = true
+10-23 03:24:37.474  3827  3850 I MONO    : Getting locale
+10-23 03:24:37.475  3827  3850 I Mono    : Locale zh-CN
+10-23 03:24:37.523  1956  1956 W System.err: com.mumu.store.data.remote.ApiError: 应用不存在
+10-23 03:24:37.524  1956  1956 W System.err: 	at com.mumu.store.data.remote.d.c(Proguard:50)
+10-23 03:24:37.524  1956  1956 W System.err: 	at com.mumu.store.data.remote.d.a(Proguard:3)
+10-23 03:24:37.524  1956  1956 W System.err: 	at retrofit2.x.f(Proguard:59)
+10-23 03:24:37.524  1956  1956 W System.err: 	at retrofit2.x.execute(Proguard:25)
+10-23 03:24:37.524  1956  1956 W System.err: 	at l3.c.F(Proguard:24)
+10-23 03:24:37.524  1956  1956 W System.err: 	at J1.h.a(Proguard:15)
+10-23 03:24:37.524  1956  1956 W System.err: 	at l3.a.F(Proguard:8)
+10-23 03:24:37.524  1956  1956 W System.err: 	at J1.h.a(Proguard:15)
+10-23 03:24:37.524  1956  1956 W System.err: 	at io.reactivex.internal.operators.observable.x$b.run(Proguard:7)
+10-23 03:24:37.524  1956  1956 W System.err: 	at J1.n$a.run(Proguard:10)
+10-23 03:24:37.524  1956  1956 W System.err: 	at io.reactivex.internal.schedulers.h.run(Proguard:14)
+10-23 03:24:37.524  1956  1956 W System.err: 	at io.reactivex.internal.schedulers.h.call(Proguard:1)
+10-23 03:24:37.524  1956  1956 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+10-23 03:24:37.524  1956  1956 W System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+10-23 03:24:37.524  1956  1956 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+10-23 03:24:37.524  1956  1956 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+10-23 03:24:37.524  1956  1956 W System.err: 	at java.lang.Thread.run(Thread.java:920)
+10-23 03:24:37.526  1956  2001 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1181 android.content.ContextWrapper.sendBroadcast:479 com.mumu.store.base.A.g:335 com.mumu.store.base.A$a.b:10 com.mumu.store.base.A$a.onNext:3 
+10-23 03:24:37.528  1956  2001 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1181 android.content.ContextWrapper.sendBroadcast:479 com.mumu.store.search.k.c:31 A0.b$a.b:277 A0.b$a.onNext:3 
+10-23 03:24:37.735  3827  3850 D Unity   : - Loaded All Assemblies, in  1.100 seconds
+10-23 03:24:37.753  3827  3850 D Unity   : - Finished resetting the current domain, in  0.018 seconds
+10-23 03:24:37.774  2159  3807 W AccRequestManager: getValidAccPkgDatasAfterRequests: hasMuMuRequestFinished = true, hasUuRequestFinished = true
+10-23 03:24:38.035  3827  3850 D Unity   : PlayerInitEngineGraphics OK
+10-23 03:24:38.039  1336 12424 W ServiceManager: Permission failure: android.permission.HIGH_SAMPLING_RATE_SENSORS from uid=10044 pid=3827
+10-23 03:24:38.040  1336 12424 W ServiceManager: Permission failure: android.permission.HIGH_SAMPLING_RATE_SENSORS from uid=10044 pid=3827
+10-23 03:24:38.040  3827  3850 D Unity   : Found 14 native sensors
+10-23 03:24:38.041  1336 12424 W ServiceManager: Permission failure: android.permission.HIGH_SAMPLING_RATE_SENSORS from uid=10044 pid=3827
+10-23 03:24:38.041  3827  3850 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 03:24:38.041  1336 12424 W ServiceManager: Permission failure: android.permission.HIGH_SAMPLING_RATE_SENSORS from uid=10044 pid=3827
+10-23 03:24:38.042  3827  3850 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 03:24:38.042  3827  3850 D Unity   : enabled Accelerometer sensor
+10-23 03:24:38.078  3827  3850 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:38.083  3827  3850 D Unity   : ANativeWindow: (1080/1920) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (1080/1920)
+10-23 03:24:38.094  3827  3850 V MediaRouter: Selecting route: RouteInfo{ name=手机, description=null, status=null, category=RouteCategory{ name=系统 types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-23 03:24:38.094  3827  3850 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=true, BT route=null
+10-23 03:24:38.181  3827  3899 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:38.184  3827  3899 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:38.192  1336  1353 I ActivityTaskManager: Fully drawn com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity: +4s293ms
+10-23 03:24:38.193  1336 12424 W system_server: Failed to determine oat file name for dex location /data/app/~~F6YOpxrKH573swKnrrvmvw==/com.forestatelier.curioshop-13WVc4Ok4nlWKuNMw0WpIg==/base.apk: Dalvik cache directory does not exist
+10-23 03:24:38.197  3827  3827 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:38.219  3827  3899 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-23 03:24:39.559  1488  1841 W NewFileUpdater: MSG_GET_PACKAGE_TAG_INFO, no available new tag for: com.forestatelier.curioshop, workingTag: 12.2483
+10-23 03:24:40.161  3827  3850 D Unity   : [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+10-23 03:24:40.163  3827  3850 D Unity   : UnloadTime: 7.075499 ms
+10-23 03:24:41.073  1102  1102 I compat_ram_d: type=1400 audit(0.0:10147): avc: denied { read } for name="cpu" dev="proc" ino=4026532064 scontext=u:r:init:s0 tcontext=u:object_r:proc_pressure_cpu:s0 tclass=file permissive=1
+10-23 03:24:41.073  1102  1102 I compat_ram_d: type=1400 audit(0.0:10148): avc: denied { open } for path="/proc/pressure/cpu" dev="proc" ino=4026532064 scontext=u:r:init:s0 tcontext=u:object_r:proc_pressure_cpu:s0 tclass=file permissive=1
+10-23 03:24:41.073  1102  1102 I compat_ram_d: type=1400 audit(0.0:10149): avc: denied { getattr } for path="/proc/pressure/cpu" dev="proc" ino=4026532064 scontext=u:r:init:s0 tcontext=u:object_r:proc_pressure_cpu:s0 tclass=file permissive=1
+10-23 03:24:41.073  1102  1102 I compat_ram_d: type=1400 audit(0.0:10150): avc: denied { read } for name="io" dev="proc" ino=4026532062 scontext=u:r:init:s0 tcontext=u:object_r:proc_pressure_io:s0 tclass=file permissive=1
+10-23 03:24:41.073  1102  1102 I compat_ram_d: type=1400 audit(0.0:10151): avc: denied { open } for path="/proc/pressure/io" dev="proc" ino=4026532062 scontext=u:r:init:s0 tcontext=u:object_r:proc_pressure_io:s0 tclass=file permissive=1
+10-23 03:24:42.635  1208  1208 D opengl-gc: Check pid 1199: running 1
+10-23 03:24:42.633  1208  1208 I opengl-gc: type=1400 audit(0.0:10158): avc: denied { sys_ptrace } for capability=19 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability permissive=1
+10-23 03:24:43.058  1336 12424 W ServiceManager: Permission failure: android.permission.HIGH_SAMPLING_RATE_SENSORS from uid=10044 pid=3827
+10-23 03:24:43.058  1336 12424 W SensorService: sensor 00000000 already enabled in connection 0x7e876f343b90 (ignoring)
+10-23 03:24:43.058  1336 12424 W ServiceManager: Permission failure: android.permission.HIGH_SAMPLING_RATE_SENSORS from uid=10044 pid=3827
+10-23 03:24:43.058  3827  3850 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 03:24:43.058  3827  3850 D Unity   : Choreographer available: Enabling VSYNC timing
+10-23 03:24:43.559  1083  1083 I lmkd    : type=1400 audit(0.0:10159): avc: denied { write } for name="oom_score_adj" dev="proc" ino=20695 scontext=u:r:init:s0 tcontext=u:r:permissioncontroller_app:s0:c36,c256,c512,c768 tclass=file permissive=1
+10-23 03:24:52.635  1208  1208 D opengl-gc: Check pid 1199: running 1
+10-23 03:24:53.519  1166  1166 I Dns_100_1000: type=1400 audit(0.0:10160): avc: denied { setopt } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
+10-23 03:24:53.519  1166  1166 I Dns_100_1000: type=1400 audit(0.0:10161): avc: denied { setattr } for name="UDPv6" dev="sockfs" ino=521311 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
+10-23 03:24:53.519  1166  1166 I Dns_100_1000: type=1400 audit(0.0:10162): avc: denied { connect } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
+10-23 03:24:53.519  1166  1166 I Dns_100_1000: type=1400 audit(0.0:10163): avc: denied { create } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=tcp_socket permissive=1
+10-23 03:24:53.519  1166  1166 I Dns_100_1000: type=1400 audit(0.0:10164): avc: denied { getopt } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=tcp_socket permissive=1
+10-23 03:24:53.519  1166  1166 I Dns_100_1000: type=1400 audit(0.0:10165): avc: denied { setattr } for name="TCP" dev="sockfs" ino=514838 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=tcp_socket permissive=1
+10-23 03:24:53.519  1166  1166 I Dns_100_1000: type=1400 audit(0.0:10166): avc: denied { setopt } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=tcp_socket permissive=1
+10-23 03:24:53.519  1166  1166 I Dns_100_1000: type=1400 audit(0.0:10167): avc: denied { connect } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=tcp_socket permissive=1

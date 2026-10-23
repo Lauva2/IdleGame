@@ -1,0 +1,1488 @@
+--------- beginning of main
+10-23 02:38:26.165 10161 10207 D Unity   : [EGL] Attaching window :0xcab4c998
+10-23 02:38:26.166 10161 10207 D Unity   : InitializeScriptEngine OK (0xc63ade80)
+10-23 02:38:26.205 10161 10207 D Unity   : [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+10-23 02:38:26.220 10161 10207 D Unity   : PlayerInitEngineNoGraphics OK
+10-23 02:38:26.220 10161 10207 I Unity   : Company Name: Forest Atelier
+10-23 02:38:26.220 10161 10207 I Unity   : Product Name: 林间奇物铺
+10-23 02:38:26.220 10161 10207 D Unity   : AndroidGraphics::Startup window =  0xcab4c998
+10-23 02:38:26.220 10161 10207 D Unity   : [EGL] Attaching window :0xcab4c998
+10-23 02:38:26.228 10161 10207 D Unity   : [Subsystems] Discovering subsystems at path /data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk/assets/bin/Data/UnitySubsystems
+10-23 02:38:26.247 10161 10207 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 02:38:26.247 10161 10207 D Unity   : [EGL] Checking ES 3.2 support...
+10-23 02:38:26.249 10161 10207 D Unity   : [EGL] ES 3.2 support detected
+10-23 02:38:26.249 10161 10207 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 02:38:26.249 10161 10207 D Unity   : GfxDevice: creating device client; threaded=1; jobified=0
+10-23 02:38:26.252 10161 10207 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 02:38:26.254 10161 10207 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 02:38:26.256 10161 10207 D Unity   : [EGL] Request: ES 3.0 RGBA 8888 0/0
+10-23 02:38:26.259 10161 10207 D Unity   : [EGL] Found: ID[1] ES 3.0 RGBA 8888 0/0
+10-23 02:38:26.267 10161 10207 D Unity   : ANativeWindow: (1080/1920) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (1080/1920)
+10-23 02:38:26.298 10161 10207 D Unity   : Renderer: Adreno (TM) 640
+10-23 02:38:26.298 10161 10207 D Unity   : Vendor:   Qualcomm
+10-23 02:38:26.298 10161 10207 D Unity   : Version:  OpenGL ES 3.2 V132
+10-23 02:38:26.298 10161 10207 D Unity   : GLES:     3
+10-23 02:38:26.299 10161 10207 D Unity   :  GL_ANDROID_extension_pack_es31a GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_copy_image GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_primitive_bounding_box GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_io_blocks GL_EXT_shader_texture_lod GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture
+10-23 02:38:26.299 10161 10207 D Unity   : _sRGB_decode GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_geometry_shader GL_OES_packed_depth_stencil GL_OES_primitive_bounding_box GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader
+10-23 02:38:26.299 10161 10207 D Unity   : _image_atomic GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float
+10-23 02:38:26.302 10161 10207 D Unity   : OPENGL LOG: Creating OpenGL ES 3.2 graphics device ; Context level  <OpenGL ES 3.2> ; Context handle -733475376
+10-23 02:38:26.331 10161 10207 D Unity   : [EGL] Attaching window :0xcab4c998
+10-23 02:38:26.335 10161 10207 D Unity   : Requested framebuffer: resolution[1080x1920], rgba[8/8/8/8], depth+stencil[on], samples[1]
+10-23 02:38:26.337 10161 10207 D Unity   : Created framebuffer: resolution[1080x1920], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+10-23 02:38:26.338 10161 10207 D Unity   : [EGL] Attaching window :0xcab4c998
+10-23 02:38:26.338 10161 10207 D Unity   : Initialize engine version: 2022.3.8f1c1 (4ec8ee1b2212)
+10-23 02:38:26.423 10161 10207 D Unity   : Begin MonoManager ReloadAssembly
+10-23 02:38:27.090 10161 10207 D Unity   : - Loaded All Assemblies, in  0.667 seconds
+10-23 02:38:27.104 10161 10207 D Unity   : - Finished resetting the current domain, in  0.013 seconds
+10-23 02:38:27.337 10161 10207 D Unity   : PlayerInitEngineGraphics OK
+10-23 02:38:27.346 10161 10207 D Unity   : Found 14 native sensors
+10-23 02:38:27.350 10161 10207 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 02:38:27.350 10161 10207 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 02:38:29.422 10161 10207 D Unity   : UnloadTime: 5.961399 ms
+10-23 02:38:32.591 10161 10207 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 02:38:32.592 10161 10207 D Unity   : Choreographer available: Enabling VSYNC timing
+10-23 02:42:45.694 10161 10207 I Unity   : FOREST_EVIDENCE_COMPLETE /storage/emulated/0/Android/data/com.forestatelier.curioshop/files/Verification3DVideo
+10-23 02:42:45.694 10161 10207 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 02:42:45.694 10161 10207 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 02:42:45.694 10161 10207 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 02:42:45.694 10161 10207 I Unity   : UnityEngine.Debug:Log (object)
+10-23 02:42:45.694 10161 10207 I Unity   : ForestShop.ForestApp/<CaptureRun>d__92:MoveNext () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestEvidence.cs:154)
+10-23 02:42:45.694 10161 10207 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/Coroutines.cs:17)
+10-23 02:42:45.694 10161 10207 I Unity   : 
+10-23 02:42:45.720 10161 10161 I Unity   : onPause
+10-23 02:42:45.777 10161 31870 D Unity   : Setting up 1 worker threads for Enlighten.
+10-23 02:42:45.999 10161 10207 D Unity   : PlayerConnection::Cleanup
+10-23 02:42:46.000 10161 10207 D Unity   : ASensorManager_destroyEventQueue returned 0
+10-23 02:42:46.025 10161 10207 D Unity   : Memory Statistics:
+10-23 02:42:46.025 10161 10207 D Unity   : [ALLOC_TEMP_TLS] TLS Allocator
+10-23 02:42:46.025 10161 10207 D Unity   :   StackAllocators : 
+10-23 02:42:46.025 10161 10207 D Unity   :     [ALLOC_TEMP_MAIN_THREAD]
+10-23 02:42:46.026 10161 10207 D Unity   :       Peak usage frame count: 
+10-23 02:42:46.026 10161 10207 D Unity   : [4.0 KB-8.0 KB]: 7429 frames
+10-23 02:42:46.026 10161 10207 D Unity   : , [8.0 KB-16.0 KB]: 23 frames
+10-23 02:42:46.026 10161 10207 D Unity   : , [16.0 KB-32.0 KB]: 4 frames
+10-23 02:42:46.026 10161 10207 D Unity   : , [256.0 KB-0.5 MB]: 7 frames
+10-23 02:42:46.026 10161 10207 D Unity   : , [0.5 MB-1.0 MB]: 10 frames
+10-23 02:42:46.026 10161 10207 D Unity   : , [2.0 MB-4.0 MB]: 3 frames
+10-23 02:42:46.026 10161 10207 D Unity   : 
+10-23 02:42:46.026 10161 10207 D Unity   :       Initial Block Size 4.0 MB
+10-23 02:42:46.026 10161 10207 D Unity   :       Current Block Size 4.0 MB
+10-23 02:42:46.026 10161 10207 D Unity   :       Peak Allocated Bytes 3.3 MB
+10-23 02:42:46.026 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.026 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 5]
+10-23 02:42:46.026 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:42:46.026 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.026 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 4]
+10-23 02:42:46.026 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:42:46.026 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.026 10161 10207 D Unity   :     [ALLOC_TEMP_Loading.PreloadManager]
+10-23 02:42:46.026 10161 10207 D Unity   :       Initial Block Size 256.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Current Block Size 256.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Peak Allocated Bytes 25.7 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Overflow Count 4
+10-23 02:42:46.026 10161 10207 D Unity   :     [ALLOC_TEMP_UnityGfxDeviceWorker]
+10-23 02:42:46.026 10161 10207 D Unity   :       Initial Block Size 256.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Current Block Size 256.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Peak Allocated Bytes 15.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.026 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 3]
+10-23 02:42:46.026 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:42:46.026 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.026 10161 10207 D Unity   :     [ALLOC_TEMP_AUDIO_FMOD stream thread]
+10-23 02:42:46.026 10161 10207 D Unity   :       Initial Block Size 64.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Current Block Size 64.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Peak Allocated Bytes 0 B
+10-23 02:42:46.026 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.026 10161 10207 D Unity   :     [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
+10-23 02:42:46.026 10161 10207 D Unity   :       Initial Block Size 64.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Current Block Size 64.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Peak Allocated Bytes 28 B
+10-23 02:42:46.026 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.026 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 7]
+10-23 02:42:46.026 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:42:46.026 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.026 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 11]
+10-23 02:42:46.026 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Peak Allocated Bytes 25 B
+10-23 02:42:46.026 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.026 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 6]
+10-23 02:42:46.026 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:42:46.026 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.026 10161 10207 D Unity   :     [ALLOC_TEMP_Job.worker 2]
+10-23 02:42:46.026 10161 10207 D Unity   :       Initial Block Size 256.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Current Block Size 256.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Peak Allocated Bytes 44.2 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.026 10161 10207 D Unity   :     [ALLOC_TEMP_Profiler.Dispatcher]
+10-23 02:42:46.026 10161 10207 D Unity   :       Initial Block Size 64.0 KB
+10-23 02:42:46.026 10161 10207 D Unity   :       Current Block Size 64.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 304 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 12]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 25 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 2]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 10]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 25 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 9]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_Job.worker 0]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 256.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 256.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 44.2 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 15]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 25 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 0]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 8]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_AUDIO_FMOD mixer thread]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 64.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 64.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 0 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 1]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 42 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_EnlightenWorker]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 64.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 64.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 0 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 14]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 25 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_Job.worker 1]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 256.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 256.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 51.8 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_Loading.AsyncRead]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 64.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 64.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 437 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_Background Job.worker 13]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 32.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 25 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   :     [ALLOC_TEMP_BatchDeleteObjects]
+10-23 02:42:46.027 10161 10207 D Unity   :       Initial Block Size 64.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Current Block Size 64.0 KB
+10-23 02:42:46.027 10161 10207 D Unity   :       Peak Allocated Bytes 0 B
+10-23 02:42:46.027 10161 10207 D Unity   :       Overflow Count 0
+10-23 02:42:46.027 10161 10207 D Unity   : [ALLOC_MEMORYPROFILER]
+10-23 02:42:46.027 10161 10207 D Unity   :   Peak usage frame count: 
+10-23 02:42:46.028 10161 10207 D Unity   : [256.0 KB-0.5 MB]: 19 frames
+10-23 02:42:46.028 10161 10207 D Unity   : , [0.5 MB-1.0 MB]: 7457 frames
+10-23 02:42:46.028 10161 10207 D Unity   : 
+10-23 02:42:46.028 10161 10207 D Unity   :   Requested Block Size 1.0 MB
+10-23 02:42:46.028 10161 10207 D Unity   :   Peak Block count 1
+10-23 02:42:46.028 10161 10207 D Unity   :   Peak Allocated memory 0.7 MB
+10-23 02:42:46.028 10161 10207 D Unity   :   Peak Large allocation bytes 0 B
+10-23 02:42:46.028 10161 10207 D Unity   : [ALLOC_DEFAULT] Dual Thread Allocator
+10-23 02:42:46.028 10161 10207 D Unity   :   Peak main deferred allocation count 2031
+10-23 02:42:46.028 10161 10207 D Unity   :     [ALLOC_BUCKET]
+10-23 02:42:46.028 10161 10207 D Unity   :       Large Block size 4.0 MB
+10-23 02:42:46.028 10161 10207 D Unity   :       Used Block count 1
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak Allocated bytes 1.6 MB
+10-23 02:42:46.028 10161 10207 D Unity   :     [ALLOC_DEFAULT_MAIN]
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak usage frame count: 
+10-23 02:42:46.028 10161 10207 D Unity   : [32.0 MB-64.0 MB]: 7476 frames
+10-23 02:42:46.028 10161 10207 D Unity   : 
+10-23 02:42:46.028 10161 10207 D Unity   :       Requested Block Size 16.0 MB
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak Block count 2
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak Allocated memory 35.3 MB
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak Large allocation bytes 8.0 MB
+10-23 02:42:46.028 10161 10207 D Unity   :     [ALLOC_DEFAULT_THREAD]
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak usage frame count: 
+10-23 02:42:46.028 10161 10207 D Unity   : [8.0 MB-16.0 MB]: 107 frames
+10-23 02:42:46.028 10161 10207 D Unity   : , [16.0 MB-32.0 MB]: 7369 frames
+10-23 02:42:46.028 10161 10207 D Unity   : 
+10-23 02:42:46.028 10161 10207 D Unity   :       Requested Block Size 16.0 MB
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak Block count 2
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak Allocated memory 19.1 MB
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak Large allocation bytes 0 B
+10-23 02:42:46.028 10161 10207 D Unity   : [ALLOC_TEMP_JOB_1_FRAME]
+10-23 02:42:46.028 10161 10207 D Unity   :   Initial Block Size 2.0 MB
+10-23 02:42:46.028 10161 10207 D Unity   :   Used Block Count 0
+10-23 02:42:46.028 10161 10207 D Unity   :   Overflow Count (too large) 0
+10-23 02:42:46.028 10161 10207 D Unity   :   Overflow Count (full) 0
+10-23 02:42:46.028 10161 10207 D Unity   : [ALLOC_TEMP_JOB_2_FRAMES]
+10-23 02:42:46.028 10161 10207 D Unity   :   Initial Block Size 2.0 MB
+10-23 02:42:46.028 10161 10207 D Unity   :   Used Block Count 0
+10-23 02:42:46.028 10161 10207 D Unity   :   Overflow Count (too large) 0
+10-23 02:42:46.028 10161 10207 D Unity   :   Overflow Count (full) 0
+10-23 02:42:46.028 10161 10207 D Unity   : [ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+10-23 02:42:46.028 10161 10207 D Unity   :   Initial Block Size 2.0 MB
+10-23 02:42:46.028 10161 10207 D Unity   :   Used Block Count 1
+10-23 02:42:46.028 10161 10207 D Unity   :   Overflow Count (too large) 0
+10-23 02:42:46.028 10161 10207 D Unity   :   Overflow Count (full) 0
+10-23 02:42:46.028 10161 10207 D Unity   : [ALLOC_TEMP_JOB_ASYNC (Background)]
+10-23 02:42:46.028 10161 10207 D Unity   :   Initial Block Size 1.0 MB
+10-23 02:42:46.028 10161 10207 D Unity   :   Used Block Count 1
+10-23 02:42:46.028 10161 10207 D Unity   :   Overflow Count (too large) 0
+10-23 02:42:46.028 10161 10207 D Unity   :   Overflow Count (full) 0
+10-23 02:42:46.028 10161 10207 D Unity   : [ALLOC_GFX] Dual Thread Allocator
+10-23 02:42:46.028 10161 10207 D Unity   :   Peak main deferred allocation count 2
+10-23 02:42:46.028 10161 10207 D Unity   :     [ALLOC_BUCKET]
+10-23 02:42:46.028 10161 10207 D Unity   :       Large Block size 4.0 MB
+10-23 02:42:46.028 10161 10207 D Unity   :       Used Block count 1
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak Allocated bytes 1.6 MB
+10-23 02:42:46.028 10161 10207 D Unity   :     [ALLOC_GFX_MAIN]
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak usage frame count: 
+10-23 02:42:46.028 10161 10207 D Unity   : [16.0 MB-32.0 MB]: 382 frames
+10-23 02:42:46.028 10161 10207 D Unity   : , [32.0 MB-64.0 MB]: 7094 frames
+10-23 02:42:46.028 10161 10207 D Unity   : 
+10-23 02:42:46.028 10161 10207 D Unity   :       Requested Block Size 16.0 MB
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak Block count 3
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak Allocated memory 33.3 MB
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak Large allocation bytes 0 B
+10-23 02:42:46.028 10161 10207 D Unity   :     [ALLOC_GFX_THREAD]
+10-23 02:42:46.028 10161 10207 D Unity   :       Peak usage frame count: 
+10-23 02:42:46.028 10161 10207 D Unity   : [4.0 KB-8.0 KB]: 14 frames
+10-23 02:42:46.028 10161 10207 D Unity   : , [8.0 KB-16.0 KB]: 58 frames
+10-23 02:42:46.028 10161 10207 D Unity   : , [16.0 KB-32.0 KB]: 7404 frames
+10-23 02:42:46.028 10161 10207 D Unity   : 
+10-23 02:42:46.029 10161 10207 D Unity   :       Requested Block Size 16.0 MB
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Block count 1
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Allocated memory 24.4 KB
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Large allocation bytes 0 B
+10-23 02:42:46.029 10161 10207 D Unity   : [ALLOC_CACHEOBJECTS] Dual Thread Allocator
+10-23 02:42:46.029 10161 10207 D Unity   :   Peak main deferred allocation count 0
+10-23 02:42:46.029 10161 10207 D Unity   :     [ALLOC_BUCKET]
+10-23 02:42:46.029 10161 10207 D Unity   :       Large Block size 4.0 MB
+10-23 02:42:46.029 10161 10207 D Unity   :       Used Block count 1
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Allocated bytes 1.6 MB
+10-23 02:42:46.029 10161 10207 D Unity   :     [ALLOC_CACHEOBJECTS_MAIN]
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak usage frame count: 
+10-23 02:42:46.029 10161 10207 D Unity   : [16.0 MB-32.0 MB]: 7476 frames
+10-23 02:42:46.029 10161 10207 D Unity   : 
+10-23 02:42:46.029 10161 10207 D Unity   :       Requested Block Size 4.0 MB
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Block count 1
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Allocated memory 17.5 MB
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Large allocation bytes 15.7 MB
+10-23 02:42:46.029 10161 10207 D Unity   :     [ALLOC_CACHEOBJECTS_THREAD]
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak usage frame count: 
+10-23 02:42:46.029 10161 10207 D Unity   : [32.0 KB-64.0 KB]: 7475 frames
+10-23 02:42:46.029 10161 10207 D Unity   : , [128.0 KB-256.0 KB]: 1 frames
+10-23 02:42:46.029 10161 10207 D Unity   : 
+10-23 02:42:46.029 10161 10207 D Unity   :       Requested Block Size 4.0 MB
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Block count 1
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Allocated memory 162.7 KB
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Large allocation bytes 0 B
+10-23 02:42:46.029 10161 10207 D Unity   : [ALLOC_TYPETREE] Dual Thread Allocator
+10-23 02:42:46.029 10161 10207 D Unity   :   Peak main deferred allocation count 0
+10-23 02:42:46.029 10161 10207 D Unity   :     [ALLOC_BUCKET]
+10-23 02:42:46.029 10161 10207 D Unity   :       Large Block size 4.0 MB
+10-23 02:42:46.029 10161 10207 D Unity   :       Used Block count 1
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Allocated bytes 1.6 MB
+10-23 02:42:46.029 10161 10207 D Unity   :     [ALLOC_TYPETREE_MAIN]
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak usage frame count: 
+10-23 02:42:46.029 10161 10207 D Unity   : [4.0 KB-8.0 KB]: 7476 frames
+10-23 02:42:46.029 10161 10207 D Unity   : 
+10-23 02:42:46.029 10161 10207 D Unity   :       Requested Block Size 2.0 MB
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Block count 1
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Allocated memory 5.0 KB
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Large allocation bytes 0 B
+10-23 02:42:46.029 10161 10207 D Unity   :     [ALLOC_TYPETREE_THREAD]
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak usage frame count: 
+10-23 02:42:46.029 10161 10207 D Unity   : [0-1.0 KB]: 7476 frames
+10-23 02:42:46.029 10161 10207 D Unity   : 
+10-23 02:42:46.029 10161 10207 D Unity   :       Requested Block Size 2.0 MB
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Block count 0
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Allocated memory 0 B
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Large allocation bytes 0 B
+10-23 02:42:46.029 10161 10207 D Unity   : [ALLOC_PROFILER]
+10-23 02:42:46.029 10161 10207 D Unity   :   Peak usage frame count: 
+10-23 02:42:46.029 10161 10207 D Unity   : [256.0 KB-0.5 MB]: 7475 frames
+10-23 02:42:46.029 10161 10207 D Unity   : , [32.0 MB-64.0 MB]: 1 frames
+10-23 02:42:46.029 10161 10207 D Unity   : 
+10-23 02:42:46.029 10161 10207 D Unity   :   Requested Block Size 16.0 MB
+10-23 02:42:46.029 10161 10207 D Unity   :   Peak Block count 3
+10-23 02:42:46.029 10161 10207 D Unity   :   Peak Allocated memory 33.2 MB
+10-23 02:42:46.029 10161 10207 D Unity   :   Peak Large allocation bytes 0 B
+10-23 02:42:46.029 10161 10207 D Unity   :     [ALLOC_PROFILER_BUCKET]
+10-23 02:42:46.029 10161 10207 D Unity   :       Large Block size 4.0 MB
+10-23 02:42:46.029 10161 10207 D Unity   :       Used Block count 1
+10-23 02:42:46.029 10161 10207 D Unity   :       Peak Allocated bytes 32.8 KB
+10-23 02:42:46.030 10161 10207 I Unity   : ##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792694566030,"processId":10161,"allocatedMemory":301534,"memoryLabels":[{"Default":4294967228},{"Permanent":8},{"Manager":6231},{"FMODOther":18440},{"Serialization":352},{"File":16},{"String":2419},{"DynamicArray":7172},{"HashMap":1536},{"Utility":264448},{"PoolAlloc":32},{"VR":836},{"CoreBusinessMetrics":112}]}
+10-23 02:42:46.056 10161 10161 I Unity   : windowFocusChanged: false
+10-23 02:42:46.386 10161 10161 D Unity   : PersistentUnitySurface.preserveContent: com.unity3d.player.a{581f6e9 VFE...... .F....I. 0,0-1080,1920 #7f010000 app:id/unitySurfaceView aid=1073741824}
+10-23 02:42:46.386 10161 10161 D Unity   : PersistentUnitySurface.PlaceholderView.Copy: com.unity3d.player.a{581f6e9 VFE...... .F....I. 0,0-1080,1920 #7f010000 app:id/unitySurfaceView aid=1073741824}
+10-23 02:42:46.422 10161 10161 I Unity   : onDestroy
+10-23 02:50:55.687 32201 32201 D Unity   : CommandLine:  
+10-23 02:50:55.987 32201 32201 D Unity   : onActivityResumed: com.unity3d.player.UnityPlayerActivity@f563b86
+10-23 02:50:55.987 32201 32201 I Unity   : onResume
+10-23 02:50:56.269 32201 32233 D Unity   : SetWindow 0 0xcab81948
+10-23 02:50:56.270 32201 32233 D Unity   : SetWindow 0 0xcab81948
+10-23 02:50:56.451 32201 32201 I Unity   : windowFocusChanged: true
+10-23 02:50:56.528 32201 32233 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-23 02:50:56.535 32201 32233 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+10-23 02:50:56.536 32201 32233 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+10-23 02:50:56.536 32201 32233 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+10-23 02:50:56.536 32201 32233 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+10-23 02:50:56.536 32201 32233 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+10-23 02:50:56.536 32201 32233 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+10-23 02:50:56.536 32201 32233 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+10-23 02:50:56.536 32201 32233 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+10-23 02:50:56.536 32201 32233 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+10-23 02:50:56.536 32201 32233 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+10-23 02:50:56.537 32201 32233 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+10-23 02:50:56.537 32201 32233 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+10-23 02:50:56.537 32201 32233 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+10-23 02:50:56.537 32201 32233 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+10-23 02:50:56.537 32201 32233 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+10-23 02:50:56.537 32201 32233 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+10-23 02:50:56.537 32201 32233 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+10-23 02:50:56.537 32201 32233 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+10-23 02:50:56.537 32201 32233 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+10-23 02:50:56.537 32201 32233 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+10-23 02:50:56.537 32201 32233 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+10-23 02:50:56.537 32201 32233 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+10-23 02:50:56.537 32201 32233 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+10-23 02:50:56.537 32201 32233 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+10-23 02:50:56.538 32201 32233 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+10-23 02:50:56.538 32201 32233 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+10-23 02:50:56.538 32201 32233 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+10-23 02:50:56.538 32201 32233 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+10-23 02:50:56.538 32201 32233 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+10-23 02:50:56.538 32201 32233 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+10-23 02:50:56.609 32201 32233 D Unity   : Enabling Unity systrace
+10-23 02:50:56.652 32201 32233 D Unity   : [VFS] Mount /data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk
+10-23 02:50:56.715 32201 32233 I Unity   : SystemInfo CPU = x86-64 SSE3 SSE4.1 SSE4.2 AVX AVX2, Cores = 4, Memory = 5949mb
+10-23 02:50:56.716 32201 32233 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf), 0 little (mask: 0x0)
+10-23 02:50:56.716 32201 32233 I Unity   : ApplicationInfo com.forestatelier.curioshop version 0.1.0
+10-23 02:50:56.716 32201 32233 I Unity   : Built from 'origin/2022.3/china_unity/release' branch, Version '2022.3.8f1c1 (4ec8ee1b2212)', Build type 'Development', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+10-23 02:50:56.726 32201 32233 D Unity   : Mono path[0] = '/data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk/assets/bin/Data/Managed'
+10-23 02:50:56.726 32201 32233 D Unity   : Mono config path = 'assets/bin/Data/Managed/etc'
+10-23 02:50:56.736 32201 32233 D Unity   : Found 1 interfaces on host :
+10-23 02:50:56.736 32201 32233 D Unity   :  0) 10.0.2.15
+10-23 02:50:56.736 32201 32233 D Unity   : 
+10-23 02:50:56.739 32201 32233 D Unity   : Multi-casting "[IP] 10.0.2.15 [Port] 55000 [Flags] 2 [Guid] 1902567056 [EditorId] 1874321907 [Version] 1048832 [Id] AndroidPlayer(11,HUAWEI_HBP-AL00@10.0.2.15) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] 林间奇物铺" to [225.0.0.222:54997]...
+10-23 02:50:56.975 32201 32233 D Unity   : [EGL] Attaching window :0xcab81948
+10-23 02:50:56.975 32201 32233 D Unity   : InitializeScriptEngine OK (0xc5a00e80)
+10-23 02:50:57.009 32201 32233 D Unity   : [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+10-23 02:50:57.023 32201 32233 D Unity   : PlayerInitEngineNoGraphics OK
+10-23 02:50:57.024 32201 32233 I Unity   : Company Name: Forest Atelier
+10-23 02:50:57.024 32201 32233 I Unity   : Product Name: 林间奇物铺
+10-23 02:50:57.024 32201 32233 D Unity   : AndroidGraphics::Startup window =  0xcab81948
+10-23 02:50:57.024 32201 32233 D Unity   : [EGL] Attaching window :0xcab81948
+10-23 02:50:57.026 32201 32233 D Unity   : [Subsystems] Discovering subsystems at path /data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk/assets/bin/Data/UnitySubsystems
+10-23 02:50:57.047 32201 32233 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 02:50:57.048 32201 32233 D Unity   : [EGL] Checking ES 3.2 support...
+10-23 02:50:57.050 32201 32233 D Unity   : [EGL] ES 3.2 support detected
+10-23 02:50:57.050 32201 32233 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 02:50:57.050 32201 32233 D Unity   : GfxDevice: creating device client; threaded=1; jobified=0
+10-23 02:50:57.052 32201 32233 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 02:50:57.054 32201 32233 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 02:50:57.055 32201 32233 D Unity   : [EGL] Request: ES 3.0 RGBA 8888 0/0
+10-23 02:50:57.057 32201 32233 D Unity   : [EGL] Found: ID[1] ES 3.0 RGBA 8888 0/0
+10-23 02:50:57.064 32201 32233 D Unity   : ANativeWindow: (1080/1920) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (1080/1920)
+10-23 02:50:57.101 32201 32233 D Unity   : Renderer: Adreno (TM) 640
+10-23 02:50:57.101 32201 32233 D Unity   : Vendor:   Qualcomm
+10-23 02:50:57.101 32201 32233 D Unity   : Version:  OpenGL ES 3.2 V132
+10-23 02:50:57.101 32201 32233 D Unity   : GLES:     3
+10-23 02:50:57.102 32201 32233 D Unity   :  GL_ANDROID_extension_pack_es31a GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_copy_image GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_primitive_bounding_box GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_io_blocks GL_EXT_shader_texture_lod GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture
+10-23 02:50:57.102 32201 32233 D Unity   : _sRGB_decode GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_geometry_shader GL_OES_packed_depth_stencil GL_OES_primitive_bounding_box GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader
+10-23 02:50:57.102 32201 32233 D Unity   : _image_atomic GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float
+10-23 02:50:57.106 32201 32233 D Unity   : OPENGL LOG: Creating OpenGL ES 3.2 graphics device ; Context level  <OpenGL ES 3.2> ; Context handle -733475776
+10-23 02:50:57.133 32201 32233 D Unity   : [EGL] Attaching window :0xcab81948
+10-23 02:50:57.135 32201 32233 D Unity   : Requested framebuffer: resolution[1080x1920], rgba[8/8/8/8], depth+stencil[on], samples[1]
+10-23 02:50:57.138 32201 32233 D Unity   : Created framebuffer: resolution[1080x1920], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+10-23 02:50:57.138 32201 32233 D Unity   : [EGL] Attaching window :0xcab81948
+10-23 02:50:57.138 32201 32233 D Unity   : Initialize engine version: 2022.3.8f1c1 (4ec8ee1b2212)
+10-23 02:50:57.216 32201 32233 D Unity   : Begin MonoManager ReloadAssembly
+10-23 02:50:57.922 32201 32233 D Unity   : - Loaded All Assemblies, in  0.706 seconds
+10-23 02:50:57.934 32201 32233 D Unity   : - Finished resetting the current domain, in  0.012 seconds
+10-23 02:50:58.136 32201 32233 D Unity   : PlayerInitEngineGraphics OK
+10-23 02:50:58.147 32201 32233 D Unity   : Found 14 native sensors
+10-23 02:50:58.150 32201 32233 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 02:50:58.150 32201 32233 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 02:51:00.224 32201 32233 D Unity   : UnloadTime: 8.772963 ms
+10-23 02:51:03.570 32201 32233 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 02:51:03.570 32201 32233 D Unity   : Choreographer available: Enabling VSYNC timing
+10-23 02:52:25.252  2356  2356 D Unity   : CommandLine:  
+10-23 02:52:25.337  2356  2356 D Unity   : onActivityResumed: com.unity3d.player.UnityPlayerActivity@f563b86
+10-23 02:52:25.337  2356  2356 I Unity   : onResume
+10-23 02:52:25.424  2356  2402 D Unity   : SetWindow 0 0xcab064d8
+10-23 02:52:25.424  2356  2402 D Unity   : SetWindow 0 0xcab064d8
+10-23 02:52:25.604  2356  2356 I Unity   : windowFocusChanged: true
+10-23 02:52:25.634  2356  2402 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-23 02:52:25.636  2356  2402 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+10-23 02:52:25.636  2356  2402 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+10-23 02:52:25.636  2356  2402 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+10-23 02:52:25.636  2356  2402 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+10-23 02:52:25.636  2356  2402 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+10-23 02:52:25.636  2356  2402 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+10-23 02:52:25.636  2356  2402 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+10-23 02:52:25.636  2356  2402 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+10-23 02:52:25.636  2356  2402 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+10-23 02:52:25.636  2356  2402 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+10-23 02:52:25.636  2356  2402 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+10-23 02:52:25.636  2356  2402 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+10-23 02:52:25.637  2356  2402 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+10-23 02:52:25.637  2356  2402 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+10-23 02:52:25.637  2356  2402 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+10-23 02:52:25.637  2356  2402 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+10-23 02:52:25.637  2356  2402 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+10-23 02:52:25.637  2356  2402 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+10-23 02:52:25.637  2356  2402 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+10-23 02:52:25.637  2356  2402 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+10-23 02:52:25.638  2356  2402 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+10-23 02:52:25.638  2356  2402 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+10-23 02:52:25.638  2356  2402 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+10-23 02:52:25.638  2356  2402 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+10-23 02:52:25.638  2356  2402 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+10-23 02:52:25.638  2356  2402 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+10-23 02:52:25.638  2356  2402 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+10-23 02:52:25.638  2356  2402 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+10-23 02:52:25.639  2356  2402 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+10-23 02:52:25.639  2356  2402 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+10-23 02:52:25.703  2356  2402 D Unity   : Enabling Unity systrace
+10-23 02:52:25.740  2356  2402 D Unity   : [VFS] Mount /data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk
+10-23 02:52:25.783  2356  2402 I Unity   : SystemInfo CPU = x86-64 SSE3 SSE4.1 SSE4.2 AVX AVX2, Cores = 4, Memory = 5949mb
+10-23 02:52:25.783  2356  2402 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf), 0 little (mask: 0x0)
+10-23 02:52:25.783  2356  2402 I Unity   : ApplicationInfo com.forestatelier.curioshop version 0.1.0
+10-23 02:52:25.783  2356  2402 I Unity   : Built from 'origin/2022.3/china_unity/release' branch, Version '2022.3.8f1c1 (4ec8ee1b2212)', Build type 'Development', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+10-23 02:52:25.792  2356  2402 D Unity   : Mono path[0] = '/data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk/assets/bin/Data/Managed'
+10-23 02:52:25.792  2356  2402 D Unity   : Mono config path = 'assets/bin/Data/Managed/etc'
+10-23 02:52:25.797  2356  2402 D Unity   : Found 1 interfaces on host :
+10-23 02:52:25.797  2356  2402 D Unity   :  0) 10.0.2.15
+10-23 02:52:25.797  2356  2402 D Unity   : 
+10-23 02:52:25.799  2356  2402 D Unity   : Multi-casting "[IP] 10.0.2.15 [Port] 55000 [Flags] 2 [Guid] 563291710 [EditorId] 1874321907 [Version] 1048832 [Id] AndroidPlayer(11,HUAWEI_HBP-AL00@10.0.2.15) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] 林间奇物铺" to [225.0.0.222:54997]...
+10-23 02:52:26.020  2356  2402 D Unity   : [EGL] Attaching window :0xcab064d8
+10-23 02:52:26.020  2356  2402 D Unity   : InitializeScriptEngine OK (0xc5861e80)
+10-23 02:52:26.064  2356  2402 D Unity   : [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+10-23 02:52:26.080  2356  2402 D Unity   : PlayerInitEngineNoGraphics OK
+10-23 02:52:26.080  2356  2402 I Unity   : Company Name: Forest Atelier
+10-23 02:52:26.080  2356  2402 I Unity   : Product Name: 林间奇物铺
+10-23 02:52:26.080  2356  2402 D Unity   : AndroidGraphics::Startup window =  0xcab064d8
+10-23 02:52:26.080  2356  2402 D Unity   : [EGL] Attaching window :0xcab064d8
+10-23 02:52:26.084  2356  2402 D Unity   : [Subsystems] Discovering subsystems at path /data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk/assets/bin/Data/UnitySubsystems
+10-23 02:52:26.107  2356  2402 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 02:52:26.107  2356  2402 D Unity   : [EGL] Checking ES 3.2 support...
+10-23 02:52:26.109  2356  2402 D Unity   : [EGL] ES 3.2 support detected
+10-23 02:52:26.110  2356  2402 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 02:52:26.110  2356  2402 D Unity   : GfxDevice: creating device client; threaded=1; jobified=0
+10-23 02:52:26.112  2356  2402 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 02:52:26.114  2356  2402 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 02:52:26.115  2356  2402 D Unity   : [EGL] Request: ES 3.0 RGBA 8888 0/0
+10-23 02:52:26.117  2356  2402 D Unity   : [EGL] Found: ID[1] ES 3.0 RGBA 8888 0/0
+10-23 02:52:26.126  2356  2402 D Unity   : ANativeWindow: (1080/2340) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (1080/2340)
+10-23 02:52:26.166  2356  2402 D Unity   : Renderer: Adreno (TM) 640
+10-23 02:52:26.166  2356  2402 D Unity   : Vendor:   Qualcomm
+10-23 02:52:26.166  2356  2402 D Unity   : Version:  OpenGL ES 3.2 V132
+10-23 02:52:26.166  2356  2402 D Unity   : GLES:     3
+10-23 02:52:26.166  2356  2402 D Unity   :  GL_ANDROID_extension_pack_es31a GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_copy_image GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_primitive_bounding_box GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_io_blocks GL_EXT_shader_texture_lod GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture
+10-23 02:52:26.166  2356  2402 D Unity   : _sRGB_decode GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_geometry_shader GL_OES_packed_depth_stencil GL_OES_primitive_bounding_box GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader
+10-23 02:52:26.166  2356  2402 D Unity   : _image_atomic GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float
+10-23 02:52:26.170  2356  2402 D Unity   : OPENGL LOG: Creating OpenGL ES 3.2 graphics device ; Context level  <OpenGL ES 3.2> ; Context handle -733468096
+10-23 02:52:26.204  2356  2402 D Unity   : [EGL] Attaching window :0xcab064d8
+10-23 02:52:26.206  2356  2402 D Unity   : Requested framebuffer: resolution[1080x2340], rgba[8/8/8/8], depth+stencil[on], samples[1]
+10-23 02:52:26.208  2356  2402 D Unity   : Created framebuffer: resolution[1080x2340], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+10-23 02:52:26.209  2356  2402 D Unity   : [EGL] Attaching window :0xcab064d8
+10-23 02:52:26.209  2356  2402 D Unity   : Initialize engine version: 2022.3.8f1c1 (4ec8ee1b2212)
+10-23 02:52:26.308  2356  2402 D Unity   : Begin MonoManager ReloadAssembly
+10-23 02:52:27.399  2356  2402 D Unity   : - Loaded All Assemblies, in  1.092 seconds
+10-23 02:52:27.418  2356  2402 D Unity   : - Finished resetting the current domain, in  0.019 seconds
+10-23 02:52:27.660  2356  2402 D Unity   : PlayerInitEngineGraphics OK
+10-23 02:52:27.664  2356  2402 D Unity   : Found 14 native sensors
+10-23 02:52:27.665  2356  2402 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 02:52:27.666  2356  2402 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 02:52:29.733  2356  2402 D Unity   : UnloadTime: 6.216825 ms
+10-23 02:52:33.691  2356  2402 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 02:52:33.691  2356  2402 D Unity   : Choreographer available: Enabling VSYNC timing
+10-23 02:53:51.418  2594  2594 D Unity   : CommandLine:  
+10-23 02:53:51.435  2594  2594 D Unity   : onActivityResumed: com.unity3d.player.UnityPlayerActivity@f563b86
+10-23 02:53:51.435  2594  2594 I Unity   : onResume
+10-23 02:53:51.508  2594  2632 D Unity   : SetWindow 0 0xcaa11528
+10-23 02:53:51.509  2594  2632 D Unity   : SetWindow 0 0xcaa11528
+10-23 02:53:51.664  2594  2594 I Unity   : windowFocusChanged: true
+10-23 02:53:51.691  2594  2632 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-23 02:53:51.693  2594  2632 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+10-23 02:53:51.693  2594  2632 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+10-23 02:53:51.694  2594  2632 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+10-23 02:53:51.694  2594  2632 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+10-23 02:53:51.694  2594  2632 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+10-23 02:53:51.694  2594  2632 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+10-23 02:53:51.694  2594  2632 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+10-23 02:53:51.694  2594  2632 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+10-23 02:53:51.694  2594  2632 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+10-23 02:53:51.694  2594  2632 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+10-23 02:53:51.694  2594  2632 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+10-23 02:53:51.694  2594  2632 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+10-23 02:53:51.694  2594  2632 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+10-23 02:53:51.694  2594  2632 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+10-23 02:53:51.736  2594  2632 D Unity   : Enabling Unity systrace
+10-23 02:53:51.768  2594  2632 D Unity   : [VFS] Mount /data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk
+10-23 02:53:51.793  2594  2632 I Unity   : SystemInfo CPU = x86-64 SSE3 SSE4.1 SSE4.2 AVX AVX2, Cores = 4, Memory = 5949mb
+10-23 02:53:51.793  2594  2632 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf), 0 little (mask: 0x0)
+10-23 02:53:51.793  2594  2632 I Unity   : ApplicationInfo com.forestatelier.curioshop version 0.1.0
+10-23 02:53:51.794  2594  2632 I Unity   : Built from 'origin/2022.3/china_unity/release' branch, Version '2022.3.8f1c1 (4ec8ee1b2212)', Build type 'Development', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+10-23 02:53:51.806  2594  2632 D Unity   : Mono path[0] = '/data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk/assets/bin/Data/Managed'
+10-23 02:53:51.806  2594  2632 D Unity   : Mono config path = 'assets/bin/Data/Managed/etc'
+10-23 02:53:51.811  2594  2632 D Unity   : Found 1 interfaces on host :
+10-23 02:53:51.811  2594  2632 D Unity   :  0) 10.0.2.15
+10-23 02:53:51.811  2594  2632 D Unity   : 
+10-23 02:53:51.813  2594  2632 D Unity   : Multi-casting "[IP] 10.0.2.15 [Port] 55000 [Flags] 2 [Guid] 194252795 [EditorId] 1874321907 [Version] 1048832 [Id] AndroidPlayer(11,HUAWEI_HBP-AL00@10.0.2.15) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] 林间奇物铺" to [225.0.0.222:54997]...
+10-23 02:53:52.035  2594  2632 D Unity   : [EGL] Attaching window :0xcaa11528
+10-23 02:53:52.035  2594  2632 D Unity   : InitializeScriptEngine OK (0xc71f9e80)
+10-23 02:53:52.065  2594  2632 D Unity   : [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+10-23 02:53:52.081  2594  2632 D Unity   : PlayerInitEngineNoGraphics OK
+10-23 02:53:52.082  2594  2632 I Unity   : Company Name: Forest Atelier
+10-23 02:53:52.082  2594  2632 I Unity   : Product Name: 林间奇物铺
+10-23 02:53:52.082  2594  2632 D Unity   : AndroidGraphics::Startup window =  0xcaa11528
+10-23 02:53:52.082  2594  2632 D Unity   : [EGL] Attaching window :0xcaa11528
+10-23 02:53:52.084  2594  2632 D Unity   : [Subsystems] Discovering subsystems at path /data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk/assets/bin/Data/UnitySubsystems
+10-23 02:53:52.108  2594  2632 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 02:53:52.109  2594  2632 D Unity   : [EGL] Checking ES 3.2 support...
+10-23 02:53:52.112  2594  2632 D Unity   : [EGL] ES 3.2 support detected
+10-23 02:53:52.112  2594  2632 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 02:53:52.112  2594  2632 D Unity   : GfxDevice: creating device client; threaded=1; jobified=0
+10-23 02:53:52.116  2594  2632 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 02:53:52.119  2594  2632 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 02:53:52.120  2594  2632 D Unity   : [EGL] Request: ES 3.0 RGBA 8888 0/0
+10-23 02:53:52.123  2594  2632 D Unity   : [EGL] Found: ID[1] ES 3.0 RGBA 8888 0/0
+10-23 02:53:52.133  2594  2632 D Unity   : ANativeWindow: (1080/2340) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (1080/2340)
+10-23 02:53:52.170  2594  2632 D Unity   : Renderer: Adreno (TM) 640
+10-23 02:53:52.170  2594  2632 D Unity   : Vendor:   Qualcomm
+10-23 02:53:52.170  2594  2632 D Unity   : Version:  OpenGL ES 3.2 V132
+10-23 02:53:52.170  2594  2632 D Unity   : GLES:     3
+10-23 02:53:52.171  2594  2632 D Unity   :  GL_ANDROID_extension_pack_es31a GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_copy_image GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_primitive_bounding_box GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_io_blocks GL_EXT_shader_texture_lod GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture
+10-23 02:53:52.171  2594  2632 D Unity   : _sRGB_decode GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_geometry_shader GL_OES_packed_depth_stencil GL_OES_primitive_bounding_box GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader
+10-23 02:53:52.171  2594  2632 D Unity   : _image_atomic GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float
+10-23 02:53:52.176  2594  2632 D Unity   : OPENGL LOG: Creating OpenGL ES 3.2 graphics device ; Context level  <OpenGL ES 3.2> ; Context handle -732615184
+10-23 02:53:52.209  2594  2632 D Unity   : [EGL] Attaching window :0xcaa11528
+10-23 02:53:52.210  2594  2632 D Unity   : Requested framebuffer: resolution[1080x2340], rgba[8/8/8/8], depth+stencil[on], samples[1]
+10-23 02:53:52.213  2594  2632 D Unity   : Created framebuffer: resolution[1080x2340], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+10-23 02:53:52.213  2594  2632 D Unity   : [EGL] Attaching window :0xcaa11528
+10-23 02:53:52.213  2594  2632 D Unity   : Initialize engine version: 2022.3.8f1c1 (4ec8ee1b2212)
+10-23 02:53:52.274  2594  2632 D Unity   : Begin MonoManager ReloadAssembly
+10-23 02:53:53.218  2594  2632 D Unity   : - Loaded All Assemblies, in  0.945 seconds
+10-23 02:53:53.236  2594  2632 D Unity   : - Finished resetting the current domain, in  0.018 seconds
+10-23 02:53:53.495  2594  2632 D Unity   : PlayerInitEngineGraphics OK
+10-23 02:53:53.498  2594  2632 D Unity   : Found 14 native sensors
+10-23 02:53:53.499  2594  2632 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 02:53:53.499  2594  2632 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 02:53:55.559  2594  2632 D Unity   : UnloadTime: 7.178177 ms
+10-23 02:53:59.032  2594  2632 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 02:53:59.032  2594  2632 D Unity   : Choreographer available: Enabling VSYNC timing
+10-23 02:58:27.846  2594  2632 I Unity   : FOREST_EVIDENCE_COMPLETE /storage/emulated/0/Android/data/com.forestatelier.curioshop/files/Verification3D
+10-23 02:58:27.846  2594  2632 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 02:58:27.846  2594  2632 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 02:58:27.846  2594  2632 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 02:58:27.846  2594  2632 I Unity   : UnityEngine.Debug:Log (object)
+10-23 02:58:27.846  2594  2632 I Unity   : ForestShop.ForestApp/<CaptureRun>d__92:MoveNext () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestEvidence.cs:154)
+10-23 02:58:27.846  2594  2632 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/Coroutines.cs:17)
+10-23 02:58:27.846  2594  2632 I Unity   : 
+10-23 02:58:27.859  2594  2594 I Unity   : onPause
+10-23 02:58:27.892  2594  2768 D Unity   : Setting up 1 worker threads for Enlighten.
+10-23 02:58:28.189  2594  2632 D Unity   : PlayerConnection::Cleanup
+10-23 02:58:28.190  2594  2632 D Unity   : ASensorManager_destroyEventQueue returned 0
+10-23 02:58:28.222  2594  2632 D Unity   : Memory Statistics:
+10-23 02:58:28.222  2594  2632 D Unity   : [ALLOC_TEMP_TLS] TLS Allocator
+10-23 02:58:28.222  2594  2632 D Unity   :   StackAllocators : 
+10-23 02:58:28.222  2594  2632 D Unity   :     [ALLOC_TEMP_MAIN_THREAD]
+10-23 02:58:28.222  2594  2632 D Unity   :       Peak usage frame count: 
+10-23 02:58:28.222  2594  2632 D Unity   : [4.0 KB-8.0 KB]: 5027 frames
+10-23 02:58:28.222  2594  2632 D Unity   : , [8.0 KB-16.0 KB]: 23 frames
+10-23 02:58:28.222  2594  2632 D Unity   : , [256.0 KB-0.5 MB]: 21 frames
+10-23 02:58:28.222  2594  2632 D Unity   : , [0.5 MB-1.0 MB]: 26 frames
+10-23 02:58:28.222  2594  2632 D Unity   : , [1.0 MB-2.0 MB]: 347 frames
+10-23 02:58:28.222  2594  2632 D Unity   : , [2.0 MB-4.0 MB]: 3 frames
+10-23 02:58:28.222  2594  2632 D Unity   : 
+10-23 02:58:28.222  2594  2632 D Unity   :       Initial Block Size 4.0 MB
+10-23 02:58:28.222  2594  2632 D Unity   :       Current Block Size 4.0 MB
+10-23 02:58:28.222  2594  2632 D Unity   :       Peak Allocated Bytes 3.3 MB
+10-23 02:58:28.222  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.222  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 5]
+10-23 02:58:28.222  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.222  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.222  2594  2632 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:58:28.222  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.222  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 11]
+10-23 02:58:28.222  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.222  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.222  2594  2632 D Unity   :       Peak Allocated Bytes 25 B
+10-23 02:58:28.222  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.222  2594  2632 D Unity   :     [ALLOC_TEMP_Loading.PreloadManager]
+10-23 02:58:28.223  2594  2632 D Unity   :       Initial Block Size 256.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Current Block Size 256.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Peak Allocated Bytes 25.7 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Overflow Count 4
+10-23 02:58:28.223  2594  2632 D Unity   :     [ALLOC_TEMP_UnityGfxDeviceWorker]
+10-23 02:58:28.223  2594  2632 D Unity   :       Initial Block Size 256.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Current Block Size 256.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Peak Allocated Bytes 15.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.223  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 3]
+10-23 02:58:28.223  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:58:28.223  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.223  2594  2632 D Unity   :     [ALLOC_TEMP_AUDIO_FMOD stream thread]
+10-23 02:58:28.223  2594  2632 D Unity   :       Initial Block Size 64.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Current Block Size 64.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Peak Allocated Bytes 0 B
+10-23 02:58:28.223  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.223  2594  2632 D Unity   :     [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
+10-23 02:58:28.223  2594  2632 D Unity   :       Initial Block Size 64.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Current Block Size 64.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Peak Allocated Bytes 28 B
+10-23 02:58:28.223  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.223  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 7]
+10-23 02:58:28.223  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:58:28.223  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.223  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 4]
+10-23 02:58:28.223  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:58:28.223  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.223  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 6]
+10-23 02:58:28.223  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:58:28.223  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.223  2594  2632 D Unity   :     [ALLOC_TEMP_Job.worker 2]
+10-23 02:58:28.223  2594  2632 D Unity   :       Initial Block Size 256.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Current Block Size 256.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Peak Allocated Bytes 42.5 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.223  2594  2632 D Unity   :     [ALLOC_TEMP_Profiler.Dispatcher]
+10-23 02:58:28.223  2594  2632 D Unity   :       Initial Block Size 64.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Current Block Size 64.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Peak Allocated Bytes 304 B
+10-23 02:58:28.223  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.223  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 12]
+10-23 02:58:28.223  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.223  2594  2632 D Unity   :       Peak Allocated Bytes 25 B
+10-23 02:58:28.223  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.223  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 2]
+10-23 02:58:28.224  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:58:28.224  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.224  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 10]
+10-23 02:58:28.224  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Peak Allocated Bytes 25 B
+10-23 02:58:28.224  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.224  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 9]
+10-23 02:58:28.224  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:58:28.224  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.224  2594  2632 D Unity   :     [ALLOC_TEMP_Job.worker 0]
+10-23 02:58:28.224  2594  2632 D Unity   :       Initial Block Size 256.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Current Block Size 256.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Peak Allocated Bytes 42.3 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.224  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 15]
+10-23 02:58:28.224  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Peak Allocated Bytes 25 B
+10-23 02:58:28.224  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.224  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 0]
+10-23 02:58:28.224  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:58:28.224  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.224  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 8]
+10-23 02:58:28.224  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Peak Allocated Bytes 24 B
+10-23 02:58:28.224  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.224  2594  2632 D Unity   :     [ALLOC_TEMP_AUDIO_FMOD mixer thread]
+10-23 02:58:28.224  2594  2632 D Unity   :       Initial Block Size 64.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Current Block Size 64.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Peak Allocated Bytes 0 B
+10-23 02:58:28.224  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.224  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 1]
+10-23 02:58:28.224  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Peak Allocated Bytes 42 B
+10-23 02:58:28.224  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.224  2594  2632 D Unity   :     [ALLOC_TEMP_EnlightenWorker]
+10-23 02:58:28.224  2594  2632 D Unity   :       Initial Block Size 64.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Current Block Size 64.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Peak Allocated Bytes 0 B
+10-23 02:58:28.224  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.224  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 14]
+10-23 02:58:28.224  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Peak Allocated Bytes 25 B
+10-23 02:58:28.224  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.224  2594  2632 D Unity   :     [ALLOC_TEMP_Job.worker 1]
+10-23 02:58:28.224  2594  2632 D Unity   :       Initial Block Size 256.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Current Block Size 256.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Peak Allocated Bytes 49.6 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.224  2594  2632 D Unity   :     [ALLOC_TEMP_Loading.AsyncRead]
+10-23 02:58:28.224  2594  2632 D Unity   :       Initial Block Size 64.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Current Block Size 64.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Peak Allocated Bytes 437 B
+10-23 02:58:28.224  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.224  2594  2632 D Unity   :     [ALLOC_TEMP_Background Job.worker 13]
+10-23 02:58:28.224  2594  2632 D Unity   :       Initial Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Current Block Size 32.0 KB
+10-23 02:58:28.224  2594  2632 D Unity   :       Peak Allocated Bytes 25 B
+10-23 02:58:28.224  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.225  2594  2632 D Unity   :     [ALLOC_TEMP_BatchDeleteObjects]
+10-23 02:58:28.225  2594  2632 D Unity   :       Initial Block Size 64.0 KB
+10-23 02:58:28.225  2594  2632 D Unity   :       Current Block Size 64.0 KB
+10-23 02:58:28.225  2594  2632 D Unity   :       Peak Allocated Bytes 0 B
+10-23 02:58:28.225  2594  2632 D Unity   :       Overflow Count 0
+10-23 02:58:28.225  2594  2632 D Unity   : [ALLOC_MEMORYPROFILER]
+10-23 02:58:28.225  2594  2632 D Unity   :   Peak usage frame count: 
+10-23 02:58:28.225  2594  2632 D Unity   : [256.0 KB-0.5 MB]: 30 frames
+10-23 02:58:28.225  2594  2632 D Unity   : , [0.5 MB-1.0 MB]: 5417 frames
+10-23 02:58:28.225  2594  2632 D Unity   : 
+10-23 02:58:28.225  2594  2632 D Unity   :   Requested Block Size 1.0 MB
+10-23 02:58:28.225  2594  2632 D Unity   :   Peak Block count 1
+10-23 02:58:28.225  2594  2632 D Unity   :   Peak Allocated memory 0.7 MB
+10-23 02:58:28.225  2594  2632 D Unity   :   Peak Large allocation bytes 0 B
+10-23 02:58:28.225  2594  2632 D Unity   : [ALLOC_DEFAULT] Dual Thread Allocator
+10-23 02:58:28.225  2594  2632 D Unity   :   Peak main deferred allocation count 2024
+10-23 02:58:28.225  2594  2632 D Unity   :     [ALLOC_BUCKET]
+10-23 02:58:28.225  2594  2632 D Unity   :       Large Block size 4.0 MB
+10-23 02:58:28.225  2594  2632 D Unity   :       Used Block count 1
+10-23 02:58:28.225  2594  2632 D Unity   :       Peak Allocated bytes 1.6 MB
+10-23 02:58:28.225  2594  2632 D Unity   :     [ALLOC_DEFAULT_MAIN]
+10-23 02:58:28.225  2594  2632 D Unity   :       Peak usage frame count: 
+10-23 02:58:28.225  2594  2632 D Unity   : [32.0 MB-64.0 MB]: 5447 frames
+10-23 02:58:28.225  2594  2632 D Unity   : 
+10-23 02:58:28.225  2594  2632 D Unity   :       Requested Block Size 16.0 MB
+10-23 02:58:28.225  2594  2632 D Unity   :       Peak Block count 2
+10-23 02:58:28.225  2594  2632 D Unity   :       Peak Allocated memory 44.4 MB
+10-23 02:58:28.225  2594  2632 D Unity   :       Peak Large allocation bytes 17.6 MB
+10-23 02:58:28.225  2594  2632 D Unity   :     [ALLOC_DEFAULT_THREAD]
+10-23 02:58:28.225  2594  2632 D Unity   :       Peak usage frame count: 
+10-23 02:58:28.225  2594  2632 D Unity   : [8.0 MB-16.0 MB]: 109 frames
+10-23 02:58:28.225  2594  2632 D Unity   : , [16.0 MB-32.0 MB]: 5338 frames
+10-23 02:58:28.225  2594  2632 D Unity   : 
+10-23 02:58:28.225  2594  2632 D Unity   :       Requested Block Size 16.0 MB
+10-23 02:58:28.225  2594  2632 D Unity   :       Peak Block count 2
+10-23 02:58:28.225  2594  2632 D Unity   :       Peak Allocated memory 19.1 MB
+10-23 02:58:28.225  2594  2632 D Unity   :       Peak Large allocation bytes 0 B
+10-23 02:58:28.225  2594  2632 D Unity   : [ALLOC_TEMP_JOB_1_FRAME]
+10-23 02:58:28.225  2594  2632 D Unity   :   Initial Block Size 2.0 MB
+10-23 02:58:28.225  2594  2632 D Unity   :   Used Block Count 0
+10-23 02:58:28.225  2594  2632 D Unity   :   Overflow Count (too large) 0
+10-23 02:58:28.225  2594  2632 D Unity   :   Overflow Count (full) 0
+10-23 02:58:28.225  2594  2632 D Unity   : [ALLOC_TEMP_JOB_2_FRAMES]
+10-23 02:58:28.225  2594  2632 D Unity   :   Initial Block Size 2.0 MB
+10-23 02:58:28.225  2594  2632 D Unity   :   Used Block Count 0
+10-23 02:58:28.225  2594  2632 D Unity   :   Overflow Count (too large) 0
+10-23 02:58:28.225  2594  2632 D Unity   :   Overflow Count (full) 0
+10-23 02:58:28.225  2594  2632 D Unity   : [ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+10-23 02:58:28.225  2594  2632 D Unity   :   Initial Block Size 2.0 MB
+10-23 02:58:28.225  2594  2632 D Unity   :   Used Block Count 1
+10-23 02:58:28.225  2594  2632 D Unity   :   Overflow Count (too large) 0
+10-23 02:58:28.225  2594  2632 D Unity   :   Overflow Count (full) 0
+10-23 02:58:28.225  2594  2632 D Unity   : [ALLOC_TEMP_JOB_ASYNC (Background)]
+10-23 02:58:28.225  2594  2632 D Unity   :   Initial Block Size 1.0 MB
+10-23 02:58:28.226  2594  2632 D Unity   :   Used Block Count 1
+10-23 02:58:28.226  2594  2632 D Unity   :   Overflow Count (too large) 0
+10-23 02:58:28.226  2594  2632 D Unity   :   Overflow Count (full) 0
+10-23 02:58:28.226  2594  2632 D Unity   : [ALLOC_GFX] Dual Thread Allocator
+10-23 02:58:28.226  2594  2632 D Unity   :   Peak main deferred allocation count 2
+10-23 02:58:28.226  2594  2632 D Unity   :     [ALLOC_BUCKET]
+10-23 02:58:28.226  2594  2632 D Unity   :       Large Block size 4.0 MB
+10-23 02:58:28.226  2594  2632 D Unity   :       Used Block count 1
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Allocated bytes 1.6 MB
+10-23 02:58:28.226  2594  2632 D Unity   :     [ALLOC_GFX_MAIN]
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak usage frame count: 
+10-23 02:58:28.226  2594  2632 D Unity   : [16.0 MB-32.0 MB]: 238 frames
+10-23 02:58:28.226  2594  2632 D Unity   : , [32.0 MB-64.0 MB]: 5209 frames
+10-23 02:58:28.226  2594  2632 D Unity   : 
+10-23 02:58:28.226  2594  2632 D Unity   :       Requested Block Size 16.0 MB
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Block count 3
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Allocated memory 52.1 MB
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Large allocation bytes 19.3 MB
+10-23 02:58:28.226  2594  2632 D Unity   :     [ALLOC_GFX_THREAD]
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak usage frame count: 
+10-23 02:58:28.226  2594  2632 D Unity   : [4.0 KB-8.0 KB]: 20 frames
+10-23 02:58:28.226  2594  2632 D Unity   : , [8.0 KB-16.0 KB]: 55 frames
+10-23 02:58:28.226  2594  2632 D Unity   : , [16.0 KB-32.0 KB]: 5372 frames
+10-23 02:58:28.226  2594  2632 D Unity   : 
+10-23 02:58:28.226  2594  2632 D Unity   :       Requested Block Size 16.0 MB
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Block count 1
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Allocated memory 24.4 KB
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Large allocation bytes 0 B
+10-23 02:58:28.226  2594  2632 D Unity   : [ALLOC_CACHEOBJECTS] Dual Thread Allocator
+10-23 02:58:28.226  2594  2632 D Unity   :   Peak main deferred allocation count 0
+10-23 02:58:28.226  2594  2632 D Unity   :     [ALLOC_BUCKET]
+10-23 02:58:28.226  2594  2632 D Unity   :       Large Block size 4.0 MB
+10-23 02:58:28.226  2594  2632 D Unity   :       Used Block count 1
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Allocated bytes 1.6 MB
+10-23 02:58:28.226  2594  2632 D Unity   :     [ALLOC_CACHEOBJECTS_MAIN]
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak usage frame count: 
+10-23 02:58:28.226  2594  2632 D Unity   : [16.0 MB-32.0 MB]: 5447 frames
+10-23 02:58:28.226  2594  2632 D Unity   : 
+10-23 02:58:28.226  2594  2632 D Unity   :       Requested Block Size 4.0 MB
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Block count 1
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Allocated memory 17.6 MB
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Large allocation bytes 15.7 MB
+10-23 02:58:28.226  2594  2632 D Unity   :     [ALLOC_CACHEOBJECTS_THREAD]
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak usage frame count: 
+10-23 02:58:28.226  2594  2632 D Unity   : [32.0 KB-64.0 KB]: 5446 frames
+10-23 02:58:28.226  2594  2632 D Unity   : , [128.0 KB-256.0 KB]: 1 frames
+10-23 02:58:28.226  2594  2632 D Unity   : 
+10-23 02:58:28.226  2594  2632 D Unity   :       Requested Block Size 4.0 MB
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Block count 1
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Allocated memory 162.7 KB
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Large allocation bytes 0 B
+10-23 02:58:28.226  2594  2632 D Unity   : [ALLOC_TYPETREE] Dual Thread Allocator
+10-23 02:58:28.226  2594  2632 D Unity   :   Peak main deferred allocation count 0
+10-23 02:58:28.226  2594  2632 D Unity   :     [ALLOC_BUCKET]
+10-23 02:58:28.226  2594  2632 D Unity   :       Large Block size 4.0 MB
+10-23 02:58:28.226  2594  2632 D Unity   :       Used Block count 1
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Allocated bytes 1.6 MB
+10-23 02:58:28.226  2594  2632 D Unity   :     [ALLOC_TYPETREE_MAIN]
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak usage frame count: 
+10-23 02:58:28.226  2594  2632 D Unity   : [4.0 KB-8.0 KB]: 5447 frames
+10-23 02:58:28.226  2594  2632 D Unity   : 
+10-23 02:58:28.226  2594  2632 D Unity   :       Requested Block Size 2.0 MB
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Block count 1
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Allocated memory 5.0 KB
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Large allocation bytes 0 B
+10-23 02:58:28.226  2594  2632 D Unity   :     [ALLOC_TYPETREE_THREAD]
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak usage frame count: 
+10-23 02:58:28.226  2594  2632 D Unity   : [0-1.0 KB]: 5447 frames
+10-23 02:58:28.226  2594  2632 D Unity   : 
+10-23 02:58:28.226  2594  2632 D Unity   :       Requested Block Size 2.0 MB
+10-23 02:58:28.226  2594  2632 D Unity   :       Peak Block count 0
+10-23 02:58:28.227  2594  2632 D Unity   :       Peak Allocated memory 0 B
+10-23 02:58:28.227  2594  2632 D Unity   :       Peak Large allocation bytes 0 B
+10-23 02:58:28.227  2594  2632 D Unity   : [ALLOC_PROFILER]
+10-23 02:58:28.227  2594  2632 D Unity   :   Peak usage frame count: 
+10-23 02:58:28.227  2594  2632 D Unity   : [256.0 KB-0.5 MB]: 5446 frames
+10-23 02:58:28.227  2594  2632 D Unity   : , [32.0 MB-64.0 MB]: 1 frames
+10-23 02:58:28.227  2594  2632 D Unity   : 
+10-23 02:58:28.227  2594  2632 D Unity   :   Requested Block Size 16.0 MB
+10-23 02:58:28.227  2594  2632 D Unity   :   Peak Block count 3
+10-23 02:58:28.227  2594  2632 D Unity   :   Peak Allocated memory 33.2 MB
+10-23 02:58:28.227  2594  2632 D Unity   :   Peak Large allocation bytes 0 B
+10-23 02:58:28.227  2594  2632 D Unity   :     [ALLOC_PROFILER_BUCKET]
+10-23 02:58:28.227  2594  2632 D Unity   :       Large Block size 4.0 MB
+10-23 02:58:28.227  2594  2632 D Unity   :       Used Block count 1
+10-23 02:58:28.227  2594  2632 D Unity   :       Peak Allocated bytes 32.8 KB
+10-23 02:58:28.229  2594  2632 I Unity   : ##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792695508228,"processId":2594,"allocatedMemory":301534,"memoryLabels":[{"Default":4294967228},{"Permanent":8},{"Manager":6231},{"FMODOther":18440},{"Serialization":352},{"File":16},{"String":2419},{"DynamicArray":7172},{"HashMap":1536},{"Utility":264448},{"PoolAlloc":32},{"VR":836},{"CoreBusinessMetrics":112}]}
+10-23 02:58:28.247  2594  2594 I Unity   : windowFocusChanged: false
+10-23 02:58:28.601  2594  2594 D Unity   : PersistentUnitySurface.preserveContent: com.unity3d.player.a{581f6e9 VFE...... .F....I. 0,0-1080,2340 #7f010000 app:id/unitySurfaceView aid=1073741824}
+10-23 02:58:28.601  2594  2594 D Unity   : PersistentUnitySurface.PlaceholderView.Copy: com.unity3d.player.a{581f6e9 VFE...... .F....I. 0,0-1080,2340 #7f010000 app:id/unitySurfaceView aid=1073741824}
+10-23 02:58:28.644  2594  2594 I Unity   : onDestroy
+10-23 03:00:30.032  2824  2824 D Unity   : CommandLine:  
+10-23 03:00:30.116  2824  2824 D Unity   : onActivityResumed: com.unity3d.player.UnityPlayerActivity@f563b86
+10-23 03:00:30.116  2824  2824 I Unity   : onResume
+10-23 03:00:30.259  2824  2862 D Unity   : SetWindow 0 0xcaa07e08
+10-23 03:00:30.260  2824  2862 D Unity   : SetWindow 0 0xcaa07e08
+10-23 03:00:30.514  2824  2824 I Unity   : windowFocusChanged: true
+10-23 03:00:30.567  2824  2862 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-23 03:00:30.570  2824  2862 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+10-23 03:00:30.570  2824  2862 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+10-23 03:00:30.570  2824  2862 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+10-23 03:00:30.570  2824  2862 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+10-23 03:00:30.570  2824  2862 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+10-23 03:00:30.570  2824  2862 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+10-23 03:00:30.570  2824  2862 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+10-23 03:00:30.570  2824  2862 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+10-23 03:00:30.570  2824  2862 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+10-23 03:00:30.570  2824  2862 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+10-23 03:00:30.571  2824  2862 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+10-23 03:00:30.571  2824  2862 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+10-23 03:00:30.571  2824  2862 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+10-23 03:00:30.571  2824  2862 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+10-23 03:00:30.571  2824  2862 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+10-23 03:00:30.571  2824  2862 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+10-23 03:00:30.572  2824  2862 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+10-23 03:00:30.572  2824  2862 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+10-23 03:00:30.572  2824  2862 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+10-23 03:00:30.572  2824  2862 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+10-23 03:00:30.572  2824  2862 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+10-23 03:00:30.572  2824  2862 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+10-23 03:00:30.572  2824  2862 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+10-23 03:00:30.572  2824  2862 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+10-23 03:00:30.572  2824  2862 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+10-23 03:00:30.573  2824  2862 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+10-23 03:00:30.573  2824  2862 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+10-23 03:00:30.573  2824  2862 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+10-23 03:00:30.573  2824  2862 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+10-23 03:00:30.573  2824  2862 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+10-23 03:00:30.699  2824  2862 D Unity   : Enabling Unity systrace
+10-23 03:00:30.714  2824  2824 I Unity   : onPause
+10-23 03:00:30.882  2824  2862 D Unity   : [VFS] Mount /data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk
+10-23 03:00:31.040  2824  2862 I Unity   : SystemInfo CPU = x86-64 SSE3 SSE4.1 SSE4.2 AVX AVX2, Cores = 4, Memory = 5949mb
+10-23 03:00:31.041  2824  2862 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf), 0 little (mask: 0x0)
+10-23 03:00:31.041  2824  2862 I Unity   : ApplicationInfo com.forestatelier.curioshop version 0.1.0
+10-23 03:00:31.041  2824  2862 I Unity   : Built from 'origin/2022.3/china_unity/release' branch, Version '2022.3.8f1c1 (4ec8ee1b2212)', Build type 'Development', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+10-23 03:00:31.057  2824  2862 D Unity   : Mono path[0] = '/data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk/assets/bin/Data/Managed'
+10-23 03:00:31.058  2824  2862 D Unity   : Mono config path = 'assets/bin/Data/Managed/etc'
+10-23 03:00:31.071  2824  2862 D Unity   : Found 1 interfaces on host :
+10-23 03:00:31.071  2824  2862 D Unity   :  0) 10.0.2.15
+10-23 03:00:31.071  2824  2862 D Unity   : 
+10-23 03:00:31.072  2824  2862 D Unity   : Multi-casting "[IP] 10.0.2.15 [Port] 55000 [Flags] 2 [Guid] 777184225 [EditorId] 1874321907 [Version] 1048832 [Id] AndroidPlayer(11,HUAWEI_HBP-AL00@10.0.2.15) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] 林间奇物铺" to [225.0.0.222:54997]...
+10-23 03:00:31.331  2824  2862 D Unity   : [EGL] Attaching window :0xcaa07e08
+10-23 03:00:31.331  2824  2862 D Unity   : InitializeScriptEngine OK (0xc5340e80)
+10-23 03:00:31.401  2824  2862 D Unity   : [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+10-23 03:00:31.423  2824  2862 D Unity   : PlayerInitEngineNoGraphics OK
+10-23 03:00:31.423  2824  2862 I Unity   : Company Name: Forest Atelier
+10-23 03:00:31.423  2824  2862 I Unity   : Product Name: 林间奇物铺
+10-23 03:00:31.423  2824  2862 D Unity   : AndroidGraphics::Startup window =  0xcaa07e08
+10-23 03:00:31.423  2824  2862 D Unity   : [EGL] Attaching window :0xcaa07e08
+10-23 03:00:31.428  2824  2862 D Unity   : [Subsystems] Discovering subsystems at path /data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk/assets/bin/Data/UnitySubsystems
+10-23 03:00:31.456  2824  2862 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 03:00:31.457  2824  2862 D Unity   : [EGL] Checking ES 3.2 support...
+10-23 03:00:31.460  2824  2862 D Unity   : [EGL] ES 3.2 support detected
+10-23 03:00:31.460  2824  2862 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 03:00:31.460  2824  2862 D Unity   : GfxDevice: creating device client; threaded=1; jobified=0
+10-23 03:00:31.463  2824  2862 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 03:00:31.466  2824  2862 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 03:00:31.470  2824  2862 D Unity   : [EGL] Request: ES 3.0 RGBA 8888 0/0
+10-23 03:00:31.473  2824  2862 D Unity   : [EGL] Found: ID[1] ES 3.0 RGBA 8888 0/0
+10-23 03:00:31.481  2824  2862 D Unity   : ANativeWindow: (720/1600) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (720/1600)
+10-23 03:00:31.521  2824  2862 D Unity   : Renderer: Adreno (TM) 640
+10-23 03:00:31.521  2824  2862 D Unity   : Vendor:   Qualcomm
+10-23 03:00:31.521  2824  2862 D Unity   : Version:  OpenGL ES 3.2 V132
+10-23 03:00:31.521  2824  2862 D Unity   : GLES:     3
+10-23 03:00:31.522  2824  2862 D Unity   :  GL_ANDROID_extension_pack_es31a GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_copy_image GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_primitive_bounding_box GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_io_blocks GL_EXT_shader_texture_lod GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture
+10-23 03:00:31.522  2824  2862 D Unity   : _sRGB_decode GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_geometry_shader GL_OES_packed_depth_stencil GL_OES_primitive_bounding_box GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader
+10-23 03:00:31.522  2824  2862 D Unity   : _image_atomic GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float
+10-23 03:00:31.527  2824  2862 D Unity   : OPENGL LOG: Creating OpenGL ES 3.2 graphics device ; Context level  <OpenGL ES 3.2> ; Context handle -733467376
+10-23 03:00:31.560  2824  2862 D Unity   : [EGL] Attaching window :0xcaa07e08
+10-23 03:00:31.561  2824  2862 D Unity   : Requested framebuffer: resolution[720x1600], rgba[8/8/8/8], depth+stencil[on], samples[1]
+10-23 03:00:31.563  2824  2862 D Unity   : Created framebuffer: resolution[720x1600], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+10-23 03:00:31.564  2824  2862 D Unity   : [EGL] Attaching window :0xcaa07e08
+10-23 03:00:31.564  2824  2862 D Unity   : Initialize engine version: 2022.3.8f1c1 (4ec8ee1b2212)
+10-23 03:00:31.647  2824  2862 D Unity   : Begin MonoManager ReloadAssembly
+10-23 03:00:32.618  2824  2862 D Unity   : - Loaded All Assemblies, in  0.970 seconds
+10-23 03:00:32.634  2824  2862 D Unity   : - Finished resetting the current domain, in  0.016 seconds
+10-23 03:00:34.981  2943  2943 D Unity   : CommandLine:  
+10-23 03:00:35.075  2943  2943 D Unity   : onActivityResumed: com.unity3d.player.UnityPlayerActivity@f563b86
+10-23 03:00:35.075  2943  2943 I Unity   : onResume
+10-23 03:00:35.179  2943  2963 D Unity   : SetWindow 0 0xcaa4b068
+10-23 03:00:35.179  2943  2963 D Unity   : SetWindow 0 0xcaa4b068
+10-23 03:00:35.346  2943  2943 I Unity   : windowFocusChanged: true
+10-23 03:00:35.368  2943  2963 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-23 03:00:35.369  2943  2963 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+10-23 03:00:35.369  2943  2963 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+10-23 03:00:35.369  2943  2963 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+10-23 03:00:35.369  2943  2963 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+10-23 03:00:35.369  2943  2963 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+10-23 03:00:35.369  2943  2963 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+10-23 03:00:35.369  2943  2963 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+10-23 03:00:35.369  2943  2963 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+10-23 03:00:35.369  2943  2963 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+10-23 03:00:35.369  2943  2963 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+10-23 03:00:35.369  2943  2963 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+10-23 03:00:35.369  2943  2963 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+10-23 03:00:35.369  2943  2963 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+10-23 03:00:35.370  2943  2963 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+10-23 03:00:35.405  2943  2963 D Unity   : Enabling Unity systrace
+10-23 03:00:35.433  2943  2963 D Unity   : [VFS] Mount /data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk
+10-23 03:00:35.465  2943  2963 I Unity   : SystemInfo CPU = x86-64 SSE3 SSE4.1 SSE4.2 AVX AVX2, Cores = 4, Memory = 5949mb
+10-23 03:00:35.465  2943  2963 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf), 0 little (mask: 0x0)
+10-23 03:00:35.465  2943  2963 I Unity   : ApplicationInfo com.forestatelier.curioshop version 0.1.0
+10-23 03:00:35.465  2943  2963 I Unity   : Built from 'origin/2022.3/china_unity/release' branch, Version '2022.3.8f1c1 (4ec8ee1b2212)', Build type 'Development', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+10-23 03:00:35.471  2943  2963 D Unity   : Mono path[0] = '/data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk/assets/bin/Data/Managed'
+10-23 03:00:35.471  2943  2963 D Unity   : Mono config path = 'assets/bin/Data/Managed/etc'
+10-23 03:00:35.475  2943  2963 D Unity   : Found 1 interfaces on host :
+10-23 03:00:35.475  2943  2963 D Unity   :  0) 10.0.2.15
+10-23 03:00:35.475  2943  2963 D Unity   : 
+10-23 03:00:35.476  2943  2963 D Unity   : Multi-casting "[IP] 10.0.2.15 [Port] 55000 [Flags] 2 [Guid] 3698608477 [EditorId] 1874321907 [Version] 1048832 [Id] AndroidPlayer(11,HUAWEI_HBP-AL00@10.0.2.15) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] 林间奇物铺" to [225.0.0.222:54997]...
+10-23 03:00:35.655  2943  2963 D Unity   : [EGL] Attaching window :0xcaa4b068
+10-23 03:00:35.656  2943  2963 D Unity   : InitializeScriptEngine OK (0xbe6d4e80)
+10-23 03:00:35.687  2943  2963 D Unity   : [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+10-23 03:00:35.701  2943  2963 D Unity   : PlayerInitEngineNoGraphics OK
+10-23 03:00:35.701  2943  2963 I Unity   : Company Name: Forest Atelier
+10-23 03:00:35.701  2943  2963 I Unity   : Product Name: 林间奇物铺
+10-23 03:00:35.701  2943  2963 D Unity   : AndroidGraphics::Startup window =  0xcaa4b068
+10-23 03:00:35.701  2943  2963 D Unity   : [EGL] Attaching window :0xcaa4b068
+10-23 03:00:35.704  2943  2963 D Unity   : [Subsystems] Discovering subsystems at path /data/app/~~SgosHB8_t5g7_cwNRyQwZQ==/com.forestatelier.curioshop-5O2FEC6PdE-KOY6xCRwtMA==/base.apk/assets/bin/Data/UnitySubsystems
+10-23 03:00:35.723  2943  2963 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 03:00:35.724  2943  2963 D Unity   : [EGL] Checking ES 3.2 support...
+10-23 03:00:35.725  2943  2963 D Unity   : [EGL] ES 3.2 support detected
+10-23 03:00:35.726  2943  2963 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 03:00:35.726  2943  2963 D Unity   : GfxDevice: creating device client; threaded=1; jobified=0
+10-23 03:00:35.728  2943  2963 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 03:00:35.730  2943  2963 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 03:00:35.731  2943  2963 D Unity   : [EGL] Request: ES 3.0 RGBA 8888 0/0
+10-23 03:00:35.733  2943  2963 D Unity   : [EGL] Found: ID[1] ES 3.0 RGBA 8888 0/0
+10-23 03:00:35.740  2943  2963 D Unity   : ANativeWindow: (720/1600) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (720/1600)
+10-23 03:00:35.766  2943  2963 D Unity   : Renderer: Adreno (TM) 640
+10-23 03:00:35.766  2943  2963 D Unity   : Vendor:   Qualcomm
+10-23 03:00:35.766  2943  2963 D Unity   : Version:  OpenGL ES 3.2 V132
+10-23 03:00:35.767  2943  2963 D Unity   : GLES:     3
+10-23 03:00:35.767  2943  2963 D Unity   :  GL_ANDROID_extension_pack_es31a GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_copy_image GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_primitive_bounding_box GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_io_blocks GL_EXT_shader_texture_lod GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture
+10-23 03:00:35.767  2943  2963 D Unity   : _sRGB_decode GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_geometry_shader GL_OES_packed_depth_stencil GL_OES_primitive_bounding_box GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader
+10-23 03:00:35.767  2943  2963 D Unity   : _image_atomic GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float
+10-23 03:00:35.772  2943  2963 D Unity   : OPENGL LOG: Creating OpenGL ES 3.2 graphics device ; Context level  <OpenGL ES 3.2> ; Context handle -732435824
+10-23 03:00:35.797  2943  2963 D Unity   : [EGL] Attaching window :0xcaa4b068
+10-23 03:00:35.798  2943  2963 D Unity   : Requested framebuffer: resolution[720x1600], rgba[8/8/8/8], depth+stencil[on], samples[1]
+10-23 03:00:35.799  2943  2963 D Unity   : Created framebuffer: resolution[720x1600], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+10-23 03:00:35.800  2943  2963 D Unity   : [EGL] Attaching window :0xcaa4b068
+10-23 03:00:35.800  2943  2963 D Unity   : Initialize engine version: 2022.3.8f1c1 (4ec8ee1b2212)
+10-23 03:00:35.856  2943  2963 D Unity   : Begin MonoManager ReloadAssembly
+10-23 03:00:36.610  2943  2963 D Unity   : - Loaded All Assemblies, in  0.754 seconds
+10-23 03:00:36.623  2943  2963 D Unity   : - Finished resetting the current domain, in  0.013 seconds
+10-23 03:00:36.833  2943  2963 D Unity   : PlayerInitEngineGraphics OK
+10-23 03:00:36.840  2943  2963 D Unity   : Found 14 native sensors
+10-23 03:00:36.842  2943  2963 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 03:00:36.843  2943  2963 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 03:00:38.918  2943  2963 D Unity   : UnloadTime: 8.302653 ms
+10-23 03:00:42.645  2943  2963 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 03:00:42.645  2943  2963 D Unity   : Choreographer available: Enabling VSYNC timing
+10-23 03:03:15.528  3016  3016 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-23 03:03:15.545  3016  3016 I AndroidRuntime: Using default boot image
+10-23 03:03:15.545  3016  3016 I AndroidRuntime: Leaving lock profiling enabled
+10-23 03:03:15.880  3016  3016 D AndroidRuntime: Calling main entry com.genymobile.scrcpy.Server
+10-23 03:03:15.980  3031  3031 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-23 03:03:15.986  3031  3031 I AndroidRuntime: Using default boot image
+10-23 03:03:15.986  3031  3031 I AndroidRuntime: Leaving lock profiling enabled
+10-23 03:03:16.220  3031  3031 D AndroidRuntime: Calling main entry com.genymobile.scrcpy.CleanUp
+10-23 03:03:32.419  3031  3031 I AndroidRuntime: VM exiting with result code 0.
+10-23 03:05:05.491  2943  2963 I Unity   : FOREST_EVIDENCE_COMPLETE /storage/emulated/0/Android/data/com.forestatelier.curioshop/files/Verification3D
+10-23 03:05:05.491  2943  2963 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 03:05:05.491  2943  2963 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 03:05:05.491  2943  2963 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 03:05:05.491  2943  2963 I Unity   : UnityEngine.Debug:Log (object)
+10-23 03:05:05.491  2943  2963 I Unity   : ForestShop.ForestApp/<CaptureRun>d__92:MoveNext () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestEvidence.cs:154)
+10-23 03:05:05.491  2943  2963 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/Coroutines.cs:17)
+10-23 03:05:05.491  2943  2963 I Unity   : 
+10-23 03:05:05.505  2943  2943 I Unity   : onPause
+10-23 03:05:05.533  2943  3074 D Unity   : Setting up 1 worker threads for Enlighten.
+10-23 03:05:05.744  2943  2963 D Unity   : PlayerConnection::Cleanup
+10-23 03:05:05.744  2943  2963 D Unity   : ASensorManager_destroyEventQueue returned 0
+10-23 03:05:05.768  2943  2963 D Unity   : Memory Statistics:
+10-23 03:05:05.768  2943  2963 D Unity   : [ALLOC_TEMP_TLS] TLS Allocator
+10-23 03:05:05.768  2943  2963 D Unity   :   StackAllocators : 
+10-23 03:05:05.768  2943  2963 D Unity   :     [ALLOC_TEMP_MAIN_THREAD]
+10-23 03:05:05.768  2943  2963 D Unity   :       Peak usage frame count: 
+10-23 03:05:05.768  2943  2963 D Unity   : [4.0 KB-8.0 KB]: 6188 frames
+10-23 03:05:05.768  2943  2963 D Unity   : , [8.0 KB-16.0 KB]: 22 frames
+10-23 03:05:05.768  2943  2963 D Unity   : , [256.0 KB-0.5 MB]: 307 frames
+10-23 03:05:05.769  2943  2963 D Unity   : , [0.5 MB-1.0 MB]: 160 frames
+10-23 03:05:05.769  2943  2963 D Unity   : , [2.0 MB-4.0 MB]: 3 frames
+10-23 03:05:05.769  2943  2963 D Unity   : 
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 4.0 MB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 4.0 MB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 3.3 MB
+10-23 03:05:05.769  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.769  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 5]
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 24 B
+10-23 03:05:05.769  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.769  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 4]
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 24 B
+10-23 03:05:05.769  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.769  2943  2963 D Unity   :     [ALLOC_TEMP_Loading.PreloadManager]
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 256.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 256.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 25.7 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Overflow Count 4
+10-23 03:05:05.769  2943  2963 D Unity   :     [ALLOC_TEMP_UnityGfxDeviceWorker]
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 256.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 256.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 15.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.769  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 3]
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 24 B
+10-23 03:05:05.769  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.769  2943  2963 D Unity   :     [ALLOC_TEMP_AUDIO_FMOD stream thread]
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 64.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 64.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 0 B
+10-23 03:05:05.769  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.769  2943  2963 D Unity   :     [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 64.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 64.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 28 B
+10-23 03:05:05.769  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.769  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 7]
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 24 B
+10-23 03:05:05.769  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.769  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 11]
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 25 B
+10-23 03:05:05.769  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.769  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 6]
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 24 B
+10-23 03:05:05.769  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.769  2943  2963 D Unity   :     [ALLOC_TEMP_Job.worker 2]
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 256.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 256.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 41.2 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.769  2943  2963 D Unity   :     [ALLOC_TEMP_Profiler.Dispatcher]
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 64.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 64.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 304 B
+10-23 03:05:05.769  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.769  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 12]
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 25 B
+10-23 03:05:05.769  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.769  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 2]
+10-23 03:05:05.769  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.769  2943  2963 D Unity   :       Peak Allocated Bytes 24 B
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 10]
+10-23 03:05:05.770  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated Bytes 25 B
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 9]
+10-23 03:05:05.770  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated Bytes 24 B
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_TEMP_Job.worker 0]
+10-23 03:05:05.770  2943  2963 D Unity   :       Initial Block Size 256.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Current Block Size 256.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated Bytes 43.3 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 15]
+10-23 03:05:05.770  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated Bytes 25 B
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 0]
+10-23 03:05:05.770  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated Bytes 24 B
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 8]
+10-23 03:05:05.770  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated Bytes 24 B
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_TEMP_AUDIO_FMOD mixer thread]
+10-23 03:05:05.770  2943  2963 D Unity   :       Initial Block Size 64.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Current Block Size 64.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated Bytes 0 B
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 1]
+10-23 03:05:05.770  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated Bytes 42 B
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_TEMP_EnlightenWorker]
+10-23 03:05:05.770  2943  2963 D Unity   :       Initial Block Size 64.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Current Block Size 64.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated Bytes 0 B
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 14]
+10-23 03:05:05.770  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated Bytes 25 B
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_TEMP_Job.worker 1]
+10-23 03:05:05.770  2943  2963 D Unity   :       Initial Block Size 256.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Current Block Size 256.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated Bytes 48.9 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_TEMP_Loading.AsyncRead]
+10-23 03:05:05.770  2943  2963 D Unity   :       Initial Block Size 64.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Current Block Size 64.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated Bytes 437 B
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_TEMP_Background Job.worker 13]
+10-23 03:05:05.770  2943  2963 D Unity   :       Initial Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Current Block Size 32.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated Bytes 25 B
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_TEMP_BatchDeleteObjects]
+10-23 03:05:05.770  2943  2963 D Unity   :       Initial Block Size 64.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Current Block Size 64.0 KB
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated Bytes 0 B
+10-23 03:05:05.770  2943  2963 D Unity   :       Overflow Count 0
+10-23 03:05:05.770  2943  2963 D Unity   : [ALLOC_MEMORYPROFILER]
+10-23 03:05:05.770  2943  2963 D Unity   :   Peak usage frame count: 
+10-23 03:05:05.770  2943  2963 D Unity   : [256.0 KB-0.5 MB]: 25 frames
+10-23 03:05:05.770  2943  2963 D Unity   : , [0.5 MB-1.0 MB]: 6655 frames
+10-23 03:05:05.770  2943  2963 D Unity   : 
+10-23 03:05:05.770  2943  2963 D Unity   :   Requested Block Size 1.0 MB
+10-23 03:05:05.770  2943  2963 D Unity   :   Peak Block count 1
+10-23 03:05:05.770  2943  2963 D Unity   :   Peak Allocated memory 0.8 MB
+10-23 03:05:05.770  2943  2963 D Unity   :   Peak Large allocation bytes 0 B
+10-23 03:05:05.770  2943  2963 D Unity   : [ALLOC_DEFAULT] Dual Thread Allocator
+10-23 03:05:05.770  2943  2963 D Unity   :   Peak main deferred allocation count 2056
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_BUCKET]
+10-23 03:05:05.770  2943  2963 D Unity   :       Large Block size 4.0 MB
+10-23 03:05:05.770  2943  2963 D Unity   :       Used Block count 1
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak Allocated bytes 1.6 MB
+10-23 03:05:05.770  2943  2963 D Unity   :     [ALLOC_DEFAULT_MAIN]
+10-23 03:05:05.770  2943  2963 D Unity   :       Peak usage frame count: 
+10-23 03:05:05.771  2943  2963 D Unity   : [32.0 MB-64.0 MB]: 6680 frames
+10-23 03:05:05.771  2943  2963 D Unity   : 
+10-23 03:05:05.771  2943  2963 D Unity   :       Requested Block Size 16.0 MB
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak Block count 3
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak Allocated memory 39.4 MB
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak Large allocation bytes 8.0 MB
+10-23 03:05:05.771  2943  2963 D Unity   :     [ALLOC_DEFAULT_THREAD]
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak usage frame count: 
+10-23 03:05:05.771  2943  2963 D Unity   : [8.0 MB-16.0 MB]: 108 frames
+10-23 03:05:05.771  2943  2963 D Unity   : , [16.0 MB-32.0 MB]: 6572 frames
+10-23 03:05:05.771  2943  2963 D Unity   : 
+10-23 03:05:05.771  2943  2963 D Unity   :       Requested Block Size 16.0 MB
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak Block count 2
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak Allocated memory 19.1 MB
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak Large allocation bytes 0 B
+10-23 03:05:05.771  2943  2963 D Unity   : [ALLOC_TEMP_JOB_1_FRAME]
+10-23 03:05:05.771  2943  2963 D Unity   :   Initial Block Size 2.0 MB
+10-23 03:05:05.771  2943  2963 D Unity   :   Used Block Count 0
+10-23 03:05:05.771  2943  2963 D Unity   :   Overflow Count (too large) 0
+10-23 03:05:05.771  2943  2963 D Unity   :   Overflow Count (full) 0
+10-23 03:05:05.771  2943  2963 D Unity   : [ALLOC_TEMP_JOB_2_FRAMES]
+10-23 03:05:05.771  2943  2963 D Unity   :   Initial Block Size 2.0 MB
+10-23 03:05:05.771  2943  2963 D Unity   :   Used Block Count 0
+10-23 03:05:05.771  2943  2963 D Unity   :   Overflow Count (too large) 0
+10-23 03:05:05.771  2943  2963 D Unity   :   Overflow Count (full) 0
+10-23 03:05:05.771  2943  2963 D Unity   : [ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+10-23 03:05:05.771  2943  2963 D Unity   :   Initial Block Size 2.0 MB
+10-23 03:05:05.771  2943  2963 D Unity   :   Used Block Count 1
+10-23 03:05:05.771  2943  2963 D Unity   :   Overflow Count (too large) 0
+10-23 03:05:05.771  2943  2963 D Unity   :   Overflow Count (full) 0
+10-23 03:05:05.771  2943  2963 D Unity   : [ALLOC_TEMP_JOB_ASYNC (Background)]
+10-23 03:05:05.771  2943  2963 D Unity   :   Initial Block Size 1.0 MB
+10-23 03:05:05.771  2943  2963 D Unity   :   Used Block Count 1
+10-23 03:05:05.771  2943  2963 D Unity   :   Overflow Count (too large) 0
+10-23 03:05:05.771  2943  2963 D Unity   :   Overflow Count (full) 0
+10-23 03:05:05.771  2943  2963 D Unity   : [ALLOC_GFX] Dual Thread Allocator
+10-23 03:05:05.771  2943  2963 D Unity   :   Peak main deferred allocation count 2
+10-23 03:05:05.771  2943  2963 D Unity   :     [ALLOC_BUCKET]
+10-23 03:05:05.771  2943  2963 D Unity   :       Large Block size 4.0 MB
+10-23 03:05:05.771  2943  2963 D Unity   :       Used Block count 1
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak Allocated bytes 1.6 MB
+10-23 03:05:05.771  2943  2963 D Unity   :     [ALLOC_GFX_MAIN]
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak usage frame count: 
+10-23 03:05:05.771  2943  2963 D Unity   : [16.0 MB-32.0 MB]: 282 frames
+10-23 03:05:05.771  2943  2963 D Unity   : , [32.0 MB-64.0 MB]: 6398 frames
+10-23 03:05:05.771  2943  2963 D Unity   : 
+10-23 03:05:05.771  2943  2963 D Unity   :       Requested Block Size 16.0 MB
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak Block count 3
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak Allocated memory 41.4 MB
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak Large allocation bytes 0 B
+10-23 03:05:05.771  2943  2963 D Unity   :     [ALLOC_GFX_THREAD]
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak usage frame count: 
+10-23 03:05:05.771  2943  2963 D Unity   : [4.0 KB-8.0 KB]: 20 frames
+10-23 03:05:05.771  2943  2963 D Unity   : , [8.0 KB-16.0 KB]: 55 frames
+10-23 03:05:05.771  2943  2963 D Unity   : , [16.0 KB-32.0 KB]: 6605 frames
+10-23 03:05:05.771  2943  2963 D Unity   : 
+10-23 03:05:05.771  2943  2963 D Unity   :       Requested Block Size 16.0 MB
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak Block count 1
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak Allocated memory 24.4 KB
+10-23 03:05:05.771  2943  2963 D Unity   :       Peak Large allocation bytes 0 B
+10-23 03:05:05.771  2943  2963 D Unity   : [ALLOC_CACHEOBJECTS] Dual Thread Allocator
+10-23 03:05:05.771  2943  2963 D Unity   :   Peak main deferred allocation count 0
+10-23 03:05:05.771  2943  2963 D Unity   :     [ALLOC_BUCKET]
+10-23 03:05:05.772  2943  2963 D Unity   :       Large Block size 4.0 MB
+10-23 03:05:05.772  2943  2963 D Unity   :       Used Block count 1
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Allocated bytes 1.6 MB
+10-23 03:05:05.772  2943  2963 D Unity   :     [ALLOC_CACHEOBJECTS_MAIN]
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak usage frame count: 
+10-23 03:05:05.772  2943  2963 D Unity   : [16.0 MB-32.0 MB]: 6680 frames
+10-23 03:05:05.772  2943  2963 D Unity   : 
+10-23 03:05:05.772  2943  2963 D Unity   :       Requested Block Size 4.0 MB
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Block count 1
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Allocated memory 17.6 MB
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Large allocation bytes 15.7 MB
+10-23 03:05:05.772  2943  2963 D Unity   :     [ALLOC_CACHEOBJECTS_THREAD]
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak usage frame count: 
+10-23 03:05:05.772  2943  2963 D Unity   : [32.0 KB-64.0 KB]: 6679 frames
+10-23 03:05:05.772  2943  2963 D Unity   : , [128.0 KB-256.0 KB]: 1 frames
+10-23 03:05:05.772  2943  2963 D Unity   : 
+10-23 03:05:05.772  2943  2963 D Unity   :       Requested Block Size 4.0 MB
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Block count 1
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Allocated memory 162.7 KB
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Large allocation bytes 0 B
+10-23 03:05:05.772  2943  2963 D Unity   : [ALLOC_TYPETREE] Dual Thread Allocator
+10-23 03:05:05.772  2943  2963 D Unity   :   Peak main deferred allocation count 0
+10-23 03:05:05.772  2943  2963 D Unity   :     [ALLOC_BUCKET]
+10-23 03:05:05.772  2943  2963 D Unity   :       Large Block size 4.0 MB
+10-23 03:05:05.772  2943  2963 D Unity   :       Used Block count 1
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Allocated bytes 1.6 MB
+10-23 03:05:05.772  2943  2963 D Unity   :     [ALLOC_TYPETREE_MAIN]
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak usage frame count: 
+10-23 03:05:05.772  2943  2963 D Unity   : [4.0 KB-8.0 KB]: 6680 frames
+10-23 03:05:05.772  2943  2963 D Unity   : 
+10-23 03:05:05.772  2943  2963 D Unity   :       Requested Block Size 2.0 MB
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Block count 1
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Allocated memory 5.0 KB
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Large allocation bytes 0 B
+10-23 03:05:05.772  2943  2963 D Unity   :     [ALLOC_TYPETREE_THREAD]
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak usage frame count: 
+10-23 03:05:05.772  2943  2963 D Unity   : [0-1.0 KB]: 6680 frames
+10-23 03:05:05.772  2943  2963 D Unity   : 
+10-23 03:05:05.772  2943  2963 D Unity   :       Requested Block Size 2.0 MB
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Block count 0
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Allocated memory 0 B
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Large allocation bytes 0 B
+10-23 03:05:05.772  2943  2963 D Unity   : [ALLOC_PROFILER]
+10-23 03:05:05.772  2943  2963 D Unity   :   Peak usage frame count: 
+10-23 03:05:05.772  2943  2963 D Unity   : [256.0 KB-0.5 MB]: 6679 frames
+10-23 03:05:05.772  2943  2963 D Unity   : , [32.0 MB-64.0 MB]: 1 frames
+10-23 03:05:05.772  2943  2963 D Unity   : 
+10-23 03:05:05.772  2943  2963 D Unity   :   Requested Block Size 16.0 MB
+10-23 03:05:05.772  2943  2963 D Unity   :   Peak Block count 3
+10-23 03:05:05.772  2943  2963 D Unity   :   Peak Allocated memory 33.2 MB
+10-23 03:05:05.772  2943  2963 D Unity   :   Peak Large allocation bytes 0 B
+10-23 03:05:05.772  2943  2963 D Unity   :     [ALLOC_PROFILER_BUCKET]
+10-23 03:05:05.772  2943  2963 D Unity   :       Large Block size 4.0 MB
+10-23 03:05:05.772  2943  2963 D Unity   :       Used Block count 1
+10-23 03:05:05.772  2943  2963 D Unity   :       Peak Allocated bytes 32.8 KB
+10-23 03:05:05.774  2943  2963 I Unity   : ##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792695905773,"processId":2943,"allocatedMemory":301534,"memoryLabels":[{"Default":4294967228},{"Permanent":8},{"Manager":6231},{"FMODOther":18440},{"Serialization":352},{"File":16},{"String":2419},{"DynamicArray":7172},{"HashMap":1536},{"Utility":264448},{"PoolAlloc":32},{"VR":836},{"CoreBusinessMetrics":112}]}
+10-23 03:05:05.791  2943  2943 I Unity   : windowFocusChanged: false
+10-23 03:05:06.089  2943  2943 D Unity   : PersistentUnitySurface.preserveContent: com.unity3d.player.a{25d81b3 VFE...... .F....I. 0,0-720,1600 #7f010000 app:id/unitySurfaceView aid=1073741824}
+10-23 03:05:06.089  2943  2943 D Unity   : PersistentUnitySurface.PlaceholderView.Copy: com.unity3d.player.a{25d81b3 VFE...... .F....I. 0,0-720,1600 #7f010000 app:id/unitySurfaceView aid=1073741824}
+10-23 03:05:06.124  2943  2943 I Unity   : onDestroy
+10-23 03:07:09.727  3157  3157 D Unity   : CommandLine:  
+10-23 03:07:09.788  3157  3157 I Unity   : onResume
+10-23 03:07:09.913  3157  3193 D Unity   : SetWindow 0 0xca991528
+10-23 03:07:09.913  3157  3193 D Unity   : SetWindow 0 0xca991528
+10-23 03:07:10.058  3157  3157 I Unity   : windowFocusChanged: true
+10-23 03:07:10.090  3157  3193 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-23 03:07:10.093  3157  3193 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+10-23 03:07:10.093  3157  3193 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+10-23 03:07:10.094  3157  3193 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+10-23 03:07:10.094  3157  3193 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+10-23 03:07:10.094  3157  3193 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+10-23 03:07:10.094  3157  3193 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+10-23 03:07:10.094  3157  3193 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+10-23 03:07:10.094  3157  3193 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+10-23 03:07:10.094  3157  3193 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+10-23 03:07:10.094  3157  3193 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+10-23 03:07:10.094  3157  3193 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+10-23 03:07:10.094  3157  3193 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+10-23 03:07:10.094  3157  3193 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+10-23 03:07:10.094  3157  3193 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+10-23 03:07:10.094  3157  3193 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+10-23 03:07:10.095  3157  3193 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+10-23 03:07:10.095  3157  3193 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+10-23 03:07:10.095  3157  3193 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+10-23 03:07:10.095  3157  3193 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+10-23 03:07:10.095  3157  3193 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+10-23 03:07:10.096  3157  3193 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+10-23 03:07:10.096  3157  3193 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+10-23 03:07:10.096  3157  3193 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+10-23 03:07:10.096  3157  3193 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+10-23 03:07:10.096  3157  3193 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+10-23 03:07:10.096  3157  3193 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+10-23 03:07:10.096  3157  3193 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+10-23 03:07:10.096  3157  3193 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+10-23 03:07:10.096  3157  3193 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+10-23 03:07:10.097  3157  3193 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+10-23 03:07:10.175  3157  3193 D Unity   : Enabling Unity systrace
+10-23 03:07:10.226  3157  3193 D Unity   : [VFS] Mount /data/app/~~35D7qTSl9jj5giZgpLeRbA==/com.forestatelier.curioshop-0j_VulfAkYJOHb3SO1ot5Q==/base.apk
+10-23 03:07:10.263  3157  3193 I Unity   : SystemInfo CPU = x86-64 SSE3 SSE4.1 SSE4.2 AVX AVX2, Cores = 4, Memory = 5949mb
+10-23 03:07:10.263  3157  3193 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf), 0 little (mask: 0x0)
+10-23 03:07:10.264  3157  3193 I Unity   : ApplicationInfo com.forestatelier.curioshop version 0.1.0
+10-23 03:07:10.264  3157  3193 I Unity   : Built from 'origin/2022.3/china_unity/release' branch, Version '2022.3.62f2c1 (92e6e6be66dc)', Build type 'Development', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+10-23 03:07:10.273  3157  3193 D Unity   : Mono path[0] = '/data/app/~~35D7qTSl9jj5giZgpLeRbA==/com.forestatelier.curioshop-0j_VulfAkYJOHb3SO1ot5Q==/base.apk/assets/bin/Data/Managed'
+10-23 03:07:10.273  3157  3193 D Unity   : Mono config path = 'assets/bin/Data/Managed/etc'
+10-23 03:07:10.605  3157  3193 D Unity   : [EGL] Attaching window :0xca991528
+10-23 03:07:10.605  3157  3193 D Unity   : InitializeScriptEngine OK (0xc70c9e80)
+10-23 03:07:10.609  3157  3193 D Unity   : Found 1 interfaces on host :
+10-23 03:07:10.609  3157  3193 D Unity   :  0) 10.0.2.15
+10-23 03:07:10.609  3157  3193 D Unity   : 
+10-23 03:07:10.610  3157  3193 D Unity   : Player connection [3341337056]  Target information:
+10-23 03:07:10.610  3157  3193 D Unity   : 
+10-23 03:07:10.610  3157  3193 D Unity   : Player connection [3341337056]  * "[IP] 10.0.2.15 [Port] 55000 [Flags] 2 [Guid] 2328492454 [EditorId] 3128208017 [Version] 1048832 [Id] AndroidPlayer(11,HUAWEI_HBP-AL00@10.0.2.15) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] 林间奇物铺" 
+10-23 03:07:10.610  3157  3193 D Unity   : 
+10-23 03:07:10.611  3157  3193 D Unity   : Player connection [3341337056] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+10-23 03:07:10.611  3157  3193 D Unity   : 
+10-23 03:07:10.630  3157  3193 D Unity   : Input System module state changed to: Initialized.
+10-23 03:07:10.643  3157  3193 D Unity   : [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+10-23 03:07:10.654  3157  3193 E Unity   : Invalid serialized file version. File: "/data/app/~~35D7qTSl9jj5giZgpLeRbA==/com.forestatelier.curioshop-0j_VulfAkYJOHb3SO1ot5Q==/base.apk/assets/bin/Data/globalgamemanagers". Expected version: 2022.3.62f2c1. Actual version: 2022.3.62f2.
+10-23 03:07:10.654  3157  3193 E Unity   : Unknown error occurred while loading '/data/app/~~35D7qTSl9jj5giZgpLeRbA==/com.forestatelier.curioshop-0j_VulfAkYJOHb3SO1ot5Q==/base.apk/assets/bin/Data/globalgamemanagers'.
+10-23 03:07:10.654  3157  3193 D Unity   : PlayerInitEngineNoGraphics settings: Failed to load PlayerSettings (internal index #0).
+10-23 03:07:10.654  3157  3193 D Unity   : Most likely data file is corrupted, or built with mismatching
+10-23 03:07:10.654  3157  3193 D Unity   : editor and platform support versions.
+10-23 03:07:10.656  3157  3193 D Unity   : [Wait for debugger to attach] Also use Volume Up or Down button to confirm...
+10-23 03:07:10.720  3157  3157 I Unity   : windowFocusChanged: false

@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ForestShop.unity
+    guid: e931cc2adb7dd62459fc4f4c825cd744
   m_configObjects: {}

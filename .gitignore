@@ -51,3 +51,35 @@ Desktop.ini
 /.codex/
 /.agents/
 /.aws/
+
+# Downloaded local tool installers and generated test scratch data
+/Tools/Downloads/
+/Tools/TestOutput/
+/Tools/UnityAndroid/
+/Tools/SevenZip/
+/Tools/AndroidModule/
+/Tools/AndroidBuildProject/
+/Tools/PythonModules/
+/Tools/AndroidSdk/
+/Tools/Scrcpy/
+
+# Raw local QA media and decoded frames (retained locally; indexed with SHA-256)
+/Docs/Verification/**/*.png
+/Docs/Verification/**/*.jpg
+/Docs/Verification/**/*.jpeg
+/Docs/Verification/**/*.gif
+/Docs/Verification/**/*.webp
+/Docs/Verification/**/*.mp4
+/Docs/Verification/**/*.flac
+/Docs/Verification/**/*.wav
+/Docs/Verification/**/*.opus
+/Docs/Verification/**/*.f32
+/Docs/Verification/**/*.raw
+/Docs/Verification/**/*.zip
+
+# Preserve numbered final-candidate screenshots, its reviewed unchanged-layout
+# references, and original audio needed for the outstanding listening check.
+!/Docs/Verification/3d-d11-release01/**/[0-9][0-9]*.png
+!/Docs/Verification/3d-d10/Evidence/MuMu/PreparedRuntime*/[0-9][0-9]*.png
+!/Docs/Verification/3d-d11-release01/Evidence/Audio/independent-switches-original.flac
+!/Docs/Verification/3d-d11-release01/Evidence/Audio/ordinary-long-loop-original.flac

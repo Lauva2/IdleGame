@@ -1,0 +1,9 @@
+DEVELOPMENT TEST PREPARATION; Runtime=WindowsPlayer. NOT physical-device acceptance unless separately proved.
+Unity=2022.3.62f2
+Source build=dev01
+All late states and the example offline report were explicitly prepared by test mode.
+The portrait images use the running UI rendered offscreen at the named target sizes; they are NOT physical-device screenshots.
+Animation frame timestamps are in frames.csv; simulation is explicitly stepped 0.5s per captured frame in this isolated test.
+Wall runtime=71.26402s
+Actual window=540x960; safe=(x:0.00, y:0.00, width:540.00, height:960.00)
+Fonts=NotoSansCJKsc-Regular

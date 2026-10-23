@@ -1,0 +1,31 @@
+{
+  "isolatedClockFixtures": true,
+  "source": "Docs\\Verification\\3d-d11-release01\\NormalQA\\after-warm-delivery.save",
+  "sourceSHA256": "C54A372C1F0E4DBD79D76FB7B58EC8297C48B32807C017785D6695FC4714A50C",
+  "generatedUTC": "2026-10-22T21:56:32.143735+00:00",
+  "changedPayloadFields": [
+    "utcTicks"
+  ],
+  "fixtures": [
+    {
+      "name": "one-minute",
+      "preparedAwaySecondsAtGeneration": 60,
+      "sha256": "ADED48E5D32132898D22FED454045D8CBCCBFA5970DEC3DDB1E4AAE974E93135"
+    },
+    {
+      "name": "one-hour",
+      "preparedAwaySecondsAtGeneration": 3600,
+      "sha256": "A0D50A1B26A314347426E3288B479B17BCBC682E61D4436CF81925998220EB38"
+    },
+    {
+      "name": "eight-hours",
+      "preparedAwaySecondsAtGeneration": 28800,
+      "sha256": "E3ADED52ACB6737FE3BB1D32B700BA6AB4116CD9C1CD57AC9490A924FCD95AEB"
+    },
+    {
+      "name": "over-eight-hours",
+      "preparedAwaySecondsAtGeneration": 32400,
+      "sha256": "8D6E98CA795512B7078174F26479714F7ECEC282AE1898B63EE631FA7D023DB3"
+    }
+  ]
+}

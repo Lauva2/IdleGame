@@ -1,0 +1,63 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'Docs/Verification/3d-d10-release01/Evidence/NormalVideo/normal-five-visitors-original.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+    comment         : Recorded by scrcpy 5.0.1
+  Duration: 00:03:10.13, start: 0.000000, bitrate: 2335 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 2332 kb/s, 28.84 fps, 90k tbr, 90k tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'Docs/Verification/3d-d10-release01/Evidence/NormalVideo/DenseFrames/frame-%04d.png':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : Recorded by scrcpy 5.0.1
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: png, rgb24(pc, gbr/bt709/bt709, progressive), 720x1280, q=2-31, 200 kb/s, 10 fps, 10 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 png
+frame=   49 fps=0.0 q=-0.0 size=N/A time=00:00:04.90 bitrate=N/A speed=8.78x    
+frame=  107 fps=100 q=-0.0 size=N/A time=00:00:10.70 bitrate=N/A speed=9.96x    
+frame=  171 fps=106 q=-0.0 size=N/A time=00:00:17.10 bitrate=N/A speed=10.6x    
+frame=  229 fps=107 q=-0.0 size=N/A time=00:00:22.90 bitrate=N/A speed=10.7x    
+frame=  280 fps=106 q=-0.0 size=N/A time=00:00:28.00 bitrate=N/A speed=10.6x    
+frame=  346 fps=109 q=-0.0 size=N/A time=00:00:34.60 bitrate=N/A speed=10.9x    
+frame=  401 fps=108 q=-0.0 size=N/A time=00:00:40.10 bitrate=N/A speed=10.8x    
+frame=  456 fps=108 q=-0.0 size=N/A time=00:00:45.60 bitrate=N/A speed=10.8x    
+frame=  513 fps=107 q=-0.0 size=N/A time=00:00:51.30 bitrate=N/A speed=10.7x    
+frame=  564 fps=107 q=-0.0 size=N/A time=00:00:56.70 bitrate=N/A speed=10.7x    
+frame=  623 fps=107 q=-0.0 size=N/A time=00:01:02.30 bitrate=N/A speed=10.7x    
+frame=  681 fps=108 q=-0.0 size=N/A time=00:01:08.10 bitrate=N/A speed=10.8x    
+frame=  749 fps=109 q=-0.0 size=N/A time=00:01:14.90 bitrate=N/A speed=10.9x    
+frame=  794 fps=108 q=-0.0 size=N/A time=00:01:19.40 bitrate=N/A speed=10.8x    
+frame=  853 fps=108 q=-0.0 size=N/A time=00:01:25.30 bitrate=N/A speed=10.8x    
+frame=  910 fps=108 q=-0.0 size=N/A time=00:01:31.00 bitrate=N/A speed=10.8x    
+frame=  961 fps=107 q=-0.0 size=N/A time=00:01:36.10 bitrate=N/A speed=10.7x    
+frame= 1014 fps=107 q=-0.0 size=N/A time=00:01:41.40 bitrate=N/A speed=10.7x    
+frame= 1071 fps=107 q=-0.0 size=N/A time=00:01:47.10 bitrate=N/A speed=10.7x    
+frame= 1117 fps=106 q=-0.0 size=N/A time=00:01:51.70 bitrate=N/A speed=10.6x    
+frame= 1172 fps=106 q=-0.0 size=N/A time=00:01:57.20 bitrate=N/A speed=10.6x    
+frame= 1228 fps=106 q=-0.0 size=N/A time=00:02:02.80 bitrate=N/A speed=10.6x    
+frame= 1286 fps=106 q=-0.0 size=N/A time=00:02:08.60 bitrate=N/A speed=10.6x    
+frame= 1334 fps=106 q=-0.0 size=N/A time=00:02:13.40 bitrate=N/A speed=10.6x    
+frame= 1387 fps=106 q=-0.0 size=N/A time=00:02:18.70 bitrate=N/A speed=10.6x    
+frame= 1446 fps=106 q=-0.0 size=N/A time=00:02:24.60 bitrate=N/A speed=10.6x    
+frame= 1501 fps=106 q=-0.0 size=N/A time=00:02:30.10 bitrate=N/A speed=10.6x    
+frame= 1552 fps=106 q=-0.0 size=N/A time=00:02:35.20 bitrate=N/A speed=10.6x    
+frame= 1610 fps=106 q=-0.0 size=N/A time=00:02:41.00 bitrate=N/A speed=10.6x    
+frame= 1665 fps=106 q=-0.0 size=N/A time=00:02:46.50 bitrate=N/A speed=10.6x    
+frame= 1719 fps=106 q=-0.0 size=N/A time=00:02:51.90 bitrate=N/A speed=10.6x    
+frame= 1774 fps=106 q=-0.0 size=N/A time=00:02:57.40 bitrate=N/A speed=10.6x    
+frame= 1827 fps=106 q=-0.0 size=N/A time=00:03:02.90 bitrate=N/A speed=10.6x    
+frame= 1877 fps=105 q=-0.0 size=N/A time=00:03:07.70 bitrate=N/A speed=10.5x    
+[out#0/image2 @ 0000023dcc7fc700] video:790563KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 1901 fps=106 q=-0.0 Lsize=N/A time=00:03:10.10 bitrate=N/A speed=10.6x    

@@ -1,0 +1,5 @@
+# Preserve the byte identity of frozen APK source inputs across checkouts.
+# This only disables line-ending conversion; textual diffs remain available.
+/Assets/** -text
+/Packages/** -text
+/ProjectSettings/** -text

@@ -1,0 +1,100 @@
+--------- beginning of main
+10-23 00:19:57.825 14164 14164 D Unity   : CommandLine:  
+10-23 00:19:57.840 14164 14164 D Unity   : onActivityResumed: com.unity3d.player.UnityPlayerActivity@f563b86
+10-23 00:19:57.840 14164 14164 I Unity   : onResume
+10-23 00:19:57.902 14164 14345 D Unity   : SetWindow 0 0xcac91528
+10-23 00:19:57.902 14164 14345 D Unity   : SetWindow 0 0xcac91528
+10-23 00:19:58.012 14164 14164 I Unity   : windowFocusChanged: true
+10-23 00:19:58.037 14164 14345 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-23 00:19:58.038 14164 14345 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+10-23 00:19:58.038 14164 14345 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+10-23 00:19:58.038 14164 14345 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+10-23 00:19:58.038 14164 14345 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+10-23 00:19:58.039 14164 14345 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+10-23 00:19:58.040 14164 14345 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+10-23 00:19:58.040 14164 14345 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+10-23 00:19:58.040 14164 14345 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+10-23 00:19:58.040 14164 14345 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+10-23 00:19:58.040 14164 14345 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+10-23 00:19:58.040 14164 14345 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+10-23 00:19:58.040 14164 14345 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+10-23 00:19:58.040 14164 14345 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+10-23 00:19:58.040 14164 14345 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+10-23 00:19:58.040 14164 14345 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+10-23 00:19:58.075 14164 14345 D Unity   : Enabling Unity systrace
+10-23 00:19:58.103 14164 14345 D Unity   : [VFS] Mount /data/app/~~DGRAuTtn__OdG0BHoBpghQ==/com.forestatelier.curioshop-vwbYqmGJ2CaL-ht-CwrwHw==/base.apk
+10-23 00:19:58.125 14164 14345 I Unity   : SystemInfo CPU = x86-64 SSE3 SSE4.1 SSE4.2 AVX AVX2, Cores = 4, Memory = 5949mb
+10-23 00:19:58.125 14164 14345 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf), 0 little (mask: 0x0)
+10-23 00:19:58.125 14164 14345 I Unity   : ApplicationInfo com.forestatelier.curioshop version 0.1.0
+10-23 00:19:58.125 14164 14345 I Unity   : Built from 'origin/2022.3/china_unity/release' branch, Version '2022.3.8f1c1 (4ec8ee1b2212)', Build type 'Development', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+10-23 00:19:58.142 14164 14345 D Unity   : Mono path[0] = '/data/app/~~DGRAuTtn__OdG0BHoBpghQ==/com.forestatelier.curioshop-vwbYqmGJ2CaL-ht-CwrwHw==/base.apk/assets/bin/Data/Managed'
+10-23 00:19:58.142 14164 14345 D Unity   : Mono config path = 'assets/bin/Data/Managed/etc'
+10-23 00:19:58.147 14164 14345 D Unity   : Found 1 interfaces on host :
+10-23 00:19:58.147 14164 14345 D Unity   :  0) 10.0.2.15
+10-23 00:19:58.147 14164 14345 D Unity   : 
+10-23 00:19:58.149 14164 14345 D Unity   : Multi-casting "[IP] 10.0.2.15 [Port] 55000 [Flags] 2 [Guid] 319726236 [EditorId] 3513984996 [Version] 1048832 [Id] AndroidPlayer(11,HUAWEI_HBP-AL00@10.0.2.15) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] 林间奇物铺" to [225.0.0.222:54997]...
+10-23 00:19:58.348 14164 14345 D Unity   : [EGL] Attaching window :0xcac91528
+10-23 00:19:58.348 14164 14345 D Unity   : InitializeScriptEngine OK (0xc5c30e80)
+10-23 00:19:58.390 14164 14345 D Unity   : [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+10-23 00:19:58.402 14164 14345 D Unity   : PlayerInitEngineNoGraphics OK
+10-23 00:19:58.402 14164 14345 I Unity   : Company Name: Forest Atelier
+10-23 00:19:58.402 14164 14345 I Unity   : Product Name: 林间奇物铺
+10-23 00:19:58.402 14164 14345 D Unity   : AndroidGraphics::Startup window =  0xcac91528
+10-23 00:19:58.402 14164 14345 D Unity   : [EGL] Attaching window :0xcac91528
+10-23 00:19:58.405 14164 14345 D Unity   : [Subsystems] Discovering subsystems at path /data/app/~~DGRAuTtn__OdG0BHoBpghQ==/com.forestatelier.curioshop-vwbYqmGJ2CaL-ht-CwrwHw==/base.apk/assets/bin/Data/UnitySubsystems
+10-23 00:19:58.422 14164 14345 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 00:19:58.423 14164 14345 D Unity   : [EGL] Checking ES 3.2 support...
+10-23 00:19:58.424 14164 14345 D Unity   : [EGL] ES 3.2 support detected
+10-23 00:19:58.424 14164 14345 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 00:19:58.425 14164 14345 D Unity   : GfxDevice: creating device client; threaded=1; jobified=0
+10-23 00:19:58.426 14164 14345 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 00:19:58.428 14164 14345 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 00:19:58.429 14164 14345 D Unity   : [EGL] Request: ES 3.0 RGBA 8888 0/0
+10-23 00:19:58.431 14164 14345 D Unity   : [EGL] Found: ID[1] ES 3.0 RGBA 8888 0/0
+10-23 00:19:58.438 14164 14345 D Unity   : ANativeWindow: (1080/1920) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (1080/1920)
+10-23 00:19:58.464 14164 14345 D Unity   : Renderer: Adreno (TM) 640
+10-23 00:19:58.464 14164 14345 D Unity   : Vendor:   Qualcomm
+10-23 00:19:58.464 14164 14345 D Unity   : Version:  OpenGL ES 3.2 V132
+10-23 00:19:58.464 14164 14345 D Unity   : GLES:     3
+10-23 00:19:58.465 14164 14345 D Unity   :  GL_ANDROID_extension_pack_es31a GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_copy_image GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_primitive_bounding_box GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_io_blocks GL_EXT_shader_texture_lod GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture
+10-23 00:19:58.465 14164 14345 D Unity   : _sRGB_decode GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_geometry_shader GL_OES_packed_depth_stencil GL_OES_primitive_bounding_box GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader
+10-23 00:19:58.465 14164 14345 D Unity   : _image_atomic GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float
+10-23 00:19:58.468 14164 14345 D Unity   : OPENGL LOG: Creating OpenGL ES 3.2 graphics device ; Context level  <OpenGL ES 3.2> ; Context handle -301626128
+10-23 00:19:58.495 14164 14345 D Unity   : [EGL] Attaching window :0xcac91528
+10-23 00:19:58.496 14164 14345 D Unity   : Requested framebuffer: resolution[1080x1920], rgba[8/8/8/8], depth+stencil[on], samples[1]
+10-23 00:19:58.498 14164 14345 D Unity   : Created framebuffer: resolution[1080x1920], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+10-23 00:19:58.505 14164 14345 D Unity   : [EGL] Attaching window :0xcac91528
+10-23 00:19:58.505 14164 14345 D Unity   : Initialize engine version: 2022.3.8f1c1 (4ec8ee1b2212)
+10-23 00:19:58.565 14164 14345 D Unity   : Begin MonoManager ReloadAssembly
+10-23 00:19:59.167 14164 14345 D Unity   : - Loaded All Assemblies, in  0.603 seconds
+10-23 00:19:59.181 14164 14345 D Unity   : - Finished resetting the current domain, in  0.014 seconds
+10-23 00:19:59.400 14164 14345 D Unity   : PlayerInitEngineGraphics OK
+10-23 00:19:59.406 14164 14345 D Unity   : Found 14 native sensors
+10-23 00:19:59.408 14164 14345 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 00:19:59.408 14164 14345 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 00:20:01.522 14164 14345 D Unity   : UnloadTime: 7.273834 ms
+10-23 00:20:04.713 14164 14345 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 00:20:04.713 14164 14345 D Unity   : Choreographer available: Enabling VSYNC timing
+10-23 00:23:32.764 14164 14345 I Unity   : FOREST_EVIDENCE_COMPLETE /storage/emulated/0/Android/data/com.forestatelier.curioshop/files/Verification3D
+10-23 00:23:32.764 14164 14345 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 00:23:32.764 14164 14345 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 00:23:32.764 14164 14345 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 00:23:32.764 14164 14345 I Unity   : UnityEngine.Debug:Log (object)
+10-23 00:23:32.764 14164 14345 I Unity   : ForestShop.ForestApp/<CaptureRun>d__76:MoveNext () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestEvidence.cs:121)
+10-23 00:23:32.764 14164 14345 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/Coroutines.cs:17)
+10-23 00:23:32.764 14164 14345 I Unity   : 

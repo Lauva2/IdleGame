@@ -1,0 +1,551 @@
+No executable file now.
+0xee511bb9 in ?? ()
+
+Thread 56 (Thread 18707.18811):
+#0  0xee511bb9 in ?? ()
+Backtrace stopped: Cannot access memory at address 0xc
+
+Thread 55 (Thread 18707.18806):
+#0  0xee511bb9 in ?? ()
+Backtrace stopped: Cannot access memory at address 0x3
+
+Thread 54 (Thread 18707.18805):
+#0  0xd9e659c2 in ?? ()
+
+Thread 53 (Thread 18707.18786):
+#0  0xee511bb9 in ?? ()
+#1  0x0d0d3808 in ?? ()
+#2  0x000003e8 in ?? ()
+#3  0x02447e57 in ?? ()
+#4  0x00000000 in ?? ()
+
+Thread 52 (Thread 18707.18785):
+#0  0xee511bb9 in ?? ()
+#1  0x0d0d3808 in ?? ()
+#2  0x000003e8 in ?? ()
+#3  0x02447e57 in ?? ()
+#4  0x00000000 in ?? ()
+
+Thread 51 (Thread 18707.18784):
+#0  0xee511bb9 in ?? ()
+#1  0xeb0fd837 in ?? ()
+#2  0xeb0fe7d7 in ?? ()
+#3  0xeb101502 in ?? ()
+#4  0xe9bf0404 in ?? ()
+#5  0xe88d2b8f in ?? ()
+#6  0xe9befb47 in ?? ()
+#7  0xeb2b6cf5 in ?? ()
+#8  0xeb24a008 in ?? ()
+#9  0xeb22b827 in ?? ()
+#10 0xe76defc1 in ?? ()
+
+Thread 50 (Thread 18707.18783):
+#0  0xee511bb9 in ?? ()
+Backtrace stopped: Cannot access memory at address 0xc
+
+Thread 49 (Thread 18707.18782):
+#0  0xd9e659c2 in ?? ()
+Backtrace stopped: Cannot access memory at address 0x3
+
+Thread 48 (Thread 18707.18781):
+#0  0xee511bb9 in ?? ()
+Backtrace stopped: Cannot access memory at address 0xc
+
+Thread 47 (Thread 18707.18780):
+#0  0x0d7efb88 in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+Thread 46 (Thread 18707.18779):
+#0  0x0d7efb88 in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+Thread 45 (Thread 18707.18778):
+#0  0xd9e659c2 in ?? ()
+Backtrace stopped: Cannot access memory at address 0x3
+
+Thread 44 (Thread 18707.18777):
+#0  0xd9e659c2 in ?? ()
+
+Thread 43 (Thread 18707.18776):
+#0  0xd9e659c2 in ?? ()
+
+Thread 42 (Thread 18707.18775):
+#0  0xd9e659c2 in ?? ()
+
+Thread 41 (Thread 18707.18774):
+#0  0xd9e659c2 in ?? ()
+
+Thread 40 (Thread 18707.18773):
+#0  0xd9e659c2 in ?? ()
+
+Thread 39 (Thread 18707.18772):
+#0  0xd9e659c2 in ?? ()
+
+Thread 38 (Thread 18707.18771):
+#0  0xd9e659c2 in ?? ()
+
+Thread 37 (Thread 18707.18770):
+#0  0xd9e659c2 in ?? ()
+
+Thread 36 (Thread 18707.18769):
+#0  0xd9e659c2 in ?? ()
+
+Thread 35 (Thread 18707.18768):
+#0  0xd9e659c2 in ?? ()
+
+Thread 34 (Thread 18707.18767):
+#0  0xd9e659c2 in ?? ()
+
+Thread 33 (Thread 18707.18766):
+#0  0xd9e659c2 in ?? ()
+
+Thread 32 (Thread 18707.18765):
+#0  0xd9e659c2 in ?? ()
+
+Thread 31 (Thread 18707.18764):
+#0  0xd9e659c2 in ?? ()
+
+Thread 30 (Thread 18707.18763):
+#0  0xd9e659c2 in ?? ()
+
+Thread 29 (Thread 18707.18762):
+#0  0xd9e659c2 in ?? ()
+
+Thread 28 (Thread 18707.18761):
+#0  0xd9e659c2 in ?? ()
+
+Thread 27 (Thread 18707.18760):
+#0  0xd9e659c2 in ?? ()
+
+Thread 26 (Thread 18707.18759):
+#0  0xd9e659c2 in ?? ()
+
+Thread 25 (Thread 18707.18758):
+#0  0xd9e659c2 in ?? ()
+
+Thread 24 (Thread 18707.18757):
+#0  0xd9e659c2 in ?? ()
+
+Thread 23 (Thread 18707.18756):
+#0  0xee511bb9 in ?? ()
+Backtrace stopped: Cannot access memory at address 0x3
+
+Thread 22 (Thread 18707.18755):
+#0  0xee511bb9 in ?? ()
+Backtrace stopped: Cannot access memory at address 0xc
+
+Thread 21 (Thread 18707.18753):
+#0  0xd9e659c2 in ?? ()
+
+Thread 20 (Thread 18707.18752):
+#0  0xd9e659c2 in ?? ()
+
+Thread 19 (Thread 18707.18751):
+#0  0xd9e659c2 in ?? ()
+
+Thread 18 (Thread 18707.18746):
+#0  0xd9e659c2 in ?? ()
+
+Thread 17 (Thread 18707.18738):
+#0  0xd9e659c2 in ?? ()
+
+Thread 16 (Thread 18707.18737):
+#0  0xd9e659c2 in ?? ()
+
+Thread 15 (Thread 18707.18736):
+#0  0xd9e659c2 in ?? ()
+
+Thread 14 (Thread 18707.18734):
+#0  0xee511bb9 in ?? ()
+
+Thread 13 (Thread 18707.18729):
+#0  0xee511bb9 in ?? ()
+#1  0xe7be7fbc in ?? ()
+#2  0xe7be836b in ?? ()
+#3  0xe7be8f22 in ?? ()
+#4  0xe7c1967a in ?? ()
+#5  0xe9bf0467 in ?? ()
+#6  0xe88d2b8f in ?? ()
+#7  0xe9befb47 in ?? ()
+#8  0xeb2b6cf5 in ?? ()
+#9  0xeb24a008 in ?? ()
+#10 0xeb22b827 in ?? ()
+#11 0xeb21be41 in ?? ()
+
+Thread 12 (Thread 18707.18727):
+#0  0xee511bb9 in ?? ()
+#1  0xe7be7fbc in ?? ()
+#2  0xe7be836b in ?? ()
+#3  0xe7be8f22 in ?? ()
+#4  0xe7c1967a in ?? ()
+#5  0xe9bf0467 in ?? ()
+#6  0xe88d2b8f in ?? ()
+#7  0xe9befb47 in ?? ()
+#8  0xeb2b6cf5 in ?? ()
+#9  0xeb24a008 in ?? ()
+#10 0xeb22b827 in ?? ()
+#11 0xeb21be41 in ?? ()
+
+Thread 11 (Thread 18707.18723):
+#0  0xee511bb9 in ?? ()
+#1  0xe7be7fbc in ?? ()
+#2  0xe7be836b in ?? ()
+#3  0xe7be8f22 in ?? ()
+#4  0xe7c1967a in ?? ()
+#5  0xe9bf0467 in ?? ()
+#6  0xe88d2b8f in ?? ()
+#7  0xe9befb47 in ?? ()
+#8  0xeb2b6cf5 in ?? ()
+#9  0xeb24a008 in ?? ()
+#10 0xeb22b827 in ?? ()
+#11 0xeb244421 in ?? ()
+
+Thread 10 (Thread 18707.18722):
+#0  0xee511bb9 in ?? ()
+#1  0xe7be7fbc in ?? ()
+#2  0xe7be836b in ?? ()
+#3  0xe7be8f22 in ?? ()
+#4  0xe7c1967a in ?? ()
+#5  0xe9bf0467 in ?? ()
+#6  0xe88d2b8f in ?? ()
+#7  0xe9befb47 in ?? ()
+#8  0xeb2b6cf5 in ?? ()
+#9  0xeb24a008 in ?? ()
+#10 0xeb22b827 in ?? ()
+#11 0x00000000 in ?? ()
+
+Thread 9 (Thread 18707.18721):
+#0  0xee511bb9 in ?? ()
+
+Thread 8 (Thread 18707.18720):
+#0  0xee511bb9 in ?? ()
+
+Thread 7 (Thread 18707.18719):
+#0  0xee511bb9 in ?? ()
+
+Thread 6 (Thread 18707.18718):
+#0  0xee511bb9 in ?? ()
+
+Thread 5 (Thread 18707.18717):
+#0  0xee511bb9 in ?? ()
+
+Thread 4 (Thread 18707.18716):
+#0  0xee511bb9 in ?? ()
+#1  0xdef25fa8 in ?? ()
+#2  0xdef23f2f in ?? ()
+#3  0xeb2b6cf5 in ?? ()
+#4  0xeb24a008 in ?? ()
+#5  0xeb22b827 in ?? ()
+#6  0xe77f59ab in ?? ()
+#7  0xe77e7851 in ?? ()
+#8  0xe71615e6 in ?? ()
+#9  0x00000000 in ?? ()
+
+Thread 3 (Thread 18707.18715):
+#0  0xee511bb9 in ?? ()
+#1  0xeb2b6cf5 in ?? ()
+#2  0xeb24a008 in ?? ()
+#3  0xeb22b827 in ?? ()
+#4  0xe73ca661 in ?? ()
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 2 (Thread 18707.18714):
+#0  0xee511bb9 in ?? ()
+#1  0xe76a04f3 in ?? ()
+#2  0xe769eda0 in ?? ()
+#3  0xeb2b6cf5 in ?? ()
+#4  0xeb24a008 in ?? ()
+#5  0xeb22b827 in ?? ()
+#6  0x00000008 in ?? ()
+#7  0x12c76168 in ?? ()
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 1 (Thread 18707.18707):
+#0  0xee511bb9 in ?? ()
+Backtrace stopped: Cannot access memory at address 0xc
+From        To          Syms Read   Shared Object Library
+                        No          /system/bin/linker
+                        No          /system/lib/libandroid_runtime.so
+                        No          /system/lib/libbinder.so
+                        No          /system/lib/libcutils.so
+                        No          /system/lib/libhidlbase.so
+                        No          /system/lib/liblog.so
+                        No          /system/lib/libutils.so
+                        No          /system/lib/libwilhelm.so
+                        No          /system/lib/libc++.so
+                        No          /apex/com.android.runtime/lib/bionic/libc.so
+                        No          /apex/com.android.runtime/lib/bionic/libm.so
+                        No          /apex/com.android.runtime/lib/bionic/libdl.so
+                        No          /system/lib/libbase.so
+                        No          /system/lib/libharfbuzz_ng.so
+                        No          /system/lib/libhwui.so
+                        No          /system/lib/libminikin.so
+                        No          /system/lib/libz.so
+                        No          /system/lib/audioclient-types-aidl-cpp.so
+                        No          /system/lib/audioflinger-aidl-cpp.so
+                        No          /system/lib/audiopolicy-types-aidl-cpp.so
+                        No          /system/lib/spatializer-aidl-cpp.so
+                        No          /system/lib/av-types-aidl-cpp.so
+                        No          /system/lib/android.hardware.camera.device@3.2.so
+                        No          /system/lib/libbpf_android.so
+                        No          /system/lib/libnetdbpf.so
+                        No          /system/lib/libnetdutils.so
+                        No          /system/lib/libmemtrack.so
+                        No          /system/lib/libandroidfw.so
+                        No          /system/lib/libappfuse.so
+                        No          /system/lib/libcrypto.so
+                        No          /system/lib/libdebuggerd_client.so
+                        No          /system/lib/libui.so
+                        No          /system/lib/libgraphicsenv.so
+                        No          /system/lib/libgui.so
+                        No          /system/lib/libmediandk.so
+                        No          /system/lib/libpermission.so
+                        No          /system/lib/libsensor.so
+                        No          /system/lib/libinput.so
+                        No          /system/lib/libcamera_client.so
+                        No          /system/lib/libcamera_metadata.so
+                        No          /system/lib/libsqlite.so
+                        No          /system/lib/libEGL.so
+                        No          /system/lib/libGLESv1_CM.so
+                        No          /system/lib/libGLESv2.so
+                        No          /system/lib/libGLESv3.so
+                        No          /system/lib/libincfs.so
+                        No          /system/lib/libdataloader.so
+                        No          /system/lib/libvulkan.so
+                        No          /system/lib/libETC1.so
+                        No          /system/lib/libjpeg.so
+                        No          /system/lib/libhardware.so
+                        No          /system/lib/libhardware_legacy.so
+                        No          /system/lib/libselinux.so
+                        No          /system/lib/libmedia.so
+                        No          /system/lib/libmedia_helper.so
+                        No          /system/lib/libmediametrics.so
+                        No          /system/lib/libmeminfo.so
+                        No          /system/lib/libaudioclient.so
+                        No          /system/lib/libaudiofoundation.so
+                        No          /system/lib/libaudiopolicy.so
+                        No          /system/lib/libusbhost.so
+                        No          /system/lib/libpdfium.so
+                        No          /system/lib/libimg_utils.so
+                        No          /system/lib/libnetd_client.so
+                        No          /system/lib/libprocessgroup.so
+                        No          /system/lib/libnativebridge_lazy.so
+                        No          /system/lib/libnativeloader_lazy.so
+                        No          /system/lib/libmemunreachable.so
+                        No          /system/lib/libvintf.so
+                        No          /system/lib/libnativedisplay.so
+                        No          /system/lib/libnativewindow.so
+                        No          /apex/com.android.runtime/lib/bionic/libdl_android.so
+                        No          /system/lib/libtimeinstate.so
+                        No          /system/lib/server_configurable_flags.so
+                        No          /system/lib/libvndksupport.so
+                        No          /system/lib/framework-permission-aidl-cpp.so
+                        No          /system/lib/libmedia_codeclist.so
+                        No          /system/lib/libaudioclient_aidl_conversion.so
+                        No          /system/lib/libaudiomanager.so
+                        No          /system/lib/libdatasource.so
+                        No          /system/lib/libstagefright.so
+                        No          /system/lib/libstagefright_foundation.so
+                        No          /system/lib/libstagefright_http_support.so
+                        No          /system/lib/libpng.so
+                        No          /system/lib/libdng_sdk.so
+                        No          /system/lib/libpiex.so
+                        No          /system/lib/libexpat.so
+                        No          /system/lib/libbinder_ndk.so
+                        No          /system/lib/libheif.so
+                        No          /system/lib/libprotobuf-cpp-lite.so
+                        No          /system/lib/libft2.so
+                        No          /system/lib/libsync.so
+                        No          /system/lib/audio_common-aidl-cpp.so
+                        No          /system/lib/effect-aidl-cpp.so
+                        No          /system/lib/shared-file-region-aidl-cpp.so
+                        No          /system/lib/android.hardware.camera.common@1.0.so
+                        No          /system/lib/android.hardware.graphics.common@1.0.so
+                        No          /system/lib/libbpf.so
+                        No          /system/lib/android.hardware.memtrack@1.0.so
+                        No          /system/lib/android.hardware.memtrack-V1-ndk_platform.so
+                        No          /system/lib/libprocinfo.so
+                        No          /system/lib/android.hardware.graphics.allocator@2.0.so
+                        No          /system/lib/android.hardware.graphics.allocator@3.0.so
+                        No          /system/lib/android.hardware.graphics.allocator@4.0.so
+                        No          /system/lib/android.hardware.graphics.common-V2-ndk_platform.so
+                        No          /system/lib/android.hardware.graphics.common@1.2.so
+                        No          /system/lib/android.hardware.graphics.mapper@2.0.so
+                        No          /system/lib/android.hardware.graphics.mapper@2.1.so
+                        No          /system/lib/android.hardware.graphics.mapper@3.0.so
+                        No          /system/lib/android.hardware.graphics.mapper@4.0.so
+                        No          /system/lib/libgralloctypes.so
+                        No          /system/lib/android.hardware.graphics.bufferqueue@1.0.so
+                        No          /system/lib/android.hardware.graphics.bufferqueue@2.0.so
+                        No          /system/lib/android.hardware.graphics.common@1.1.so
+                        No          /system/lib/android.hidl.token@1.0-utils.so
+                        No          /system/lib/android.frameworks.bufferhub@1.0.so
+                        No          /system/lib/libbufferhub.so
+                        No          /system/lib/libbufferhubqueue.so
+                        No          /system/lib/libpdx_default_transport.so
+                        No          /system/lib/libandroid_runtime_lazy.so
+                        No          /system/lib/libmediadrm.so
+                        No          /system/lib/libmedia_omx.so
+                        No          /system/lib/libmedia_jni_utils.so
+                        No          /system/lib/libmediandk_utils.so
+                        No          /system/lib/libbacktrace.so
+                        No          /system/lib/android.hardware.configstore@1.0.so
+                        No          /system/lib/android.hardware.configstore-utils.so
+                        No          /system/lib/libSurfaceFlingerProp.so
+                        No          /system/lib/libziparchive.so
+                        No          /system/lib/android.system.suspend@1.0.so
+                        No          /system/lib/libpcre2.so
+                        No          /system/lib/libpackagelistparser.so
+                        No          /system/lib/mediametricsservice-aidl-cpp.so
+                        No          /system/lib/audiopolicy-aidl-cpp.so
+                        No          /system/lib/capture_state_listener-aidl-cpp.so
+                        No          /system/lib/libaudioutils.so
+                        No          /system/lib/libmediautils.so
+                        No          /system/lib/libnblog.so
+                        No          /system/lib/libshmemcompat.so
+                        No          /system/lib/libvibrator.so
+                        No          /system/lib/libcgrouprc.so
+                        No          /system/lib/libhidl-gen-utils.so
+                        No          /system/lib/libtinyxml2.so
+                        No          /system/lib/android.hardware.media.omx@1.0.so
+                        No          /system/lib/libstagefright_framecapture_utils.so
+                        No          /system/lib/libcodec2.so
+                        No          /system/lib/libcodec2_vndk.so
+                        No          /system/lib/libmedia_omx_client.so
+                        No          /system/lib/libsfplugin_ccodec.so
+                        No          /system/lib/libsfplugin_ccodec_utils.so
+                        No          /system/lib/libstagefright_codecbase.so
+                        No          /system/lib/libstagefright_omx_utils.so
+                        No          /system/lib/libRScpp.so
+                        No          /system/lib/libhidlallocatorutils.so
+                        No          /system/lib/libhidlmemory.so
+                        No          /system/lib/android.hidl.allocator@1.0.so
+                        No          /system/lib/android.hardware.cas.native@1.0.so
+                        No          /system/lib/android.hardware.drm@1.0.so
+                        No          /system/lib/android.hardware.common-V2-ndk_platform.so
+                        No          /system/lib/android.hardware.media@1.0.so
+                        No          /system/lib/android.hidl.token@1.0.so
+                        No          /system/lib/libmediadrmmetrics_lite.so
+                        No          /system/lib/android.hardware.drm@1.1.so
+                        No          /system/lib/android.hardware.drm@1.2.so
+                        No          /system/lib/android.hardware.drm@1.3.so
+                        No          /system/lib/android.hardware.drm@1.4.so
+                        No          /system/lib/libunwindstack.so
+                        No          /system/lib/android.hardware.configstore@1.1.so
+                        No          /system/lib/libspeexresampler.so
+                        No          /system/lib/libshmemutil.so
+                        No          /system/lib/android.hardware.media.bufferpool@2.0.so
+                        No          /system/lib/libion.so
+                        No          /system/lib/libdmabufheap.so
+                        No          /system/lib/libfmq.so
+                        No          /system/lib/libstagefright_bufferpool@2.0.1.so
+                        No          /system/lib/android.hardware.media.c2@1.0.so
+                        No          /system/lib/libcodec2_client.so
+                        No          /system/lib/libstagefright_bufferqueue_helper.so
+                        No          /system/lib/libstagefright_omx.so
+                        No          /system/lib/libstagefright_xmlparser.so
+                        No          /system/lib/android.hidl.memory@1.0.so
+                        No          /system/lib/android.hidl.memory.token@1.0.so
+                        No          /system/lib/android.hardware.cas@1.0.so
+                        No          /system/lib/liblzma.so
+                        No          /system/lib/android.hidl.safe_union@1.0.so
+                        No          /system/lib/android.hardware.media.c2@1.1.so
+                        No          /system/lib/android.hardware.media.c2@1.2.so
+                        No          /system/lib/libcodec2_hidl_client@1.0.so
+                        No          /system/lib/libcodec2_hidl_client@1.1.so
+                        No          /system/lib/libcodec2_hidl_client@1.2.so
+                        No          /apex/com.android.art/lib/libnativeloader.so
+                        No          /apex/com.android.art/lib/libnativebridge.so
+                        No          /system/lib/libbase.so
+                        No          /apex/com.android.art/lib/libartbase.so
+                        No          /system/lib/libc++.so
+                        No          /system/lib/libziparchive.so
+                        No          /apex/com.android.art/lib/libartpalette.so
+                        No          /apex/com.android.art/lib/libsigchain.so
+                        No          /apex/com.android.i18n/lib/libandroidicu.so
+                        No          /system/lib/libbase.so
+                        No          /apex/com.android.i18n/lib/libicuuc.so
+                        No          /apex/com.android.i18n/lib/libicui18n.so
+                        No          /system/lib/libc++.so
+                        No          /apex/com.android.i18n/lib/libicu.so
+                        No          /apex/com.android.art/lib/libnativehelper.so
+                        No          /apex/com.android.art/lib/libart.so
+                        No          /system/lib/libbacktrace.so
+                        No          /system/lib/liblz4.so
+                        No          /system/lib/liblzma.so
+                        No          /system/lib/libunwindstack.so
+                        No          /apex/com.android.art/lib/libdexfile.so
+                        No          /apex/com.android.art/lib/libprofile.so
+                        No          /apex/com.android.os.statsd/lib/libstatssocket.so
+                        No          /system/lib/heapprofd_client_api.so
+                        No          /system/lib/libartpalette-system.so
+                        No          /system/lib/libtombstoned_client.so
+                        No          /apex/com.android.art/javalib/x86/boot.oat
+                        No          /apex/com.android.art/javalib/x86/boot-core-libart.oat
+                        No          /apex/com.android.art/javalib/x86/boot-okhttp.oat
+                        No          /apex/com.android.art/javalib/x86/boot-bouncycastle.oat
+                        No          /apex/com.android.art/javalib/x86/boot-apache-xml.oat
+                        No          /system/framework/x86/boot-framework.oat
+                        No          /system/framework/x86/boot-framework-graphics.oat
+                        No          /system/framework/x86/boot-ext.oat
+                        No          /system/framework/x86/boot-telephony-common.oat
+                        No          /system/framework/x86/boot-voip-common.oat
+                        No          /system/framework/x86/boot-ims-common.oat
+                        No          /system/framework/x86/boot-core-icu4j.oat
+                        No          /apex/com.android.art/lib/libadbconnection.so
+                        No          /apex/com.android.adbd/lib/libadbconnection_client.so
+                        No          /system/lib/libnb.so
+                        No          /apex/com.android.art/lib/libperfetto_hprof.so
+                        No          /system/lib/libandroid.so
+                        No          /system/lib/libactivitymanager_aidl.so
+                        No          /system/lib/libxml2.so
+                        No          /system/lib/libpowermanager.so
+                        No          /system/lib/android.hardware.power@1.0.so
+                        No          /system/lib/android.hardware.power@1.1.so
+                        No          /system/lib/android.hardware.power-V2-cpp.so
+                        No          /system/lib/libaaudio.so
+                        No          /system/lib/libaaudio_internal.so
+                        No          /system/lib/aaudio-aidl-cpp.so
+                        No          /system/lib/libamidi.so
+                        No          /system/lib/libcamera2ndk.so
+                        No          /system/lib/libjnigraphics.so
+                        No          /system/lib/libOpenMAXAL.so
+                        No          /system/lib/libOpenSLES.so
+                        No          /system/lib/libRS.so
+                        No          /system/lib/libutilscallstack.so
+                        No          /system/lib/android.hardware.renderscript@1.0.so
+                        No          /system/lib/libstdc++.so
+                        No          /system/lib/libwebviewchromium_plat_support.so
+                        No          /system/lib/libcallhost.so
+                        No          /system/lib/libnemuinitaidl.so
+                        No          /apex/com.android.i18n/lib/libicu_jni.so
+                        No          /apex/com.android.art/lib/libjavacore.so
+                        No          /apex/com.android.art/lib/libandroidio.so
+                        No          /system/lib/libcrypto.so
+                        No          /apex/com.android.art/lib/libexpat.so
+                        No          /apex/com.android.art/lib/libopenjdk.so
+                        No          /apex/com.android.art/lib/libopenjdkjvm.so
+                        No          /apex/com.android.art/lib/libart-compiler.so
+                        No          /apex/com.android.os.statsd/lib/libstats_jni.so
+                        No          /apex/com.android.conscrypt/lib/libjavacrypto.so
+                        No          /system/lib/libcrypto.so
+                        No          /system/lib/libssl.so
+                        No          /system/lib/libc++.so
+                        No          /data/system/etc/mumu-configs/shared_libs/libhp12_x86.so
+                        No          /system/lib/libhoudini.so
+                        No          /apex/com.android.tethering/lib/libframework-connectivity-jni.so
+                        No          /system/lib/arm/nb/libtcb.so
+                        No          /system/lib/egl/libEGL_emulation.so
+                        No          /system/lib/libOpenglSystemCommon.so
+                        No          /system/lib/libvulkan_enc.so
+                        No          /system/lib/libandroidemu.so
+                        No          /system/lib/lib_renderControl_enc.so
+                        No          /system/lib/libGLESv2_enc.so
+                        No          /system/lib/libGLESv1_enc.so
+                        No          /system/lib/libdrm.so
+                        No          /system/lib/egl/libGLESv1_CM_emulation.so
+                        No          /system/lib/egl/libGLESv2_emulation.so
+                        No          /system/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so
+                        No          /system/lib/hw/gralloc.kona.so
+                        No          /system/vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so
+[Inferior 1 (process 18707) detached]

@@ -1,0 +1,11 @@
+﻿PASS first harvest and tutorial actions are idempotent
+PASS online/offline deterministic equivalence 60 seconds
+PASS online/offline deterministic equivalence 3600 seconds
+PASS online/offline deterministic equivalence 28800 seconds
+PASS full crop warehouse retains mature harvest and resumes
+PASS machine reserves output capacity before consuming input
+PASS same timestamp deposits precede sale and production starts
+﻿System.Exception: crop restart was delayed until the next event
+  at CoreTests+<>c.<Main>b__6_4 () [0x0012d] in <34c5da1a52664e5e9ce9f8ed085f0a55>:0 
+  at CoreTests.Test (System.String name, System.Action a) [0x00001] in <34c5da1a52664e5e9ce9f8ed085f0a55>:0 
+  at CoreTests.Main (System.String[] args) [0x00106] in <34c5da1a52664e5e9ce9f8ed085f0a55>:0 

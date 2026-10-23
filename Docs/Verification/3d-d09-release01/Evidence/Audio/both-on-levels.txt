@@ -1,0 +1,25 @@
+Input #0, flac, from 'Docs/Verification/3d-d09-release01/Evidence/Audio/independent-switches-original.flac':
+  Metadata:
+    comment         : Recorded by scrcpy 5.0.1
+    encoder         : Lavf63.1.102
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Audio: flac, 48000 Hz, stereo, s16
+[Parsed_volumedetect_0 @ 0000027728831200] n_samples: 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (flac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    comment         : Recorded by scrcpy 5.0.1
+    encoder         : Lavf61.7.100
+  Stream #0:0: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s
+      Metadata:
+        encoder         : Lavc61.19.100 pcm_s16le
+[Parsed_volumedetect_0 @ 00000277288fcb40] n_samples: 480000
+[Parsed_volumedetect_0 @ 00000277288fcb40] mean_volume: -41.4 dB
+[Parsed_volumedetect_0 @ 00000277288fcb40] max_volume: -27.3 dB
+[Parsed_volumedetect_0 @ 00000277288fcb40] histogram_27db: 38
+[Parsed_volumedetect_0 @ 00000277288fcb40] histogram_28db: 300
+[Parsed_volumedetect_0 @ 00000277288fcb40] histogram_29db: 552
+[out#0/null @ 0000027728836340] video:0KiB audio:938KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:05.00 bitrate=N/A speed= 613x    

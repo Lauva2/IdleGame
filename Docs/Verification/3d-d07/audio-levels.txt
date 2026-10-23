@@ -1,0 +1,28 @@
+[aist#0:0/pcm_s16le @ 000001df19caf640] Guessed Channel Layout: stereo
+Input #0, wav, from 'Docs/Verification/3d-d07/Evidence/MuMu/NativeVideo/d07-prepared-audio.wav':
+  Metadata:
+    comment         : Recorded by scrcpy 5.0.1
+    encoder         : Lavf61.7.100
+  Duration: 00:00:15.27, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+[Parsed_volumedetect_0 @ 000001df19d54200] n_samples: 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    comment         : Recorded by scrcpy 5.0.1
+    encoder         : Lavf61.7.100
+  Stream #0:0: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s
+      Metadata:
+        encoder         : Lavc61.19.100 pcm_s16le
+[Parsed_volumedetect_0 @ 000001df19cab7c0] n_samples: 1466368
+[Parsed_volumedetect_0 @ 000001df19cab7c0] mean_volume: -81.9 dB
+[Parsed_volumedetect_0 @ 000001df19cab7c0] max_volume: -62.7 dB
+[Parsed_volumedetect_0 @ 000001df19cab7c0] histogram_62db: 6
+[Parsed_volumedetect_0 @ 000001df19cab7c0] histogram_63db: 70
+[Parsed_volumedetect_0 @ 000001df19cab7c0] histogram_64db: 228
+[Parsed_volumedetect_0 @ 000001df19cab7c0] histogram_65db: 544
+[Parsed_volumedetect_0 @ 000001df19cab7c0] histogram_66db: 1420
+[out#0/null @ 000001df19d58c40] video:0KiB audio:2864KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:15.27 bitrate=N/A speed=1.9e+03x    

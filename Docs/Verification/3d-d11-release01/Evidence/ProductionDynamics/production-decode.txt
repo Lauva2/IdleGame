@@ -1,0 +1,35 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'E:/UnityProject/IdleGame/Docs/Verification/3d-d11-release01/Evidence/ProductionDynamics/ordinary-production-original.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+    comment         : Recorded by scrcpy 5.0.1
+  Duration: 00:02:30.11, start: 0.000000, bitrate: 1813 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 1810 kb/s, 29.34 fps, 29.83 tbr, 90k tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'E:/UnityProject/IdleGame/Docs/Verification/3d-d11-release01/Evidence/ProductionDynamics/ProductionFrames/frame-%04d.png':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : Recorded by scrcpy 5.0.1
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: png, rgb24(pc, gbr/bt709/bt709, progressive), 720x1280, q=2-31, 200 kb/s, 2 fps, 2 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 png
+frame=   34 fps=0.0 q=-0.0 size=N/A time=00:00:17.00 bitrate=N/A speed=32.6x    
+frame=   83 fps= 80 q=-0.0 size=N/A time=00:00:41.50 bitrate=N/A speed=40.2x    
+frame=  140 fps= 90 q=-0.0 size=N/A time=00:01:10.00 bitrate=N/A speed=45.2x    
+frame=  187 fps= 91 q=-0.0 size=N/A time=00:01:33.50 bitrate=N/A speed=45.3x    
+frame=  237 fps= 92 q=-0.0 size=N/A time=00:01:58.50 bitrate=N/A speed=  46x    
+frame=  293 fps= 95 q=-0.0 size=N/A time=00:02:29.00 bitrate=N/A speed=48.1x    
+[out#0/image2 @ 000002dc9e1f7dc0] video:104394KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  300 fps= 96 q=-0.0 Lsize=N/A time=00:02:30.00 bitrate=N/A speed=48.1x    

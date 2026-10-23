@@ -1,0 +1,36 @@
+-vsync is deprecated. Use -fps_mode
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'Docs/Verification/3d-d10-release01/Evidence/NormalVideo/normal-five-visitors-original.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+    comment         : Recorded by scrcpy 5.0.1
+  Duration: 00:03:10.13, start: 0.000000, bitrate: 2335 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 2332 kb/s, 28.84 fps, 90k tbr, 90k tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'Docs/Verification/3d-d10-release01/Evidence/NormalVideo/Frames/second-%04d.png':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : Recorded by scrcpy 5.0.1
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: png, rgb24(pc, gbr/bt709/bt709, progressive), 720x1280, q=2-31, 200 kb/s, 1 fps, 1 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 png
+frame=   14 fps=0.0 q=-0.0 size=N/A time=00:00:14.00 bitrate=N/A speed=27.9x    
+frame=   44 fps= 43 q=-0.0 size=N/A time=00:00:44.00 bitrate=N/A speed=43.1x    
+frame=   73 fps= 48 q=-0.0 size=N/A time=00:01:13.00 bitrate=N/A speed=47.6x    
+frame=  102 fps= 50 q=-0.0 size=N/A time=00:01:42.00 bitrate=N/A speed=49.8x    
+frame=  134 fps= 52 q=-0.0 size=N/A time=00:02:14.00 bitrate=N/A speed=51.8x    
+frame=  161 fps= 52 q=-0.0 size=N/A time=00:02:41.00 bitrate=N/A speed=  52x    
+[out#0/image2 @ 000001576c096300] video:79038KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  190 fps= 55 q=-0.0 Lsize=N/A time=00:03:10.00 bitrate=N/A speed=55.3x    

@@ -1,0 +1,40 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'E:/UnityProject/IdleGame/Docs/Verification/3d-d11-release01/Evidence/ProductionDynamics/ordinary-capacity-original.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+    comment         : Recorded by scrcpy 5.0.1
+  Duration: 00:04:00.13, start: 0.000000, bitrate: 2827 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 2824 kb/s, 29.56 fps, 90k tbr, 90k tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'E:/UnityProject/IdleGame/Docs/Verification/3d-d11-release01/Evidence/ProductionDynamics/CapacityFrames/frame-%04d.png':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : Recorded by scrcpy 5.0.1
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: png, rgb24(pc, gbr/bt709/bt709, progressive), 720x1280, q=2-31, 200 kb/s, 2 fps, 2 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 png
+frame=   31 fps=0.0 q=-0.0 size=N/A time=00:00:15.50 bitrate=N/A speed=  30x    
+frame=   72 fps= 70 q=-0.0 size=N/A time=00:00:36.00 bitrate=N/A speed=  35x    
+frame=  111 fps= 72 q=-0.0 size=N/A time=00:00:55.50 bitrate=N/A speed=36.1x    
+frame=  157 fps= 76 q=-0.0 size=N/A time=00:01:18.50 bitrate=N/A speed=38.2x    
+frame=  202 fps= 79 q=-0.0 size=N/A time=00:01:41.00 bitrate=N/A speed=39.3x    
+frame=  251 fps= 81 q=-0.0 size=N/A time=00:02:05.50 bitrate=N/A speed=40.7x    
+frame=  290 fps= 80 q=-0.0 size=N/A time=00:02:25.00 bitrate=N/A speed=40.2x    
+frame=  326 fps= 79 q=-0.0 size=N/A time=00:02:43.00 bitrate=N/A speed=39.6x    
+frame=  362 fps= 78 q=-0.0 size=N/A time=00:03:01.00 bitrate=N/A speed=  39x    
+frame=  401 fps= 78 q=-0.0 size=N/A time=00:03:20.50 bitrate=N/A speed=38.9x    
+frame=  443 fps= 78 q=-0.0 size=N/A time=00:03:41.50 bitrate=N/A speed=39.1x    
+[out#0/image2 @ 0000028ff0be5dc0] video:234752KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  480 fps= 79 q=-0.0 Lsize=N/A time=00:04:00.00 bitrate=N/A speed=39.5x    

@@ -1,0 +1,799 @@
+--------- beginning of main
+10-23 01:18:35.311 19294 19294 D Unity   : CommandLine:  -force-gfx-direct
+10-23 01:18:35.326 19294 19294 D Unity   : onActivityResumed: com.unity3d.player.UnityPlayerActivity@f563b86
+10-23 01:18:35.326 19294 19294 I Unity   : onResume
+10-23 01:18:35.374 19294 19322 D Unity   : SetWindow 0 0xcac8c998
+10-23 01:18:35.374 19294 19322 D Unity   : SetWindow 0 0xcac8c998
+10-23 01:18:35.485 19294 19294 I Unity   : windowFocusChanged: true
+10-23 01:18:35.502 19294 19322 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-23 01:18:35.503 19294 19322 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+10-23 01:18:35.503 19294 19322 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+10-23 01:18:35.503 19294 19322 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+10-23 01:18:35.503 19294 19322 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+10-23 01:18:35.503 19294 19322 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+10-23 01:18:35.503 19294 19322 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+10-23 01:18:35.503 19294 19322 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+10-23 01:18:35.503 19294 19322 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+10-23 01:18:35.503 19294 19322 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+10-23 01:18:35.503 19294 19322 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+10-23 01:18:35.503 19294 19322 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+10-23 01:18:35.503 19294 19322 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+10-23 01:18:35.504 19294 19322 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+10-23 01:18:35.504 19294 19322 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+10-23 01:18:35.504 19294 19322 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+10-23 01:18:35.504 19294 19322 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+10-23 01:18:35.504 19294 19322 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+10-23 01:18:35.504 19294 19322 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+10-23 01:18:35.504 19294 19322 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+10-23 01:18:35.504 19294 19322 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+10-23 01:18:35.504 19294 19322 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+10-23 01:18:35.504 19294 19322 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+10-23 01:18:35.504 19294 19322 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+10-23 01:18:35.504 19294 19322 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+10-23 01:18:35.504 19294 19322 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+10-23 01:18:35.505 19294 19322 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+10-23 01:18:35.505 19294 19322 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+10-23 01:18:35.505 19294 19322 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+10-23 01:18:35.505 19294 19322 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+10-23 01:18:35.505 19294 19322 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+10-23 01:18:35.537 19294 19322 D Unity   : Enabling Unity systrace
+10-23 01:18:35.559 19294 19322 D Unity   : [VFS] Mount /data/app/~~mpeYMn637M9IKJbPb6tw0A==/com.forestatelier.curioshop-DWRoPPbk2ug3_Q3GmyeBRQ==/base.apk
+10-23 01:18:35.568 19294 19322 I Unity   : SystemInfo CPU = x86-64 SSE3 SSE4.1 SSE4.2 AVX AVX2, Cores = 4, Memory = 5949mb
+10-23 01:18:35.568 19294 19322 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf), 0 little (mask: 0x0)
+10-23 01:18:35.569 19294 19322 I Unity   : ApplicationInfo com.forestatelier.curioshop version 0.1.0
+10-23 01:18:35.569 19294 19322 I Unity   : Built from 'origin/2022.3/china_unity/release' branch, Version '2022.3.8f1c1 (4ec8ee1b2212)', Build type 'Development', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+10-23 01:18:35.573 19294 19322 D Unity   : Mono path[0] = '/data/app/~~mpeYMn637M9IKJbPb6tw0A==/com.forestatelier.curioshop-DWRoPPbk2ug3_Q3GmyeBRQ==/base.apk/assets/bin/Data/Managed'
+10-23 01:18:35.573 19294 19322 D Unity   : Mono config path = 'assets/bin/Data/Managed/etc'
+10-23 01:18:35.580 19294 19322 D Unity   : Found 1 interfaces on host :
+10-23 01:18:35.580 19294 19322 D Unity   :  0) 10.0.2.15
+10-23 01:18:35.580 19294 19322 D Unity   : 
+10-23 01:18:35.581 19294 19322 D Unity   : Multi-casting "[IP] 10.0.2.15 [Port] 55000 [Flags] 2 [Guid] 2388650907 [EditorId] 2480721099 [Version] 1048832 [Id] AndroidPlayer(11,HUAWEI_HBP-AL00@10.0.2.15) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] 林间奇物铺" to [225.0.0.222:54997]...
+10-23 01:18:35.744 19294 19322 D Unity   : [EGL] Attaching window :0xcac8c998
+10-23 01:18:35.744 19294 19322 D Unity   : InitializeScriptEngine OK (0xbd5b4e80)
+10-23 01:18:35.771 19294 19322 D Unity   : [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+10-23 01:18:35.782 19294 19322 D Unity   : PlayerInitEngineNoGraphics OK
+10-23 01:18:35.782 19294 19322 I Unity   : Company Name: Forest Atelier
+10-23 01:18:35.783 19294 19322 I Unity   : Product Name: 林间奇物铺
+10-23 01:18:35.783 19294 19322 D Unity   : AndroidGraphics::Startup window =  0xcac8c998
+10-23 01:18:35.783 19294 19322 D Unity   : [EGL] Attaching window :0xcac8c998
+10-23 01:18:35.785 19294 19322 D Unity   : [Subsystems] Discovering subsystems at path /data/app/~~mpeYMn637M9IKJbPb6tw0A==/com.forestatelier.curioshop-DWRoPPbk2ug3_Q3GmyeBRQ==/base.apk/assets/bin/Data/UnitySubsystems
+10-23 01:18:35.801 19294 19322 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 01:18:35.801 19294 19322 D Unity   : [EGL] Checking ES 3.2 support...
+10-23 01:18:35.803 19294 19322 D Unity   : [EGL] ES 3.2 support detected
+10-23 01:18:35.803 19294 19322 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 01:18:35.803 19294 19322 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-23 01:18:35.805 19294 19322 D Unity   : [EGL] Found: ID[41] ES 3.2 RGB 565 0/0
+10-23 01:18:35.807 19294 19322 D Unity   : [EGL] Request: ES 3.0 RGBA 8888 0/0
+10-23 01:18:35.808 19294 19322 D Unity   : [EGL] Found: ID[1] ES 3.0 RGBA 8888 0/0
+10-23 01:18:35.814 19294 19322 D Unity   : ANativeWindow: (1080/1920) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (1080/1920)
+10-23 01:18:35.844 19294 19322 D Unity   : Renderer: Adreno (TM) 640
+10-23 01:18:35.844 19294 19322 D Unity   : Vendor:   Qualcomm
+10-23 01:18:35.844 19294 19322 D Unity   : Version:  OpenGL ES 3.2 V132
+10-23 01:18:35.844 19294 19322 D Unity   : GLES:     3
+10-23 01:18:35.844 19294 19322 D Unity   :  GL_ANDROID_extension_pack_es31a GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_copy_image GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_primitive_bounding_box GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_io_blocks GL_EXT_shader_texture_lod GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture
+10-23 01:18:35.844 19294 19322 D Unity   : _sRGB_decode GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_geometry_shader GL_OES_packed_depth_stencil GL_OES_primitive_bounding_box GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader
+10-23 01:18:35.844 19294 19322 D Unity   : _image_atomic GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float
+10-23 01:18:35.847 19294 19322 D Unity   : OPENGL LOG: Creating OpenGL ES 3.2 graphics device ; Context level  <OpenGL ES 3.2> ; Context handle -1126925840
+10-23 01:18:35.850 19294 19322 D Unity   : [EGL] Attaching window :0xcac8c998
+10-23 01:18:35.850 19294 19322 D Unity   : Requested framebuffer: resolution[1080x1920], rgba[8/8/8/8], depth+stencil[on], samples[1]
+10-23 01:18:35.853 19294 19322 D Unity   : Created framebuffer: resolution[1080x1920], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+10-23 01:18:35.859 19294 19322 D Unity   : [EGL] Attaching window :0xcac8c998
+10-23 01:18:35.859 19294 19322 D Unity   : Initialize engine version: 2022.3.8f1c1 (4ec8ee1b2212)
+10-23 01:18:35.906 19294 19322 D Unity   : Begin MonoManager ReloadAssembly
+10-23 01:18:36.716 19294 19322 D Unity   : - Loaded All Assemblies, in  0.810 seconds
+10-23 01:18:36.739 19294 19322 D Unity   : - Finished resetting the current domain, in  0.023 seconds
+10-23 01:18:37.009 19294 19322 D Unity   : PlayerInitEngineGraphics OK
+10-23 01:18:37.016 19294 19322 D Unity   : Found 14 native sensors
+10-23 01:18:37.017 19294 19322 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 01:18:37.018 19294 19322 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 01:18:39.108 19294 19322 D Unity   : UnloadTime: 5.061977 ms
+10-23 01:18:41.880 19294 19322 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; 3-axis Accelerometer / STMicro 
+10-23 01:18:41.880 19294 19322 D Unity   : Choreographer available: Enabling VSYNC timing
+10-23 01:18:42.138 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.PostLateUpdate+PlayerUpdateCanvases seconds=0.114604 frame=1
+10-23 01:18:42.138 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:18:42.138 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:18:42.138 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:18:42.138 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:18:42.138 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:18:42.138 19294 19322 I Unity   : 
+10-23 01:18:42.219 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.PostLateUpdate seconds=0.208847 frame=1
+10-23 01:18:42.219 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:18:42.219 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:18:42.219 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:18:42.219 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:18:42.219 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:18:42.219 19294 19322 I Unity   : 
+10-23 01:18:44.291 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=66 wall=5.025 maxDelta=4.848 focus=True background=False evidence=False
+10-23 01:18:44.291 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:18:44.291 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:18:44.291 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:18:44.291 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:18:44.291 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:18:44.291 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:18:44.291 19294 19322 I Unity   : 
+10-23 01:18:44.299 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:18:44.299 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:18:44.299 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:18:44.299 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:18:44.299 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:18:44.299 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:18:44.299 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:18:44.299 19294 19322 I Unity   : 
+10-23 01:18:49.325 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=151 wall=5.031 maxDelta=0.042 focus=True background=False evidence=False
+10-23 01:18:49.325 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:18:49.325 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:18:49.325 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:18:49.325 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:18:49.325 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:18:49.325 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:18:49.325 19294 19322 I Unity   : 
+10-23 01:18:49.328 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:18:49.328 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:18:49.328 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:18:49.328 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:18:49.328 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:18:49.328 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:18:49.328 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:18:49.328 19294 19322 I Unity   : 
+10-23 01:18:54.355 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=151 wall=5.028 maxDelta=0.042 focus=True background=False evidence=False
+10-23 01:18:54.355 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:18:54.355 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:18:54.355 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:18:54.355 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:18:54.355 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:18:54.355 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:18:54.355 19294 19322 I Unity   : 
+10-23 01:18:54.359 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:18:54.359 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:18:54.359 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:18:54.359 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:18:54.359 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:18:54.359 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:18:54.359 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:18:54.359 19294 19322 I Unity   : 
+10-23 01:18:59.359 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=150 wall=5.002 maxDelta=0.041 focus=True background=False evidence=False
+10-23 01:18:59.359 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:18:59.359 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:18:59.359 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:18:59.359 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:18:59.359 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:18:59.359 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:18:59.359 19294 19322 I Unity   : 
+10-23 01:18:59.362 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:18:59.362 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:18:59.362 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:18:59.362 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:18:59.362 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:18:59.362 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:18:59.362 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:18:59.362 19294 19322 I Unity   : 
+10-23 01:19:04.368 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=150 wall=5.005 maxDelta=0.045 focus=True background=False evidence=False
+10-23 01:19:04.368 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:04.368 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:04.368 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:04.368 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:04.368 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:19:04.368 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:04.368 19294 19322 I Unity   : 
+10-23 01:19:04.370 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:19:04.370 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:04.370 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:04.370 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:04.370 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:04.370 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:19:04.370 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:04.370 19294 19322 I Unity   : 
+10-23 01:19:09.401 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=151 wall=5.032 maxDelta=0.042 focus=True background=False evidence=False
+10-23 01:19:09.401 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:09.401 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:09.401 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:09.401 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:09.401 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:19:09.401 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:09.401 19294 19322 I Unity   : 
+10-23 01:19:09.403 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=125
+10-23 01:19:09.403 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:09.403 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:09.403 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:09.403 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:09.403 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:19:09.403 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:09.403 19294 19322 I Unity   : 
+10-23 01:19:14.436 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=151 wall=5.033 maxDelta=0.041 focus=True background=False evidence=False
+10-23 01:19:14.436 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:14.436 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:14.436 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:14.436 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:14.436 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:19:14.436 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:14.436 19294 19322 I Unity   : 
+10-23 01:19:14.438 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:19:14.438 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:14.438 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:14.438 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:14.438 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:14.438 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:19:14.438 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:14.438 19294 19322 I Unity   : 
+10-23 01:19:19.443 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=150 wall=5.005 maxDelta=0.042 focus=True background=False evidence=False
+10-23 01:19:19.443 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:19.443 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:19.443 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:19.443 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:19.443 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:19:19.443 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:19.443 19294 19322 I Unity   : 
+10-23 01:19:19.446 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:19:19.446 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:19.446 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:19.446 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:19.446 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:19.446 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:19:19.446 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:19.446 19294 19322 I Unity   : 
+10-23 01:19:24.446 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=150 wall=5.002 maxDelta=0.040 focus=True background=False evidence=False
+10-23 01:19:24.446 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:24.446 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:24.446 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:24.446 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:24.446 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:19:24.446 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:24.446 19294 19322 I Unity   : 
+10-23 01:19:24.448 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:19:24.448 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:24.448 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:24.448 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:24.448 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:24.448 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:19:24.448 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:24.448 19294 19322 I Unity   : 
+10-23 01:19:29.465 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=148 wall=5.016 maxDelta=0.387 focus=True background=False evidence=False
+10-23 01:19:29.465 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:29.465 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:29.465 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:29.465 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:29.465 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:19:29.465 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:29.465 19294 19322 I Unity   : 
+10-23 01:19:29.467 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:19:29.467 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:29.467 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:29.467 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:29.467 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:29.467 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:19:29.467 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:29.467 19294 19322 I Unity   : 
+10-23 01:19:34.476 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=150 wall=5.010 maxDelta=0.121 focus=True background=False evidence=False
+10-23 01:19:34.476 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:34.476 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:34.476 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:34.476 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:34.476 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:19:34.476 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:34.476 19294 19322 I Unity   : 
+10-23 01:19:34.478 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:19:34.478 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:34.478 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:34.478 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:34.478 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:34.478 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:19:34.478 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:34.478 19294 19322 I Unity   : 
+10-23 01:19:39.480 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=150 wall=5.002 maxDelta=0.040 focus=True background=False evidence=False
+10-23 01:19:39.480 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:39.480 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:39.480 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:39.480 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:39.480 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:19:39.480 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:39.480 19294 19322 I Unity   : 
+10-23 01:19:39.482 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:19:39.482 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:39.482 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:39.482 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:39.482 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:39.482 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:19:39.482 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:39.482 19294 19322 I Unity   : 
+10-23 01:19:42.091 19294 19322 I Unity   : FOREST_INPUT Began screen=(855.00, 257.00) frame=1791
+10-23 01:19:42.091 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:42.091 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:42.091 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:42.091 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:42.091 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:67)
+10-23 01:19:42.091 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:42.091 19294 19322 I Unity   : 
+10-23 01:19:42.092 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.Update+ScriptRunBehaviourUpdate seconds=0.162585 frame=1791
+10-23 01:19:42.092 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:42.092 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:42.092 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:42.092 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:42.092 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:19:42.092 19294 19322 I Unity   : 
+10-23 01:19:42.093 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.Update seconds=0.163364 frame=1791
+10-23 01:19:42.093 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:42.093 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:42.093 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:42.093 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:42.093 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:19:42.093 19294 19322 I Unity   : 
+10-23 01:19:42.134 19294 19322 I Unity   : FOREST_INPUT Ended screen=(855.00, 257.00) frame=1792
+10-23 01:19:42.134 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:42.134 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:42.134 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:42.134 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:42.134 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:67)
+10-23 01:19:42.134 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:42.134 19294 19322 I Unity   : 
+10-23 01:19:44.503 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=144 wall=5.022 maxDelta=0.129 focus=True background=False evidence=False
+10-23 01:19:44.503 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:44.503 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:44.503 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:44.503 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:44.503 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:19:44.503 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:44.503 19294 19322 I Unity   : 
+10-23 01:19:44.506 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=125
+10-23 01:19:44.506 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:44.506 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:44.506 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:44.506 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:44.506 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:19:44.506 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:44.506 19294 19322 I Unity   : 
+10-23 01:19:47.574 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=0.134516 frame=1949
+10-23 01:19:47.574 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:47.574 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:47.574 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:47.574 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:47.574 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:19:47.574 19294 19322 I Unity   : 
+10-23 01:19:47.575 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=0.135922 frame=1949
+10-23 01:19:47.575 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:47.575 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:47.575 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:47.575 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:47.575 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:19:47.575 19294 19322 I Unity   : 
+10-23 01:19:47.984 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=0.399434 frame=1950
+10-23 01:19:47.984 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:47.984 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:47.984 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:47.984 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:47.984 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:19:47.984 19294 19322 I Unity   : 
+10-23 01:19:47.986 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=0.401163 frame=1950
+10-23 01:19:47.986 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:47.986 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:47.986 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:47.986 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:47.986 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:19:47.986 19294 19322 I Unity   : 
+10-23 01:19:49.224 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=1.224905 frame=1951
+10-23 01:19:49.224 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:49.224 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:49.224 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:49.224 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:49.224 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:19:49.224 19294 19322 I Unity   : 
+10-23 01:19:49.226 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=1.226990 frame=1951
+10-23 01:19:49.226 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:49.226 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:49.226 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:49.226 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:49.226 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:19:49.226 19294 19322 I Unity   : 
+10-23 01:19:52.769 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=3.518455 frame=1952
+10-23 01:19:52.769 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:52.769 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:52.769 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:52.769 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:52.769 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:19:52.769 19294 19322 I Unity   : 
+10-23 01:19:52.770 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=3.520482 frame=1952
+10-23 01:19:52.770 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:52.770 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:52.770 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:52.770 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:52.770 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:19:52.770 19294 19322 I Unity   : 
+10-23 01:19:52.780 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=90 wall=8.276 maxDelta=1.250 focus=True background=False evidence=False
+10-23 01:19:52.780 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:52.780 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:52.780 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:52.780 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:52.780 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:19:52.780 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:52.780 19294 19322 I Unity   : 
+10-23 01:19:52.782 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:19:52.782 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:52.782 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:52.782 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:52.782 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:52.782 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:19:52.782 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:52.782 19294 19322 I Unity   : 
+10-23 01:19:58.806 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=6.012159 frame=1953
+10-23 01:19:58.806 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:58.806 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:58.806 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:58.806 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:58.806 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:19:58.806 19294 19322 I Unity   : 
+10-23 01:19:58.808 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=6.014635 frame=1953
+10-23 01:19:58.808 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:58.808 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:58.808 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:58.808 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:58.808 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:19:58.808 19294 19322 I Unity   : 
+10-23 01:19:58.820 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=1 wall=6.039 maxDelta=3.542 focus=True background=False evidence=False
+10-23 01:19:58.820 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:58.820 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:58.820 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:58.820 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:58.820 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:19:58.820 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:58.820 19294 19322 I Unity   : 
+10-23 01:19:58.822 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:19:58.822 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:19:58.822 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:19:58.822 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:19:58.822 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:19:58.822 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:19:58.822 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:19:58.822 19294 19322 I Unity   : 
+10-23 01:20:08.541 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=9.706782 frame=1954
+10-23 01:20:08.541 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:08.541 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:08.541 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:08.541 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:08.541 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:08.541 19294 19322 I Unity   : 
+10-23 01:20:08.542 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=9.709026 frame=1954
+10-23 01:20:08.542 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:08.542 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:08.542 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:08.542 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:08.542 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:08.542 19294 19322 I Unity   : 
+10-23 01:20:08.556 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=1 wall=9.735 maxDelta=6.042 focus=True background=False evidence=False
+10-23 01:20:08.556 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:08.556 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:08.556 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:08.556 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:08.556 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:20:08.556 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:20:08.556 19294 19322 I Unity   : 
+10-23 01:20:08.558 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:20:08.558 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:08.558 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:08.558 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:08.558 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:08.558 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:20:08.558 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:20:08.558 19294 19322 I Unity   : 
+10-23 01:20:20.221 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=11.642368 frame=1955
+10-23 01:20:20.221 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:20.221 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:20.221 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:20.221 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:20.221 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:20.221 19294 19322 I Unity   : 
+10-23 01:20:20.222 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=11.643683 frame=1955
+10-23 01:20:20.222 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:20.222 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:20.222 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:20.222 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:20.222 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:20.222 19294 19322 I Unity   : 
+10-23 01:20:20.232 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=1 wall=11.675 maxDelta=9.746 focus=True background=False evidence=False
+10-23 01:20:20.232 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:20.232 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:20.232 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:20.232 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:20.232 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:20:20.232 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:20:20.232 19294 19322 I Unity   : 
+10-23 01:20:20.234 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:20:20.234 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:20.234 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:20.234 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:20.234 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:20.234 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:20:20.234 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:20:20.234 19294 19322 I Unity   : 
+10-23 01:20:29.516 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=9.270989 frame=1956
+10-23 01:20:29.516 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:29.516 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:29.516 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:29.516 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:29.516 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:29.516 19294 19322 I Unity   : 
+10-23 01:20:29.517 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=9.272265 frame=1956
+10-23 01:20:29.517 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:29.517 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:29.517 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:29.517 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:29.517 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:29.517 19294 19322 I Unity   : 
+10-23 01:20:29.526 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=1 wall=9.293 maxDelta=11.667 focus=True background=False evidence=False
+10-23 01:20:29.526 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:29.526 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:29.526 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:29.526 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:29.526 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:20:29.526 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:20:29.526 19294 19322 I Unity   : 
+10-23 01:20:29.527 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:20:29.527 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:29.527 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:29.527 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:29.527 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:29.527 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:20:29.527 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:20:29.527 19294 19322 I Unity   : 
+10-23 01:20:32.837 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=3.293677 frame=1957
+10-23 01:20:32.837 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:32.837 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:32.837 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:32.837 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:32.837 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:32.837 19294 19322 I Unity   : 
+10-23 01:20:32.838 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=3.294956 frame=1957
+10-23 01:20:32.838 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:32.838 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:32.838 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:32.838 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:32.838 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:32.838 19294 19322 I Unity   : 
+10-23 01:20:34.470 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=1.615908 frame=1958
+10-23 01:20:34.470 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:34.470 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:34.470 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:34.470 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:34.470 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:34.470 19294 19322 I Unity   : 
+10-23 01:20:34.471 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=1.617242 frame=1958
+10-23 01:20:34.471 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:34.471 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:34.471 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:34.471 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:34.471 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:34.471 19294 19322 I Unity   : 
+10-23 01:20:34.973 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=0.482292 frame=1959
+10-23 01:20:34.973 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:34.973 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:34.973 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:34.973 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:34.973 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:34.973 19294 19322 I Unity   : 
+10-23 01:20:34.974 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=0.483547 frame=1959
+10-23 01:20:34.974 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:34.974 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:34.974 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:34.974 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:34.974 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:34.974 19294 19322 I Unity   : 
+10-23 01:20:34.982 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=3 wall=5.455 maxDelta=9.296 focus=True background=False evidence=False
+10-23 01:20:34.982 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:34.982 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:34.982 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:34.982 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:34.982 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:20:34.982 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:20:34.982 19294 19322 I Unity   : 
+10-23 01:20:34.983 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:20:34.983 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:34.983 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:34.983 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:34.983 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:34.983 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:20:34.983 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:20:34.983 19294 19322 I Unity   : 
+10-23 01:20:40.002 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=149 wall=5.019 maxDelta=0.500 focus=True background=False evidence=False
+10-23 01:20:40.002 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:40.002 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:40.002 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:40.002 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:40.002 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:20:40.002 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:20:40.002 19294 19322 I Unity   : 
+10-23 01:20:40.003 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:20:40.003 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:40.003 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:40.003 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:40.003 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:40.003 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:20:40.003 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:20:40.003 19294 19322 I Unity   : 
+10-23 01:20:41.110 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=0.094457 frame=2139
+10-23 01:20:41.110 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:41.110 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:41.110 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:41.110 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:41.110 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:41.110 19294 19322 I Unity   : 
+10-23 01:20:41.110 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=0.095574 frame=2139
+10-23 01:20:41.110 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:41.110 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:41.110 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:41.110 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:41.110 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:41.110 19294 19322 I Unity   : 
+10-23 01:20:41.272 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=0.152482 frame=2140
+10-23 01:20:41.272 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:41.272 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:41.272 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:41.272 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:41.272 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:41.272 19294 19322 I Unity   : 
+10-23 01:20:41.273 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=0.153897 frame=2140
+10-23 01:20:41.273 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:41.273 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:41.273 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:41.273 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:41.273 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:41.273 19294 19322 I Unity   : 
+10-23 01:20:41.478 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=0.193903 frame=2141
+10-23 01:20:41.478 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:41.478 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:41.478 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:41.478 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:41.478 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:41.478 19294 19322 I Unity   : 
+10-23 01:20:41.479 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=0.195012 frame=2141
+10-23 01:20:41.479 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:41.479 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:41.479 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:41.479 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:41.479 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:41.479 19294 19322 I Unity   : 
+10-23 01:20:42.127 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=0.634176 frame=2142
+10-23 01:20:42.127 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:42.127 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:42.127 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:42.127 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:42.127 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:42.127 19294 19322 I Unity   : 
+10-23 01:20:42.127 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=0.635176 frame=2142
+10-23 01:20:42.127 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:42.127 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:42.127 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:42.127 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:42.127 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:42.127 19294 19322 I Unity   : 
+10-23 01:20:43.811 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=1.669453 frame=2143
+10-23 01:20:43.811 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:43.811 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:43.811 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:43.811 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:43.811 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:43.811 19294 19322 I Unity   : 
+10-23 01:20:43.811 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=1.670648 frame=2143
+10-23 01:20:43.811 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:43.811 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:43.811 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:43.811 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:43.811 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:43.811 19294 19322 I Unity   : 
+10-23 01:20:48.063 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=4.237006 frame=2144
+10-23 01:20:48.063 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:48.063 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:48.063 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:48.063 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:48.063 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:48.063 19294 19322 I Unity   : 
+10-23 01:20:48.064 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=4.238190 frame=2144
+10-23 01:20:48.064 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:48.064 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:48.064 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:48.064 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:48.064 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:48.064 19294 19322 I Unity   : 
+10-23 01:20:48.071 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=36 wall=8.068 maxDelta=1.683 focus=True background=False evidence=False
+10-23 01:20:48.071 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:48.071 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:48.071 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:48.071 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:48.071 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:20:48.071 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:20:48.071 19294 19322 I Unity   : 
+10-23 01:20:48.075 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:20:48.075 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:48.075 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:48.075 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:48.075 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:48.075 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:20:48.075 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:20:48.075 19294 19322 I Unity   : 
+10-23 01:20:56.409 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=8.322601 frame=2145
+10-23 01:20:56.409 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:56.409 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:56.409 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:56.409 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:56.409 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:56.409 19294 19322 I Unity   : 
+10-23 01:20:56.410 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=8.323854 frame=2145
+10-23 01:20:56.410 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:56.410 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:56.410 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:56.410 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:56.410 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:20:56.410 19294 19322 I Unity   : 
+10-23 01:20:56.418 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=1 wall=8.346 maxDelta=4.262 focus=True background=False evidence=False
+10-23 01:20:56.418 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:56.418 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:56.418 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:56.418 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:56.418 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:20:56.418 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:20:56.418 19294 19322 I Unity   : 
+10-23 01:20:56.419 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:20:56.419 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:20:56.419 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:20:56.419 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:20:56.419 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:20:56.419 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:20:56.419 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:20:56.419 19294 19322 I Unity   : 
+10-23 01:21:17.525 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=21.098495 frame=2146
+10-23 01:21:17.525 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:21:17.525 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:21:17.525 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:21:17.525 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:21:17.525 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:21:17.525 19294 19322 I Unity   : 
+10-23 01:21:17.526 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=21.099972 frame=2146
+10-23 01:21:17.526 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:21:17.526 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:21:17.526 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:21:17.526 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:21:17.526 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:21:17.526 19294 19322 I Unity   : 
+10-23 01:21:17.535 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=1 wall=21.117 maxDelta=8.337 focus=True background=False evidence=False
+10-23 01:21:17.535 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:21:17.535 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:21:17.535 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:21:17.535 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:21:17.535 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:21:17.535 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:21:17.535 19294 19322 I Unity   : 
+10-23 01:21:17.537 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:21:17.537 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:21:17.537 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:21:17.537 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:21:17.537 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:21:17.537 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:21:17.537 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:21:17.537 19294 19322 I Unity   : 
+10-23 01:21:56.394 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate seconds=38.833166 frame=2147
+10-23 01:21:56.394 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:21:56.394 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:21:56.394 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:21:56.394 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:21:56.394 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:21:56.394 19294 19322 I Unity   : 
+10-23 01:21:56.395 19294 19322 I Unity   : FOREST_SLOW_LOOP UnityEngine.PlayerLoop.EarlyUpdate seconds=38.834755 frame=2147
+10-23 01:21:56.395 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:21:56.395 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:21:56.395 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:21:56.395 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:21:56.395 19294 19322 I Unity   : ForestShop.ForestApp/<>c__DisplayClass79_0:<WrapLoop>b__1 () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:48)
+10-23 01:21:56.395 19294 19322 I Unity   : 
+10-23 01:21:56.403 19294 19322 I Unity   : FOREST_FRAME_PROBE frames=1 wall=38.867 maxDelta=21.138 focus=True background=False evidence=False
+10-23 01:21:56.403 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:21:56.403 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:21:56.403 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:21:56.403 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:21:56.403 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:71)
+10-23 01:21:56.403 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:21:56.403 19294 19322 I Unity   : 
+10-23 01:21:56.404 19294 19322 I Unity   : FOREST_RENDER_PROBE mode=normal renderers=137
+10-23 01:21:56.404 19294 19322 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/sharedspace/ra_2022.3/Runtime/Export/Scripting/StackTrace.cs:37)
+10-23 01:21:56.404 19294 19322 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+10-23 01:21:56.404 19294 19322 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+10-23 01:21:56.404 19294 19322 I Unity   : UnityEngine.Debug:Log (object)
+10-23 01:21:56.404 19294 19322 I Unity   : ForestShop.ForestApp:DiagnosticsUpdate () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestDiagnostics.cs:78)
+10-23 01:21:56.404 19294 19322 I Unity   : ForestShop.ForestApp:Update () (at E:/UnityProject/IdleGame/Tools/AndroidBuildProject/Assets/Scripts/Runtime/ForestApp.cs:88)
+10-23 01:21:56.404 19294 19322 I Unity   : 
