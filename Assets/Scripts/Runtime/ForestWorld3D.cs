@@ -33,7 +33,7 @@ namespace ForestShop
         Transform worldRoot, portraitRoot, sideClosed, sideOpen, lowerRoom, upperRoom, canopy, roof, oak, landscape, woodland;
         Transform shopArea, workshopArea, gardenArea, workshopRoof, shopRoofCap, workshopRoofCap;
         static readonly Vector3 ShopOrigin = V(.5f, -3.726f, 5.3f);
-        static readonly Vector3 WorkshopOrigin = V(-7.2f, 0, -1.6f);
+        static readonly Vector3 WorkshopOrigin = V(-8.3f, 0, -7.0f);
         static readonly Vector3 GardenOrigin = V(3, 0, -9.1f);
         RenderTexture fullView, closeView;
         readonly Transform[] plots = new Transform[Catalog.MaxPlots], cropModels = new Transform[Catalog.MaxPlots * 4], shelves = new Transform[4], goods = new Transform[24], machines = new Transform[2], visitors = new Transform[5];
@@ -89,7 +89,7 @@ namespace ForestShop
             View = region == 0 ? fullView : closeView; worldCamera.targetTexture = View;
             Vector3 focus = region == 1 ? gardenArea.TransformPoint(V(0, .4f, .05f))
                 : region == 2 ? workshopArea.TransformPoint(V(0, 2.4f, -.2f))
-                : region == 3 ? shopArea.TransformPoint(V(.55f, 5.7f, .1f)) : transform.position + V(-.8f, 2.2f, -2.7f);
+                : region == 3 ? shopArea.TransformPoint(V(.55f, 5.7f, .1f)) : transform.position + V(-2.0f, 2.2f, -2.7f);
             worldCamera.orthographicSize = region == 0 ? 16.4f : region == 1 ? 7.1f : region == 2 ? 6.25f : 6.85f;
             worldCamera.transform.position = focus + (region == 0 ? V(3.5f, 25, -33) : region == 1 ? V(.7f, 18, -15) : V(2, 7, -18));
             worldCamera.transform.LookAt(focus);
@@ -226,16 +226,17 @@ namespace ForestShop
             foreach (var origin in new[] { V(ShopOrigin.x, 0, ShopOrigin.z), WorkshopOrigin })
                 for (int step = 0; step < 4; step++)
                     Box(ground, "Independent porch step", origin + V(-.65f, .2f + step * .22f, -2.65f + step * .3f), V(2.7f - step * .15f, .22f, .48f), Hex(0xAEAE98));
-            StonePath(ground, V(-.2f, .14f, 2.4f), V(-3.2f, .14f, .9f), 8);
-            StonePath(ground, V(-3.2f, .14f, .9f), V(-7.8f, .14f, -4.7f), 14);
-            StonePath(ground, V(-6.9f, .14f, -4.8f), V(-2.4f, .14f, -6.4f), 10);
-            StonePath(ground, V(-2.4f, .14f, -4.5f), V(-2.4f, .14f, -14.3f), 21);
+            StonePath(ground, V(-.2f, .14f, 2.4f), V(-2.4f, .14f, .5f), 6);
+            StonePath(ground, V(-2.4f, .14f, .5f), V(-2.4f, .14f, -14.3f), 28);
+            StonePath(ground, V(-2.4f, .14f, -10.6f), V(-8.95f, .14f, -10.6f), 14);
+            StonePath(ground, V(-8.95f, .14f, -10.6f), V(-8.95f, .14f, -9.65f), 2);
             StonePath(ground, V(-2.4f, .14f, -6.4f), V(6.8f, .14f, -6.4f), 19);
             StonePath(ground, V(-2.4f, .14f, -11.8f), V(6.8f, .14f, -11.8f), 19);
             for (int i = 0; i < 34; i++)
             {
                 float a = i * 2.39996f; var at = V(-1.7f + Mathf.Sin(a) * 12.1f, .14f, -3 + Mathf.Cos(a) * 14.7f);
                 if (at.x > -2 && at.x < 9 && at.z > -15.5f && at.z < -3.4f) continue;
+                if (at.x > -14.2f && at.x < -2.2f && at.z > -11.3f && at.z < -3.2f) continue;
                 Ball(ground, "Clearing edge shrub", at + V(0, .2f, 0), V(.85f + i % 3 * .14f, .65f, .85f), i % 2 == 0 ? Leaf : Moss);
                 if (i % 3 == 0) ForestModels.Flower(ground, at + V(.16f, .61f, -.08f), .11f, Cream);
                 for (int j = 0; j < 3; j++) Shape(ground, "Forest floor fern", OakLeaf(), at + V((j - 1) * .14f, .05f, -.5f), V(.3f, .4f, .7f), Deep, V(-35, i * 27 + j * 55, 0));
@@ -285,7 +286,7 @@ namespace ForestShop
             workshopRoofCap = RoofCap(workshopArea, "Workshop cutaway rear roof", 5.15f, true);
             var supplies = Group(workshopArea, "Workshop outdoor supplies");
             ForestModels.Pot(supplies, V(-4.8f, .16f, -1.8f), 1.25f, false);
-            for (int i = 0; i < 4; i++) Box(supplies, "Stacked supply crate", V(4.8f, .4f + i / 2 * .58f, -1.5f + i % 2 * .7f), V(.75f, .56f, .63f), i % 2 == 0 ? Honey : Wood);
+            for (int i = 0; i < 4; i++) Box(supplies, "Stacked supply crate", V(4.55f, .4f + i / 2 * .58f, -1.5f + i % 2 * .7f), V(.75f, .56f, .63f), i % 2 == 0 ? Honey : Wood);
             Combine(supplies);
             GardenBorders();
             Physics.SyncTransforms();
