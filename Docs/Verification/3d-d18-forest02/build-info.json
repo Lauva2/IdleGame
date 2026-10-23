@@ -1,0 +1,18 @@
+{
+  "candidate": "3d-d18-forest02",
+  "sha256": "A9112E6E93CB9C67FBC7A4EA21B1E74657DB5205627AF9C7B3FFD76FCE0D15E3",
+  "bytes": 45023249,
+  "sourceFiles": 145,
+  "unity": "2022.3.62f2 / 7670c08855a9",
+  "development": false,
+  "backend": "IL2CPP Release",
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "apk": "E:\\UnityProject\\IdleGame\\Builds\\Android\\3d-d18-forest02\\ForestShop-3d-d18-forest02.apk",
+  "buildUtc": "2026-10-23T17:58:36.653630+00:00",
+  "changeFromForest01": "Only hide projected badges before they overlap bottom camera controls. All meshes, shaders, camera, routes, gameplay and sound unchanged.",
+  "gate": "Independent full art assessment pending; sound quality pending; physical device unverified by accepted scope",
+  "sourceZipSha256": "19650EC64A2AA916F09710C83CC3F2022C159DD5E4FA1C5B80D1B7F1CA360323"
+}

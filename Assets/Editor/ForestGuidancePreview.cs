@@ -17,7 +17,18 @@ namespace ForestShop.Editor
     public static class ForestGuidancePreview
     {
         const string Pending = "ForestGuidancePreview.Pending";
-        const string Output = "Builds/Previews/3d-d16-icons";
+        static readonly string Output = PreviewOutput();
+        static string PreviewOutput()
+        {
+            var args = Environment.GetCommandLineArgs();
+            for (int i = 0; i < args.Length - 1; i++) if (args[i] == "-forestPreviewOutput")
+            {
+                string output = Path.GetFullPath(args[i + 1]);
+                if (!output.StartsWith(Path.GetFullPath("Builds/Previews") + Path.DirectorySeparatorChar, StringComparison.OrdinalIgnoreCase)) throw new ArgumentException("Preview output must be inside Builds/Previews");
+                return output;
+            }
+            return "Builds/Previews/3d-d16-icons";
+        }
         const BindingFlags Private = BindingFlags.Instance | BindingFlags.NonPublic;
         static ForestApp app;
         static readonly StringBuilder checks = new StringBuilder();
@@ -66,6 +77,7 @@ namespace ForestShop.Editor
             foreach (var visual in UnityEngine.Object.FindObjectsOfType<ForestButtonVisual>())
                 typeof(ForestButtonVisual).GetMethod("LateUpdate", Private).Invoke(visual, null);
             World.Bind(app.State); World.RenderNow();
+            foreach (var marker in UnityEngine.Object.FindObjectsOfType<ForestWorldMarker>()) marker.Refresh();
             // Static layout preview after transient feedback. No real-time claim.
             Field<Text>("toastLabel").transform.parent.gameObject.SetActive(false);
             CaptureHud(name);

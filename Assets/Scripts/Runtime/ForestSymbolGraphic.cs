@@ -7,7 +7,7 @@ namespace ForestShop
     {
         Coin, Reputation, Settings, Home, Garden, Workshop, Shop, Orders,
         Collection, Warehouse, Expand, Decoration, Harvest, Shelf, Timer,
-        Loop, Check, Lock, Reserved, Empty, Info, Arrow, Close, Tea
+        Loop, Check, Lock, Reserved, Empty, Info, Arrow, Close, Tea, ZoomIn, ZoomOut, Recenter
     }
 
     // Small, original woodland UI illustrations. Native geometry stays crisp
@@ -31,6 +31,16 @@ namespace ForestShop
             blue = lightPalette ? C(192, 220, 209) : C(122, 174, 165);
             switch (symbol)
             {
+                case ForestSymbol.ZoomIn:
+                case ForestSymbol.ZoomOut:
+                    Arc(27, 36, 17, 0, 360, 4, edge); Line(39, 23, 55, 7, 5, edge);
+                    Line(18, 36, 36, 36, 4, green);
+                    if (symbol == ForestSymbol.ZoomIn) Line(27, 27, 27, 45, 4, green);
+                    break;
+                case ForestSymbol.Recenter:
+                    Arc(32, 32, 16, 0, 360, 3, edge); Disk(32, 32, 5, gold);
+                    Line(32, 6, 32, 20, 4, green); Line(32, 44, 32, 58, 4, green);
+                    Line(6, 32, 20, 32, 4, green); Line(44, 32, 58, 32, 4, green); break;
                 case ForestSymbol.Coin:
                     Disk(28, 28, 20, edge); Disk(28, 29, 16, gold); Arc(28, 29, 11, 35, 305, 2.5f, paper);
                     Leaf(28, 29, 7, 11, -28, green); Line(28, 21, 28, 36, 2, paper); break;

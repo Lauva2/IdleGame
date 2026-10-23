@@ -39,6 +39,7 @@
 .DS_Store
 Thumbs.db
 Desktop.ini
+/ArtSource/*.blend[0-9]
 
 # Local credentials, signing files and machine-specific configuration
 .env
@@ -132,3 +133,13 @@ Desktop.ini
 !/Docs/Verification/3d-d17-playtest01/Evidence/13-fresh-recipe-sheet.png
 !/Docs/Verification/3d-d17-playtest01/Evidence/17-fresh-actual-first-sale.png
 !/Docs/Verification/3d-d17-playtest01/Evidence/20-restored-report-bottom.png
+
+# Selected original final d18 frames; raw movies and bulk frames remain local.
+!/Docs/Verification/3d-d18-forest02/Evidence/73-ordinary-final-map.png
+!/Docs/Verification/3d-d18-forest02/Evidence/16-twelve-garden.png
+!/Docs/Verification/3d-d18-forest02/Evidence/19-workshop-live.png
+!/Docs/Verification/3d-d18-forest02/Evidence/20-shop-live.png
+!/Docs/Verification/3d-d18-forest02/Evidence/52-empty-reserved-shelf-symbols.png
+!/Docs/Verification/3d-d18-forest02/Evidence/70-ordinary-moved-ray-picks-first-plot.png
+!/Docs/Verification/3d-d18-forest02/Evidence/Narrow/07-order-shortage.png
+!/Docs/Verification/3d-d18-forest02/Evidence/SafeTall/06-chapter-bottom.png

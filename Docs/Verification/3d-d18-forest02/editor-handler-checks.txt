@@ -1,0 +1,33 @@
+PASS Inactive app has not opened SaveStore
+PASS UI handler exists: 接过钥匙
+PASS Welcome opens garden
+PASS Named UI handler exists: Opening action
+PASS Harvest routes to workshop
+PASS Named UI handler exists: Opening action
+PASS Workshop guide opens recipe sheet
+PASS UI handler exists: 循环制作
+PASS Recipe handler routes to shop
+PASS Named UI handler exists: Opening action
+PASS Shop guide opens shelf sheet
+PASS UI handler exists: 选择售卖
+PASS Shelf handler arms automatic sales
+PASS In-memory simulation reaches first sale
+PASS Named UI handler exists: Opening action
+PASS Completion guide opens orders
+PASS Only next bed has expansion supplies
+PASS Distant future bed remains quiet
+PASS Next bed ray opens expansion conditions
+PASS UI handler exists: 扩建地块
+PASS Actual expansion UI buys only next bed at existing cost
+PASS Far bed ray explains sequential expansion
+PASS Four distant future buttons do not skip expansion order
+PASS Named UI handler exists: Goal details
+PASS Header information icon opens full chapter requirements
+PASS Named UI handler exists: Garden details
+PASS Garden information icon opens full cost and ordering explanation
+PASS Empty, unconfigured, reserved and locked shelf meanings remain distinct
+PASS Named UI handler exists: Shelf details
+PASS In-scene information button opens written shelf icon meanings
+PASS Live symbols have renderers and never intercept UI or scene rays
+PASS Exactly current bottom navigation has selected symbol palette
+PASS No active app, SaveStore or normal-player persistence

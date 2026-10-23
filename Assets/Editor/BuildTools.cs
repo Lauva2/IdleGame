@@ -15,6 +15,7 @@ namespace ForestShop.Editor
         public static void Prepare()
         {
             StartupBranding.Configure();
+            ForestAppIcon.Configure();
             PlayerSettings.companyName = "Forest Atelier";
             PlayerSettings.productName = "林间奇物铺";
             PlayerSettings.bundleVersion = "0.1.0";

@@ -100,7 +100,14 @@ namespace ForestShop
             float viewHeight = world.Region == 0 ? 1320 : 1280;
             var view = Rect(content, "Live 3D treehouse", 0, viewTop, 1080, viewHeight);
             var image = view.gameObject.AddComponent<RawImage>(); image.texture = world.View;
+            view.gameObject.AddComponent<RectMask2D>();
             var pointer = view.gameObject.AddComponent<ForestWorldPointer>(); pointer.world = world;
+            IconButton(view, "", ForestSymbol.ZoomOut, 730, viewHeight - 108, 96, 88, () => world.Zoom(1.22f)).name = "Map zoom out";
+            IconButton(view, "", ForestSymbol.ZoomIn, 840, viewHeight - 108, 96, 88, () => world.Zoom(1 / 1.22f)).name = "Map zoom in";
+            IconButton(view, "", ForestSymbol.Recenter, 950, viewHeight - 108, 96, 88, world.ResetCamera).name = "Map recenter";
+            var gestureHint = Panel(view, "Camera gestures", Paper, 28, viewHeight - 89, 386, 54);
+            gestureHint.GetComponent<Image>().raycastTarget = false;
+            Label(gestureHint, "拖动平移 · 双指缩放", 24, Sage, 8, 0, 370, 54, TextAnchor.MiddleCenter);
             if (world.Region == 3)
                 IconButton(view, "", ForestSymbol.Info, 956, 16, 96, 88, ShowShelfHelp).name = "Shelf details";
             if (world.Region == 1) for (int i = 0; i < Catalog.MaxPlots; i++)
@@ -111,6 +118,7 @@ namespace ForestShop
                 var badge = Panel(view, "Garden marker " + (i + 1), next ? Sage : built ? Paper : new Color32(231, 235, 219, 255), Mathf.Clamp(at.x * 1080 - width / 2, 4, 1076 - width), Mathf.Clamp((1 - at.y) * viewHeight - 25, 4, viewHeight - 58), width, 54);
                 badge.GetComponent<Image>().raycastTarget = false;
                 Label(badge, (next ? "+ " : "") + (i + 1), next ? 27 : 29, next ? Paper : built ? Sage : Muted, 0, 0, width, 54, TextAnchor.MiddleCenter);
+                var marker = badge.gameObject.AddComponent<ForestWorldMarker>(); marker.world = world; marker.index = i;
             }
             if (world.Region == 3) for (int i = 0; i < 4; i++)
             {
@@ -120,8 +128,10 @@ namespace ForestShop
                 Label(badge, (n + 1).ToString(), 28, Sage, 3, 0, 35, 60, TextAnchor.MiddleCenter);
                 var status = Symbol(badge, ShelfSymbol(n), 39, 6, 48);
                 bindings.Add(() => status.Symbol = ShelfSymbol(n));
+                var marker = badge.gameObject.AddComponent<ForestWorldMarker>(); marker.world = world; marker.index = i; marker.shelf = true;
             }
-            var hint = IconButton(content, "经营说明", ForestSymbol.Info, 400, viewTop + viewHeight + 12, 280, 72, () => { if (world.Region == 3) ShowShelfHelp(); else ShowGoal(); });
+            IconButton(content, "设施", ForestSymbol.Arrow, 60, viewTop + viewHeight + 12, 280, 72, () => { Canvas.ForceUpdateCanvases(); var scroll = content.parent.GetComponent<ScrollRect>(); float excess = content.rect.height - scroll.viewport.rect.height; scroll.verticalNormalizedPosition = excess > 0 ? Mathf.Clamp01(1 - (viewTop + viewHeight + 104) / excess) : 1; });
+            var hint = IconButton(content, "经营说明", ForestSymbol.Info, 710, viewTop + viewHeight + 12, 310, 72, () => { if (world.Region == 3) ShowShelfHelp(); else ShowGoal(); });
             hint.GetComponentInChildren<Text>().fontSize = 25;
             float y = viewTop + viewHeight + 106;
             if (world.Region == 1)
@@ -367,7 +377,8 @@ namespace ForestShop
                 var f = State.shelves[index]; Paragraph("货架直接出售公共仓库的商品；订单预留部分不会被卖出。基础销售间隔 8 秒。", 130);
                 for (int i = 0; i < 6; i++)
                 {
-                    int item = i; Row(Catalog.Items[i], "库存 " + State.items[i] + "/" + Engine.Capacity + " · 预留 " + Engine.Reserved(i) + "\n售价 " + Catalog.Price[i] + " 金币", 4 + i, f.config == i ? "已售卖" : "选择售卖", () => Act(() => Engine.ConfigureShelf(index, item), "货架售卖品已保存。"), Engine.ItemUnlocked(i));
+                    int item = i; bool unlocked = Engine.ItemUnlocked(i);
+                    Row(Catalog.Items[i], unlocked ? "库存 " + State.items[i] + "/" + Engine.Capacity + " · 预留 " + Engine.Reserved(i) + "\n售价 " + Catalog.Price[i] + " 金币" : "解锁：声望 " + Catalog.Unlock[i] + (Catalog.Machine[i] == 1 ? " · 修复附魔台" : ""), 4 + i, f.config == i ? "已售卖" : "选择售卖", () => Act(() => Engine.ConfigureShelf(index, item), "货架售卖品已保存。"), unlocked);
                 }
                 UpgradeRow(f);
             }

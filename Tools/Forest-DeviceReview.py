@@ -1,0 +1,33 @@
+"""Explicit ADB review plans. Captures original framebuffer, never edits images.
+Usage: python Tools/Forest-DeviceReview.py plan.json
+Plan keys: directory, steps. Actions: tap [x,y], swipe [x,y,x2,y2,ms],
+wait seconds (<=15), shot name, back true. Every command is timestamped.
+Prepared progression is stored separately and must be labelled by its caller.
+"""
+import subprocess, json, sys, time, re, datetime
+from pathlib import Path
+
+ROOT=Path(__file__).resolve().parents[1]
+ADB=ROOT/'Tools/AndroidSdk/platform-tools/adb.exe'
+BASE=[str(ADB),'-P','5038','-s','127.0.0.1:16385']
+plan=json.loads(Path(sys.argv[1]).read_text(encoding='utf-8-sig'))
+dest=(ROOT/plan['directory']).resolve()
+assert dest.is_relative_to(ROOT/'Docs/Verification')
+dest.mkdir(parents=True,exist_ok=True)
+log=dest/'actions.jsonl'
+def run(*args):
+    return subprocess.check_output(BASE+list(map(str,args)))
+for step in plan['steps']:
+    begin=datetime.datetime.now(datetime.timezone.utc).isoformat()
+    if 'tap' in step: run('shell','input','tap',*step['tap']); time.sleep(.4)
+    elif 'swipe' in step: run('shell','input','swipe',*step['swipe']); time.sleep(.4)
+    elif 'wait' in step: assert 0<=step['wait']<=15; time.sleep(step['wait'])
+    elif 'back' in step: run('shell','input','keyevent','KEYCODE_BACK'); time.sleep(.4)
+    elif 'shot' in step:
+        assert re.fullmatch(r'[a-zA-Z0-9_-]+',step['shot'])
+        focus=run('shell','dumpsys','window').decode(errors='replace')
+        assert re.search(r'mCurrentFocus=.*com\.forestatelier\.curioshop',focus), 'Game is not focused'
+        (dest/(step['shot']+'.png')).write_bytes(run('exec-out','screencap','-p'))
+    else: raise ValueError(step)
+    with log.open('a',encoding='utf8') as f: f.write(json.dumps({'utc':begin,'step':step},ensure_ascii=False)+'\n')
+    print(step,flush=True)

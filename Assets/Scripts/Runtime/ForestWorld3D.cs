@@ -10,17 +10,57 @@ namespace ForestShop
 {
     public sealed class ForestObject3D : MonoBehaviour { public string kind; public int index; }
 
-    public sealed class ForestWorldPointer : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+    // Marker geometry follows the same camera as the world every frame,
+    // including with reduced animation enabled. Off-screen labels stay hidden.
+    public sealed class ForestWorldMarker : MonoBehaviour
     {
-        public ForestWorld3D world; Vector2 start;
-        public void OnPointerDown(PointerEventData e) { start = e.position; }
+        public ForestWorld3D world; public int index; public bool shelf;
+        public void Refresh()
+        {
+            var rect = (RectTransform)transform; var parent = (RectTransform)rect.parent;
+            Vector2 at = shelf ? world.ShelfMarker(index) : world.PlotMarker(index);
+            bool visible = at.x > .03f && at.x < .97f && at.y > .035f && at.y < .97f;
+            // Keep the full badge above the fixed camera controls and gesture legend.
+            if (at.y < .125f && (at.x > .65f || at.x < .42f)) visible = false;
+            foreach (var g in GetComponentsInChildren<Graphic>()) g.enabled = visible;
+            rect.anchoredPosition = new Vector2(at.x * parent.rect.width - rect.rect.width / 2, -(1 - at.y) * parent.rect.height + rect.rect.height / 2);
+        }
+        void LateUpdate() { Refresh(); }
+    }
+
+    public sealed class ForestWorldPointer : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IBeginDragHandler, IDragHandler, IEndDragHandler, IScrollHandler
+    {
+        public ForestWorld3D world;
+        Vector2 start; bool dragged, pinched; float pinchDistance;
+        readonly HashSet<int> fingers = new HashSet<int>();
+        Vector2 UV(Vector2 screen, Camera camera)
+        {
+            var rect = (RectTransform)transform;
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(rect, screen, camera, out var p);
+            return new Vector2((p.x - rect.rect.x) / rect.rect.width, (p.y - rect.rect.y) / rect.rect.height);
+        }
+        public void OnPointerDown(PointerEventData e) { start = e.position; if (fingers.Count == 0) { dragged = pinched = false; } fingers.Add(e.pointerId); }
         public void OnPointerUp(PointerEventData e)
         {
-            if (Vector2.Distance(start, e.position) > 18) return;
-            var rect = (RectTransform)transform;
-            if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rect, e.position, e.pressEventCamera, out var local))
-                world.Pick(new Vector2((local.x - rect.rect.x) / rect.rect.width, (local.y - rect.rect.y) / rect.rect.height));
+            fingers.Remove(e.pointerId);
+            if (dragged || pinched || Vector2.Distance(start, e.position) > 18) return;
+            world.Pick(UV(e.position, e.pressEventCamera));
         }
+        public void OnBeginDrag(PointerEventData e) { dragged = true; }
+        public void OnDrag(PointerEventData e)
+        { if (!pinched && Input.touchCount < 2) world.Pan(UV(e.position - e.delta, e.pressEventCamera), UV(e.position, e.pressEventCamera)); }
+        public void OnEndDrag(PointerEventData e) { }
+        public void OnScroll(PointerEventData e) { world.Zoom(Mathf.Pow(.86f, e.scrollDelta.y)); }
+        void Update()
+        {
+            if (Input.touchCount < 2) { pinchDistance = 0; return; }
+            var a = Input.GetTouch(0); var b = Input.GetTouch(1);
+            if (!fingers.Contains(a.fingerId) || !fingers.Contains(b.fingerId)) return;
+            pinched = true; float distance = Vector2.Distance(a.position, b.position);
+            if (pinchDistance > 8 && distance > 8) world.Zoom(pinchDistance / distance);
+            pinchDistance = distance;
+        }
+        void OnDisable() { fingers.Clear(); pinchDistance = 0; }
     }
 
     public sealed class ForestWorld3D : MonoBehaviour
@@ -32,9 +72,9 @@ namespace ForestShop
         Camera worldCamera, portraitCamera;
         Transform worldRoot, portraitRoot, sideClosed, sideOpen, lowerRoom, upperRoom, canopy, roof, oak, landscape, woodland;
         Transform shopArea, workshopArea, gardenArea, workshopRoof, shopRoofCap, workshopRoofCap, workshopFrontBeam;
-        static readonly Vector3 ShopOrigin = V(-.2f, -3.726f, 8.2f);
-        static readonly Vector3 WorkshopOrigin = V(-11, 0, -7.5f);
-        static readonly Vector3 GardenOrigin = V(4.5f, 0, -10.1f);
+        static readonly Vector3 ShopOrigin = V(0, -3.726f, -10);
+        static readonly Vector3 WorkshopOrigin = V(-10, 0, 9);
+        static readonly Vector3 GardenOrigin = V(9, 0, 8);
         const float ShopDoorX = -5, ShopLaneZ = -2.6f;
         static float ShelfX(int index) => -2.8f + index * 2.35f;
         RenderTexture fullView, closeView;
@@ -51,6 +91,9 @@ namespace ForestShop
         float saleAt = -100;
         float visitEpoch;
         float lastDoorAt = -10;
+        Vector3 cameraFocus;
+        public float CameraSize => worldCamera.orthographicSize;
+        public Vector3 CameraFocus => cameraFocus - transform.position;
         static Vector3 V(float x, float y, float z) => new Vector3(x, y, z);
 
         public void Initialize()
@@ -77,7 +120,7 @@ namespace ForestShop
         }
         Camera CameraFor(string name, int layer, Transform parent)
         {
-            var c = Group(parent, name).gameObject.AddComponent<Camera>(); c.orthographic = true; c.nearClipPlane = .1f; c.farClipPlane = 100; c.cullingMask = 1 << layer; c.clearFlags = CameraClearFlags.SolidColor; c.allowHDR = false; c.allowMSAA = true; return c;
+            var c = Group(parent, name).gameObject.AddComponent<Camera>(); c.orthographic = true; c.nearClipPlane = .1f; c.farClipPlane = 180; c.cullingMask = 1 << layer; c.clearFlags = CameraClearFlags.SolidColor; c.allowHDR = false; c.allowMSAA = true; return c;
         }
         public void SetVisible(bool visible) { if (worldCamera != null) worldCamera.enabled = visible; }
         public void RestartVisitSequence() { visitEpoch = Time.unscaledTime; }
@@ -92,26 +135,51 @@ namespace ForestShop
             View = region == 0 ? fullView : closeView; worldCamera.targetTexture = View;
             Vector3 focus = region == 1 ? gardenArea.TransformPoint(V(0, .4f, .05f))
                 : region == 2 ? workshopArea.TransformPoint(V(0, 2.4f, -.2f))
-                : region == 3 ? shopArea.TransformPoint(V(.55f, 5.7f, .1f)) : transform.position + V(-4, 2.2f, -1.5f);
-            worldCamera.orthographicSize = region == 0 ? 20 : region == 1 ? 7.1f : region == 2 ? 6.25f : 6.85f;
-            worldCamera.transform.position = focus + (region == 0 ? V(3.5f, 25, -33) : region == 1 ? V(.7f, 18, -15) : V(2, 7, -18));
+                : region == 3 ? shopArea.TransformPoint(V(.55f, 5.7f, .1f)) : transform.position + V(-.5f, 1.8f, 0);
+            cameraFocus = focus;
+            worldCamera.orthographicSize = region == 0 ? 26 : region == 1 ? 7.1f : region == 2 ? 6.25f : 6.85f;
+            worldCamera.transform.position = focus + (region == 0 ? V(2, 36, -38) : region == 1 ? V(.7f, 18, -15) : V(2, 25, -23));
             worldCamera.transform.LookAt(focus);
-            workshopArea.gameObject.SetActive(region == 0 || region == 2);
-            shopArea.gameObject.SetActive(region == 0 || region == 3);
-            gardenArea.gameObject.SetActive(region == 0 || region == 1);
-            if (lowerRoom != null) lowerRoom.gameObject.SetActive(region == 0 || region == 2);
-            if (upperRoom != null) upperRoom.gameObject.SetActive(region == 0 || region == 3);
+            workshopArea.gameObject.SetActive(true);
+            shopArea.gameObject.SetActive(true);
+            gardenArea.gameObject.SetActive(true);
+            if (lowerRoom != null) lowerRoom.gameObject.SetActive(true);
+            if (upperRoom != null) upperRoom.gameObject.SetActive(true);
             if (canopy != null) canopy.gameObject.SetActive(region == 0);
             if (oak != null) oak.gameObject.SetActive(region == 0);
             if (landscape != null) landscape.gameObject.SetActive(true);
-            if (woodland != null) woodland.gameObject.SetActive(region == 0);
-            if (roof != null) roof.gameObject.SetActive(region == 0);
-            if (workshopRoof != null) workshopRoof.gameObject.SetActive(region == 0);
+            if (woodland != null) woodland.gameObject.SetActive(true);
+            if (roof != null) roof.gameObject.SetActive(region != 3);
+            if (workshopRoof != null) workshopRoof.gameObject.SetActive(region != 2);
             if (shopRoofCap != null) shopRoofCap.gameObject.SetActive(region == 3);
             if (workshopRoofCap != null) workshopRoofCap.gameObject.SetActive(region == 2);
             if (workshopFrontBeam != null) workshopFrontBeam.gameObject.SetActive(region == 0);
             if (state != null) Bind(state);
             if (region == 2 || region == 3) FitArea(region == 2 ? workshopArea : shopArea);
+        }
+        public void ResetCamera() { SetRegion(Region); }
+        public void Zoom(float factor)
+        {
+            worldCamera.orthographicSize = Mathf.Clamp(worldCamera.orthographicSize * factor, 5, 27);
+            ClampCamera();
+        }
+        Vector3 GroundPoint(Vector2 uv)
+        {
+            var ray = worldCamera.ViewportPointToRay(uv);
+            var plane = new Plane(Vector3.up, transform.position);
+            return plane.Raycast(ray, out float distance) ? ray.GetPoint(distance) : cameraFocus;
+        }
+        public void Pan(Vector2 previous, Vector2 current)
+        {
+            Vector3 move = GroundPoint(previous) - GroundPoint(current);
+            worldCamera.transform.position += move; cameraFocus += move; ClampCamera();
+        }
+        void ClampCamera()
+        {
+            float range = Mathf.Max(2, 28 - CameraSize);
+            var local = CameraFocus;
+            Vector3 bounded = V(Mathf.Clamp(local.x, -range - 1, range + 1), local.y, Mathf.Clamp(local.z, -range - 2, range + 3));
+            Vector3 move = bounded - local; cameraFocus += move; worldCamera.transform.position += move;
         }
         void FitArea(Transform area)
         {
@@ -120,7 +188,7 @@ namespace ForestShop
             float left = float.PositiveInfinity, bottom = float.PositiveInfinity, rightEdge = float.NegativeInfinity, top = float.NegativeInfinity;
             foreach (var r in area.GetComponentsInChildren<MeshRenderer>())
             {
-                if (!r.enabled) continue; Bounds b = r.bounds;
+                if (!r.enabled || r.GetComponentInParent<ForestResidentMotion>() != null) continue; Bounds b = r.bounds;
                 for (int x = -1; x <= 1; x += 2) for (int y = -1; y <= 1; y += 2) for (int z = -1; z <= 1; z += 2)
                 {
                     Vector3 point = b.center + Vector3.Scale(b.extents, V(x, y, z)) - origin;
@@ -129,31 +197,32 @@ namespace ForestShop
                 }
             }
             if (float.IsInfinity(left)) return;
-            worldCamera.transform.position += right * ((left + rightEdge) * .5f) + up * ((bottom + top) * .5f);
+            Vector3 shift = right * ((left + rightEdge) * .5f) + up * ((bottom + top) * .5f);
+            worldCamera.transform.position += shift; cameraFocus += shift;
             float aspect = (float)View.width / View.height;
             worldCamera.orthographicSize = Mathf.Max((top - bottom) * .5f, (rightEdge - left) * .5f / aspect) * 1.08f;
         }
         void BuildArchitecture()
         {
             var s = landscape = Group(worldRoot, "Forest garden ground");
-            Shape(s, "Broad forest courtyard clearing", Lathe(new[] { new Vector2(0, -.7f), new Vector2(5.6f, -.7f), new Vector2(6.7f, -.3f), new Vector2(6.9f, 0), new Vector2(6.7f, .12f), new Vector2(0, .12f) }, 64), V(-3.6f, 0, -1.8f), V(2.5f, 1, 3), Hex(0x90A477));
+            Box(s, "Continuous woodland terrain", V(0, -.34f, 0), V(180, .8f, 180), Hex(0x7E9466));
+            Shape(s, "Sunlit clearing blends into forest floor", Lathe(new[] { new Vector2(0, 0), new Vector2(20, 0), new Vector2(24, .025f), new Vector2(24.5f, .045f), new Vector2(22, .07f), new Vector2(0, .07f) }, 96), V(0, .03f, 1), V(1, 1, 1.12f), Hex(0x91A575));
             oak = Group(worldRoot, "Living oak trunk and boughs");
-            Sculpture(oak, "Continuous curved oak with spreading roots", "OakTrunk", Vector3.zero, Vector3.one, Color.white);
+            Sculpture(oak, "Blender sheltering oak", "CanopyOak", Vector3.zero, Vector3.one * 1.25f, Color.white);
             canopy = Group(worldRoot, "Oak leaf canopy");
-            canopy.localScale = V(1, .73f, 1); canopy.localPosition = V(0, 2.295f, 0);
-            Sculpture(canopy, "Asymmetric connected oak crown", "OakCrown", Vector3.zero, Vector3.one, Color.white);
-            LeafRelief(canopy, Vector3.zero, Vector3.one, Color.white);
-            woodland = Group(worldRoot, "Woodland edge behind the shop");
-            // Different age, lean and crown proportion establish a small grove.
-            Vector3[] treeAt = { V(-13.5f, .05f, 9.5f), V(10.8f, .05f, 9.8f), V(-8.8f, .05f, 13), V(6.2f, .05f, 14) };
-            Vector3[] treeScale = { V(.32f, .35f, .34f), V(.35f, .32f, .35f), V(.28f, .44f, .30f), V(.26f, .40f, .28f) };
-            for (int i = 0; i < treeAt.Length; i++)
+            woodland = Group(worldRoot, "Surrounding layered woodland");
+            string[] trees = { "CanopyOak", "SilverBirch", "WoodlandLinden" };
+            // Closed forest edge, staggered groves beyond it, one opening for the road.
+            for (int row = 0; row < 3; row++) for (int i = 0; i < 38 + row * 10; i++)
             {
-                var tree = Group(woodland, "Woodland oak " + i, treeAt[i]); tree.localScale = treeScale[i]; tree.localEulerAngles = V(0, -18 + i * 14, i == 0 ? -8 : i == 1 ? 5 : -3);
-                Sculpture(tree, "Young oak trunk", "WoodlandTrunk", Vector3.zero, Vector3.one, i < 2 ? Hex(0xCBD4BB) : Hex(0xD4DDC8));
-                Sculpture(tree, "Woodland crown", "WoodlandCrown", V(0, -9.1f, 0), V(1.12f, 1.6f, i == 1 ? 1 : 1.1f), i < 2 ? Hex(0xB8C7AE) : Hex(0xD1DDC7));
-                LeafRelief(tree, V(0, -9.1f, 0), V(1.12f, 1.6f, i == 1 ? 1 : 1.1f), i < 2 ? Hex(0xB8C7AE) : Hex(0xD1DDC7));
+                float a = (i + row * .43f) * Mathf.PI * 2 / (38 + row * 10);
+                var at = V(Mathf.Sin(a) * (23.5f + row * 7) + Mathf.Sin(i * 4.3f), .08f, 2 + Mathf.Cos(a) * (27 + row * 8));
+                if (at.z < -19 && Mathf.Abs(at.x + 5.4f) < 3.8f) continue;
+                float scale = .92f + (i * 7 % 9) * .045f + row * .07f;
+                Sculpture(woodland, "Blender grove " + row + " tree " + i, trees[(i + row) % 3], at, Vector3.one * scale,
+                    i % 4 == 0 ? Hex(0xE5E8CD) : Color.white).localEulerAngles = V(0, i * 137.5f, 0);
             }
+            Combine(woodland);
             for (int floor = 0; floor < 2; floor++)
             {
                 var room = Group(worldRoot, floor == 0 ? "Workshop cutaway" : "Shop cutaway"); if (floor == 0) lowerRoom = room; else upperRoom = room;
@@ -163,23 +232,20 @@ namespace ForestShop
                 if (floor == 0) Box(room, "Cream rear wall", V(0, y + 1.55f, 3.18f), V(12.1f, 3, .2f), Cream);
                 else
                 {
-                    Box(room, "Shop rear wall beside passage", V(.825f, y + 1.55f, 3.18f), V(10.5f, 3, .2f), Cream);
-                    Box(room, "Shop wall left of passage", V(-5.9f, y + 1.55f, 3.18f), V(.65f, 3, .2f), Cream);
-                    Box(room, "Passage lintel wall", V(ShopDoorX, y + 2.7f, 3.18f), V(1.15f, .7f, .2f), Cream);
-                    Box(room, "Passage floor continues behind curtain", V(ShopDoorX, y, 4.8f), V(1.5f, .15f, 3.4f), Wood);
-                    Box(room, "Shaded passage rear", V(ShopDoorX, y + 1.2f, 6.45f), V(1.5f, 2.4f, .15f), DarkWood);
+                    Box(room, "Shop cream rear wall", V(0, y + 1.55f, 3.18f), V(12.1f, 3, .2f), Cream);
                     for (int side = -1; side <= 1; side += 2)
-                        Box(room, "Passage side wall", V(ShopDoorX + side * .74f, y + 1.2f, 4.8f), V(.16f, 2.4f, 3.4f), Cream);
+                        Box(room, "Front door oak jamb", V(ShopDoorX + side * .72f, y + 1.2f, -3.63f), V(.14f, 2.4f, .2f), Wood);
+                    Box(room, "Front door lintel", V(ShopDoorX, y + 2.47f, -3.63f), V(1.58f, .18f, .26f), Honey);
                     // Moving panels stay outside the static room mesh batch.
                     for (int side = 0; side < 2; side++)
                     {
-                        var panel = passageCurtains[side] = Group(worldRoot, "Parting linen panel " + side, V(ShopDoorX, y + 2.08f, 3.02f));
+                        var panel = passageCurtains[side] = Group(worldRoot, "Parting linen panel " + side, V(ShopDoorX, y + 2.08f, -3.64f));
                         for (int fold = 0; fold < 5; fold++)
                             Ball(panel, "Soft hanging linen fold", V((side == 0 ? -1 : 1) * (.055f + fold * .116f), -1.04f, 0), V(.16f, 2.06f, .12f), fold % 2 == 0 ? Deep : Leaf);
                         Combine(panel);
                     }
-                    Tube(room, "Passage curtain rail", V(ShopDoorX - .57f, y + 2.16f, 3), V(ShopDoorX + .62f, y + 2.16f, 3), .055f, Honey);
-                    Box(room, "Doorway threshold", V(ShopDoorX, y + .09f, 3.07f), V(1.2f, .09f, .45f), Honey);
+                    Tube(room, "Entrance curtain rail", V(ShopDoorX - .65f, y + 2.16f, -3.64f), V(ShopDoorX + .65f, y + 2.16f, -3.64f), .045f, Honey);
+                    Box(room, "Doorway threshold", V(ShopDoorX, y + .09f, -3.68f), V(1.3f, .09f, .45f), Honey);
                 }
                 for (int i = -3; i <= 3; i++)
                     Box(room, "Timber wall upright", V(i * 2, y + 1.55f, 3.02f), V(.13f, 3.2f, .19f), Wood);
@@ -255,25 +321,56 @@ namespace ForestShop
         }
         void CourtyardPaths(Transform ground)
         {
-            foreach (var origin in new[] { V(ShopOrigin.x, 0, ShopOrigin.z), WorkshopOrigin })
-                for (int step = 0; step < 4; step++)
-                    Box(ground, "Independent porch step", origin + V(-.65f, .2f + step * .22f, -4.7f + step * .3f), V(3.2f - step * .15f, .22f, .48f), Hex(0xAEAE98));
-            StonePath(ground, V(-.85f, .14f, 3.5f), V(-2.2f, .14f, 1.1f), 6);
-            StonePath(ground, V(-2.2f, .14f, 1.1f), V(-2.2f, .14f, -15.3f), 31);
-            StonePath(ground, V(-11.65f, .14f, -12.2f), V(-11.65f, .14f, -12.8f), 1);
-            StonePath(ground, V(-11.65f, .14f, -12.8f), V(-2.2f, .14f, -12.8f), 18);
-            StonePath(ground, V(-2.2f, .14f, -7.4f), V(8.3f, .14f, -7.4f), 21);
-            StonePath(ground, V(-2.2f, .14f, -12.8f), V(8.3f, .14f, -12.8f), 21);
-            for (int i = 0; i < 34; i++)
+            for (int step = 0; step < 5; step++)
             {
-                float a = i * 2.39996f; var at = V(-3.6f + Mathf.Sin(a) * 15.5f, .14f, -1.8f + Mathf.Cos(a) * 18.9f);
-                if (at.x > -1 && at.x < 11 && at.z > -17 && at.z < -3.5f) continue;
-                if (at.x > -19 && at.x < -3 && at.z > -13 && at.z < -3) continue;
-                if (at.x > -8 && at.x < 10 && at.z > 3 && at.z < 16) continue;
-                Ball(ground, "Clearing edge shrub", at + V(0, .2f, 0), V(.85f + i % 3 * .14f, .65f, .85f), i % 2 == 0 ? Leaf : Moss);
+                Box(ground, "Shop entrance stone stair", V(-5.4f, .18f + step * .23f, -15.8f + step * .45f), V(2.5f, .25f, .53f), Hex(0xB9B69B));
+                Box(ground, "Workshop porch stair", WorkshopOrigin + V(-.65f, .18f + step * .23f, -5.8f + step * .42f), V(3.1f, .25f, .52f), Hex(0xB9B69B));
+            }
+            // The broad public road ends at the shop's front doorway.
+            DirtPath(ground, V(-5.4f, .105f, -48), V(-5.4f, .105f, -16), 3.0f);
+            // Private paths go around the shop and branch in the clearing behind it.
+            DirtPath(ground, V(-5.4f, .105f, -16), V(-9.2f, .105f, -15.8f), 1.4f);
+            DirtPath(ground, V(-9.2f, .105f, -15.8f), V(-9.2f, .105f, -.5f), 1.4f);
+            StonePath(ground, V(-9.2f, .14f, -.5f), V(-10.65f, .14f, 3.3f), 9);
+            StonePath(ground, V(-9.2f, .14f, -.5f), V(3.7f, .14f, -.5f), 24);
+            StonePath(ground, V(3.7f, .14f, -.5f), V(3.7f, .14f, 10.7f), 22);
+            StonePath(ground, V(3.7f, .14f, 5.3f), V(12.8f, .14f, 5.3f), 17);
+            StonePath(ground, V(3.7f, .14f, 10.7f), V(12.8f, .14f, 10.7f), 17);
+            // A small communal rest area gives the clearing a deliberate centre.
+            var rest = Group(ground, "Clearing rest place", V(-1.1f, .12f, 3.1f));
+            for (int i = 0; i < 3; i++) Box(rest, "Bench seat plank", V(0, .72f, -.22f + i * .22f), V(2.5f, .12f, .2f), Honey);
+            for (int side = -1; side <= 1; side += 2)
+            {
+                Box(rest, "Bench leg", V(side * .92f, .38f, 0), V(.17f, .7f, .52f), Wood);
+                Box(rest, "Bench upright", V(side * 1.04f, 1.07f, .29f), V(.13f, 1.3f, .13f), Wood, V(-8, 0, 0));
+            }
+            for (int i = 0; i < 2; i++) Box(rest, "Bench back rail", V(0, 1.12f + i * .26f, .35f), V(2.5f, .18f, .12f), Honey, V(-8, 0, 0));
+            ForestModels.Pot(rest, V(-1.8f, .02f, -.2f), .9f, true);
+            for (int i = 0; i < 76; i++)
+            {
+                float a = i * 2.39996f; var at = V(Mathf.Sin(a) * (20.8f + i % 3 * .65f), .13f, 2 + Mathf.Cos(a) * (23.2f + i % 3 * .6f));
+                if (at.z < -17 && Mathf.Abs(at.x + 5.4f) < 3.1f) continue;
+                Ball(ground, "Fern bank moss", at + V(0, .12f, 0), V(.82f + i % 3 * .14f, .43f, .85f), i % 2 == 0 ? Leaf : Moss);
                 if (i % 3 == 0) ForestModels.Flower(ground, at + V(.16f, .61f, -.08f), .11f, Cream);
                 for (int j = 0; j < 3; j++) Shape(ground, "Forest floor fern", OakLeaf(), at + V((j - 1) * .14f, .05f, -.5f), V(.3f, .4f, .7f), Deep, V(-35, i * 27 + j * 55, 0));
             }
+            for (int side = -1; side <= 1; side += 2)
+            {
+                var post = V(-5.4f + side * 2.15f, .12f, -23.5f);
+                Box(ground, "Road lantern post", post + V(0, .9f, 0), V(.14f, 1.8f, .14f), Wood);
+                Box(ground, "Lantern brass cap", post + V(0, 1.95f, 0), V(.46f, .10f, .43f), Copper);
+                Ball(ground, "Lantern warm glass", post + V(0, 1.72f, 0), V(.31f, .40f, .31f), Gold);
+                ForestModels.Pot(ground, post + V(side * .45f, 0, .16f), .75f, true);
+            }
+            Combine(ground);
+        }
+        void DirtPath(Transform parent, Vector3 from, Vector3 to, float width)
+        {
+            Vector3 d = to - from; var p = Box(parent, "Warm worn woodland path", (from + to) * .5f, V(width, .035f, d.magnitude + width * .6f), Hex(0xB3A47A));
+            p.localRotation = Quaternion.LookRotation(d);
+            int count = Mathf.CeilToInt(d.magnitude / 1.25f);
+            for (int i = 0; i <= count; i++)
+                Ball(parent, "Embedded path paver", Vector3.Lerp(from, to, (float)i / count) + V(Mathf.Sin(i * 2) * .22f, .035f, 0), V(.75f, .055f, .58f), Hex(0xC5BC98), V(0, i * 31, 0));
         }
         void StonePath(Transform parent, Vector3 from, Vector3 to, int count)
         {
@@ -309,8 +406,8 @@ namespace ForestShop
             foreach (var t in new[] { sideClosed, sideOpen, signOld, signNew, potPlain, potFlowers }) MoveToArea(t, shopArea, 3.45f);
             MoveToArea(worldRoot.Find("Touch decoration0"), shopArea, 3.45f);
             for (int i = 0; i < Catalog.MaxPlots; i++) { MoveToArea(plots[i], gardenArea); MoveToArea(emptyPlots[i], gardenArea); }
-            var livingTree = Group(worldRoot, "Shop's sheltering oak", V(ShopOrigin.x + 1, 0, ShopOrigin.z + 5.5f));
-            livingTree.localScale = Vector3.one * .72f;
+            var livingTree = Group(worldRoot, "Shop's sheltering oak", V(-12.6f, .1f, -8.2f));
+            livingTree.localScale = Vector3.one * 1.05f;
             MoveToArea(oak, livingTree); MoveToArea(canopy, livingTree);
             workshopRoof = Group(workshopArea, "Workshop honey tiled roof");
             for (int row = 0; row < 4; row++) for (int col = 0; col < 25; col++)
@@ -520,15 +617,15 @@ namespace ForestShop
         public void Bind(GameState current)
         {
             if (state != current) { state = current; lastSale = state.sales; saleAt = -100; }
-            bool workshop = Region == 0 || Region == 2;
-            bool shop = Region == 0 || Region == 3;
+            bool workshop = true;
+            bool shop = true;
             sideClosed.gameObject.SetActive(!state.sideRoom && shop); sideOpen.gameObject.SetActive(state.sideRoom && shop);
             curtainPlain.gameObject.SetActive(workshop && !state.decoration[1]); curtainLeaves.gameObject.SetActive(workshop && state.decoration[1]); matPlain.gameObject.SetActive(workshop && !state.decoration[2]); matBread.gameObject.SetActive(workshop && state.decoration[2]);
             signOld.gameObject.SetActive(shop && !state.decoration[0]); signNew.gameObject.SetActive(shop && state.decoration[0]); potPlain.gameObject.SetActive(shop && !state.decoration[3]); potFlowers.gameObject.SetActive(shop && state.decoration[3]);
             UpdateResidents();
             for (int i = 0; i < Catalog.MaxPlots; i++)
             {
-                bool built = i < state.plots.Length; bool shown = Region == 0 || Region == 1; plots[i].gameObject.SetActive(built && shown); emptyPlots[i].gameObject.SetActive(!built && shown);
+                bool built = i < state.plots.Length; plots[i].gameObject.SetActive(built); emptyPlots[i].gameObject.SetActive(!built);
                 nextPlotDetails[i].gameObject.SetActive(!built && i == state.plots.Length);
                 if (!built) continue; var f = state.plots[i]; int crop = Mathf.Max(0, f.workItem >= 0 ? f.workItem : f.config);
                 for (int j = 0; j < 4; j++) cropModels[i * 4 + j].gameObject.SetActive(crop == j);
@@ -538,7 +635,7 @@ namespace ForestShop
             machines[0].gameObject.SetActive(workshop); machines[1].gameObject.SetActive(state.machines.Length > 1 && workshop);
             for (int i = 0; i < 4; i++)
             {
-                bool built = i < state.shelves.Length; bool shown = Region == 0 || Region == 3; shelves[i].gameObject.SetActive(built && shown); emptyShelves[i].gameObject.SetActive(!built && shown);
+                bool built = i < state.shelves.Length; shelves[i].gameObject.SetActive(built); emptyShelves[i].gameObject.SetActive(!built);
                 for (int j = 0; j < 6; j++) goods[i * 6 + j].gameObject.SetActive(built && state.shelves[i].config == j && state.items[j] > 0);
             }
             if (state.sales > lastSale) { lastSale = state.sales; saleAt = Time.unscaledTime; }
@@ -558,50 +655,55 @@ namespace ForestShop
                 // A single visitor uses the entrance aisle at a time. Every
                 // known resident takes a turn, avoiding intersecting waiting poses.
                 int knownCount = Mathf.Min(5, state.stories + 1);
-                float cycle = knownCount * 34, phase = (Time.unscaledTime - visitEpoch + cycle - i * 34) % cycle;
+                float cycle = knownCount * 52, phase = (Time.unscaledTime - visitEpoch + cycle - i * 52) % cycle;
                 bool simple = state.simpleAnimation, known = i < Mathf.Min(5, state.stories + 1);
-                visitors[i].gameObject.SetActive(known && (Region == 0 || Region == 3) && (simple || phase < 33.7f));
+                visitors[i].gameObject.SetActive(known && (simple || phase < 51.8f));
                 if (!known) continue;
                 float shelfX = ShelfX(i % state.shelves.Length), lane = ShopLaneZ;
-                Vector3 entrance = V(ShopDoorX, 4.64f, 5.9f), entryLane = V(ShopDoorX, 4.64f, lane), browse = V(shelfX, 4.64f, .55f), counter = V(-3.3f, 4.64f, lane);
+                Vector3 outside = V(ShopDoorX, 3.6f, -24), foot = V(ShopDoorX, 3.6f, -5.4f), entrance = V(ShopDoorX, 4.64f, -3.6f);
+                Vector3 entryLane = V(ShopDoorX, 4.64f, lane), shelfLane = V(shelfX, 4.64f, lane), browse = V(shelfX, 4.64f, .55f), counter = V(-3.3f, 4.64f, lane);
                 if (!simple)
                 {
-                    float entering = Mathf.SmoothStep(0, 1, phase / .4f) * (1 - Mathf.SmoothStep(0, 1, (phase - 1.6f) / .9f));
-                    float leaving = Mathf.SmoothStep(0, 1, (phase - 30.15f) / .5f) * (1 - Mathf.SmoothStep(0, 1, (phase - 32.1f) / .9f));
+                    float entering = Mathf.SmoothStep(0, 1, (phase - 9) / .7f) * (1 - Mathf.SmoothStep(0, 1, (phase - 12.5f) / .6f));
+                    float leaving = Mathf.SmoothStep(0, 1, (phase - 38.4f) / .6f) * (1 - Mathf.SmoothStep(0, 1, (phase - 41.7f) / .7f));
                     doorOpening = Mathf.Max(doorOpening, entering, leaving);
-                    if ((Region == 0 || Region == 3) && phase >= 1.35f && phase < 1.7f && Time.unscaledTime - lastDoorAt > 2)
+                    if (phase >= 10.7f && phase < 11.1f && Time.unscaledTime - lastDoorAt > 2)
                     { lastDoorAt = Time.unscaledTime; DoorEntered?.Invoke(); }
                 }
                 Vector3 at; float yaw; bool walking;
-                if (phase < 3) { at = Vector3.Lerp(entrance, entryLane, phase / 3); yaw = 0; walking = true; }
-                else if (phase < 7) { at = Vector3.Lerp(entryLane, V(shelfX, 4.64f, lane), (phase - 3) / 4); yaw = -90; walking = true; }
-                else if (phase < 10) { at = Vector3.Lerp(V(shelfX, 4.64f, lane), browse, (phase - 7) / 3); yaw = 180; walking = true; }
-                else if (phase < 17) { at = browse; yaw = 180 + Mathf.Sin(phase * .6f) * 8; walking = false; }
-                else if (phase < 21) { at = Vector3.Lerp(browse, V(shelfX, 4.64f, lane), (phase - 17) / 4); yaw = 0; walking = true; }
-                else if (phase < 25) { at = Vector3.Lerp(V(shelfX, 4.64f, lane), counter, (phase - 21) / 4); yaw = 90; walking = true; }
-                else if (phase < 29) { at = counter; yaw = Mathf.Lerp(155, 0, Mathf.Clamp01((phase - 26) / 1.2f)); walking = false; }
-                else if (phase < 30) { at = Vector3.Lerp(counter, entryLane, phase - 29); yaw = 90; walking = true; }
-                else { at = Vector3.Lerp(entryLane, entrance, Mathf.Clamp01((phase - 30) / 2)); yaw = 180; walking = true; }
+                if (phase < 8) { at = Vector3.Lerp(outside, foot, phase / 8); yaw = 180; walking = true; }
+                else if (phase < 11) { at = Vector3.Lerp(foot, entrance, (phase - 8) / 3); yaw = 180; walking = true; }
+                else if (phase < 13) { at = Vector3.Lerp(entrance, entryLane, (phase - 11) / 2); yaw = 180; walking = true; }
+                else if (phase < 17) { at = Vector3.Lerp(entryLane, shelfLane, (phase - 13) / 4); yaw = -90; walking = true; }
+                else if (phase < 20) { at = Vector3.Lerp(shelfLane, browse, (phase - 17) / 3); yaw = 180; walking = true; }
+                else if (phase < 27) { at = browse; yaw = 180 + Mathf.Sin(phase * .6f) * 8; walking = false; }
+                else if (phase < 30) { at = Vector3.Lerp(browse, shelfLane, (phase - 27) / 3); yaw = 0; walking = true; }
+                else if (phase < 34) { at = Vector3.Lerp(shelfLane, counter, (phase - 30) / 4); yaw = 90; walking = true; }
+                else if (phase < 38) { at = counter; yaw = Mathf.Lerp(155, 0, Mathf.Clamp01((phase - 35) / 1.2f)); walking = false; }
+                else if (phase < 39) { at = Vector3.Lerp(counter, entryLane, phase - 38); yaw = 90; walking = true; }
+                else if (phase < 41) { at = Vector3.Lerp(entryLane, entrance, (phase - 39) / 2); yaw = 0; walking = true; }
+                else if (phase < 44) { at = Vector3.Lerp(entrance, foot, (phase - 41) / 3); yaw = 0; walking = true; }
+                else { at = Vector3.Lerp(foot, outside, Mathf.Clamp01((phase - 44) / 8)); yaw = 0; walking = true; }
                 if (simple) { at = V(-4.8f + i * 2.4f, 4.64f, ShopLaneZ); yaw = -8; walking = false; }
                 float cadence = i == 0 ? 6.4f : i == 1 ? 7.1f : i == 2 ? 8.2f : i == 3 ? 9 : 5.8f;
                 float stride = walking ? Mathf.Sin(Time.unscaledTime * cadence + i) : 0;
-                float browseGesture = !simple && phase >= 11 && phase < 16 ? Mathf.Sin((phase - 11) * Mathf.PI / 5) : 0;
-                float thankYou = !simple && phase >= 27 && phase < 28.4f ? Mathf.Sin((phase - 27) * Mathf.PI / 1.4f) : 0;
+                float browseGesture = !simple && phase >= 21 && phase < 26 ? Mathf.Sin((phase - 21) * Mathf.PI / 5) : 0;
+                float thankYou = !simple && phase >= 36 && phase < 37.4f ? Mathf.Sin((phase - 36) * Mathf.PI / 1.4f) : 0;
                 visitors[i].localPosition = at + V(0, Mathf.Abs(stride) * (i == 4 ? .015f : .024f), 0);
                 visitors[i].localRotation = simple ? Quaternion.Euler(0, yaw, 0)
                     : Quaternion.RotateTowards(visitors[i].localRotation, Quaternion.Euler(thankYou * 5, yaw, browseGesture * (i == 0 ? -3 : 2)), 240 * Time.unscaledDeltaTime);
                 bool visitHasSale = saleAt >= Time.unscaledTime - phase;
                 float reach = 0;
-                if (!simple && visitHasSale && phase >= 25)
-                    reach = phase < 26 ? Mathf.SmoothStep(0, 1, phase - 25) : phase < 27 ? Mathf.SmoothStep(1, .35f, phase - 26) : .35f;
+                if (!simple && visitHasSale && phase >= 34)
+                    reach = phase < 35 ? Mathf.SmoothStep(0, 1, phase - 34) : phase < 36 ? Mathf.SmoothStep(1, .35f, phase - 35) : .35f;
                 residentMotion[i].Pose(stride, reach, browseGesture, !simple);
-                shoppingBags[i].gameObject.SetActive(!simple && phase >= 26 && phase < 33.7f && visitHasSale);
+                shoppingBags[i].gameObject.SetActive(!simple && phase >= 35 && phase < 51.8f && visitHasSale);
             }
             for (int side = 0; side < 2; side++) if (passageCurtains[side] != null)
             {
                 float direction = side == 0 ? -1 : 1;
-                passageCurtains[side].gameObject.SetActive(Region == 0 || Region == 3);
-                passageCurtains[side].localPosition = V(ShopDoorX + direction * doorOpening * .52f, 6.63f, 3.02f);
+                passageCurtains[side].gameObject.SetActive(true);
+                passageCurtains[side].localPosition = V(ShopDoorX + direction * doorOpening * .52f, 6.63f, -3.64f);
                 passageCurtains[side].localEulerAngles = V(0, 0, direction * doorOpening * 7);
             }
         }
@@ -635,8 +737,11 @@ namespace ForestShop
             else if (name == "treehouse" || name == "treehouse-restored")
             {
                 model.gameObject.SetActive(false);
-                int oldRegion = Region; SetRegion(0);
-                var rtScene = new RenderTexture(540, 660, 24); worldCamera.targetTexture = rtScene; worldCamera.Render(); sprite = ReadSprite(rtScene); SetRegion(oldRegion); rtScene.Release(); Destroy(rtScene); Destroy(model.gameObject); icons[key] = sprite; return sprite;
+                int oldRegion = Region; Vector3 oldPosition = worldCamera.transform.position, oldFocus = cameraFocus; Quaternion oldRotation = worldCamera.transform.rotation; float oldSize = CameraSize;
+                SetRegion(0);
+                var rtScene = new RenderTexture(540, 660, 24); worldCamera.targetTexture = rtScene; worldCamera.Render(); sprite = ReadSprite(rtScene); SetRegion(oldRegion);
+                worldCamera.transform.SetPositionAndRotation(oldPosition, oldRotation); worldCamera.orthographicSize = oldSize; cameraFocus = oldFocus;
+                rtScene.Release(); Destroy(rtScene); Destroy(model.gameObject); icons[key] = sprite; return sprite;
             }
             else { Box(model, "Woven linen", V(0, .9f, 0), V(1.5f, 1.7f, .08f), cell % 2 == 0 ? Cream : Moss); }
             // Frame the actual sculpture, including long ears and all carried accessories.

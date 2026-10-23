@@ -1,0 +1,25 @@
+{
+  "tool": "Blender 5.2.3 LTS",
+  "original": true,
+  "format": "FSTM Unity Y-up, vertex sRGB, reversed winding",
+  "meshes": [
+    {
+      "asset": "CanopyOak",
+      "vertices": 3210,
+      "triangles": 4616,
+      "bytes": 145284
+    },
+    {
+      "asset": "SilverBirch",
+      "vertices": 3060,
+      "triangles": 4336,
+      "bytes": 137724
+    },
+    {
+      "asset": "WoodlandLinden",
+      "vertices": 3210,
+      "triangles": 4616,
+      "bytes": 145284
+    }
+  ]
+}
