@@ -1,0 +1,102 @@
+[
+  {
+    "file": "Evidence/first-sale-original.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 29.83,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 30.0
+    },
+    "scope": "Encoded video metadata is not measured game FPS."
+  },
+  {
+    "file": "Evidence/fresh-tutorial-original.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 29.57,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 120.02
+    },
+    "scope": "Encoded video metadata is not measured game FPS."
+  },
+  {
+    "file": "Evidence/ordinary-original.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 29.87,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 180.02
+    },
+    "scope": "Encoded video metadata is not measured game FPS."
+  },
+  {
+    "file": "Evidence/startup-original.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 26.02,
+      "source_size": [
+        1080,
+        1920
+      ],
+      "size": [
+        1080,
+        1920
+      ],
+      "rotate": 0,
+      "duration": 20.03
+    },
+    "scope": "Encoded video metadata is not measured game FPS."
+  },
+  {
+    "file": "Evidence/startup-r02-original.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 25.66,
+      "source_size": [
+        1080,
+        1920
+      ],
+      "size": [
+        1080,
+        1920
+      ],
+      "rotate": 0,
+      "duration": 30.01
+    },
+    "scope": "Encoded video metadata is not measured game FPS."
+  }
+]

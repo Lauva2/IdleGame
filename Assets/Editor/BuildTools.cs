@@ -84,6 +84,16 @@ namespace ForestShop.Editor
                 PlayerSettings.SetIl2CppCompilerConfiguration(BuildTargetGroup.Android, Il2CppCompilerConfiguration.Release);
             }
             string output = release ? "Builds/Android/release01/ForestShop-release01.apk" : "Builds/Android/dev01/ForestShop-dev01.apk";
+            var arguments = Environment.GetCommandLineArgs();
+            for (int i = 0; i < arguments.Length - 1; i++)
+            {
+                if (arguments[i] != "-forestBuildOutput") continue;
+                string candidatePath = Path.GetFullPath(arguments[i + 1]);
+                string outputRoot = Path.GetFullPath("Builds/Android") + Path.DirectorySeparatorChar;
+                if (!candidatePath.StartsWith(outputRoot, StringComparison.OrdinalIgnoreCase) || !candidatePath.EndsWith(".apk", StringComparison.OrdinalIgnoreCase))
+                    throw new ArgumentException("Android candidate output must be an APK inside Builds/Android.");
+                output = candidatePath;
+            }
             Directory.CreateDirectory(Path.GetDirectoryName(output));
             string tools = "C:/Program Files/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/";
             string sdk = Directory.Exists("Tools/AndroidSdk") ? Path.GetFullPath("Tools/AndroidSdk") : tools + "SDK";

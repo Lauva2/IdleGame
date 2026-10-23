@@ -1,0 +1,12 @@
+{
+  "candidate": "3d-d17-playtest01",
+  "date": "2026-10-24",
+  "baseline": "b4280b9dba84824867843c36c8fd5377e8491d56",
+  "apk": "Builds/Android/3d-d17-playtest01/ForestShop-3d-d17-playtest01.apk",
+  "bytes": 44762830,
+  "sha256": "DF1A3ACC674B57518EF89BDF5C1657E6E5AAA4E126837C50C9289F584E4A5CAD",
+  "source_inputs": 132,
+  "source_zip_sha256": "02DD015DC9778B9D2D86EDF022814EA8DEB948DC414E5B295EEE729A6AB43DA7",
+  "configuration": "Unity2022.3.62f2 / IL2CPP Release / ARM64+ARMv7 / non-development / API23-32 / GLES3 / debug signing",
+  "scope": "Short MuMu playtest; not final acceptance"
+}

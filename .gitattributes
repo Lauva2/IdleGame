@@ -3,3 +3,6 @@
 /Assets/** -text
 /Packages/** -text
 /ProjectSettings/** -text
+
+# Native saves and raw device output in this batch must keep their original bytes.
+/Docs/Verification/3d-d17-playtest01/** -text
