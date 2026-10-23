@@ -13,7 +13,7 @@ import numpy as np
 
 root = Path(sys.argv[1])
 ffmpeg = Path(__file__).parent / "PythonModules/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe"
-recording = root / "independent-switches-original.flac"
+recording = root / (sys.argv[2] if len(sys.argv) > 2 else "independent-switches-original.flac")
 expectations = {"both-on": (True, True, 4, 10), "music-only": (True, False, 15, 20),
                 "both-off": (False, False, 25, 30), "sound-only": (False, True, 36, 41)}
 results = []

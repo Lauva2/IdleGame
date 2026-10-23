@@ -1,0 +1,17 @@
+{
+  "title": "Hot Springs Town",
+  "creator": "Kistol",
+  "license": "CC0-1.0",
+  "sourcePage": "https://opengameart.org/content/hot-springs-town",
+  "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "sourceSHA256": "EFE6844EBBACEF3B6D22C7D0208AE20B1EBA666555316BDD323B4C5315F46EDD",
+  "sourceIntegratedLUFS": -15.96,
+  "gainDB": -4.039999999999999,
+  "filters": "volume=-4.040000dB,afade=t=in:st=0:d=0.02,afade=t=out:st=159.98:d=0.02",
+  "output": "Assets/Resources/Audio/woodland.wav",
+  "outputSHA256": "A647DDB5DF106E743D5E2716CB801ACCF11783BFAC889FE500A0CA5D6FE5C2A3",
+  "durationSeconds": 160,
+  "sampleRate": 44100,
+  "channels": 2,
+  "humanListeningApproved": false
+}

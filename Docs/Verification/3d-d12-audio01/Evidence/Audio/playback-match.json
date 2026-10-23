@@ -1,0 +1,25 @@
+{
+  "pass": true,
+  "sourceSeconds": 160.0,
+  "matches": [
+    {
+      "recordingStartSeconds": 3,
+      "sourceOffsetSeconds": 6.968,
+      "correlation": 0.9409367897934551
+    },
+    {
+      "recordingStartSeconds": 170,
+      "sourceOffsetSeconds": 13.968,
+      "correlation": 0.9583689432874559,
+      "phaseErrorSeconds": 0.0
+    },
+    {
+      "recordingStartSeconds": 335,
+      "sourceOffsetSeconds": 18.968,
+      "correlation": 0.9576170754571102,
+      "phaseErrorSeconds": 0.0
+    }
+  ],
+  "meaning": "Device output matches the new licensed music across more than two periods with consistent phase.",
+  "humanListeningApproved": false
+}

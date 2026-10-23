@@ -351,8 +351,14 @@ namespace ForestShop
         {
             StartSheet("制作信息与许可", "credits");
             Paragraph("林间奇物铺\n森林生活魔法小店 · 第一章\n版本 0.1.0", 180, 36);
-            Paragraph("美术：本项目原创制作的立体场景、角色、商品模型与材质。\n音乐与音效：本项目原创合成制作。\n中文字体：Noto Sans CJK SC，SIL Open Font License 1.1。", 270);
-            Paragraph("Noto 字体许可随工程与应用提供。\n" + (Resources.Load<TextAsset>("Fonts/OFL")?.text ?? "许可文件缺失"), 2650, 24); EndSheet();
+            Paragraph("美术：本项目原创制作的立体场景、角色、商品模型与材质。\n音乐：Kistol《Hot Springs Town》（CC0）。\n环境与操作音效：项目原创合成制作。\n中文字体：Noto Sans CJK SC，SIL Open Font License 1.1。", 270);
+            Paragraph("背景音乐来源与处理\n" + (Resources.Load<TextAsset>("Audio/ThirdPartyMusic")?.text ?? "许可记录缺失"), 620, 24);
+            string fontLicense = "Noto 字体许可随工程与应用提供。\n" + (Resources.Load<TextAsset>("Fonts/OFL")?.text ?? "许可文件缺失");
+            var legalText = Label(sheetContent, fontLicense, 24, Ink, 35, sheetY, 1000, 100);
+            float legalHeight = Mathf.Ceil(legalText.preferredHeight) + 30;
+            legalText.rectTransform.sizeDelta = new Vector2(1000, legalHeight);
+            sheetY += legalHeight + 18;
+            EndSheet();
         }
         void ShowReset()
         {

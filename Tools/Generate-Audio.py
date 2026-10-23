@@ -4,6 +4,7 @@ import random
 import wave
 from pathlib import Path
 import struct
+import sys
 
 ROOT = Path(__file__).resolve().parents[1] / 'Assets/Resources/Audio'
 ROOT.mkdir(parents=True, exist_ok=True)
@@ -64,7 +65,10 @@ for start in (7.5, 19., 34.5, 50.):
             envelope = math.sin(math.pi * t / .15) ** 2
             # Original bird-like rising chirps, deliberately quiet behind the score.
             ambience[begin + j] += .014 * envelope * math.sin(2 * math.pi * (1900 * t + 3500 * t * t))
-write('woodland', score)
+if '--legacy-music' in sys.argv:
+    write('woodland', score)
+else:
+    print('Keeping licensed woodland background music; --legacy-music is only for historical reproduction.')
 write('ambience', ambience)
 
 for name, notes in {
@@ -82,4 +86,4 @@ for name, notes in {
     for args in notes:
         note(audio, *args)
     write(name, audio)
-print('Generated original woodland score, separate breeze/birds ambience and 8 sound effects.')
+print('Generated separate original breeze/birds ambience and 8 sound effects; background music is preserved unless explicitly reproducing the legacy score.')

@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "sourceSeconds": 160.0,
+  "matches": [
+    {
+      "recordingStartSeconds": 3.0,
+      "sourceOffsetSeconds": 9.506625,
+      "correlation": 0.94664792615719
+    },
+    {
+      "recordingStartSeconds": 17.0,
+      "sourceOffsetSeconds": 23.506625,
+      "correlation": 0.9237489231857715,
+      "phaseErrorSeconds": 0.0
+    }
+  ],
+  "meaning": "Device output matches the new licensed music at the specified windows with consistent phase; only windows spanning at least two source periods establish a multi-period check.",
+  "humanListeningApproved": false
+}

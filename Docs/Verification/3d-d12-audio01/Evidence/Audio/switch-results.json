@@ -1,0 +1,67 @@
+{
+  "pass": true,
+  "recordingSHA256": "AE8B81762E84EE38C1CBA1EE46546353F68BE147D9458BD13072CA8DA2266664",
+  "listeningQualityVerified": false,
+  "results": [
+    {
+      "name": "both-on",
+      "music": true,
+      "sound": true,
+      "windowSeconds": [
+        4,
+        10
+      ],
+      "samples": 576000,
+      "nonzeroSamples": 575357,
+      "rms": 0.024908061966984738,
+      "peak": 0.1490478515625,
+      "rmsDBFS": -32.07320124998268,
+      "peakDBFS": -16.53348559373746
+    },
+    {
+      "name": "music-only",
+      "music": true,
+      "sound": false,
+      "windowSeconds": [
+        15,
+        20
+      ],
+      "samples": 480000,
+      "nonzeroSamples": 479504,
+      "rms": 0.027015535421992108,
+      "peak": 0.1468505859375,
+      "rmsDBFS": -31.36772841479082,
+      "peakDBFS": -16.662486325838216
+    },
+    {
+      "name": "both-off",
+      "music": false,
+      "sound": false,
+      "windowSeconds": [
+        25,
+        30
+      ],
+      "samples": 480000,
+      "nonzeroSamples": 0,
+      "rms": 0.0,
+      "peak": 0.0,
+      "rmsDBFS": null,
+      "peakDBFS": null
+    },
+    {
+      "name": "sound-only",
+      "music": false,
+      "sound": true,
+      "windowSeconds": [
+        36,
+        41
+      ],
+      "samples": 480000,
+      "nonzeroSamples": 458796,
+      "rms": 0.007437064461012518,
+      "peak": 0.065765380859375,
+      "rmsDBFS": -42.571969084676276,
+      "peakDBFS": -23.64005320925935
+    }
+  ]
+}
