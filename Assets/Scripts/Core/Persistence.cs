@@ -11,23 +11,53 @@ namespace ForestShop.Core
     {
         public static void Check(GameState s)
         {
-            if (s == null || s.version != 1 || s.coins < 0 || s.reputation < 0 || s.sales < 0 || s.warehouse < 1 || s.warehouse > 4 || s.stories < 0 || s.stories > 5 || s.tutorial < 0 || s.tutorial > 4)
+            if (s == null || (s.version != 1 && s.version != 2 && s.version != 3) || s.coins < 0 || s.reputation < 0 || s.sales < 0 || s.harvests < 0 || s.crafts < 0 || s.warehouse < 1 || s.warehouse > 4 || s.stories < 0 || s.stories > 5 || s.tutorial < 0 || s.tutorial > 4)
                 throw new InvalidDataException("存档版本或经营数据无效");
-            CheckArray(s.crops, 4); CheckArray(s.items, 6); CheckArray(s.sold, 6); CheckArray(s.friendship, 5);
+            bool legacy = s.version == 1;
+            int crops = legacy ? 4 : Catalog.Crops.Length, items = legacy ? 6 : Catalog.Items.Length;
+            CheckArray(s.crops, crops); CheckArray(s.items, items); CheckArray(s.sold, items); CheckArray(s.friendship, 5);
             if (s.decoration == null || s.decoration.Length != 4 || s.report == null || s.orders == null || s.orders.Length > 3) throw new InvalidDataException("存档结构无效");
-            CheckArray(s.report.cropDelta, 4, true); CheckArray(s.report.itemDelta, 6, true);
-            CheckFacilities(s.plots, 1, Catalog.MaxPlots, 4); CheckFacilities(s.machines, 1, 2, 6); CheckFacilities(s.shelves, 1, 4, 6);
+            CheckArray(s.report.cropDelta, crops, true); CheckArray(s.report.itemDelta, items, true);
+            CheckFacilities(s.plots, 1, Catalog.MaxPlots, 4); CheckFacilities(s.machines, 1, 2, items); CheckFacilities(s.shelves, 1, 4, items);
             int active = 0; foreach (var o in s.orders)
             {
-                if (o == null || o.id < 1 || o.resident < 0 || o.resident > 4 || o.item < 0 || o.item > 5 || o.count < 1 || o.count > 8 || (o.active && o.cancelled)) throw new InvalidDataException("委托无效");
+                if (o == null || o.id < 1 || o.resident < 0 || o.resident > 4 || o.item < 0 || o.item >= items || o.count < 1 || o.count > 8 || (o.active && o.cancelled) || (legacy && o.forestStory)) throw new InvalidDataException("委托无效");
                 if (o.active) active++;
             }
             if (active > 1 || double.IsNaN(s.playedSeconds) || double.IsInfinity(s.playedSeconds) || s.playedSeconds < 0 || s.utcTicks < 0 || s.utcTicks > DateTime.MaxValue.Ticks) throw new InvalidDataException("时间或接单状态无效");
-            int cap = Catalog.Capacity[s.warehouse - 1]; var e = new Economy(s);
-            for (int i = 0; i < 4; i++) if (s.crops[i] > cap) throw new InvalidDataException("原料容量无效");
-            for (int i = 0; i < 6; i++) if (s.items[i] + e.Incoming(i) > cap) throw new InvalidDataException("商品容量无效");
+            int cap = Catalog.Capacity[s.warehouse - 1];
+            for (int i = 0; i < crops; i++) if (s.crops[i] > cap) throw new InvalidDataException("原料容量无效");
+            for (int i = 0; i < items; i++)
+            {
+                int incoming = 0; foreach (var machine in s.machines) if (machine.workItem == i && machine.remaining >= 0) incoming++;
+                if ((long)s.items[i] + incoming > cap) throw new InvalidDataException("商品容量无效");
+            }
             for (int i = 0; i < s.machines.Length; i++)
                 if ((s.machines[i].config >= 0 && Catalog.Machine[s.machines[i].config] != i) || (s.machines[i].workItem >= 0 && Catalog.Machine[s.machines[i].workItem] != i)) throw new InvalidDataException("设备配方无效");
+            if (!legacy) CheckForest(s);
+            if (s.version >= 3) FishingRules.Check(s);
+        }
+        static void CheckForest(GameState s)
+        {
+            var f = s.forest;
+            if (f == null || f.discovered < 0 || f.discovered > 7 || f.visited < 0 || f.visited > 7 || f.location < 0 || f.location > 2 || f.requests < 0 || f.requests > 3 || f.dialogue < -1 || f.dialogue > 2 || f.dialogue >= f.requests || f.beds == null || f.available == null || f.available.Length != 3 || f.regrow == null || f.regrow.Length != 3) throw new InvalidDataException("森林进度结构无效");
+            CheckArray(f.gathered, 3);
+            if ((!f.started && (f.discovered != 0 || f.visited != 0 || f.requests != 0 || f.greenhouse || f.bridge || f.vines || f.pavilion || f.location != 0)) || (f.started && (!s.chapterComplete || (f.visited & 1) == 0))) throw new InvalidDataException("森林开放状态无效");
+            if ((f.greenhouse && (f.discovered & 1) == 0) || f.beds.Length != (f.greenhouse ? 4 : 0) || (f.bridge && (!f.greenhouse || f.requests < 1)) || (f.vines && (!f.bridge || f.requests < 2)) || (f.pavilion && (!f.vines || f.requests < 3)) || (f.celebrationSeen && !f.pavilion) || (f.location == 1 && !f.bridge) || (f.location == 2 && !f.vines) || ((f.discovered & 2) != 0 && !f.bridge) || ((f.discovered & 4) != 0 && !f.vines)) throw new InvalidDataException("森林路径状态无效");
+            if ((f.requests >= 1 && (!f.greenhouse || (f.discovered & 1) == 0)) || (f.requests >= 2 && (!f.bridge || (f.discovered & 2) == 0)) || (f.requests >= 3 && (!f.vines || (f.discovered & 4) == 0))) throw new InvalidDataException("森林心愿进度无效");
+            for (int i = 0; i < 3; i++)
+            {
+                if (f.available[i] < 0 || f.available[i] > ForestRules.Yield[i] || double.IsNaN(f.regrow[i]) || double.IsInfinity(f.regrow[i]) || f.regrow[i] < 0 || f.regrow[i] > ForestRules.RegrowSeconds[i] || (f.available[i] > 0 && f.regrow[i] != 0) || (f.available[i] == 0 && f.regrow[i] <= 0) || (f.regrow[i] > 0 && (f.discovered & (1 << i)) == 0)) throw new InvalidDataException("采集恢复状态无效");
+            }
+            if (f.greenhouse)
+            {
+                CheckFacilities(f.beds, 4, 4, Catalog.Crops.Length);
+                foreach (var bed in f.beds)
+                    foreach (int crop in new[] { bed.config, bed.pending, bed.workItem })
+                        if (crop >= 0 && (crop < 4 || crop > 5 || (f.discovered & (1 << (crop - 4))) == 0)) throw new InvalidDataException("温室品种无效");
+            }
+            foreach (var order in s.orders)
+                if (order.forestStory && (order.story || !f.started || f.requests >= 3 || order.item != f.requests + 6 || order.count != ForestRules.RequestCount[f.requests] || order.resident != ForestRules.RequestResidents[f.requests])) throw new InvalidDataException("森林心愿无效");
         }
         private static void CheckArray(int[] a, int length, bool allowNegative = false)
         { if (a == null || a.Length != length) throw new InvalidDataException("存档数组无效"); foreach (int v in a) if (!allowNegative && v < 0) throw new InvalidDataException("库存无效"); }
@@ -37,6 +67,28 @@ namespace ForestShop.Core
             foreach (var f in fs)
                 if (f == null || f.level < 1 || f.level > 5 || f.config < -1 || f.config >= configs || f.pending < -2 || f.pending >= configs || f.workItem < -1 || f.workItem >= configs || double.IsNaN(f.remaining) || double.IsInfinity(f.remaining) || f.remaining < -1 || f.remaining > 3600)
                     throw new InvalidDataException("设施数据无效");
+        }
+    }
+
+    public static class StateMigration
+    {
+        public static void Upgrade(GameState state)
+        {
+            if (state == null) return;
+            // Validate the old shape first. A broken old array is not repaired
+            // into a plausible fresh save and must still select a valid backup.
+            if (state.version == 1)
+            {
+                StateValidation.Check(state);
+                Array.Resize(ref state.crops, Catalog.Crops.Length); Array.Resize(ref state.items, Catalog.Items.Length); Array.Resize(ref state.sold, Catalog.Items.Length);
+                Array.Resize(ref state.report.cropDelta, Catalog.Crops.Length); Array.Resize(ref state.report.itemDelta, Catalog.Items.Length);
+                state.forest = new ForestProgress(); state.version = 2; StateValidation.Check(state);
+            }
+            if (state.version == 2)
+            {
+                StateValidation.Check(state);
+                state.fishing = new FishingProgress(); state.version = 3; StateValidation.Check(state);
+            }
         }
     }
 
@@ -67,6 +119,7 @@ namespace ForestShop.Core
         }
         public void Save(GameState state)
         {
+            StateMigration.Upgrade(state);
             StateValidation.Check(state);
             string payload = codec.Encode(state); string content = "FORESTSHOP1\n" + (++revision) + "\n" + Hash(payload) + "\n" + payload;
             byte[] bytes = new UTF8Encoding(false).GetBytes(content);
@@ -95,7 +148,7 @@ namespace ForestShop.Core
             seq = long.Parse(text.Substring(a + 1, b - a - 1), System.Globalization.CultureInfo.InvariantCulture);
             string payload = text.Substring(c + 1);
             if (seq < 1 || Hash(payload) != text.Substring(b + 1, c - b - 1)) throw new InvalidDataException("存档校验失败");
-            GameState result = codec.Decode(payload); StateValidation.Check(result); return result;
+            GameState result = codec.Decode(payload); StateMigration.Upgrade(result); StateValidation.Check(result); return result;
         }
         public void ArchiveAndReset()
         {
@@ -111,6 +164,7 @@ namespace ForestShop.Core
     {
         public static void Resume(GameState s, long nowTicks)
         {
+            StateMigration.Upgrade(s);
             if (s.report.pending) return;
             double away = s.utcTicks > 0 ? Math.Max(0, (nowTicks - s.utcTicks) / (double)TimeSpan.TicksPerSecond) : 0;
             double effective = Math.Min(28800, away);
@@ -118,8 +172,8 @@ namespace ForestShop.Core
             if (effective > 0) new Economy(s).Advance(effective);
             s.utcTicks = Math.Max(s.utcTicks, nowTicks);
             s.report = new OfflineReport { pending = away >= 30, away = away, effective = effective, coins = s.coins - before };
-            for (int i = 0; i < 4; i++) s.report.cropDelta[i] = s.crops[i] - cropBefore[i];
-            for (int i = 0; i < 6; i++) s.report.itemDelta[i] = s.items[i] - itemBefore[i];
+            for (int i = 0; i < Catalog.Crops.Length; i++) s.report.cropDelta[i] = s.crops[i] - cropBefore[i];
+            for (int i = 0; i < Catalog.Items.Length; i++) s.report.itemDelta[i] = s.items[i] - itemBefore[i];
             var engine = new Economy(s); string hint = ""; int count = 0;
             foreach (var m in s.machines)
                 if (m.remaining < 0 && count < 2) { hint += engine.MachineStatus(m) + "\n"; count++; }

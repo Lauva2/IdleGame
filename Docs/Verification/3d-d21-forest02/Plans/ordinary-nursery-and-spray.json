@@ -1,0 +1,65 @@
+{
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary",
+  "steps": [
+    {
+      "tap": [
+        850,
+        1595
+      ]
+    },
+    {
+      "shot": "30-nursery-deferred-switch"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        775,
+        1040
+      ]
+    },
+    {
+      "tap": [
+        850,
+        1595
+      ]
+    },
+    {
+      "back": true
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "tap": [
+        355,
+        980
+      ]
+    },
+    {
+      "tap": [
+        850,
+        1700
+      ]
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        700,
+        980
+      ]
+    },
+    {
+      "shot": "31-workbench-new-spray-recipe"
+    }
+  ]
+}

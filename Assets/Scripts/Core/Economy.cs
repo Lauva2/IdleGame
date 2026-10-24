@@ -9,11 +9,15 @@ namespace ForestShop.Core
         public readonly GameState State;
         public event Action<ProductionNotice> ProductionCompleted;
         private const double Epsilon = 0.0000001;
-        public Economy(GameState state) { State = state ?? throw new ArgumentNullException(nameof(state)); }
+        public ForestRules Forest { get; private set; }
+        public FishingRules Fishing { get; private set; }
+        public Economy(GameState state)
+        { State = state ?? throw new ArgumentNullException(nameof(state)); StateMigration.Upgrade(State); Forest = new ForestRules(this); Fishing = new FishingRules(this); }
+        internal void Notify(ProductionNotice notice) => ProductionCompleted?.Invoke(notice);
         public int Capacity => Catalog.Capacity[State.warehouse - 1];
         public long TotalSold { get { long n = 0; foreach (int v in State.sold) n += v; return n; } }
-        public bool CropUnlocked(int id) => id == 0 || (id == 1 ? State.machines.Length > 1 : State.reputation >= (id == 2 ? 25 : 45));
-        public bool ItemUnlocked(int id) => id >= 0 && id < 6 && State.reputation >= Catalog.Unlock[id] && State.machines.Length > Catalog.Machine[id];
+        public bool CropUnlocked(int id) => id >= 0 && id < Catalog.Crops.Length && (id >= 4 ? Forest.Discovered(id - 4) : id == 0 || (id == 1 ? State.machines.Length > 1 : State.reputation >= (id == 2 ? 25 : 45)));
+        public bool ItemUnlocked(int id) => id >= 0 && id < Catalog.Items.Length && State.machines.Length > Catalog.Machine[id] && (id >= 6 ? Forest.RecipeUnlocked(id) : State.reputation >= Catalog.Unlock[id]);
         public Order ActiveOrder { get { foreach (var o in State.orders) if (o.active) return o; return null; } }
         public int Reserved(int item) { var o = ActiveOrder; return o != null && o.reserve && o.item == item ? o.count : 0; }
         public int Incoming(int item) { int count = 0; foreach (var m in State.machines) if (m.workItem == item && m.remaining >= 0) count++; return count; }
@@ -30,7 +34,7 @@ namespace ForestShop.Core
                 if (State.stories < 5) return "推进熟客故事：" + Catalog.Stories[State.stories];
                 if (!State.sideRoom) return "声望 100、销售额 15000 后，花 5000 金币修复侧屋";
                 if (!State.chapterComplete) return "筹备茶会：六种商品售出、声望 150、销售额 60000";
-                return "第一章已完成，邻居们依然期待你的奇物";
+                return Forest.Goal;
             }
         }
 
@@ -48,7 +52,9 @@ namespace ForestShop.Core
                 FindNext(State.plots, ref step);
                 FindNext(State.machines, ref step);
                 FindNext(State.shelves, ref step);
-                Tick(State.plots, step); Tick(State.machines, step); Tick(State.shelves, step);
+                FindNext(State.forest.beds, ref step);
+                foreach (var remaining in State.forest.regrow) if (remaining > Epsilon) step = Math.Min(step, remaining);
+                Tick(State.plots, step); Tick(State.machines, step); Tick(State.shelves, step); Tick(State.forest.beds, step); Forest.Tick(step);
                 State.playedSeconds += step;
                 State.refreshSeconds = Math.Max(0, State.refreshSeconds - step);
                 left = Math.Max(0, left - step);
@@ -72,7 +78,7 @@ namespace ForestShop.Core
                 if (!ResolveProduction()) break;
             UpdateOrders();
             bool allSold = true;
-            foreach (var n in State.sold) if (n < 1) allSold = false;
+            for (int i = 0; i < Catalog.OriginalItems; i++) if (State.sold[i] < 1) allSold = false;
             if (allSold && State.stories == 5 && State.sideRoom && State.reputation >= 150 && State.sales >= 60000)
                 State.chapterComplete = true;
         }
@@ -92,6 +98,16 @@ namespace ForestShop.Core
                         ProductionCompleted?.Invoke(new ProductionNotice(ProductionKind.Harvest, index, crop, 1));
                     }
                 }
+            for (int index = 0; index < State.forest.beds.Length; index++)
+            {
+                var bed = State.forest.beds[index];
+                if (bed.remaining >= 0 && bed.remaining <= Epsilon && bed.workItem >= 0 && State.crops[bed.workItem] < Capacity)
+                {
+                    int crop = bed.workItem; State.crops[crop]++; State.harvests++;
+                    bed.remaining = -1; bed.workItem = -1; ApplyPending(bed);
+                    Notify(new ProductionNotice(ProductionKind.Nursery, index, crop, 1));
+                }
+            }
             for (int index = 0; index < State.machines.Length; index++)
             {
                 var m = State.machines[index];
@@ -126,6 +142,13 @@ namespace ForestShop.Core
                         if (p.config >= 0 && State.crops[p.config] < Capacity)
                         { p.workItem = p.config; p.remaining = Catalog.CropSeconds[p.config] / Catalog.Speed[p.level - 1]; }
                     }
+            foreach (var bed in State.forest.beds)
+                if (bed.remaining < 0)
+                {
+                    ApplyPending(bed);
+                    if (bed.config >= 0 && State.crops[bed.config] < Capacity)
+                    { bed.workItem = bed.config; bed.remaining = Catalog.CropSeconds[bed.config] / Catalog.Speed[bed.level - 1]; }
+                }
             for (int index = 0; index < State.machines.Length; index++)
             {
                 var m = State.machines[index];
@@ -134,9 +157,9 @@ namespace ForestShop.Core
                 int item = m.config;
                 if (item < 0 || State.items[item] + Incoming(item) >= Capacity) continue;
                 bool enough = true;
-                for (int c = 0; c < 4; c++) if (State.crops[c] < Catalog.Materials[item][c]) enough = false;
+                for (int c = 0; c < Catalog.Crops.Length; c++) if (State.crops[c] < Catalog.Materials[item][c]) enough = false;
                 if (!enough) continue;
-                for (int c = 0; c < 4; c++) State.crops[c] -= Catalog.Materials[item][c];
+                for (int c = 0; c < Catalog.Crops.Length; c++) State.crops[c] -= Catalog.Materials[item][c];
                 m.workItem = item; m.remaining = Catalog.ItemSeconds[item] / Catalog.Speed[m.level - 1];
                 consumed = true;
             }
@@ -240,9 +263,22 @@ namespace ForestShop.Core
                 }
             }
             if (State.stories > 0)
+            {
+                if (Forest.RequestReady)
+                {
+                    bool exists = false;
+                    foreach (var order in orders) if (order.forestStory) exists = true;
+                    if (!exists)
+                    {
+                        if (orders.Count >= 3)
+                            for (int i = orders.Count - 1; i >= 0; i--)
+                                if (!orders[i].active && !orders[i].story && !orders[i].forestStory) { orders.RemoveAt(i); break; }
+                        if (orders.Count < 3) orders.Insert(0, new Order { id = State.nextOrderId++, forestStory = true, resident = ForestRules.RequestResidents[State.forest.requests], item = 6 + State.forest.requests, count = ForestRules.RequestCount[State.forest.requests] });
+                    }
+                }
                 while (orders.Count < 3)
                 {
-                    var options = new List<int>(); for (int i = 0; i < 6; i++) if (ItemUnlocked(i)) options.Add(i);
+                    var options = new List<int>(); for (int i = 0; i < Catalog.Items.Length; i++) if (ItemUnlocked(i)) options.Add(i);
                     var o = new Order { id = State.nextOrderId++, resident = (int)(NextRandom() % (uint)Math.Min(5, State.stories + 1)) };
                     // Only residents who have appeared: a pending story introduces its resident.
                     bool introduced = State.stories < 5 && ItemUnlocked(Catalog.StoryItem[State.stories]);
@@ -256,9 +292,10 @@ namespace ForestShop.Core
                     }
                     orders.Add(o);
                 }
+            }
             State.orders = orders.ToArray();
         }
-        public int OrderCoins(Order o) => o.story ? Catalog.StoryCoins[o.resident] : (int)Math.Floor(o.count * Catalog.Price[o.item] * 1.35 + 0.5);
+        public int OrderCoins(Order o) => o.forestStory ? ForestRules.RequestCoins[o.item - 6] : o.story ? Catalog.StoryCoins[o.resident] : (int)Math.Floor(o.count * Catalog.Price[o.item] * 1.35 + 0.5);
         public int OrderReputation(Order o) => o.story ? Catalog.StoryRep[o.resident] : 6;
         public bool AcceptOrder(int id)
         {
@@ -271,7 +308,7 @@ namespace ForestShop.Core
             var o = ActiveOrder; if (o == null) return false;
             o.active = false;
             // Cancelled normal slots remain until the next explicit refresh; story may be resumed unchanged.
-            if (!o.story) o.cancelled = true;
+            if (!o.story && !o.forestStory) o.cancelled = true;
             return true;
         }
         public bool DeliverOrder()
@@ -282,6 +319,7 @@ namespace ForestShop.Core
             State.coins += OrderCoins(o); State.reputation += OrderReputation(o);
             State.friendship[o.resident] = Math.Min(100, State.friendship[o.resident] + (o.story ? 10 : 3));
             if (o.story) { State.stories++; State.dialogue = o.resident; }
+            if (o.forestStory) { State.forest.dialogue = State.forest.requests; State.forest.requests++; }
             var orders = new List<Order>(State.orders); orders.Remove(o); State.orders = orders.ToArray();
             Advance(0); return true;
         }
@@ -289,10 +327,10 @@ namespace ForestShop.Core
         {
             if (State.stories == 0 || State.refreshSeconds > 0) return false;
             var keep = new List<Order>(); var avoid = new List<Order>();
-            foreach (var o in State.orders) { if (o.story || o.active) keep.Add(o); else avoid.Add(o); }
+            foreach (var o in State.orders) { if (o.story || o.forestStory || o.active) keep.Add(o); else avoid.Add(o); }
             State.orders = keep.ToArray(); UpdateOrders();
             foreach (var o in State.orders)
-                if (!o.story && !o.active)
+                if (!o.story && !o.forestStory && !o.active)
                     for (int attempt = 0; attempt < 30; attempt++)
                     {
                         bool same = false; foreach (var prev in avoid) if (prev.item == o.item && prev.count == o.count) same = true;
@@ -315,7 +353,7 @@ namespace ForestShop.Core
             if (m.config < 0) return "请选择循环配方";
             if (State.items[m.config] + Incoming(m.config) >= Capacity) return "商品库存已满";
             string s = "缺材料：";
-            for (int i = 0; i < 4; i++) if (State.crops[i] < Catalog.Materials[m.config][i]) s += Catalog.Crops[i] + " ";
+            for (int i = 0; i < Catalog.Crops.Length; i++) if (State.crops[i] < Catalog.Materials[m.config][i]) s += Catalog.Crops[i] + " ";
             return s;
         }
     }

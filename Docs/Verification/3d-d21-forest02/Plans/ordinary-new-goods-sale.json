@@ -1,0 +1,50 @@
+{
+  "steps": [
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "tap": [
+        320,
+        950
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1720,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1720,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1720,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "shot": "55-three-new-goods-shelf-options"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary"
+}

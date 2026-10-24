@@ -63,7 +63,7 @@ namespace ForestShop
         void OnDisable() { fingers.Clear(); pinchDistance = 0; }
     }
 
-    public sealed class ForestWorld3D : MonoBehaviour
+    public sealed partial class ForestWorld3D : MonoBehaviour
     {
         public RenderTexture View { get; private set; }
         public int Region { get; private set; }
@@ -78,11 +78,11 @@ namespace ForestShop
         const float ShopDoorX = -5, ShopLaneZ = -2.6f;
         static float ShelfX(int index) => -2.8f + index * 2.35f;
         RenderTexture fullView, closeView;
-        readonly Transform[] plots = new Transform[Catalog.MaxPlots], cropModels = new Transform[Catalog.MaxPlots * 4], shelves = new Transform[4], goods = new Transform[24], machines = new Transform[2], visitors = new Transform[5];
+        readonly Transform[] plots = new Transform[Catalog.MaxPlots], cropModels = new Transform[Catalog.MaxPlots * 4], shelves = new Transform[4], goods = new Transform[4 * Catalog.Items.Length], machines = new Transform[2], visitors = new Transform[5];
         readonly Transform[] emptyPlots = new Transform[Catalog.MaxPlots], emptyShelves = new Transform[4];
         readonly Transform[] nextPlotDetails = new Transform[Catalog.MaxPlots];
         readonly ForestResidentMotion[] residentMotion = new ForestResidentMotion[5];
-        readonly Transform[] displayProducts = new Transform[24];
+        readonly Transform[] displayProducts = new Transform[4 * Catalog.Items.Length];
         readonly Transform[] passageCurtains = new Transform[2];
         Transform spoon, checkout, curtainPlain, curtainLeaves, matPlain, matBread, signOld, signNew, potPlain, potFlowers;
         readonly Dictionary<string, Sprite> icons = new Dictionary<string, Sprite>();
@@ -112,7 +112,7 @@ namespace ForestShop
             sun.shadowCustomResolution = 2048;
             Shader.SetGlobalFloat("_ForestShadowTexelSize", 1f / 2048);
             var fill = Group(transform, "Forest reflected light").gameObject.AddComponent<Light>(); fill.type = LightType.Directional; fill.color = Hex(0xC4DDC7); fill.intensity = .18f; fill.transform.localEulerAngles = V(25, 140, 0); fill.cullingMask = 1 << 10;
-            BuildArchitecture(); BuildObjects(); ArrangeForestCourtyard();
+            BuildArchitecture(); BuildObjects(); ArrangeForestCourtyard(); BuildExplorationWorld(); BuildFishingWorld();
             productionEffects = new ForestProductionEffects(worldRoot, plots, machines, shelves);
             shopping = new ForestShoppingMotion(shopArea, checkout, residentMotion, displayProducts);
             portraitRoot = Group(null, "3D portrait studio", V(2000, 0, 0)); portraitRoot.gameObject.layer = 11;
@@ -125,12 +125,15 @@ namespace ForestShop
         {
             var c = Group(parent, name).gameObject.AddComponent<Camera>(); c.orthographic = true; c.nearClipPlane = .1f; c.farClipPlane = 180; c.cullingMask = 1 << layer; c.clearFlags = CameraClearFlags.SolidColor; c.allowHDR = false; c.allowMSAA = true; return c;
         }
-        public void SetVisible(bool visible) { if (worldCamera != null) worldCamera.enabled = visible; if (!visible) productionEffects?.Clear(); }
-        public int ActiveProductionEffects => productionEffects == null ? 0 : productionEffects.ActiveCount;
+        public void SetVisible(bool visible) { if (worldCamera != null) worldCamera.enabled = visible; if (!visible) { productionEffects?.Clear(); ClearForestEffects(); ClearFishingReceipt(); } }
+        public int ActiveProductionEffects => (productionEffects == null ? 0 : productionEffects.ActiveCount) + ForestEffectCount;
         public void PresentProduction(ProductionNotice notice)
         {
             shopping?.RecordSale(notice);
-            if (state != null) productionEffects?.Trigger(notice, worldCamera, state.simpleAnimation);
+            if (state == null) return;
+            if (ActiveProductionEffects >= 5) return;
+            if (notice.Kind == ProductionKind.Forage || notice.Kind == ProductionKind.Nursery) PresentForestProduction(notice);
+            else productionEffects?.Trigger(notice, worldCamera, state.simpleAnimation);
         }
         public void RestartVisitSequence() { visitEpoch = Time.unscaledTime; shopping?.Clear(); }
         public void RenderNow() { if (worldCamera != null) worldCamera.Render(); }
@@ -141,7 +144,7 @@ namespace ForestShop
         { Vector3 v = worldCamera.WorldToViewportPoint(shelves[index].TransformPoint(V(0, 1.85f, 0))); return new Vector2(v.x, v.y); }
         public void SetRegion(int region)
         {
-            productionEffects?.Clear();
+            productionEffects?.Clear(); ClearForestEffects(); ClearFishingReceipt();
             Region = region;
             View = region == 0 ? fullView : closeView; worldCamera.targetTexture = View;
             worldCamera.ResetAspect();
@@ -160,12 +163,13 @@ namespace ForestShop
             if (canopy != null) canopy.gameObject.SetActive(region == 0);
             if (oak != null) oak.gameObject.SetActive(region == 0);
             if (landscape != null) landscape.gameObject.SetActive(true);
-            if (woodland != null) woodland.gameObject.SetActive(true);
+            if (woodland != null) woodland.gameObject.SetActive(region < 4 || region == 7);
             if (roof != null) roof.gameObject.SetActive(region != 3);
             if (workshopRoof != null) workshopRoof.gameObject.SetActive(region != 2);
             if (shopRoofCap != null) shopRoofCap.gameObject.SetActive(region == 3);
             if (workshopRoofCap != null) workshopRoofCap.gameObject.SetActive(region == 2);
             if (workshopFrontBeam != null) workshopFrontBeam.gameObject.SetActive(region == 0);
+            SetForestRegion(region);
             if (state != null) Bind(state);
             if (region == 2 || region == 3) FitArea(region == 2 ? workshopArea : shopArea);
         }
@@ -190,6 +194,7 @@ namespace ForestShop
         {
             float range = Mathf.Max(2, 28 - CameraSize);
             var local = CameraFocus;
+            if (Region >= 4) { ClampForestCamera(local); return; }
             Vector3 bounded = V(Mathf.Clamp(local.x, -range - 1, range + 1), local.y, Mathf.Clamp(local.z, -range - 2, range + 3));
             Vector3 move = bounded - local; cameraFocus += move; worldCamera.transform.position += move;
         }
@@ -231,6 +236,7 @@ namespace ForestShop
                 float clump = Mathf.Sin(a * 5 + row * .7f) * 1.7f + Mathf.Cos(i * 1.6f) * .7f;
                 var at = V(Mathf.Sin(a) * (24 + row * 7 + clump), .08f, 2 + Mathf.Cos(a) * (27 + row * 8 + clump));
                 if (at.z < -19 && Mathf.Abs(at.x + 5.4f) < 3.8f) continue;
+                if (at.x > 2 && at.x < 17 && at.z > 16 && at.z < 30) continue;
                 float scale = .81f + (i * 7 % 11) * .045f + row * .05f;
                 Sculpture(woodland, "Blender grove " + row + " tree " + i, trees[(i * 7 + i / 3 + row * 3) % 6], at, V(scale * (1 + .13f * Mathf.Sin(i)), scale, scale * (1 + .12f * Mathf.Cos(i))),
                     Color.Lerp(Hex(0xC8D7BD), Color.white, .55f + .45f * Mathf.Sin(a * 3 + row))).localEulerAngles = V(0, i * 137.5f, 0);
@@ -371,6 +377,7 @@ namespace ForestShop
             {
                 float a = i * 2.39996f; float bank = 20.8f + Mathf.Sin(i * 2.1f) * 1.5f + i % 3 * .65f;
                 var at = V(Mathf.Sin(a) * bank, .13f, 2 + Mathf.Cos(a) * (bank + 2.2f));
+                if (at.x > 3.5f && at.x < 14.5f && at.z > 18 && at.z < 28) continue;
                 if (at.z < -17 && Mathf.Abs(at.x + 5.4f) < 3.1f) continue;
                 if (i % 5 == 2) continue;
                 Ball(ground, "Fern bank moss", at + V(0, .12f, 0), V(.5f + i % 4 * .24f, .22f + i % 3 * .07f, .6f + i % 3 * .19f), i % 2 == 0 ? Leaf : Moss);
@@ -605,8 +612,8 @@ namespace ForestShop
                 var at = V(ShelfX(i), 4.64f, 1.5f);
                 shelves[i] = ForestModels.Shelf(worldRoot); shelves[i].localPosition = at;
                 Hotspot(shelves[i], "shelf", i, V(0, .8f, 0), V(1.4f, 1.8f, 1));
-                for (int j = 0; j < 6; j++)
-                { var p = Group(shelves[i], "Stock " + j); for (int copy = 0; copy < 3; copy++) { var item = ForestModels.Product(p, j); item.localPosition = V((copy % 2 - .5f) * .45f, copy < 2 ? .23f : .8f, -.06f); item.localScale = Vector3.one * .56f; if (copy == 2) displayProducts[i * 6 + j] = item; } goods[i * 6 + j] = p; }
+                for (int j = 0; j < Catalog.Items.Length; j++)
+                { var p = Group(shelves[i], "Stock " + j); for (int copy = 0; copy < 3; copy++) { var item = ForestModels.Product(p, j); item.localPosition = V((copy % 2 - .5f) * .45f, copy < 2 ? .23f : .8f, -.06f); item.localScale = Vector3.one * .56f; if (copy == 2) displayProducts[i * Catalog.Items.Length + j] = item; } goods[i * Catalog.Items.Length + j] = p; }
                 emptyShelves[i] = Group(worldRoot, "Sealed display " + i, at);
                 ForestModels.Shelf(emptyShelves[i]);
                 for (int fold = 0; fold < 9; fold++) Ball(emptyShelves[i], "Linen dust cover fold", V(-.5f + fold * .125f, .94f, -.17f), V(.17f, 1.28f, .12f), fold % 2 == 0 ? Hex(0xC8BA96) : Hex(0xBCAD87));
@@ -665,14 +672,17 @@ namespace ForestShop
             for (int i = 0; i < 4; i++)
             {
                 bool built = i < state.shelves.Length; shelves[i].gameObject.SetActive(built); emptyShelves[i].gameObject.SetActive(!built);
-                for (int j = 0; j < 6; j++) goods[i * 6 + j].gameObject.SetActive(built && state.shelves[i].config == j && state.items[j] > 0);
+                for (int j = 0; j < Catalog.Items.Length; j++) goods[i * Catalog.Items.Length + j].gameObject.SetActive(built && state.shelves[i].config == j && state.items[j] > 0);
             }
             productionEffects?.Refresh(state);
+            BindForest();
         }
         void Update()
         {
             if (state == null) return;
             productionEffects?.Refresh(state);
+            UpdateForestEffects();
+            UpdateFishingWorld();
             bool stirring = state.machines.Length > 0 && state.machines[0].remaining > 0 && state.machines[0].workItem >= 0 && !state.report.pending && !state.simpleAnimation;
             if (stirring) stirringPhase += Time.unscaledDeltaTime;
             if (spoon != null) spoon.localEulerAngles = stirring ? V(-18 + Mathf.Sin(stirringPhase * 1.5f) * 7, stirringPhase * 26, -28) : V(-18, 0, -28);
@@ -738,7 +748,9 @@ namespace ForestShop
             string key = name + cell; if (icons.TryGetValue(key, out var sprite)) return sprite;
             Transform model = Group(portraitRoot, "Portrait model");
             portraitCamera.orthographicSize = 1.36f;
-            if (name == "celebration") ForestModels.TeaParty(model);
+            if (name == "fish") ForestFishingModels.Fish(model,cell/4,cell%4);
+            else if (name == "fishing-bait") ForestFishingModels.Bait(model,cell);
+            else if (name == "celebration") ForestModels.TeaParty(model);
             else if (name == "residents") ForestModels.Resident(model, cell % 5);
             else if (name == "decorations")
             {
@@ -750,7 +762,9 @@ namespace ForestShop
             else if (name == "inventory")
             {
                 Transform p;
-                if (cell < 4) p = ForestModels.Crop(model, cell);
+                if (cell >= 16 && cell <= 18) p = ForestModels.Crop(model, cell - 12);
+                else if (cell >= 19 && cell <= 21) p = ForestModels.Product(model, cell - 13);
+                else if (cell < 4) p = ForestModels.Crop(model, cell);
                 else if (cell < 10) p = ForestModels.Product(model, cell - 4);
                 else if (cell == 10) p = ForestModels.Cauldron(model);
                 else if (cell == 11) p = ForestModels.Bench(model);
@@ -776,14 +790,14 @@ namespace ForestShop
                 if (renderer.enabled) { if (first) { bounds = renderer.bounds; first = false; } else bounds.Encapsulate(renderer.bounds); }
             portraitCamera.transform.position = bounds.center + V(2.7f, 1.15f, -7);
             portraitCamera.transform.LookAt(bounds.center);
-            float extent = 0, portraitAspect = name == "celebration" ? 1.7f : .8f;
+            float extent = 0, portraitAspect = name == "celebration" ? 1.7f : name=="fish"?1.6f:.8f;
             for (int x = -1; x <= 1; x += 2) for (int y = -1; y <= 1; y += 2) for (int z = -1; z <= 1; z += 2)
             {
                 Vector3 corner = Quaternion.Inverse(portraitCamera.transform.rotation) * Vector3.Scale(bounds.extents, V(x, y, z));
                 extent = Mathf.Max(extent, Mathf.Abs(corner.y), Mathf.Abs(corner.x) / portraitAspect);
             }
             portraitCamera.orthographicSize = Mathf.Max(.2f, extent * 1.12f);
-            var rt = new RenderTexture(name == "celebration" ? 850 : 320, name == "celebration" ? 500 : 400, 24) { antiAliasing = 2 }; portraitCamera.targetTexture = rt; portraitCamera.Render(); sprite = ReadSprite(rt);
+            var rt = new RenderTexture(name == "celebration" ? 850 : name=="fish"?480:320, name == "celebration" ? 500 : name=="fish"?300:400, 24) { antiAliasing = 2 }; portraitCamera.targetTexture = rt; portraitCamera.Render(); sprite = ReadSprite(rt);
             portraitCamera.targetTexture = null; rt.Release(); Destroy(rt); model.gameObject.SetActive(false); Destroy(model.gameObject); icons[key] = sprite; return sprite;
         }
         Sprite ReadSprite(RenderTexture rt)
@@ -798,7 +812,7 @@ namespace ForestShop
             if (closeView != null) { closeView.Release(); Destroy(closeView); }
             if (portraitRoot != null) Destroy(portraitRoot.gameObject);
             foreach (var icon in icons.Values) { if (icon != null) { Destroy(icon.texture); Destroy(icon); } }
-            ForestGeometry.Release();
+            ForestFishingModels.Release(); ForestExpansionModels.Release(); ForestGeometry.Release();
         }
     }
 }

@@ -1,6 +1,6 @@
 namespace ForestShop.Core
 {
-    public enum ProductionKind { Harvest, Craft, Sale }
+    public enum ProductionKind { Harvest, Craft, Sale, Forage, Nursery }
 
     // A completed settlement, never a prediction or an additional reward.
     // Presentation is optional; this transient value is not part of a save.

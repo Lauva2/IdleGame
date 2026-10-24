@@ -1,0 +1,6 @@
+{
+  "utc": "2026-10-24T17:51:57.0886487Z",
+  "before": "E:\\UnityProject\\IdleGame\\Builds\\PrivateLogs\\d21\\audio-flinger.txt",
+  "beforeSha256": "9D74CBC678902EEC78C1276E9F9B81603D3B810395E3A2CBAEE3832C7393BD3F",
+  "reason": "MuMu AudioFlinger has 44 active tracks including stale former client PIDs; Unity AudioTrack creation returns -12 and FMOD init33. Reboot guest Android only, preserve VM/window and latest main+backup. Human sound quality remains deferred."
+}

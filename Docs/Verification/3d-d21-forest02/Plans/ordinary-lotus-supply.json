@@ -1,0 +1,29 @@
+{
+  "steps": [
+    {
+      "tap": [
+        850,
+        1640
+      ]
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        390,
+        300
+      ]
+    },
+    {
+      "tap": [
+        260,
+        820
+      ]
+    },
+    {
+      "shot": "32-existing-garden-lotus-supply"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary"
+}

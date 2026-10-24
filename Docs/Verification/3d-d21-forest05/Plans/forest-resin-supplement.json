@@ -1,0 +1,41 @@
+{
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        300,
+        1140
+      ]
+    },
+    {
+      "shot": "30-known-resin-before-actual-gather"
+    },
+    {
+      "tap": [
+        850,
+        1605
+      ]
+    },
+    {
+      "shot": "31-actual-resin-receipt"
+    },
+    {
+      "wait": 2
+    },
+    {
+      "tap": [
+        300,
+        1140
+      ]
+    },
+    {
+      "shot": "32-resin-cooldown-and-inventory-after"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d21-forest05/Evidence/Forest"
+}

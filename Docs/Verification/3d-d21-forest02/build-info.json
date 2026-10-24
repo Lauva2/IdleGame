@@ -1,0 +1,19 @@
+{
+  "candidate": "3d-d21-forest02",
+  "utc": "2026-10-24T17:49:31.100727+00:00",
+  "sourceBaseCommit": "ad3bfc350f82a609ef9670e55cb1ed5e2732dedb",
+  "sourceInputFiles": 175,
+  "sourceManifest": "Docs\\Verification\\3d-d21-forest02\\source-files.sha256",
+  "sourceManifestSha256": "7743AD3BFD873D88F413D36A13B89EBD0D9668D829F8FF042CB729480934F62E",
+  "apk": "Builds\\Android\\3d-d21-forest02\\ForestShop-3d-d21-forest02.apk",
+  "apkBytes": 45395904,
+  "apkSha256": "0A84EE9535095468F644631B95FF84C3444E48CB57F3459E2957DCB34591F54A",
+  "sourceArchive": "Builds\\Android\\3d-d21-forest02\\build-source-inputs.zip",
+  "sourceArchiveBytes": 57772119,
+  "sourceArchiveSha256": "D555C6455441783C1ED832FF205B0029FC5E085CBB79CB86CF472CE20D884DC1",
+  "sourceArchiveVerified": true,
+  "build": "Unity2022.3.62f2 IL2CPP Release ARM64+ARMv7 non-development GLES3 API23-32",
+  "version": "0.2.0",
+  "versionCode": 2,
+  "artAcceptance": "Pending independent evaluation of this exact APK. Editor and d20 scores do not transfer."
+}

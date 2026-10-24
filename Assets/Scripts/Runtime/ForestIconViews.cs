@@ -33,7 +33,7 @@ namespace ForestShop
             coinsLabel.text = State.coins.ToString("N0"); reputationLabel.text = State.reputation.ToString();
             string[] opening = { "收下第一份薄荷", "制作第一杯醒神茶", "为货架选择商品", "等待第一笔收入" };
             goalLabel.text = State.tutorial < 4 ? opening[Math.Max(0, State.tutorial)]
-                : State.chapterComplete ? "开张茶会已完成" : State.stories == 0 ? "老师的第一份委托"
+                : State.chapterComplete ? ForestGoalShort() : State.stories == 0 ? "老师的第一份委托"
                 : State.machines.Length == 1 ? "修复附魔工作台"
                 : State.stories < 5 ? "邻居心愿  " + State.stories + "/5" : !State.sideRoom ? "修复侧屋"
                 : State.reputation < 150 ? "小店声望  " + State.reputation + "/150"
@@ -51,6 +51,7 @@ namespace ForestShop
         }
         void ShowGoal()
         {
+            if (State.chapterComplete) { ShowForestJournal(); return; }
             StartSheet("第一章 · 开张茶会", "goal");
             Paragraph(Engine.Goal, 160, 32);
             Row("熟客故事", "五位邻居的故事", -1, State.stories + "/5", null);

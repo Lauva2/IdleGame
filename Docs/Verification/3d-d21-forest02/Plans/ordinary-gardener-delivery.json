@@ -1,0 +1,80 @@
+{
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary",
+  "steps": [
+    {
+      "tap": [
+        850,
+        770
+      ]
+    },
+    {
+      "shot": "16-gardener-wish"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        350,
+        770
+      ]
+    },
+    {
+      "shot": "17-gardener-accepted-reserved"
+    },
+    {
+      "tap": [
+        180,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        130,
+        300
+      ]
+    },
+    {
+      "tap": [
+        400,
+        410
+      ]
+    },
+    {
+      "shot": "18-four-beds-normal-growth"
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 8
+    },
+    {
+      "shot": "19-greenhouse-real-production"
+    },
+    {
+      "tap": [
+        540,
+        1850
+      ]
+    },
+    {
+      "shot": "20-gardener-ready"
+    },
+    {
+      "tap": [
+        350,
+        850
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "21-gardener-complete-dialogue"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "steps": [
+    {
+      "tap": [
+        300,
+        1140
+      ]
+    },
+    {
+      "shot": "43-resin-tree-actual-pick"
+    },
+    {
+      "tap": [
+        850,
+        1765
+      ]
+    },
+    {
+      "shot": "44-first-resin-receipt"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "tap": [
+        700,
+        980
+      ]
+    },
+    {
+      "tap": [
+        850,
+        1795
+      ]
+    },
+    {
+      "shot": "45-wood-balm-normal-recipe-switch"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        540,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        350,
+        770
+      ]
+    },
+    {
+      "shot": "46-teacher-accepted"
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 10
+    },
+    {
+      "shot": "47-teacher-actual-stock-ready"
+    },
+    {
+      "tap": [
+        350,
+        850
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "48-teacher-delivery-result"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary"
+}

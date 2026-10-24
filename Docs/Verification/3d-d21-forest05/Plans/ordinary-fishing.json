@@ -1,0 +1,56 @@
+{
+  "directory": "Docs/Verification/3d-d21-forest05/Evidence/Ordinary",
+  "steps": [
+    {
+      "tap": [
+        860,
+        880
+      ]
+    },
+    {
+      "shot": "04-automatic-wait-first-cast"
+    },
+    {
+      "wait": 15
+    },
+    {
+      "shot": "05-real-auto-catches-1"
+    },
+    {
+      "wait": 15
+    },
+    {
+      "shot": "05-real-auto-catches-2"
+    },
+    {
+      "wait": 15
+    },
+    {
+      "shot": "05-real-auto-catches-3"
+    },
+    {
+      "wait": 15
+    },
+    {
+      "shot": "05-real-auto-catches-4"
+    },
+    {
+      "wait": 15
+    },
+    {
+      "shot": "05-real-auto-catches-5"
+    },
+    {
+      "wait": 15
+    },
+    {
+      "shot": "05-real-auto-catches-6"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "06-left-spot-paused"
+    }
+  ]
+}

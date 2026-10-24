@@ -1,0 +1,26 @@
+{
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary",
+  "steps": [
+    {
+      "back": true
+    },
+    {
+      "shot": "12-android-back-returns-courtyard"
+    },
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "tap": [
+        355,
+        980
+      ]
+    },
+    {
+      "shot": "13-cauldron-new-recipe"
+    }
+  ]
+}

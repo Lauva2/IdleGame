@@ -1,0 +1,2 @@
+ISOLATED EDITOR DEVELOPMENT PREVIEW. Prepared chapter-end economy, existing raw materials/gold, no new discoveries initially. UI/ray handlers plus explicitly simulated seconds. No ordinary save, device, natural time or final art acceptance.
+Host Editor Screen=640x480; offscreen target=1080x1920. Sheets still use host Screen for height; button/safe-area reachability is NOT established by these offscreen images.

@@ -1,0 +1,83 @@
+{
+  "steps": [
+    {
+      "tap": [
+        850,
+        1605
+      ]
+    },
+    {
+      "tap": [
+        300,
+        1140
+      ]
+    },
+    {
+      "shot": "34-dew-regrowing-no-repeat-gather"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        540,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        350,
+        770
+      ]
+    },
+    {
+      "shot": "35-postman-accepted"
+    },
+    {
+      "tap": [
+        180,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        540,
+        400
+      ]
+    },
+    {
+      "shot": "36-mixed-nursery-real-growth"
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 10
+    },
+    {
+      "tap": [
+        540,
+        1850
+      ]
+    },
+    {
+      "shot": "37-postman-ready"
+    },
+    {
+      "tap": [
+        350,
+        850
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "38-postman-delivery-result"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary"
+}

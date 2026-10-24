@@ -172,6 +172,7 @@ namespace ForestShop
         }
         public static Transform Crop(Transform parent, int id)
         {
+            if (id >= 4) return ForestExpansionModels.Crop(parent, id);
             var p = Group(parent, "Crop " + id);
             if (id == 0)
             {
@@ -211,6 +212,7 @@ namespace ForestShop
         static Vector2 V2(float x, float y) => new Vector2(x, y);
         public static Transform Product(Transform parent, int id)
         {
+            if (id >= 6) return ForestExpansionModels.Product(parent, id);
             var p = Group(parent, "Product " + id);
             if (id == 0)
             {

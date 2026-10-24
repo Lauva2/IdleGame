@@ -1,0 +1,35 @@
+{
+  "steps": [
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "shot": "05-forest-edge-default"
+    },
+    {
+      "swipe": [
+        360,
+        1070,
+        445,
+        1145,
+        750
+      ]
+    },
+    {
+      "shot": "06-drag-no-gather"
+    },
+    {
+      "tap": [
+        1000,
+        1640
+      ]
+    },
+    {
+      "shot": "07-recenter-forest"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d21-forest01/Evidence/Ordinary"
+}

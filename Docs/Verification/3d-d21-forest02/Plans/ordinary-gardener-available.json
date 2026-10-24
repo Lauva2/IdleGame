@@ -1,0 +1,26 @@
+{
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary",
+  "steps": [
+    {
+      "tap": [
+        850,
+        1700
+      ]
+    },
+    {
+      "shot": "14-real-deferred-berry-tea"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        540,
+        1850
+      ]
+    },
+    {
+      "shot": "15-gardener-request-available"
+    }
+  ]
+}

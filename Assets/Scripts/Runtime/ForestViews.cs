@@ -109,6 +109,7 @@ namespace ForestShop
         void BuildShop()
         {
             var world = World(); world.Bind(State); world.SetVisible(true);
+            if (world.Region >= 4) { BuildForestContent(); return; }
             content = Scroll(page, 0, 0, 2600, "Treehouse 3D scroll");
             string[] regions = { "小院", "庭院", "工坊", "店面" };
             ForestSymbol[] regionIcons = { ForestSymbol.Home, ForestSymbol.Garden, ForestSymbol.Workshop, ForestSymbol.Shop };
@@ -143,6 +144,11 @@ namespace ForestShop
             var image = view.gameObject.AddComponent<RawImage>(); image.texture = world.View;
             view.gameObject.AddComponent<RectMask2D>();
             var pointer = view.gameObject.AddComponent<ForestWorldPointer>(); pointer.world = world;
+            if (State.tutorial >= 4 && world.Region < 2)
+            {
+                IconButton(view, "林径", ForestSymbol.Forest, 28, 16, 235, 88, () => OpenObject("forest-entry", 0)).name = "Forest entrance";
+                if (State.forest.started) IconButton(view, "温室", ForestSymbol.Greenhouse, 280, 16, 235, 88, GoGreenhouse).name = "Greenhouse entrance";
+            }
             IconButton(view, "", ForestSymbol.ZoomOut, 730, viewHeight - 108, 96, 88, () => world.Zoom(1.22f)).name = "Map zoom out";
             IconButton(view, "", ForestSymbol.ZoomIn, 840, viewHeight - 108, 96, 88, () => world.Zoom(1 / 1.22f)).name = "Map zoom in";
             IconButton(view, "", ForestSymbol.Recenter, 950, viewHeight - 108, 96, 88, world.ResetCamera).name = "Map recenter";
@@ -249,7 +255,7 @@ namespace ForestShop
             shopBuilt = true;
             content.parent.GetComponent<ScrollRect>().onValueChanged.AddListener(v => shopPosition = v.y);
         }
-        int SoldKinds() { int n = 0; foreach (var value in State.sold) if (value > 0) n++; return n; }
+        int SoldKinds() { int n = 0; for (int i = 0; i < Catalog.OriginalItems; i++) if (State.sold[i] > 0) n++; return n; }
         string PlotUnlockDetails(int count)
         {
             string condition = count == 1 ? "累计售出 " + Engine.TotalSold + "/3 件商品"
@@ -288,7 +294,7 @@ namespace ForestShop
         {
             var card = Panel(content, "Order " + o.id, o.active ? new Color32(232, 238, 215, 255) : new Color32(248, 238, 208, 255), 32, y, 1016, o.active ? 410 : 330);
             Picture(card, "residents", o.resident, 5, 2, 18, 24, 160, 180);
-            Label(card, (o.story ? "故事 · " + Catalog.Stories[o.resident] : "日常委托 · " + Catalog.Residents[o.resident]), 33, Sage, 195, 20, 790, 64);
+            Label(card, o.forestStory ? ForestRules.RequestTitles[o.item - 6] : o.story ? "故事 · " + Catalog.Stories[o.resident] : "日常委托 · " + Catalog.Residents[o.resident], 33, Sage, 195, 20, 790, 64);
             Label(card, Catalog.Items[o.item] + " ×" + o.count + "   ·   金币 +" + Engine.OrderCoins(o) + "  声望 +" + Engine.OrderReputation(o), 29, Ink, 195, 91, 790, 86);
             var stock = Label(card, "", 28, Muted, 195, 173, 790, 60);
             bindings.Add(() => stock.text = "仓库 " + State.items[o.item] + "/" + o.count + (State.items[o.item] < o.count ? " · 还缺 " + (o.count - State.items[o.item]) + " 件" : " · 已备齐"));
@@ -296,7 +302,7 @@ namespace ForestShop
             {
                 var reserve = Button(card, "", 25, 252, 480, 67, () => { o.reserve = !o.reserve; Save(); });
                 bindings.Add(() => reserve.GetComponentInChildren<Text>().text = o.reserve ? "商品预留：已开启" : "商品预留：已关闭");
-                Button(card, o.story ? "暂停故事" : "取消委托", 535, 252, 450, 67, () => Act(Engine.CancelOrder, o.story ? "故事已暂停，可随时继续。" : "委托已取消，下次刷新替换。"));
+                Button(card, o.story || o.forestStory ? "暂停故事" : "取消委托", 535, 252, 450, 67, () => Act(Engine.CancelOrder, o.story || o.forestStory ? "故事已暂停，可随时继续。" : "委托已取消，下次刷新替换。"));
                 var deliver = Button(card, "交付委托", 25, 332, 600, 65, () => Act(Engine.DeliverOrder, "心愿已完成，奖励已存档。"), true, true);
                 bindings.Add(() => deliver.interactable = State.items[o.item] >= o.count);
                 Button(card, "前往设备", 655, 332, 330, 65, () => { ShowPage("小店"); OpenObject("machine", Catalog.Machine[o.item]); });
@@ -313,16 +319,18 @@ namespace ForestShop
         {
             content = Scroll(page, 0, 0, 2100, "Collection scroll");
             Label(content, "森林手记", 52, Sage, 44, 24, 950, 90);
+            IconButton(content,"鱼类图鉴",ForestSymbol.Fish,740,24,300,80,ShowFishCollection,true,collectionTab==2).name="Fish collection tab";
             Button(content, "商品图鉴", 44, 128, 480, 80, () => { collectionTab = 0; ShowPage("图鉴"); }, true, collectionTab == 0);
             Button(content, "熟客故事", 556, 128, 480, 80, () => { collectionTab = 1; ShowPage("图鉴"); }, true, collectionTab == 1);
             float y = 235;
-            if (collectionTab == 0)
-                for (int i = 0; i < 6; i++)
+            if(collectionTab==2) y=BuildFishCollection(content,y);
+            else if (collectionTab == 0)
+                for (int i = 0; i < Catalog.Items.Length; i++)
                 {
                     int item = i; bool unlocked = Engine.ItemUnlocked(i); var card = Panel(content, Catalog.Items[i], Sand, 32, y, 1016, 256);
-                    var icon = Picture(card, "inventory", i + 4, 4, 4, 18, 30, 175, 175); if (!unlocked) icon.color = new Color(.25f, .29f, .25f, .5f);
+                    var icon = Picture(card, "inventory", ItemIcon(i), 4, 4, 18, 30, 175, 175); if (!unlocked) icon.color = new Color(.25f, .29f, .25f, .5f);
                     Label(card, Catalog.Items[i] + (unlocked ? "" : " · 未解锁"), 36, Sage, 215, 12, 770, 60);
-                    Label(card, unlocked ? RecipeText(i) + "\n" + Catalog.ItemSeconds[i] + "秒 / 件 · 基础售价 " + Catalog.Price[i] : "解锁：声望 " + Catalog.Unlock[i] + (Catalog.Machine[i] == 1 ? "，修复附魔台" : ""), 29, Ink, 215, 82, 770, 110);
+                    Label(card, unlocked ? RecipeText(i) + "\n" + Catalog.ItemSeconds[i] + "秒 / 件 · 基础售价 " + Catalog.Price[i] : ItemUnlockText(i), 29, Ink, 215, 82, 770, 110);
                     Label(card, State.sold[i] > 0 ? "已首次售出 · 累计 " + State.sold[i] + " 件" : "尚未通过货架售出", 26, Muted, 215, 195, 770, 45); y += 280;
                 }
             else
@@ -339,7 +347,7 @@ namespace ForestShop
             content.sizeDelta = new Vector2(0, y + 30);
         }
         string RecipeText(int item)
-        { string text = ""; for (int c = 0; c < 4; c++) if (Catalog.Materials[item][c] > 0) text += (text.Length > 0 ? "、" : "") + Catalog.Crops[c] + " ×" + Catalog.Materials[item][c]; return text; }
+        { string text = ""; for (int c = 0; c < Catalog.Crops.Length; c++) if (Catalog.Materials[item][c] > 0) text += (text.Length > 0 ? "、" : "") + Catalog.Crops[c] + " ×" + Catalog.Materials[item][c]; return text; }
 
         void StartSheet(string title, string key, float height = 1130)
         {
@@ -371,22 +379,24 @@ namespace ForestShop
             paragraph.rectTransform.sizeDelta = new Vector2(1000, Math.Max(size * 1.4f, measured));
             sheetY += paragraph.rectTransform.sizeDelta.y + 18;
         }
-        void Row(string title, string detail, int icon, string actionText, Action action, bool enabled = true, Func<bool> ready = null, Func<string> liveDetail = null)
+        void Row(string title, string detail, int icon, string actionText, Action action, bool enabled = true, Func<bool> ready = null, Func<string> liveDetail = null, ForestSymbol? glyph = null)
         {
             float y = sheetY;
             var row = Panel(sheetContent, title, new Color32(244, 235, 208, 255), 28, y, 1024, 170);
-            float left = icon >= 0 ? 153 : 22;
+            bool hasIcon = icon >= 0 || glyph.HasValue;
+            float left = hasIcon ? 153 : 22;
             var heading = Label(row, title, 32, Sage, left, 10, 640 - left, 54, TextAnchor.UpperLeft);
             float headingHeight = Math.Max(44, Mathf.Ceil(heading.preferredHeight) + 4);
             heading.rectTransform.sizeDelta = new Vector2(640 - left, headingHeight);
             var details = Label(row, liveDetail != null ? liveDetail() : detail, 25, Ink, left, headingHeight + 15, 640 - left, 88, TextAnchor.UpperLeft);
             // Live inventory/requirements can grow by another line without
             // shifting the rows under a player's finger during interaction.
-            float detailHeight = liveDetail != null ? 88 : Math.Max(36, Mathf.Ceil(details.preferredHeight) + 6);
+            float detailHeight = liveDetail != null ? Math.Max(88, Mathf.Ceil(details.preferredHeight) + 8) : Math.Max(36, Mathf.Ceil(details.preferredHeight) + 6);
             details.rectTransform.sizeDelta = new Vector2(640 - left, detailHeight);
-            float rowHeight = Math.Max(icon >= 0 ? 149 : 142, headingHeight + 15 + detailHeight + 12);
+            float rowHeight = Math.Max(hasIcon ? 149 : 142, headingHeight + 15 + detailHeight + 12);
             row.sizeDelta = new Vector2(1024, rowHeight);
             if (icon >= 0) Picture(row, "inventory", icon, 4, 4, 12, (rowHeight - 125) / 2, 125, 125);
+            else if (glyph.HasValue) Symbol(row,glyph.Value,38,(rowHeight-78)/2,78);
             if (liveDetail != null) modalBindings.Add(() => details.text = liveDetail());
             if (action != null)
             {
@@ -400,6 +410,9 @@ namespace ForestShop
         {
             if (State != null && currentSheet == "dialogue") { State.dialogue = -1; Save(); }
             if (State != null && currentSheet == "celebration") { State.chapterCelebrated = true; Save(); }
+            if (State != null && currentSheet == "forest-dialogue") { State.forest.dialogue = -1; Save(); }
+            if (State != null && currentSheet == "forest-celebration") { State.forest.celebrationSeen = true; Save(); }
+            if (State != null && currentSheet == "fishing" && Engine != null && Engine.Fishing.Pause()) Save();
             currentSheet = null; modalBindings.Clear();
             if (modal != null) { modal.gameObject.SetActive(false); Destroy(modal.gameObject); modal = null; }
             sheetPanel = null;
@@ -407,6 +420,7 @@ namespace ForestShop
         void OpenObject(string type, int index)
         {
             selectedIndex = index;
+            if (OpenForestObject(type, index)) return;
             if (type == "settings") { ShowSettings(); return; }
             StartSheet(type == "plot" ? "庭院地块 " + (index + 1) : type == "machine" ? (index == 0 ? "魔法坩埚" : "附魔工作台") : type == "shelf" ? "货架 " + (index + 1) : type == "warehouse" ? "公共仓库" : type == "decoration" ? "小店装饰" : "修复与扩建", type);
             if (type == "plot")
@@ -427,29 +441,29 @@ namespace ForestShop
                 if (index >= State.machines.Length) { CloseSheet(); OpenObject("expansion", 0); return; }
                 var f = State.machines[index]; var status = Label(sheetContent, "", 29, Ink, 38, sheetY, 1000, 115); sheetY += 130;
                 modalBindings.Add(() => status.text = "等级 " + f.level + "/5 · " + Engine.MachineStatus(f) + (f.pending >= 0 ? "\n下轮配方：" + Catalog.Items[f.pending] : "\n材料充足时自动循环加工"));
-                if (f.pending >= 0) Row("待切换配方", Catalog.Items[f.pending], 4 + f.pending, "取消切换", () => { Engine.CancelSwitch(f); Save(); OpenObject(type, index); });
-                for (int i = 0; i < 6; i++)
+                if (f.pending >= 0) Row("待切换配方", Catalog.Items[f.pending], ItemIcon(f.pending), "取消切换", () => { Engine.CancelSwitch(f); Save(); OpenObject(type, index); });
+                for (int i = 0; i < Catalog.Items.Length; i++)
                 {
                     if (Catalog.Machine[i] != index) continue; int item = i;
-                    Row(Catalog.Items[i], RecipeText(i) + "\n" + (Engine.ItemUnlocked(i) ? Catalog.ItemSeconds[i] + "秒 · 售价 " + Catalog.Price[i] : "声望 " + Catalog.Unlock[i] + " 解锁"), 4 + i, f.config == i && f.pending < 0 ? "已配置" : "循环制作", () => Act(() => Engine.ConfigureMachine(index, item), "循环配方已保存。"), Engine.ItemUnlocked(i));
+                    Row(Catalog.Items[i], RecipeText(i) + "\n" + (Engine.ItemUnlocked(i) ? Catalog.ItemSeconds[i] + "秒 · 售价 " + Catalog.Price[i] : ItemUnlockText(i)), ItemIcon(i), f.config == i && f.pending < 0 ? "已配置" : "循环制作", () => Act(() => Engine.ConfigureMachine(index, item), "循环配方已保存。"), Engine.ItemUnlocked(i));
                 }
                 UpgradeRow(f);
             }
             else if (type == "shelf")
             {
                 var f = State.shelves[index]; Paragraph("货架直接出售公共仓库的商品；订单预留部分不会被卖出。基础销售间隔 8 秒。", 130);
-                for (int i = 0; i < 6; i++)
+                for (int i = 0; i < Catalog.Items.Length; i++)
                 {
                     int item = i; bool unlocked = Engine.ItemUnlocked(i);
-                    Row(Catalog.Items[i], unlocked ? "库存 " + State.items[i] + "/" + Engine.Capacity + " · 预留 " + Engine.Reserved(i) + "\n售价 " + Catalog.Price[i] + " 金币" : "解锁：声望 " + Catalog.Unlock[i] + (Catalog.Machine[i] == 1 ? " · 修复附魔台" : ""), 4 + i, f.config == i ? "已售卖" : "选择售卖", () => Act(() => Engine.ConfigureShelf(index, item), "货架售卖品已保存。"), unlocked);
+                    Row(Catalog.Items[i], unlocked ? "库存 " + State.items[i] + "/" + Engine.Capacity + " · 预留 " + Engine.Reserved(i) + "\n售价 " + Catalog.Price[i] + " 金币" : ItemUnlockText(i), ItemIcon(i), f.config == i ? "已售卖" : "选择售卖", () => Act(() => Engine.ConfigureShelf(index, item), "货架售卖品已保存。"), unlocked);
                 }
                 UpgradeRow(f);
             }
             else if (type == "warehouse")
             {
                 Paragraph("仓库等级 " + State.warehouse + "/4。每种物品独立容量，不会挤占其他物品的空间。", 120);
-                for (int i = 0; i < 4; i++) Row(Catalog.Crops[i], State.crops[i] + "/" + Engine.Capacity, i, "", null);
-                for (int i = 0; i < 6; i++) Row(Catalog.Items[i], State.items[i] + "/" + Engine.Capacity + " · 加工预留仓位 " + Engine.Incoming(i), 4 + i, "", null);
+                for (int i = 0; i < Catalog.Crops.Length; i++) Row(Catalog.Crops[i], State.crops[i] + "/" + Engine.Capacity, CropIcon(i), "", null);
+                for (int i = 0; i < Catalog.Items.Length; i++) Row(Catalog.Items[i], State.items[i] + "/" + Engine.Capacity + " · 加工预留仓位 " + Engine.Incoming(i), ItemIcon(i), "", null);
                 if (State.warehouse < 4) Row("升级仓库", "", 12, "升级仓库", () => Act(Engine.UpgradeWarehouse, "仓库容量提升了。"), true, () => State.coins >= Catalog.WarehouseCost[State.warehouse], () => "每种容量 → " + Catalog.Capacity[State.warehouse] + "\n已有 " + State.coins + " / 所需 " + Catalog.WarehouseCost[State.warehouse]);
             }
             else if (type == "decoration")
@@ -487,7 +501,7 @@ namespace ForestShop
                 if (State.machines.Length == 1) Row("修复附魔工作台", "", 11, "修复", () => Act(Engine.RepairWorkbench, "工坊亮起了新的魔法微光。"), true, () => State.reputation >= 10 && State.coins >= 260, () => "声望 10 · 已有 " + State.coins + " / 所需 260\n解锁蘑菇与萤光瓶");
                 if (sh < 4) Row("第 " + (sh + 1) + " 个货架", "", 12, "增加货架", () => Act(Engine.BuyShelf, "新的货架已开放。"), true, () => State.coins >= Catalog.ShelfCost[sh] && State.machines.Length > 1 && (sh != 2 || State.reputation >= 60) && (sh != 3 || State.sideRoom), () => (sh == 1 ? "先修复附魔台" : sh == 2 ? "声望 60" : "先修复侧屋") + "\n已有 " + State.coins + " / 所需 " + Catalog.ShelfCost[sh]);
                 if (!State.sideRoom) Row("修复侧屋", "", 14, "修复侧屋", () => Act(Engine.RepairSideRoom, "侧屋恢复了，更多经营位置已开放。"), true, () => State.reputation >= 100 && State.sales >= 15000 && State.coins >= 5000, () => "声望 " + State.reputation + "/100 · 销售额 " + State.sales + "/15000\n已有 " + State.coins + " / 所需 5000");
-                Paragraph("温室与阁楼是未来的扩展方向。第一章无需购买，也没有建造等待。", 110, 27);
+                Row("林间温室", State.forest.greenhouse ? "四个培育位已修复" : "首章茶会后，沿林径寻找野莓苗", 15, "查看温室", GoGreenhouse);
             }
             EndSheet();
         }
@@ -502,7 +516,7 @@ namespace ForestShop
             Row("背景音乐", "轻柔的森林旋律", -1, State.music ? "已开启" : "已关闭", () => { State.music = !State.music; Save(); audioController.Apply(State); ShowSettings(); });
             Row("音效", "操作、收获与营业反馈", -1, State.sound ? "已开启" : "已关闭", () => { State.sound = !State.sound; Save(); audioController.Apply(State); ShowSettings(); });
             Row("简化装饰动画", "不改变生产速度或收益", -1, State.simpleAnimation ? "已简化" : "完整动画", () => { State.simpleAnimation = !State.simpleAnimation; Save(); ShowSettings(); });
-            Row("制作信息", "林间奇物铺 0.1.0\n免费 · 无广告 · 单机离线", -1, "素材与许可", ShowCredits);
+            Row("制作信息", "林间奇物铺 " + Application.version + "\n免费 · 无广告 · 单机离线", -1, "素材与许可", ShowCredits);
             Row("进度管理", "清除操作不可撤销，请谨慎操作", -1, "查看进度管理", ShowReset); EndSheet();
         }
         void ShowWelcome()
@@ -546,8 +560,8 @@ namespace ForestShop
             StartSheet("离线营业报告", "report"); var r = State.report;
             Paragraph("欢迎回来，店主。\n离开 " + Duration(r.away) + " · 有效营业 " + Duration(r.effective), 150, 34);
             Row("营业收入", "收益已保存，关闭报告不会重复发放。", 13, "+" + r.coins, null);
-            for (int i = 0; i < 4; i++) if (r.cropDelta[i] != 0) Row(Catalog.Crops[i], "库存变化 " + r.cropDelta[i].ToString("+0;-0;0"), i, "", null);
-            for (int i = 0; i < 6; i++) if (r.itemDelta[i] != 0) Row(Catalog.Items[i], "库存变化 " + r.itemDelta[i].ToString("+0;-0;0"), i + 4, "", null);
+            for (int i = 0; i < Catalog.Crops.Length; i++) if (r.cropDelta[i] != 0) Row(Catalog.Crops[i], "库存变化 " + r.cropDelta[i].ToString("+0;-0;0"), CropIcon(i), "", null);
+            for (int i = 0; i < Catalog.Items.Length; i++) if (r.itemDelta[i] != 0) Row(Catalog.Items[i], "库存变化 " + r.itemDelta[i].ToString("+0;-0;0"), ItemIcon(i), "", null);
             if (!string.IsNullOrEmpty(r.hint)) Paragraph(r.hint, 155);
             if (r.coins == 0) Paragraph("本次未产生销售收入。可以检查货架配置、材料供应与订单预留。", 125);
             Row("今日的小店也很温暖", "最多记录 8 小时，报告停留期间经营暂停。", -1, "收下", () => { OfflineSettlement.CloseReport(State, DateTime.UtcNow.Ticks); Save(); CloseSheet(); }); EndSheet();
@@ -568,7 +582,7 @@ namespace ForestShop
             return result.ToString();
         }
         void ShowWish(Order o)
-        { StartSheet(Catalog.Residents[o.resident] + "的心愿", "wish"); Paragraph(StoryLines(o.story ? Catalog.Before[o.resident] : "想请你帮忙准备 " + Catalog.Items[o.item] + " ×" + o.count + "。不着急，准备好了再告诉我吧。"), 250, 34); EndSheet(); }
+        { StartSheet(Catalog.Residents[o.resident] + "的心愿", "wish"); Paragraph(StoryLines(o.forestStory ? ForestRules.RequestBefore[o.item - 6] : o.story ? Catalog.Before[o.resident] : "想请你帮忙准备 " + Catalog.Items[o.item] + " ×" + o.count + "。不着急，准备好了再告诉我吧。"), 250, 34); EndSheet(); }
         void ShowResident(int resident)
         { StartSheet(Catalog.Residents[resident] + "的故事", "resident"); Paragraph(StoryLines(Catalog.Before[resident]), 240); Paragraph(StoryLines(Catalog.After[resident]), 240); if (State.friendship[resident] >= 25) Paragraph("好感 25 · 邻里的问候\n" + Catalog.Residents[resident] + "：路过树屋的时候，看见窗里亮着灯，心里就觉得很踏实。谢谢你让小店重新热闹起来。", 260); else Paragraph("好感达到 25 后，还会有新的问候。", 100); EndSheet(); }
         void ShowPortrait(int resident)

@@ -1,0 +1,73 @@
+{
+  "candidate": "3d-d21-forest05",
+  "apk": {
+    "file": "Builds/Android/3d-d21-forest05/ForestShop-3d-d21-forest05.apk",
+    "bytes": 45520034,
+    "sha256": "940D4B70CDC2C368BDAAE75F33C2360D354E289D680023F57901D60AEFDA1BA5",
+    "version": "0.2.1",
+    "versionCode": 3,
+    "installedInMuMuWithSameSha256": true
+  },
+  "frozenSourceInputs": 187,
+  "gitSourceIdentity": "git-stage-source-identity.json",
+  "manuallyMaintainedCodeAndMainDocsWhitespacePassed": true,
+  "rawWhitespacePreserved": "Unity生成.meta、Android原始输出及独立报告末尾空白按冻结字节保留；全量格式提示不通过改写证据消除。",
+  "coreChecksPassed": 47,
+  "actualUnitySaveRoundtripPhasesPassed": [0, 1, 2, 3],
+  "independentArtReview": {
+    "reviewer": "/root/d19_art_review",
+    "report": "Docs/Reviews/3d-d21-forest05/美术评审-R01.md",
+    "bytes": 36557,
+    "sha256": "945A597DB15EC232C0B080437A5858CCDBBED84BB861C288FBC9F0DD564A5B17",
+    "score": 90.5,
+    "maximum": 100,
+    "requiredTotal": 90,
+    "dimensionScores": [18.5, 18, 13.5, 18.5, 8.5, 9, 4.5],
+    "dimensionMaximums": [20, 20, 15, 20, 10, 10, 5],
+    "dimensionMinimums": [16, 16, 12, 16, 8, 8, 4],
+    "originalEightAndExpansionScenesPassed": true,
+    "confirmedArtBlockers": 0,
+    "pendingArtEvidence": false,
+    "passed": true,
+    "viewedOriginalPng": 261,
+    "viewedSampledFrames": 170,
+    "allFramesVisuallyInspected": false,
+    "retainedGeneralIssues": ["G01", "G02", "G03", "G04", "G05", "G06", "G07", "G08", "G09"]
+  },
+  "frozenEvidence": {
+    "originalMovies": 29,
+    "originalPng": 322,
+    "sampledFrames": 7772,
+    "indexedMedia": 8123,
+    "deferredSourceFiles": 0,
+    "versionedOriginalPng": 37,
+    "versionedOriginalPngBytes": 25190931,
+    "rawMoviesAndBulkFramesKeptLocally": true
+  },
+  "ordinaryCheckpoint": {
+    "file": "ordinary-final.save",
+    "sha256": "C0557BB257DCC47F9747BAD439721EB7327A0D52BA18C471EF0BD8BF083B86A5",
+    "backupSha256": "6DA191A5DD996205B7ED2D7D537F3E9BD0571FC28B85D0DABFBA3A64A3E1C658",
+    "coinsAtSnapshot": 857546,
+    "fishCaught": 10,
+    "fishSpecies": 5,
+    "pendingFishSequence": 11,
+    "fishingPaused": true,
+    "restorationOfflineSeconds": 3614.437515,
+    "restorationOfflineCoins": 9480,
+    "fullCoreReplayPassed": true,
+    "gameLeftRunningInForeground": true,
+    "liveOrdinaryEconomyMayAdvanceAfterSnapshot": true
+  },
+  "firstReleaseAllAcceptanceComplete": false,
+  "deferredAcceptance": [
+    "完整声音人工试听与循环品质",
+    "当前包自然新档完整第一章",
+    "十二田逐步自然购买",
+    "完整异常恢复与时钟跨度",
+    "正式30分钟压力与内存趋势"
+  ],
+  "acceptedDeviceScope": "MuMu",
+  "physicalPhoneLimitations": ["性能", "触控", "真实安全区", "发热", "耗电"],
+  "knownVisibleVersionTextIssue": "制作信息仍显示0.1.0，实际设置与APK为0.2.1/code3；独立G04一般问题原样保留。"
+}

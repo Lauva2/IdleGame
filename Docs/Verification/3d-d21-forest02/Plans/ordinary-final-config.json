@@ -1,0 +1,20 @@
+{
+  "steps": [
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "tap": [
+        355,
+        980
+      ]
+    },
+    {
+      "shot": "61-verify-final-cauldron-config"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary"
+}

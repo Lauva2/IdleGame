@@ -1,0 +1,56 @@
+{
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        860,
+        880
+      ]
+    },
+    {
+      "shot": "q0-wait"
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "q0-actual-first-landed"
+    },
+    {
+      "tap": [
+        590,
+        1630
+      ]
+    },
+    {
+      "shot": "q0-individual-detail-top"
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1050,
+        700
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1050,
+        700
+      ]
+    },
+    {
+      "shot": "q0-individual-detail-bottom"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d21-forest05/Evidence/Qualities"
+}

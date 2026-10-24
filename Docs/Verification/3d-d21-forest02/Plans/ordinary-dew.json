@@ -1,0 +1,38 @@
+{
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary",
+  "steps": [
+    {
+      "tap": [
+        300,
+        1140
+      ]
+    },
+    {
+      "shot": "27-dew-object-picked"
+    },
+    {
+      "tap": [
+        850,
+        1765
+      ]
+    },
+    {
+      "shot": "28-dew-gather-receipt"
+    },
+    {
+      "tap": [
+        540,
+        400
+      ]
+    },
+    {
+      "tap": [
+        310,
+        1040
+      ]
+    },
+    {
+      "shot": "29-nursery-two-species-choice"
+    }
+  ]
+}

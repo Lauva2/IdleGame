@@ -1,0 +1,29 @@
+{
+  "scope": "Actual normal UI and wall time, before any prepared fixture. First8 catches; paused35.061089-second background; receipt resume; new grass bait. No fish or resources injected. Does not establish natural probabilities/all12 unlock or formal stress/sound acceptance.",
+  "beforeSha256": "32FA37CB0E7D6AB6633C0DBB90DD8DA9D3443429F80F10FFA2571C8B323EB3F2",
+  "afterSha256": "E62EEC2A5950708D5D9A6A07D7CC860E2D879AF4E1EBD3FF4DDAFD0ECADCE0F4",
+  "beforeCoins": 847178,
+  "afterCoins": 848066,
+  "salesDelta": 888,
+  "caught": 10,
+  "discovered": 5,
+  "qualities": [
+    4,
+    4,
+    0,
+    2
+  ],
+  "checks": {
+    "same_original_chapter_and_forest_rewards": true,
+    "all_coin_growth_from_original_sales_only": true,
+    "original_facility_counts_and_settings_kept": true,
+    "ordinary_ten_fish_from_zero": true,
+    "unique_contiguous_catch_ids": true,
+    "all_species_maxima_and_quality_counts_match_actual_individuals": true,
+    "background_preserves_exact_paused_fish_state": true,
+    "old_eight_catches_not_rewritten_by_resume": true,
+    "grass_bait_used_in_actual_new_catch": true,
+    "final_cast_paused_and_pending_record_kept": true,
+    "no_automatic_forest_gathering": true
+  }
+}

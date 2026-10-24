@@ -11,7 +11,7 @@ namespace ForestShop
         sealed class Visit
         {
             public Transform item, bag;
-            public Transform[] products = new Transform[6];
+            public Transform[] products = new Transform[Catalog.Items.Length];
             public float lastPhase = -1, pickup = -1;
             public int shelf = -1, product = -1;
             public Vector3 source;
@@ -37,7 +37,7 @@ namespace ForestShop
             {
                 var v = visits[i] = new Visit();
                 v.item = Group(shop, "Purchased product " + i); v.item.localScale = Vector3.one * .56f;
-                for (int j = 0; j < 6; j++) { v.products[j] = ForestModels.Product(v.item, j); v.products[j].gameObject.SetActive(false); }
+                for (int j = 0; j < Catalog.Items.Length; j++) { v.products[j] = ForestModels.Product(v.item, j); v.products[j].gameObject.SetActive(false); }
                 v.bag = Group(shop, "Open paper shopping bag " + i); v.bag.localScale = Vector3.one * .72f;
                 Box(v.bag, "Bag front", new Vector3(0, -.1f, -.215f), new Vector3(.5f, .5f, .025f), Cream);
                 Box(v.bag, "Bag back", new Vector3(0, -.1f, .215f), new Vector3(.5f, .5f, .025f), Cream);
@@ -92,9 +92,9 @@ namespace ForestShop
             if (v.pickup < 0 && phase >= 20.5f && phase < 25 && soldAt[shelf] >= start && soldItem[shelf] >= 0)
             {
                 v.pickup = Mathf.Max(21.2f, phase + .55f); v.product = soldItem[shelf]; v.shelf = shelf;
-                var source = display[shelf * 6 + v.product];
+                var source = display[shelf * Catalog.Items.Length + v.product];
                 v.source = source.position; v.rotation = source.rotation;
-                for (int j = 0; j < 6; j++) v.products[j].gameObject.SetActive(j == v.product);
+                for (int j = 0; j < Catalog.Items.Length; j++) v.products[j].gameObject.SetActive(j == v.product);
             }
             if (v.pickup < 0) return;
             if (phase < v.pickup)
@@ -102,7 +102,7 @@ namespace ForestShop
                 motion.AimRightHand(Grip(v.item, v.source, v.rotation, ProductGrip), Ease(v.pickup - .55f, v.pickup, phase));
                 return;
             }
-            display[v.shelf * 6 + v.product].gameObject.SetActive(false);
+            display[v.shelf * Catalog.Items.Length + v.product].gameObject.SetActive(false);
             v.item.gameObject.SetActive(true); HeldProducts++;
             Vector3 carry = motion.HandTarget(new Vector3(.45f, .83f, -.43f));
             Quaternion carried = motion.transform.rotation * Quaternion.Euler(0, 180, 0);

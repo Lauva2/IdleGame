@@ -1,0 +1,62 @@
+{
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary",
+  "steps": [
+    {
+      "tap": [
+        850,
+        1770
+      ]
+    },
+    {
+      "tap": [
+        180,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        540,
+        300
+      ]
+    },
+    {
+      "tap": [
+        170,
+        850
+      ]
+    },
+    {
+      "shot": "39-vine-path-locked-before-repair"
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 15
+    },
+    {
+      "shot": "40-vine-spray-stock-ready"
+    },
+    {
+      "tap": [
+        850,
+        1600
+      ]
+    },
+    {
+      "shot": "41-vines-opened-by-real-goods"
+    },
+    {
+      "tap": [
+        900,
+        300
+      ]
+    },
+    {
+      "shot": "42-moss-grove-actual-entry"
+    }
+  ]
+}

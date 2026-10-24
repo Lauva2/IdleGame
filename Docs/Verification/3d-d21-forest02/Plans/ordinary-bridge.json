@@ -1,0 +1,95 @@
+{
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary",
+  "steps": [
+    {
+      "tap": [
+        850,
+        1770
+      ]
+    },
+    {
+      "tap": [
+        180,
+        1850
+      ]
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "tap": [
+        355,
+        980
+      ]
+    },
+    {
+      "tap": [
+        850,
+        1350
+      ]
+    },
+    {
+      "shot": "22-configure-existing-rain-potion"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        130,
+        300
+      ]
+    },
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        550,
+        745
+      ]
+    },
+    {
+      "shot": "23-broken-bridge-actual-requirements"
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 12
+    },
+    {
+      "shot": "24-bridge-goods-produced"
+    },
+    {
+      "tap": [
+        850,
+        1600
+      ]
+    },
+    {
+      "shot": "25-bridge-actually-repaired"
+    },
+    {
+      "tap": [
+        540,
+        300
+      ]
+    },
+    {
+      "shot": "26-creek-opened"
+    }
+  ]
+}

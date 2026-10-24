@@ -1,0 +1,68 @@
+{
+  "directory": "Docs/Verification/3d-d21-forest05/Evidence/FishingSpots",
+  "steps": [
+    {
+      "tap": [
+        780,
+        1250
+      ]
+    },
+    {
+      "shot": "20-pavilion-pool-wait"
+    },
+    {
+      "tap": [
+        930,
+        1455
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "21-actual-berry-bait-catch"
+    },
+    {
+      "tap": [
+        686,
+        1802
+      ]
+    },
+    {
+      "shot": "22-pool-real-zoom-out"
+    },
+    {
+      "swipe": [
+        550,
+        700,
+        650,
+        800,
+        700
+      ]
+    },
+    {
+      "shot": "23-pool-real-pan"
+    },
+    {
+      "tap": [
+        966,
+        1802
+      ]
+    },
+    {
+      "shot": "24-pool-recenter"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        540,
+        300
+      ]
+    },
+    {
+      "shot": "25-creek-default"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "timerTolerance": 1E-10,
+  "coins": 836624,
+  "maximumFacilityDoubleRoundtripDelta": 3.552713678800501E-15,
+  "utc": "2026-10-24T18:01:45.5865520Z",
+  "note": "Initial strict JSON text comparison failed on 1-ULP serialized doubles; numeric equality verified. Not economic progress or a tolerance for extra rewards.",
+  "beforeTracks": 44,
+  "pendingReportPreserved": true,
+  "exactFields": [
+    "coins",
+    "sales",
+    "harvests",
+    "crafts",
+    "stories",
+    "reputation",
+    "crops",
+    "items",
+    "sold",
+    "forest",
+    "report"
+  ],
+  "humanSoundAcceptance": "Deferred",
+  "afterTracks": 1,
+  "fmodErrorsAfterRestart": 0,
+  "noDuplicateIncome": true
+}

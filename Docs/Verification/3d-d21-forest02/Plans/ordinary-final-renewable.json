@@ -1,0 +1,41 @@
+{
+  "steps": [
+    {
+      "tap": [
+        850,
+        1700
+      ]
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        700,
+        980
+      ]
+    },
+    {
+      "tap": [
+        850,
+        1640
+      ]
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "wait": 12
+    },
+    {
+      "shot": "62-ordinary-final-renewable-business"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary"
+}

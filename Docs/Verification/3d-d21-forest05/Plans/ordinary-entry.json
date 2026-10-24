@@ -1,0 +1,50 @@
+{
+  "directory": "Docs/Verification/3d-d21-forest05/Evidence/Ordinary",
+  "steps": [
+    {
+      "shot": "01-pending-report-kept"
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1000,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1000,
+        650
+      ]
+    },
+    {
+      "shot": "02-report-bottom"
+    },
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        180,
+        300
+      ]
+    },
+    {
+      "shot": "03-shallow-default"
+    }
+  ]
+}

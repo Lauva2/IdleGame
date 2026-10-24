@@ -1,0 +1,38 @@
+{
+  "directory": "Docs/Verification/3d-d21-forest05/Evidence/FishingSpots",
+  "steps": [
+    {
+      "tap": [
+        780,
+        1280
+      ]
+    },
+    {
+      "tap": [
+        540,
+        1455
+      ]
+    },
+    {
+      "shot": "26-creek-grass-bait-wait"
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "27-creek-actual-catch"
+    },
+    {
+      "tap": [
+        826,
+        1802
+      ]
+    },
+    {
+      "shot": "28-creek-actual-zoom-in"
+    },
+    {
+      "back": true
+    }
+  ]
+}

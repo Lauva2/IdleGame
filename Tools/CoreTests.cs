@@ -97,7 +97,7 @@ public static class CoreTests
             });
             Test("full upgraded multi-chain state matches fractional frame advances", () => {
                 var a = Running(); a.tutorial = 4; a.reputation = 150; a.stories = 5;
-                a.crops = new[] { 20, 20, 20, 3 };
+                a.crops = new[] { 20, 20, 20, 3, 0, 0, 0 };
                 a.plots = new[] { new Facility { config = 0, level = 3 }, new Facility { config = 1, level = 3 }, new Facility { config = 2, level = 3 }, new Facility { config = 1, level = 3 } };
                 a.machines = new[] { new Facility { config = 4, level = 3, workItem = 4, remaining = 5 }, new Facility { config = 2, level = 3, workItem = 2, remaining = 7 } };
                 a.shelves = new[] { new Facility { config = 4, remaining = 8 }, new Facility { config = 2, remaining = 8 } };
@@ -241,6 +241,8 @@ public static class CoreTests
                 new Economy(original).Advance(0); Check(original.chapterComplete, "new beds became a chapter requirement");
             });
             Test("new-save full chapter reachable using normal actions and no gifts", FullChapter);
+            ForestCoreTests.Run(Test);
+        FishingCoreTests.Run(Test);
             Console.WriteLine("TOTAL " + passed + " tests passed"); return 0;
         }
         catch (Exception e) { Console.Error.WriteLine(e); return 1; }

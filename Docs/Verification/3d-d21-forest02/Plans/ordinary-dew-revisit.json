@@ -1,0 +1,35 @@
+{
+  "steps": [
+    {
+      "tap": [
+        850,
+        1700
+      ]
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        130,
+        300
+      ]
+    },
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        300,
+        1140
+      ]
+    },
+    {
+      "shot": "33-dew-regrowth-state"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary"
+}

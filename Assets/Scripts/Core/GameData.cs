@@ -4,8 +4,9 @@ namespace ForestShop.Core
 {
     public static class Catalog
     {
-        public static readonly string[] Crops = { "月光薄荷", "发光蘑菇", "铃铛花", "荷叶" };
-        public static readonly string[] Items = { "醒神茶", "萤光瓶", "寻物粉", "避雨药水", "暖炉药剂", "安眠香" };
+        public const int OriginalCrops = 4, OriginalItems = 6;
+        public static readonly string[] Crops = { "月光薄荷", "发光蘑菇", "铃铛花", "荷叶", "野莓", "露铃草", "松脂" };
+        public static readonly string[] Items = { "醒神茶", "萤光瓶", "寻物粉", "避雨药水", "暖炉药剂", "安眠香", "莓香茶", "清露喷雾", "护木香膏" };
         public static readonly string[] Residents = { "猫头鹰老师", "刺猬园丁", "松鼠居民", "兔子邮差", "小熊面包师" };
         public static readonly string[] Stories = { "老师的第一堂早课", "夜里开花的朋友", "坚果到底藏在哪", "不能淋湿的信", "面包出炉的温度" };
         public static readonly string[] Descriptions = {
@@ -26,14 +27,15 @@ namespace ForestShop.Core
             "找到了！原来就在我家门口。下次我一定……先把位置记在本子上！",
             "信纸一点都没湿。有人等了很久的问候，终于可以准时送到了。",
             "今天每个面包都烤得刚刚好。送你一块面包纹地毯，愿小店一直暖洋洋的。" };
-        public static readonly double[] CropSeconds = { 20, 30, 40, 50 };
-        public static readonly double[] ItemSeconds = { 15, 20, 35, 30, 25, 45 };
-        public static readonly int[] Price = { 12, 18, 42, 48, 30, 54 };
-        public static readonly int[] Machine = { 0, 1, 1, 0, 0, 1 };
-        public static readonly int[] Unlock = { 0, 10, 25, 45, 60, 100 };
+        public static readonly double[] CropSeconds = { 20, 30, 40, 50, 45, 60, 0 };
+        public static readonly double[] ItemSeconds = { 15, 20, 35, 30, 25, 45, 35, 45, 50 };
+        public static readonly int[] Price = { 12, 18, 42, 48, 30, 54, 60, 78, 96 };
+        public static readonly int[] Machine = { 0, 1, 1, 0, 0, 1, 0, 1, 1 };
+        public static readonly int[] Unlock = { 0, 10, 25, 45, 60, 100, 150, 150, 150 };
         public static readonly int[][] Materials = {
-            new[] { 1, 0, 0, 0 }, new[] { 0, 1, 0, 0 }, new[] { 0, 1, 1, 0 },
-            new[] { 1, 0, 0, 2 }, new[] { 1, 1, 0, 0 }, new[] { 1, 0, 2, 0 } };
+            new[] { 1, 0, 0, 0, 0, 0, 0 }, new[] { 0, 1, 0, 0, 0, 0, 0 }, new[] { 0, 1, 1, 0, 0, 0, 0 },
+            new[] { 1, 0, 0, 2, 0, 0, 0 }, new[] { 1, 1, 0, 0, 0, 0, 0 }, new[] { 1, 0, 2, 0, 0, 0, 0 },
+            new[] { 1, 0, 0, 0, 2, 0, 0 }, new[] { 0, 0, 0, 1, 0, 2, 0 }, new[] { 0, 0, 1, 0, 0, 0, 1 } };
         public static readonly double[] Speed = { 1, 1.25, 1.55, 1.90, 2.30 };
         public static readonly int[] Upgrade = { 0, 120, 360, 1000, 2800 };
         public static readonly int[] Capacity = { 20, 40, 80, 160 };
@@ -68,6 +70,7 @@ namespace ForestShop.Core
         public int item;
         public int count;
         public bool story;
+        public bool forestStory;
         public bool active;
         public bool reserve = true;
         public bool cancelled;
@@ -80,23 +83,23 @@ namespace ForestShop.Core
         public double away;
         public double effective;
         public long coins;
-        public int[] cropDelta = new int[4];
-        public int[] itemDelta = new int[6];
+        public int[] cropDelta = new int[Catalog.Crops.Length];
+        public int[] itemDelta = new int[Catalog.Items.Length];
         public string hint = "";
     }
 
     [Serializable]
     public class GameState
     {
-        public int version = 1;
+        public int version = 3;
         public long coins = 50;
         public int reputation;
         public long sales;
         public long harvests;
         public long crafts;
-        public int[] sold = new int[6];
-        public int[] crops = new int[4];
-        public int[] items = new int[6];
+        public int[] sold = new int[Catalog.Items.Length];
+        public int[] crops = new int[Catalog.Crops.Length];
+        public int[] items = new int[Catalog.Items.Length];
         public int[] friendship = new int[5];
         public int warehouse = 1;
         public Facility[] plots = { new Facility { config = 0, workItem = 0, remaining = 0 } };
@@ -120,5 +123,7 @@ namespace ForestShop.Core
         public uint random = 9527;
         public double playedSeconds;
         public OfflineReport report = new OfflineReport();
+        public ForestProgress forest = new ForestProgress();
+        public FishingProgress fishing = new FishingProgress();
     }
 }

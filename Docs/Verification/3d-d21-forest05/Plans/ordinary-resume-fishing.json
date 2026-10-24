@@ -1,0 +1,77 @@
+{
+  "steps": [
+    {
+      "shot": "07-background-report"
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1000,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1000,
+        650
+      ]
+    },
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "tap": [
+        998,
+        1640
+      ]
+    },
+    {
+      "tap": [
+        860,
+        880
+      ]
+    },
+    {
+      "shot": "08-paused-receipt-resumed"
+    },
+    {
+      "wait": 3
+    },
+    {
+      "shot": "09-next-cast-without-repeat-award"
+    },
+    {
+      "wait": 13
+    },
+    {
+      "shot": "10-natural-next-fish"
+    },
+    {
+      "tap": [
+        540,
+        1455
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "11-actual-grass-bait-fish"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "12-paused-after-bait-change"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d21-forest05/Evidence/Ordinary"
+}

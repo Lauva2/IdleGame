@@ -1,0 +1,29 @@
+{
+  "steps": [
+    {
+      "shot": "01-update-report-top"
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1000,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1000,
+        650
+      ]
+    },
+    {
+      "shot": "02-update-report-bottom"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary"
+}

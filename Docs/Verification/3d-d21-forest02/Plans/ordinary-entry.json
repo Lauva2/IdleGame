@@ -1,0 +1,29 @@
+{
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary",
+  "steps": [
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "shot": "03-forest-edge-default"
+    },
+    {
+      "tap": [
+        300,
+        1140
+      ]
+    },
+    {
+      "shot": "04-actual-berry-object-picked"
+    }
+  ]
+}

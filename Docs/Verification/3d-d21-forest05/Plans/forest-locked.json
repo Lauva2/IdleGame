@@ -1,0 +1,23 @@
+{
+  "directory": "Docs/Verification/3d-d21-forest05/Evidence/Forest",
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "shot": "01-edge-before-discovery-locked-bridge"
+    },
+    {
+      "tap": [
+        860,
+        880
+      ]
+    },
+    {
+      "shot": "02-fishing-locked"
+    }
+  ]
+}

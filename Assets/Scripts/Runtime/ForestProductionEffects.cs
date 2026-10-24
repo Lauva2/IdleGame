@@ -62,7 +62,7 @@ namespace ForestShop
             }
             else
             {
-                int count = kind == ProductionKind.Harvest ? 4 : 6;
+                int count = kind == ProductionKind.Harvest ? 4 : Catalog.Items.Length;
                 b.variants = new Transform[count];
                 for (int i = 0; i < count; i++)
                 {
@@ -93,6 +93,7 @@ namespace ForestShop
         }
         public void Trigger(ProductionNotice notice, Camera camera, bool simple)
         {
+            if (notice.Kind == ProductionKind.Forage || notice.Kind == ProductionKind.Nursery) return;
             var list = notice.Kind == ProductionKind.Harvest ? plots : notice.Kind == ProductionKind.Craft ? machines : shelves;
             var anchors = notice.Kind == ProductionKind.Harvest ? plotAnchors : notice.Kind == ProductionKind.Craft ? machineAnchors : shelfAnchors;
             if (notice.Facility < 0 || notice.Facility >= list.Length || !camera.enabled) return;

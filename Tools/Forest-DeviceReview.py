@@ -1,7 +1,9 @@
 """Explicit ADB review plans. Captures original framebuffer, never edits images.
 Usage: python Tools/Forest-DeviceReview.py plan.json
 Plan keys: directory, steps. Actions: tap [x,y], swipe [x,y,x2,y2,ms],
-wait seconds (<=15), shot name, back true. Every command is timestamped.
+drag_hold [x,y,x2,y2,moveMs,holdMs] uses actual Android motion events and
+holds before release to avoid scroll inertia; wait seconds (<=15), shot name,
+back true. Every command is timestamped.
 Prepared progression is stored separately and must be labelled by its caller.
 """
 import subprocess, json, sys, time, re, datetime, os
@@ -21,6 +23,20 @@ for step in plan['steps']:
     begin=datetime.datetime.now(datetime.timezone.utc).isoformat()
     if 'tap' in step: run('shell','input','tap',*step['tap']); time.sleep(.4)
     elif 'swipe' in step: run('shell','input','swipe',*step['swipe']); time.sleep(.4)
+    elif 'drag_hold' in step:
+        x,y,x2,y2,duration,hold=step['drag_hold']
+        assert all(isinstance(v,int) and v>=0 for v in (x,y,x2,y2)) and 0<duration<=5000 and 0<=hold<=2000
+        run('shell','input','touchscreen','motionevent','DOWN',x,y)
+        try:
+            # Cross the drag threshold with a tiny move before larger segments;
+            # Unity initializes its drag origin when that threshold is crossed.
+            dx,dy=x2-x,y2-y;length=max(abs(dx),abs(dy),1)
+            run('shell','input','touchscreen','motionevent','MOVE',round(x+dx*min(10,length)/length),round(y+dy*min(10,length)/length));time.sleep(.12)
+            for i in range(1,7):
+                run('shell','input','touchscreen','motionevent','MOVE',round(x+(x2-x)*i/6),round(y+(y2-y)*i/6)); time.sleep(duration/6000)
+            time.sleep(hold/1000)
+        finally: run('shell','input','touchscreen','motionevent','UP',x2,y2)
+        time.sleep(.15)
     elif 'wait' in step: assert 0<=step['wait']<=15; time.sleep(step['wait'])
     elif 'back' in step: run('shell','input','keyevent','KEYCODE_BACK'); time.sleep(.4)
     elif 'shot' in step:

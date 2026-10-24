@@ -1,0 +1,104 @@
+{
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary",
+  "steps": [
+    {
+      "tap": [
+        850,
+        1770
+      ]
+    },
+    {
+      "tap": [
+        180,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        130,
+        300
+      ]
+    },
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        300,
+        1140
+      ]
+    },
+    {
+      "shot": "49-resin-regrown-and-not-auto-collected"
+    },
+    {
+      "tap": [
+        850,
+        1605
+      ]
+    },
+    {
+      "shot": "50-second-resin-normal-receipt"
+    },
+    {
+      "tap": [
+        700,
+        1050
+      ]
+    },
+    {
+      "shot": "51-pavilion-final-goods"
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 15
+    },
+    {
+      "tap": [
+        850,
+        1600
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "52-pavilion-ending"
+    },
+    {
+      "tap": [
+        850,
+        1770
+      ]
+    },
+    {
+      "shot": "53-pavilion-restored-default"
+    },
+    {
+      "tap": [
+        885,
+        1640
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1000,
+        700,
+        1000,
+        700
+      ]
+    },
+    {
+      "shot": "54-pavilion-actual-zoom-and-pan"
+    }
+  ]
+}

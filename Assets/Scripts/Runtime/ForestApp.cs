@@ -38,6 +38,7 @@ namespace ForestShop
         int selectedIndex;
         float saveTimer, toastTimer;
         bool backgrounded, recovering, quitting;
+        bool resumeFishingAfterPause;
         long previousSales;
         long previousHarvests, previousCrafts;
         ForestAudio audioController;
@@ -64,6 +65,7 @@ namespace ForestShop
             {
                 State = store.Load() ?? new GameState { utcTicks = DateTime.UtcNow.Ticks };
                 Engine = new Economy(State);
+                Engine.Fishing.Pause();
                 OfflineSettlement.Resume(State, DateTime.UtcNow.Ticks);
                 Save();
             }
@@ -94,6 +96,7 @@ namespace ForestShop
             {
                 ConnectProductionPresentation();
                 Engine.Advance(Time.unscaledDeltaTime);
+                AdvanceFishing(Time.unscaledDeltaTime);
                 DiagnosticsStage("economy", ref diagnosticStamp);
                 saveTimer += Time.unscaledDeltaTime;
                 if (saveTimer >= 10) { saveTimer = 0; Save(); }
@@ -122,11 +125,13 @@ namespace ForestShop
             DiagnosticsStage("ui-bindings", ref diagnosticStamp);
             if (toastTimer > 0) { toastTimer -= Time.unscaledDeltaTime; if (toastTimer <= 0) toastLabel.transform.parent.gameObject.SetActive(false); }
             if (Input.GetKeyDown(KeyCode.Escape))
-            { if (State.report.pending) { } else if (modal != null) CloseSheet(); else if (currentPage != "小店") ShowPage("小店"); else ShowExit(); }
+            { if (State.report.pending) { } else if (modal != null) CloseSheet(); else if (currentPage != "小店") ShowPage("小店"); else if (world3D != null && world3D.Region >= 4) GoForestHome(); else ShowExit(); }
             if (modal == null && !State.report.pending)
             {
                 if (State.dialogue >= 0) ShowStoryDialogue(State.dialogue);
                 else if (State.chapterComplete && !State.chapterCelebrated) ShowCelebration();
+                else if (State.forest.dialogue >= 0) ShowForestDialogue();
+                else if (State.forest.pavilion && !State.forest.celebrationSeen) ShowForestCelebration();
             }
             performanceTimer += Time.unscaledDeltaTime;
             // Long stalls are part of the sample. Never discard them to improve FPS.
@@ -139,15 +144,17 @@ namespace ForestShop
         void OnApplicationPause(bool paused)
         {
             if (State == null || recovering || evidenceActive) return;
-            if (paused) { backgrounded = true; Save(); }
+            if (paused) { resumeFishingAfterPause=State.fishing.running; Engine.Fishing.Pause(); backgrounded = true; Save(); }
             else if (backgrounded)
             {
                 backgrounded = false;
                 OfflineSettlement.Resume(State, DateTime.UtcNow.Ticks); Save();
                 if (State.report.pending) ShowReport();
+                else if(resumeFishingAfterPause && currentSheet=="fishing") { Engine.Fishing.Start(State.fishing.spot,State.fishing.bait); Save(); }
+                resumeFishingAfterPause=false;
             }
         }
-        void OnApplicationQuit() { if (!recovering && State != null) { Save(); FlushPerformance(); } }
+        void OnApplicationQuit() { if (!recovering && State != null) { Engine?.Fishing.Pause(); Save(); FlushPerformance(); } }
         void Save()
         {
             if (State == null || recovering || evidenceActive) return;

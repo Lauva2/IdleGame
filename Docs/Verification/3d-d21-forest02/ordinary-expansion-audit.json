@@ -1,0 +1,43 @@
+{
+  "scope": "Actual ordinary Android progression. Same existing player, normal UI and wall time; no prepared saves activated before this final checkpoint. Forest entry began on forest01, no discoveries there; forest02 continues all new-resource actions.",
+  "beforeSha256": "817C7D2AA43964D0069E54E51E0032C3B526858581286A364ADF36B28E31A07B",
+  "afterSha256": "0EF1686062FD1C4329509A95614B9D4A3019DDE3046059C2A7C563F4E908391E",
+  "beforeCoins": 834524,
+  "afterCoins": 839912,
+  "salesDelta": 7218,
+  "forestRequestRewards": 670,
+  "forestRepairCosts": 2500,
+  "computedCoins": 839912,
+  "newSold": [
+    23,
+    8,
+    2
+  ],
+  "gathered": [
+    3,
+    6,
+    6
+  ],
+  "nurseryConfigs": [
+    4,
+    4,
+    5,
+    5
+  ],
+  "checks": {
+    "ordinary_new_resources_initially_zero": true,
+    "strict_expanded_shape": true,
+    "chapter_kept_and_new_requests_separate": true,
+    "original_facility_counts_kept": true,
+    "all_discoveries_and_paths_visited": true,
+    "all_four_repairs_complete": true,
+    "four_nursery_slots": true,
+    "three_new_goods_actually_sold": true,
+    "resin_regathered_normally": true,
+    "exact_coin_conservation": true,
+    "new_request_reputation_only": true
+  },
+  "allPassed": true,
+  "wholeFirstReleaseComplete": false,
+  "limitations": "Not a natural new-game full original chapter or12bed purchase proof; human sound and formal long/abnormal gates remain deferred."
+}

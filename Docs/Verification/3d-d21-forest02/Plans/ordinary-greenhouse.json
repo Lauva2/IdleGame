@@ -1,0 +1,56 @@
+{
+  "steps": [
+    {
+      "tap": [
+        850,
+        1120
+      ]
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        130,
+        300
+      ]
+    },
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        540,
+        400
+      ]
+    },
+    {
+      "tap": [
+        540,
+        1150
+      ]
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 8
+    },
+    {
+      "shot": "10-warm-potions-actually-produced"
+    },
+    {
+      "tap": [
+        850,
+        1600
+      ]
+    },
+    {
+      "shot": "11-greenhouse-actually-restored"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d21-forest02/Evidence/Ordinary"
+}
