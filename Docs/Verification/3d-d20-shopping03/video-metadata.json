@@ -1,0 +1,382 @@
+{
+  "Evidence/blocked-full.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.86,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 30.04,
+    "sha256": "B0D6BF02C10A13BC92C541664A4D5C22F8E4AC12C5CBA708D12F8CE3D0234225",
+    "bytes": 13131182,
+    "sampleFPS": 2
+  },
+  "Evidence/blocked-input.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.58,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 30.02,
+    "sha256": "C84A3047B623F65C6E104782A2C0B241B138E6A275A39C6235A03810B28441F4",
+    "bytes": 13491873,
+    "sampleFPS": 2
+  },
+  "Evidence/blocked-reserve.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.14,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 29.95,
+    "sha256": "924866BE5CD2E44E06DCA72BB5A06985B2105D453A83A32A4E9380759203F89A",
+    "bytes": 16688343,
+    "sampleFPS": 2
+  },
+  "Evidence/busy-garden.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.99,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 30.05,
+    "sha256": "A0A3509D53550BBCB04A11FA6610604FB710AAE844178B634D30793DDE1C3818",
+    "bytes": 24107960,
+    "sampleFPS": 2
+  },
+  "Evidence/initial-flow.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 26.1,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 80.03,
+    "sha256": "A2408E697A066E18513F385CE4A0ABD7104FCB5218E64425640E4332DBB0FF4A",
+    "bytes": 23504130,
+    "sampleFPS": 10
+  },
+  "Evidence/interfaces.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 22.86,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 119.85,
+    "sha256": "FE88589AE129F3A046C114EADC714FDE517AE84735572CAD77C3921768288C44",
+    "bytes": 50612573,
+    "sampleFPS": 2
+  },
+  "Evidence/Long/region-flow.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.36,
+    "source_size": [
+      720,
+      1560
+    ],
+    "size": [
+      720,
+      1560
+    ],
+    "rotate": 0,
+    "duration": 60.08,
+    "sha256": "1F93F847FF80CE33E25F5CCB6F17683A58E35EDACF843352CA7837C1A35FFC91",
+    "bytes": 19692561,
+    "sampleFPS": 2
+  },
+  "Evidence/Narrow/region-flow.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.33,
+    "source_size": [
+      720,
+      1600
+    ],
+    "size": [
+      720,
+      1600
+    ],
+    "rotate": 0,
+    "duration": 60.08,
+    "sha256": "7E744DF16366EA5C87777A7A45F8B3BC9D84866C92D82B65C0EFD22A89CA8402",
+    "bytes": 19219086,
+    "sampleFPS": 2
+  },
+  "Evidence/offscreen-sale.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.19,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 39.54,
+    "sha256": "B998A6EB3C07FF02891428134549E6C0C78B610CBDB375CC7C0D60FC4012E59E",
+    "bytes": 25953675,
+    "sampleFPS": 2
+  },
+  "Evidence/production-garden.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.96,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 30.04,
+    "sha256": "85ACFAA507CEFD2B4810711D23C12CB2C55BA21916F05835D11D347EA91AADCA",
+    "bytes": 22467936,
+    "sampleFPS": 2
+  },
+  "Evidence/production-shop.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.02,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 30.05,
+    "sha256": "B5428BA8DA289925DB0FFD39103B6D93A601B797BBC90D91C28BCDF2B8752B73",
+    "bytes": 15453802,
+    "sampleFPS": 2
+  },
+  "Evidence/production-workshop.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.62,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 30.05,
+    "sha256": "AAAACF9CB3226AB3754A7DE10E45DDC3830299F6EBCB5A264703D5A4AE900E30",
+    "bytes": 14895396,
+    "sampleFPS": 2
+  },
+  "Evidence/reduced-shop.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.33,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 30.03,
+    "sha256": "209FCED9D85BEC88BA6EDDFCA0DB04DA1BDE250A13FA33FCF21D54F39CF56E9B",
+    "bytes": 15580579,
+    "sampleFPS": 2
+  },
+  "Evidence/reduced-workshop.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 27.49,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 30.05,
+    "sha256": "21C254BF8710C04E36FEFF43792CC442DCF75195ADED1AD25022F1A3FA836D67",
+    "bytes": 12638604,
+    "sampleFPS": 2
+  },
+  "Evidence/resume-workshop.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.85,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 45.02,
+    "sha256": "E75FB775738E809939A60D24F0EF1E8843491FF40F4CA61FA465B0946C85E9A0",
+    "bytes": 21982623,
+    "sampleFPS": 2
+  },
+  "Evidence/shop-closeup-1.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.33,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 160.03,
+    "sha256": "9D5D3BF0D44760F6A214F14FA4E802D1E853DB5568E09604C2F3E0480B595D78",
+    "bytes": 65533890,
+    "sampleFPS": 10
+  },
+  "Evidence/shop-closeup-2.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.36,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 159.99,
+    "sha256": "CE5D010D0E84630A2FD683D607EA9F44EB2B137B965BBB900B45F767A62E878B",
+    "bytes": 64773136,
+    "sampleFPS": 10
+  },
+  "Evidence/shop-closeup-detail.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.05,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 90.03,
+    "sha256": "3859AC7FCFBD751513F66F476B8ED7F0A6830E70DEADF990108CFD382768D770",
+    "bytes": 44443037,
+    "sampleFPS": 10
+  },
+  "Evidence/visits-wide-1.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 28.96,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 159.54,
+    "sha256": "D898229B7D069C2A57977C3FAF2C14FEA36EBD86FF5CAD3C513CDA4A0EAA757A",
+    "bytes": 42318411,
+    "sampleFPS": 2
+  },
+  "Evidence/visits-wide-2.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.85,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 160.03,
+    "sha256": "81B480F2831DA5AB7B92B904B933EC683BCF7FEC0A19B1301608B1D511A21E8B",
+    "bytes": 42709796,
+    "sampleFPS": 2
+  }
+}

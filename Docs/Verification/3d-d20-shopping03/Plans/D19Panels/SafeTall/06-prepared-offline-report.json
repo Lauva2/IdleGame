@@ -1,0 +1,50 @@
+{
+  "steps": [
+    {
+      "shot": "06-prepared-offline-report-top"
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "06-prepared-offline-report-bottom"
+    }
+  ],
+  "directory": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\Panels\\SafeTall"
+}

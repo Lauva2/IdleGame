@@ -1,0 +1,19 @@
+{
+  "candidate": "3d-d20-shopping02",
+  "apk": "E:\\UnityProject\\IdleGame\\Builds\\Android\\3d-d20-shopping02\\ForestShop-3d-d20-shopping02.apk",
+  "bytes": 45163925,
+  "sha256": "12EAA9AF79FCF52DA3F54FF02CA905909690CE9C7B36DD9CF099944B42710CFB",
+  "sourceFiles": 161,
+  "sourceZipSha256": "36A74FDBD68110E64ACB4216B994BFF4AA3295D422379A059481E8192FE34A25",
+  "unity": "2022.3.62f2/7670c08855a9",
+  "development": false,
+  "backend": "IL2CPP Release",
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "buildUtc": "2026-10-24T13:35:10.999912+00:00",
+  "gate": "New APK runtime evidence and independent final art review pending; full sound, natural full chapter and long-run gates unfinished.",
+  "sourceScope": "Exact match to frozen R04 161 inputs; core unchanged from27 checks.",
+  "buildSummaryBytesNote": "BuildReport aggregate331988301 is not APK length. Use filesystem length and SHA."
+}

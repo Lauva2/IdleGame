@@ -1,0 +1,60 @@
+{
+  "candidate": "3d-d20-shopping03",
+  "apkSha256": "8E2644BD2EFE533F3EAB16B24BCBCDF02C27605871BA29EF6AB00F06B1B8331A",
+  "artReview": "Docs/Reviews/3d-d20-shopping03/美术评审-R01.md",
+  "reviewer": "/root/d19_art_review",
+  "reportBytes": 24049,
+  "reportSha256": "2894EAEE538167AD4C5814470C31A991DED4A1240AAB7F1F443C5E88F71C3D5C",
+  "scores": [
+    18,
+    18,
+    14,
+    19,
+    8.5,
+    9,
+    4.5
+  ],
+  "maximum": [
+    20,
+    20,
+    15,
+    20,
+    10,
+    10,
+    5
+  ],
+  "floors": [
+    16,
+    16,
+    12,
+    16,
+    8,
+    8,
+    4
+  ],
+  "total": 91.0,
+  "allSevenFloorsMet": true,
+  "allEightScenesPassed": true,
+  "confirmedArtBlockers": 0,
+  "artPassed": true,
+  "contentBatchComplete": true,
+  "wholeFirstReleaseComplete": false,
+  "generalIssueIds": [
+    "D20-ART-001",
+    "D20-ART-002",
+    "D20-ART-003",
+    "D20-ART-004",
+    "D20-ART-005",
+    "D20-ART-006",
+    "D20-ART-007"
+  ],
+  "outstanding": [
+    "Complete human sound quality acceptance",
+    "Natural complete new chapter and12bed purchases",
+    "Full abnormal recovery and offline spans/clock coverage",
+    "Formal30minute stress/stability acceptance",
+    "Physical Android performance/touch/multitouch/real safe area/heat/battery unverified, user accepts MuMu limitation"
+  ],
+  "frozenEvidenceSummarySha256": "D7B1F5EC28EF43097FAE8DFD2A1CF3E53D7EB3F8950FA65CAD1DFBDD67E246F9",
+  "scope": "Build-info gate and final-evidence-summary pending text are their original creation-time states. This record and unchanged independent report give the later actual art verdict. No source/APK/media changed after review. General issues and full-product gates are not waived."
+}

@@ -16,7 +16,8 @@ namespace ForestShop.Editor
     public static class ForestExperiencePreview
     {
         const string Pending = "ForestExperiencePreview.Pending";
-        const string Output = "Builds/Previews/3d-d19-experience-r01-world";
+        static readonly string Output = Argument("-forestExperiencePreviewOutput") ?? "Builds/Previews/3d-d19-experience-r01-world";
+        static readonly bool ShopOnly = Argument("-forestExperiencePreviewShop") == "true";
         const string Fixture = "Docs/Verification/3d-d18-forest04/Prepared/late.save";
         static ForestWorld3D world;
         static GameState state;
@@ -26,6 +27,13 @@ namespace ForestShop.Editor
         static double wallStarted;
         static int lastFrame, shot, region;
         static bool ending;
+
+        static string Argument(string key)
+        {
+            var args = Environment.GetCommandLineArgs();
+            for (int i = 0; i < args.Length - 1; i++) if (args[i] == key) return args[i + 1];
+            return null;
+        }
 
         static ForestExperiencePreview()
         {
@@ -65,20 +73,23 @@ namespace ForestShop.Editor
                 Directory.CreateDirectory(Output + "/Live");
                 Directory.CreateDirectory(Output + "/Prepared");
                 Directory.CreateDirectory(Output + "/Poses");
+                Directory.CreateDirectory(Output + "/Shopping");
                 File.WriteAllText(Output + "/scope.txt",
                     "EDITOR DEVELOPMENT PREVIEW, NOT ANDROID OR FINAL ART ACCEPTANCE.\n" +
                     "Source fixture=" + Fixture + "; explicit prepared late structure.\n" +
                     "No ForestApp, SaveStore, ordinary player directory, device, audio or saved progression.\n" +
                     "Live: normal play-mode frames; once per Time.frameCount, Economy.Advance(Time.unscaledDeltaTime), Bind and real notices.\n" +
-                    "0-20s garden,20-40s workshop,40-60s shop. PNG captures sample actual rendered time every >=0.5s; missed samples are not backfilled.\n" +
+                    (ShopOnly ? "Live: 40 real seconds shop, new visit epoch; actual normal frame Advance and settlement notices.\n" : "0-20s garden,20-40s workshop,40-60s shop.\n") +
+                    "PNG captures sample actual rendered time every >=0.5s; missed samples are not backfilled.\n" +
                     "Prepared: separate missing-material/full-capacity/simple-animation states. Simple animation observes 8 explicitly simulated core seconds.\n" +
                     "Poses: 5 residents, entrance phases8-13 and exit39-44 at3FPS input sampling. visitEpoch and initial facing explicitly prepared; NOT natural time or continuous footage.\n" +
                     "Poses use a separate prepared state and 8 simulated core seconds to arrange a sale; pose samples do not establish normal purchase timing.\n" +
+                    "Shopping: explicit prepared visit epoch/facing and a labelled presentation-only sale notice; geometric key poses, NOT natural footage or economic sale proof.\n" +
                     "All PNGs are unchanged original World RenderTexture reads, no postprocessing. HUD, adaptation, normal progression and runtime performance are not established here.\n" +
                     "Unity=" + Application.unityVersion + "; host=" + Screen.width + "x" + Screen.height + "\n");
                 state = Prepared(); state.simpleAnimation = false;
                 world = new GameObject("Isolated d19 experience preview").AddComponent<ForestWorld3D>();
-                world.Initialize(); world.Bind(state); world.SetRegion(1); region = 1;
+                world.Initialize(); world.Bind(state); world.SetRegion(ShopOnly ? 3 : 1); region = ShopOnly ? 3 : 1; world.RestartVisitSequence();
                 economy = new Economy(state); economy.ProductionCompleted += Production;
                 frames = new StreamWriter(Output + "/frames.csv", false, Encoding.UTF8);
                 frames.WriteLine("file,frame,unscaledTime,elapsed,wallElapsed,region,harvests,crafts,sales,coins,activeProductionEffects");
@@ -113,7 +124,7 @@ namespace ForestShop.Editor
                 economy.Advance(Time.unscaledDeltaTime);
                 world.Bind(state);
                 float elapsed = Time.unscaledTime - started;
-                int nextRegion = elapsed < 20 ? 1 : elapsed < 40 ? 2 : 3;
+                int nextRegion = ShopOnly ? 3 : elapsed < 20 ? 1 : elapsed < 40 ? 2 : 3;
                 if (nextRegion != region) { region = nextRegion; world.SetRegion(region); }
                 if (elapsed >= nextShot)
                 {
@@ -125,7 +136,7 @@ namespace ForestShop.Editor
                     frames.Flush(); notices.Flush();
                     nextShot = elapsed + .5f;
                 }
-                if (elapsed >= 60) Finish(elapsed);
+                if (elapsed >= (ShopOnly ? 40 : 60)) Finish(elapsed);
             }
             catch (Exception error) { Fail(error); }
         }
@@ -206,12 +217,34 @@ namespace ForestShop.Editor
             File.WriteAllText(Output + "/Prepared/poses-state.json", JsonUtility.ToJson(poses, true));
         }
 
+        static void SampleShopping()
+        {
+            var prepared = Prepared(); SetPrepared(prepared); world.SetRegion(3);
+            var epoch = typeof(ForestWorld3D).GetField("visitEpoch", BindingFlags.Instance | BindingFlags.NonPublic);
+            var residents = world.GetComponentsInChildren<ForestResidentMotion>(true);
+            float[] samples = { 21.2f, 22.2f, 28, 34.9f, 35.6f, 36.5f, 37.5f, 41 };
+            for (int id = 0; id < 5; id++)
+            {
+                world.RestartVisitSequence(); int shelf = id % prepared.shelves.Length;
+                world.PresentProduction(new ProductionNotice(ProductionKind.Sale, shelf, prepared.shelves[shelf].config, 1));
+                for (int frame = 0; frame <= 225; frame++)
+                {
+                    float phase = 19 + frame * .1f;
+                    foreach (var r in residents)
+                        r.transform.localRotation = Quaternion.Euler(0, phase < 27 ? 180 : phase < 30 ? 0 : phase < 38 ? 90 : 0, 0);
+                    epoch.SetValue(world, Time.unscaledTime - id * 52 - phase); world.Bind(prepared);
+                    foreach (float sample in samples) if (Mathf.Abs(sample - phase) < .025f)
+                        Shot("Shopping/resident" + id + "-phase" + sample.ToString("F1", CultureInfo.InvariantCulture) + ".png");
+                }
+            }
+        }
+
         static void Finish(float elapsed)
         {
             ending = true; EditorApplication.update -= Tick;
             economy.ProductionCompleted -= Production; frames.Dispose(); notices.Dispose();
             File.WriteAllText(Output + "/live-final-state.json", JsonUtility.ToJson(state, true));
-            StaticSamples(); SamplePoses();
+            StaticSamples(); SamplePoses(); SampleShopping();
             File.WriteAllText(Output + "/result.txt", "EDITOR DEVELOPMENT CAPTURE COMPLETE\nLive elapsed=" + F(elapsed) +
                 "s; live shots=" + shot + "; prepared pose shots=160 at3FPS input sampling, not natural footage.\nNo ordinary persistence or device touched.\n");
             Debug.Log("FOREST_EXPERIENCE_PREVIEW_OK " + Path.GetFullPath(Output));

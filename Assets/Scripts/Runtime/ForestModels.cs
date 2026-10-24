@@ -19,12 +19,18 @@ namespace ForestShop
             Ball(p, "Head", V(0, 1.55f, -.05f), id == 0 ? V(1.2f, 1.03f, .86f) : id == 1 ? V(.88f, .85f, .85f) : V(1.02f, .94f, .84f), fur);
             for (int s = -1; s <= 1; s += 2)
             {
+                int leg = s < 0 ? 0 : 1;
+                motion.thighs[leg] = Ball(residentRoot, "Joined thigh " + s, Vector3.zero, Vector3.one, id == 0 ? fur : coat);
+                motion.shins[leg] = Ball(residentRoot, "Joined lower leg " + s, Vector3.zero, Vector3.one, id == 0 ? Gold : fur);
+                motion.knees[leg] = Ball(residentRoot, "Rounded knee " + s, Vector3.zero, Vector3.one * .23f, id == 0 ? Gold : fur);
                 var foot = Group(residentRoot, "Foot pivot " + s, V(s * .27f, .27f, -.05f));
                 Ball(foot, "Foot", V(0, -.13f, -.12f), V(.37f, .24f, .51f), id == 0 ? Gold : fur); Combine(foot);
                 var armPivot = Group(residentRoot, "Arm pivot " + s, V(s * .45f, 1.05f, 0));
-                var arm = Ball(armPivot, "Arm", V(0, -.24f, -.06f), V(.29f, .7f, .34f), id == 0 ? fur : coat);
-                if (id != 0) Ball(arm, "Hand", V(0, -.35f, -.06f), V(.79f, .35f, .8f), fur);
-                Combine(armPivot);
+                Color sleeve = id == 0 ? fur : coat;
+                motion.upperArms[leg] = Ball(residentRoot, "Upper sleeve " + s, Vector3.zero, Vector3.one, sleeve);
+                motion.forearms[leg] = Ball(residentRoot, "Lower sleeve " + s, Vector3.zero, Vector3.one, sleeve);
+                motion.elbows[leg] = Ball(residentRoot, "Rounded elbow " + s, Vector3.zero, Vector3.one * .24f, sleeve);
+                motion.hands[leg] = Ball(residentRoot, "Hand " + s, Vector3.zero, V(.25f, .21f, .26f), fur);
                 if (s < 0) { motion.leftFoot = foot; motion.leftArm = armPivot; } else { motion.rightFoot = foot; motion.rightArm = armPivot; }
             }
             if (id == 0)
@@ -123,7 +129,11 @@ namespace ForestShop
                 Combine(eye); motion.eyes[s < 0 ? 0 : 1] = eye;
                 if (id != 0) Ball(p, "Rosy cheek", V(s * .35f, 1.43f, -.435f), V(.15f, .07f, .02f), Hex(0xCC9A7E));
             }
-            Combine(p); motion.Pose(0, 0); return residentRoot;
+            Combine(p);
+            // Keep blinking meshes separate from the combined body, then parent
+            // them to its pose so a lean cannot leave the eyes behind the face.
+            foreach (var eye in motion.eyes) eye.SetParent(p, false);
+            motion.Pose(0, 0); return residentRoot;
         }
         static void Bread(Transform p, Vector3 position, float scale)
         {

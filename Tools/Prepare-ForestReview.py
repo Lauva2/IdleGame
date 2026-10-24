@@ -6,7 +6,7 @@ import json, hashlib, sys, copy, time
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 folder=(root/sys.argv[1]).resolve(); assert folder.is_relative_to(root/'Docs/Verification')
-kind=sys.argv[2]; assert kind in ('late','visits','initial','unrestored','states','chapter','report','dialogue0','dialogue1','dialogue2','dialogue3','dialogue4','blocked-full','blocked-input','blocked-reserve','busy','simple')
+kind=sys.argv[2]; assert kind in ('late','visits','initial','unrestored','states','chapter','report','dialogue0','dialogue1','dialogue2','dialogue3','dialogue4','blocked-full','blocked-input','blocked-reserve','busy','simple','resume')
 lines=(folder/'normal-held.save').read_bytes().split(b'\n',3)
 assert hashlib.sha256(lines[3]).hexdigest().upper().encode()==lines[2]
 s=json.loads(lines[3]); f=lambda c=-1,w=-1,r=-1:dict(level=1,config=c,pending=-2,workItem=w,remaining=r)
@@ -16,6 +16,8 @@ if kind=='visits':
 elif kind=='busy':
     s.update(plots=[f(0,0,0) for i in range(12)],machines=[f(0,0,15),f(1,1,20)])
 elif kind=='simple': s['simpleAnimation']=True
+elif kind=='resume':
+    s.update(crops=[0]*4,items=[0]*6,plots=[f(i%2,i%2,20 if i%2==0 else 30) for i in range(12)],machines=[f(0),f(1)],shelves=[f(r=8) for i in range(4)])
 elif kind=='blocked-full':
     s.update(crops=[80]*4,items=[80]*6,plots=[f(i%4,i%4,0) for i in range(12)],machines=[f(4),f(5)],shelves=[f(r=8) for i in range(4)])
 elif kind in ('blocked-input','blocked-reserve'):

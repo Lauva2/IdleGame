@@ -1,0 +1,20 @@
+{
+  "directory": "Docs/Verification/3d-d20-shopping02/Evidence",
+  "steps": [
+    {
+      "shot": "01-ordinary-update-report-top"
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1010,
+        600
+      ]
+    },
+    {
+      "shot": "02-ordinary-update-report-bottom"
+    }
+  ]
+}

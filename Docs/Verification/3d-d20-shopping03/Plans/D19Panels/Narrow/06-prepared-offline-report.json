@@ -1,0 +1,50 @@
+{
+  "steps": [
+    {
+      "shot": "06-prepared-offline-report-top"
+    },
+    {
+      "swipe": [
+        567,
+        1493,
+        567,
+        1187,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        567,
+        1493,
+        567,
+        1187,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        567,
+        1493,
+        567,
+        1187,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        567,
+        1493,
+        567,
+        1187,
+        650
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "06-prepared-offline-report-bottom"
+    }
+  ],
+  "directory": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\Panels\\Narrow"
+}

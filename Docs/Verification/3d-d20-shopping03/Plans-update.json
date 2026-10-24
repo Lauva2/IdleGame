@@ -1,0 +1,41 @@
+{
+  "directory": "Docs/Verification/3d-d20-shopping03/Evidence",
+  "steps": [
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "shot": "03-ordinary-new-overview"
+    },
+    {
+      "tap": [
+        390,
+        300
+      ]
+    },
+    {
+      "shot": "04-ordinary-six-bed-garden"
+    },
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "shot": "05-ordinary-workshop"
+    },
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "shot": "06-ordinary-new-shop"
+    }
+  ]
+}

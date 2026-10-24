@@ -1,0 +1,34 @@
+{
+  "candidate": "3d-d20-shopping02",
+  "absoluteFrameRoot": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping02-12EAA9AF",
+  "sourceMediaRemainInProject": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping02\\Evidence",
+  "externalUpload": false,
+  "samplingRule": "shop-closeup* and initial-flow* basenames 10FPS, all other MP4 basenames 2FPS",
+  "sourceEnumerationNote": "Source files are frozen at run start. New arrivals are excluded from this run and picked up on rerun.",
+  "sourceSnapshotCount": 9,
+  "deferredSourceFiles": [
+    "Evidence/Dynamics/03-actual-zoom-and-pan-checkout.png",
+    "Evidence/Dynamics/production-garden-before.png",
+    "Evidence/shop-closeup-detail.mp4"
+  ],
+  "samplingTimeNote": "approxOutputPTS is output sampling time, not an exact source frame or touch timestamp.",
+  "integrityNote": "File hash coverage is not frame-by-frame visual inspection or art acceptance.",
+  "jobs": [
+    {
+      "sourceVideo": "Evidence/shop-closeup-1.mp4",
+      "sourceSha256": "6C5BE639CFF677CE55C8DE35ED3A9898DF633BAD470808BE1395213D7ECFD64B",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping02-12EAA9AF\\shop-closeup-1-frames-10fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping02-12EAA9AF\\shop-closeup-1-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 1600
+    },
+    {
+      "sourceVideo": "Evidence/shop-closeup-2.mp4",
+      "sourceSha256": "48339D7F7FADBD19144AEFE6225A313BA492C357C98470E9523B5EC585B1A64A",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping02-12EAA9AF\\shop-closeup-2-frames-10fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping02-12EAA9AF\\shop-closeup-2-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 1600
+    }
+  ]
+}

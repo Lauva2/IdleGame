@@ -1,0 +1,21 @@
+{
+  "candidate": "3d-d20-shopping03",
+  "apkSha256": "8E2644BD2EFE533F3EAB16B24BCBCDF02C27605871BA29EF6AB00F06B1B8331A",
+  "sourceVideoCount": 20,
+  "sourcePngCount": 163,
+  "sampledFrameCount": 6728,
+  "mediaIndexCount": 6911,
+  "deferredMediaCount": 0,
+  "sourceVideoSeconds": 1404.5,
+  "indexes": {
+    "media-index.csv": "ACB81A02ACD93CC3EF1BEF886CB7D8612C37F3C4CFB06F1589C6A45343180E77",
+    "frame-index.csv": "C8B3F0BC8B0D2ED1A80BE5B8DA7A205FE9ABE5BF9914D80F4DCEFD51DC2BD017",
+    "video-metadata.json": "F93EE946A90A426C9A3AF86D0F4BF467D84658F7C01E17FACB360960D4B89B48",
+    "local-frame-storage.json": "142683CCD21DAC83F758ED1697B2A9BAEBA64E6C16B24AD214BF589A462A3D24",
+    "source-files.sha256": "6741BA5E796011608029DB5D11F09AAE6169C03EB521458E1F88BB055CCAA4DA",
+    "build-info.json": "C20CA73CA51E92BE3983766CCC1FFF47C6BC2FCFDC12987593B50DC89503461C",
+    "actual-state-checks.json": "6F28D1EF473F05E16AC46672B67E34F789FD4676040E80734C3443CE6D16FBA6",
+    "final-state-checks.json": "3BAE212F025E6248272D64C1F00AEC7E776B92D8C2C7529B1BCF2AA1B172EB89"
+  },
+  "scope": "All original sources and completed native frames indexed. Hash coverage is not a visual pass. One native decoded frame is copied untouched for version control; originalSHA/PTS recorded in Evidence/Selected/SOURCE.json. Independent art report pending. Sound/natural chapter/12bed purchases/full abnormal and30min/physical-device limitations remain."
+}

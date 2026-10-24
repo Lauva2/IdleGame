@@ -82,13 +82,14 @@ namespace ForestShop
         readonly Transform[] emptyPlots = new Transform[Catalog.MaxPlots], emptyShelves = new Transform[4];
         readonly Transform[] nextPlotDetails = new Transform[Catalog.MaxPlots];
         readonly ForestResidentMotion[] residentMotion = new ForestResidentMotion[5];
-        readonly Transform[] shoppingBags = new Transform[5];
+        readonly Transform[] displayProducts = new Transform[24];
         readonly Transform[] passageCurtains = new Transform[2];
-        Transform spoon, curtainPlain, curtainLeaves, matPlain, matBread, signOld, signNew, potPlain, potFlowers;
+        Transform spoon, checkout, curtainPlain, curtainLeaves, matPlain, matBread, signOld, signNew, potPlain, potFlowers;
         readonly Dictionary<string, Sprite> icons = new Dictionary<string, Sprite>();
         GameState state;
         ForestProductionEffects productionEffects;
-        float saleAt = -100;
+        ForestShoppingMotion shopping;
+        float stirringPhase;
         float visitEpoch;
         float lastDoorAt = -10;
         Vector3 cameraFocus;
@@ -113,6 +114,7 @@ namespace ForestShop
             var fill = Group(transform, "Forest reflected light").gameObject.AddComponent<Light>(); fill.type = LightType.Directional; fill.color = Hex(0xC4DDC7); fill.intensity = .18f; fill.transform.localEulerAngles = V(25, 140, 0); fill.cullingMask = 1 << 10;
             BuildArchitecture(); BuildObjects(); ArrangeForestCourtyard();
             productionEffects = new ForestProductionEffects(worldRoot, plots, machines, shelves);
+            shopping = new ForestShoppingMotion(shopArea, checkout, residentMotion, displayProducts);
             portraitRoot = Group(null, "3D portrait studio", V(2000, 0, 0)); portraitRoot.gameObject.layer = 11;
             portraitCamera = CameraFor("Portrait camera", 11, portraitRoot); portraitCamera.enabled = false; portraitCamera.backgroundColor = Color.clear;
             portraitCamera.transform.localPosition = V(2.7f, 2.2f, -7); portraitCamera.transform.LookAt(portraitRoot.position + V(0, 1.05f, 0)); portraitCamera.orthographicSize = 1.36f;
@@ -127,10 +129,10 @@ namespace ForestShop
         public int ActiveProductionEffects => productionEffects == null ? 0 : productionEffects.ActiveCount;
         public void PresentProduction(ProductionNotice notice)
         {
-            if (notice.Kind == ProductionKind.Sale) saleAt = Time.unscaledTime;
+            shopping?.RecordSale(notice);
             if (state != null) productionEffects?.Trigger(notice, worldCamera, state.simpleAnimation);
         }
-        public void RestartVisitSequence() { visitEpoch = Time.unscaledTime; }
+        public void RestartVisitSequence() { visitEpoch = Time.unscaledTime; shopping?.Clear(); }
         public void RenderNow() { if (worldCamera != null) worldCamera.Render(); }
         public void SetViewportAspect(float aspect) { worldCamera.aspect = aspect; }
         public Vector2 PlotMarker(int index)
@@ -604,7 +606,7 @@ namespace ForestShop
                 shelves[i] = ForestModels.Shelf(worldRoot); shelves[i].localPosition = at;
                 Hotspot(shelves[i], "shelf", i, V(0, .8f, 0), V(1.4f, 1.8f, 1));
                 for (int j = 0; j < 6; j++)
-                { var p = Group(shelves[i], "Stock " + j); for (int copy = 0; copy < 3; copy++) { var item = ForestModels.Product(p, j); item.localPosition = V((copy % 2 - .5f) * .45f, copy < 2 ? .23f : .8f, -.06f); item.localScale = Vector3.one * .56f; } goods[i * 6 + j] = p; }
+                { var p = Group(shelves[i], "Stock " + j); for (int copy = 0; copy < 3; copy++) { var item = ForestModels.Product(p, j); item.localPosition = V((copy % 2 - .5f) * .45f, copy < 2 ? .23f : .8f, -.06f); item.localScale = Vector3.one * .56f; if (copy == 2) displayProducts[i * 6 + j] = item; } goods[i * 6 + j] = p; }
                 emptyShelves[i] = Group(worldRoot, "Sealed display " + i, at);
                 ForestModels.Shelf(emptyShelves[i]);
                 for (int fold = 0; fold < 9; fold++) Ball(emptyShelves[i], "Linen dust cover fold", V(-.5f + fold * .125f, .94f, -.17f), V(.17f, 1.28f, .12f), fold % 2 == 0 ? Hex(0xC8BA96) : Hex(0xBCAD87));
@@ -619,18 +621,17 @@ namespace ForestShop
             for (int i = 0; i < 5; i++)
             {
                 visitors[i] = ForestModels.Resident(worldRoot, i); visitors[i].localPosition = V(-4.8f + i * 2.4f, 4.64f, ShopLaneZ); visitors[i].localScale = Vector3.one * .62f; residentMotion[i] = visitors[i].GetComponent<ForestResidentMotion>();
-                var bag = shoppingBags[i] = Group(residentMotion[i].rightArm, "Purchased goods bag", V(0, -.53f, -.19f));
-                bag.localScale = Vector3.one * 1.35f;
-                Box(bag, "Paper bag", V(0, -.1f, 0), V(.31f, .38f, .23f), Cream);
-                Ring(bag, "Paper handle", V(0, .12f, 0), .11f, .018f, Wood, V(90, 0, 0));
-                Shape(bag, "Shop leaf seal", OakLeaf(), V(0, -.08f, -.124f), V(.22f, .3f, .2f), Leaf, V(90, 0, 0)); Combine(bag);
             }
-            var checkout = Group(upperRoom, "Little checkout desk", V(-3.7f, 4.64f, -1.2f));
-            Box(checkout, "Rounded counter body", V(0, .39f, 0), V(1.05f, .78f, .78f), Wood);
-            Box(checkout, "Countertop", V(0, .82f, 0), V(1.18f, .13f, .91f), Honey);
-            Box(checkout, "Sales ledger", V(-.2f, .93f, 0), V(.38f, .08f, .36f), Deep);
-            Box(checkout, "Ledger pages", V(-.2f, .94f, -.04f), V(.3f, .04f, .27f), Cream);
-            Shape(checkout, "Counter bell", Lathe(new[] { new Vector2(0, 0), new Vector2(.15f, 0), new Vector2(.15f, .05f), new Vector2(.1f, .14f), new Vector2(0, .17f) }), V(.26f, .89f, -.08f), Vector3.one, Gold);
+            checkout = Group(upperRoom, "Little checkout desk", V(-3.7f, 4.64f, -1.2f));
+            checkout.localRotation = Quaternion.Euler(0, -90, 0);
+            Box(checkout, "Rounded counter body", V(0, .31f, 0), V(1.05f, .62f, .78f), Wood);
+            Box(checkout, "Countertop", V(0, .66f, 0), V(1.18f, .13f, 1.1f), Honey);
+            Box(checkout, "Sales ledger", V(.22f, .77f, .12f), V(.38f, .08f, .36f), Deep);
+            Box(checkout, "Ledger pages", V(.22f, .78f, .08f), V(.3f, .04f, .27f), Cream);
+            Shape(checkout, "Counter bell", Lathe(new[] { new Vector2(0, 0), new Vector2(.15f, 0), new Vector2(.15f, .05f), new Vector2(.1f, .14f), new Vector2(0, .17f) }), V(.26f, .73f, -.08f), Vector3.one, Gold);
+            Box(checkout, "Lower collection tray", V(-.28f, .40f, -.38f), V(.70f, .06f, .74f), Honey);
+            for (int side = -1; side <= 1; side += 2)
+                Tube(checkout, "Tray bracket", V(-.28f + side * .24f, .06f, -.04f), V(-.28f + side * .24f, .36f, -.62f), .04f, DarkWood);
             Combine(checkout);
         }
         void Hotspot(Transform parent, string kind, int index, Vector3 center, Vector3 size)
@@ -644,7 +645,7 @@ namespace ForestShop
         }
         public void Bind(GameState current)
         {
-            if (state != current) { state = current; saleAt = -100; productionEffects?.Clear(); }
+            if (state != current) { state = current; stirringPhase = 0; shopping?.Clear(); productionEffects?.Clear(); }
             bool workshop = true;
             bool shop = true;
             sideClosed.gameObject.SetActive(!state.sideRoom && shop); sideOpen.gameObject.SetActive(state.sideRoom && shop);
@@ -672,12 +673,15 @@ namespace ForestShop
         {
             if (state == null) return;
             productionEffects?.Refresh(state);
-            if (spoon != null && state.machines.Length > 0 && state.machines[0].remaining > 0 && !state.simpleAnimation) spoon.localEulerAngles = V(-18 + Mathf.Sin(Time.unscaledTime * 1.5f) * 7, Time.unscaledTime * 26, -28);
+            bool stirring = state.machines.Length > 0 && state.machines[0].remaining > 0 && state.machines[0].workItem >= 0 && !state.report.pending && !state.simpleAnimation;
+            if (stirring) stirringPhase += Time.unscaledDeltaTime;
+            if (spoon != null) spoon.localEulerAngles = stirring ? V(-18 + Mathf.Sin(stirringPhase * 1.5f) * 7, stirringPhase * 26, -28) : V(-18, 0, -28);
             UpdateResidents();
         }
         void UpdateResidents()
         {
             if (state == null) return;
+            shopping?.BeginFrame();
             float doorOpening = 0;
             for (int i = 0; i < 5; i++)
             {
@@ -690,7 +694,8 @@ namespace ForestShop
                 if (!known) continue;
                 float shelfX = ShelfX(i % state.shelves.Length), lane = ShopLaneZ;
                 Vector3 outside = V(ShopDoorX, 3.6f, -24), foot = V(ShopDoorX, 3.6f, -5.4f), entrance = V(ShopDoorX, 4.64f, -3.6f);
-                Vector3 entryLane = V(ShopDoorX, 4.64f, lane), shelfLane = V(shelfX, 4.64f, lane), browse = V(shelfX, 4.64f, .55f), counter = V(-3.3f, 4.64f, lane);
+                Vector3 entryLane = V(ShopDoorX, 4.64f, lane), shelfLane = V(shelfX, 4.64f, lane), browse = V(shelfX, 4.64f, 1);
+                Vector3 counter = shopArea.InverseTransformPoint(checkout.TransformPoint(V(0, 0, -1.05f)));
                 if (!simple)
                 {
                     float entering = Mathf.SmoothStep(0, 1, (phase - 9) / .7f) * (1 - Mathf.SmoothStep(0, 1, (phase - 12.5f) / .6f));
@@ -707,22 +712,18 @@ namespace ForestShop
                 else if (phase < 20) { at = Vector3.Lerp(shelfLane, browse, (phase - 17) / 3); yaw = 180; walking = true; }
                 else if (phase < 27) { at = browse; yaw = 180 + Mathf.Sin(phase * .6f) * 8; walking = false; }
                 else if (phase < 30) { at = Vector3.Lerp(browse, shelfLane, (phase - 27) / 3); yaw = 0; walking = true; }
-                else if (phase < 34) { at = Vector3.Lerp(shelfLane, counter, (phase - 30) / 4); yaw = 90; walking = true; }
-                else if (phase < 38) { at = counter; yaw = Mathf.Lerp(155, 0, Mathf.Clamp01((phase - 35) / 1.2f)); walking = false; }
-                else if (phase < 39) { at = Vector3.Lerp(counter, entryLane, phase - 38); yaw = 90; walking = true; }
+                else if (phase < 34) { at = Vector3.Lerp(shelfLane, counter, (phase - 30) / 4); yaw = Quaternion.LookRotation(shelfLane - counter).eulerAngles.y; walking = true; }
+                else if (phase < 38) { at = counter; yaw = 90; walking = false; }
+                else if (phase < 39) { at = Vector3.Lerp(counter, entryLane, phase - 38); yaw = Quaternion.LookRotation(counter - entryLane).eulerAngles.y; walking = true; }
                 else if (phase < 41) { at = Vector3.Lerp(entryLane, entrance, (phase - 39) / 2); yaw = 0; walking = true; }
                 else if (phase < 44) { at = Vector3.Lerp(entrance, foot, (phase - 41) / 3); yaw = 0; walking = true; }
                 else { at = Vector3.Lerp(foot, outside, Mathf.Clamp01((phase - 44) / 8)); yaw = 0; walking = true; }
                 if (simple) { at = V(-4.8f + i * 2.4f, 4.64f, ShopLaneZ); yaw = -8; walking = false; }
                 float browseGesture = !simple && phase >= 21 && phase < 26 ? Mathf.Sin((phase - 21) * Mathf.PI / 5) : 0;
-                bool visitHasSale = saleAt >= Time.unscaledTime - phase;
-                float reach = 0;
-                if (!simple && visitHasSale && phase >= 34)
-                    reach = phase < 35 ? Mathf.SmoothStep(0, 1, phase - 34) : phase < 36 ? Mathf.SmoothStep(1, .35f, phase - 35) : .35f;
                 Quaternion facing = simple ? Quaternion.Euler(0, yaw, 0)
                     : Quaternion.RotateTowards(visitors[i].localRotation, Quaternion.Euler(0, yaw, 0), 240 * Time.unscaledDeltaTime);
-                residentMotion[i].PoseRoute(at, facing, phase, walking, reach, browseGesture, !simple);
-                shoppingBags[i].gameObject.SetActive(!simple && phase >= 35 && phase < 51.8f && visitHasSale);
+                residentMotion[i].PoseRoute(at, facing, phase, walking, 0, browseGesture, !simple);
+                shopping?.Pose(i, phase, i % state.shelves.Length, known && phase < 51.8f, simple);
             }
             for (int side = 0; side < 2; side++) if (passageCurtains[side] != null)
             {

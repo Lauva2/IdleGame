@@ -6,6 +6,8 @@ namespace ForestShop
     {
         public Transform leftFoot, rightFoot, leftArm, rightArm;
         public readonly Transform[] eyes = new Transform[2];
+        public readonly Transform[] thighs = new Transform[2], shins = new Transform[2], knees = new Transform[2];
+        public readonly Transform[] upperArms = new Transform[2], forearms = new Transform[2], elbows = new Transform[2], hands = new Transform[2];
         public int resident;
         Transform body;
         bool routeStarted;
@@ -21,6 +23,7 @@ namespace ForestShop
             leftFoot.localPosition = new Vector3(-.27f, .27f + Mathf.Max(0, stride) * .025f, -.05f);
             rightFoot.localPosition = new Vector3(.27f, .27f + Mathf.Max(0, -stride) * .025f, -.05f);
             PoseUpperBody(stride, reach, glance, animate, 0, 0);
+            JoinLegs();
         }
 
         // Route coordinates belong to the shop, before its 1.08 scale. Feet are
@@ -69,6 +72,76 @@ namespace ForestShop
             SetFoot(rightFoot, rightPoint, rightGround + right.lift / parentScale, right, .27f, routePosition, modelScale);
             float nod = reach > .01f && phase >= 36 && phase < 37.4f ? Mathf.Sin((phase - 36) * Mathf.PI / 1.4f) : 0;
             PoseUpperBody(stride, reach, glance, true, nod, stairs && walking ? 3 : walking ? 1.5f : 0);
+            JoinLegs();
+        }
+
+        void JoinLegs()
+        {
+            if (body == null) return;
+            for (int i = 0; i < 2; i++)
+            {
+                if (thighs[i] == null) continue;
+                var foot = i == 0 ? leftFoot : rightFoot;
+                Vector3 hip = transform.InverseTransformPoint(body.TransformPoint(new Vector3(i == 0 ? -.26f : .26f, .51f, .015f)));
+                Vector3 ankle = foot.localPosition + foot.localRotation * new Vector3(0, -.04f, 0);
+                Vector3 knee = Vector3.Lerp(hip, ankle, .52f) + Vector3.back * Mathf.Clamp(.19f - Vector3.Distance(hip, ankle) * .2f, .045f, .14f);
+                LegSegment(thighs[i], hip, knee, .26f);
+                LegSegment(shins[i], knee, ankle, .21f);
+                knees[i].localPosition = knee;
+            }
+        }
+
+        static void LegSegment(Transform segment, Vector3 a, Vector3 b, float width)
+        {
+            segment.localPosition = (a + b) * .5f;
+            segment.localRotation = Quaternion.FromToRotation(Vector3.up, b - a);
+            segment.localScale = new Vector3(width, Vector3.Distance(a, b) + width * .25f, width);
+        }
+
+        public Vector3 RightHand => hands[1].position;
+        public Vector3 HandTarget(Vector3 local) => transform.TransformPoint(local);
+        public void AimRightHand(Vector3 target, float weight)
+        {
+            PoseArm(1, Vector3.Lerp(RightHand, target, Mathf.Clamp01(weight)));
+        }
+
+        public void LeanOverCounter(float weight)
+        {
+            if (body == null) return;
+            body.localRotation *= Quaternion.Euler(-10 * weight, 0, 0);
+            PlaceShoulders(); JoinArms(); JoinLegs();
+        }
+
+        void PlaceShoulders()
+        {
+            leftArm.localPosition = transform.InverseTransformPoint(body.TransformPoint(new Vector3(-.45f, 1.05f, 0)));
+            rightArm.localPosition = transform.InverseTransformPoint(body.TransformPoint(new Vector3(.45f, 1.05f, 0)));
+        }
+
+        void JoinArms()
+        {
+            if (hands[0] == null) return;
+            PoseArm(0, leftArm.TransformPoint(new Vector3(0, -.51f, -.12f)));
+            PoseArm(1, rightArm.TransformPoint(new Vector3(0, -.51f, -.12f)));
+        }
+
+        void PoseArm(int index, Vector3 worldTarget)
+        {
+            var pivot = index == 0 ? leftArm : rightArm;
+            Vector3 shoulder = pivot.localPosition;
+            Vector3 offset = transform.InverseTransformPoint(worldTarget) - shoulder;
+            float distance = Mathf.Clamp(offset.magnitude, .08f, .56f);
+            Vector3 direction = offset.sqrMagnitude > .000001f ? offset.normalized : Vector3.down;
+            Vector3 palm = shoulder + direction * distance;
+            Vector3 bend = new Vector3(index == 0 ? -1 : 1, 0, -.3f);
+            bend = Vector3.ProjectOnPlane(bend, direction).normalized;
+            float half = distance * .5f;
+            Vector3 elbow = shoulder + direction * half + bend * Mathf.Sqrt(Mathf.Max(0, .285f * .285f - half * half));
+            LegSegment(upperArms[index], shoulder, elbow, .25f);
+            LegSegment(forearms[index], elbow, palm, .23f);
+            elbows[index].localPosition = elbow;
+            hands[index].localPosition = palm;
+            hands[index].localRotation = pivot.localRotation;
         }
 
         Vector3 ContactPoint(Vector3 routePosition, ForestVisitorGait.Step foot, float side, float modelScale)
@@ -116,6 +189,9 @@ namespace ForestShop
             }
             leftArm.localEulerAngles = new Vector3(-stride * 15 + glance * 29, -glance * 5, -13 - glance * 8);
             rightArm.localEulerAngles = new Vector3(Mathf.Lerp(stride * 15 + glance * 6, 82, reach), -reach * 5, 13 + reach * 3);
+            leftArm.localScale = rightArm.localScale = Vector3.one;
+            if (body != null) PlaceShoulders();
+            JoinArms();
             float blinkPhase = (Time.unscaledTime + resident * 1.17f) % (4.1f + resident * .23f);
             float openness = animate && blinkPhase < .18f
                 ? Mathf.Lerp(.08f, 1, Mathf.Abs(blinkPhase - .09f) / .09f) : 1;

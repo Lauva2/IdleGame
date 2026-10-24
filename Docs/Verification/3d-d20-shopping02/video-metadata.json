@@ -1,0 +1,40 @@
+{
+  "Evidence/shop-closeup-1.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.84,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 160.03,
+    "sha256": "6C5BE639CFF677CE55C8DE35ED3A9898DF633BAD470808BE1395213D7ECFD64B",
+    "bytes": 65826717,
+    "sampleFPS": 10
+  },
+  "Evidence/shop-closeup-2.mp4": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 29.4,
+    "source_size": [
+      1080,
+      1920
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "rotate": 0,
+    "duration": 160.03,
+    "sha256": "48339D7F7FADBD19144AEFE6225A313BA492C357C98470E9523B5EC585B1A64A",
+    "bytes": 64377090,
+    "sampleFPS": 10
+  }
+}

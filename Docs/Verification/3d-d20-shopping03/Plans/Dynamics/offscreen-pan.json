@@ -1,0 +1,41 @@
+{
+  "steps": [
+    {
+      "swipe": [
+        550,
+        700,
+        550,
+        1400,
+        700
+      ]
+    },
+    {
+      "swipe": [
+        550,
+        700,
+        550,
+        1400,
+        700
+      ]
+    },
+    {
+      "wait": 12
+    },
+    {
+      "shot": "offscreen-after-real-drag"
+    },
+    {
+      "tap": [
+        998,
+        1572
+      ]
+    },
+    {
+      "wait": 12
+    },
+    {
+      "shot": "offscreen-after-real-recenter"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d20-shopping03/Evidence/Dynamics"
+}

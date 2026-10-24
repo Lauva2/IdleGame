@@ -1,0 +1,61 @@
+PASS Inactive app has not opened SaveStore
+PASS UI handler exists: 接过钥匙
+PASS Welcome opens garden
+PASS Named UI handler exists: Opening action
+PASS Harvest routes to workshop
+PASS Named UI handler exists: Opening action
+PASS Workshop guide opens recipe sheet
+PASS UI handler exists: 循环制作
+PASS Recipe handler routes to shop
+PASS Named UI handler exists: Opening action
+PASS Shop guide opens shelf sheet
+PASS UI handler exists: 选择售卖
+PASS Shelf handler arms automatic sales
+PASS In-memory simulation reaches first sale
+PASS Named UI handler exists: Opening action
+PASS Completion guide opens orders
+PASS Waiting guide describes the actual unfinished machine cycle
+PASS Named UI handler exists: Opening action
+PASS Waiting guide opens the unfinished machine rather than an empty shelf
+PASS Ready stock guide reads the actual inventory and shelf interval
+PASS Named UI handler exists: Opening action
+PASS Ready stock guide opens its sales shelf
+PASS Missing ingredient guide uses actual crop growth instead of a made-up income timer
+PASS Named UI handler exists: Opening action
+PASS Missing ingredient guide returns to the garden plot
+PASS Reserved tutorial stock is explained instead of promising an impossible sale
+PASS Named UI handler exists: Opening action
+PASS Guide navigation cannot manufacture the first sale or complete the tutorial
+PASS Only next bed has expansion supplies
+PASS Distant future bed remains quiet
+PASS Next bed ray opens expansion conditions
+PASS UI handler exists: 扩建地块
+PASS Actual expansion UI buys only next bed at existing cost
+PASS Far bed ray explains sequential expansion
+PASS Four distant future buttons do not skip expansion order
+PASS Named UI handler exists: Goal details
+PASS Header information icon opens full chapter requirements
+PASS Named UI handler exists: Garden details
+PASS Garden information icon opens full cost and ordering explanation
+PASS Empty, unconfigured, reserved and locked shelf meanings remain distinct
+PASS Named UI handler exists: Shelf details
+PASS In-scene information button opens written shelf icon meanings
+PASS Live symbols have renderers and never intercept UI or scene rays
+PASS Exactly current bottom navigation has selected symbol palette
+PASS UI handler exists: 庭院
+PASS Region jump resets inherited footer position: 庭院
+PASS UI handler exists: 工坊
+PASS Region jump resets inherited footer position: 工坊
+PASS UI handler exists: 店面
+PASS Region jump resets inherited footer position: 店面
+PASS Actual resident paragraphs fit their complete measured Chinese text
+PASS Short resident prose no longer reserves a 240px blank block
+PASS Resident paragraph flow has no overlap 1
+PASS Resident paragraph flow has no overlap 2
+PASS Compact resident layout retains both authored story passages
+PASS Compact action row keeps its full 132px touch area inside the card
+PASS Compact credits retain the complete OFL text and reachable final line
+FAIL System.Exception: Real camera pan isolates a vertically offscreen shelf source
+  at ForestShop.Editor.ForestGuidancePreview.Check (System.Boolean valid, System.String label) [0x00009] in E:\UnityProject\IdleGame\Assets\Editor\ForestGuidancePreview.cs:61 
+  at ForestShop.Editor.ForestGuidancePreview.CheckReceiptProjection () [0x0004e] in E:\UnityProject\IdleGame\Assets\Editor\ForestGuidancePreview.cs:67 
+  at ForestShop.Editor.ForestGuidancePreview.Capture () [0x00aec] in E:\UnityProject\IdleGame\Assets\Editor\ForestGuidancePreview.cs:276 

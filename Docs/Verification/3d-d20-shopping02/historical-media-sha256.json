@@ -1,0 +1,211 @@
+{
+  "candidate": "shopping02 historical, not final03",
+  "files": [
+    {
+      "path": "Evidence/01-ordinary-update-report-top.png",
+      "bytes": 818653,
+      "sha256": "296C4A18CC98FDA67B8B68B7ADAC3FABD1797CCEBE4984FAA34BE04A072D5BEE"
+    },
+    {
+      "path": "Evidence/02-ordinary-update-report-bottom.png",
+      "bytes": 818699,
+      "sha256": "72E680DD51725535857CDFCA2D06F7743BB46C47B15A7190D83CED42E3C1A8EA"
+    },
+    {
+      "path": "Evidence/03-ordinary-overview.png",
+      "bytes": 1335614,
+      "sha256": "CD1D61967B0CD59FC5413EEEAA6DAF201BD6A85546DAAB38A1D01A89F8A50282"
+    },
+    {
+      "path": "Evidence/04-ordinary-six-garden.png",
+      "bytes": 1143259,
+      "sha256": "6084062B57CD9FBFD48D0C63F873B8822376810F7EF2653C53BB8976FEBEBABA"
+    },
+    {
+      "path": "Evidence/05-ordinary-workshop.png",
+      "bytes": 1348501,
+      "sha256": "2E661DC0003967C332000282B40FF10AA87F1BF1E54E231D12FB9D6CEDBD2815"
+    },
+    {
+      "path": "Evidence/06-ordinary-side-checkout.png",
+      "bytes": 1311699,
+      "sha256": "907BF3CA93133598EAC14F2A319D8B7551D366125F0173C13BE67866BC9BD5D1"
+    },
+    {
+      "path": "Evidence/blocked-full.mp4",
+      "bytes": 12535562,
+      "sha256": "1F0E0F9D5B64B36E590B7305B46E7201D74C526DF794F3386A74966AE0324979"
+    },
+    {
+      "path": "Evidence/blocked-input.mp4",
+      "bytes": 13080073,
+      "sha256": "6BFCCAAB29A80E48B3BF07BEA49AC4622D1096BF302D68F2711802D7DB586820"
+    },
+    {
+      "path": "Evidence/blocked-reserve.mp4",
+      "bytes": 15933292,
+      "sha256": "38B9F05B7E3AF2AB9BB5ACA6FA784881371E16CF2B543A393211B7DAF8A7DA41"
+    },
+    {
+      "path": "Evidence/busy-garden.mp4",
+      "bytes": 23261677,
+      "sha256": "F5B9E98B3CE26E68F3D62DD60962D34506C65E07DDA38E1BC96C5F8E4804B650"
+    },
+    {
+      "path": "Evidence/Dynamics/01-default-shop-with-real-number-badges.png",
+      "bytes": 1335376,
+      "sha256": "ECCE6ADEB292013386A4A2DCC9143197D625872EF64BE88CE6A845B46D52125F"
+    },
+    {
+      "path": "Evidence/Dynamics/02-wide-main-road.png",
+      "bytes": 1342635,
+      "sha256": "9CB966CC3EC4DE2145F4606C4AD7720FCE21BF3431E3FE1BA8FD203C345F57F6"
+    },
+    {
+      "path": "Evidence/Dynamics/03-actual-zoom-and-pan-checkout.png",
+      "bytes": 1281994,
+      "sha256": "D68C4FC02328D60CF969AF37D05EEA8138091B0D018275FD082AD9E43095EB5D"
+    },
+    {
+      "path": "Evidence/Dynamics/blocked-full-after.png",
+      "bytes": 1228195,
+      "sha256": "11A0AF479ECE5255F6435EBDEE2B586D80A759E793D53D7ABAB6C9B3F688DACA"
+    },
+    {
+      "path": "Evidence/Dynamics/blocked-full-before.png",
+      "bytes": 1228195,
+      "sha256": "11A0AF479ECE5255F6435EBDEE2B586D80A759E793D53D7ABAB6C9B3F688DACA"
+    },
+    {
+      "path": "Evidence/Dynamics/blocked-input-after.png",
+      "bytes": 1345820,
+      "sha256": "91440D2611279FDB20D292AD4A277E16E435463CE3C194AE1513849199D34C7E"
+    },
+    {
+      "path": "Evidence/Dynamics/blocked-input-before.png",
+      "bytes": 1345820,
+      "sha256": "91440D2611279FDB20D292AD4A277E16E435463CE3C194AE1513849199D34C7E"
+    },
+    {
+      "path": "Evidence/Dynamics/blocked-reserve-after.png",
+      "bytes": 1330647,
+      "sha256": "206F000AACF1A5C3D910A28E7E0BC3F01D0959110EACE2BF37EDA3C9CC8B7007"
+    },
+    {
+      "path": "Evidence/Dynamics/blocked-reserve-before.png",
+      "bytes": 1328675,
+      "sha256": "D35C0527B80ED1606E2D038FEB12D86B26A2796F7B699A6F4DEAECB0AFFFC5E9"
+    },
+    {
+      "path": "Evidence/Dynamics/busy-twelve-garden.png",
+      "bytes": 1226787,
+      "sha256": "971425112BE85DD87915375C006B18848F457CE1314885D2D34AD17D3D4E9634"
+    },
+    {
+      "path": "Evidence/Dynamics/production-garden-after.png",
+      "bytes": 1203242,
+      "sha256": "E087C1BE4DE06F4E320829F336B17728B773CEFBF18709DBAB295293443A3041"
+    },
+    {
+      "path": "Evidence/Dynamics/production-garden-before.png",
+      "bytes": 1188213,
+      "sha256": "10BF7D1514385FDA5BF2D2E02EBFCF6DCF9947C73448D82D3CE1AF675B7F8586"
+    },
+    {
+      "path": "Evidence/Dynamics/production-shop-after.png",
+      "bytes": 1328210,
+      "sha256": "7322E4FFFC5D67B4EDA61A011585A7E455825DC9F953CB0576F042E5E15EDC3D"
+    },
+    {
+      "path": "Evidence/Dynamics/production-shop-before.png",
+      "bytes": 1326640,
+      "sha256": "6F7A2798F82B41D6F50A0B89E2114C91C09A42EF445712E7E77F2633C012381E"
+    },
+    {
+      "path": "Evidence/Dynamics/production-workshop-after.png",
+      "bytes": 1354477,
+      "sha256": "1F8356ACC691616A26B6F3109A91CC8325753CFCB552B4BC8F3FAA4874957158"
+    },
+    {
+      "path": "Evidence/Dynamics/production-workshop-before.png",
+      "bytes": 1354040,
+      "sha256": "58E4DCD8425226992523F6E5268C75C7F2599EED2AFC7B8A706B136B8736540A"
+    },
+    {
+      "path": "Evidence/Dynamics/reduced-shop.png",
+      "bytes": 1346244,
+      "sha256": "4904AF68570AE90178A9497503F4F29B75024C1BDF60F20BF17B227B98BAAECF"
+    },
+    {
+      "path": "Evidence/Dynamics/reduced-workshop.png",
+      "bytes": 1347188,
+      "sha256": "7A6E9DAD46279AF9A060912D1437358BCFD0609CD7A322BDAFFB75EF6902DC57"
+    },
+    {
+      "path": "Evidence/Dynamics/resume-workshop-after-real-harvest-and-craft.png",
+      "bytes": 1347461,
+      "sha256": "494245A54E82110931C584AE6601B7301D1B3DB7F8FB7F7068CA73CA93C02299"
+    },
+    {
+      "path": "Evidence/Dynamics/resume-workshop-initially-short-of-input.png",
+      "bytes": 1345820,
+      "sha256": "91440D2611279FDB20D292AD4A277E16E435463CE3C194AE1513849199D34C7E"
+    },
+    {
+      "path": "Evidence/production-garden.mp4",
+      "bytes": 19345503,
+      "sha256": "604467C19F91CF656F2E5689A883BF9A35A6976A17854A2DC0A74A3C8CCC07C3"
+    },
+    {
+      "path": "Evidence/production-shop.mp4",
+      "bytes": 15285975,
+      "sha256": "65041FBC4A595909088AD1F7BCE7D1AD0004A9F6C0BC69B82AACDCD76D3310D5"
+    },
+    {
+      "path": "Evidence/production-workshop.mp4",
+      "bytes": 13808444,
+      "sha256": "F636F0FE8BEF3D00B1576B708C55582D5C2D16AEC24BF09508420381CCA391C2"
+    },
+    {
+      "path": "Evidence/reduced-shop.mp4",
+      "bytes": 15020859,
+      "sha256": "F98BB8A32F1C8EC62BC2E03CA87C308D748ECF0D6DD65246C496BC1D68F5D62D"
+    },
+    {
+      "path": "Evidence/reduced-workshop.mp4",
+      "bytes": 13018113,
+      "sha256": "5EF56275EEE5AC228A503B06C4CB15E020825BA055ACCB5F326EA346701BBE47"
+    },
+    {
+      "path": "Evidence/resume-workshop.mp4",
+      "bytes": 21091478,
+      "sha256": "99036045C9C6203E6641A1FF309627777B511B98C64B537FFE29701CB563C675"
+    },
+    {
+      "path": "Evidence/shop-closeup-1.mp4",
+      "bytes": 65826717,
+      "sha256": "6C5BE639CFF677CE55C8DE35ED3A9898DF633BAD470808BE1395213D7ECFD64B"
+    },
+    {
+      "path": "Evidence/shop-closeup-2.mp4",
+      "bytes": 64377090,
+      "sha256": "48339D7F7FADBD19144AEFE6225A313BA492C357C98470E9523B5EC585B1A64A"
+    },
+    {
+      "path": "Evidence/shop-closeup-detail.mp4",
+      "bytes": 53348415,
+      "sha256": "A85B5B170871934C9861A69CA542D4164D26678C3C6104014B658EFEB5173501"
+    },
+    {
+      "path": "Evidence/visits-wide-1.mp4",
+      "bytes": 41153969,
+      "sha256": "4B91FD378ED47590A860DC908B8DDA0E8944120D6742B78D4E2676F23787F9F0"
+    },
+    {
+      "path": "Evidence/visits-wide-2.mp4",
+      "bytes": 42243784,
+      "sha256": "EDC31714F1CC063BD23AEB19231C6C9904DF3429F54A580AA004513D17FB5854"
+    }
+  ],
+  "scope": "All retained raw02 PNG/MP4 SHA identities; this is not a frame decode or a visual pass. Existing3200-frame index covers only the initial two default clips."
+}

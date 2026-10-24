@@ -1,0 +1,28 @@
+{
+  "restoredUtc": "2026-10-24T14:39:37.1592873Z",
+  "originalOverride": null,
+  "ordinarySaveRestored": false,
+  "originalCutouts": [
+    {
+      "package": "com.android.internal.display.cutout.emulation.corner",
+      "enabled": false
+    },
+    {
+      "package": "com.android.internal.display.cutout.emulation.double",
+      "enabled": false
+    },
+    {
+      "package": "com.android.internal.display.cutout.emulation.hole",
+      "enabled": false
+    },
+    {
+      "package": "com.android.internal.display.cutout.emulation.waterfall",
+      "enabled": false
+    },
+    {
+      "package": "com.android.internal.display.cutout.emulation.tall",
+      "enabled": false
+    }
+  ],
+  "restoreErrors": []
+}

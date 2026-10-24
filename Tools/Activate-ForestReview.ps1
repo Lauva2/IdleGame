@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory=$true)][string]$Folder,
-    [Parameter(Mandatory=$true)][ValidateSet('late','visits','initial','unrestored','states','chapter','report','dialogue0','dialogue1','dialogue2','dialogue3','dialogue4','blocked-full','blocked-input','blocked-reserve','busy','simple')][string]$Variant
+    [Parameter(Mandatory=$true)][ValidateSet('late','visits','initial','unrestored','states','chapter','report','dialogue0','dialogue1','dialogue2','dialogue3','dialogue4','blocked-full','blocked-input','blocked-reserve','busy','simple','resume')][string]$Variant
 )
 $ErrorActionPreference='Stop'
 $serial=if($env:FOREST_ADB_SERIAL){$env:FOREST_ADB_SERIAL}else{'127.0.0.1:16385'}

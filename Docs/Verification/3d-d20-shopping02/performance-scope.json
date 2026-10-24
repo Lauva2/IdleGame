@@ -1,0 +1,17 @@
+{
+  "candidate": "3d-d20-shopping02",
+  "source": "performance-shop-closeup.csv",
+  "rowUtc": "2026-10-24T13:50:37.4709370Z",
+  "pid": 21637,
+  "frames": 8879,
+  "seconds": 300.001,
+  "fps": 29.6,
+  "p95Milliseconds": 33.33,
+  "maximumMillisecondsIncludingStartup": 2044.46,
+  "pssKB": 323088,
+  "rssKB": 384528,
+  "swapKB": 0,
+  "memoryScope": "One post-recording snapshot, not peak/leak evidence.",
+  "recording": "Two160s1080x1920/4Mbps clips; same PID, no restart or speed-up; decoding started only after this capture.",
+  "scope": "One five-minute sample including startup; not formal thirty-minute acceptance or guaranteed non-loading stable five minutes. Earlier cumulative CSV rows belong to previous sessions."
+}

@@ -1,0 +1,37 @@
+{
+  "ordinaryFinal": {
+    "coins": 782096,
+    "sales": 809304,
+    "stories": 5,
+    "friendship": [
+      22,
+      10,
+      16,
+      16,
+      13
+    ],
+    "decoration": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "chapterComplete": true,
+    "simpleAnimation": false,
+    "music": true,
+    "sound": true
+  },
+  "ordinaryPlots": 6,
+  "ordinaryShelves": 2,
+  "normalRestorePair": "normal-restorable.save(.bak)",
+  "finalSnapshotPair": "ordinary-final-confirmed.save(.bak)",
+  "restorationReplay": "PASS actual Android offline replay: away=2390.640472s effective=2390.640472s income=13194 coins=781994 sales=809202",
+  "preparedDecorationAfterActualTaps": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "display": "1080x1920, cutout overlays disabled; game foreground. Raw display-final/cutout-final/final-focus retained.",
+  "scope": "Latest ordinary progress restored after isolated fixtures.80 screenshot is after foreground return; counters may advance beyond saved checkpoint. Whole natural first chapter/12bed progression, full sound, abnormal recovery and30min gates unfinished."
+}

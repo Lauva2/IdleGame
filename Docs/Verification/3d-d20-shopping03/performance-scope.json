@@ -1,0 +1,18 @@
+{
+  "candidate": "3d-d20-shopping03",
+  "source": "performance-shop-closeup.csv",
+  "rowUtc": "2026-10-24T14:26:03.2183100Z",
+  "pid": 19154,
+  "frames": 8844,
+  "seconds": 300.01,
+  "fps": 29.48,
+  "p95Milliseconds": 33.33,
+  "managedBytes": 137791819,
+  "maximumMillisecondsIncludingStartup": 2438.5,
+  "memoryScope": "One post-recording raw meminfo snapshot, not peak/leak evidence. See meminfo-shop-closeup.txt.",
+  "recording": "Two160s native1080x1920/4Mbps clips, same PID. Five-minute row completed before any03 video decoding began. Gap between clips retained, no speed-up.",
+  "scope": "One five-minute sample including startup; not formal thirty-minute acceptance or guaranteed non-loading stable five minutes. Earlier cumulative rows belong to old sessions.",
+  "pssKB": 329632,
+  "rssKB": 388760,
+  "swapKB": 0
+}

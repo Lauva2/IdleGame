@@ -1,0 +1,22 @@
+{
+  "candidate": "3d-d20-shopping03",
+  "apk": "E:\\UnityProject\\IdleGame\\Builds\\Android\\3d-d20-shopping03\\ForestShop-3d-d20-shopping03.apk",
+  "bytes": 45164811,
+  "sha256": "8E2644BD2EFE533F3EAB16B24BCBCDF02C27605871BA29EF6AB00F06B1B8331A",
+  "sourceFiles": 161,
+  "sourceZipSha256": "B85C476F21B91EAD93E52E294D7189A83569C838C5A756B4C75CA43BBDE2040E",
+  "unity": "2022.3.62f2/7670c08855a9",
+  "development": false,
+  "backend": "IL2CPP Release",
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "buildUtc": "2026-10-24T14:18:14.770889+00:00",
+  "changesFromShopping02": [
+    "Assets/Editor/ForestGuidancePreview.cs",
+    "Assets/Scripts/Runtime/ForestProductionEffects.cs"
+  ],
+  "gate": "New actual APK evidence and independent art review pending; full sound, natural full chapter, abnormal recovery and30minute gates remain unfinished.",
+  "buildSummaryBytesNote": "BuildReport aggregate bytes is not APK length. Actual filesystem length and SHA are authoritative."
+}

@@ -59,6 +59,33 @@ namespace ForestShop.Editor
         static ForestWorld3D World => Field<ForestWorld3D>("world3D");
         static void Check(bool valid, string label)
         { if (!valid) throw new Exception(label); checks.AppendLine("PASS " + label); }
+        static void CheckReceiptProjection()
+        {
+            World.SetVisible(true); World.SetRegion(3);
+            var probe = new StringBuilder(); int source = -1;
+            foreach (float y in new[] { -1.5f, 2.5f, -.5f, 1.5f })
+            {
+                World.SetRegion(3); World.Pan(new Vector2(.5f, .5f), new Vector2(.5f, y));
+                for (int i = 0; i < app.State.shelves.Length; i++)
+                {
+                    Vector2 marker = World.ShelfMarker(i);
+                    probe.AppendLine("panY=" + y + " shelf=" + i + " uv=" + marker.ToString("F4") + " size=" + World.CameraSize);
+                    if (marker.x > .035f && marker.x < .965f && (marker.y < 0 || marker.y > 1)) { source = i; break; }
+                }
+                if (source >= 0) break;
+            }
+            if (source >= 0) World.PresentProduction(new ProductionNotice(ProductionKind.Sale, source, 0, 12));
+            int offscreenEffects = World.ActiveProductionEffects;
+            World.SetRegion(3);
+            World.PresentProduction(new ProductionNotice(ProductionKind.Sale, 0, 0, 12));
+            int visibleEffects = World.ActiveProductionEffects;
+            probe.AppendLine("source=" + source + " offscreenEffects=" + offscreenEffects + " visibleEffects=" + visibleEffects);
+            File.WriteAllText(Output + "/receipt-projection-probe.txt", probe.ToString());
+            Check(source >= 0, "Real camera pan isolates a vertically offscreen shelf source");
+            Check(offscreenEffects == 0, "Offscreen sale sources never clamp a coin back into the viewport");
+            Check(visibleEffects == 1, "Visible sale source still produces its local receipt");
+            World.SetRegion(3);
+        }
         static void Click(string caption)
         {
             var button = UnityEngine.Object.FindObjectsOfType<Button>().FirstOrDefault(b => b.interactable && b.GetComponentInChildren<Text>()?.text == caption);
@@ -260,12 +287,13 @@ namespace ForestShop.Editor
                     Check(Field<RectTransform>("content").parent.GetComponent<ScrollRect>().verticalNormalizedPosition > .99f, "Region jump resets inherited footer position: " + region);
                 }
                 CheckCompactSheets();
+                CheckReceiptProjection();
                 Check(!holder.activeInHierarchy && Field<SaveStore>("store") == null && Field<bool>("evidenceActive") && Field<bool>("recovering"), "No active app, SaveStore or normal-player persistence");
                 File.WriteAllText(Output + "/handler-checks.txt", checks.ToString());
                 File.WriteAllText(Output + "/preview-scope.txt", "EDITOR OFFSCREEN PREPARED HUD PREVIEW, NOT ANDROID. Target=1080x1920, full simulated safe rectangle.\nHost Editor Screen=" + Screen.width + "x" + Screen.height + "; modal height still uses host Screen dimensions, so modal viewport/touch fit is NOT established by these offscreen images.\nInactive ForestApp; no Awake, SaveStore, audio, device install or ordinary player progress writes. UI handlers and future-bed rays exercised against memory.\nFirst sale uses 16 simulated seconds; not real-time play or continuous dynamic evidence. Transient toast hidden for static layout captures.\nSix-bed and stocked-shop states are prepared, not imported normal saves. No final art/functional/phone acceptance.\nUnity=" + Application.unityVersion + "\n");
                 Debug.Log("FOREST_GUIDANCE_PREVIEW_OK " + Path.GetFullPath(Output)); EditorApplication.Exit(0);
             }
-            catch (Exception error) { Debug.LogException(error); EditorApplication.Exit(1); }
+            catch (Exception error) { File.WriteAllText(Output + "/failed-checks.txt", checks.ToString() + "FAIL " + error); Debug.LogException(error); EditorApplication.Exit(1); }
         }
     }
 }

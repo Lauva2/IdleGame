@@ -1,0 +1,62 @@
+{
+  "steps": [
+    {
+      "shot": "11-safe-overview"
+    },
+    {
+      "tap": [
+        390,
+        384
+      ]
+    },
+    {
+      "shot": "12-safe-garden"
+    },
+    {
+      "tap": [
+        885,
+        1628
+      ]
+    },
+    {
+      "shot": "13-safe-real-zoom-in"
+    },
+    {
+      "tap": [
+        775,
+        1628
+      ]
+    },
+    {
+      "shot": "14-safe-real-zoom-out"
+    },
+    {
+      "tap": [
+        998,
+        1628
+      ]
+    },
+    {
+      "shot": "15-safe-real-recenter"
+    },
+    {
+      "tap": [
+        930,
+        384
+      ]
+    },
+    {
+      "shot": "16-safe-shop"
+    },
+    {
+      "tap": [
+        1000,
+        134
+      ]
+    },
+    {
+      "shot": "17-safe-settings"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d20-shopping03/Evidence/Supplement"
+}

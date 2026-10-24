@@ -1,0 +1,229 @@
+{
+  "production-garden": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 9,
+      "crafts": 2,
+      "sales": 456,
+      "coins": 456
+    },
+    "soldDelta": [
+      4,
+      4,
+      0,
+      0,
+      4,
+      4
+    ]
+  },
+  "production-workshop": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 12,
+      "crafts": 2,
+      "sales": 456,
+      "coins": 456
+    },
+    "soldDelta": [
+      4,
+      4,
+      0,
+      0,
+      4,
+      4
+    ]
+  },
+  "production-shop": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 12,
+      "crafts": 1,
+      "sales": 342,
+      "coins": 342
+    },
+    "soldDelta": [
+      3,
+      3,
+      0,
+      0,
+      3,
+      3
+    ]
+  },
+  "busy-garden": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 24,
+      "crafts": 4,
+      "sales": 456,
+      "coins": 456
+    },
+    "soldDelta": [
+      4,
+      4,
+      0,
+      0,
+      4,
+      4
+    ]
+  },
+  "blocked-full": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 0,
+      "crafts": 0,
+      "sales": 0,
+      "coins": 0
+    },
+    "soldDelta": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "blocked-input": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 0,
+      "crafts": 0,
+      "sales": 0,
+      "coins": 0
+    },
+    "soldDelta": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "blocked-reserve": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 0,
+      "crafts": 0,
+      "sales": 0,
+      "coins": 0
+    },
+    "soldDelta": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "resume-workshop": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 18,
+      "crafts": 3,
+      "sales": 0,
+      "coins": 0
+    },
+    "soldDelta": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "machinesBefore": [
+      [
+        -1,
+        -1.0
+      ],
+      [
+        -1,
+        -1.0
+      ]
+    ],
+    "machinesAfter": [
+      [
+        0,
+        12.988687579562082
+      ],
+      [
+        1,
+        17.988687579562082
+      ]
+    ]
+  },
+  "reduced-workshop": {
+    "simpleAnimation": true,
+    "counterDelta": {
+      "harvests": 9,
+      "crafts": 2,
+      "sales": 456,
+      "coins": 456
+    },
+    "soldDelta": [
+      4,
+      4,
+      0,
+      0,
+      4,
+      4
+    ]
+  },
+  "reduced-shop": {
+    "simpleAnimation": true,
+    "counterDelta": {
+      "harvests": 12,
+      "crafts": 2,
+      "sales": 456,
+      "coins": 456
+    },
+    "soldDelta": [
+      4,
+      4,
+      0,
+      0,
+      4,
+      4
+    ]
+  },
+  "offscreen-sale": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 12,
+      "crafts": 2,
+      "sales": 570,
+      "coins": 570
+    },
+    "soldDelta": [
+      5,
+      5,
+      0,
+      0,
+      5,
+      5
+    ]
+  },
+  "initial": {
+    "coins": 86,
+    "sales": 36,
+    "harvests": 4,
+    "crafts": 4,
+    "sold": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "tutorial": 4,
+    "welcomeRead": true,
+    "chapterComplete": false,
+    "playedSeconds": 94.64002771646977,
+    "scope": "Prepared state matching initial new game, followed by actual UI clicks and real elapsed time. Original07 static screenshot has74coins (two teas sold), final completed-save has86 (three sold). No claim that07 shows the first12coins just arriving or a precise first-sale timestamp.80s video retained; HOME only after it ended. Not whole-chapter proof."
+  },
+  "scope": "Actual saved counter windows are not exact clip endpoints. Counter checks do not prove visual silence or contact quality. All late stock/relationships/chapter/report fixtures prepared. Resume uses real20/30s growth from zero materials; no clock change or material gift. Whole natural chapter/12bed progression, sound and full abnormal/long-run gates unfinished."
+}

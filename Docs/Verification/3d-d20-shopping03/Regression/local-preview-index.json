@@ -1,0 +1,440 @@
+{
+  "scope": "Editor isolated outputs only, no Android art pass. R05 setup failure; R06 actual offscreen defect; R07 fixed61checks. Original PNGs remain under Build/Previews, no alteration.",
+  "files": [
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/01-welcome.png",
+      "bytes": 876798,
+      "sha256": "DDB435BE8B10AC52A933615F9DB91C2A6B8CE32928E09CC77C8BD0D9178788B6"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/02-first-harvest-guide.png",
+      "bytes": 1070895,
+      "sha256": "765AD32161EE3E3DD9D38173F069FA25D9A92A5FA637E24A3D4A8F1D390B90E7"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/03-workshop-guide.png",
+      "bytes": 1185521,
+      "sha256": "C56EEF3AEB6D918BED692DE88D4F4435A69B994464AAF6199FF477059680506F"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/04-cauldron-recipe.png",
+      "bytes": 936295,
+      "sha256": "B58B25B5874A0F662982DE771D624D4EED925C7129CDE443CF21A0B8B22465BC"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/05-shop-guide.png",
+      "bytes": 1142765,
+      "sha256": "5BFD04A3010349FDB1D05DA9AA303A463984A59686FD5D636FB348F37BD9C938"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/06-waiting-first-sale.png",
+      "bytes": 1142886,
+      "sha256": "45C2AB73547A0F611B899AD753DCAB83A5048DA030A25D008AB156BED3081182"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/07-first-sale-guide.png",
+      "bytes": 1144730,
+      "sha256": "3954E2938374290C8EBC580C3DB785F2672B546CF855A03B2D25E2B0970AA3B0"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/08-first-order.png",
+      "bytes": 146082,
+      "sha256": "9520D0B296570ECDC32D7592FAEAEA2F52EA30F045CF412D8A66EFA8C2C5ED78"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/09-six-bed-next-expansion.png",
+      "bytes": 1107833,
+      "sha256": "3D2560BE91487629008D2BA9697847F865F435A5333EF40CE464921221AD26A5"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/10-expansion-conditions.png",
+      "bytes": 903130,
+      "sha256": "9FEDBB984D97A821F8F5D4291803F80DC135AE480279A972A0EE007A6090B839"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/11-seven-bed-next-moved.png",
+      "bytes": 1094077,
+      "sha256": "717C6BBAB331419C1155CE251E274A4F25F7A1DA9B1FDF7720018D33FBD23AB3"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/12-future-bed-buttons.png",
+      "bytes": 613756,
+      "sha256": "2DC6EA6C5F9DCD36C454CFC0271A8E7A81B3A0F000A9607E58952281B6A6A61F"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/13-old-shop-sign.png",
+      "bytes": 1160405,
+      "sha256": "5F184278D495C2A1AAADA5EABFA879800845E7D86123F9F7AE5818DDACB3B54D"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/14-reward-shop-sign.png",
+      "bytes": 1161249,
+      "sha256": "0A306191433DF1DBB261C418AAF68421DC98EB9A23ADE85D673FE8E05128D3D6"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/15-goal-details.png",
+      "bytes": 987330,
+      "sha256": "94BBAD3ABC3643D4DD7293465989AC85CECC31CF46CF815482F28AFE6240F43B"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/16-garden-details.png",
+      "bytes": 882416,
+      "sha256": "59471826D719147687BE9D67573AB38F5F0562A980EF3E477FCE4E6418ED8096"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/17-shop-cards-footer.png",
+      "bytes": 998544,
+      "sha256": "ABE2BCDBA76F1B2D8500EFC848914AA95859B2B348B711C815F6E446A84B2AC9"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/18-symbol-contact-sheet.png",
+      "bytes": 136076,
+      "sha256": "96F16286B9D2F2402CC9CB5BF00069473305AB3F6AB3DC5EDC533F5334DABB7C"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/19-shelf-state-icons.png",
+      "bytes": 1158523,
+      "sha256": "30010BA8698079061375D06288AEB7690F1DD28EA72F6FFD33C1884C4FF20C83"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/20-shelf-help.png",
+      "bytes": 967890,
+      "sha256": "357BE719E55DE145B834FE4916CA86B8C1B58A75A0D36F222E93956CEE3E4ABE"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/21-waiting-machine-details.png",
+      "bytes": 930910,
+      "sha256": "2D1C4262BD949742AEE25640268DB0910189CD0DAE2EB5FD9AD2809CF41E3E7A"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/22-waiting-sales-details.png",
+      "bytes": 917102,
+      "sha256": "92FC3A9968015DC2D1E946D4AFA8203F62A181BD5934BE52ECF58E2B33911F60"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/23-waiting-crop-details.png",
+      "bytes": 844188,
+      "sha256": "7BFD4FABE0978DC7FAF2F9AEDAB3F4D46C0950FE54A6E6B3F3484A6B00AB5F85"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/24-waiting-reserved-stock.png",
+      "bytes": 1069583,
+      "sha256": "364E54FA9D205594777780F0DDAC567F2787D3ADF00EABDC238E14444DBF146D"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/25-compact-resident-story.png",
+      "bytes": 992323,
+      "sha256": "DF4B104ADF499152457E6D2FE59D9004D6FAA0952E2676AAC5EA1A2BB7E5C1B5"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/26-compact-reward-dialogue.png",
+      "bytes": 1011678,
+      "sha256": "DFC713A0EADA3D20B68B9A0070027CB38422B1FEB43DBA7DEE970C6359E4D60A"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/27-compact-credits-final-line.png",
+      "bytes": 980697,
+      "sha256": "CB2F9B3BA4963E816ACBE0A102B6E805502F9FCF5DC61E8832259F13E6969346"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r05-beforefix/failed-checks.txt",
+      "bytes": 3556,
+      "sha256": "D6DC553FE374749D4BF8182CA4E66BE3DDF63D0CB30E2DEF68C50A63B9FF56D1"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/01-welcome.png",
+      "bytes": 876400,
+      "sha256": "1E03B52FC2824C63556F377A196586454C778930DD97C780E74820F2081B85B4"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/02-first-harvest-guide.png",
+      "bytes": 1070823,
+      "sha256": "6D7C5DC75BCAAE95E3A1A65BC0473DD00F15E7D6F15B952726D94A79A840BE06"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/03-workshop-guide.png",
+      "bytes": 1185440,
+      "sha256": "1CDD7E6EBE2AE900FC55CDC635D832564364A481C513B05013F48A9E4B1EC9EA"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/04-cauldron-recipe.png",
+      "bytes": 936409,
+      "sha256": "D8040098EFDACC9F40E113D896A3E050D84697F910702CD4BB807683D6BBCA88"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/05-shop-guide.png",
+      "bytes": 1142752,
+      "sha256": "CD87050C4E5C74C77EFD6E4AD1831BB13396EE3658D9E9D4945F802D5EB4DB44"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/06-waiting-first-sale.png",
+      "bytes": 1142970,
+      "sha256": "31A94C77A9AEEFF25931CEE134A890263854A0E5C8E5F1A3E3F3A7A44F022D3F"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/07-first-sale-guide.png",
+      "bytes": 1144596,
+      "sha256": "DCDB984740E12DD242F5E740ADFEFE8C845BE0E306928367B94938B73BCAC239"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/08-first-order.png",
+      "bytes": 146082,
+      "sha256": "9520D0B296570ECDC32D7592FAEAEA2F52EA30F045CF412D8A66EFA8C2C5ED78"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/09-six-bed-next-expansion.png",
+      "bytes": 1107680,
+      "sha256": "E9982AB5D4175F099EC2048C7723D63E45C2BE0F40D8362821D54F4A995568DD"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/10-expansion-conditions.png",
+      "bytes": 903109,
+      "sha256": "A241C3C78A6A7B059139E294223A61F9E8D068C6361225B4AEB1EDF0E45AE2E4"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/11-seven-bed-next-moved.png",
+      "bytes": 1093822,
+      "sha256": "159BBCD1138CEBC426AB539811B8C9A9222EBCA4AD1F09E573D616568B2A1A5A"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/12-future-bed-buttons.png",
+      "bytes": 613756,
+      "sha256": "2DC6EA6C5F9DCD36C454CFC0271A8E7A81B3A0F000A9607E58952281B6A6A61F"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/13-old-shop-sign.png",
+      "bytes": 1160474,
+      "sha256": "A03891D7319AE6B41F16E24A6141D77BEC88AE6577303413255454A13C213A12"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/14-reward-shop-sign.png",
+      "bytes": 1161217,
+      "sha256": "72BEA1612967F0FF5AA867928C9195EE4E715A5331CD9CE4ED4A8326D23D35E9"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/15-goal-details.png",
+      "bytes": 987473,
+      "sha256": "529054A318A8E5C8CFF9DC6A62FB16253876CA3370F68226FA160386800648B9"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/16-garden-details.png",
+      "bytes": 882740,
+      "sha256": "EA86609DB3EB8EAA766C5CE498DD4F53F61397A56173BFA81C7C2FD49E44F5D5"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/17-shop-cards-footer.png",
+      "bytes": 998709,
+      "sha256": "74F21F0A0F1F16F8469FAAECDF1626F5157CA1BCF2E2A01B550A6A9DE4FB1FBA"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/18-symbol-contact-sheet.png",
+      "bytes": 136076,
+      "sha256": "96F16286B9D2F2402CC9CB5BF00069473305AB3F6AB3DC5EDC533F5334DABB7C"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/19-shelf-state-icons.png",
+      "bytes": 1158580,
+      "sha256": "9CD5DC55EF18B1AC39E890291729DF807E407262F34CD26B25850FDE2EF0E7CC"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/20-shelf-help.png",
+      "bytes": 967928,
+      "sha256": "FFA22F5C44BB21F4D0D611668386EC777489BA284B96CE2E2E2B0831FFAE09BC"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/21-waiting-machine-details.png",
+      "bytes": 931209,
+      "sha256": "4C2587B9342BCB556503850856598022D66BCD880679901862ECFA85A8DA50C1"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/22-waiting-sales-details.png",
+      "bytes": 916985,
+      "sha256": "95C675CEB194CC6D7D6ADE039486A2302AF1CAD32645ADF2DE10FE7146484459"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/23-waiting-crop-details.png",
+      "bytes": 844439,
+      "sha256": "8F60B88056F6ADDBA28718BEE8E97695FF32F63120BF2BDD175509BCE5D06CBB"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/24-waiting-reserved-stock.png",
+      "bytes": 1069486,
+      "sha256": "F8F1A4B5111BDD522189AF92A0D74676254A498F1F4C2FF9012EA7CFD213148C"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/25-compact-resident-story.png",
+      "bytes": 992277,
+      "sha256": "C2E391ED01331683321E48CCFB32FD5A7C8B1A2C8BD26008FD1F7776E2E72F63"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/26-compact-reward-dialogue.png",
+      "bytes": 1011703,
+      "sha256": "F9F23EF60757945B86B48F930AD6DBF225B4B704C11D57D1008E79E96C6D295C"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/27-compact-credits-final-line.png",
+      "bytes": 980619,
+      "sha256": "1C711C7D72BD39C9A0CE60D85F6D42FD27E36C93BB12F026D765B810BA881E2A"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/failed-checks.txt",
+      "bytes": 3627,
+      "sha256": "2229549FAEC915621309FD09B2ACC090F55B901D69FA8794381E36CC48063744"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r06-beforefix/receipt-projection-probe.txt",
+      "bytes": 459,
+      "sha256": "F556263225864FD819F0C9DFCC259A4CE1C0E8B428AFBE714538954E84E2D5D1"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/01-welcome.png",
+      "bytes": 876576,
+      "sha256": "7DECAB4650C6FD319A0EAE8417726886139B2CB564294D55D5EA52D5C593C4F0"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/02-first-harvest-guide.png",
+      "bytes": 1070869,
+      "sha256": "640754169C278E3010A9F32F0B5A7A73704AB168310F42DCAF4E9EBAE6EE0829"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/03-workshop-guide.png",
+      "bytes": 1185419,
+      "sha256": "501F1F9A3CC307F22697E214CED78DC6759D6BAFCD1A7539AD344844643C7A17"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/04-cauldron-recipe.png",
+      "bytes": 936652,
+      "sha256": "47DAC3EEA316311A3828CDE1B6A83559B975CBF4818175D3F4EE37E60C811260"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/05-shop-guide.png",
+      "bytes": 1142562,
+      "sha256": "C2210305676BA9CBCBAA177D7093929E67063B8419B0EFA7D3A3D5A37FFB7CEA"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/06-waiting-first-sale.png",
+      "bytes": 1143017,
+      "sha256": "99440E53462E6512CE842557639584BA6D3A5F7A9E895E8E42BA187EBCD8F699"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/07-first-sale-guide.png",
+      "bytes": 1144658,
+      "sha256": "7470C3595078B04143535B885949B9D0F5F8D8DE25807F41C6489F30804B9490"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/08-first-order.png",
+      "bytes": 146082,
+      "sha256": "9520D0B296570ECDC32D7592FAEAEA2F52EA30F045CF412D8A66EFA8C2C5ED78"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/09-six-bed-next-expansion.png",
+      "bytes": 1107769,
+      "sha256": "D72946B728394630692255A5279855FD5EB6B091B651F7E692D9F5CA0BEB1288"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/10-expansion-conditions.png",
+      "bytes": 903253,
+      "sha256": "B4AE770AE602586039E0788968A0142A48FCF5673B48E883CA4F01A831CEDCA5"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/11-seven-bed-next-moved.png",
+      "bytes": 1093858,
+      "sha256": "08E3A018DAFCE22856E52983F09F43B593C621E9D5226BBB2C9089C3E0C91082"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/12-future-bed-buttons.png",
+      "bytes": 613621,
+      "sha256": "308C37C567E7C03E670969F8035FDBCED91E5B8FBB785169E78BF61FFD3CB440"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/13-old-shop-sign.png",
+      "bytes": 1160636,
+      "sha256": "CC1CF86B87C9B77B87E09E59FF8B53F99CCD140ABFBCA184D9AF8595B4577557"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/14-reward-shop-sign.png",
+      "bytes": 1161265,
+      "sha256": "AFA376FB6BDC074B61C10F60F32717BCFDC468B3DBC2F71E11C4618D4DB683EB"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/15-goal-details.png",
+      "bytes": 987327,
+      "sha256": "2B9DE1ADBA97B95659AE710F7DE6F965BB160F8004892892DB577543E0303E0B"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/16-garden-details.png",
+      "bytes": 882520,
+      "sha256": "934F82B9E126D535D33CA4E95659A10D5D34DC8DBD4356102061CF7CBFF4ACB9"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/17-shop-cards-footer.png",
+      "bytes": 998540,
+      "sha256": "37F0377A1E9E1C4A2A6C6F88BA55D990376AB67B27444AE46A30193EB4DB72BC"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/18-symbol-contact-sheet.png",
+      "bytes": 136076,
+      "sha256": "96F16286B9D2F2402CC9CB5BF00069473305AB3F6AB3DC5EDC533F5334DABB7C"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/19-shelf-state-icons.png",
+      "bytes": 1158692,
+      "sha256": "6BB0786A786C5C96BEC42B1B4893CE84D8625224A2FE741E197BC8CE88C9CCED"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/20-shelf-help.png",
+      "bytes": 967761,
+      "sha256": "3D566DF633DB48F818F6D73A0B7A200871DE58B3784BC79761E26CF287FF0D26"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/21-waiting-machine-details.png",
+      "bytes": 931123,
+      "sha256": "358929E91869A608826DBDFAD161756E52A27CC60D4D3CAAA1BDB78C116C7560"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/22-waiting-sales-details.png",
+      "bytes": 917140,
+      "sha256": "952AE58F6A263355FAAB14AEF6630E6B5662E6CB128D90EFD058001CBF8585DD"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/23-waiting-crop-details.png",
+      "bytes": 844280,
+      "sha256": "9C467BB74B87771AEC671A0A035AB8AF51C244326AF8EC3BA8437944D1BA25CB"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/24-waiting-reserved-stock.png",
+      "bytes": 1069582,
+      "sha256": "A6DD9E17C52FD8DC6C601F7EB652B45BE49D166B97D418BDD3F894DDFC7DD7CF"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/25-compact-resident-story.png",
+      "bytes": 992402,
+      "sha256": "DC5E3DF8C0C4C33C10E5B8D126C65870B2464809E3656A34803D4B309AA89EBC"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/26-compact-reward-dialogue.png",
+      "bytes": 1011561,
+      "sha256": "E14853F98300ED0DD29703294AF85CC7209F6056700452F96F27F74CC7DDF0F5"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/27-compact-credits-final-line.png",
+      "bytes": 980641,
+      "sha256": "36453A21E3E0C00360EB2F177CE49A05CC4CD4F5A433F9725A24231DE5BDA3E2"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/handler-checks.txt",
+      "bytes": 3261,
+      "sha256": "0E560D27AABE711AFDE6D273619297F4AFBFC24058FA2A7877CEFE69D3D861DF"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/preview-scope.txt",
+      "bytes": 681,
+      "sha256": "124D913211C7C34E08B82C358169557F0CD738D898CB0B868A55EAC071E48333"
+    },
+    {
+      "path": "Builds/Previews/3d-d20-shopping-r07-afterfix/receipt-projection-probe.txt",
+      "bytes": 415,
+      "sha256": "D5981E8E55B09D1A07FFB551A89E192B07AD43D72CD3B48AA566015C835BFB10"
+    }
+  ]
+}

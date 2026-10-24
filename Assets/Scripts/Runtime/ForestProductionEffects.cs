@@ -14,6 +14,7 @@ namespace ForestShop
             public Transform root, token, store, halo;
             public Transform[] variants, motes;
             public float started = -100;
+            public ProductionKind kind;
         }
         readonly Burst[] plots = new Burst[Catalog.MaxPlots], machines = new Burst[2], shelves = new Burst[4];
         readonly Transform[] steam = new Transform[6];
@@ -51,7 +52,7 @@ namespace ForestShop
         }
         static Burst Make(Transform parent, string name, ProductionKind kind)
         {
-            var b = new Burst { root = Group(parent, name) };
+            var b = new Burst { root = Group(parent, name), kind = kind };
             b.token = Group(b.root, "Settled item");
             if (kind == ProductionKind.Sale)
             {
@@ -66,7 +67,7 @@ namespace ForestShop
                 for (int i = 0; i < count; i++)
                 {
                     b.variants[i] = kind == ProductionKind.Harvest ? ForestModels.Crop(b.token, i) : ForestModels.Product(b.token, i);
-                    b.variants[i].localScale = Vector3.one * (kind == ProductionKind.Craft ? .55f : .38f); b.variants[i].gameObject.SetActive(false);
+                    b.variants[i].localScale = Vector3.one * (kind == ProductionKind.Craft ? .78f : .38f); b.variants[i].gameObject.SetActive(false);
                 }
             }
             b.store = Group(b.root, kind == ProductionKind.Sale ? "Receipt leaf" : "Into shared stock");
@@ -77,6 +78,7 @@ namespace ForestShop
             }
             else Shape(b.store, "Receipt seal", OakLeaf(), Vector3.zero, Vector3.one * .32f, Leaf, new Vector3(-30, 20, 0));
             b.halo = Ring(b.root, "Quiet completion ring", Vector3.zero, .50f, .035f, kind == ProductionKind.Sale ? Gold : Cream);
+            if (kind == ProductionKind.Sale) b.halo.localRotation = Quaternion.Euler(90, 0, 0);
             b.motes = new Transform[3];
             for (int i = 0; i < 3; i++) b.motes[i] = Ball(b.root, "Completion seed " + i, Vector3.zero, Vector3.one * .07f, i == 1 ? Gold : Cream);
             NoShadow(b.root); b.root.gameObject.SetActive(false); return b;
@@ -95,14 +97,23 @@ namespace ForestShop
             var anchors = notice.Kind == ProductionKind.Harvest ? plotAnchors : notice.Kind == ProductionKind.Craft ? machineAnchors : shelfAnchors;
             if (notice.Facility < 0 || notice.Facility >= list.Length || !camera.enabled) return;
             var anchor = anchors[notice.Facility];
-            Vector3 position = anchor.position + Vector3.up * (notice.Kind == ProductionKind.Harvest ? .85f : notice.Kind == ProductionKind.Craft ? 1.7f : 1.65f);
+            Vector3 position = anchor.position + Vector3.up * (notice.Kind == ProductionKind.Harvest ? .85f : notice.Kind == ProductionKind.Craft ? 2.15f : 1.85f);
+            if (notice.Kind == ProductionKind.Sale)
+            {
+                // Same anchor as the real numbered badge. Offset in viewport
+                // space so zoom or camera tilt cannot put the coin behind it.
+                Vector3 marker = camera.WorldToViewportPoint(anchor.TransformPoint(new Vector3(0, 1.85f, 0)));
+                if (marker.z < 0 || marker.x < .035f || marker.x > .965f || marker.y < .13f || marker.y > .93f) return;
+                marker.y = Mathf.Clamp(marker.y + (marker.y > .48f ? -.16f : .16f), .18f, .84f);
+                position = camera.ViewportToWorldPoint(marker);
+            }
             Vector3 uv = camera.WorldToViewportPoint(position);
             if (uv.z < 0 || uv.x < .035f || uv.x > .965f || uv.y < .13f || uv.y > .93f) return;
             var b = list[notice.Facility];
             if (b.root.gameObject.activeSelf && Time.unscaledTime - b.started < .6f) return;
             if (!b.root.gameObject.activeSelf && ActiveCount >= 5) return;
             b.root.position = position;
-            b.root.rotation = Quaternion.Euler(0, camera.transform.eulerAngles.y, 0);
+            b.root.rotation = notice.Kind == ProductionKind.Sale ? camera.transform.rotation : Quaternion.Euler(0, camera.transform.eulerAngles.y, 0);
             b.started = Time.unscaledTime;
             for (int i = 0; i < b.variants.Length; i++) b.variants[i].gameObject.SetActive(i == notice.Item);
             if (!b.root.gameObject.activeSelf) ActiveCount++;
@@ -129,7 +140,7 @@ namespace ForestShop
         void Tick(Burst b, bool simple)
         {
             if (!b.root.gameObject.activeSelf) return;
-            float t = (Time.unscaledTime - b.started) / Duration;
+            float t = (Time.unscaledTime - b.started) / (b.kind == ProductionKind.Craft ? 1.65f : Duration);
             if (t >= 1) { b.root.gameObject.SetActive(false); ActiveCount--; return; }
             Pose(b, t, simple);
         }

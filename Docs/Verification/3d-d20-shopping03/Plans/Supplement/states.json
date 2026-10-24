@@ -1,0 +1,32 @@
+{
+  "steps": [
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "shot": "01-shelf-empty-reserved"
+    },
+    {
+      "tap": [
+        200,
+        1690
+      ]
+    },
+    {
+      "shot": "02-shelf-written-states"
+    },
+    {
+      "tap": [
+        540,
+        1850
+      ]
+    },
+    {
+      "shot": "03-order-shortage"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d20-shopping03/Evidence/Supplement"
+}

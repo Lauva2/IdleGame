@@ -4,7 +4,7 @@
 
 ## 当前阶段
 
-当前已有 **d19经营反馈与操作体验APK**：在森林围合地图、前店后院、十二田与自由镜头基础上，加入真实生产/销售的局部回执、五体型动作、等待原因引导及紧凑长面板。27核心与58Editor检查通过，MuMu实际教程售出首杯后50→62金币；三画幅许可末行、长面板和84px模拟缺口控件已取证。普通更新/恢复离线收益71964和19842均完整重放一致，最终六田/两架及原进度保持。同包[独立R01](Docs/Reviews/3d-d19-experience01/美术评审-R01.md)90.5/100通过，七项达下限、八场景通过、所查范围零已确认美术阻断；足身连接、交付细节及商店回执遮挡等扣分意见公开保留。APK、证据及范围见[交付说明](Docs/交付说明.md)与[本轮记录](Docs/经营反馈与操作体验-2026-10-24.md)。完整声音、普通新档完整首章/12田自然购买、全异常恢复与30分钟仍待验，尚不称第一版全部完成，旧评分不自动转用。
+当前为 **d20购物动作与反馈精修APK**：补齐同一商品的取货、持物、侧向柜台入袋与提袋离店，改善足身/肘部连接，销售提示避开编号与画外来源，加工完成物放大、待料停搅拌。shopping03已在MuMu保留安装，161项构建输入冻结，27项Core同源检查与61项Editor回归PASS；普通更新11268及隔离后恢复13194金币均完整重放一致；最终六田/两架及原进度保留，MuMu保持普通档前台。全八场景、三画幅/模拟安全区与20原片/6728帧已冻结，同一角色[独立R01](Docs/Reviews/3d-d20-shopping03/美术评审-R01.md) **91.0/100通过**，七项达下限、八场景通过、所查范围无已确认美术阻断；承重/触点/总览回执来源距离等一般问题保留，旧分不转用。详见[交付说明](Docs/交付说明.md)与[本轮记录](Docs/购物动作与反馈精修-2026-10-24.md)。完整声音、普通新档全章/十二田自然购买、全异常恢复与正式30分钟仍待验，尚不称第一版全部完成。
 
 - 画风：暖色绘本感 3D 卡通。
 - 语言：简体中文。
@@ -23,7 +23,7 @@
 - [验收矩阵](Docs/验收矩阵.md)
 - [3D 美术规范](Docs/美术规范.md)
 
-纯核心验证运行 `Tools/Test-Core.ps1`，当前27项。Unity 菜单 `Forest Shop/Prepare Project` 准备入口场景，`Forest Shop/Build Windows Test Player` 和 `Forest Shop/Build Android Test APK` 产出开发测试包，`Forest Shop/Build Android Release APK` 产出非开发IL2CPP双架构包。匹配7670c08855a9的Android Build Support已经补齐；d19包已实际ARM64保留存档更新运行。历史隔离旧编辑器兼容包不能当作最终交付。
+纯核心验证运行 `Tools/Test-Core.ps1`，当前27项。Unity 菜单 `Forest Shop/Prepare Project` 准备入口场景，`Forest Shop/Build Windows Test Player` 和 `Forest Shop/Build Android Test APK` 产出开发测试包，`Forest Shop/Build Android Release APK` 产出非开发IL2CPP双架构包。匹配7670c08855a9的Android Build Support已经补齐；d20包已实际ARM64保留存档更新运行。历史隔离旧编辑器兼容包不能当作最终交付。
 
 ## 打开工程
 
