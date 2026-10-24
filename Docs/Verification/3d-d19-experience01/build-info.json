@@ -13,9 +13,26 @@
     "armeabi-v7a"
   ],
   "buildUtc": "2026-10-24T08:40:42.025199+00:00",
-  "gate": "New independent APK art review and device evidence pending. Sound, full progression and long-run gates remain deferred/unfinished.",
+  "gate": "Independent APK art R01 passed 90.5/100, all seven floors and eight scenes passed, no confirmed art blocker in checked scope. Sound, full ordinary progression and long-run gates remain unfinished.",
   "device": "MuMu5.30.1.3586 instance0; actual current serial127.0.0.1:16384, Android version and display files separately recorded.",
   "buildSummaryBytesNote": "Raw BuildReport aggregate=331696969 bytes; filesystem APK=45143382 bytes. Use file length and SHA, not the aggregate as APK length.",
   "currentAdbSerial": "127.0.0.1:16384",
-  "previousSerialNotUsed": "127.0.0.1:16385 (not listening this boot)"
+  "previousSerialNotUsed": "127.0.0.1:16385 (not listening this boot)",
+  "artReview": {
+    "path": "Docs/Reviews/3d-d19-experience01/美术评审-R01.md",
+    "sha256": "C5BB0B893158F76ED0D85D88A8945F8661AD33C0D23AEC1C64CD7276E6D2BA81",
+    "score": 90.5,
+    "scores": [
+      18,
+      18,
+      14,
+      19,
+      8,
+      9,
+      4.5
+    ],
+    "keyScenesPassed": 8,
+    "confirmedArtBlockersInCheckedScope": 0,
+    "completeFirstRelease": false
+  }
 }
