@@ -1,0 +1,320 @@
+{
+  "directory": "Docs/Verification/3d-d19-experience01/Evidence/Interfaces",
+  "steps": [
+    {
+      "tap": [
+        130,
+        300
+      ]
+    },
+    {
+      "shot": "10-overview"
+    },
+    {
+      "tap": [
+        885,
+        1612
+      ]
+    },
+    {
+      "shot": "11-map-zoom"
+    },
+    {
+      "swipe": [
+        550,
+        1000,
+        650,
+        1080,
+        700
+      ]
+    },
+    {
+      "shot": "12-map-drag"
+    },
+    {
+      "tap": [
+        998,
+        1612
+      ]
+    },
+    {
+      "tap": [
+        390,
+        300
+      ]
+    },
+    {
+      "shot": "13-twelve-garden"
+    },
+    {
+      "tap": [
+        260,
+        820
+      ]
+    },
+    {
+      "shot": "14-plot-configuration"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "tap": [
+        355,
+        980
+      ]
+    },
+    {
+      "shot": "15-cauldron-recipes"
+    },
+    {
+      "swipe": [
+        850,
+        1720,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1720,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "shot": "16-cauldron-bottom"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        700,
+        980
+      ]
+    },
+    {
+      "shot": "17-workbench-recipes"
+    },
+    {
+      "swipe": [
+        850,
+        1720,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1720,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "shot": "18-workbench-bottom"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "tap": [
+        320,
+        950
+      ]
+    },
+    {
+      "shot": "19-shelf-products"
+    },
+    {
+      "swipe": [
+        850,
+        1720,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1720,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1720,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "shot": "20-shelf-bottom"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        540,
+        1850
+      ]
+    },
+    {
+      "shot": "21-order-available"
+    },
+    {
+      "tap": [
+        350,
+        770
+      ]
+    },
+    {
+      "shot": "22-order-accepted"
+    },
+    {
+      "tap": [
+        900,
+        1850
+      ]
+    },
+    {
+      "shot": "23-products-top"
+    },
+    {
+      "swipe": [
+        700,
+        1620,
+        700,
+        620,
+        700
+      ]
+    },
+    {
+      "shot": "24-products-bottom"
+    },
+    {
+      "tap": [
+        900,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        790,
+        410
+      ]
+    },
+    {
+      "shot": "25-residents-top"
+    },
+    {
+      "tap": [
+        350,
+        725
+      ]
+    },
+    {
+      "shot": "26-resident-story"
+    },
+    {
+      "swipe": [
+        850,
+        1720,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "shot": "27-resident-story-bottom"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        800,
+        725
+      ]
+    },
+    {
+      "shot": "28-memorial"
+    },
+    {
+      "back": true
+    },
+    {
+      "swipe": [
+        700,
+        1630,
+        700,
+        650,
+        700
+      ]
+    },
+    {
+      "shot": "29-residents-bottom"
+    },
+    {
+      "tap": [
+        180,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "tap": [
+        200,
+        1690
+      ]
+    },
+    {
+      "shot": "30-workshop-facilities"
+    },
+    {
+      "tap": [
+        130,
+        300
+      ]
+    },
+    {
+      "tap": [
+        200,
+        1690
+      ]
+    },
+    {
+      "shot": "31-courtyard-facilities"
+    }
+  ]
+}

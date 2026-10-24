@@ -27,7 +27,7 @@ namespace ForestShop.Editor
                 if (!output.StartsWith(Path.GetFullPath("Builds/Previews") + Path.DirectorySeparatorChar, StringComparison.OrdinalIgnoreCase)) throw new ArgumentException("Preview output must be inside Builds/Previews");
                 return output;
             }
-            return "Builds/Previews/3d-d16-icons";
+            return "Builds/Previews/3d-d19-experience-hud";
         }
         const BindingFlags Private = BindingFlags.Instance | BindingFlags.NonPublic;
         static ForestApp app;
@@ -114,6 +114,70 @@ namespace ForestShop.Editor
             var uv = World.GetComponentInChildren<Camera>().WorldToViewportPoint(box.transform.TransformPoint(box.center));
             World.Pick(new Vector2(uv.x, uv.y));
         }
+        static Text GuideDetail => UnityEngine.Object.FindObjectsOfType<Text>().First(t => t.name == "Opening guide detail");
+        static void RefreshBindings()
+        {
+            foreach (var binding in Field<System.Collections.Generic.List<Action>>("bindings")) binding();
+            foreach (var binding in Field<System.Collections.Generic.List<Action>>("modalBindings")) binding();
+        }
+        static void CheckWaitingGuide()
+        {
+            var waiting = new GameState { welcomeRead = true, tutorial = 3, harvests = 1, simpleAnimation = true };
+            waiting.plots[0].config = waiting.plots[0].workItem = 0; waiting.plots[0].remaining = 12.1;
+            waiting.machines[0].config = waiting.machines[0].workItem = 0; waiting.machines[0].remaining = 9.2;
+            waiting.shelves[0].config = 0; waiting.shelves[0].remaining = 5.2;
+            Use(waiting); World.SetRegion(3); Call("ShowPage", "小店"); RefreshBindings();
+            Check(GuideDetail.text.Contains("加工中") && GuideDetail.text.Contains("10秒"), "Waiting guide describes the actual unfinished machine cycle");
+            ClickName("Opening action");
+            Check(World.Region == 2 && Field<string>("currentSheet") == "machine", "Waiting guide opens the unfinished machine rather than an empty shelf");
+            Shot("21-waiting-machine-details"); Call("CloseSheet");
+            waiting.items[0] = 1; Call("ShowPage", "小店"); RefreshBindings();
+            Check(GuideDetail.text.Contains("醒神茶 1份") && GuideDetail.text.Contains("6秒"), "Ready stock guide reads the actual inventory and shelf interval");
+            ClickName("Opening action");
+            Check(World.Region == 3 && Field<string>("currentSheet") == "shelf", "Ready stock guide opens its sales shelf");
+            Shot("22-waiting-sales-details"); Call("CloseSheet");
+            waiting.items[0] = 0; waiting.machines[0].workItem = -1; waiting.machines[0].remaining = -1;
+            Call("ShowPage", "小店"); RefreshBindings();
+            Check(GuideDetail.text.Contains("薄荷生长中") && GuideDetail.text.Contains("13秒"), "Missing ingredient guide uses actual crop growth instead of a made-up income timer");
+            ClickName("Opening action");
+            Check(World.Region == 1 && Field<string>("currentSheet") == "plot", "Missing ingredient guide returns to the garden plot");
+            Shot("23-waiting-crop-details"); Call("CloseSheet");
+            waiting.items[0] = 1;
+            waiting.orders = new[] { new Order { id = 100, item = 0, count = 3, resident = 0, active = true, reserve = true } };
+            waiting.nextOrderId = 101;
+            Call("ShowPage", "小店"); RefreshBindings();
+            Check(GuideDetail.text.Contains("已预留"), "Reserved tutorial stock is explained instead of promising an impossible sale");
+            Shot("24-waiting-reserved-stock"); ClickName("Opening action");
+            Check(Field<string>("currentPage") == "委托" && waiting.tutorial == 3 && waiting.sales == 0, "Guide navigation cannot manufacture the first sale or complete the tutorial");
+        }
+        static void CheckCompactSheets()
+        {
+            Call("ShowResident", 0);
+            var inner = Field<RectTransform>("sheetContent");
+            var paragraphs = inner.GetComponentsInChildren<Text>().Where(t => t.transform.parent == inner).ToArray();
+            Check(paragraphs.Length == 3 && paragraphs.All(t => t.rectTransform.rect.height >= t.preferredHeight), "Actual resident paragraphs fit their complete measured Chinese text");
+            Check(paragraphs[0].rectTransform.rect.height < 200, "Short resident prose no longer reserves a 240px blank block");
+            for (int i = 1; i < paragraphs.Length; i++)
+            {
+                var previous = paragraphs[i - 1].rectTransform; var next = paragraphs[i].rectTransform;
+                Check(-next.anchoredPosition.y >= -previous.anchoredPosition.y + previous.rect.height + 12, "Resident paragraph flow has no overlap " + i);
+            }
+            string text = string.Join("", paragraphs.Select(t => t.text)).Replace("\n", "");
+            Check(text.Contains(Catalog.Before[0].Replace("\n", "")) && text.Contains(Catalog.After[0].Replace("\n", "")), "Compact resident layout retains both authored story passages");
+            Shot("25-compact-resident-story"); Call("CloseSheet");
+            Call("ShowStoryDialogue", 1);
+            var button = Field<RectTransform>("modal").GetComponentsInChildren<Button>().First(b => b.GetComponentInChildren<Text>()?.text == "继续营业");
+            var row = (RectTransform)button.transform.parent;
+            var touch = button.transform.Find("Touch target");
+            var touchBounds = RectTransformUtility.CalculateRelativeRectTransformBounds(row, touch);
+            Check(touchBounds.max.y <= row.rect.yMax + .1f && touchBounds.min.y >= row.rect.yMin - .1f, "Compact action row keeps its full 132px touch area inside the card");
+            Shot("26-compact-reward-dialogue"); Call("CloseSheet");
+            Call("ShowCredits"); inner = Field<RectTransform>("sheetContent");
+            string license = Resources.Load<TextAsset>("Fonts/OFL").text;
+            var legal = inner.GetComponentsInChildren<Text>().Single(t => t.text.EndsWith(license, StringComparison.Ordinal));
+            Check(legal.rectTransform.rect.height >= legal.preferredHeight && inner.rect.height >= -legal.rectTransform.anchoredPosition.y + legal.rectTransform.rect.height, "Compact credits retain the complete OFL text and reachable final line");
+            Call("EvidenceScroll", true, 0f); Shot("27-compact-credits-final-line"); Call("CloseSheet");
+        }
         static void SymbolBoard()
         {
             var board = (RectTransform)Call("Panel", Field<RectTransform>("safe"), "Icon contact sheet", (Color)new Color32(255, 249, 228, 255), 0f, 0f, 1080f, 1920f);
@@ -154,6 +218,7 @@ namespace ForestShop.Editor
                 Click("选择售卖"); Check(app.State.tutorial == 3 && World.Region == 3 && app.State.shelves[0].config == 0, "Shelf handler arms automatic sales"); Shot("06-waiting-first-sale");
                 app.Engine.Advance(16); Check(app.State.tutorial == 4 && app.State.sales > 0, "In-memory simulation reaches first sale"); Shot("07-first-sale-guide");
                 ClickName("Opening action"); Check(Field<string>("currentPage") == "委托", "Completion guide opens orders"); Shot("08-first-order");
+                CheckWaitingGuide();
                 var six = new GameState { welcomeRead = true, tutorial = 4, sideRoom = true, reputation = 150, coins = 6000, simpleAnimation = true };
                 six.plots = Enumerable.Range(0, 6).Select(i => new Facility { config = i % 4, workItem = i % 4, remaining = 0 }).ToArray();
                 Use(six); World.SetRegion(1); Call("ShowPage", "小店"); Shot("09-six-bed-next-expansion");
@@ -194,6 +259,7 @@ namespace ForestShop.Editor
                     Click(region); Canvas.ForceUpdateCanvases();
                     Check(Field<RectTransform>("content").parent.GetComponent<ScrollRect>().verticalNormalizedPosition > .99f, "Region jump resets inherited footer position: " + region);
                 }
+                CheckCompactSheets();
                 Check(!holder.activeInHierarchy && Field<SaveStore>("store") == null && Field<bool>("evidenceActive") && Field<bool>("recovering"), "No active app, SaveStore or normal-player persistence");
                 File.WriteAllText(Output + "/handler-checks.txt", checks.ToString());
                 File.WriteAllText(Output + "/preview-scope.txt", "EDITOR OFFSCREEN PREPARED HUD PREVIEW, NOT ANDROID. Target=1080x1920, full simulated safe rectangle.\nHost Editor Screen=" + Screen.width + "x" + Screen.height + "; modal height still uses host Screen dimensions, so modal viewport/touch fit is NOT established by these offscreen images.\nInactive ForestApp; no Awake, SaveStore, audio, device install or ordinary player progress writes. UI handlers and future-bed rays exercised against memory.\nFirst sale uses 16 simulated seconds; not real-time play or continuous dynamic evidence. Transient toast hidden for static layout captures.\nSix-bed and stocked-shop states are prepared, not imported normal saves. No final art/functional/phone acceptance.\nUnity=" + Application.unityVersion + "\n");

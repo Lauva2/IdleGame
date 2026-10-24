@@ -4,12 +4,12 @@ Plan keys: directory, steps. Actions: tap [x,y], swipe [x,y,x2,y2,ms],
 wait seconds (<=15), shot name, back true. Every command is timestamped.
 Prepared progression is stored separately and must be labelled by its caller.
 """
-import subprocess, json, sys, time, re, datetime
+import subprocess, json, sys, time, re, datetime, os
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 ADB=ROOT/'Tools/AndroidSdk/platform-tools/adb.exe'
-BASE=[str(ADB),'-P','5038','-s','127.0.0.1:16385']
+BASE=[str(ADB),'-P','5038','-s',os.environ.get('FOREST_ADB_SERIAL','127.0.0.1:16385')]
 plan=json.loads(Path(sys.argv[1]).read_text(encoding='utf-8-sig'))
 dest=(ROOT/plan['directory']).resolve()
 assert dest.is_relative_to(ROOT/'Docs/Verification')

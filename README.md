@@ -4,7 +4,7 @@
 
 ## 当前阶段
 
-当前已有 **d17安卓体验包**：首次将森林小院/十二田布局、大房、经营引导和24种图标一起构建并更新安装到MuMu。普通旧档保留，761秒在线及555秒真实离线完整经济重放通过，隔离真实空档实际点按/计时走通教学与委托入口后恢复普通档。独立安卓阶段R01已归档，保留默认应用图标及货架锁定原因两项意见；默认1080×1920短试玩不等于三画幅、完整新章、声音、30分钟性能或最终≥90验收。APK见[交付说明](Docs/交付说明.md)，过程与限制见[安卓体验记录](Docs/安卓体验包-2026-10-24.md)。旧91.5分不自动适用新布局。
+当前已有 **d19经营反馈与操作体验APK**：在森林围合地图、前店后院、十二田与自由镜头基础上，加入真实生产/销售的局部回执、五体型动作、等待原因引导及紧凑长面板。27核心与58Editor检查通过，MuMu实际教程售出首杯后50→62金币；三画幅许可末行、长面板和84px模拟缺口控件已取证。普通更新/恢复离线收益71964和19842均完整重放一致，最终六田/两架及原进度保持。当前独立美术复审中，足身连接、交付细节及商店回执遮挡等精修意见公开。APK、证据及范围见[交付说明](Docs/交付说明.md)与[本轮记录](Docs/经营反馈与操作体验-2026-10-24.md)。完整声音、普通新档完整首章/12田自然购买、全异常恢复与30分钟仍待验，尚不称第一版全部完成，旧评分不自动转用。
 
 - 画风：暖色绘本感 3D 卡通。
 - 语言：简体中文。
@@ -23,7 +23,7 @@
 - [验收矩阵](Docs/验收矩阵.md)
 - [3D 美术规范](Docs/美术规范.md)
 
-纯核心验证运行 `Tools/Test-Core.ps1`。Unity 菜单 `Forest Shop/Prepare Project` 准备入口场景，`Forest Shop/Build Windows Test Player` 和 `Forest Shop/Build Android Test APK` 产出开发测试包，`Forest Shop/Build Android Release APK` 产出非开发IL2CPP双架构包。匹配7670c08855a9的Android Build Support已经补齐；d11-release01已实际ARM64新装和更新启动，核心22项测试通过。历史隔离旧编辑器兼容包不能当作最终交付。
+纯核心验证运行 `Tools/Test-Core.ps1`，当前27项。Unity 菜单 `Forest Shop/Prepare Project` 准备入口场景，`Forest Shop/Build Windows Test Player` 和 `Forest Shop/Build Android Test APK` 产出开发测试包，`Forest Shop/Build Android Release APK` 产出非开发IL2CPP双架构包。匹配7670c08855a9的Android Build Support已经补齐；d19包已实际ARM64保留存档更新运行。历史隔离旧编辑器兼容包不能当作最终交付。
 
 ## 打开工程
 

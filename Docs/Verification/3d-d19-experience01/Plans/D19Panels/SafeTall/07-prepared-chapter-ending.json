@@ -1,0 +1,50 @@
+{
+  "steps": [
+    {
+      "shot": "07-prepared-chapter-ending-top"
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "07-prepared-chapter-ending-bottom"
+    }
+  ],
+  "directory": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\Panels\\SafeTall"
+}

@@ -1,0 +1,110 @@
+{
+  "steps": [
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "shot": "71-ordinary-restored-map"
+    },
+    {
+      "tap": [
+        390,
+        300
+      ]
+    },
+    {
+      "shot": "72-ordinary-six-bed-garden"
+    },
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "tap": [
+        200,
+        1690
+      ]
+    },
+    {
+      "shot": "73-ordinary-workshop-full-facilities"
+    },
+    {
+      "swipe": [
+        700,
+        650,
+        700,
+        1650,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        700,
+        650,
+        700,
+        1650,
+        650
+      ]
+    },
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "tap": [
+        200,
+        1690
+      ]
+    },
+    {
+      "shot": "74-ordinary-shop-full-facilities"
+    },
+    {
+      "tap": [
+        1000,
+        50
+      ]
+    },
+    {
+      "shot": "75-ordinary-settings"
+    },
+    {
+      "back": true
+    },
+    {
+      "swipe": [
+        700,
+        650,
+        700,
+        1650,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        700,
+        650,
+        700,
+        1650,
+        650
+      ]
+    },
+    {
+      "tap": [
+        130,
+        300
+      ]
+    },
+    {
+      "shot": "76-ordinary-final-overview"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d19-experience01/Evidence"
+}

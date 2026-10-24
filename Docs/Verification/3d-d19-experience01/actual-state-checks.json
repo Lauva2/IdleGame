@@ -1,0 +1,173 @@
+{
+  "blocked-full": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 0,
+      "crafts": 0,
+      "sales": 0,
+      "coins": 0
+    },
+    "soldDelta": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "blocked-input": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 0,
+      "crafts": 0,
+      "sales": 0,
+      "coins": 0
+    },
+    "soldDelta": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "blocked-reserve": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 0,
+      "crafts": 0,
+      "sales": 0,
+      "coins": 0
+    },
+    "soldDelta": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "reduced-garden": {
+    "simpleAnimation": true,
+    "counterDelta": {
+      "harvests": 9,
+      "crafts": 2,
+      "sales": 456,
+      "coins": 456
+    },
+    "soldDelta": [
+      4,
+      4,
+      0,
+      0,
+      4,
+      4
+    ]
+  },
+  "reduced-workshop": {
+    "simpleAnimation": true,
+    "counterDelta": {
+      "harvests": 12,
+      "crafts": 2,
+      "sales": 456,
+      "coins": 456
+    },
+    "soldDelta": [
+      4,
+      4,
+      0,
+      0,
+      4,
+      4
+    ]
+  },
+  "production-garden": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 9,
+      "crafts": 2,
+      "sales": 456,
+      "coins": 456
+    },
+    "soldDelta": [
+      4,
+      4,
+      0,
+      0,
+      4,
+      4
+    ]
+  },
+  "production-workshop": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 12,
+      "crafts": 2,
+      "sales": 456,
+      "coins": 456
+    },
+    "soldDelta": [
+      4,
+      4,
+      0,
+      0,
+      4,
+      4
+    ]
+  },
+  "production-shop": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 12,
+      "crafts": 2,
+      "sales": 456,
+      "coins": 456
+    },
+    "soldDelta": [
+      4,
+      4,
+      0,
+      0,
+      4,
+      4
+    ]
+  },
+  "busy-garden": {
+    "simpleAnimation": false,
+    "counterDelta": {
+      "harvests": 24,
+      "crafts": 4,
+      "sales": 456,
+      "coins": 456
+    },
+    "soldDelta": [
+      4,
+      4,
+      0,
+      0,
+      4,
+      4
+    ]
+  },
+  "initial": {
+    "tutorial": 4,
+    "welcomeRead": true,
+    "coins": 62,
+    "sales": 12,
+    "harvests": 5,
+    "crafts": 2,
+    "sold": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "playedSeconds": 159.63948572850268
+  },
+  "scope": "Autosave windows are not exact clip endpoints. Counter equality does not itself prove visual silence or art quality. Initial input is explicitly prepared matching new-game state; subsequent clicks/wait and first sale are actual gameplay, not full chapter."
+}

@@ -1,0 +1,74 @@
+{
+  "directory": "Docs/Verification/3d-d19-experience01/Evidence/Supplement",
+  "steps": [
+    {
+      "tap": [
+        850,
+        1030
+      ]
+    },
+    {
+      "shot": "30-sign-selected-basic"
+    },
+    {
+      "tap": [
+        850,
+        1270
+      ]
+    },
+    {
+      "shot": "31-curtain-selected-basic"
+    },
+    {
+      "tap": [
+        850,
+        1510
+      ]
+    },
+    {
+      "shot": "32-rug-selected-basic"
+    },
+    {
+      "tap": [
+        850,
+        1750
+      ]
+    },
+    {
+      "shot": "33-pot-selected-basic"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "34-workshop-after-real-switches"
+    },
+    {
+      "swipe": [
+        700,
+        650,
+        700,
+        1650,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        700,
+        650,
+        700,
+        1650,
+        650
+      ]
+    },
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "shot": "35-shop-after-real-switches"
+    }
+  ]
+}

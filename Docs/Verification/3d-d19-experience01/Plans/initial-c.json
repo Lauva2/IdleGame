@@ -1,0 +1,29 @@
+{
+  "directory": "Docs/Verification/3d-d19-experience01/Evidence/Initial",
+  "steps": [
+    {
+      "tap": [
+        850,
+        1115
+      ]
+    },
+    {
+      "shot": "06-awaiting-real-sale"
+    },
+    {
+      "wait": 10
+    },
+    {
+      "shot": "07-real-income"
+    },
+    {
+      "tap": [
+        540,
+        1850
+      ]
+    },
+    {
+      "shot": "08-order-entry"
+    }
+  ]
+}

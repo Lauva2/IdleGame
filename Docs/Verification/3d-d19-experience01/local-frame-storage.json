@@ -1,0 +1,150 @@
+{
+  "candidate": "3d-d19-experience01",
+  "absoluteFrameRoot": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86",
+  "sourceMediaRemainInProject": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence",
+  "externalUpload": false,
+  "samplingRule": "shop-closeup* and initial-flow* basenames 10FPS, all other MP4 basenames 2FPS",
+  "sourceEnumerationNote": "Source files are frozen at run start. New arrivals are excluded from this run and picked up on rerun.",
+  "sourceSnapshotCount": 178,
+  "deferredSourceFiles": [],
+  "samplingTimeNote": "approxOutputPTS is output sampling time, not an exact source frame or touch timestamp.",
+  "integrityNote": "File hash coverage is not frame-by-frame visual inspection or art acceptance.",
+  "jobs": [
+    {
+      "sourceVideo": "Evidence/blocked-full.mp4",
+      "sourceSha256": "ED54E8BB72285E65D413CA464500B1D7B20A69811404E2A7E709D6FF91CE5202",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\blocked-full-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\blocked-full-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 40
+    },
+    {
+      "sourceVideo": "Evidence/blocked-input.mp4",
+      "sourceSha256": "40EFCDFE4BCB95D3FBCB6EB16EB6C2781A2DB5D53A8A8B4310F8606A29066E0F",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\blocked-input-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\blocked-input-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 40
+    },
+    {
+      "sourceVideo": "Evidence/blocked-reserve.mp4",
+      "sourceSha256": "57E30279A39CCEFF34EF298D155BE73164D8DEBF4238E835343965355A238559",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\blocked-reserve-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\blocked-reserve-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 40
+    },
+    {
+      "sourceVideo": "Evidence/busy-garden.mp4",
+      "sourceSha256": "44B57DFE74943D0264351055D0E09EE6CF936A8E3502F118BEE5D0BE4E37D04A",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\busy-garden-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\busy-garden-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 60
+    },
+    {
+      "sourceVideo": "Evidence/initial-flow.mp4",
+      "sourceSha256": "8F499E365B8CBB786D9426E0AD3153C24748022DEC54ABDBFCBAF07646616E01",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\initial-flow-frames-10fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\initial-flow-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 1603
+    },
+    {
+      "sourceVideo": "Evidence/interfaces.mp4",
+      "sourceSha256": "75D0836561EAE6C762BB2FD415B044D1F3F3A9495AA5B389C922EFF582E1432D",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\interfaces-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\interfaces-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 240
+    },
+    {
+      "sourceVideo": "Evidence/Long/region-flow.mp4",
+      "sourceSha256": "441D2C60F7F132D18992712D6D993202E86C542581510E89D1B2AA48B2DF5EF5",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\Long\\region-flow-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\Long\\region-flow-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 120
+    },
+    {
+      "sourceVideo": "Evidence/Narrow/region-flow.mp4",
+      "sourceSha256": "B5D7823B4FD0C9E807FAA460FD2F59CA06027627062CE033F528B65F6FBB2B80",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\Narrow\\region-flow-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\Narrow\\region-flow-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 120
+    },
+    {
+      "sourceVideo": "Evidence/production-garden.mp4",
+      "sourceSha256": "39A15418BC0382CA619E42A345EE9A2342A4F3B3C1B97A64EC03EFD27FAFE8D8",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\production-garden-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\production-garden-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 59
+    },
+    {
+      "sourceVideo": "Evidence/production-shop.mp4",
+      "sourceSha256": "F27510DCF85453D1535A2E025FA10015C2C8BB3DC5288A6E9899C26687737931",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\production-shop-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\production-shop-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 59
+    },
+    {
+      "sourceVideo": "Evidence/production-workshop.mp4",
+      "sourceSha256": "C4204AAE80B203454236564F15D7C7B960CB19378AC8AF6957B0CF31662BE779",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\production-workshop-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\production-workshop-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 59
+    },
+    {
+      "sourceVideo": "Evidence/reduced-garden.mp4",
+      "sourceSha256": "49A2B20210D9FD6C83A0E8A44BC9572BB151DD4F8597EDC07E5CA4BFB3E1F61E",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\reduced-garden-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\reduced-garden-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 60
+    },
+    {
+      "sourceVideo": "Evidence/reduced-workshop.mp4",
+      "sourceSha256": "571391F1444C5BF222359E9D5917C83A9FF08FA673BC068990D8E38BB49C3D24",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\reduced-workshop-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\reduced-workshop-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 60
+    },
+    {
+      "sourceVideo": "Evidence/shop-closeup-1.mp4",
+      "sourceSha256": "DEBCA145C6F93E28C417378BD3069A56C072F6099F29B8FF3DF8E3AB59D46438",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\shop-closeup-1-frames-10fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\shop-closeup-1-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 1600
+    },
+    {
+      "sourceVideo": "Evidence/shop-closeup-2.mp4",
+      "sourceSha256": "C43B044F6A9E9364F71307A7BB50605073DD2EEC5AB17CD5FF3D181A3728FDA2",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\shop-closeup-2-frames-10fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\shop-closeup-2-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 1600
+    },
+    {
+      "sourceVideo": "Evidence/visits-wide-1.mp4",
+      "sourceSha256": "A579D106B7C46EE4F53D5912CB6DB4EB255D6864E8FAD73027DC39C8011B41FD",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\visits-wide-1-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\visits-wide-1-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 320
+    },
+    {
+      "sourceVideo": "Evidence/visits-wide-2.mp4",
+      "sourceSha256": "FED06AA9033D1D5313D1042D93ED109B951BB43B50FCB7819D2FCA2DE2E7359A",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\visits-wide-2-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\visits-wide-2-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 320
+    }
+  ]
+}

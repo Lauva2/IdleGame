@@ -1,0 +1,68 @@
+{
+  "steps": [
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "shot": "78-ordinary-actual-shop-top"
+    },
+    {
+      "tap": [
+        200,
+        1690
+      ]
+    },
+    {
+      "shot": "79-ordinary-actual-shop-facilities"
+    },
+    {
+      "swipe": [
+        1000,
+        1700,
+        1000,
+        2050,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        1000,
+        1700,
+        1000,
+        2050,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        1000,
+        1700,
+        1000,
+        2050,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        1000,
+        1700,
+        1000,
+        2050,
+        650
+      ]
+    },
+    {
+      "tap": [
+        130,
+        300
+      ]
+    },
+    {
+      "shot": "80-ordinary-actual-final-overview"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d19-experience01/Evidence"
+}

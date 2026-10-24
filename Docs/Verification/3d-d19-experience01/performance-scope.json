@@ -1,0 +1,17 @@
+{
+  "candidate": "3d-d19-experience01",
+  "source": "performance-visitors.csv",
+  "rowUtc": "2026-10-24T09:00:39.7383700Z",
+  "pid": 3142,
+  "frames": 8869,
+  "seconds": 299.996,
+  "fps": 29.56,
+  "p95Milliseconds": 33.33,
+  "maximumMillisecondsIncludingStartup": 1887.02,
+  "codec": "screenrecord1080x1920/4Mbps while actual game runs",
+  "pssKB": 308041,
+  "rssKB": 385756,
+  "memoryScope": "One post-recording snapshot, not peak or leak test",
+  "longRunThirtyMinutesAccepted": false,
+  "otherRows": "Raw cumulative CSV retained; do not combine previous sessions/candidates."
+}

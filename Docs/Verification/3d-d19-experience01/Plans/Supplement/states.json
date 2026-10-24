@@ -1,0 +1,32 @@
+{
+  "directory": "Docs/Verification/3d-d19-experience01/Evidence/Supplement",
+  "steps": [
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "shot": "01-shelf-empty-reserved"
+    },
+    {
+      "tap": [
+        200,
+        1690
+      ]
+    },
+    {
+      "shot": "02-shelf-written-states"
+    },
+    {
+      "tap": [
+        540,
+        1850
+      ]
+    },
+    {
+      "shot": "03-order-shortage"
+    }
+  ]
+}

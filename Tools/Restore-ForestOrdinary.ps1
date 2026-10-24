@@ -1,5 +1,6 @@
 param([string]$Folder='Docs/Verification/3d-d18-forest04')
 $ErrorActionPreference='Stop'
+$serial=if($env:FOREST_ADB_SERIAL){$env:FOREST_ADB_SERIAL}else{'127.0.0.1:16385'}
 Set-Location (Split-Path -Parent $PSScriptRoot)
 $target=(Resolve-Path -LiteralPath $Folder).Path
 $qaRoot=(Resolve-Path -LiteralPath 'Docs/Verification').Path
@@ -8,7 +9,7 @@ $adb='Tools/AndroidSdk/platform-tools/adb.exe'
 $device='/sdcard/Android/data/com.forestatelier.curioshop/files'
 $python='C:/Users/Lauva/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
 function AdbRun([string[]]$Arguments){
- & $adb -P 5038 -s 127.0.0.1:16385 @Arguments
+ & $adb -P 5038 -s $serial @Arguments
  if($LASTEXITCODE -ne 0){throw ('ADB failed: '+($Arguments -join ' '))}
 }
 foreach($suffix in @('', '.bak')){
@@ -22,7 +23,7 @@ foreach($suffix in @('', '.bak')){
  $file="$target/normal-restorable.save$suffix"
  AdbRun @('push',$file,"$device/forest-shop.save$suffix")
  $expected=(Get-FileHash -LiteralPath $file -Algorithm SHA256).Hash
- $actual=(& $adb -P 5038 -s 127.0.0.1:16385 shell sha256sum "$device/forest-shop.save$suffix")
+ $actual=(& $adb -P 5038 -s $serial shell sha256sum "$device/forest-shop.save$suffix")
  if($LASTEXITCODE -ne 0 -or -not $actual.StartsWith($expected,[StringComparison]::OrdinalIgnoreCase)){throw 'Restored bytes do not match latest ordinary backup'}
  $records+="$expected  forest-shop.save$suffix <= normal-restorable.save$suffix"
 }

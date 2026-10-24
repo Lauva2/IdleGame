@@ -1,0 +1,38 @@
+{
+  "directory": "Docs/Verification/3d-d19-experience01/Evidence/Supplement",
+  "steps": [
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "tap": [
+        200,
+        1690
+      ]
+    },
+    {
+      "tap": [
+        540,
+        1465
+      ]
+    },
+    {
+      "shot": "36-expansion-conditions"
+    },
+    {
+      "swipe": [
+        850,
+        1720,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "shot": "37-expansion-bottom"
+    }
+  ]
+}

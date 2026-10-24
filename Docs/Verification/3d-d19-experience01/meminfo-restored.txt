@@ -1,0 +1,50 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 4488046 Realtime: 4488046
+
+** MEMINFO in pid 20738 [com.forestatelier.curioshop] **
+                   Pss  Private  Private     Swap      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    67477    67444        0        0    68320    99364    47160    46820
+  Dalvik Heap    11638    11560        0        0    13120    19370     9685     9685
+ Dalvik Other     1126     1044        0        0     2876                           
+        Stack      920      920        0        0      932                           
+       Ashmem    16173    16080        0        0    16544                           
+    Other dev       12        0       12        0      304                           
+     .so mmap   217506   164412    46248        0   248052                           
+    .jar mmap     8672        0     3120        0    27292                           
+    .apk mmap     2720        0     2204        0     4024                           
+    .dex mmap      290        4      156        0      552                           
+    .oat mmap     2662        0      692        0    14164                           
+    .art mmap     2284     1420        0        0    19840                           
+   Other mmap     3798        8     3436        0     5020                           
+      Unknown    28474    28452        0        0    28828                           
+        TOTAL   363752   291344    55868        0   449868   118734    56845    56505
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    12980                          32960
+         Native Heap:    67444                          68320
+                Code:   216836                         294168
+               Stack:      920                            932
+            Graphics:        0                              0
+       Private Other:    49032
+              System:    16540
+             Unknown:                                   53488
+ 
+           TOTAL PSS:   363752            TOTAL RSS:   449868      TOTAL SWAP (KB):        0
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        5           Activities:        1
+              Assets:        4        AssetManagers:        0
+       Local Binders:       14        Proxy Binders:       38
+       Parcel memory:        6         Parcel count:       24
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 

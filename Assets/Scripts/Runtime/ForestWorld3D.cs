@@ -87,7 +87,7 @@ namespace ForestShop
         Transform spoon, curtainPlain, curtainLeaves, matPlain, matBread, signOld, signNew, potPlain, potFlowers;
         readonly Dictionary<string, Sprite> icons = new Dictionary<string, Sprite>();
         GameState state;
-        long lastSale;
+        ForestProductionEffects productionEffects;
         float saleAt = -100;
         float visitEpoch;
         float lastDoorAt = -10;
@@ -112,6 +112,7 @@ namespace ForestShop
             Shader.SetGlobalFloat("_ForestShadowTexelSize", 1f / 2048);
             var fill = Group(transform, "Forest reflected light").gameObject.AddComponent<Light>(); fill.type = LightType.Directional; fill.color = Hex(0xC4DDC7); fill.intensity = .18f; fill.transform.localEulerAngles = V(25, 140, 0); fill.cullingMask = 1 << 10;
             BuildArchitecture(); BuildObjects(); ArrangeForestCourtyard();
+            productionEffects = new ForestProductionEffects(worldRoot, plots, machines, shelves);
             portraitRoot = Group(null, "3D portrait studio", V(2000, 0, 0)); portraitRoot.gameObject.layer = 11;
             portraitCamera = CameraFor("Portrait camera", 11, portraitRoot); portraitCamera.enabled = false; portraitCamera.backgroundColor = Color.clear;
             portraitCamera.transform.localPosition = V(2.7f, 2.2f, -7); portraitCamera.transform.LookAt(portraitRoot.position + V(0, 1.05f, 0)); portraitCamera.orthographicSize = 1.36f;
@@ -122,7 +123,13 @@ namespace ForestShop
         {
             var c = Group(parent, name).gameObject.AddComponent<Camera>(); c.orthographic = true; c.nearClipPlane = .1f; c.farClipPlane = 180; c.cullingMask = 1 << layer; c.clearFlags = CameraClearFlags.SolidColor; c.allowHDR = false; c.allowMSAA = true; return c;
         }
-        public void SetVisible(bool visible) { if (worldCamera != null) worldCamera.enabled = visible; }
+        public void SetVisible(bool visible) { if (worldCamera != null) worldCamera.enabled = visible; if (!visible) productionEffects?.Clear(); }
+        public int ActiveProductionEffects => productionEffects == null ? 0 : productionEffects.ActiveCount;
+        public void PresentProduction(ProductionNotice notice)
+        {
+            if (notice.Kind == ProductionKind.Sale) saleAt = Time.unscaledTime;
+            if (state != null) productionEffects?.Trigger(notice, worldCamera, state.simpleAnimation);
+        }
         public void RestartVisitSequence() { visitEpoch = Time.unscaledTime; }
         public void RenderNow() { if (worldCamera != null) worldCamera.Render(); }
         public void SetViewportAspect(float aspect) { worldCamera.aspect = aspect; }
@@ -132,6 +139,7 @@ namespace ForestShop
         { Vector3 v = worldCamera.WorldToViewportPoint(shelves[index].TransformPoint(V(0, 1.85f, 0))); return new Vector2(v.x, v.y); }
         public void SetRegion(int region)
         {
+            productionEffects?.Clear();
             Region = region;
             View = region == 0 ? fullView : closeView; worldCamera.targetTexture = View;
             worldCamera.ResetAspect();
@@ -636,7 +644,7 @@ namespace ForestShop
         }
         public void Bind(GameState current)
         {
-            if (state != current) { state = current; lastSale = state.sales; saleAt = -100; }
+            if (state != current) { state = current; saleAt = -100; productionEffects?.Clear(); }
             bool workshop = true;
             bool shop = true;
             sideClosed.gameObject.SetActive(!state.sideRoom && shop); sideOpen.gameObject.SetActive(state.sideRoom && shop);
@@ -658,11 +666,12 @@ namespace ForestShop
                 bool built = i < state.shelves.Length; shelves[i].gameObject.SetActive(built); emptyShelves[i].gameObject.SetActive(!built);
                 for (int j = 0; j < 6; j++) goods[i * 6 + j].gameObject.SetActive(built && state.shelves[i].config == j && state.items[j] > 0);
             }
-            if (state.sales > lastSale) { lastSale = state.sales; saleAt = Time.unscaledTime; }
+            productionEffects?.Refresh(state);
         }
         void Update()
         {
             if (state == null) return;
+            productionEffects?.Refresh(state);
             if (spoon != null && state.machines.Length > 0 && state.machines[0].remaining > 0 && !state.simpleAnimation) spoon.localEulerAngles = V(-18 + Mathf.Sin(Time.unscaledTime * 1.5f) * 7, Time.unscaledTime * 26, -28);
             UpdateResidents();
         }
@@ -705,18 +714,14 @@ namespace ForestShop
                 else if (phase < 44) { at = Vector3.Lerp(entrance, foot, (phase - 41) / 3); yaw = 0; walking = true; }
                 else { at = Vector3.Lerp(foot, outside, Mathf.Clamp01((phase - 44) / 8)); yaw = 0; walking = true; }
                 if (simple) { at = V(-4.8f + i * 2.4f, 4.64f, ShopLaneZ); yaw = -8; walking = false; }
-                float cadence = i == 0 ? 6.4f : i == 1 ? 7.1f : i == 2 ? 8.2f : i == 3 ? 9 : 5.8f;
-                float stride = walking ? Mathf.Sin(Time.unscaledTime * cadence + i) : 0;
                 float browseGesture = !simple && phase >= 21 && phase < 26 ? Mathf.Sin((phase - 21) * Mathf.PI / 5) : 0;
-                float thankYou = !simple && phase >= 36 && phase < 37.4f ? Mathf.Sin((phase - 36) * Mathf.PI / 1.4f) : 0;
-                visitors[i].localPosition = at + V(0, Mathf.Abs(stride) * (i == 4 ? .015f : .024f), 0);
-                visitors[i].localRotation = simple ? Quaternion.Euler(0, yaw, 0)
-                    : Quaternion.RotateTowards(visitors[i].localRotation, Quaternion.Euler(thankYou * 5, yaw, browseGesture * (i == 0 ? -3 : 2)), 240 * Time.unscaledDeltaTime);
                 bool visitHasSale = saleAt >= Time.unscaledTime - phase;
                 float reach = 0;
                 if (!simple && visitHasSale && phase >= 34)
                     reach = phase < 35 ? Mathf.SmoothStep(0, 1, phase - 34) : phase < 36 ? Mathf.SmoothStep(1, .35f, phase - 35) : .35f;
-                residentMotion[i].Pose(stride, reach, browseGesture, !simple);
+                Quaternion facing = simple ? Quaternion.Euler(0, yaw, 0)
+                    : Quaternion.RotateTowards(visitors[i].localRotation, Quaternion.Euler(0, yaw, 0), 240 * Time.unscaledDeltaTime);
+                residentMotion[i].PoseRoute(at, facing, phase, walking, reach, browseGesture, !simple);
                 shoppingBags[i].gameObject.SetActive(!simple && phase >= 35 && phase < 51.8f && visitHasSale);
             }
             for (int side = 0; side < 2; side++) if (passageCurtains[side] != null)

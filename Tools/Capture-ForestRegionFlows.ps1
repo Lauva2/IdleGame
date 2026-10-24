@@ -1,15 +1,16 @@
 param([string]$Folder='Docs/Verification/3d-d18-forest04')
 $ErrorActionPreference='Stop'
+$serial=if($env:FOREST_ADB_SERIAL){$env:FOREST_ADB_SERIAL}else{'127.0.0.1:16385'}
 Set-Location (Split-Path -Parent $PSScriptRoot)
 $adb=(Resolve-Path Tools/AndroidSdk/platform-tools/adb.exe).Path
 $python='C:/Users/Lauva/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
 try {
  foreach($case in @(@{name='Long';w=1080;h=2340;s=1.0;video='720x1560'},@{name='Narrow';w=720;h=1600;s=0.6666667;video='720x1600'})){
-  & $adb -P 5038 -s 127.0.0.1:16385 shell wm size ($case.w.ToString()+'x'+$case.h)
+  & $adb -P 5038 -s $serial shell wm size ($case.w.ToString()+'x'+$case.h)
   & Tools/Activate-ForestReview.ps1 -Folder $Folder -Variant late
   [DateTime]::UtcNow.ToString('o') | Set-Content ($Folder+'/flow-'+$case.name+'-start.txt')
   $remote='/sdcard/forest-region-'+$case.name+'.mp4'
-  $record=Start-Process -FilePath $adb -ArgumentList @('-P','5038','-s','127.0.0.1:16385','shell','screenrecord','--size',$case.video,'--bit-rate','1600000','--time-limit','60',$remote) -PassThru -WindowStyle Hidden
+  $record=Start-Process -FilePath $adb -ArgumentList @('-P','5038','-s',$serial,'shell','screenrecord','--size',$case.video,'--bit-rate','1600000','--time-limit','60',$remote) -PassThru -WindowStyle Hidden
   $s=$case.s
   $steps=@(@{shot='11-flow-overview'})
   foreach($region in @(@{x=390;name='garden'},@{x=660;name='workshop'},@{x=930;name='shop'})){
@@ -22,7 +23,7 @@ try {
   & $python Tools/Forest-DeviceReview.py Builds/d18-region-flow-plan.json
   if($LASTEXITCODE -ne 0){throw 'Actual region flow capture failed'}
   $record.WaitForExit()
-  & $adb -P 5038 -s 127.0.0.1:16385 pull $remote ($Folder+'/Evidence/'+$case.name+'/region-flow.mp4')
-  & $adb -P 5038 -s 127.0.0.1:16385 shell dumpsys window displays | Set-Content ($Folder+'/fit-'+$case.name+'.txt')
+  & $adb -P 5038 -s $serial pull $remote ($Folder+'/Evidence/'+$case.name+'/region-flow.mp4')
+  & $adb -P 5038 -s $serial shell dumpsys window displays | Set-Content ($Folder+'/fit-'+$case.name+'.txt')
  }
-} finally { & $adb -P 5038 -s 127.0.0.1:16385 shell wm size reset }
+} finally { & $adb -P 5038 -s $serial shell wm size reset }

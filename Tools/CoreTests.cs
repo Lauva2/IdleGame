@@ -33,6 +33,36 @@ public static class CoreTests
                 Check(s.crops[0] == 0 && s.machines[0].remaining == 15, "material not consumed once");
                 e.ConfigureShelf(0, 0); e.Advance(20); Check(s.coins == 62 && s.sold[0] == 1 && s.tutorial == 4, "first sale incorrect");
             });
+            Test("presentation notices match settlements without changing saved state", () => {
+                var a = Running(); var b = Clone(a); var observed = new Economy(a); var plain = new Economy(b);
+                long harvests = a.harvests, crafts = a.crafts, sales = a.sales; int h = 0, c = 0, sold = 0;
+                observed.ProductionCompleted += n => {
+                    if (n.Kind == ProductionKind.Harvest) { Check(n.Facility < a.plots.Length && n.Item < 4 && n.Amount == 1, "harvest identity"); h++; }
+                    else if (n.Kind == ProductionKind.Craft) { Check(n.Facility < a.machines.Length && n.Item < 6 && n.Amount == 1, "craft identity"); c++; }
+                    else { Check(n.Facility < a.shelves.Length && n.Amount == Catalog.Price[n.Item], "sale identity"); sold += n.Amount; }
+                };
+                observed.Advance(600); plain.Advance(600);
+                Check(codec.Encode(a) == codec.Encode(b), "observer altered saved economy");
+                Check(h == a.harvests - harvests && c == a.crafts - crafts && sold == a.sales - sales, "notice totals differ from actual settlement");
+            });
+            Test("blocked and reserved production never emits false completion", () => {
+                var s = new GameState { tutorial = 4, welcomeRead = true }; var e = new Economy(s); int harvest = 0, sale = 0, craft = 0;
+                e.ProductionCompleted += n => { if (n.Kind == ProductionKind.Harvest) harvest++; else if (n.Kind == ProductionKind.Sale) sale++; else craft++; };
+                s.crops[0] = 20; s.plots[0].remaining = 0; s.plots[0].workItem = 0; s.machines[0].config = -1; s.shelves[0].config = -1;
+                e.Advance(1); Check(harvest == 0 && craft == 0 && sale == 0, "full warehouse cue");
+                s.crops[0]--; e.Advance(0); Check(harvest == 1, "unblocked actual deposit cue missing");
+                s.plots[0].config = s.plots[0].workItem = -1; s.plots[0].remaining = -1; s.crops[0] = 0;
+                s.machines[0].config = 0; e.Advance(10); Check(craft == 0, "missing material cue");
+                s.machines[0].config = -1; s.items[0] = 8; s.shelves[0].config = 0; s.shelves[0].remaining = 0;
+                s.orders = new[] { new Order { id = 100, resident = 0, item = 0, count = 8, active = true, reserve = true } };
+                e.Advance(0); Check(sale == 0, "reserved stock emitted sale");
+                s.items[0]++; e.Advance(8); Check(sale == 1 && s.items[0] == 8, "surplus sale identity");
+            });
+            Test("first manual harvest notifies once", () => {
+                var s = new GameState(); var e = new Economy(s); int count = 0;
+                e.ProductionCompleted += n => { Check(n.Kind == ProductionKind.Harvest && n.Item == 0 && n.Facility == 0, "first harvest notice"); count++; };
+                Check(e.HarvestFirst() && !e.HarvestFirst() && count == 1, "first harvest notification duplicated or absent");
+            });
             foreach (int seconds in new[] { 60, 3600, 28800 })
                 Test("online/offline deterministic equivalence " + seconds + " seconds", () => {
                     var a = Running(); var b = Clone(a); var ea = new Economy(a); var eb = new Economy(b);

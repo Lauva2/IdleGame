@@ -1,0 +1,21 @@
+{
+  "candidate": "3d-d19-experience01",
+  "apk": "E:\\UnityProject\\IdleGame\\Builds\\Android\\3d-d19-experience01\\ForestShop-3d-d19-experience01.apk",
+  "bytes": 45143382,
+  "sha256": "7BD50E86D10ADCEE672D29839AA7C620D4F19378FA894272E4F7E0C80E9CFE3B",
+  "sourceFiles": 159,
+  "sourceZipSha256": "43AEB8251688CAB708263800C14B8DCB75E561F5DE9DC1DBDDEFBDA7569FA066",
+  "unity": "2022.3.62f2 / 7670c08855a9",
+  "development": false,
+  "backend": "IL2CPP Release",
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "buildUtc": "2026-10-24T08:40:42.025199+00:00",
+  "gate": "New independent APK art review and device evidence pending. Sound, full progression and long-run gates remain deferred/unfinished.",
+  "device": "MuMu5.30.1.3586 instance0; actual current serial127.0.0.1:16384, Android version and display files separately recorded.",
+  "buildSummaryBytesNote": "Raw BuildReport aggregate=331696969 bytes; filesystem APK=45143382 bytes. Use file length and SHA, not the aggregate as APK length.",
+  "currentAdbSerial": "127.0.0.1:16384",
+  "previousSerialNotUsed": "127.0.0.1:16385 (not listening this boot)"
+}

@@ -1,0 +1,21 @@
+{
+  "candidate": "d19-experience-dev-r01",
+  "kind": "Editor development only, not Android acceptance",
+  "sourceFiles": 159,
+  "sourceZip": "E:\\UnityProject\\IdleGame\\Builds\\Previews\\3d-d19-experience-dev-r01-source.zip",
+  "sourceZipSha256": "D57109AC2BA3FCB83E847C99BC840FAC2D8DA057322860BDFDCB029FD23CEF8C",
+  "coreChecks": 27,
+  "hudChecks": 58,
+  "liveEditorSeconds": 60.055126,
+  "liveShots": 117,
+  "preparedPoseShots": 160,
+  "noticeCount": 58,
+  "peakObservedLocalEffects": 4,
+  "ordinaryPersistenceTouched": false,
+  "knownLimits": [
+    "Host640x480 limits modal viewport; no Android adaptation proof",
+    "HUD27 file name does not prove visible OFL final three lines",
+    "Prepared pose sequence uses explicit epoch/facing, not natural movement footage",
+    "Workbench completed item small; next source increases craft token and height"
+  ]
+}

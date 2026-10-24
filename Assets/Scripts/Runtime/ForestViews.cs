@@ -8,7 +8,8 @@ namespace ForestShop
     public sealed partial class ForestApp
     {
         float sheetY;
-        RectTransform sheetContent;
+        RectTransform sheetContent, sheetPanel;
+        float sheetHeightLimit;
         float shopPosition = 1;
         bool shopBuilt;
         int collectionTab;
@@ -44,29 +45,66 @@ namespace ForestShop
             var stepIcon = Symbol(card, ForestSymbol.Harvest, 15, 18, 76);
             var title = Label(card, "", 31, Sage, 110, 3, 590, 50);
             var body = Label(card, "", 25, Muted, 110, 55, 590, 48);
+            title.name = "Opening guide title"; body.name = "Opening guide detail";
             var action = IconButton(card, "收获", ForestSymbol.Harvest, 726, 12, 270, 88, () =>
             {
                 if (State.tutorial == 0) Act(Engine.HarvestFirst, "薄荷已入库，接着去工坊制作醒神茶。", true);
-                else if (State.tutorial == 1 || State.tutorial == 2)
+                else
                 {
-                    FocusOpeningStep(); ShowPage("小店");
-                    OpenObject(State.tutorial == 1 ? "machine" : "shelf", 0);
+                    var target = OpeningDestination();
+                    if (target == 0) { ShowPage("委托"); return; }
+                    shopPosition = 1; shopBuilt = false;
+                    World().SetRegion(target); ShowPage("小店");
+                    OpenObject(target == 1 ? "plot" : target == 2 ? "machine" : "shelf", 0);
                 }
-                else if (State.tutorial == 3) OpenObject("shelf", 0);
-                else ShowPage("委托");
             }, true, true);
             action.name = "Opening action";
             var caption = action.GetComponentInChildren<Text>();
-            string[] titles = { "1/3 · 收获薄荷", "2/3 · 制作醒神茶", "3/3 · 安排售卖", "等待首笔收入", "自动经营已开启" };
-            string[] descriptions = { "收获后自动种植", "坩埚选择醒神茶", "1号货架选择醒神茶", "加工完成后自动出售", "去看看邻居的心愿" };
+            string[] titles = { "1/4 · 收获薄荷", "2/4 · 制作醒神茶", "3/4 · 安排售卖", "4/4 · 等待首笔收入", "首笔收入已到账" };
             string[] captions = { "收获", "配置", "上架", "查看", "委托" };
             ForestSymbol[] icons = { ForestSymbol.Harvest, ForestSymbol.Workshop, ForestSymbol.Shelf, ForestSymbol.Timer, ForestSymbol.Orders };
             bindings.Add(() =>
             {
                 int step = Math.Min(4, State.tutorial);
-                title.text = titles[step]; body.text = descriptions[step]; caption.text = captions[step];
-                stepIcon.Symbol = icons[step]; action.GetComponentInChildren<ForestSymbolGraphic>().Symbol = icons[step];
+                int target = OpeningDestination();
+                title.text = titles[step]; body.text = OpeningDetail();
+                caption.text = step == 3 ? (target == 0 ? "看委托" : target == 1 ? "看庭院" : target == 2 ? "看工坊" : "看货架") : captions[step];
+                stepIcon.Symbol = icons[step];
+                action.GetComponentInChildren<ForestSymbolGraphic>().Symbol = step == 3 ? (target == 0 ? ForestSymbol.Orders : target == 1 ? ForestSymbol.Garden : target == 2 ? ForestSymbol.Workshop : ForestSymbol.Shelf) : icons[step];
             });
+        }
+        // Region zero is used here for the orders page, not a camera destination.
+        int OpeningDestination()
+        {
+            if (State.tutorial == 0) return 1;
+            if (State.tutorial == 1) return 2;
+            if (State.tutorial == 2) return 3;
+            if (State.tutorial >= 4) return 0;
+            if (State.shelves[0].config != 0) return 3;
+            if (State.items[0] > Engine.Reserved(0)) return 3;
+            if (Engine.Reserved(0) > 0 && State.items[0] > 0) return 0;
+            var machine = State.machines[0];
+            if (machine.workItem == 0 && machine.remaining >= 0) return 2;
+            if (machine.config != 0 || State.crops[0] > 0) return 2;
+            return 1;
+        }
+        string OpeningDetail()
+        {
+            if (State.tutorial == 0) return "成熟薄荷 → 仓库 · 收获后自动种植";
+            if (State.tutorial == 1) return "薄荷 " + State.crops[0] + "份 · 坩埚选择醒神茶";
+            if (State.tutorial == 2) return "1号货架选择醒神茶 · 无需等待加工";
+            if (State.tutorial >= 4) return "材料 → 商品 → 金币 · 去委托板看看";
+            int target = OpeningDestination();
+            if (target == 0) return "醒神茶已预留 · 到委托板查看安排";
+            if (target == 3)
+                return State.shelves[0].config != 0 ? "1号货架尚未售卖醒神茶" : "醒神茶 " + State.items[0] + "份 · 下次售卖 " + Math.Ceiling(Math.Max(0, State.shelves[0].remaining)) + "秒";
+            if (target == 2)
+            {
+                var machine = State.machines[0];
+                return machine.workItem == 0 && machine.remaining >= 0 ? "坩埚加工中 · 剩余 " + Math.Ceiling(machine.remaining) + "秒" : "坩埚选择醒神茶，材料充足后开工";
+            }
+            var plot = State.plots[0];
+            return plot.workItem == 0 && plot.remaining > 0 ? "薄荷生长中 · 剩余 " + Math.Ceiling(plot.remaining) + "秒" : "薄荷暂未入库 · 查看庭院状态";
         }
         void BuildShop()
         {
@@ -310,30 +348,53 @@ namespace ForestShop
             modal = Panel(safe, "Modal", new Color(0.13f, .18f, .12f, .48f)); Fill(modal); modal.SetAsLastSibling();
             var dismiss = modal.gameObject.AddComponent<Button>(); dismiss.onClick.AddListener(() => { if (State == null || !State.report.pending) CloseSheet(); });
             float available = Math.Max(650, Screen.safeArea.height * 1080f / Math.Max(1, Screen.width) - 240); height = Math.Min(height, available);
-            var sheet = Panel(modal, "Paper sheet", Paper); AnchorBar(sheet, false, height); sheet.gameObject.AddComponent<Button>();
+            var sheet = sheetPanel = Panel(modal, "Paper sheet", Paper); sheetHeightLimit = height;
+            AnchorBar(sheet, false, height); sheet.gameObject.AddComponent<Button>();
             Label(sheet, title, 42, Sage, 35, 20, 850, 82);
             if (key != "report" && key != "recovery") Button(sheet, "关闭", 886, 28, 156, 66, CloseSheet);
             sheetContent = Scroll(sheet, 123, 28, 1700, "Sheet scroll"); sheetY = 6;
         }
-        void EndSheet() { sheetContent.sizeDelta = new Vector2(0, Math.Max(sheetY + 30, 100)); }
+        void EndSheet()
+        {
+            float contentHeight = Math.Max(sheetY + 30, 100);
+            sheetContent.sizeDelta = new Vector2(0, contentHeight);
+            // Short conversations need only their text and controls. Longer pages
+            // keep the safe-area cap and remain scrollable to their final row.
+            AnchorBar(sheetPanel, false, Math.Min(sheetHeightLimit, Math.Max(400, contentHeight + 151)));
+            Canvas.ForceUpdateCanvases();
+            sheetContent.parent.GetComponent<ScrollRect>().verticalNormalizedPosition = 1;
+        }
         void Paragraph(string text, float height = 150, int size = 30)
-        { Label(sheetContent, text, size, Ink, 38, sheetY, 1000, height); sheetY += height + 15; }
+        {
+            var paragraph = Label(sheetContent, text, size, Ink, 38, sheetY, 1000, height, TextAnchor.UpperLeft);
+            float measured = Mathf.Ceil(paragraph.preferredHeight) + 8;
+            paragraph.rectTransform.sizeDelta = new Vector2(1000, Math.Max(size * 1.4f, measured));
+            sheetY += paragraph.rectTransform.sizeDelta.y + 18;
+        }
         void Row(string title, string detail, int icon, string actionText, Action action, bool enabled = true, Func<bool> ready = null, Func<string> liveDetail = null)
         {
             float y = sheetY;
             var row = Panel(sheetContent, title, new Color32(244, 235, 208, 255), 28, y, 1024, 170);
-            if (icon >= 0) Picture(row, "inventory", icon, 4, 4, 12, 18, 125, 125);
             float left = icon >= 0 ? 153 : 22;
-            Label(row, title, 32, Sage, left, 12, 640 - left, 54);
-            var details = Label(row, detail, 25, Ink, left, 70, 640 - left, 88);
+            var heading = Label(row, title, 32, Sage, left, 10, 640 - left, 54, TextAnchor.UpperLeft);
+            float headingHeight = Math.Max(44, Mathf.Ceil(heading.preferredHeight) + 4);
+            heading.rectTransform.sizeDelta = new Vector2(640 - left, headingHeight);
+            var details = Label(row, liveDetail != null ? liveDetail() : detail, 25, Ink, left, headingHeight + 15, 640 - left, 88, TextAnchor.UpperLeft);
+            // Live inventory/requirements can grow by another line without
+            // shifting the rows under a player's finger during interaction.
+            float detailHeight = liveDetail != null ? 88 : Math.Max(36, Mathf.Ceil(details.preferredHeight) + 6);
+            details.rectTransform.sizeDelta = new Vector2(640 - left, detailHeight);
+            float rowHeight = Math.Max(icon >= 0 ? 149 : 142, headingHeight + 15 + detailHeight + 12);
+            row.sizeDelta = new Vector2(1024, rowHeight);
+            if (icon >= 0) Picture(row, "inventory", icon, 4, 4, 12, (rowHeight - 125) / 2, 125, 125);
             if (liveDetail != null) modalBindings.Add(() => details.text = liveDetail());
             if (action != null)
             {
-                var button = Button(row, actionText, 655, 34, 345, 99, action, enabled, true);
+                var button = Button(row, actionText, 655, (rowHeight - 99) / 2, 345, 99, action, enabled, true);
                 if (ready != null) modalBindings.Add(() => button.interactable = ready());
             }
-            else if (!string.IsNullOrEmpty(actionText)) Label(row, actionText, 37, Sage, 655, 30, 345, 100, TextAnchor.MiddleCenter);
-            sheetY += 185;
+            else if (!string.IsNullOrEmpty(actionText)) Label(row, actionText, 37, Sage, 655, (rowHeight - 100) / 2, 345, 100, TextAnchor.MiddleCenter);
+            sheetY += rowHeight + 12;
         }
         void CloseSheet()
         {
@@ -341,6 +402,7 @@ namespace ForestShop
             if (State != null && currentSheet == "celebration") { State.chapterCelebrated = true; Save(); }
             currentSheet = null; modalBindings.Clear();
             if (modal != null) { modal.gameObject.SetActive(false); Destroy(modal.gameObject); modal = null; }
+            sheetPanel = null;
         }
         void OpenObject(string type, int index)
         {

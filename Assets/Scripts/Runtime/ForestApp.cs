@@ -41,6 +41,7 @@ namespace ForestShop
         long previousSales;
         long previousHarvests, previousCrafts;
         ForestAudio audioController;
+        Economy presentationEngine;
         readonly Queue<float> frameTimes = new Queue<float>();
         float performanceTimer;
         int performanceSamples;
@@ -91,6 +92,7 @@ namespace ForestShop
             long diagnosticStamp = DiagnosticsStamp();
             if (!backgrounded && !State.report.pending && !quitting)
             {
+                ConnectProductionPresentation();
                 Engine.Advance(Time.unscaledDeltaTime);
                 DiagnosticsStage("economy", ref diagnosticStamp);
                 saveTimer += Time.unscaledDeltaTime;
@@ -162,6 +164,7 @@ namespace ForestShop
         }
         bool Act(Func<bool> action, string success, bool rebuild = true)
         {
+            ConnectProductionPresentation();
             int previousTutorial = State.tutorial;
             bool ok = action();
             if (ok)
@@ -169,13 +172,38 @@ namespace ForestShop
                 Save(); if (audioController != null) audioController.Cue("confirm"); Toast(success);
                 if (rebuild)
                 {
-                    if (State.tutorial != previousTutorial && State.tutorial < 4)
+                    if (previousTutorial == 0 && State.tutorial == 1 && !State.simpleAnimation && isActiveAndEnabled)
+                        StartCoroutine(FinishFirstHarvestFocus(State, world3D == null ? -1 : world3D.Region));
+                    else if (State.tutorial != previousTutorial && State.tutorial < 4)
                     { FocusOpeningStep(); ShowPage("小店"); }
                     else { string sheet = currentSheet; int index = selectedIndex; ShowPage(currentPage); if (sheet != null) OpenObject(sheet, index); }
                 }
             }
             else Toast("条件尚未满足，请查看所需金币、声望或库存。", 3);
             return ok;
+        }
+
+        System.Collections.IEnumerator FinishFirstHarvestFocus(GameState harvestedState, int sourceRegion)
+        {
+            // The crop is already saved. Briefly keep its local receipt visible;
+            // explicit player navigation always takes precedence over this handoff.
+            yield return new WaitForSecondsRealtime(.85f);
+            if (State != harvestedState || State.tutorial != 1 || currentPage != "小店" || modal != null || backgrounded || State.report.pending || world3D == null || world3D.Region != sourceRegion) yield break;
+            FocusOpeningStep(); ShowPage("小店");
+        }
+
+        void ConnectProductionPresentation()
+        {
+            if (presentationEngine == Engine) return;
+            if (presentationEngine != null) presentationEngine.ProductionCompleted -= PresentProduction;
+            presentationEngine = Engine;
+            if (presentationEngine != null) presentationEngine.ProductionCompleted += PresentProduction;
+        }
+        void PresentProduction(ProductionNotice notice)
+        {
+            // A failed decorative effect must not interrupt deterministic settlement.
+            try { if (!backgrounded && !State.report.pending && world3D != null) world3D.PresentProduction(notice); }
+            catch (Exception error) { Debug.LogException(error); }
         }
 
         void BuildShell()

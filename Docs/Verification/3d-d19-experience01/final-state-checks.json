@@ -1,0 +1,39 @@
+{
+  "ordinaryFinal": {
+    "coins": 691478,
+    "sales": 718686,
+    "stories": 5,
+    "friendship": [
+      22,
+      10,
+      16,
+      16,
+      13
+    ],
+    "decoration": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "chapterComplete": true,
+    "simpleAnimation": false,
+    "music": true,
+    "sound": true
+  },
+  "ordinaryPlots": 6,
+  "ordinaryShelves": 2,
+  "normalRestorePair": "normal-restorable.save(.bak)",
+  "finalSnapshotPair": "ordinary-final-confirmed.save(.bak)",
+  "preparedDecorationAfterActualTaps": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "knownMislabeledImages": [
+    "Evidence/74-ordinary-shop-full-facilities.png is actually workshop after world drag",
+    "Evidence/76-ordinary-final-overview.png is not final overview; use80"
+  ],
+  "scope": "Final ordinary progress preserved; no prepared inventory mixed into ordinary. Whole first chapter from new save and full sound/long-run gates remain unfinished."
+}

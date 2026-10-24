@@ -1,5 +1,6 @@
 param([string]$Folder='Docs/Verification/3d-d18-forest04')
 $ErrorActionPreference='Stop'
+$serial=if($env:FOREST_ADB_SERIAL){$env:FOREST_ADB_SERIAL}else{'127.0.0.1:16385'}
 Set-Location (Split-Path -Parent $PSScriptRoot)
 $adb=(Resolve-Path Tools/AndroidSdk/platform-tools/adb.exe).Path
 $python='C:/Users/Lauva/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
@@ -10,7 +11,7 @@ $qaRoot=(Resolve-Path -LiteralPath 'Docs/Verification').Path
 if(-not $target.StartsWith($qaRoot+[IO.Path]::DirectorySeparatorChar)){throw 'Outside verification directory'}
 $device='/sdcard/Android/data/com.forestatelier.curioshop/files'
 function AdbRun([string[]]$Arguments){
- & $adb -P 5038 -s 127.0.0.1:16385 @Arguments
+ & $adb -P 5038 -s $serial @Arguments
  if($LASTEXITCODE -ne 0){throw ('ADB failed: '+($Arguments -join ' '))}
 }
 AdbRun @('shell','input','keyevent','KEYCODE_HOME')
@@ -37,7 +38,7 @@ try {
   $file="$target/normal-before-closeup.save$suffix"
   AdbRun @('push',$file,"$device/forest-shop.save$suffix")
   $expected=(Get-FileHash -LiteralPath $file -Algorithm SHA256).Hash
-  $actual=(& $adb -P 5038 -s 127.0.0.1:16385 shell sha256sum "$device/forest-shop.save$suffix")
+  $actual=(& $adb -P 5038 -s $serial shell sha256sum "$device/forest-shop.save$suffix")
   if($LASTEXITCODE -ne 0 -or -not $actual.StartsWith($expected,[StringComparison]::OrdinalIgnoreCase)){throw 'Latest ordinary bytes do not match'}
   $records+="$expected  forest-shop.save$suffix <= normal-before-closeup.save$suffix"
  }

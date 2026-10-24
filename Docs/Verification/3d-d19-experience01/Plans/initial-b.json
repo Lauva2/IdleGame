@@ -1,0 +1,23 @@
+{
+  "directory": "Docs/Verification/3d-d19-experience01/Evidence/Initial",
+  "steps": [
+    {
+      "tap": [
+        850,
+        1250
+      ]
+    },
+    {
+      "shot": "04-tea-configured"
+    },
+    {
+      "tap": [
+        850,
+        410
+      ]
+    },
+    {
+      "shot": "05-first-shelf-choice"
+    }
+  ]
+}

@@ -7,6 +7,7 @@ namespace ForestShop.Core
     public sealed class Economy
     {
         public readonly GameState State;
+        public event Action<ProductionNotice> ProductionCompleted;
         private const double Epsilon = 0.0000001;
         public Economy(GameState state) { State = state ?? throw new ArgumentNullException(nameof(state)); }
         public int Capacity => Catalog.Capacity[State.warehouse - 1];
@@ -81,14 +82,29 @@ namespace ForestShop.Core
             bool consumed = false;
             // Fixed ordering at identical timestamps: all deposits, sales, then starts.
             if (State.tutorial > 0)
-                foreach (var p in State.plots)
+                for (int index = 0; index < State.plots.Length; index++)
+                {
+                    var p = State.plots[index];
                     if (p.remaining >= 0 && p.remaining <= Epsilon && p.workItem >= 0 && State.crops[p.workItem] < Capacity)
-                    { State.crops[p.workItem]++; State.harvests++; p.remaining = -1; p.workItem = -1; ApplyPending(p); }
-            foreach (var m in State.machines)
-                if (m.remaining >= 0 && m.remaining <= Epsilon && m.workItem >= 0)
-                { State.items[m.workItem]++; State.crafts++; m.remaining = -1; m.workItem = -1; ApplyPending(m); }
-            foreach (var shelf in State.shelves)
+                    {
+                        int crop = p.workItem;
+                        State.crops[crop]++; State.harvests++; p.remaining = -1; p.workItem = -1; ApplyPending(p);
+                        ProductionCompleted?.Invoke(new ProductionNotice(ProductionKind.Harvest, index, crop, 1));
+                    }
+                }
+            for (int index = 0; index < State.machines.Length; index++)
             {
+                var m = State.machines[index];
+                if (m.remaining >= 0 && m.remaining <= Epsilon && m.workItem >= 0)
+                {
+                    int item = m.workItem;
+                    State.items[item]++; State.crafts++; m.remaining = -1; m.workItem = -1; ApplyPending(m);
+                    ProductionCompleted?.Invoke(new ProductionNotice(ProductionKind.Craft, index, item, 1));
+                }
+            }
+            for (int index = 0; index < State.shelves.Length; index++)
+            {
+                var shelf = State.shelves[index];
                 if (shelf.remaining < 0) shelf.remaining = 8 / Catalog.Speed[shelf.level - 1];
                 if (shelf.remaining > Epsilon) continue;
                 int item = shelf.config;
@@ -97,6 +113,7 @@ namespace ForestShop.Core
                     State.items[item]--; State.sold[item]++;
                     State.coins += Catalog.Price[item]; State.sales += Catalog.Price[item];
                     if (State.tutorial == 3) State.tutorial = 4;
+                    ProductionCompleted?.Invoke(new ProductionNotice(ProductionKind.Sale, index, item, Catalog.Price[item]));
                 }
                 ApplyPending(shelf);
                 shelf.remaining = 8 / Catalog.Speed[shelf.level - 1];
