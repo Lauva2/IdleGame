@@ -1,7 +1,8 @@
 """Compare labelled prepared seeds with real final-APK automatic landings."""
-import hashlib,json
+import hashlib,json,sys
 from pathlib import Path
-root=Path(__file__).resolve().parents[1];qa=root/'Docs/Verification/3d-d21-forest05';rows=[]
+root=Path(__file__).resolve().parents[1];qa=(root/sys.argv[1]).resolve() if len(sys.argv)>1 else root/'Docs/Verification/3d-d21-forest05';rows=[]
+assert qa.is_relative_to(root/'Docs/Verification')
 for quality in range(4):
     scope=json.loads((qa/f'Prepared/fishing-seed-q{quality}-scope.json').read_text(encoding='utf8'))
     raw=(qa/f'quality-q{quality}-after.save').read_bytes();_,_,digest,payload=raw.split(b'\n',3)

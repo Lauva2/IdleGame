@@ -13,8 +13,22 @@ ROOT=Path(__file__).resolve().parents[1]
 ADB=ROOT/'Tools/AndroidSdk/platform-tools/adb.exe'
 BASE=[str(ADB),'-P','5038','-s',os.environ.get('FOREST_ADB_SERIAL','127.0.0.1:16385')]
 plan=json.loads(Path(sys.argv[1]).read_text(encoding='utf-8-sig'))
-dest=(ROOT/plan['directory']).resolve()
-assert dest.is_relative_to(ROOT/'Docs/Verification')
+logical=Path(os.path.abspath(ROOT/plan['directory']))
+review_root=ROOT/'Docs/Verification'
+assert logical.is_relative_to(review_root), 'Logical capture path must stay in project verification'
+dest=logical.resolve()
+if not dest.is_relative_to(review_root):
+    # Large original media may live behind an explicitly recorded NTFS junction
+    # in the other user-authorized writable workspace. Do not weaken the guard
+    # to allow arbitrary external screenshot destinations.
+    relative=logical.relative_to(review_root)
+    assert len(relative.parts)>=2 and relative.parts[1]=='Evidence'
+    evidence=review_root/relative.parts[0]/'Evidence'
+    record=json.loads((evidence.parent/'local-media-storage.json').read_text(encoding='utf-8-sig'))
+    allowed=Path('C:/Users/Lauva/.codex/visualizations/2026/10/22/01a16331-da0c-7212-86b6-d3ab1a2524e9').resolve()
+    physical=evidence.resolve()
+    assert physical.is_relative_to(allowed) and dest.is_relative_to(physical)
+    assert Path(record['logicalPath'])==evidence and Path(record['physicalPath']).resolve()==physical
 dest.mkdir(parents=True,exist_ok=True)
 log=dest/'actions.jsonl'
 def run(*args):

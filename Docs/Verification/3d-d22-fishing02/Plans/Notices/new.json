@@ -1,0 +1,48 @@
+{
+  "directory": "Docs/Verification/3d-d22-fishing02/Evidence/Notices",
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        860,
+        880
+      ]
+    },
+    {
+      "shot": "new-start"
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "new-actual-first-landed"
+    },
+    {
+      "tap": [
+        590,
+        1630
+      ]
+    },
+    {
+      "shot": "new-individual-top"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        1150,
+        500,
+        700
+      ]
+    },
+    {
+      "shot": "new-individual-bottom"
+    }
+  ]
+}

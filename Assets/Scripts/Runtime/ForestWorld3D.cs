@@ -144,6 +144,7 @@ namespace ForestShop
         { Vector3 v = worldCamera.WorldToViewportPoint(shelves[index].TransformPoint(V(0, 1.85f, 0))); return new Vector2(v.x, v.y); }
         public void SetRegion(int region)
         {
+            FishingFocused=false;
             productionEffects?.Clear(); ClearForestEffects(); ClearFishingReceipt();
             Region = region;
             View = region == 0 ? fullView : closeView; worldCamera.targetTexture = View;
@@ -173,10 +174,10 @@ namespace ForestShop
             if (state != null) Bind(state);
             if (region == 2 || region == 3) FitArea(region == 2 ? workshopArea : shopArea);
         }
-        public void ResetCamera() { SetRegion(Region); }
+        public void ResetCamera() { if(FishingFocused)FocusFishing(focusedFishingSpot,fishingFramingY);else SetRegion(Region); }
         public void Zoom(float factor)
         {
-            worldCamera.orthographicSize = Mathf.Clamp(worldCamera.orthographicSize * factor, 5, 27);
+            worldCamera.orthographicSize = Mathf.Clamp(worldCamera.orthographicSize * factor, FishingFocused?3.8f:5, FishingFocused?11:27);
             ClampCamera();
         }
         Vector3 GroundPoint(Vector2 uv)
@@ -194,6 +195,12 @@ namespace ForestShop
         {
             float range = Mathf.Max(2, 28 - CameraSize);
             var local = CameraFocus;
+            if(FishingFocused)
+            {
+                var anchor=fishingCameraAnchor;
+                var fishBounds=V(Mathf.Clamp(local.x,anchor.x-4.5f,anchor.x+4.5f),local.y,Mathf.Clamp(local.z,anchor.z-4.5f,anchor.z+4.5f));
+                var fishMove=fishBounds-local;cameraFocus+=fishMove;worldCamera.transform.position+=fishMove;return;
+            }
             if (Region >= 4) { ClampForestCamera(local); return; }
             Vector3 bounded = V(Mathf.Clamp(local.x, -range - 1, range + 1), local.y, Mathf.Clamp(local.z, -range - 2, range + 3));
             Vector3 move = bounded - local; cameraFocus += move; worldCamera.transform.position += move;
@@ -647,6 +654,7 @@ namespace ForestShop
         }
         public void Pick(Vector2 uv)
         {
+            if(FishingFocused)return;
             Ray ray = worldCamera.ViewportPointToRay(uv);
             if (Physics.Raycast(ray, out var hit, 100, 1 << 10)) { var target = hit.collider.GetComponent<ForestObject3D>(); if (target != null) Selected?.Invoke(target.kind, target.index); }
         }
@@ -812,6 +820,7 @@ namespace ForestShop
             if (closeView != null) { closeView.Release(); Destroy(closeView); }
             if (portraitRoot != null) Destroy(portraitRoot.gameObject);
             foreach (var icon in icons.Values) { if (icon != null) { Destroy(icon.texture); Destroy(icon); } }
+            if(quietWaterMaterial!=null)Destroy(quietWaterMaterial);
             ForestFishingModels.Release(); ForestExpansionModels.Release(); ForestGeometry.Release();
         }
     }

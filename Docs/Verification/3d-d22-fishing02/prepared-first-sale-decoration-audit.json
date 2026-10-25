@@ -1,0 +1,51 @@
+{
+  "scope": "Labelled prepared initial state progressed by actual UI to first sale; late prepared decoration toggled by actual UI. Not natural full-chapter progress.",
+  "samples": {
+    "initial-completed.save": {
+      "sha256": "B6A7192A4E65219EF942312378CDB8C6B2B1006CE4A042BC0B62A2A849226034",
+      "tutorial": 4,
+      "coins": 86,
+      "sales": 36,
+      "sold": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "decoration": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "prepared-after-decoration.save": {
+      "sha256": "7B43E569C9821A1DB2AB4841496E99FC1985D8775D521F41E8B5394945DF9D98",
+      "tutorial": 4,
+      "coins": 25456,
+      "sales": 60456,
+      "sold": [
+        24,
+        24,
+        20,
+        20,
+        24,
+        24,
+        0,
+        0,
+        0
+      ],
+      "decoration": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  }
+}

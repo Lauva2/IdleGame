@@ -4,7 +4,9 @@
 
 ## 当前阶段
 
-当前交付 **d21森林探索与自动钓鱼内容版**：三段真实林区、三种发现、温室四个培育位、三道新配方、三份心愿与旧亭修复；三处自动钓点、12种绘本鱼、四级品质及长度/重量/钓点/饵料/纪录鱼谱。forest05已在MuMu保留安装，187项输入冻结，47项Core与Unity原生四阶段存档往返PASS；普通森林闭环和新商品销售已实测，普通10尾/5种保留，后台不钓且9480离线金币完整重放一致。29原片/322原图/7772采样帧索引冻结；[同包独立R01](Docs/Reviews/3d-d21-forest05/美术评审-R01.md) **90.5/100通过**，七项达下限、新旧场景通过、已确认美术阻断0，一般问题保留。详见[交付说明](Docs/交付说明.md)、[森林探索](Docs/第二波森林探索-2026-10-25.md)与[鱼谱方案](Docs/钓鱼与鱼类图鉴-2026-10-25.md)。完整声音、普通新档全章/十二田自然购买、全异常恢复与正式30分钟仍待验，尚不称第一版全部完成。
+当前为 **d22钓鱼体验精修版**：12种鱼分别制作体型、鳍尾与贴体花纹，自动钓鱼新增完整出水入篮衔接，五类发现/纪录提示、尺重图标和紧凑鱼谱，扩大可见水面并区分三处钓点。森林探索、温室、配方、第一章条件及自动收集规则保持。详见[本轮记录](Docs/钓鱼体验精修-2026-10-25.md)和[交付说明](Docs/交付说明.md)。
+
+[安卓APK 0.2.2/code4](Builds/Android/3d-d22-fishing02/ForestShop-3d-d22-fishing02.apk)已在MuMu保留存档更新安装，195输入及源码ZIP冻结；普通进度23→39尾/6种，前后台和完整经营回放一致，最终最新普通留档968324金币。33原片、301原图、11259完成采样帧具有SHA索引，44必要原图版本化；同包[独立R01](Docs/Reviews/3d-d22-fishing02/美术评审-R01.md) **91.0/100通过**，七项达下限、原八场景及全部扩展通过、零已确认美术阻断，G01–G07保留。旧分不转用；实际目视217原图/154采样帧，不冒称全部逐帧检查。完整声音、普通新档全章/十二田自然购买、全异常恢复与正式30分钟仍待验，尚不称第一版全部完成；实体手机限制保留。
 
 - 画风：暖色绘本感 3D 卡通。
 - 语言：简体中文。
@@ -24,7 +26,7 @@
 - [验收矩阵](Docs/验收矩阵.md)
 - [3D 美术规范](Docs/美术规范.md)
 
-纯核心验证运行 `Tools/Test-Core.ps1`，当前47项。Unity 菜单 `Forest Shop/Prepare Project` 准备入口场景，`Forest Shop/Build Windows Test Player` 和 `Forest Shop/Build Android Test APK` 产出开发测试包，`Forest Shop/Build Android Release APK` 产出非开发IL2CPP双架构包。匹配7670c08855a9的Android Build Support已经补齐；forest05包已实际ARM64保留存档更新运行。历史隔离旧编辑器兼容包不能当作最终交付。
+纯核心验证运行 `Tools/Test-Core.ps1`，当前47项。Unity 菜单 `Forest Shop/Prepare Project` 准备入口场景，`Forest Shop/Build Windows Test Player` 和 `Forest Shop/Build Android Test APK` 产出开发测试包，`Forest Shop/Build Android Release APK` 产出非开发IL2CPP双架构包。匹配7670c08855a9的Android Build Support已经补齐；fishing02包已实际ARM64保留存档更新运行。历史隔离旧编辑器兼容包不能当作最终交付。
 
 ## 打开工程
 

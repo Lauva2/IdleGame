@@ -14,7 +14,7 @@ namespace ForestShop
         {
             var rect = (RectTransform)transform; var parent = (RectTransform)rect.parent;
             var at = world.ForestMarker(index);
-            bool visible = at.x > .10f && at.x < .90f && at.y > .17f && at.y < .94f;
+            bool visible = !world.FishingFocused && at.x > .10f && at.x < .90f && at.y > .17f && at.y < .94f;
             foreach (var g in GetComponentsInChildren<Graphic>()) g.enabled = visible;
             GetComponent<Button>().interactable = visible; GetComponent<Image>().raycastTarget = visible;
             rect.anchoredPosition = new Vector2(at.x * parent.rect.width - rect.rect.width / 2, -(1 - at.y) * parent.rect.height + rect.rect.height / 2);
@@ -68,9 +68,10 @@ namespace ForestShop
             var view = Rect(content, "Live 3D forest exploration", 0, 204, 1080, height);
             view.gameObject.AddComponent<RawImage>().texture = world.View; view.gameObject.AddComponent<RectMask2D>();
             view.gameObject.AddComponent<ForestWorldPointer>().world = world;
-            IconButton(view, "", ForestSymbol.ZoomOut, 730, height - 108, 96, 88, () => world.Zoom(1.22f)).name = "Map zoom out";
-            IconButton(view, "", ForestSymbol.ZoomIn, 840, height - 108, 96, 88, () => world.Zoom(1 / 1.22f)).name = "Map zoom in";
-            IconButton(view, "", ForestSymbol.Recenter, 950, height - 108, 96, 88, world.ResetCamera).name = "Map recenter";
+            var zoomOut=IconButton(view, "", ForestSymbol.ZoomOut, 730, height - 108, 96, 88, () => world.Zoom(1.22f));zoomOut.name="Map zoom out";
+            var zoomIn=IconButton(view, "", ForestSymbol.ZoomIn, 840, height - 108, 96, 88, () => world.Zoom(1 / 1.22f));zoomIn.name="Map zoom in";
+            var recenter=IconButton(view, "", ForestSymbol.Recenter, 950, height - 108, 96, 88, world.ResetCamera);recenter.name="Map recenter";
+            bindings.Add(()=>{zoomOut.gameObject.SetActive(!world.FishingFocused);zoomIn.gameObject.SetActive(!world.FishingFocused);recenter.gameObject.SetActive(!world.FishingFocused);});
             if (nursery && State.forest.greenhouse)
             {
                 for (int i = 0; i < 4; i++)

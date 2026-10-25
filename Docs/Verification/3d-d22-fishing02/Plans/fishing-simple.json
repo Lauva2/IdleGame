@@ -1,0 +1,29 @@
+{
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        780,
+        1250
+      ]
+    },
+    {
+      "shot": "34-simple-wait"
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "35-simple-actual-catch"
+    },
+    {
+      "back": true
+    }
+  ],
+  "directory": "Docs/Verification/3d-d22-fishing02/Evidence/FishingSpots"
+}

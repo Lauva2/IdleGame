@@ -1,0 +1,40 @@
+{
+  "candidate": "3d-d22-fishing02",
+  "utc": "2026-10-25T09:00:40.800731+00:00",
+  "originalPngs": 301,
+  "originalVideos": 33,
+  "completedSampleFrames": 11259,
+  "mediaItems": 11593,
+  "deferred": 0,
+  "versionControlledOriginalPngs": 44,
+  "versionControlledOriginalPngBytes": 29005729,
+  "selectedOriginalsAllMatch": true,
+  "indexes": [
+    {
+      "path": "media-index.csv",
+      "bytes": 2791307,
+      "sha256": "D39227E93F923880D6011C8E3847960E43EA6CC86084A5EBA055F52E9FEF77CE"
+    },
+    {
+      "path": "frame-index.csv",
+      "bytes": 3234133,
+      "sha256": "2AD1245139ABA04C6C986A91D5946EB5AD52EAF08297DE35BBFE0685500B064F"
+    },
+    {
+      "path": "video-metadata.json",
+      "bytes": 16684,
+      "sha256": "4A5813EE5E80CBAAACC9B29774AD35D552E141451755801E72EF66316875E762"
+    },
+    {
+      "path": "local-frame-storage.json",
+      "bytes": 20168,
+      "sha256": "008145CD41771A0EE2CF3F6E82A211E74DC02379F19BB554EB9E0B8E53041650"
+    },
+    {
+      "path": "selected-original-evidence.json",
+      "bytes": 11812,
+      "sha256": "2ED5F41308A90BDB93512D42A206ADEAAB7BC2E4AE4151A74258320BC0CCE900"
+    }
+  ],
+  "scope": "Complete native source-media and completed lossless frame index; hash coverage is not all-frame visual inspection. Files remain at recorded authorized local paths. No upload or rewrite of originals."
+}

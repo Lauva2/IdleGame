@@ -1,0 +1,92 @@
+{
+  "directory": "Docs/Verification/3d-d22-fishing02/Evidence/Ordinary",
+  "steps": [
+    {
+      "shot": "40-final-ordinary-report"
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1040,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1040,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1040,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1040,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1040,
+        650
+      ]
+    },
+    {
+      "shot": "41-final-ordinary-report-bottom"
+    },
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        900,
+        300
+      ]
+    },
+    {
+      "tap": [
+        535,
+        515
+      ]
+    },
+    {
+      "shot": "42-final-ordinary-fish-progress"
+    },
+    {
+      "tap": [
+        180,
+        1850
+      ]
+    },
+    {
+      "shot": "43-final-ordinary-overview"
+    }
+  ]
+}

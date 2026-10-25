@@ -1,0 +1,63 @@
+{
+  "scope": "NTFS junction to authorized writable root; original media bytes retained, no image/video processing",
+  "files": [
+    {
+      "sha256": "D45648A9FB65733A7EFF7A3532E85DB64879BDE033CFDBBC6FC170DA41FD0F62",
+      "bytes": 3633902,
+      "path": "cold-update.mp4"
+    },
+    {
+      "sha256": "0D9B52F0E35A145AD802A96226B5A41B3DC2662A0F23A0530CDA23BA8C2ADDE1",
+      "bytes": 68975898,
+      "path": "fishing-motion-ordinary.mp4"
+    },
+    {
+      "sha256": "F9FC5A2BBC9D626C71943530B71FD9B293BBA3900B207D0312B1264158081FAE",
+      "bytes": 25952881,
+      "path": "fishing-motion-resume.mp4"
+    },
+    {
+      "sha256": "12EE50651E460E16DCD9A2353782A6091D6A2759045FAB84EB016980CAB5890F",
+      "bytes": 673228,
+      "path": "Ordinary\\01-update-report-top.png"
+    },
+    {
+      "sha256": "DA83F9C60BAA346096785DB1103C49CFFD32105764EBEF71815FC49267551D3F",
+      "bytes": 673233,
+      "path": "Ordinary\\02-update-report-bottom.png"
+    },
+    {
+      "sha256": "3BE5D3653D6F87B8200ACDC5A489B0A9FD697C1362FEC3F4B91FEA341E197711",
+      "bytes": 1306435,
+      "path": "Ordinary\\03-report-claimed-overview.png"
+    },
+    {
+      "sha256": "FA99D6492E5A58A0D2F721F085CF511A9EBB3F69BA8BCD41B922291BF1507330",
+      "bytes": 847101,
+      "path": "Ordinary\\04-ordinary-stable-wait.png"
+    },
+    {
+      "sha256": "9A15465284182F57CE69A70A0E2C9810FF6E457D49D3537889FB2B82B92448F2",
+      "bytes": 607151,
+      "path": "Ordinary\\05-background-report.png"
+    },
+    {
+      "sha256": "01B5A6EC6FB69622B128C01234FF4D25D2E4C31A595A89FFE41E485951C75415",
+      "bytes": 607150,
+      "path": "Ordinary\\06-background-report-bottom.png"
+    },
+    {
+      "sha256": "268C718C7324410F6776E7AC29AF7D4848D1F10445CD70C2246152FB8A9FB3DB",
+      "bytes": 838191,
+      "path": "Ordinary\\07-resume-actual-paused-cast.png"
+    },
+    {
+      "sha256": "535398F6FD3C8F0400E2912274803F5504F414C98C7032A712561CC2C6CC3456",
+      "bytes": 1348,
+      "path": "Ordinary\\actions.jsonl"
+    }
+  ],
+  "physicalPath": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media",
+  "utc": "2026-10-25T06:59:19.7893346Z",
+  "logicalPath": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\Evidence"
+}

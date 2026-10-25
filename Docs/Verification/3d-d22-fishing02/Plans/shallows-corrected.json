@@ -1,0 +1,53 @@
+{
+  "directory": "Docs/Verification/3d-d22-fishing02/Evidence/FishingSpots-r02",
+  "steps": [
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        180,
+        300
+      ]
+    },
+    {
+      "shot": "44-shallows-map"
+    },
+    {
+      "tap": [
+        860,
+        880
+      ]
+    },
+    {
+      "tap": [
+        180,
+        1530
+      ]
+    },
+    {
+      "shot": "45-shallows-grain-wait"
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "46-shallows-actual-catch"
+    },
+    {
+      "tap": [
+        590,
+        1630
+      ]
+    },
+    {
+      "shot": "47-shallows-individual-location-and-bait"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "48-restored-forest-markers"
+    }
+  ]
+}

@@ -28,7 +28,7 @@ if($LASTEXITCODE -ne 0){throw 'Latest ordinary restoration did not replay correc
 $record.WaitForExit();if($record.ExitCode -ne 0){throw 'Final startup recorder failed'}
 A @('pull',$remote,"$qa/Evidence/final-startup.mp4")
 $steps=@(@{shot='40-final-ordinary-report'});for($i=0;$i -lt 5;$i++){$steps+=@{swipe=@(850,1740,850,1040,650)}}
-$steps+=@(@{shot='41-final-ordinary-report-bottom'},@{tap=@(850,1780)},@{tap=@(900,1850)},@{tap=@(900,300)},@{tap=@(535,515)},@{shot='42-final-ordinary-five-species-ten-fish'},@{tap=@(180,1850)},@{shot='43-final-ordinary-overview'})
+$steps+=@(@{shot='41-final-ordinary-report-bottom'},@{tap=@(850,1780)},@{tap=@(900,1850)},@{tap=@(900,300)},@{tap=@(535,515)},@{shot='42-final-ordinary-fish-progress'},@{tap=@(180,1850)},@{shot='43-final-ordinary-overview'})
 @{directory="$Folder/Evidence/Ordinary";steps=$steps}|ConvertTo-Json -Depth 6|Set-Content "$qa/Plans/final-ordinary-restore.json"
 & $python Tools/Forest-DeviceReview.py "$qa/Plans/final-ordinary-restore.json"
 if($LASTEXITCODE -ne 0){throw 'Actual final ordinary UI capture failed'}

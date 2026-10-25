@@ -1,0 +1,19 @@
+{
+  "candidate": "3d-d22-fishing02",
+  "utc": "2026-10-25T06:47:55.901536+00:00",
+  "sourceBaseCommit": "f5eafcdbc68c93a68c225f834b469dcab62b97eb",
+  "sourceInputFiles": 195,
+  "sourceManifest": "Docs\\Verification\\3d-d22-fishing02\\source-files.sha256",
+  "sourceManifestSha256": "C616126C9FD507C14323DB8A0F29AA6307BBB6D89FCC55BDAA5CADA94E9AA389",
+  "apk": "Builds\\Android\\3d-d22-fishing02\\ForestShop-3d-d22-fishing02.apk",
+  "apkBytes": 45574344,
+  "apkSha256": "F0AEBF40F7110C599C6AF8ECCCF51259F17AB847F12A3410FD2B492D963A388B",
+  "sourceArchive": "Builds\\Android\\3d-d22-fishing02\\build-source-inputs.zip",
+  "sourceArchiveBytes": 57810075,
+  "sourceArchiveSha256": "921E9805F9C18A9B415C8811100E713FBE064C8ABDFA54EA2106DB39A1F814A7",
+  "sourceArchiveVerified": true,
+  "build": "Unity2022.3.62f2 IL2CPP Release ARM64+ARMv7 non-development GLES3 API23-32",
+  "version": "0.2.2",
+  "versionCode": 4,
+  "artAcceptance": "Pending independent evaluation of this exact APK. Editor and earlier candidate scores do not transfer."
+}

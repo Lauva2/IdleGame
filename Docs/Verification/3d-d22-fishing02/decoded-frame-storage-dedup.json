@@ -1,0 +1,12 @@
+{
+  "scope": "Only completed indexed decoded PNGs. All original paths, file bytes and SHA preserved; identical content stored once with NTFS hardlinks. No original screenshots/videos, project assets, reports, or unique data removed.",
+  "utc": "2026-10-25T07:46:23Z",
+  "pathsLinked": 5785,
+  "alreadyShared": 0,
+  "logicalDuplicateBytesShared": 4315230135,
+  "errors": [],
+  "journal": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\d22-frame-storage-dedup-r01.json",
+  "journalBytes": 2976012,
+  "journalSha256": "7B87E49A5277CF90764C832A3887627546308C7E995230B906E4994CC0F61CBC",
+  "verification": "All5785 target files verified against frozen SHA before and after atomic hardlink replacement; original media and frame paths/bytes unchanged. Existing report/index hashes remain valid."
+}

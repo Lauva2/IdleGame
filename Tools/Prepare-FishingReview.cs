@@ -30,6 +30,27 @@ public static class PrepareFishingReview
                 state.forest.location=2;state.simpleAnimation=variant=="fishing-simple";
                 expected=new{method="Prepared60000seconds-per-habitat using actual core; not natural catch/probability evidence",state.fishing.totalCaught,discovered=engine.Fishing.Discovered};
             }
+            else if(variant.StartsWith("fishing-notice-"))
+            {
+                string notice=variant.Substring("fishing-notice-".Length);
+                if(!new[]{"new","length","weight","both","ordinary"}.Contains(notice))throw new Exception("Unknown notice fixture");
+                int seed=1;FishCatch candidate=null;
+                for(;seed<10000;seed++)
+                {
+                    state.fishing=new FishingProgress{random=seed};engine.Fishing.Start(0,0);candidate=state.fishing.candidate;var k=FishingCatalog.Species[candidate.species];
+                    if(candidate.lengthMm>k.MinLength+12 && candidate.lengthMm<k.MaxLength-12 && candidate.weightGrams>k.MinWeight+4 && candidate.weightGrams<k.MaxWeight-4)break;
+                }
+                if(seed==10000)throw new Exception("No interior record sample");
+                state.fishing=new FishingProgress{random=seed};FishCatch prior=null;
+                if(notice!="new")
+                {
+                    bool longer=notice=="length"||notice=="both",heavier=notice=="weight"||notice=="both";
+                    prior=new FishCatch{sequence=1,species=candidate.species,quality=0,lengthMm=candidate.lengthMm+(longer?-10:10),weightGrams=candidate.weightGrams+(heavier?-3:3),spot=0,bait=0};
+                    state.fishing.totalCaught=state.fishing.casts=1;state.fishing.recent=new[]{prior};var e=state.fishing.entries[prior.species];e.count=1;e.qualityCounts[0]=1;e.bestQuality=0;e.firstSequence=1;e.longestMm=prior.lengthMm;e.heaviestGrams=prior.weightGrams;
+                }
+                candidate.sequence=notice=="new"?1:2;
+                expected=new{method="Prepared RNG seed and explicitly artificial prior record for notice coverage, not ordinary progress/probability; final APK must land normally",seed,notice,prior,expectedCatch=candidate};
+            }
             else if(variant.StartsWith("fishing-seed-q"))
             {
                 int quality=int.Parse(variant.Substring("fishing-seed-q".Length));if(quality<0 || quality>3)throw new Exception("Quality outside0..3");

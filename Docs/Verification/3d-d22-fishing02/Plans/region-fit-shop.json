@@ -1,0 +1,86 @@
+{
+  "directory": "Docs/Verification/3d-d22-fishing02/Evidence/LegacyRegions-r02",
+  "steps": [
+    {
+      "tap": [
+        930,
+        384
+      ]
+    },
+    {
+      "shot": "shop-actual-world"
+    },
+    {
+      "tap": [
+        200,
+        1740
+      ]
+    },
+    {
+      "shot": "shop-actual-facilities-first"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1640,
+        1000,
+        640,
+        450,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1640,
+        1000,
+        640,
+        450,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1640,
+        1000,
+        640,
+        450,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1640,
+        1000,
+        640,
+        450,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1640,
+        1000,
+        640,
+        450,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1640,
+        1000,
+        640,
+        450,
+        650
+      ]
+    },
+    {
+      "shot": "shop-actual-facilities-bottom"
+    }
+  ]
+}

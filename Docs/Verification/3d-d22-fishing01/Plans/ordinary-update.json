@@ -1,0 +1,8 @@
+{
+  "directory": "Docs/Verification/3d-d22-fishing01/Evidence/Ordinary",
+  "steps": [
+    {"shot": "01-update-report-top"},
+    {"drag_hold": [1000, 1740, 1000, 1140, 500, 600]},
+    {"shot": "02-update-report-bottom"}
+  ]
+}

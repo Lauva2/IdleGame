@@ -1,0 +1,283 @@
+{
+  "candidate": "3d-d22-fishing02",
+  "absoluteFrameRoot": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames",
+  "sourceMediaRemainInProject": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\Evidence",
+  "externalUpload": false,
+  "samplingRule": "shop-closeup*, initial-flow* and fishing-motion* basenames 10FPS, all other MP4 basenames 2FPS",
+  "sourceEnumerationNote": "Source files are frozen at run start. New arrivals are excluded from this run and picked up on rerun.",
+  "sourceSnapshotCount": 334,
+  "deferredSourceFiles": [],
+  "samplingTimeNote": "approxOutputPTS is output sampling time, not an exact source frame or touch timestamp.",
+  "integrityNote": "File hash coverage is not frame-by-frame visual inspection or art acceptance.",
+  "jobs": [
+    {
+      "sourceVideo": "Evidence/fishing-motion-ordinary.mp4",
+      "sourceSha256": "0D9B52F0E35A145AD802A96226B5A41B3DC2662A0F23A0530CDA23BA8C2ADDE1",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-ordinary-frames-10fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-ordinary-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 1600
+    },
+    {
+      "sourceVideo": "Evidence/shop-closeup-forest-1.mp4",
+      "sourceSha256": "3E90AC615338B5F04D0158D383E981C92046DD5996374051D8E87F3CF7663AC3",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\shop-closeup-forest-1-frames-10fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\shop-closeup-forest-1-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 1600
+    },
+    {
+      "sourceVideo": "Evidence/shop-closeup-forest-2.mp4",
+      "sourceSha256": "155CDC37FEAD193C78C2485475FB11DF929FCF4402C6990D98EDD035B5534570",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\shop-closeup-forest-2-frames-10fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\shop-closeup-forest-2-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 1600
+    },
+    {
+      "sourceVideo": "Evidence/interfaces.mp4",
+      "sourceSha256": "67FD998A3BE0D1E94A03D87B399B54E6DC7CE99847778230E365F9D5E5B56E31",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\interfaces-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\interfaces-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 240
+    },
+    {
+      "sourceVideo": "Evidence/fishing-gallery-r01.mp4",
+      "sourceSha256": "A2234E0F9DDE5DCE38F91B917C1D22E38019C0776128DB93493B368BB2FCAA9F",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\fishing-gallery-r01-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\fishing-gallery-r01-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 360
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-spots.mp4",
+      "sourceSha256": "F321521A15502EE165460B5F35513E07743A85AA072AF72FA632E8709E700804",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\fishing-motion-spots-frames-10fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\fishing-motion-spots-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 1051
+    },
+    {
+      "sourceVideo": "Evidence/forest-greenhouse.mp4",
+      "sourceSha256": "72B39AEFE511C597694F5CC5024E19D88D43BA532C0B5D138E4304472BEF1F39",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\forest-greenhouse-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\forest-greenhouse-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 130
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-spots-r02.mp4",
+      "sourceSha256": "1A25CF1300339B0C3FAE5D5F53CCE9E62F1205989B5646172B2CA9ABE02EB82A",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\fishing-motion-spots-r02-frames-10fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\fishing-motion-spots-r02-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 650
+    },
+    {
+      "sourceVideo": "Evidence/forest-dew-resin-vines.mp4",
+      "sourceSha256": "F97206460F817651BE0BEBD4EC56BFD68A01C58CCB208C254B60D29B1AF5255A",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\forest-dew-resin-vines-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\forest-dew-resin-vines-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 130
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-resume.mp4",
+      "sourceSha256": "F9FC5A2BBC9D626C71943530B71FD9B293BBA3900B207D0312B1264158081FAE",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-resume-frames-10fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-resume-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 500
+    },
+    {
+      "sourceVideo": "Evidence/initial-flow.mp4",
+      "sourceSha256": "940EEA9D4FB2D51380024D27C7883B210E899EF2C2B1F97DBFA4AD673CCF5D6F",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\initial-flow-frames-10fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\initial-flow-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 800
+    },
+    {
+      "sourceVideo": "Evidence/busy-garden.mp4",
+      "sourceSha256": "94386C3D4F7D1EAD4956572D9E15AC2D99578A6C8C6237108F22E1D9DE9930DA",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\busy-garden-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\busy-garden-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 60
+    },
+    {
+      "sourceVideo": "Evidence/production-garden.mp4",
+      "sourceSha256": "43961B817FDEAC5F842B2287F23D537A156552EE9C46031AD476BB938041C636",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\production-garden-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\production-garden-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 60
+    },
+    {
+      "sourceVideo": "Evidence/pavilion-repair.mp4",
+      "sourceSha256": "028126E871D7720C6BCD93CF7C3884BB602CC3620E772FFA853BC542A9D427DD",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\pavilion-repair-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\pavilion-repair-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 70
+    },
+    {
+      "sourceVideo": "Evidence/reduced-garden.mp4",
+      "sourceSha256": "BAA10DF1A1909E157EB9E58A99486952AF95DE4688D3160CE3A2F41F68375719",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\reduced-garden-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\reduced-garden-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 59
+    },
+    {
+      "sourceVideo": "Evidence/production-shop.mp4",
+      "sourceSha256": "F4570F9C4221E7C25929E53502A86330D74893D66AAAE5708B3422DA94164705",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\production-shop-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\production-shop-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 60
+    },
+    {
+      "sourceVideo": "Evidence/production-workshop.mp4",
+      "sourceSha256": "C20F3A1FD3241A29D432B40E29900BBED737735C86B902607E31FC8D1AA193AE",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\production-workshop-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\production-workshop-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 60
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-simple.mp4",
+      "sourceSha256": "FC845BCD09CDA6E3505DF70729EE6AF516E89FD82EFB08BBC1E2537D9088D3DA",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\fishing-motion-simple-frames-10fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\fishing-motion-simple-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 320
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-notice.bak-both.mp4",
+      "sourceSha256": "EE8F191FC15C568C36326831A1F69E3312CAEC0B5FB80CD83A0D659EB12651D6",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-both-frames-10fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-both-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 279
+    },
+    {
+      "sourceVideo": "Evidence/fishing-quality-q2.mp4",
+      "sourceSha256": "616786FAF30CCB41980184DFA0E74E2149F1441D98B367FB9029133E35760051",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-quality-q2-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-quality-q2-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 63
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-notice.bak-ordinary.mp4",
+      "sourceSha256": "546DBF3990CD4A5E315B476FB6160D954680CD60DE93A236D498E667A7979734",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-ordinary-frames-10fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-ordinary-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 277
+    },
+    {
+      "sourceVideo": "Evidence/fishing-quality-q0.mp4",
+      "sourceSha256": "421A08AACE05C6A6045C87CB186C270540E7689E4EF3FA6D60AA4117900E20D8",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-quality-q0-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-quality-q0-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 63
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-notice.bak-weight.mp4",
+      "sourceSha256": "67C033B35126B73FE037ED8FA7706C3915914851C9CBEA9EF25195CBFE79B578",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-weight-frames-10fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-weight-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 279
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-notice.bak-length.mp4",
+      "sourceSha256": "B3000A447074EADC34E543F503C31D445AAF6C518C9EC5F30AB656712BFF8849",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-length-frames-10fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-length-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 280
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-notice.bak-new.mp4",
+      "sourceSha256": "B46AC797CE039864176568CA2E7B2A9C18B9598CD64DF4ADAA83F7CA1BCED63C",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-new-frames-10fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-new-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 277
+    },
+    {
+      "sourceVideo": "Evidence/fishing-quality-q1.mp4",
+      "sourceSha256": "D412D41A37FFA58CD2866C6CB5427E72311C8A31323D9AD1C9F2C688C3BC28E7",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-quality-q1-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-quality-q1-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 62
+    },
+    {
+      "sourceVideo": "Evidence/fishing-quality-q3.mp4",
+      "sourceSha256": "701720F64C5026F3B0C99B45A7E85112ADFCA3E246E05A967C88FC8EFAE03CF0",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-quality-q3-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-quality-q3-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 63
+    },
+    {
+      "sourceVideo": "Evidence/reduced-workshop.mp4",
+      "sourceSha256": "32F4C52C06543DABE99A35269AC2A5880C2C0F13BA3B15F3B0A75B92A98DB3CE",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\reduced-workshop-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\reduced-workshop-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 59
+    },
+    {
+      "sourceVideo": "Evidence/blocked-reserve.mp4",
+      "sourceSha256": "31AF2C9CE9076BA715F06EF257CC7A80B0F6BE286F60DF6E542958CA7A06C875",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\blocked-reserve-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\blocked-reserve-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 39
+    },
+    {
+      "sourceVideo": "Evidence/blocked-input.mp4",
+      "sourceSha256": "BA2FF421C6CCDDF3B78E9132578C349F91D367D7B3C0B59BD81E8CEA74323CC3",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\blocked-input-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\blocked-input-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 40
+    },
+    {
+      "sourceVideo": "Evidence/blocked-full.mp4",
+      "sourceSha256": "01F9A3C70F4E1FE8DE70E751DAEB26A9A224827C9E52CCCC8816C1019A153AAA",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\blocked-full-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\blocked-full-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 40
+    },
+    {
+      "sourceVideo": "Evidence/final-startup.mp4",
+      "sourceSha256": "2585F29B1276144758D2F80989561774903F0FC8B86E9F8538C748A40AB19D74",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\final-startup-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\final-startup-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 36
+    },
+    {
+      "sourceVideo": "Evidence/cold-update.mp4",
+      "sourceSha256": "D45648A9FB65733A7EFF7A3532E85DB64879BDE033CFDBBC6FC170DA41FD0F62",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\cold-update-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\cold-update-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 52
+    }
+  ],
+  "frameFormat": "lossless PNG",
+  "absoluteFrameRoots": [
+    "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames",
+    "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill"
+  ]
+}

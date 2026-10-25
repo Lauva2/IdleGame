@@ -7,7 +7,7 @@ namespace ForestShop
     {
         Coin, Reputation, Settings, Home, Garden, Workshop, Shop, Orders,
         Collection, Warehouse, Expand, Decoration, Harvest, Shelf, Timer,
-        Loop, Check, Lock, Reserved, Empty, Info, Arrow, Close, Tea, ZoomIn, ZoomOut, Recenter, Forest, Greenhouse, Fish
+        Loop, Check, Lock, Reserved, Empty, Info, Arrow, Close, Tea, ZoomIn, ZoomOut, Recenter, Forest, Greenhouse, Fish, Ruler, Weight
     }
 
     // Small, original woodland UI illustrations. Native geometry stays crisp
@@ -31,6 +31,12 @@ namespace ForestShop
             blue = lightPalette ? C(192, 220, 209) : C(122, 174, 165);
             switch (symbol)
             {
+                case ForestSymbol.Ruler:
+                    Poly(edge,8,18,18,8,56,46,46,56);Poly(gold,14,20,20,14,50,44,44,50);
+                    for(int i=0;i<5;i++){float x=22+i*6;Line(x,x-7,x-(i%2==0?6:4),x-(i%2==0?1:3),2,edge);}break;
+                case ForestSymbol.Weight:
+                    Arc(32,49,8,0,360,3,edge);Poly(edge,17,40,47,40,57,10,7,10);Poly(gold,20,36,44,36,51,15,13,15);
+                    Leaf(32,26,6,10,-25,green);break;
                 case ForestSymbol.Fish:
                     Poly(edge, 8,20,8,47,24,35); Poly(gold,12,25,12,42,23,34);
                     Oval(37,33,22,15,edge); Oval(37,33,18,11,blue);

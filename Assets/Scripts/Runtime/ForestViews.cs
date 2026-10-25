@@ -412,7 +412,8 @@ namespace ForestShop
             if (State != null && currentSheet == "celebration") { State.chapterCelebrated = true; Save(); }
             if (State != null && currentSheet == "forest-dialogue") { State.forest.dialogue = -1; Save(); }
             if (State != null && currentSheet == "forest-celebration") { State.forest.celebrationSeen = true; Save(); }
-            if (State != null && currentSheet == "fishing" && Engine != null && Engine.Fishing.Pause()) Save();
+            if (State != null && currentSheet == "fishing" && Engine != null)
+            { if(Engine.Fishing.Pause())Save();world3D?.LeaveFishingFocus(); }
             currentSheet = null; modalBindings.Clear();
             if (modal != null) { modal.gameObject.SetActive(false); Destroy(modal.gameObject); modal = null; }
             sheetPanel = null;
@@ -529,7 +530,7 @@ namespace ForestShop
         void ShowCredits()
         {
             StartSheet("制作信息与许可", "credits");
-            Paragraph("林间奇物铺\n森林生活魔法小店 · 第一章\n版本 0.1.0", 180, 36);
+            Paragraph("林间奇物铺\n森林生活魔法小店 · 第一章\n版本 " + Application.version, 180, 36);
             Paragraph("美术：本项目原创制作的立体场景、角色、商品模型与材质。\n音乐：Kistol《Hot Springs Town》（CC0）。\n环境与操作音效：项目原创合成制作。\n中文字体：Noto Sans CJK SC，SIL Open Font License 1.1。", 270);
             Paragraph("背景音乐来源与处理\n" + (Resources.Load<TextAsset>("Audio/ThirdPartyMusic")?.text ?? "许可记录缺失"), 620, 24);
             string fontLicense = "Noto 字体许可随工程与应用提供。\n" + (Resources.Load<TextAsset>("Fonts/OFL")?.text ?? "许可文件缺失");

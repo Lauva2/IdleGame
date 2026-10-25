@@ -1,0 +1,26 @@
+{
+  "scope": "Remove only downloaded installers and duplicate extracted installer payload caches after successful frozen APK. Installed Unity/Android SDK/NDK/JDK, project assets, source archives and evidence retained.",
+  "utc": "2026-10-25T08:16:52.5202764Z",
+  "files": [
+    {
+      "bytes": 477288080,
+      "sha256": "891B811F36E607F77BE2E232CD5BA46FB403B4ED52FBC9832AA1BF46791A158F",
+      "path": "E:\\UnityProject\\IdleGame\\Tools\\Downloads\\UnitySetup-Android-Support-2022.3.62f2.exe"
+    },
+    {
+      "bytes": 477110392,
+      "sha256": "CA109488C2EAEFF33766F25F6F61178C54B42C0F714999A83DF7D2262A44EE32",
+      "path": "E:\\UnityProject\\IdleGame\\Tools\\Downloads\\UnitySetup-Android-Support-for-Editor-2022.3.62f2.exe"
+    },
+    {
+      "bytes": 477225792,
+      "sha256": "1462E4C3FDF2CD0BA915D6CF31AACF6CBF92D09206FB5E6C44E1694400974AD8",
+      "path": "E:\\UnityProject\\IdleGame\\Tools\\AndroidModule\\[0]"
+    },
+    {
+      "bytes": 477225792,
+      "sha256": "1462E4C3FDF2CD0BA915D6CF31AACF6CBF92D09206FB5E6C44E1694400974AD8",
+      "path": "E:\\UnityProject\\IdleGame\\Tools\\UnityAndroid\\[0]"
+    }
+  ]
+}

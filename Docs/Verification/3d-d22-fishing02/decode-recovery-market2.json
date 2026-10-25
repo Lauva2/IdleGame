@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-25T08:26:27Z",
+  "scope": "Original source movie retained. Interrupted disk-full decode never accepted as complete. Valid prefix retained and RGB-verified against original movie; invalid tail preserved, remaining frames appended.",
+  "sourceVideo": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\Evidence\\shop-closeup-forest-2.mp4",
+  "sourceSha256": "155CDC37FEAD193C78C2485475FB11DF929FCF4402C6990D98EDD035B5534570",
+  "directory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\shop-closeup-forest-2-frames-10fps",
+  "validPrefixFrames": 1595,
+  "finalFrames": 1600,
+  "allPrefixPixelsMatchOriginalVideo": true,
+  "prefixManifest": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\d22-market2-recovery\\retained-prefix.json",
+  "prefixManifestSha256": "A1DD2439792D8C5791CE5384AE74B7BD9F5872749D7FDA5CBE9899C549AC1667",
+  "invalidTail": [
+    {
+      "file": "frame-01596.png",
+      "bytes": 786432,
+      "sha256": "3765E994DDB5ACA6EAED0B2E95749C0ADAD8BEEEF8A9153FADC8303C3F2C5642"
+    }
+  ]
+}

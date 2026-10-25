@@ -1,0 +1,26 @@
+{
+  "scope": "Latest ordinary pair protected after prior restorations and real foreground production; all fixture assets excluded. Full offline state replay is separately recorded; this audit checks final identity, fish and progression preservation.",
+  "latestCheckpointSha256": "60D78FAB135F656B066BE5713CD3BD26EF0EDFE891FD494CD448967A66DDC5AE",
+  "finalSaveSha256": "05006612F7BD644F4A2DE5B64482307C606249707F6D9C770369BC637201C51F",
+  "coins": 968324,
+  "fish": 39,
+  "discovered": 6,
+  "plots": 6,
+  "shelves": 2,
+  "latestAwaySeconds": 60.765569,
+  "latestOfflineCoins": 138,
+  "checks": {
+    "latest_primary_and_backup_restored_exactly": true,
+    "latest_primary_matches_checkpoint": true,
+    "all_fish_records_unchanged": true,
+    "normal_catch_total_kept": true,
+    "normal_species_kept": true,
+    "no_pending_report_after_claim": true,
+    "fishing_paused": true,
+    "chapter_and_forest_progress_kept": true,
+    "ordinary_configuration_kept": true,
+    "coins_only_follow_original_sales": true,
+    "latest_checkpoint_not_rolled_back": true
+  },
+  "allPassed": true
+}

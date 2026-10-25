@@ -1,0 +1,50 @@
+{
+  "directory": "Docs/Verification/3d-d22-fishing02/Evidence/FishingSpots-r02",
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        540,
+        300
+      ]
+    },
+    {
+      "shot": "40-deep-water-map-actual-entry"
+    },
+    {
+      "tap": [
+        320,
+        1380
+      ]
+    },
+    {
+      "tap": [
+        540,
+        1530
+      ]
+    },
+    {
+      "shot": "41-deep-water-grass-wait"
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "42-deep-water-actual-catch"
+    },
+    {
+      "tap": [
+        590,
+        1630
+      ]
+    },
+    {
+      "shot": "43-deep-water-individual-location-and-bait"
+    }
+  ]
+}

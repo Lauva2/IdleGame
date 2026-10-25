@@ -1,0 +1,18 @@
+{
+  "scope": "Newest normal checkpoint before corrected shop/garden fit evidence; restore this pair without rolling back earlier income.",
+  "files": [
+    {
+      "name": "normal-before-region-fit.save",
+      "bytes": 6782,
+      "sha256": "60D78FAB135F656B066BE5713CD3BD26EF0EDFE891FD494CD448967A66DDC5AE"
+    },
+    {
+      "name": "normal-before-region-fit.save.bak",
+      "bytes": 6782,
+      "sha256": "72B0AE4BBD2F25497944C1F815DE0B7987B1972BDCF3C9E202F5D2DF72016427"
+    }
+  ],
+  "coins": 968186,
+  "utc": "2026-10-25T08:38:28.5533464Z",
+  "fish": 39
+}

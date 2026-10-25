@@ -1,0 +1,15 @@
+{
+  "candidate": "3d-d22-fishing02",
+  "utc": "2026-10-25T09:08:22.982083+00:00",
+  "files": 195,
+  "currentInputsMatchManifest": true,
+  "archiveInputsMatchManifest": true,
+  "apkBytes": 45574344,
+  "apkSha256": "F0AEBF40F7110C599C6AF8ECCCF51259F17AB847F12A3410FD2B492D963A388B",
+  "installedApkMatches": true,
+  "sourceZipBytes": 57810075,
+  "sourceZipSha256": "921E9805F9C18A9B415C8811100E713FBE064C8ABDFA54EA2106DB39A1F814A7",
+  "manifestSha256": "C616126C9FD507C14323DB8A0F29AA6307BBB6D89FCC55BDAA5CADA94E9AA389",
+  "allPassed": true,
+  "scope": "Read-only recheck after local cache/frame-storage maintenance; build-info retained unchanged. Independent art acceptance is separately reported."
+}

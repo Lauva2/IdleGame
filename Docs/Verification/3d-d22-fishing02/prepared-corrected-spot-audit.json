@@ -1,0 +1,39 @@
+{
+  "scope": "Prepared full gallery followed by actual automatic deep-water grass bait catch and shallows grain bait catch, after correcting old automation coordinates. Not ordinary progress. Original FishingSpots27-33 are misnamed failed capture, not evidence of these catches.",
+  "samples": [
+    {
+      "file": "prepared-deep-water-after.save",
+      "spot": 1,
+      "bait": 1,
+      "total": 14406,
+      "fish": {
+        "sequence": 14406,
+        "species": 5,
+        "quality": 1,
+        "lengthMm": 263,
+        "weightGrams": 245,
+        "spot": 1,
+        "bait": 1
+      },
+      "passed": true,
+      "sha256": "03524A0A7F88B20209D5078787FB18C475551C1224B6DC64C93CE2B3E755D97B"
+    },
+    {
+      "file": "prepared-shallows-after.save",
+      "spot": 0,
+      "bait": 0,
+      "total": 14407,
+      "fish": {
+        "sequence": 14407,
+        "species": 0,
+        "quality": 0,
+        "lengthMm": 104,
+        "weightGrams": 13,
+        "spot": 0,
+        "bait": 0
+      },
+      "passed": true,
+      "sha256": "1EEE1B9ED9AF85FFE80286DBE8BC3119A7CC8DF4DD24062AEC3D61120027EDAE"
+    }
+  ]
+}

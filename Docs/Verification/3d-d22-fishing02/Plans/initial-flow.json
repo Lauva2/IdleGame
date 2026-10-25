@@ -1,0 +1,83 @@
+{
+  "steps": [
+    {
+      "shot": "00-welcome"
+    },
+    {
+      "tap": [
+        850,
+        1775
+      ]
+    },
+    {
+      "shot": "01-key-accepted"
+    },
+    {
+      "tap": [
+        850,
+        410
+      ]
+    },
+    {
+      "wait": 2
+    },
+    {
+      "shot": "02-harvested-to-workshop"
+    },
+    {
+      "tap": [
+        850,
+        410
+      ]
+    },
+    {
+      "shot": "03-first-recipe-choice"
+    },
+    {
+      "tap": [
+        850,
+        1128
+      ]
+    },
+    {
+      "shot": "04-tea-configured"
+    },
+    {
+      "tap": [
+        850,
+        410
+      ]
+    },
+    {
+      "shot": "05-first-shelf-choice"
+    },
+    {
+      "tap": [
+        850,
+        1115
+      ]
+    },
+    {
+      "shot": "06-awaiting-real-sale"
+    },
+    {
+      "wait": 15
+    },
+    {
+      "wait": 15
+    },
+    {
+      "shot": "07-real-income"
+    },
+    {
+      "tap": [
+        540,
+        1850
+      ]
+    },
+    {
+      "shot": "08-order-entry"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d22-fishing02/Evidence/Initial"
+}

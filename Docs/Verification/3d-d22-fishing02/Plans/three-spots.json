@@ -1,0 +1,140 @@
+{
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "shot": "20-pavilion-map"
+    },
+    {
+      "tap": [
+        780,
+        1250
+      ]
+    },
+    {
+      "shot": "21-pavilion-pool-wait"
+    },
+    {
+      "tap": [
+        930,
+        1530
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "22-actual-berry-bait-catch"
+    },
+    {
+      "tap": [
+        686,
+        1802
+      ]
+    },
+    {
+      "shot": "23-pool-zoom-out"
+    },
+    {
+      "swipe": [
+        550,
+        700,
+        650,
+        800,
+        700
+      ]
+    },
+    {
+      "shot": "24-pool-real-pan"
+    },
+    {
+      "tap": [
+        966,
+        1802
+      ]
+    },
+    {
+      "shot": "25-pool-recenter"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        540,
+        300
+      ]
+    },
+    {
+      "shot": "26-creek-map"
+    },
+    {
+      "tap": [
+        780,
+        1280
+      ]
+    },
+    {
+      "tap": [
+        540,
+        1530
+      ]
+    },
+    {
+      "shot": "27-deep-water-grass-bait-wait"
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "28-deep-water-actual-catch"
+    },
+    {
+      "tap": [
+        826,
+        1802
+      ]
+    },
+    {
+      "shot": "29-deep-water-zoom-in"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        180,
+        300
+      ]
+    },
+    {
+      "shot": "30-shallows-map"
+    },
+    {
+      "tap": [
+        860,
+        880
+      ]
+    },
+    {
+      "shot": "31-shallows-cast-or-wait"
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "32-shallows-actual-catch"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "33-restored-world-markers"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d22-fishing02/Evidence/FishingSpots"
+}

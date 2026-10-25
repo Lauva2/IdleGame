@@ -1,0 +1,107 @@
+{
+  "directory": "Docs/Verification/3d-d22-fishing02/Evidence/LegacyFit",
+  "steps": [
+    {
+      "shot": "90-latest-ordinary-report"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1640,
+        1000,
+        640,
+        450,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1640,
+        1000,
+        640,
+        450,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1640,
+        1000,
+        640,
+        450,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1640,
+        1000,
+        640,
+        450,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1640,
+        1000,
+        640,
+        450,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1640,
+        1000,
+        640,
+        450,
+        650
+      ]
+    },
+    {
+      "shot": "91-latest-ordinary-report-footer"
+    },
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        900,
+        300
+      ]
+    },
+    {
+      "tap": [
+        535,
+        515
+      ]
+    },
+    {
+      "shot": "92-latest-ordinary-fish-progress"
+    },
+    {
+      "tap": [
+        180,
+        1850
+      ]
+    },
+    {
+      "shot": "93-latest-ordinary-overview"
+    }
+  ]
+}

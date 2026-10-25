@@ -1,0 +1,62 @@
+{
+  "directory": "Docs/Verification/3d-d22-fishing02/Evidence/Forest",
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "shot": "10-pavilion-before"
+    },
+    {
+      "tap": [
+        700,
+        1050
+      ]
+    },
+    {
+      "shot": "11-pavilion-repair-requirements"
+    },
+    {
+      "tap": [
+        850,
+        1600
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "12-forest-ending"
+    },
+    {
+      "tap": [
+        850,
+        1770
+      ]
+    },
+    {
+      "shot": "13-pavilion-after"
+    },
+    {
+      "tap": [
+        885,
+        1640
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1000,
+        700,
+        1000,
+        700
+      ]
+    },
+    {
+      "shot": "14-pavilion-terrace-books-tea-benches"
+    }
+  ]
+}

@@ -19,7 +19,9 @@ public static class CompareAndroidOnline
             Equal(!before.report.pending && !after.report.pending, "online interval without pending report");
             double elapsed = after.playedSeconds - before.playedSeconds;
             Equal(elapsed >= 30, "at least 30 actual simulated online seconds");
-            new Economy(before).Advance(elapsed);
+            bool fishing=args.Length>2 && args[2]=="--continuous-fishing";
+            var replay=new Economy(before);replay.Advance(elapsed);
+            if(fishing){Equal(before.fishing.running,"continuous foreground fishing baseline is running");replay.Fishing.Advance(elapsed);if(!after.fishing.running)replay.Fishing.Pause();}
             StateValidation.Check(before); StateValidation.Check(after);
             Equal(before.coins == after.coins && before.sales == after.sales, "coins / sales");
             Equal(before.harvests == after.harvests && before.crafts == after.crafts, "production totals");
@@ -37,11 +39,11 @@ public static class CompareAndroidOnline
                     + ", actual " + actual[i].config + "/" + actual[i].workItem + "/" + actual[i].remaining);
             Equal(before.forest.available.SequenceEqual(after.forest.available) && before.forest.gathered.SequenceEqual(after.forest.gathered), "forest node stock and no automatic gathering");
             for(int i=0;i<3;i++)Equal(Math.Abs(before.forest.regrow[i]-after.forest.regrow[i])<.002,"forest cooldown "+i);
-            Equal(Math.Abs(before.fishing.remaining-after.fishing.remaining)<1e-10,"fishing clock does not advance outside fishing view");
+            Equal(Math.Abs(before.fishing.remaining-after.fishing.remaining)<(fishing?.002:1e-10),fishing?"continuous foreground fishing clock":"fishing clock does not advance outside fishing view");
             before.fishing.remaining=after.fishing.remaining;
-            Equal(new JavaScriptSerializer().Serialize(before.fishing)==new JavaScriptSerializer().Serialize(after.fishing),"fish records unchanged outside fishing view");
+            Equal(new JavaScriptSerializer().Serialize(before.fishing)==new JavaScriptSerializer().Serialize(after.fishing),fishing?"actual automatic fish parameters RNG counts and records match replay":"fish records unchanged outside fishing view");
             Console.WriteLine("PASS actual Android online replay: elapsed=" + elapsed + "s, simplified=" + after.simpleAnimation
-                + ", coins=" + after.coins + ", sales=" + after.sales + "; all inventory, production and facility states match");
+                + ", coins=" + after.coins + ", sales=" + after.sales + "; all inventory, production and facility states match"+(fishing?"; automatic fish RNG parameters counts and records match":"; fish state unchanged"));
             return 0;
         }
         catch (Exception e) { Console.Error.WriteLine(e); return 1; }

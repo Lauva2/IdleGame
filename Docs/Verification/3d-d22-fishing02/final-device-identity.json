@@ -1,0 +1,17 @@
+{
+  "candidate": "3d-d22-fishing02",
+  "utc": "2026-10-25T09:04:34.236291+00:00",
+  "installedApkSha256": "F0AEBF40F7110C599C6AF8ECCCF51259F17AB847F12A3410FD2B492D963A388B",
+  "apkMatches": true,
+  "pid": 5293,
+  "focus": [
+    "mCurrentFocus=Window{123c221 u0 com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity}"
+  ],
+  "errorMatches": [],
+  "errorLogScope": "Read-only retained AndroidRuntime:E/Unity:E buffer; historical lines retained, this is not a fresh30min run.",
+  "ordinaryFinalSnapshot": "ordinary-after-region-fit-final.save",
+  "snapshotCoins": 968324,
+  "snapshotFish": 39,
+  "snapshotMeaning": "Last recorded save at restoration completion; subsequent real foreground production can increase coins.",
+  "probeNote": "First read-only probe rejected the package output before any mutation; this probe accepts Android12 ~~ path segments and filters blank lines."
+}

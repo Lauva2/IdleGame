@@ -4,7 +4,7 @@ Usage: python Tools/Index-GameEvidence.py <QA-folder> <absolute-frame-root>
        [--index-only]
 
 Source PNGs/videos are never rewritten, moved or uploaded. Video basenames
-starting shop-closeup or initial-flow use 10FPS; other videos use 2FPS. Sampling
+starting shop-closeup, initial-flow or fishing-motion use 10FPS; other videos use 2FPS. Sampling
 PTS is approximate output time, not an exact source frame or touch timestamp.
 Hash coverage is not a claim of frame-by-frame visual or art acceptance.
 Source-video keys/paths are QA-relative (Evidence/...), sampled-frame paths
@@ -19,6 +19,7 @@ import json
 import os
 from pathlib import Path
 import re
+import shutil
 import struct
 import subprocess
 import sys
@@ -61,6 +62,11 @@ def write_csv(path, fields, rows):
 
 
 def png_size(path):
+    if path.suffix.lower()=='.webp':
+        from PIL import Image
+        with Image.open(path) as picture:
+            assert picture.format=='WEBP'
+            return picture.size
     with path.open('rb') as stream:
         header = stream.read(24)
     if len(header) != 24 or header[:8] != b'\x89PNG\r\n\x1a\n' or header[12:16] != b'IHDR':
@@ -83,8 +89,9 @@ def completed_frames(directory, marker, identity):
     if complete.get('sourceSha256') != identity['sourceSha256'] or complete.get('sampleFPS') != identity['sampleFPS']:
         raise RuntimeError('Decode identity changed; choose a new frame directory: ' + str(directory))
     frames = []
-    for path in directory.glob('frame-*.png'):
-        match = re.fullmatch(r'frame-(\d+)\.png', path.name)
+    extension=identity.get('frameExtension','png')
+    for path in directory.glob('frame-*.'+extension):
+        match = re.fullmatch(r'frame-(\d+)\.'+extension, path.name)
         if not match:
             raise RuntimeError('Unexpected sampled frame name: ' + str(path))
         frames.append((int(match.group(1)), path))
@@ -99,6 +106,9 @@ def main():
     parser.add_argument('folder', type=Path)
     parser.add_argument('frame_root', type=Path)
     parser.add_argument('--index-only', action='store_true')
+    parser.add_argument('--lossless-webp', action='store_true', help='Lossless RGB WebP frames for limited local disk; originals remain untouched')
+    parser.add_argument('--png-compression', type=int, default=1, choices=range(10), help='Lossless PNG compression effort; default preserves historical method')
+    parser.add_argument('--spill-frame-root', type=Path, help='Optional second authorized local directory; keeps completed frames in place')
     args = parser.parse_args()
     root = Path(__file__).resolve().parent.parent
     folder = args.folder.resolve()
@@ -114,11 +124,18 @@ def main():
         raise ValueError('Decoded frames must stay outside Evidence to avoid mixing them with source PNGs')
     if not args.index_only:
         frame_root.mkdir(parents=True, exist_ok=True)
+    frame_roots=[frame_root]
+    if args.spill_frame_root:
+        if not args.spill_frame_root.is_absolute():raise ValueError('Spill frame directory must be absolute')
+        spill=args.spill_frame_root.resolve()
+        if spill.is_relative_to(evidence):raise ValueError('Spill frames must stay outside original media')
+        if not args.index_only:spill.mkdir(parents=True,exist_ok=True)
+        frame_roots.append(spill)
     # Captures may still be pulled into Evidence while existing clips decode.
     # Both the decoding jobs and the eventual source-media rows use this same
     # snapshot, so a later MP4 cannot bypass metadata/decode preparation.
     source_files = source_media_files(evidence)
-    videos = [p for p in source_files if p.suffix.lower() == '.mp4']
+    videos = sorted((p for p in source_files if p.suffix.lower() == '.mp4'),key=lambda p:p.stat().st_size,reverse=True)
     sys.path.insert(0, str(root / 'Tools' / 'PythonModules'))
     import imageio_ffmpeg
     ffmpeg = imageio_ffmpeg.get_ffmpeg_exe()
@@ -126,9 +143,13 @@ def main():
     for video in videos:
         source = video.relative_to(folder).as_posix()
         relative_video = video.relative_to(evidence)
-        fps = 10 if video.stem.casefold().startswith(('shop-closeup', 'initial-flow')) else 2
+        fps = 10 if video.stem.casefold().startswith(('shop-closeup', 'initial-flow', 'fishing-motion')) else 2
         # The relative source folder distinguishes identically named clips.
-        directory = frame_root / relative_video.parent / (video.stem + '-frames-' + str(fps) + 'fps')
+        extension='webp' if args.lossless_webp else 'png'
+        leaf=relative_video.parent / (video.stem + '-frames-' + str(fps) + 'fps'+('-lossless-webp' if args.lossless_webp else ''))
+        existing=[base/leaf for base in frame_roots if (base/leaf).exists()]
+        if len(existing)>1:raise RuntimeError('Ambiguous duplicate frame directories: '+str(existing))
+        directory=existing[0] if existing else max(frame_roots,key=lambda p:shutil.disk_usage(p).free)/leaf
         marker = directory / 'decode-complete.json'
         initial_stat = video.stat()
         source_sha = sha256(video)
@@ -141,19 +162,20 @@ def main():
         data['sampleFPS'] = fps
         metadata[source] = data
         identity = {'sourceVideo': str(video), 'sourceSha256': source_sha, 'sampleFPS': fps,
-                    'operation': 'ffmpeg FPS sampling, native encoded resolution/orientation, unchanged decoded PNG pixels'}
+                    'operation': 'ffmpeg FPS sampling, native encoded resolution/orientation, lossless decoded RGB pixels', 'frameExtension':extension}
         if not marker.exists() and not args.index_only:
             directory.mkdir(parents=True, exist_ok=True)
             if any(directory.iterdir()):
                 raise RuntimeError('Partial output exists; no files overwritten. Inspect it or choose a fresh frame root: ' + str(directory))
             print('Decoding ' + source + ' at ' + str(fps) + ' FPS -> ' + str(directory), flush=True)
+            encoding=['-c:v','libwebp','-lossless','1','-compression_level','6','-quality','100'] if args.lossless_webp else ['-compression_level',str(args.png_compression)]
             subprocess.run([ffmpeg, '-hide_banner', '-loglevel', 'error', '-nostdin', '-n',
                             '-threads', '2', '-noautorotate', '-i', str(video), '-vf', 'fps=' + str(fps),
-                            '-threads', '2', '-compression_level', '1', str(directory / 'frame-%05d.png')], check=True)
+                            '-threads', '2', '-pix_fmt','rgb24', *encoding, str(directory / ('frame-%05d.'+extension))], check=True)
             final_stat = video.stat()
             if (final_stat.st_size, final_stat.st_mtime_ns) != (initial_stat.st_size, initial_stat.st_mtime_ns):
                 raise RuntimeError('Source video changed during decoding; output remains uncompleted: ' + str(video))
-            identity['frames'] = len(list(directory.glob('frame-*.png')))
+            identity['frames'] = len(list(directory.glob('frame-*.'+extension)))
             if identity['frames'] < 1:
                 raise RuntimeError('Decoder produced no frames: ' + str(video))
             write_json(marker, identity)
@@ -185,11 +207,13 @@ def main():
     if deferred:
         print('Deferred ' + str(len(deferred)) + ' newly arrived source media files until the next run; see local-frame-storage.json.', flush=True)
     storage = {'candidate': folder.name, 'absoluteFrameRoot': str(frame_root), 'sourceMediaRemainInProject': str(evidence),
-               'externalUpload': False, 'samplingRule': 'shop-closeup* and initial-flow* basenames 10FPS, all other MP4 basenames 2FPS',
+               'externalUpload': False, 'samplingRule': 'shop-closeup*, initial-flow* and fishing-motion* basenames 10FPS, all other MP4 basenames 2FPS',
                'sourceEnumerationNote': 'Source files are frozen at run start. New arrivals are excluded from this run and picked up on rerun.',
                'sourceSnapshotCount': len(source_files), 'deferredSourceFiles': deferred,
                'samplingTimeNote': 'approxOutputPTS is output sampling time, not an exact source frame or touch timestamp.',
                'integrityNote': 'File hash coverage is not frame-by-frame visual inspection or art acceptance.', 'jobs': jobs}
+    storage['frameFormat']='lossless RGB WebP' if args.lossless_webp else 'lossless PNG'
+    storage['absoluteFrameRoots']=[str(p) for p in frame_roots]
     # All hashes and row sets are complete before any public index is replaced.
     write_json(folder / 'video-metadata.json', metadata)
     write_json(folder / 'local-frame-storage.json', storage)

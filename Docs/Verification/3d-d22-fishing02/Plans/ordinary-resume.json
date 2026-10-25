@@ -1,0 +1,23 @@
+{
+  "steps": [
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "tap": [
+        860,
+        880
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "07-resume-actual-paused-cast"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d22-fishing02/Evidence/Ordinary"
+}

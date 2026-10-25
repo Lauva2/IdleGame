@@ -1,0 +1,81 @@
+{
+  "directory": "Docs/Verification/3d-d22-fishing02/Evidence/FishingEmpty",
+  "steps": [
+    {
+      "tap": [
+        900,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        900,
+        300
+      ]
+    },
+    {
+      "shot": "00-all-undiscovered"
+    },
+    {
+      "tap": [
+        535,
+        515
+      ]
+    },
+    {
+      "shot": "01-discovered-empty"
+    },
+    {
+      "tap": [
+        900,
+        515
+      ]
+    },
+    {
+      "shot": "02-recent-empty"
+    },
+    {
+      "tap": [
+        180,
+        515
+      ]
+    },
+    {
+      "tap": [
+        600,
+        775
+      ]
+    },
+    {
+      "shot": "03-undiscovered-species-top"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        1300,
+        400,
+        700
+      ]
+    },
+    {
+      "shot": "04-undiscovered-species-bottom"
+    },
+    {
+      "tap": [
+        850,
+        1810
+      ]
+    },
+    {
+      "shot": "05-first-empty-automatic-wait"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "06-restored-world-markers"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "directory": "Docs/Verification/3d-d22-fishing02/Evidence/LegacyRegions-r02",
+  "steps": [
+    {
+      "shot": "90-latest-report"
+    },
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        900,
+        300
+      ]
+    },
+    {
+      "tap": [
+        535,
+        515
+      ]
+    },
+    {
+      "shot": "91-latest-fish-progress"
+    },
+    {
+      "tap": [
+        180,
+        1850
+      ]
+    },
+    {
+      "shot": "92-latest-normal-overview"
+    }
+  ]
+}

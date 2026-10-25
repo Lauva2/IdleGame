@@ -1,0 +1,65 @@
+{
+  "scope": "Prepared independent RNG seed only. Each first catch waited/bit/landed automatically through actual APK UI, then opened individual details and paused. Not ordinary progression or natural probability evidence.",
+  "samples": [
+    {
+      "quality": 0,
+      "preparedSeed": 2,
+      "actual": {
+        "sequence": 1,
+        "species": 4,
+        "quality": 0,
+        "lengthMm": 81,
+        "weightGrams": 6,
+        "spot": 0,
+        "bait": 0
+      },
+      "sha256": "DA273B22DF037BAD01D1F80BFAFAB4E886A0F6484C4F6C5A2E97A84F38467244",
+      "passed": true
+    },
+    {
+      "quality": 1,
+      "preparedSeed": 7,
+      "actual": {
+        "sequence": 1,
+        "species": 0,
+        "quality": 1,
+        "lengthMm": 130,
+        "weightGrams": 29,
+        "spot": 0,
+        "bait": 0
+      },
+      "sha256": "02C52CC9D4C40092540B2AC7A08FCDD2C5322E32115FBC4665DBC2A74E7CB47F",
+      "passed": true
+    },
+    {
+      "quality": 2,
+      "preparedSeed": 1,
+      "actual": {
+        "sequence": 1,
+        "species": 1,
+        "quality": 2,
+        "lengthMm": 235,
+        "weightGrams": 153,
+        "spot": 0,
+        "bait": 0
+      },
+      "sha256": "14E0E6BFDCAE3F32C940FBD03A04B021902F305E32F54D778000BFFAA379DE31",
+      "passed": true
+    },
+    {
+      "quality": 3,
+      "preparedSeed": 10,
+      "actual": {
+        "sequence": 1,
+        "species": 3,
+        "quality": 3,
+        "lengthMm": 320,
+        "weightGrams": 597,
+        "spot": 0,
+        "bait": 0
+      },
+      "sha256": "7B17FE48AB035351D4F8DF90C5850BAE7D03AEA686C7B6CF5C2CA08C1A1D4658",
+      "passed": true
+    }
+  ]
+}

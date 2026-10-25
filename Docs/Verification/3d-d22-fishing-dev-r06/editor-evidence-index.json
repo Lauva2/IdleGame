@@ -1,0 +1,436 @@
+{
+  "scope": "Isolated prepared Editor, simulated phase clock, no device or continuous dynamics",
+  "sourceInputs": 195,
+  "sourceInputsMatchedAtIndex": true,
+  "checksPassed": 119,
+  "imageCount": 61,
+  "images": [
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/collection-all.png",
+      "bytes": 232791,
+      "sha256": "4689EC1C0AAFC707E3A3C7D92458DB765A3128CDDAA1D53E8CF5FB22F61499C5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/credits-version.png",
+      "bytes": 941470,
+      "sha256": "B694FAE3DC50252EA1AECBEA40C0B709ADE41F03CB16569FD1ADFC5FFFD8AE38",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/habitat-0-cast.png",
+      "bytes": 1017488,
+      "sha256": "C42323A42C82C617A48E1CFEDCA7E7C9652AD2F83959FD738344923A076490E4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/habitat-0-wait.png",
+      "bytes": 1023624,
+      "sha256": "ED5149C57F3FE67D1FAC9B0B344FF206BA1EB6713BEAE4EF5A07E103BD2D3D37",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/habitat-1-cast.png",
+      "bytes": 1073515,
+      "sha256": "1E154712B0B263D1AB0A4EC81A7D355697C8F0508E560283F984946730DB5235",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/habitat-1-wait.png",
+      "bytes": 1081663,
+      "sha256": "49FBA2243550FC7DA84709DD1D24A8221F5597C76B1F206ABFEAAB5389DF070E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/habitat-2-cast.png",
+      "bytes": 1053785,
+      "sha256": "82F9153152F61E5615A97D5CF76DA7B62155C60678F07A39ED5FBC0B58AD75F6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/habitat-2-wait.png",
+      "bytes": 1060313,
+      "sha256": "695C6BEC819286F0B29ADB24F1C5CF5EB18915333487D299AECA7B85C6A46B6F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/individual.png",
+      "bytes": 259147,
+      "sha256": "12508B028FD88521D07269F828B197187A01B7F2C24A41A4362389A7D1F20E85",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/landed-body-00.png",
+      "bytes": 1028239,
+      "sha256": "F4F8D6A623701D075C13F9011731822439203A3E0DB96ED4379A00BAD5E4CD26",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/landed-body-01.png",
+      "bytes": 1026167,
+      "sha256": "4C7EF5EC6DA70FA2F0D853A89080B00DEDC918301E283F35DB1D79906B02A27D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/landed-body-02.png",
+      "bytes": 1024968,
+      "sha256": "2589949B7D90966EE77689ABCC766C6C978021DD20BB3CADF480AEE96895BFCF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/landed-body-03.png",
+      "bytes": 1031982,
+      "sha256": "B2601301850758C0C0DF4BEBD11377C59B78415CF43FC88DD4B16379CD4E90BE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/landed-body-04.png",
+      "bytes": 1030570,
+      "sha256": "82652F1B59B435F96A00DB2A73BE0F7A3D08C53E1ABAC64E817CD14EB70DFF43",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/landed-body-05.png",
+      "bytes": 1082800,
+      "sha256": "49E1DA239ADA609A6CFF69DA69C5156D068781DD063618033E53BE6C67A9C7D4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/landed-body-06.png",
+      "bytes": 1032518,
+      "sha256": "7356580D4AA5E511055B1FB66444D698737B7D7FC4978E02C446BED2AE604BEC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/landed-body-07.png",
+      "bytes": 1083759,
+      "sha256": "48E1BD5A4DEED38A911C98DA9E493231532DF33A7401522AA7EAA1B994E54D07",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/landed-body-08.png",
+      "bytes": 1083897,
+      "sha256": "089F4BA8C949EE336BACDC1B379F3B6D61126F2272FECF5D797AEE2DBEDC88CE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/landed-body-09.png",
+      "bytes": 1065176,
+      "sha256": "2EA0C8ABD0BBC8F432E9082540C6F4EEC5CEB28B7CE4E03403D08A5039E99B7D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/landed-body-10.png",
+      "bytes": 1081603,
+      "sha256": "20A0759894EA6E0AC2ADF8549787589F3F1D36F10DEDF6F1663026665D2FBE88",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/landed-body-11.png",
+      "bytes": 1067694,
+      "sha256": "EC62FAB1F5D07E9D3F8798420ADBFFBE0D1409C21ACB8948AAFFD8B6815F327D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/left-habitat-0.png",
+      "bytes": 1075764,
+      "sha256": "FB5FE5485F582E345DC16063F2D1663EB26AB7A07CD8568FB2E320F2B4378BA0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/left-habitat-1.png",
+      "bytes": 1112467,
+      "sha256": "7A0E76A96CA2CA6AB80D479962D53498CB6EC07ED8370E5A4D2EDC0C506EEAF6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/left-habitat-2.png",
+      "bytes": 1104038,
+      "sha256": "FCFFE7B8812E1EB2A49762F51AA8419894FD8E3A5876AFD5942DE6D73C34C618",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/motion-01-bite.png",
+      "bytes": 1024704,
+      "sha256": "562DF66B84A7BFB0076951403A8CB80D801CCBC97935F825D513C023CE4AE63C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/motion-02-reeling.png",
+      "bytes": 1024627,
+      "sha256": "EAA0D49CA6BA6C8ED85693DCF3333283936E40A528E0E5DE96212F7780E71311",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/motion-04-out-of-water.png",
+      "bytes": 1027090,
+      "sha256": "E50CCD6C71E851BB05EEE1533B37C244514DBD55F90F3B99704514D9621D6906",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/motion-05-into-basket.png",
+      "bytes": 1026156,
+      "sha256": "4082F5BBE76AB0BCF5EA819E39CEE58C74D21A44E8F3A98D422A92FD05BBB08A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/motion-06-next-cast.png",
+      "bytes": 1024419,
+      "sha256": "D8145B0F1FB41BEFC254B1200C15B1BFF8A7B3A5A06314DAC7A99781EEAED198",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/notice-新发现.png",
+      "bytes": 1031163,
+      "sha256": "BE1ED08132AD0B203F7302380469756CE925ED9E6C8FCB69509464B66EFFEFE2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/notice-自动钓获.png",
+      "bytes": 1032018,
+      "sha256": "3B3859ADFE328B92401D8314A0D195989131C8DC73884CA73B045C3BF3797D4E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/notice-重量新纪录.png",
+      "bytes": 1032054,
+      "sha256": "0D2F983A4E71CB45A3C50D677E3755675847B0F5CC0210B8C6711BC548FB1DF5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/notice-长度与重量新纪录.png",
+      "bytes": 1034224,
+      "sha256": "D34A54C57D47A03A9E1DE9DA96516A8D2757D3D3B645C6ACBD2644386E076BB2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/notice-长度新纪录.png",
+      "bytes": 1032410,
+      "sha256": "A8DBA8F6CA2A3FDCA6CD9ADFABB78A3C1DD9D85D2AF6FCA400AE712A8ED827E5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/recent-bottom.png",
+      "bytes": 262303,
+      "sha256": "8D24539F402A527804055D385DE34ACB131F5D1A3858D951745ABA12A8145151",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/recent-top.png",
+      "bytes": 251062,
+      "sha256": "9B5520635D866394A0F85749DAB15D97991BF4E6D6D21823D8E5FCF6713FA4C4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/reduced-landing.png",
+      "bytes": 1069507,
+      "sha256": "A62E2C558D0788C282079E0766739D8AA444BACE3B209482F2664C481FD59731",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-00-bottom.png",
+      "bytes": 215512,
+      "sha256": "8CF9CECAA70A5EDE48A6CC77A80D844F2653A136702F7465661CC388376BBC1C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-00-top.png",
+      "bytes": 221453,
+      "sha256": "3C954BC4528FDBD79BCB53488D1F4BB3F84259C7F507E178C57570ABA955C099",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-01-bottom.png",
+      "bytes": 214099,
+      "sha256": "8274196BA94FEBB2EC8A08145D151729A9477C970789F80F7E8C07BFE5EBABB1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-01-top.png",
+      "bytes": 217019,
+      "sha256": "BDA427CA3ECA3F6513A3AD44D9EA278942ADC8B4FD65660DE33A157DC3B1494A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-02-bottom.png",
+      "bytes": 214663,
+      "sha256": "6B47E9038BCB06D8E0360182D3CAFC5A3A14D5A6ECC92790EA0FA6706A58F548",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-02-top.png",
+      "bytes": 209816,
+      "sha256": "6F00D6CD2D273BBCEB6D3B68C8712228DC16E87F54C5A8E1D65E0EE02628F723",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-03-bottom.png",
+      "bytes": 216328,
+      "sha256": "FF570C7C2CB3F4EE5F0D67DB7F13B0DDF389DD839B25ADAFBF370C7866FB97B3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-03-top.png",
+      "bytes": 240266,
+      "sha256": "89BDC7FCDD640F895843AE69D58ACAB20309014FC553D45DB31A4E631591500F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-04-bottom.png",
+      "bytes": 215346,
+      "sha256": "2BD8CE498E1FAE11A4E1D7C2E459939ADCF9A9FE8D56B158F4C20740F3A8EE54",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-04-top.png",
+      "bytes": 230193,
+      "sha256": "FCF34FA492F9C6B7907FF20B56F70405D7AF3C406F9319DA3DE25A9DA2687A91",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-05-bottom.png",
+      "bytes": 213253,
+      "sha256": "CFAE95322AAACD11CFD92FC2A1F39E0C6FD166B79248FDE22C8E569B5C63CF3C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-05-top.png",
+      "bytes": 229967,
+      "sha256": "C5B9D4B807B985FFE83E510F4FF2454B3309FFBF002F10FCBD649B4425571428",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-06-bottom.png",
+      "bytes": 215117,
+      "sha256": "AA4ACC3FAE9E66A7B945A535855DD28D3314C2189B9567862E8BC64AA2E3FC6D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-06-top.png",
+      "bytes": 237993,
+      "sha256": "2A3AD8504319226AD286D3BE21DB6407DCBF18A07566426CB89535807C159DAF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-07-bottom.png",
+      "bytes": 214423,
+      "sha256": "51D13DDCA9E644637024E9BA123478C2770619ACC886B6FF01D2B85504BA1B1B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-07-top.png",
+      "bytes": 221414,
+      "sha256": "B3DCDAF86348FF18D0B3250EA595F4E0A6D6D877D04234B0D0899F0706D8CCC6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-08-bottom.png",
+      "bytes": 212726,
+      "sha256": "C91768898B5F727BF0E03D843B16A9F702DD6F2E5F49F04DE39D52437CFA65C6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-08-top.png",
+      "bytes": 223070,
+      "sha256": "3B96D858D1BCAC1A11C137029099A2F70B9D0F7902FE68E6B51034B2AEA19A8E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-09-bottom.png",
+      "bytes": 214755,
+      "sha256": "3828D4239064AA4EEA05679361E4ABDF9779BA00C8B61CA7D13FF1C0D8B308FF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-09-top.png",
+      "bytes": 228823,
+      "sha256": "28AE2D6D4B09DA0E18EA470917775A04FFBA928B4E76A70F86E1A4B9BDEE608B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-10-bottom.png",
+      "bytes": 215108,
+      "sha256": "A9934D619AAF74188FB20803FC6169FF730691C947A51B5A69B6FB0185879FAE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-10-top.png",
+      "bytes": 211733,
+      "sha256": "767DE14212C98EA9E241E2A2CC09926F921648D7DCB2663166956ACC7397A2D1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-11-bottom.png",
+      "bytes": 211278,
+      "sha256": "F1E01AC5CADFD37F5C3B5D9FBC2A532632E43AD05A886335CFD2D0D3FABDE2B2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "Builds/Previews/3d-d22-fishing-dev-r06/species-11-top.png",
+      "bytes": 234071,
+      "sha256": "C83A30A00D36F71E32B009C59F044EAE93B26A78065744E8EC01C5061C9BD8A9",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

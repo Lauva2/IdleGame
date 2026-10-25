@@ -1,0 +1,25 @@
+{
+  "candidate": "3d-d22-fishing02",
+  "gitTree": ":",
+  "selectedOriginalPngs": 44,
+  "independentReports": [
+    {
+      "path": "Docs/Reviews/3d-d22-fishing-dev-r01/阶段美术意见.md",
+      "sha256": "80380957C77DD4399C293C027CDDF09E96058597BDFFA99015CE13D2AF0F4EC9"
+    },
+    {
+      "path": "Docs/Reviews/3d-d22-fishing-dev-r02/阶段复验意见.md",
+      "sha256": "35631B1276ED359677FDF14609153E5843EE6DBB423B0284B2167B7C9B5982CC"
+    },
+    {
+      "path": "Docs/Reviews/3d-d22-fishing02/美术评审-R01.md",
+      "sha256": "0575D59FD6BA38BBAF00317FD7FC23D08EBBB3704C68756458FE0A71C2833A8F"
+    },
+    {
+      "path": "Docs/Reviews/3d-d21-forest05/美术评审-R01.md",
+      "sha256": "945A597DB15EC232C0B080437A5858CCDBBED84BB861C288FBC9F0DD564A5B17"
+    }
+  ],
+  "allGitBlobAndLocalShaMatch": true,
+  "scope": "Raw PNG and independent report bytes exactly preserved in Git index; previous reports unchanged. Source195 proof is separate git-stage-source-identity.json."
+}
