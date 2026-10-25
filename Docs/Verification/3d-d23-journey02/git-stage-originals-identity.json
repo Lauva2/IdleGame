@@ -1,0 +1,315 @@
+{
+  "scope": "Git index raw bytes equal all61 untouched native originals and final source/frame indexes; raw stage review and previous final review preserved. This is identity proof, not art self-scoring.",
+  "files": 61,
+  "allPassed": true,
+  "evidenceFreezeSha256": "C7D14625917F6858E30CCA023E8CEDEEF72A1F8004E527805EF421A8831CC7B8",
+  "stageReviewSha256": "27BD1BE22329F4693346D3C364139BAB08E85B576E697DD8D8FAEF9713E4A4BF",
+  "previousReviewSha256": "0575D59FD6BA38BBAF00317FD7FC23D08EBBB3704C68756458FE0A71C2833A8F",
+  "originals": [
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Journey/journey-entry/01-handbook.png",
+      "sha256": "3AC3AEE79ACA3001ADA6453A2C3D60E1508286BD07DDEB9E8D9AF3B0E1314AD1",
+      "bytes": 781415
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Journey/journey-berry/01-handbook.png",
+      "sha256": "2A8381921C3E72466A810EDD68A5516F0CE5EA54ADFB7484EDBA761DCA865F77",
+      "bytes": 759717
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Journey/journey-berry/02-main-destination.png",
+      "sha256": "1A80BB8CBEF89E7BA2B116BFE6EF47FB4B59CF0709EFC6CC2668816F86394B48",
+      "bytes": 591751
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Journey/journey-dew/01-handbook.png",
+      "sha256": "5B742770D1D113E63821A5E4187DDE2A18DF9523C33F0D3CAD7C6F2B926C7459",
+      "bytes": 755299
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Journey/journey-dew/02-main-destination.png",
+      "sha256": "4041BDB202368696FDCDD6E4737A57FCF3CE9C2D6F2F10F1FB06222DE5CAE763",
+      "bytes": 588485
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Journey/journey-resin/01-handbook.png",
+      "sha256": "68D2412AAD7A9D800FB10191DBB57F2A74B63940B6B135EE0183E138EE132A19",
+      "bytes": 759591
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Journey/journey-resin/02-main-destination.png",
+      "sha256": "1EB673CDD519850E93881352629A3BECB779721B4DDD25953A4AF77466AC0B0C",
+      "bytes": 553279
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Journey/journey-deliver/01-handbook.png",
+      "sha256": "E80F04409A83893D2A36C992AD7BB63C9EE3FCC16C19F195623C926759D86940",
+      "bytes": 754742
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Journey/journey-deliver/02-main-destination.png",
+      "sha256": "2991FA692CB24FA3E31BF504928C010BE9CBAC1061405A49E2AF418685636649",
+      "bytes": 252296
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Journey/journey-entry/07-locked-habitat-condition.png",
+      "sha256": "DED959E4F684305741E68E7A5A8325D1584BDDBBCD28B561D66D3E2080538EAA",
+      "bytes": 232600
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Journey/journey-partial/04-fish-progress.png",
+      "sha256": "747E6693A2035CB2DFDB71263BAC15A2D0C699628037AA67625266B4D422C1A1",
+      "bytes": 228471
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Journey/journey-complete/04-fish-progress.png",
+      "sha256": "C768B980EAB00F6DB561CD3B42E0A217863EB88899D20D8AD7374564C3F29B37",
+      "bytes": 231894
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Journey/journey-complete/06-clue-or-record-footer.png",
+      "sha256": "65ADB5745E399A3BC09E56716BECCFDF53548B4D65D10BD90A3BC77FC9D14E38",
+      "bytes": 242734
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/FishFit/Long/14-handbook.png",
+      "sha256": "8573200184BBC3D962AB7CD88B0B9D8C48B45E482B8DF727851F3C46A14B4264",
+      "bytes": 936697
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/FishFit/Narrow/14-handbook.png",
+      "sha256": "208AFA679E78D19F67AE0F41D44F430980E5551149F9E7B5B12054BA8567628C",
+      "bytes": 543587
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/FishFit/SafeTall/14-handbook.png",
+      "sha256": "A5B00FAB74A256C064AE7A634FE3A3EFF29FE8CD9033A30B3BBBFA5CD5E41909",
+      "bytes": 505632
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/FishFit/SafeTall/03-species-four-quality-bottom.png",
+      "sha256": "5FA6BFB5A4682DF4D49B645C60526F086B426A0F6A0FB998980065BF49DEA404",
+      "bytes": 210559
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/FishFit/SafeTall/17-chapter-progress-footer.png",
+      "sha256": "78567B1AAD6302E0529BEA372874792E4AE70E3A90FE0A0C7732BA99B66B8053",
+      "bytes": 369756
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/ResinFit/Narrow/02-actual-resin-description.png",
+      "sha256": "1FFF17F60CE59DCC61B96ABDD1CA7C9CCAA1B849DEACBD51AD1C7F08D821180B",
+      "bytes": 525419
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/FacilitiesFit/Default-workshop/04-warehouse-actual-upgrade-footer.png",
+      "sha256": "F70834EA72D3E6B199E4EF8D821EB09E946E204F675AC3B3F13E5183B6B50CD8",
+      "bytes": 648311
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/FacilitiesFit/SafeTall-garden/02-actual-facilities-bottom.png",
+      "sha256": "C9992257A4BA5F972EAD145A5F2794D4360319F9EE0EFC96AFF56A06F6F393EA",
+      "bytes": 474699
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/FacilitiesFit/Default-shop/02-actual-facilities-bottom.png",
+      "sha256": "3D33D42F6D36340942A8EF081736F7BF407612590CAC0A6B0D3845E83225C8B1",
+      "bytes": 877752
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Gallery-r01/species-00-top.png",
+      "sha256": "DA018EB3DC8F08F54EA8517F9C9CC7FB961B2FD0BD5653B7D5AF1073A0F2E1ED",
+      "bytes": 222997
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Gallery-r01/species-01-top.png",
+      "sha256": "FD2818708539FD1BC9198A4913F161B688F5AC489BE0EEE218A5BBF14E9B5F89",
+      "bytes": 224754
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Gallery-r01/species-02-top.png",
+      "sha256": "FB83C59C55CBEE7AB5ACCBF67F47F63B392E820CEA9E0BC2B9EB946567200487",
+      "bytes": 211444
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Gallery-r01/species-03-top.png",
+      "sha256": "F088625BC311CAB2142BAF08AA00E53AEF2BDB23D856F229BB1E941ABFB5630E",
+      "bytes": 240076
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Gallery-r01/species-04-top.png",
+      "sha256": "1033E2237B63D96128AA626B589F54C19CF601383480C279E91556BB75C7175C",
+      "bytes": 231024
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Gallery-r01/species-05-top.png",
+      "sha256": "66BE2FAE248E765F48827631663BE5C92DC111E481B53D778E8E1349381F4683",
+      "bytes": 238119
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Gallery-r01/species-06-top.png",
+      "sha256": "D2749E1A6243830F9F90F7CDA012D0E26BE83A3688BC199B1DFE3CA533C1E914",
+      "bytes": 248713
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Gallery-r01/species-07-top.png",
+      "sha256": "528D10160AF7CBA06E409D0BDBDB1EA03EA7F0E2DDDF55BC402340C71254C440",
+      "bytes": 229895
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Gallery-r01/species-08-top.png",
+      "sha256": "8E36BE40DD506A3EEA705E8B404ACB22575255B1511FC1C904C82243A0A15FB2",
+      "bytes": 234243
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Gallery-r01/species-09-top.png",
+      "sha256": "8F09BA38A3C6FBE70F6FDA33D3D22E9396042DC623B65D1812AAB4CC52123B2F",
+      "bytes": 242162
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Gallery-r01/species-10-top.png",
+      "sha256": "BB6B27502DB4FB58CD7B285C688C139BE41887975EC7262FC51C9266E7A0F226",
+      "bytes": 222608
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Gallery-r01/species-11-top.png",
+      "sha256": "043E5B57A2B9F4553B232967153FF6B1AF14A5689732D160A08BCD8D9221109C",
+      "bytes": 242243
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Notices-r01/new-actual-first-landed.png",
+      "sha256": "421130A9396A7D85FA66A307C61ED44BA442FA4CFC395E09869B252A4377D087",
+      "bytes": 844481
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Notices-r01/length-actual-first-landed.png",
+      "sha256": "22AA705BBB12E0B53986384B0DDB89D86137F3C8F61DEAA39A0DF8EC31D3F6EB",
+      "bytes": 846408
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Notices-r01/weight-actual-first-landed.png",
+      "sha256": "FD2BFD2D9D3D33A79B29D1C7468C1078974C8A52B657AA4CEF9EAB627407429A",
+      "bytes": 845884
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Notices-r01/both-actual-first-landed.png",
+      "sha256": "4C18B11B87EBC6A671D39B41609666A1C0281E2BCBD91690BF8DD28B4B806C9D",
+      "bytes": 848168
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Notices-r01/ordinary-actual-first-landed.png",
+      "sha256": "CA9EE21506C7C16948988D0C3D0020E94E8B619D6A9F92107A96AB0752CEBE0C",
+      "bytes": 845750
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Qualities/q0-actual-first-landed.png",
+      "sha256": "63ACC2EE20CFC24127B83AD29AD513D0949D5FAEB8738730864F9270983E2722",
+      "bytes": 836744
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Qualities/q1-actual-first-landed.png",
+      "sha256": "4F6B78B77C8AC060B6224EE5BD29E8C940413302590F8EF71D7328D58CF97594",
+      "bytes": 845864
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Qualities/q2-actual-first-landed.png",
+      "sha256": "05A34670733459410AAB9C7DAB8F4516B7A3422917B3985E2B492797DE0E7844",
+      "bytes": 844294
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Qualities/q3-actual-first-landed.png",
+      "sha256": "B9B0FFF8EEB1F1AC205F31C5E336F3DEF2414EA9AC89AEDFD2005F5D8ED3A733",
+      "bytes": 849592
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Pavilion/filled-03-actual-berry-bait-catch.png",
+      "sha256": "79B143B7F3B4B29D2411019AE2BE49EB900518E34FBCBF0FB774DC934E9CCAD0",
+      "bytes": 906785
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Pavilion/simple-03-actual-berry-bait-catch.png",
+      "sha256": "D11A3904501142E534129B8459DE8FA180AB2DF92F0504FC71E6369D75C7188F",
+      "bytes": 897777
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/FishingSpots-r02/41-deep-water-grass-wait.png",
+      "sha256": "F8822DBDB711DCAFE28490456AC6F5C419C5BE243FC8AEA043F7677FC282E0BD",
+      "bytes": 889654
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/FishingSpots-r02/43-deep-water-individual-location-and-bait.png",
+      "sha256": "2C8B26FB39FF607F42920F352493AE9A9DE2CE5C12DD2DDB5864E287411B3E75",
+      "bytes": 621544
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/FishingSpots-r02/47-shallows-individual-location-and-bait.png",
+      "sha256": "C18B26FD2DC9037B96CACFE53B108B69C4C6AE4563BCB66CC8161A95C9A0D4BA",
+      "bytes": 637725
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Ordinary/41-final-ordinary-report-bottom.png",
+      "sha256": "EF78A5FA7D0B9E58AFD81B1A185A1C5D151C010F6A1858D2E1198D803E9B18EB",
+      "bytes": 786008
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Ordinary/42-final-ordinary-fish-progress.png",
+      "sha256": "24186E7D837C0E0367954AB73345943A2C441C42F5533E11A83A524175872313",
+      "bytes": 218645
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Ordinary/43-final-ordinary-overview.png",
+      "sha256": "41A238879B652A15118490F0AEDE2ECE456968693871668A717CA592AADD4AB2",
+      "bytes": 1658732
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Initial/07-real-income.png",
+      "sha256": "12C2AE5F8B722AEA62C043E11BB25BEBAC81DC2E81BA5F195F54FBD029703F7F",
+      "bytes": 1282487
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Market/06-all-new-products-bottom.png",
+      "sha256": "5974F6A210F50DE65AE11B128387FB174D1C7C4088FE5673CCF3B30C4FCA5F35",
+      "bytes": 250882
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Forest/07-greenhouse-actual-repair.png",
+      "sha256": "BDA1396D8D32FEB4629CAE21F475446FB2DF353E87423102F3D5ED51A1F803C1",
+      "bytes": 1110161
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Forest/14-pavilion-terrace-books-tea-benches.png",
+      "sha256": "786F8EDB5DB3C23BA85D19545F3C4C66842A6B41CBC16FBBE7FB3A2DA095D12E",
+      "bytes": 1374317
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Forest/22-actual-resin-gather.png",
+      "sha256": "707FEBD16E456819989E5A4563B8984CA966854DAFE272AA44A1766931F41904",
+      "bytes": 1401206
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Legacy/05-basic-sign-pot.png",
+      "sha256": "3F119A2852BDDF098A8952A19DE065D4723660217CBF946142408F64DA2720C5",
+      "bytes": 1322302
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Legacy/08-reward-sign-pot.png",
+      "sha256": "E43974DC4C1C5CF3F60D8F5C532C70BA73672952B453064287B2721EC4D76128",
+      "bytes": 1344675
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Window/01-before-single-completion.png",
+      "sha256": "41225B77861E1035F46EB6CA3A50D9E192490FB46CE33EE4DB07765F43A89B16",
+      "bytes": 1348795
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/Window/02-after-quiet-window.png",
+      "sha256": "576C46FC49C3CDBE5A7C68C15252597B3073C8F2A3FD8CF373D0379546A7C0E0",
+      "bytes": 1348279
+    },
+    {
+      "file": "Docs/Verification/3d-d23-journey02/Evidence/ZoomSales/02-closest-after-sales.png",
+      "sha256": "12E2B03C4FB5EF109D58B4CD1FF53756A9A9D819F5A79FE8CBEA2EC49FB2191B",
+      "bytes": 1183366
+    }
+  ]
+}

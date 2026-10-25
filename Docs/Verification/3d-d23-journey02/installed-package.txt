@@ -1,0 +1,118 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1be01d3 com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity filter ea74110
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Domain verification status:
+
+Key Set Manager:
+  [com.forestatelier.curioshop]
+      Signing KeySets: 14
+
+Packages:
+  Package [com.forestatelier.curioshop] (c05409f):
+    userId=10046
+    pkg=Package{99c6b65 com.forestatelier.curioshop}
+    codePath=/data/app/~~fF__pNsWscnb1N2UTQ3dbg==/com.forestatelier.curioshop-yIPHtn09RPPQwFogBUG9CA==
+    resourcePath=/data/app/~~fF__pNsWscnb1N2UTQ3dbg==/com.forestatelier.curioshop-yIPHtn09RPPQwFogBUG9CA==
+    legacyNativeLibraryDir=/data/app/~~fF__pNsWscnb1N2UTQ3dbg==/com.forestatelier.curioshop-yIPHtn09RPPQwFogBUG9CA==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=5 minSdk=23 targetSdk=32
+    minExtensionVersions=[]
+    versionName=0.2.3
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{99c6b65 com.forestatelier.curioshop}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.forestatelier.curioshop
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2026-10-25 18:20:27
+    firstInstallTime=2026-10-23 06:01:25
+    lastUpdateTime=2026-10-25 18:20:27
+    signatures=PackageSignatures{d813db5 version:2, signatures:[8b9a5060], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.QUERY_ALL_PACKAGES
+    install permissions:
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+    User 0: ceDataInode=5244102 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-g3yv.frro
+        /data/resource-cache/com.android.systemui-accent-UTRL.frro
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+  queryable via interaction:
+    User 0:
+      [com.mumu.store,android,com.android.settings,com.netease.nemu_vapi_android.nemu,com.sohu.inputmethod.sogou.chuizi,com.mumu.shared.sdk,com.android.keychain,com.android.location.fused,com.android.providers.settings,com.netease.mumu.cloner]:
+        com.forestatelier.curioshop
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=5
+  User 0:
+    seq=4, package=com.forestatelier.curioshop
+
+
+Dexopt state:
+  [com.forestatelier.curioshop]
+    path: /data/app/~~fF__pNsWscnb1N2UTQ3dbg==/com.forestatelier.curioshop-yIPHtn09RPPQwFogBUG9CA==/base.apk
+      x86_64: [status=verify] [reason=install]
+
+
+Compiler stats:
+  [com.forestatelier.curioshop]
+     base.apk - 325
+Snapshot statistics
+   Unrecorded-hits: 111  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:33         now           0           0           0           0           0           0           0
+          1:33        0:33           0           0           0           0           0           0           0
+          2:33        1:33           3         941           0           0           0           4           2
+          3:33        2:33           0           0           0           0           0           0           0
+          4:33        3:33           0           0           0           0           0           0           0
+          5:33        4:33           0           0           0           0           0           0           0
+          6:33        5:33           0           0           0           0           0           0           0
+          7:33        6:33           0           0           0           0           0           0           0
+          8:33        7:33           0           0           0           0           0           0           0
+          9:33        8:33           0           0           0           0           0           0           0
+      16:34:34         now         412      118673           0          19          34         994         288
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:33         now           0           0           0           0           0           0           0           0
+          1:33        0:33           0           0           0           0           0           0           0           0
+          2:33        1:33           1           2           0           0           0           0           0           0
+          3:33        2:33           0           0           0           0           0           0           0           0
+          4:33        3:33           0           0           0           0           0           0           0           0
+          5:33        4:33           0           0           0           0           0           0           0           0
+          6:33        5:33           0           0           0           0           0           0           0           0
+          7:33        6:33           0           0           0           0           0           0           0           0
+          8:33        7:33           0           0           0           0           0           0           0           0
+          9:33        8:33           0           0           0           0           0           0           0           0
+      16:34:34         now         355          14          16           8          12           6           0           1
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:33         now           0           0           0           0           0           0           0           0
+          1:33        0:33           0           0           0           0           0           0           0           0
+          2:33        1:33           0           0           0           0           0           0           0           3
+          3:33        2:33           0           0           0           0           0           0           0           0
+          4:33        3:33           0           0           0           0           0           0           0           0
+          5:33        4:33           0           0           0           0           0           0           0           0
+          6:33        5:33           0           0           0           0           0           0           0           0
+          7:33        6:33           0           0           0           0           0           0           0           0
+          8:33        7:33           0           0           0           0           0           0           0           0
+          9:33        8:33           0           0           0           0           0           0           0           0
+      16:34:34         now          18           1          14          10          12          24          53         279

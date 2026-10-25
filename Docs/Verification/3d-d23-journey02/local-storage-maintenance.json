@@ -1,0 +1,21 @@
+{
+  "scope": "Only NTFS compression/sharing of inactive duplicate extracted module-cache files. All original paths, bytes and SHA retained; no APK/media/report or installed toolchain removed.",
+  "filesCompressionVerified": 2016,
+  "duplicateCacheFilesShared": 1029,
+  "journals": [
+    {
+      "path": "Builds\\Analysis\\d23-module-cache-compaction.json",
+      "bytes": 469938,
+      "sha256": "6BA3EE4DB43999EC500BB57BDFC91C74198C1406427B5D9269CA272B354701D3",
+      "scope": "NTFS LZX compression of three existing local extracted module-cache copies only, not installed toolchains. All original files and SHA preserved; no deletion.",
+      "freeIncrease": 3189481472
+    },
+    {
+      "path": "Builds\\Analysis\\d23-module-cache-sharing.json",
+      "bytes": 357067,
+      "sha256": "B6532870CB5494CA279A027EA0FA4F2D49CD2EE068B82BFD9CAE8D2ACC0E473D",
+      "scope": "Only identical files in three inactive extracted module-cache copies share NTFS storage. All original paths/bytes/SHA retained; installed tools, APKs, evidence and unique files untouched.",
+      "freeIncrease": 2459140096
+    }
+  ]
+}

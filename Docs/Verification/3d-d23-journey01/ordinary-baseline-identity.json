@@ -1,0 +1,24 @@
+{
+  "scope": "Latest ordinary primary and backup protected before d23 update/fixtures. Do not restore older d22 snapshots.",
+  "utc": "2026-10-25T10:00:02.366322+00:00",
+  "files": [
+    {
+      "name": "normal-held.save",
+      "bytes": 6791,
+      "sha256": "06B8D4F0841129749D8CCA20282D448986A1E1923908B687FA44EA465A513C2F",
+      "coins": 981044,
+      "fish": 39,
+      "species": 6,
+      "running": false
+    },
+    {
+      "name": "normal-held.save.bak",
+      "bytes": 6807,
+      "sha256": "A5FDE132792F088D6AA8607443DB7D19543065C458C6360F2F3773AC19D2EA87",
+      "coins": 980984,
+      "fish": 39,
+      "species": 6,
+      "running": false
+    }
+  ]
+}

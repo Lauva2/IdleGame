@@ -1,0 +1,19 @@
+{
+  "candidate": "3d-d23-journey02",
+  "utc": "2026-10-25T10:20:27.887763+00:00",
+  "sourceBaseCommit": "264735bce9094a42e89c75e8457ab66b7b29b44a",
+  "sourceInputFiles": 201,
+  "sourceManifest": "Docs\\Verification\\3d-d23-journey02\\source-files.sha256",
+  "sourceManifestSha256": "1F4ED2CAB8A287388184F2E0C186F96E06ACC7EE3C2CC691482CD2B180495B4C",
+  "apk": "Builds\\Android\\3d-d23-journey02\\ForestShop-3d-d23-journey02.apk",
+  "apkBytes": 45596054,
+  "apkSha256": "4DD7D6EDC43ADCA32363A3CDA0F8C7C7353CE68C69BD2ECB4B7E6CF0CF025BE1",
+  "sourceArchive": "Builds\\Android\\3d-d23-journey02\\build-source-inputs.zip",
+  "sourceArchiveBytes": 57822664,
+  "sourceArchiveSha256": "709D780ADF3F423CD5FF46600F87CCD2A107C7396E1E7BC2BC7B28918F463908",
+  "sourceArchiveVerified": true,
+  "build": "Unity2022.3.62f2 IL2CPP Release ARM64+ARMv7 non-development GLES3 API23-32",
+  "version": "0.2.3",
+  "versionCode": 5,
+  "artAcceptance": "Pending independent evaluation of this exact APK. Editor and earlier candidate scores do not transfer."
+}

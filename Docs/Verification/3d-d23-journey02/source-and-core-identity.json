@@ -1,0 +1,10 @@
+{
+  "currentInputsAndArchiveMatch": true,
+  "files": 201,
+  "coreInputs": 12,
+  "coreLog": "core-tests.txt",
+  "coreLogSha256": "B42F98C2D841019FE636FF3CC047A11507683645CB77DC6501F45C8176C5FA4A",
+  "freshCoreRun": true,
+  "coreInputsMatchFreshRunPreviewManifest": true,
+  "scope": "Frozen final APK201 inputs/ZIP remain exact after regenerable cache cleanup. Fresh47PASS log predates preview; all12 Core source/meta bytes match that run."
+}

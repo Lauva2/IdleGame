@@ -31,13 +31,9 @@ namespace ForestShop
         void RefreshHeader()
         {
             coinsLabel.text = State.coins.ToString("N0"); reputationLabel.text = State.reputation.ToString();
-            string[] opening = { "收下第一份薄荷", "制作第一杯醒神茶", "为货架选择商品", "等待第一笔收入" };
-            goalLabel.text = State.tutorial < 4 ? opening[Math.Max(0, State.tutorial)]
-                : State.chapterComplete ? ForestGoalShort() : State.stories == 0 ? "老师的第一份委托"
-                : State.machines.Length == 1 ? "修复附魔工作台"
-                : State.stories < 5 ? "邻居心愿  " + State.stories + "/5" : !State.sideRoom ? "修复侧屋"
-                : State.reputation < 150 ? "小店声望  " + State.reputation + "/150"
-                : State.sales < 60000 ? "累计销售  " + State.sales.ToString("N0") + "/60,000" : "商品首售  " + SoldKinds() + "/6";
+            var next = JourneySteps()[0];
+            goalLabel.text = next.Title;
+            goalSymbol.Symbol = next.Icon;
         }
         void RefreshNavigation(string name)
         {
@@ -49,15 +45,16 @@ namespace ForestShop
                 ((ForestSymbolGraphic)visual.icon).Light = selected;
             }
         }
-        void ShowGoal()
+        void ShowGoal() => ShowJourneyHandbook();
+        void ShowChapterProgress()
         {
-            if (State.chapterComplete) { ShowForestJournal(); return; }
             StartSheet("第一章 · 开张茶会", "goal");
             Paragraph(Engine.Goal, 160, 32);
             Row("熟客故事", "五位邻居的故事", -1, State.stories + "/5", null);
             Row("小店声望", "完成委托提升声望", 14, State.reputation + "/150", null);
             Row("累计销售", "货架销售收入累计", 13, State.sales.ToString("N0") + "/60,000", null);
             Row("六种商品", "每种商品都通过货架售出一次", 4, SoldKinds() + "/6", null);
+            Row("小店侧屋", "修复后继续筹备茶会", -1, State.sideRoom ? "已修复" : "待修复", null, glyph: ForestSymbol.Home);
             Paragraph("庭院种植 → 工坊加工 → 店面售卖。完成开张教学后自动循环，随时点按场景或设施卡调整经营。", 150, 28);
             EndSheet();
         }

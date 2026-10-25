@@ -1,0 +1,48 @@
+{
+  "directory": "Docs/Verification/3d-d23-journey02/Evidence/Notices-r01",
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        860,
+        880
+      ]
+    },
+    {
+      "shot": "both-start"
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "both-actual-first-landed"
+    },
+    {
+      "tap": [
+        590,
+        1630
+      ]
+    },
+    {
+      "shot": "both-individual-top"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        1150,
+        500,
+        700
+      ]
+    },
+    {
+      "shot": "both-individual-bottom"
+    }
+  ]
+}

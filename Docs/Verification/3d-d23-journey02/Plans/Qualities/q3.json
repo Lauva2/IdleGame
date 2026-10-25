@@ -1,0 +1,56 @@
+{
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        860,
+        880
+      ]
+    },
+    {
+      "shot": "q3-wait"
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "q3-actual-first-landed"
+    },
+    {
+      "tap": [
+        590,
+        1630
+      ]
+    },
+    {
+      "shot": "q3-individual-detail-top"
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1050,
+        700
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1050,
+        700
+      ]
+    },
+    {
+      "shot": "q3-individual-detail-bottom"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d23-journey02/Evidence/Qualities"
+}

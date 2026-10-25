@@ -1,4 +1,4 @@
-param([Parameter(Mandatory=$true)][string]$Folder)
+param([Parameter(Mandatory=$true)][string]$Folder,[ValidateRange(45,160)][int]$Seconds=160)
 $ErrorActionPreference='Stop';Set-Location (Split-Path -Parent $PSScriptRoot)
 $serial=if($env:FOREST_ADB_SERIAL){$env:FOREST_ADB_SERIAL}else{'127.0.0.1:16384'}
 $adb=(Resolve-Path Tools/AndroidSdk/platform-tools/adb.exe).Path
@@ -14,7 +14,7 @@ if($LASTEXITCODE -ne 0){throw 'Ordinary actual UI plan failed'}
 & $adb -P 5038 -s $serial pull /sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save "$Folder/ordinary-fishing-start.save"
 & $adb -P 5038 -s $serial shell pidof com.forestatelier.curioshop|Set-Content "$Folder/ordinary-start-pid.txt"
 [DateTime]::UtcNow.ToString('o')|Set-Content "$Folder/ordinary-fishing-start.txt"
-& $adb -P 5038 -s $serial shell screenrecord --size 1080x1920 --bit-rate 4000000 --time-limit 160 "/sdcard/$candidate-ordinary-fishing.mp4"
+& $adb -P 5038 -s $serial shell screenrecord --size 1080x1920 --bit-rate 4000000 --time-limit $Seconds "/sdcard/$candidate-ordinary-fishing.mp4"
 if($LASTEXITCODE -ne 0){throw 'Actual ordinary fishing recorder failed'}
 & $adb -P 5038 -s $serial shell input keyevent KEYCODE_HOME
 Start-Sleep -Seconds 1

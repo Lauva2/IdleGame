@@ -1,0 +1,47 @@
+{
+  "steps": [
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "shot": "01-actual-world"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "shot": "02-actual-facilities-bottom"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d23-journey02/Evidence/FacilitiesFit/Default-shop"
+}

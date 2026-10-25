@@ -1,0 +1,140 @@
+﻿
+﻿
+﻿PASS prepared review fixture fishing-notice-new
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-new.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-new.save: 1 file pushed, 0 skipped. 12.3 MB/s (4006 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-new.save: 1 file pushed, 0 skipped. 8.8 MB/s (4006 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1493
+WaitTime: 1508
+Complete
+{'tap': [150, 410]}
+{'tap': [860, 880]}
+{'shot': 'new-start'}
+{'wait': 14}
+{'shot': 'new-actual-first-landed'}
+{'tap': [590, 1630]}
+{'shot': 'new-individual-top'}
+{'drag_hold': [1000, 1740, 1000, 1150, 500, 700]}
+{'shot': 'new-individual-bottom'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.5 MB/s (4168 bytes in 0.002s)
+/sdcard/3d-d23-journey02-fishing-motion-notice-r01-new.mp4: 1 file pulled, 0 skipped. 25.5 MB/s (14740459 bytes in 0.552s)
+﻿
+﻿
+﻿PASS prepared review fixture fishing-notice-length
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-length.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-length.save: 1 file pushed, 0 skipped. 11.8 MB/s (4098 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-length.save: 1 file pushed, 0 skipped. 11.6 MB/s (4098 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1449
+WaitTime: 1455
+Complete
+{'tap': [150, 410]}
+{'tap': [860, 880]}
+{'shot': 'length-start'}
+{'wait': 14}
+{'shot': 'length-actual-first-landed'}
+{'tap': [590, 1630]}
+{'shot': 'length-individual-top'}
+{'drag_hold': [1000, 1740, 1000, 1150, 500, 700]}
+{'shot': 'length-individual-bottom'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 0.9 MB/s (4253 bytes in 0.005s)
+/sdcard/3d-d23-journey02-fishing-motion-notice-r01-length.mp4: 1 file pulled, 0 skipped. 23.5 MB/s (12622023 bytes in 0.512s)
+﻿
+﻿
+﻿PASS prepared review fixture fishing-notice-weight
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-weight.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-weight.save: 1 file pushed, 0 skipped. 14.0 MB/s (4098 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-weight.save: 1 file pushed, 0 skipped. 13.4 MB/s (4098 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1079
+WaitTime: 1091
+Complete
+{'tap': [150, 410]}
+{'tap': [860, 880]}
+{'shot': 'weight-start'}
+{'wait': 14}
+{'shot': 'weight-actual-first-landed'}
+{'tap': [590, 1630]}
+{'shot': 'weight-individual-top'}
+{'drag_hold': [1000, 1740, 1000, 1150, 500, 700]}
+{'shot': 'weight-individual-bottom'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 0.6 MB/s (4256 bytes in 0.007s)
+/sdcard/3d-d23-journey02-fishing-motion-notice-r01-weight.mp4: 1 file pulled, 0 skipped. 19.0 MB/s (14615113 bytes in 0.733s)
+﻿
+﻿
+﻿PASS prepared review fixture fishing-notice-both
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-both.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-both.save: 1 file pushed, 0 skipped. 3.5 MB/s (4098 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-both.save: 1 file pushed, 0 skipped. 9.9 MB/s (4098 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1227
+WaitTime: 1234
+Complete
+{'tap': [150, 410]}
+{'tap': [860, 880]}
+{'shot': 'both-start'}
+{'wait': 14}
+{'shot': 'both-actual-first-landed'}
+{'tap': [590, 1630]}
+{'shot': 'both-individual-top'}
+{'drag_hold': [1000, 1740, 1000, 1150, 500, 700]}
+{'shot': 'both-individual-bottom'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.7 MB/s (4254 bytes in 0.002s)
+/sdcard/3d-d23-journey02-fishing-motion-notice-r01-both.mp4: 1 file pulled, 0 skipped. 25.1 MB/s (14427693 bytes in 0.549s)
+﻿
+﻿
+﻿PASS prepared review fixture fishing-notice-ordinary
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-ordinary.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-ordinary.save: 1 file pushed, 0 skipped. 11.5 MB/s (4098 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-notice-ordinary.save: 1 file pushed, 0 skipped. 11.2 MB/s (4098 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1128
+WaitTime: 1134
+Complete
+{'tap': [150, 410]}
+{'tap': [860, 880]}
+{'shot': 'ordinary-start'}
+{'wait': 14}
+{'shot': 'ordinary-actual-first-landed'}
+{'tap': [590, 1630]}
+{'shot': 'ordinary-individual-top'}
+{'drag_hold': [1000, 1740, 1000, 1150, 500, 700]}
+{'shot': 'ordinary-individual-bottom'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.2 MB/s (4254 bytes in 0.001s)
+/sdcard/3d-d23-journey02-fishing-motion-notice-r01-ordinary.mp4: 1 file pulled, 0 skipped. 25.1 MB/s (12969375 bytes in 0.493s)

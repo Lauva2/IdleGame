@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "sha256": "86F8BDF0D0CFB72269E1EFA241CCB2F16BA19B6310CD8468D5CE1067209953F6",
+      "name": "normal-restorable.save",
+      "bytes": 6787
+    },
+    {
+      "sha256": "060E8F990486EAAEABEEE6B99A97D192E3278C821D1D61AE39164508523EC009",
+      "name": "normal-restorable.save.bak",
+      "bytes": 6779
+    }
+  ],
+  "scope": "Latest actual ordinary primary and backup protected after automatic resume, before any prepared fixture. Restore this pair, never an older baseline.",
+  "utc": "2026-10-25T10:28:05.4017820Z"
+}

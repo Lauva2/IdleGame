@@ -1,0 +1,5889 @@
+{
+  "scope": "Actual same-PID MuMu market recordings, all historical CSV rows retained. First300s sample includes startup/initial UI; no stable-only or formal30min/physical-phone claim. Single PSS snapshot is not a memory trend.",
+  "pid": 25908,
+  "actualOnlineSeconds": 320.4249652166254,
+  "coinDelta": 11520,
+  "salesDelta": 11520,
+  "newProductsSold": [
+    40,
+    40,
+    40
+  ],
+  "allCsvRows": [
+    {
+      "utc": "2026-10-22T22:12:51.5610700Z",
+      "frames": 8856,
+      "seconds": 299.994,
+      "averageFPS": 29.52,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 103709019,
+      "maximumMilliseconds": 3122.56,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T22:17:51.5418590Z",
+      "frames": 8947,
+      "seconds": 299.988,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 105870347,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T22:22:51.5665350Z",
+      "frames": 6223,
+      "seconds": 300.025,
+      "averageFPS": 20.74,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 107847963,
+      "maximumMilliseconds": 91095.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T22:27:51.5552380Z",
+      "frames": 8950,
+      "seconds": 299.988,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 107851330,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T22:32:51.5537350Z",
+      "frames": 8962,
+      "seconds": 300.0,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 107853011,
+      "maximumMilliseconds": 79.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T22:37:51.5532640Z",
+      "frames": 8916,
+      "seconds": 300.0,
+      "averageFPS": 29.72,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 108102051,
+      "maximumMilliseconds": 308.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T22:42:51.5715350Z",
+      "frames": 8946,
+      "seconds": 300.017,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 108103515,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T22:51:01.7052090Z",
+      "frames": 6473,
+      "seconds": 221.417,
+      "averageFPS": 29.23,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 109654842,
+      "maximumMilliseconds": 3432.01,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T22:59:02.7646620Z",
+      "frames": 8863,
+      "seconds": 300.015,
+      "averageFPS": 29.54,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 96645483,
+      "maximumMilliseconds": 3039.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T23:04:02.7399860Z",
+      "frames": 8966,
+      "seconds": 299.988,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 96716411,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T23:09:02.7299280Z",
+      "frames": 8967,
+      "seconds": 299.992,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 96717451,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T23:14:02.7333920Z",
+      "frames": 8970,
+      "seconds": 300.004,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 96753115,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T23:19:02.7295740Z",
+      "frames": 8967,
+      "seconds": 299.996,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 96750795,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T23:24:02.7253630Z",
+      "frames": 8970,
+      "seconds": 299.996,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 96751211,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T23:29:02.7143220Z",
+      "frames": 8961,
+      "seconds": 299.988,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 96751435,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T23:34:02.7287440Z",
+      "frames": 8968,
+      "seconds": 300.013,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 96752155,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T23:39:02.7125110Z",
+      "frames": 8968,
+      "seconds": 299.988,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 96753091,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T23:44:02.7031350Z",
+      "frames": 8965,
+      "seconds": 299.992,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 96752123,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T23:49:02.7237000Z",
+      "frames": 8971,
+      "seconds": 300.017,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 96753195,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T23:54:02.7110710Z",
+      "frames": 8968,
+      "seconds": 299.992,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 96755515,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-22T23:59:02.7069340Z",
+      "frames": 8968,
+      "seconds": 299.996,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 96753195,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T00:04:02.7165820Z",
+      "frames": 8960,
+      "seconds": 300.0,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 102733451,
+      "maximumMilliseconds": 145.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T00:09:02.6984520Z",
+      "frames": 8961,
+      "seconds": 299.992,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 102733723,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T00:14:02.6878670Z",
+      "frames": 8969,
+      "seconds": 299.988,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 102734651,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T00:19:02.6789960Z",
+      "frames": 8943,
+      "seconds": 299.992,
+      "averageFPS": 29.81,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 102735675,
+      "maximumMilliseconds": 266.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T00:23:46.4399770Z",
+      "frames": 8444,
+      "seconds": 283.725,
+      "averageFPS": 29.76,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 109078218,
+      "maximumMilliseconds": 191.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T00:30:42.4912660Z",
+      "frames": 8656,
+      "seconds": 299.987,
+      "averageFPS": 28.85,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 94811322,
+      "maximumMilliseconds": 6154.41,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T00:35:42.4949680Z",
+      "frames": 8935,
+      "seconds": 300.004,
+      "averageFPS": 29.78,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94767475,
+      "maximumMilliseconds": 358.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T00:40:42.4913580Z",
+      "frames": 8964,
+      "seconds": 299.996,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94765859,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T00:45:42.4907140Z",
+      "frames": 8962,
+      "seconds": 300.0,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94766083,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T00:50:42.4961940Z",
+      "frames": 8957,
+      "seconds": 300.004,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94767243,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T00:55:42.4828400Z",
+      "frames": 8957,
+      "seconds": 299.988,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94766642,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T01:00:42.5004300Z",
+      "frames": 8954,
+      "seconds": 300.017,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94768235,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T01:05:42.4860610Z",
+      "frames": 8959,
+      "seconds": 299.988,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94767106,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T01:10:42.4979940Z",
+      "frames": 8958,
+      "seconds": 300.013,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94767379,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T01:15:42.5031760Z",
+      "frames": 8963,
+      "seconds": 300.004,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94767419,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T01:20:42.4946410Z",
+      "frames": 8953,
+      "seconds": 299.992,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94768314,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T01:25:42.4814440Z",
+      "frames": 8949,
+      "seconds": 299.988,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94770515,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T01:30:42.4955680Z",
+      "frames": 8959,
+      "seconds": 300.013,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94768162,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T01:35:42.5110900Z",
+      "frames": 8959,
+      "seconds": 300.013,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94767579,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T01:40:42.4985500Z",
+      "frames": 8962,
+      "seconds": 299.992,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94769227,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T01:45:42.5188550Z",
+      "frames": 8960,
+      "seconds": 300.017,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94768403,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T01:50:42.5322100Z",
+      "frames": 8964,
+      "seconds": 300.017,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94768763,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T01:55:42.5227400Z",
+      "frames": 8934,
+      "seconds": 299.992,
+      "averageFPS": 29.78,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94768763,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T02:00:42.5365810Z",
+      "frames": 8958,
+      "seconds": 300.013,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94769923,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T02:05:42.5328520Z",
+      "frames": 8939,
+      "seconds": 299.996,
+      "averageFPS": 29.8,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 94768475,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T02:10:42.5281920Z",
+      "frames": 8952,
+      "seconds": 299.996,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94768979,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T02:15:42.5277820Z",
+      "frames": 8956,
+      "seconds": 300.0,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94768803,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T02:20:42.5452370Z",
+      "frames": 8930,
+      "seconds": 300.017,
+      "averageFPS": 29.76,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 94769283,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T02:25:42.5624130Z",
+      "frames": 8943,
+      "seconds": 300.017,
+      "averageFPS": 29.81,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94769483,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T02:30:42.5722750Z",
+      "frames": 8954,
+      "seconds": 300.013,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94769163,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T02:35:42.5775060Z",
+      "frames": 8952,
+      "seconds": 300.004,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94769659,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T02:40:42.5735930Z",
+      "frames": 8948,
+      "seconds": 299.996,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 94770403,
+      "maximumMilliseconds": 170.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T02:45:42.5847830Z",
+      "frames": 8902,
+      "seconds": 300.013,
+      "averageFPS": 29.67,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 94769891,
+      "maximumMilliseconds": 300.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T02:52:39.5615480Z",
+      "frames": 8824,
+      "seconds": 300.007,
+      "averageFPS": 29.41,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92377187,
+      "maximumMilliseconds": 3663.79,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T03:01:13.6708870Z",
+      "frames": 8842,
+      "seconds": 299.995,
+      "averageFPS": 29.47,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 92272827,
+      "maximumMilliseconds": 3007.4,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T03:07:33.7896660Z",
+      "frames": 8857,
+      "seconds": 300.016,
+      "averageFPS": 29.52,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 91871467,
+      "maximumMilliseconds": 3123.82,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T03:12:33.7892510Z",
+      "frames": 8905,
+      "seconds": 300.0,
+      "averageFPS": 29.68,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 91869939,
+      "maximumMilliseconds": 95.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T03:17:33.7843580Z",
+      "frames": 8729,
+      "seconds": 299.996,
+      "averageFPS": 29.1,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 92144226,
+      "maximumMilliseconds": 6156.32,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T03:22:33.7802490Z",
+      "frames": 8952,
+      "seconds": 299.996,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 95727923,
+      "maximumMilliseconds": 95.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T03:27:33.7977140Z",
+      "frames": 8965,
+      "seconds": 300.017,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 95730267,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T03:37:14.6028550Z",
+      "frames": 8813,
+      "seconds": 299.988,
+      "averageFPS": 29.38,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 97494315,
+      "maximumMilliseconds": 3818.02,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T03:43:30.7087910Z",
+      "frames": 8856,
+      "seconds": 300.014,
+      "averageFPS": 29.52,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 91870675,
+      "maximumMilliseconds": 3576.11,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T03:48:30.7171060Z",
+      "frames": 8953,
+      "seconds": 300.017,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92005803,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T03:53:30.7359800Z",
+      "frames": 8952,
+      "seconds": 300.017,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92006899,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T03:58:30.7477510Z",
+      "frames": 8965,
+      "seconds": 300.013,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92005883,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T04:03:30.7643140Z",
+      "frames": 8963,
+      "seconds": 300.017,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92006523,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T04:08:30.7535130Z",
+      "frames": 8967,
+      "seconds": 299.992,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92007179,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T04:13:30.7705290Z",
+      "frames": 8969,
+      "seconds": 300.017,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92007403,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T04:18:30.7854160Z",
+      "frames": 8966,
+      "seconds": 300.008,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010243,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T04:23:30.7845850Z",
+      "frames": 8958,
+      "seconds": 300.004,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92008563,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T04:28:30.7953650Z",
+      "frames": 8959,
+      "seconds": 300.013,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92007899,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T04:33:30.8117680Z",
+      "frames": 8961,
+      "seconds": 300.017,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92009339,
+      "maximumMilliseconds": 145.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T04:38:30.7988670Z",
+      "frames": 8960,
+      "seconds": 299.988,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92008315,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T04:43:30.7929160Z",
+      "frames": 8957,
+      "seconds": 299.992,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92008347,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T04:48:30.8082770Z",
+      "frames": 8957,
+      "seconds": 300.017,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92008123,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T04:53:30.7986960Z",
+      "frames": 8956,
+      "seconds": 299.992,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92008699,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T04:58:30.8115370Z",
+      "frames": 8961,
+      "seconds": 300.013,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92008299,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T05:03:30.8239320Z",
+      "frames": 8967,
+      "seconds": 300.013,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92008955,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T05:08:30.8363330Z",
+      "frames": 8962,
+      "seconds": 300.013,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011539,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T05:13:30.8275690Z",
+      "frames": 8975,
+      "seconds": 299.992,
+      "averageFPS": 29.92,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92009859,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T05:18:30.8450010Z",
+      "frames": 8972,
+      "seconds": 300.017,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92009851,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T05:23:30.8607250Z",
+      "frames": 8973,
+      "seconds": 300.017,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92008955,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T05:28:30.8476190Z",
+      "frames": 8972,
+      "seconds": 299.988,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92009483,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T05:33:30.8405680Z",
+      "frames": 8979,
+      "seconds": 299.992,
+      "averageFPS": 29.93,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92009083,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T05:38:30.8412870Z",
+      "frames": 8972,
+      "seconds": 300.0,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92009147,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T05:43:30.8537620Z",
+      "frames": 8974,
+      "seconds": 300.013,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92009835,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T05:48:30.8390900Z",
+      "frames": 8969,
+      "seconds": 299.988,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92012499,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T05:53:30.8391120Z",
+      "frames": 8966,
+      "seconds": 300.0,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010347,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T05:58:30.8458180Z",
+      "frames": 8966,
+      "seconds": 300.004,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010027,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T06:03:30.8594970Z",
+      "frames": 8979,
+      "seconds": 300.017,
+      "averageFPS": 29.93,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010899,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T06:08:30.8724680Z",
+      "frames": 8968,
+      "seconds": 300.013,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010203,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T06:13:30.8885640Z",
+      "frames": 8966,
+      "seconds": 300.017,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010947,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T06:18:30.9024260Z",
+      "frames": 8969,
+      "seconds": 300.013,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010251,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T06:23:30.8965300Z",
+      "frames": 8968,
+      "seconds": 299.996,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011043,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T06:28:30.8984020Z",
+      "frames": 8968,
+      "seconds": 300.0,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010235,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T06:33:30.9012130Z",
+      "frames": 8973,
+      "seconds": 300.004,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92009963,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T06:38:30.8933170Z",
+      "frames": 8963,
+      "seconds": 299.992,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92013027,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T06:43:30.8896290Z",
+      "frames": 8969,
+      "seconds": 299.996,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010395,
+      "maximumMilliseconds": 83.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T06:48:30.8952160Z",
+      "frames": 8967,
+      "seconds": 300.004,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92009835,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T06:53:30.8923780Z",
+      "frames": 8971,
+      "seconds": 300.0,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011139,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T06:58:30.8893680Z",
+      "frames": 8969,
+      "seconds": 299.992,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010139,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T07:03:30.8849270Z",
+      "frames": 8970,
+      "seconds": 300.0,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010507,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T07:08:30.8891300Z",
+      "frames": 8971,
+      "seconds": 300.004,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010539,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T07:13:30.8960120Z",
+      "frames": 8967,
+      "seconds": 300.008,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011323,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T07:18:30.8960660Z",
+      "frames": 8975,
+      "seconds": 300.0,
+      "averageFPS": 29.92,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010011,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T07:23:30.9119350Z",
+      "frames": 8967,
+      "seconds": 300.017,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011019,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T07:28:30.9002100Z",
+      "frames": 8968,
+      "seconds": 299.988,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92013235,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T07:33:30.9085370Z",
+      "frames": 8974,
+      "seconds": 300.008,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010603,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T07:38:30.9129270Z",
+      "frames": 8963,
+      "seconds": 300.004,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010667,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T07:43:30.8985590Z",
+      "frames": 8967,
+      "seconds": 299.988,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010283,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T07:48:30.9167400Z",
+      "frames": 8970,
+      "seconds": 300.017,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010587,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T07:53:30.9291010Z",
+      "frames": 8959,
+      "seconds": 300.013,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011443,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T07:58:30.9159850Z",
+      "frames": 8967,
+      "seconds": 299.988,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010779,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T08:03:30.9162240Z",
+      "frames": 8970,
+      "seconds": 300.0,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011531,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T08:08:30.9207190Z",
+      "frames": 8968,
+      "seconds": 300.004,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010219,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T08:13:30.9206770Z",
+      "frames": 8969,
+      "seconds": 300.0,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011339,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T08:18:30.9105680Z",
+      "frames": 8974,
+      "seconds": 299.992,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010347,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T08:23:30.9157510Z",
+      "frames": 8973,
+      "seconds": 300.004,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010795,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T08:28:30.9205580Z",
+      "frames": 8972,
+      "seconds": 300.004,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010267,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T08:33:30.9105670Z",
+      "frames": 8968,
+      "seconds": 299.992,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011555,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T08:38:30.9147810Z",
+      "frames": 8974,
+      "seconds": 300.004,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010859,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T08:43:30.9070030Z",
+      "frames": 8964,
+      "seconds": 299.992,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011611,
+      "maximumMilliseconds": 79.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T08:48:30.9146370Z",
+      "frames": 8963,
+      "seconds": 300.008,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011403,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T08:53:30.9323070Z",
+      "frames": 8970,
+      "seconds": 300.017,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010475,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T08:58:30.9225550Z",
+      "frames": 8965,
+      "seconds": 299.992,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010347,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T09:03:30.9155760Z",
+      "frames": 8963,
+      "seconds": 299.992,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010923,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T09:08:30.9234200Z",
+      "frames": 8959,
+      "seconds": 300.008,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010363,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T09:13:30.9361120Z",
+      "frames": 8969,
+      "seconds": 300.013,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010939,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T09:18:30.9362890Z",
+      "frames": 8968,
+      "seconds": 300.0,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92013587,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T09:23:30.9518790Z",
+      "frames": 8970,
+      "seconds": 300.017,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010955,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T09:28:30.9589510Z",
+      "frames": 8964,
+      "seconds": 300.009,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010523,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T09:33:30.9740550Z",
+      "frames": 8972,
+      "seconds": 300.013,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011707,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T09:38:30.9584920Z",
+      "frames": 8973,
+      "seconds": 299.988,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010971,
+      "maximumMilliseconds": 145.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T09:43:30.9595880Z",
+      "frames": 8967,
+      "seconds": 300.0,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011699,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T09:48:30.9515730Z",
+      "frames": 8968,
+      "seconds": 299.992,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010411,
+      "maximumMilliseconds": 79.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T09:53:30.9686280Z",
+      "frames": 8975,
+      "seconds": 300.017,
+      "averageFPS": 29.92,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010683,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T09:58:30.9746160Z",
+      "frames": 8972,
+      "seconds": 300.008,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010555,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T10:03:30.9760220Z",
+      "frames": 8975,
+      "seconds": 300.0,
+      "averageFPS": 29.92,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011019,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T10:08:30.9824670Z",
+      "frames": 8974,
+      "seconds": 300.008,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92013651,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T10:13:30.9960150Z",
+      "frames": 8972,
+      "seconds": 300.013,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92012179,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T10:18:30.9958850Z",
+      "frames": 8967,
+      "seconds": 300.0,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010891,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T10:23:30.9995050Z",
+      "frames": 8960,
+      "seconds": 300.004,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011771,
+      "maximumMilliseconds": 237.5,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T10:28:31.0093250Z",
+      "frames": 8967,
+      "seconds": 300.008,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011019,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T10:33:31.0143940Z",
+      "frames": 8855,
+      "seconds": 300.006,
+      "averageFPS": 29.52,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010587,
+      "maximumMilliseconds": 2901.8,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T10:38:31.0066410Z",
+      "frames": 8925,
+      "seconds": 299.988,
+      "averageFPS": 29.75,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010587,
+      "maximumMilliseconds": 141.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T10:43:31.0064520Z",
+      "frames": 8968,
+      "seconds": 300.004,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010619,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T10:48:31.0141250Z",
+      "frames": 8962,
+      "seconds": 300.008,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010491,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T10:53:31.0092990Z",
+      "frames": 8967,
+      "seconds": 299.996,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010635,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T10:58:31.0013630Z",
+      "frames": 8958,
+      "seconds": 299.992,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92013603,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T11:03:31.0099870Z",
+      "frames": 8959,
+      "seconds": 300.008,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011843,
+      "maximumMilliseconds": 166.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T11:08:31.0051760Z",
+      "frames": 8957,
+      "seconds": 299.996,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010811,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T11:13:30.9927490Z",
+      "frames": 8958,
+      "seconds": 299.988,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010699,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T11:18:30.9839890Z",
+      "frames": 8965,
+      "seconds": 299.992,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010699,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T11:23:30.9935030Z",
+      "frames": 8957,
+      "seconds": 300.008,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010603,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T11:28:30.9816160Z",
+      "frames": 8964,
+      "seconds": 299.988,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010603,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T11:33:30.9917410Z",
+      "frames": 8956,
+      "seconds": 300.008,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010747,
+      "maximumMilliseconds": 233.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T11:38:30.9883280Z",
+      "frames": 8970,
+      "seconds": 300.0,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92013811,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T11:43:30.9832300Z",
+      "frames": 8967,
+      "seconds": 299.996,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010763,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T11:48:30.9969290Z",
+      "frames": 8964,
+      "seconds": 300.013,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010763,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T11:53:31.0000640Z",
+      "frames": 8969,
+      "seconds": 300.004,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011923,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T11:58:30.9889790Z",
+      "frames": 8959,
+      "seconds": 299.988,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010763,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T12:03:30.9779680Z",
+      "frames": 8961,
+      "seconds": 299.992,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011923,
+      "maximumMilliseconds": 220.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T12:08:30.9828590Z",
+      "frames": 8972,
+      "seconds": 300.004,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010763,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T12:13:30.9879770Z",
+      "frames": 8966,
+      "seconds": 300.004,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011923,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T12:18:30.9974310Z",
+      "frames": 8955,
+      "seconds": 300.008,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010635,
+      "maximumMilliseconds": 120.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T12:23:31.0036900Z",
+      "frames": 8947,
+      "seconds": 300.008,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010763,
+      "maximumMilliseconds": 233.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T12:28:31.0169710Z",
+      "frames": 8961,
+      "seconds": 300.013,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92013859,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T12:33:31.0108040Z",
+      "frames": 8967,
+      "seconds": 299.996,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010795,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T12:38:31.0094360Z",
+      "frames": 8964,
+      "seconds": 299.996,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92013891,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T12:43:31.0227880Z",
+      "frames": 8964,
+      "seconds": 300.017,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011987,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T12:48:31.0158450Z",
+      "frames": 8955,
+      "seconds": 299.992,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010955,
+      "maximumMilliseconds": 150.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T12:53:31.0309580Z",
+      "frames": 8956,
+      "seconds": 300.017,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010827,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T12:58:31.0385410Z",
+      "frames": 8954,
+      "seconds": 300.033,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010827,
+      "maximumMilliseconds": 225.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T13:03:31.0712290Z",
+      "frames": 8961,
+      "seconds": 300.004,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92012075,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T13:08:31.0677290Z",
+      "frames": 8961,
+      "seconds": 300.0,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010763,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T13:13:31.0696230Z",
+      "frames": 8971,
+      "seconds": 300.0,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010891,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T13:18:31.0723280Z",
+      "frames": 8965,
+      "seconds": 300.004,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92013891,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T13:23:31.0659440Z",
+      "frames": 8947,
+      "seconds": 299.992,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010891,
+      "maximumMilliseconds": 158.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T13:28:31.0816070Z",
+      "frames": 8950,
+      "seconds": 300.017,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010891,
+      "maximumMilliseconds": 216.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T13:33:31.0844830Z",
+      "frames": 8959,
+      "seconds": 300.004,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010891,
+      "maximumMilliseconds": 158.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T13:38:31.0815940Z",
+      "frames": 8955,
+      "seconds": 299.996,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010763,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T13:43:31.0804990Z",
+      "frames": 8953,
+      "seconds": 300.0,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92012051,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T13:48:31.0677490Z",
+      "frames": 8951,
+      "seconds": 299.988,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010891,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T13:53:31.0735720Z",
+      "frames": 8950,
+      "seconds": 300.004,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92012075,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T13:58:31.0637780Z",
+      "frames": 8957,
+      "seconds": 299.992,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010763,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T14:03:31.0667890Z",
+      "frames": 8954,
+      "seconds": 300.004,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011019,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T14:08:31.0678510Z",
+      "frames": 8954,
+      "seconds": 300.0,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010891,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T14:13:31.0793190Z",
+      "frames": 8945,
+      "seconds": 300.013,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010907,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T14:18:31.0927430Z",
+      "frames": 8957,
+      "seconds": 300.013,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010779,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T14:23:31.0829820Z",
+      "frames": 8964,
+      "seconds": 299.992,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92012067,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T14:28:31.0823310Z",
+      "frames": 8953,
+      "seconds": 300.0,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010907,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T14:33:31.0750010Z",
+      "frames": 8954,
+      "seconds": 299.992,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92012091,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T14:38:31.0706350Z",
+      "frames": 8959,
+      "seconds": 299.996,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010907,
+      "maximumMilliseconds": 145.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T14:43:31.0716360Z",
+      "frames": 8956,
+      "seconds": 300.0,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010907,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T14:48:31.0795560Z",
+      "frames": 8944,
+      "seconds": 300.008,
+      "averageFPS": 29.81,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010779,
+      "maximumMilliseconds": 241.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T14:53:31.0740460Z",
+      "frames": 8957,
+      "seconds": 299.996,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010907,
+      "maximumMilliseconds": 79.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T14:58:31.0621720Z",
+      "frames": 8959,
+      "seconds": 299.988,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92013971,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T15:03:31.0614070Z",
+      "frames": 8960,
+      "seconds": 300.0,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010907,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T15:08:31.0723100Z",
+      "frames": 8959,
+      "seconds": 300.008,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92013971,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T15:13:31.0868670Z",
+      "frames": 8960,
+      "seconds": 300.017,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010907,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T15:18:31.0736930Z",
+      "frames": 8956,
+      "seconds": 299.988,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010907,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T15:23:31.0780690Z",
+      "frames": 8952,
+      "seconds": 300.004,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92012091,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T15:28:31.0691130Z",
+      "frames": 8959,
+      "seconds": 299.992,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010907,
+      "maximumMilliseconds": 116.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T15:33:31.0683430Z",
+      "frames": 8948,
+      "seconds": 299.996,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92012099,
+      "maximumMilliseconds": 245.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T15:38:31.0779070Z",
+      "frames": 8956,
+      "seconds": 300.013,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010811,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T15:43:31.0747690Z",
+      "frames": 8960,
+      "seconds": 299.996,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92011067,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T15:48:31.0610640Z",
+      "frames": 8957,
+      "seconds": 299.988,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010939,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T15:53:31.0574880Z",
+      "frames": 8948,
+      "seconds": 299.996,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92010939,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T15:58:31.0515010Z",
+      "frames": 8966,
+      "seconds": 299.996,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92014003,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T16:03:31.0649220Z",
+      "frames": 8938,
+      "seconds": 300.013,
+      "averageFPS": 29.79,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 92012099,
+      "maximumMilliseconds": 141.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T16:08:31.0783410Z",
+      "frames": 8828,
+      "seconds": 300.013,
+      "averageFPS": 29.43,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 92010811,
+      "maximumMilliseconds": 270.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T16:22:31.8166650Z",
+      "frames": 8836,
+      "seconds": 300.014,
+      "averageFPS": 29.45,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 120554707,
+      "maximumMilliseconds": 3194.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T16:27:31.8275450Z",
+      "frames": 8949,
+      "seconds": 300.021,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 121994435,
+      "maximumMilliseconds": 154.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T16:37:12.6525840Z",
+      "frames": 8812,
+      "seconds": 300.021,
+      "averageFPS": 29.37,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 116313867,
+      "maximumMilliseconds": 2968.43,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T16:46:17.9416820Z",
+      "frames": 8882,
+      "seconds": 300.011,
+      "averageFPS": 29.61,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 113158523,
+      "maximumMilliseconds": 2351.11,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T16:51:17.9325100Z",
+      "frames": 8879,
+      "seconds": 299.996,
+      "averageFPS": 29.6,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 113189051,
+      "maximumMilliseconds": 282.27,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T16:56:17.9188010Z",
+      "frames": 8943,
+      "seconds": 299.988,
+      "averageFPS": 29.81,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 113025171,
+      "maximumMilliseconds": 129.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T17:01:17.9191020Z",
+      "frames": 8952,
+      "seconds": 300.0,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 113190779,
+      "maximumMilliseconds": 95.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T17:06:17.9181620Z",
+      "frames": 8957,
+      "seconds": 300.0,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 113026923,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T17:11:17.9226650Z",
+      "frames": 8963,
+      "seconds": 300.004,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 113026715,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T17:16:17.9266620Z",
+      "frames": 8963,
+      "seconds": 300.004,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 113027323,
+      "maximumMilliseconds": 120.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T17:21:17.9357090Z",
+      "frames": 8974,
+      "seconds": 300.008,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 113027043,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T17:26:17.9512670Z",
+      "frames": 8968,
+      "seconds": 300.017,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 113027835,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T17:31:17.9598830Z",
+      "frames": 8968,
+      "seconds": 300.008,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 113028035,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T17:36:17.9723600Z",
+      "frames": 8970,
+      "seconds": 300.013,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 113028483,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T17:41:17.9604960Z",
+      "frames": 8970,
+      "seconds": 299.988,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 113027627,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T17:55:46.2388160Z",
+      "frames": 8895,
+      "seconds": 299.993,
+      "averageFPS": 29.65,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 134446387,
+      "maximumMilliseconds": 1563.19,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T18:05:20.1809040Z",
+      "frames": 8897,
+      "seconds": 300.009,
+      "averageFPS": 29.66,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 131466979,
+      "maximumMilliseconds": 1970.9,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T18:12:44.1034380Z",
+      "frames": 8625,
+      "seconds": 300.014,
+      "averageFPS": 28.75,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 152039747,
+      "maximumMilliseconds": 1381.3,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T18:40:10.1560630Z",
+      "frames": 8920,
+      "seconds": 300.011,
+      "averageFPS": 29.73,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 134080931,
+      "maximumMilliseconds": 1324.55,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T18:46:55.0280250Z",
+      "frames": 8556,
+      "seconds": 299.987,
+      "averageFPS": 28.52,
+      "p95Milliseconds": 41.67,
+      "unityAllocatedBytes": 131821659,
+      "maximumMilliseconds": 2183.39,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T18:51:55.0232850Z",
+      "frames": 8953,
+      "seconds": 300.0,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 131912827,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T18:56:55.0122680Z",
+      "frames": 7586,
+      "seconds": 299.992,
+      "averageFPS": 25.29,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 133907443,
+      "maximumMilliseconds": 45549.99,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T19:01:55.0280400Z",
+      "frames": 8933,
+      "seconds": 300.013,
+      "averageFPS": 29.78,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 134912715,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T19:10:28.4950730Z",
+      "frames": 8876,
+      "seconds": 300.014,
+      "averageFPS": 29.59,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 132528891,
+      "maximumMilliseconds": 2344.84,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T19:17:43.1079670Z",
+      "frames": 8856,
+      "seconds": 299.988,
+      "averageFPS": 29.52,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 132564875,
+      "maximumMilliseconds": 2354.03,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T19:22:43.1017240Z",
+      "frames": 8928,
+      "seconds": 299.996,
+      "averageFPS": 29.76,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 132599707,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T19:27:43.1136850Z",
+      "frames": 8938,
+      "seconds": 300.017,
+      "averageFPS": 29.79,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 132599675,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T19:32:43.1006430Z",
+      "frames": 8947,
+      "seconds": 299.988,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 132600827,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T19:37:43.1212800Z",
+      "frames": 8959,
+      "seconds": 300.054,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 132600107,
+      "maximumMilliseconds": 125.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T19:42:43.1521050Z",
+      "frames": 8944,
+      "seconds": 299.996,
+      "averageFPS": 29.81,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 132600315,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T19:47:43.1685780Z",
+      "frames": 8947,
+      "seconds": 300.017,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 132765163,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T19:52:43.1516720Z",
+      "frames": 8863,
+      "seconds": 299.984,
+      "averageFPS": 29.54,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 132601211,
+      "maximumMilliseconds": 200.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T20:03:48.8447650Z",
+      "frames": 8870,
+      "seconds": 300.009,
+      "averageFPS": 29.57,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 123644867,
+      "maximumMilliseconds": 1598.71,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T20:23:41.5609480Z",
+      "frames": 8853,
+      "seconds": 300.017,
+      "averageFPS": 29.51,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 127271571,
+      "maximumMilliseconds": 2343.68,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T20:31:00.8026650Z",
+      "frames": 8870,
+      "seconds": 299.994,
+      "averageFPS": 29.57,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 123613251,
+      "maximumMilliseconds": 2149.95,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T20:36:00.7936310Z",
+      "frames": 8964,
+      "seconds": 299.996,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 123618547,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T20:41:00.8004310Z",
+      "frames": 8954,
+      "seconds": 300.008,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 123619891,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T20:46:00.7954580Z",
+      "frames": 8884,
+      "seconds": 299.996,
+      "averageFPS": 29.61,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 123620307,
+      "maximumMilliseconds": 212.5,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T21:02:49.4814920Z",
+      "frames": 8893,
+      "seconds": 300.018,
+      "averageFPS": 29.64,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 123639723,
+      "maximumMilliseconds": 1356.95,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T21:19:22.6316960Z",
+      "frames": 8853,
+      "seconds": 300.003,
+      "averageFPS": 29.51,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 128265643,
+      "maximumMilliseconds": 2145.26,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T21:24:22.6429380Z",
+      "frames": 8935,
+      "seconds": 300.017,
+      "averageFPS": 29.78,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 128364307,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T21:32:19.9342500Z",
+      "frames": 8849,
+      "seconds": 299.997,
+      "averageFPS": 29.5,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 123774211,
+      "maximumMilliseconds": 1533.82,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T21:38:01.8912540Z",
+      "frames": 8869,
+      "seconds": 300.032,
+      "averageFPS": 29.56,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 125549323,
+      "maximumMilliseconds": 1907.02,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T21:43:01.9075420Z",
+      "frames": 8955,
+      "seconds": 300.004,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125558531,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T21:48:01.9037680Z",
+      "frames": 8950,
+      "seconds": 299.996,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125562011,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T21:53:01.8992160Z",
+      "frames": 8947,
+      "seconds": 299.996,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125726923,
+      "maximumMilliseconds": 125.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T21:58:01.8874820Z",
+      "frames": 8941,
+      "seconds": 299.988,
+      "averageFPS": 29.8,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125562739,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T22:03:01.9040120Z",
+      "frames": 8940,
+      "seconds": 300.013,
+      "averageFPS": 29.8,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125562979,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T22:08:01.9030290Z",
+      "frames": 8954,
+      "seconds": 300.004,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125563547,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T22:13:01.8954810Z",
+      "frames": 8958,
+      "seconds": 299.992,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125563611,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T22:18:01.8962720Z",
+      "frames": 8945,
+      "seconds": 300.0,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125563739,
+      "maximumMilliseconds": 83.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T22:23:01.8899470Z",
+      "frames": 8937,
+      "seconds": 299.996,
+      "averageFPS": 29.79,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 125563395,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T22:28:01.8826130Z",
+      "frames": 8934,
+      "seconds": 299.992,
+      "averageFPS": 29.78,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 125563851,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T22:33:01.8780870Z",
+      "frames": 8951,
+      "seconds": 299.992,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125563395,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T22:38:01.8907960Z",
+      "frames": 8949,
+      "seconds": 300.017,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125563899,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T22:43:01.8814720Z",
+      "frames": 8952,
+      "seconds": 299.992,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125727995,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T22:48:01.8698430Z",
+      "frames": 8954,
+      "seconds": 299.988,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125563571,
+      "maximumMilliseconds": 95.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T22:53:01.8740550Z",
+      "frames": 8950,
+      "seconds": 300.004,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125728139,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T22:58:01.8654710Z",
+      "frames": 8945,
+      "seconds": 299.992,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564219,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T23:03:01.8772700Z",
+      "frames": 8948,
+      "seconds": 300.013,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125563763,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T23:08:01.8905250Z",
+      "frames": 8946,
+      "seconds": 300.013,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564251,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T23:13:01.8880730Z",
+      "frames": 8952,
+      "seconds": 299.996,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125563859,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T23:18:01.8737780Z",
+      "frames": 8962,
+      "seconds": 299.988,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564411,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T23:23:01.8814280Z",
+      "frames": 8971,
+      "seconds": 300.008,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125563923,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T23:28:01.8829590Z",
+      "frames": 8971,
+      "seconds": 300.0,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564443,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T23:33:01.8706100Z",
+      "frames": 8971,
+      "seconds": 299.988,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125728523,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T23:38:01.8788100Z",
+      "frames": 8959,
+      "seconds": 300.008,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564019,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T23:43:01.8662900Z",
+      "frames": 8960,
+      "seconds": 299.988,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564147,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T23:48:01.8572580Z",
+      "frames": 8956,
+      "seconds": 299.992,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564667,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T23:53:01.8557400Z",
+      "frames": 8955,
+      "seconds": 300.0,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564179,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-23T23:58:01.8575630Z",
+      "frames": 8952,
+      "seconds": 300.0,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564763,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T00:03:01.8732640Z",
+      "frames": 8949,
+      "seconds": 300.017,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564371,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T00:08:01.8611310Z",
+      "frames": 8951,
+      "seconds": 299.988,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564795,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T00:13:01.8566880Z",
+      "frames": 8963,
+      "seconds": 299.996,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564371,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T00:18:01.8507620Z",
+      "frames": 8960,
+      "seconds": 299.992,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564923,
+      "maximumMilliseconds": 79.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T00:23:01.8475640Z",
+      "frames": 8972,
+      "seconds": 300.0,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564403,
+      "maximumMilliseconds": 83.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T00:28:01.8430000Z",
+      "frames": 8971,
+      "seconds": 299.996,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564499,
+      "maximumMilliseconds": 120.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T00:33:01.8476420Z",
+      "frames": 8968,
+      "seconds": 300.004,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564499,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T00:38:01.8612560Z",
+      "frames": 8957,
+      "seconds": 300.013,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565051,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T00:43:01.8487790Z",
+      "frames": 8949,
+      "seconds": 299.988,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125729131,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T00:48:01.8393250Z",
+      "frames": 8946,
+      "seconds": 299.992,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565243,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T00:53:01.8264040Z",
+      "frames": 8950,
+      "seconds": 299.988,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564883,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T00:58:01.8177310Z",
+      "frames": 8944,
+      "seconds": 299.992,
+      "averageFPS": 29.81,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565307,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T01:03:01.8066760Z",
+      "frames": 8946,
+      "seconds": 299.988,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564755,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T01:08:01.8051800Z",
+      "frames": 8949,
+      "seconds": 300.0,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565514,
+      "maximumMilliseconds": 79.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T01:13:01.8064450Z",
+      "frames": 8952,
+      "seconds": 300.0,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125729323,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T01:18:01.8179640Z",
+      "frames": 8959,
+      "seconds": 300.013,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564819,
+      "maximumMilliseconds": 79.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T01:23:01.8268040Z",
+      "frames": 8963,
+      "seconds": 300.008,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564755,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T01:28:01.8133170Z",
+      "frames": 8966,
+      "seconds": 299.988,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565435,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T01:33:01.8048920Z",
+      "frames": 8965,
+      "seconds": 299.992,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125564851,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T01:38:01.7977020Z",
+      "frames": 8961,
+      "seconds": 299.992,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565403,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T01:43:01.7905170Z",
+      "frames": 8970,
+      "seconds": 299.992,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565011,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T01:48:01.7906750Z",
+      "frames": 8969,
+      "seconds": 300.0,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565499,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T01:53:01.8047660Z",
+      "frames": 8959,
+      "seconds": 300.017,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565075,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T01:58:01.8230750Z",
+      "frames": 8956,
+      "seconds": 300.013,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565499,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T02:03:01.8376980Z",
+      "frames": 8953,
+      "seconds": 300.013,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565011,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T02:08:01.8211870Z",
+      "frames": 8954,
+      "seconds": 299.992,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565107,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T02:13:01.8099930Z",
+      "frames": 8959,
+      "seconds": 299.988,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125729675,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T02:18:01.8020630Z",
+      "frames": 8955,
+      "seconds": 299.992,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565659,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T02:23:01.8182760Z",
+      "frames": 8949,
+      "seconds": 300.017,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125729707,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T02:28:01.8056580Z",
+      "frames": 8953,
+      "seconds": 299.988,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565659,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T02:33:01.8023890Z",
+      "frames": 8958,
+      "seconds": 299.996,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565235,
+      "maximumMilliseconds": 79.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T02:38:01.8082940Z",
+      "frames": 8950,
+      "seconds": 300.009,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565395,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T02:43:01.8254340Z",
+      "frames": 8962,
+      "seconds": 300.017,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565267,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T02:48:01.8343080Z",
+      "frames": 8944,
+      "seconds": 300.008,
+      "averageFPS": 29.81,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565787,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T02:53:01.8340590Z",
+      "frames": 8954,
+      "seconds": 300.0,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125729835,
+      "maximumMilliseconds": 79.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T02:58:01.8461530Z",
+      "frames": 8972,
+      "seconds": 300.013,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565331,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T03:03:01.8593150Z",
+      "frames": 8971,
+      "seconds": 300.013,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125729835,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T03:08:01.8752400Z",
+      "frames": 8948,
+      "seconds": 300.017,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565851,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T03:13:01.8920930Z",
+      "frames": 8954,
+      "seconds": 300.017,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565363,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T03:18:01.8915370Z",
+      "frames": 8953,
+      "seconds": 300.0,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565947,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T03:23:01.8917800Z",
+      "frames": 8968,
+      "seconds": 300.0,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565395,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T03:28:01.8869520Z",
+      "frames": 8969,
+      "seconds": 299.996,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565915,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T03:33:01.9044100Z",
+      "frames": 8961,
+      "seconds": 300.017,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565427,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T03:38:01.9173000Z",
+      "frames": 8968,
+      "seconds": 300.013,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565883,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T03:43:01.9296990Z",
+      "frames": 8953,
+      "seconds": 300.013,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125729995,
+      "maximumMilliseconds": 83.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T03:48:01.9380050Z",
+      "frames": 8952,
+      "seconds": 300.009,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565555,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T03:53:01.9316120Z",
+      "frames": 8960,
+      "seconds": 299.992,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565587,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T03:58:01.9419870Z",
+      "frames": 8949,
+      "seconds": 300.013,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125566011,
+      "maximumMilliseconds": 83.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T04:03:01.9374980Z",
+      "frames": 8963,
+      "seconds": 299.996,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125566043,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T04:08:01.9424530Z",
+      "frames": 8963,
+      "seconds": 300.004,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565947,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T04:13:01.9457380Z",
+      "frames": 8960,
+      "seconds": 300.004,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565523,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T04:18:01.9332500Z",
+      "frames": 8970,
+      "seconds": 299.988,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565979,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T04:23:01.9416020Z",
+      "frames": 8959,
+      "seconds": 300.008,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565555,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T04:28:01.9416090Z",
+      "frames": 8955,
+      "seconds": 300.0,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125566075,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T04:33:01.9485050Z",
+      "frames": 8968,
+      "seconds": 300.008,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125730155,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T04:38:01.9546590Z",
+      "frames": 8968,
+      "seconds": 300.004,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565683,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T04:43:01.9498470Z",
+      "frames": 8944,
+      "seconds": 299.996,
+      "averageFPS": 29.81,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125730235,
+      "maximumMilliseconds": 233.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T04:48:01.9613720Z",
+      "frames": 8874,
+      "seconds": 300.008,
+      "averageFPS": 29.58,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125566251,
+      "maximumMilliseconds": 1037.5,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T04:53:01.9718920Z",
+      "frames": 8954,
+      "seconds": 300.013,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565731,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T04:58:01.9587900Z",
+      "frames": 8956,
+      "seconds": 299.988,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125566251,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T05:03:01.9494970Z",
+      "frames": 8955,
+      "seconds": 299.992,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 125565795,
+      "maximumMilliseconds": 79.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T08:49:54.9229270Z",
+      "frames": 8862,
+      "seconds": 300.012,
+      "averageFPS": 29.54,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136476235,
+      "maximumMilliseconds": 2932.6,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T09:00:39.7383700Z",
+      "frames": 8869,
+      "seconds": 299.996,
+      "averageFPS": 29.56,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 133602587,
+      "maximumMilliseconds": 1887.02,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T09:40:50.8474940Z",
+      "frames": 8792,
+      "seconds": 300.005,
+      "averageFPS": 29.31,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 133460675,
+      "maximumMilliseconds": 1836.01,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T09:56:13.5047580Z",
+      "frames": 8830,
+      "seconds": 300.009,
+      "averageFPS": 29.43,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 135156163,
+      "maximumMilliseconds": 3235.51,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T10:01:13.5069360Z",
+      "frames": 8952,
+      "seconds": 300.0,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 135166035,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T10:06:13.4906430Z",
+      "frames": 8966,
+      "seconds": 299.992,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 135169795,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T10:11:13.4762250Z",
+      "frames": 8957,
+      "seconds": 299.987,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 135172435,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T10:16:13.4856160Z",
+      "frames": 8961,
+      "seconds": 300.008,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 135175395,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T10:21:13.4771410Z",
+      "frames": 8826,
+      "seconds": 299.992,
+      "averageFPS": 29.42,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 137211571,
+      "maximumMilliseconds": 2745.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T10:26:13.4654500Z",
+      "frames": 8863,
+      "seconds": 299.989,
+      "averageFPS": 29.54,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136938731,
+      "maximumMilliseconds": 2343.5,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T10:31:13.4812410Z",
+      "frames": 8952,
+      "seconds": 300.017,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 137106363,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T10:36:13.4567120Z",
+      "frames": 8926,
+      "seconds": 300.004,
+      "averageFPS": 29.75,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 136942219,
+      "maximumMilliseconds": 137.5,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T10:41:13.4854100Z",
+      "frames": 8936,
+      "seconds": 300.0,
+      "averageFPS": 29.79,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136941915,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T10:46:13.4819370Z",
+      "frames": 8946,
+      "seconds": 299.996,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136942851,
+      "maximumMilliseconds": 229.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T10:51:13.4727340Z",
+      "frames": 8957,
+      "seconds": 299.988,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136942011,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T10:56:13.4546250Z",
+      "frames": 8947,
+      "seconds": 299.988,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136942555,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T11:01:13.4679250Z",
+      "frames": 8945,
+      "seconds": 300.013,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136942091,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T11:06:13.4850990Z",
+      "frames": 8948,
+      "seconds": 300.017,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136942267,
+      "maximumMilliseconds": 208.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T11:11:13.4847290Z",
+      "frames": 8954,
+      "seconds": 300.0,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 137106939,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T11:16:13.4943200Z",
+      "frames": 8951,
+      "seconds": 300.008,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136942363,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T11:21:13.4900010Z",
+      "frames": 8945,
+      "seconds": 299.996,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136942427,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T11:26:13.4757340Z",
+      "frames": 8948,
+      "seconds": 299.988,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136942907,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T11:31:13.4793610Z",
+      "frames": 8940,
+      "seconds": 300.004,
+      "averageFPS": 29.8,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136942715,
+      "maximumMilliseconds": 225.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T11:36:13.4847550Z",
+      "frames": 8957,
+      "seconds": 300.004,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136942875,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T11:41:13.5020090Z",
+      "frames": 8951,
+      "seconds": 300.017,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136942827,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T11:46:13.5180890Z",
+      "frames": 8956,
+      "seconds": 300.017,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136943371,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T11:51:13.5291830Z",
+      "frames": 8942,
+      "seconds": 300.004,
+      "averageFPS": 29.81,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 137107595,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T11:56:13.5304620Z",
+      "frames": 8956,
+      "seconds": 300.008,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136943067,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T12:01:13.5168580Z",
+      "frames": 8960,
+      "seconds": 299.988,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136943163,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T12:06:13.5187650Z",
+      "frames": 8950,
+      "seconds": 300.0,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136943211,
+      "maximumMilliseconds": 145.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T12:11:13.5099050Z",
+      "frames": 8960,
+      "seconds": 299.992,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 137107667,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T12:16:13.4972830Z",
+      "frames": 8953,
+      "seconds": 299.988,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136943355,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T12:21:13.5130250Z",
+      "frames": 8961,
+      "seconds": 300.017,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136943195,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T12:26:13.5186130Z",
+      "frames": 8962,
+      "seconds": 300.0,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136943355,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T12:31:13.5167190Z",
+      "frames": 8963,
+      "seconds": 300.004,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136943339,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T12:36:13.5144300Z",
+      "frames": 8961,
+      "seconds": 299.996,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136943867,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T12:41:13.5222360Z",
+      "frames": 8967,
+      "seconds": 300.008,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136943403,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T12:46:13.5224800Z",
+      "frames": 8896,
+      "seconds": 300.0,
+      "averageFPS": 29.65,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136943443,
+      "maximumMilliseconds": 2287.49,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T12:51:13.5350340Z",
+      "frames": 8951,
+      "seconds": 300.013,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136944483,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T12:56:13.5428290Z",
+      "frames": 8959,
+      "seconds": 300.008,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136943483,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T13:01:13.5321430Z",
+      "frames": 8956,
+      "seconds": 299.988,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136943563,
+      "maximumMilliseconds": 162.5,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T13:06:13.5221660Z",
+      "frames": 8958,
+      "seconds": 299.988,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 137108155,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T13:11:13.5094510Z",
+      "frames": 8835,
+      "seconds": 299.992,
+      "averageFPS": 29.45,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 136944643,
+      "maximumMilliseconds": 458.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T13:16:13.5062310Z",
+      "frames": 8940,
+      "seconds": 299.996,
+      "averageFPS": 29.8,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 137108235,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T13:21:13.4951250Z",
+      "frames": 8925,
+      "seconds": 299.992,
+      "averageFPS": 29.75,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 137108339,
+      "maximumMilliseconds": 266.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T13:26:13.5093660Z",
+      "frames": 8953,
+      "seconds": 300.013,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136943755,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T13:31:13.5164970Z",
+      "frames": 8936,
+      "seconds": 300.008,
+      "averageFPS": 29.79,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136944867,
+      "maximumMilliseconds": 120.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T13:36:13.5042500Z",
+      "frames": 8887,
+      "seconds": 299.988,
+      "averageFPS": 29.62,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 136943835,
+      "maximumMilliseconds": 275.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T13:41:13.5226250Z",
+      "frames": 8939,
+      "seconds": 300.017,
+      "averageFPS": 29.79,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 136944867,
+      "maximumMilliseconds": 233.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T13:50:37.4709370Z",
+      "frames": 8879,
+      "seconds": 300.001,
+      "averageFPS": 29.6,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 137779427,
+      "maximumMilliseconds": 2044.46,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T14:07:32.3965600Z",
+      "frames": 8767,
+      "seconds": 300.012,
+      "averageFPS": 29.22,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 137565307,
+      "maximumMilliseconds": 3017.56,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T14:12:32.3881890Z",
+      "frames": 8909,
+      "seconds": 300.0,
+      "averageFPS": 29.7,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 137567931,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T14:17:32.3852580Z",
+      "frames": 8846,
+      "seconds": 299.992,
+      "averageFPS": 29.49,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 137732787,
+      "maximumMilliseconds": 366.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T14:26:03.2183100Z",
+      "frames": 8844,
+      "seconds": 300.01,
+      "averageFPS": 29.48,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 137791819,
+      "maximumMilliseconds": 2438.5,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T14:58:59.0158570Z",
+      "frames": 8830,
+      "seconds": 299.993,
+      "averageFPS": 29.43,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 137533003,
+      "maximumMilliseconds": 2116.84,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T15:05:45.8515120Z",
+      "frames": 8776,
+      "seconds": 299.994,
+      "averageFPS": 29.25,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140334603,
+      "maximumMilliseconds": 2308.34,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T15:10:45.8667830Z",
+      "frames": 8958,
+      "seconds": 300.017,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140338427,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T15:15:45.8824020Z",
+      "frames": 8946,
+      "seconds": 300.017,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140338243,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T15:20:45.8878380Z",
+      "frames": 8958,
+      "seconds": 300.004,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140338771,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T15:25:45.8784430Z",
+      "frames": 8952,
+      "seconds": 299.992,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140339131,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T15:30:45.8864060Z",
+      "frames": 8949,
+      "seconds": 300.004,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140338723,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T15:35:45.8953640Z",
+      "frames": 8960,
+      "seconds": 300.012,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140503539,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T15:40:45.9051140Z",
+      "frames": 8961,
+      "seconds": 300.008,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140339531,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T15:45:45.9126260Z",
+      "frames": 8957,
+      "seconds": 300.008,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140339579,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T15:50:45.9289700Z",
+      "frames": 8956,
+      "seconds": 300.017,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140339667,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T15:55:45.9176860Z",
+      "frames": 8952,
+      "seconds": 299.988,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140339707,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T16:00:45.9240070Z",
+      "frames": 8961,
+      "seconds": 300.008,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140340059,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T16:05:45.9417620Z",
+      "frames": 8960,
+      "seconds": 300.017,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140340059,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T16:10:45.9460720Z",
+      "frames": 8949,
+      "seconds": 300.004,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140340226,
+      "maximumMilliseconds": 241.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T16:15:45.9522440Z",
+      "frames": 8930,
+      "seconds": 300.008,
+      "averageFPS": 29.77,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 140339651,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T16:20:45.9656010Z",
+      "frames": 8954,
+      "seconds": 300.013,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140340395,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T16:25:45.9566380Z",
+      "frames": 8962,
+      "seconds": 299.992,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140504499,
+      "maximumMilliseconds": 187.5,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T16:30:45.9443480Z",
+      "frames": 8948,
+      "seconds": 299.987,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140340547,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T16:35:45.9406010Z",
+      "frames": 8947,
+      "seconds": 299.996,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140341354,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T16:40:45.9467550Z",
+      "frames": 8940,
+      "seconds": 300.004,
+      "averageFPS": 29.8,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140340707,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T16:45:45.9614530Z",
+      "frames": 8948,
+      "seconds": 300.017,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140340786,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T16:50:45.9495720Z",
+      "frames": 8962,
+      "seconds": 299.987,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140340691,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T16:55:45.9534090Z",
+      "frames": 8966,
+      "seconds": 300.004,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140340155,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T17:00:45.9657020Z",
+      "frames": 8957,
+      "seconds": 300.012,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140340763,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T17:05:45.9537860Z",
+      "frames": 8960,
+      "seconds": 299.987,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140504771,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T17:10:45.9393110Z",
+      "frames": 8955,
+      "seconds": 299.988,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140341299,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T17:15:45.9559030Z",
+      "frames": 8957,
+      "seconds": 300.017,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140340843,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T17:20:45.9550220Z",
+      "frames": 8951,
+      "seconds": 299.996,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140340755,
+      "maximumMilliseconds": 129.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T17:25:45.9534160Z",
+      "frames": 8946,
+      "seconds": 300.0,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 140340867,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T18:04:57.8189670Z",
+      "frames": 8831,
+      "seconds": 299.998,
+      "averageFPS": 29.44,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 195981291,
+      "maximumMilliseconds": 2915.28,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T18:09:57.7984050Z",
+      "frames": 8899,
+      "seconds": 299.988,
+      "averageFPS": 29.66,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 198529619,
+      "maximumMilliseconds": 183.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T18:14:57.8024270Z",
+      "frames": 8925,
+      "seconds": 300.004,
+      "averageFPS": 29.75,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 199482475,
+      "maximumMilliseconds": 137.5,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T18:19:57.7904870Z",
+      "frames": 8937,
+      "seconds": 299.988,
+      "averageFPS": 29.79,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 202224243,
+      "maximumMilliseconds": 112.5,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T18:24:57.7970620Z",
+      "frames": 8940,
+      "seconds": 300.004,
+      "averageFPS": 29.8,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 202791443,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T18:29:57.7856530Z",
+      "frames": 8944,
+      "seconds": 299.992,
+      "averageFPS": 29.81,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 203018827,
+      "maximumMilliseconds": 145.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T18:34:57.8000230Z",
+      "frames": 8937,
+      "seconds": 300.013,
+      "averageFPS": 29.79,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 203535107,
+      "maximumMilliseconds": 154.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T18:39:57.8146940Z",
+      "frames": 8945,
+      "seconds": 300.017,
+      "averageFPS": 29.82,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 203103883,
+      "maximumMilliseconds": 166.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T19:34:36.5608430Z",
+      "frames": 8320,
+      "seconds": 318.564,
+      "averageFPS": 26.12,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 204705586,
+      "maximumMilliseconds": 35112.5,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T19:55:31.8025040Z",
+      "frames": 8843,
+      "seconds": 300.007,
+      "averageFPS": 29.48,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 193710915,
+      "maximumMilliseconds": 2093.49,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T20:06:00.8910360Z",
+      "frames": 8674,
+      "seconds": 299.997,
+      "averageFPS": 28.91,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 216114642,
+      "maximumMilliseconds": 2250.21,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T20:11:00.8788340Z",
+      "frames": 8908,
+      "seconds": 300.0,
+      "averageFPS": 29.69,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 220438562,
+      "maximumMilliseconds": 154.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T20:25:34.2896660Z",
+      "frames": 8845,
+      "seconds": 299.997,
+      "averageFPS": 29.48,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 196749715,
+      "maximumMilliseconds": 2489.68,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T20:41:40.2468690Z",
+      "frames": 8727,
+      "seconds": 300.01,
+      "averageFPS": 29.09,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 206911083,
+      "maximumMilliseconds": 2266.7,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T20:46:40.2484730Z",
+      "frames": 8941,
+      "seconds": 300.008,
+      "averageFPS": 29.8,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207135643,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T20:51:40.2348760Z",
+      "frames": 8938,
+      "seconds": 299.987,
+      "averageFPS": 29.79,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207136555,
+      "maximumMilliseconds": 83.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T20:56:40.2265420Z",
+      "frames": 8948,
+      "seconds": 299.992,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207137067,
+      "maximumMilliseconds": 258.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T21:01:40.2239230Z",
+      "frames": 8958,
+      "seconds": 299.996,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207137299,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T21:06:40.2390260Z",
+      "frames": 8959,
+      "seconds": 300.017,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207137347,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T21:11:40.2516060Z",
+      "frames": 8950,
+      "seconds": 300.012,
+      "averageFPS": 29.83,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206973995,
+      "maximumMilliseconds": 83.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T21:16:40.2605750Z",
+      "frames": 8953,
+      "seconds": 300.008,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207137555,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T21:21:40.2761190Z",
+      "frames": 8961,
+      "seconds": 300.017,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207137707,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T21:26:40.2810080Z",
+      "frames": 8959,
+      "seconds": 300.004,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207137939,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T21:31:40.2941310Z",
+      "frames": 8959,
+      "seconds": 300.012,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207137939,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T21:36:40.3095050Z",
+      "frames": 8953,
+      "seconds": 300.017,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138083,
+      "maximumMilliseconds": 66.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T21:41:40.3108420Z",
+      "frames": 8966,
+      "seconds": 300.0,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206974675,
+      "maximumMilliseconds": 66.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T21:46:40.3171690Z",
+      "frames": 8967,
+      "seconds": 300.008,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138307,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T21:51:40.3344260Z",
+      "frames": 8965,
+      "seconds": 300.017,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138371,
+      "maximumMilliseconds": 66.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T21:56:40.3448500Z",
+      "frames": 8967,
+      "seconds": 300.008,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138451,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T22:01:40.3552890Z",
+      "frames": 8973,
+      "seconds": 300.012,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138451,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T22:06:40.3679720Z",
+      "frames": 8976,
+      "seconds": 300.012,
+      "averageFPS": 29.92,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138483,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T22:11:40.3674260Z",
+      "frames": 8978,
+      "seconds": 300.0,
+      "averageFPS": 29.93,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206974987,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T22:16:40.3586400Z",
+      "frames": 8974,
+      "seconds": 299.992,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138531,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T22:21:40.3665300Z",
+      "frames": 8978,
+      "seconds": 300.004,
+      "averageFPS": 29.93,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138619,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T22:26:40.3721190Z",
+      "frames": 8972,
+      "seconds": 300.008,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138683,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T22:31:40.3597040Z",
+      "frames": 8974,
+      "seconds": 299.987,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138619,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T22:36:40.3455010Z",
+      "frames": 8972,
+      "seconds": 299.987,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138619,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T22:41:40.3384750Z",
+      "frames": 8962,
+      "seconds": 299.992,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206975227,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T22:46:40.3422510Z",
+      "frames": 8968,
+      "seconds": 300.004,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138835,
+      "maximumMilliseconds": 125.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T22:51:40.3545820Z",
+      "frames": 8967,
+      "seconds": 300.012,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138867,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T22:56:40.3433310Z",
+      "frames": 8962,
+      "seconds": 299.987,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138963,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T23:01:40.3452610Z",
+      "frames": 8969,
+      "seconds": 300.004,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138931,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T23:06:40.3431340Z",
+      "frames": 8968,
+      "seconds": 299.996,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207138963,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T23:11:40.3382920Z",
+      "frames": 8966,
+      "seconds": 299.996,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206975451,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T23:16:40.3263600Z",
+      "frames": 8963,
+      "seconds": 299.987,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139035,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T23:21:40.3301120Z",
+      "frames": 8968,
+      "seconds": 300.004,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139035,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T23:26:40.3256420Z",
+      "frames": 8972,
+      "seconds": 299.996,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139099,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T23:31:40.3387920Z",
+      "frames": 8970,
+      "seconds": 300.012,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139051,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T23:36:40.3463080Z",
+      "frames": 8958,
+      "seconds": 300.008,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139067,
+      "maximumMilliseconds": 262.5,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T23:41:40.3513140Z",
+      "frames": 8973,
+      "seconds": 300.004,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206975619,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T23:46:40.3623640Z",
+      "frames": 8966,
+      "seconds": 300.012,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139067,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T23:51:40.3506370Z",
+      "frames": 8974,
+      "seconds": 299.987,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139067,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-24T23:56:40.3547290Z",
+      "frames": 8965,
+      "seconds": 300.004,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139147,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T00:01:40.3586650Z",
+      "frames": 8970,
+      "seconds": 300.004,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139115,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T00:06:40.3452210Z",
+      "frames": 8974,
+      "seconds": 299.987,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139147,
+      "maximumMilliseconds": 66.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T00:11:40.3417030Z",
+      "frames": 8969,
+      "seconds": 299.996,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206975651,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T00:16:40.3450370Z",
+      "frames": 8968,
+      "seconds": 300.004,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139163,
+      "maximumMilliseconds": 95.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T00:21:40.3408520Z",
+      "frames": 8965,
+      "seconds": 299.996,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139179,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T00:26:40.3588450Z",
+      "frames": 8969,
+      "seconds": 300.017,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139243,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T00:31:40.3464780Z",
+      "frames": 8972,
+      "seconds": 299.987,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139219,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T00:36:40.3641600Z",
+      "frames": 8970,
+      "seconds": 300.017,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139219,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T00:41:40.3626710Z",
+      "frames": 8974,
+      "seconds": 300.0,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206975707,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T00:46:40.3580390Z",
+      "frames": 8967,
+      "seconds": 299.996,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139259,
+      "maximumMilliseconds": 66.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T00:51:40.3700620Z",
+      "frames": 8974,
+      "seconds": 300.012,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139259,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T00:56:40.3586100Z",
+      "frames": 8970,
+      "seconds": 299.987,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139323,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T01:01:40.3712510Z",
+      "frames": 8976,
+      "seconds": 300.012,
+      "averageFPS": 29.92,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139259,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T01:06:40.3789930Z",
+      "frames": 8965,
+      "seconds": 300.008,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139259,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T01:11:40.3789510Z",
+      "frames": 8971,
+      "seconds": 300.0,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206975747,
+      "maximumMilliseconds": 66.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T01:16:40.3786100Z",
+      "frames": 8975,
+      "seconds": 300.0,
+      "averageFPS": 29.92,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139259,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T01:21:40.3739740Z",
+      "frames": 8975,
+      "seconds": 299.996,
+      "averageFPS": 29.92,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139259,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T01:26:40.3818830Z",
+      "frames": 8977,
+      "seconds": 300.008,
+      "averageFPS": 29.92,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139323,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T01:31:40.3994320Z",
+      "frames": 8972,
+      "seconds": 300.017,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139259,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T01:36:40.3927120Z",
+      "frames": 8968,
+      "seconds": 299.992,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139291,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T01:41:40.3991100Z",
+      "frames": 8967,
+      "seconds": 300.008,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206975779,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T01:46:40.3994560Z",
+      "frames": 8964,
+      "seconds": 300.0,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139291,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T01:51:40.4074670Z",
+      "frames": 8964,
+      "seconds": 300.008,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139323,
+      "maximumMilliseconds": 66.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T01:56:40.4033570Z",
+      "frames": 8970,
+      "seconds": 299.996,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139387,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T02:01:40.3898210Z",
+      "frames": 8965,
+      "seconds": 299.987,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139323,
+      "maximumMilliseconds": 66.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T02:06:40.4022570Z",
+      "frames": 8967,
+      "seconds": 300.012,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139323,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T02:11:40.3893440Z",
+      "frames": 8970,
+      "seconds": 299.987,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206975923,
+      "maximumMilliseconds": 83.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T02:16:40.4022330Z",
+      "frames": 8975,
+      "seconds": 300.012,
+      "averageFPS": 29.92,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139467,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T02:21:40.4065980Z",
+      "frames": 8977,
+      "seconds": 300.004,
+      "averageFPS": 29.92,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139467,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T02:26:40.4190790Z",
+      "frames": 8979,
+      "seconds": 300.012,
+      "averageFPS": 29.93,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139563,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T02:31:40.4311830Z",
+      "frames": 8979,
+      "seconds": 300.012,
+      "averageFPS": 29.93,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139499,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T02:36:40.4193330Z",
+      "frames": 8975,
+      "seconds": 299.987,
+      "averageFPS": 29.92,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139499,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T02:41:40.4369530Z",
+      "frames": 8973,
+      "seconds": 300.017,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206975923,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T02:46:40.4393510Z",
+      "frames": 8976,
+      "seconds": 300.004,
+      "averageFPS": 29.92,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139499,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T02:51:40.4527140Z",
+      "frames": 8971,
+      "seconds": 300.012,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139499,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T02:56:40.4440990Z",
+      "frames": 8974,
+      "seconds": 299.992,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139595,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T03:01:40.4496810Z",
+      "frames": 8966,
+      "seconds": 300.004,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139571,
+      "maximumMilliseconds": 66.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T03:06:40.4530430Z",
+      "frames": 8965,
+      "seconds": 300.004,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139571,
+      "maximumMilliseconds": 75.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T03:11:40.4398070Z",
+      "frames": 8966,
+      "seconds": 299.987,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206976059,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T03:16:40.4520320Z",
+      "frames": 8960,
+      "seconds": 300.012,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139611,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T03:21:40.4564570Z",
+      "frames": 8966,
+      "seconds": 300.004,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139651,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T03:26:40.4567280Z",
+      "frames": 8964,
+      "seconds": 300.0,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139747,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T03:31:40.4691390Z",
+      "frames": 8965,
+      "seconds": 300.012,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139683,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T03:36:40.4706780Z",
+      "frames": 8966,
+      "seconds": 300.0,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139683,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T03:41:40.4664030Z",
+      "frames": 8971,
+      "seconds": 299.996,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206976107,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T03:46:40.4727520Z",
+      "frames": 8964,
+      "seconds": 300.008,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139723,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T03:51:40.4646790Z",
+      "frames": 8971,
+      "seconds": 299.992,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139723,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T03:56:40.4520910Z",
+      "frames": 8970,
+      "seconds": 299.987,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139787,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T04:01:40.4611260Z",
+      "frames": 8965,
+      "seconds": 300.008,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139723,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T04:06:40.4725920Z",
+      "frames": 8971,
+      "seconds": 300.012,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139723,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T04:11:40.4803480Z",
+      "frames": 8973,
+      "seconds": 300.008,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206976251,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T04:16:40.4979340Z",
+      "frames": 8971,
+      "seconds": 300.017,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139795,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T04:21:40.5189670Z",
+      "frames": 8967,
+      "seconds": 300.012,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139795,
+      "maximumMilliseconds": 66.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T04:26:40.4972020Z",
+      "frames": 8965,
+      "seconds": 299.987,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139875,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T04:31:40.4922540Z",
+      "frames": 8966,
+      "seconds": 299.996,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139883,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T04:36:40.4923040Z",
+      "frames": 8966,
+      "seconds": 300.0,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139883,
+      "maximumMilliseconds": 83.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T04:41:40.4922040Z",
+      "frames": 8965,
+      "seconds": 300.0,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206976371,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T04:46:40.4818630Z",
+      "frames": 8964,
+      "seconds": 299.987,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139923,
+      "maximumMilliseconds": 95.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T04:51:40.4944670Z",
+      "frames": 8952,
+      "seconds": 300.012,
+      "averageFPS": 29.84,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139923,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T04:56:40.4889400Z",
+      "frames": 8968,
+      "seconds": 299.996,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139987,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T05:01:40.4974660Z",
+      "frames": 8971,
+      "seconds": 300.008,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139923,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T05:06:40.5056320Z",
+      "frames": 8969,
+      "seconds": 300.008,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139923,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T05:11:40.5007600Z",
+      "frames": 8959,
+      "seconds": 299.996,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206976411,
+      "maximumMilliseconds": 83.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T05:16:40.5096680Z",
+      "frames": 8967,
+      "seconds": 300.008,
+      "averageFPS": 29.89,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139923,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T05:21:40.5027820Z",
+      "frames": 8971,
+      "seconds": 299.992,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139923,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T05:26:40.5128200Z",
+      "frames": 8962,
+      "seconds": 300.012,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139987,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T05:31:40.5093820Z",
+      "frames": 8954,
+      "seconds": 299.996,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207139923,
+      "maximumMilliseconds": 104.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T05:36:40.5209710Z",
+      "frames": 8961,
+      "seconds": 300.013,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207140003,
+      "maximumMilliseconds": 133.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T05:41:40.5303290Z",
+      "frames": 8962,
+      "seconds": 300.008,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 206976491,
+      "maximumMilliseconds": 66.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T05:46:40.5199130Z",
+      "frames": 8961,
+      "seconds": 299.987,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207140003,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T05:51:40.5208680Z",
+      "frames": 8955,
+      "seconds": 300.004,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207140035,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T05:56:40.5129700Z",
+      "frames": 8944,
+      "seconds": 299.992,
+      "averageFPS": 29.81,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207140099,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T06:01:40.5120420Z",
+      "frames": 8956,
+      "seconds": 299.996,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207140035,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T06:27:21.5431490Z",
+      "frames": 8835,
+      "seconds": 299.994,
+      "averageFPS": 29.45,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 194209427,
+      "maximumMilliseconds": 3589.6,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T06:32:26.6514060Z",
+      "frames": 7921,
+      "seconds": 305.108,
+      "averageFPS": 25.96,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 209192239,
+      "maximumMilliseconds": 39666.65,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T06:37:26.6328850Z",
+      "frames": 8935,
+      "seconds": 299.988,
+      "averageFPS": 29.78,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 209529450,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T06:53:12.5524860Z",
+      "frames": 8833,
+      "seconds": 299.996,
+      "averageFPS": 29.44,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 203700873,
+      "maximumMilliseconds": 3513.56,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T06:58:12.5454100Z",
+      "frames": 7778,
+      "seconds": 300.0,
+      "averageFPS": 25.93,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 207873777,
+      "maximumMilliseconds": 39308.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T07:42:14.2704320Z",
+      "frames": 8797,
+      "seconds": 300.015,
+      "averageFPS": 29.32,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 195217563,
+      "maximumMilliseconds": 3433.23,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T07:47:27.2462390Z",
+      "frames": 8822,
+      "seconds": 300.005,
+      "averageFPS": 29.41,
+      "p95Milliseconds": 37.5,
+      "unityAllocatedBytes": 198092922,
+      "maximumMilliseconds": 2459.17,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T07:56:04.0282050Z",
+      "frames": 8860,
+      "seconds": 299.986,
+      "averageFPS": 29.53,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 199083363,
+      "maximumMilliseconds": 2122.21,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T08:05:37.9239850Z",
+      "frames": 8795,
+      "seconds": 300.008,
+      "averageFPS": 29.32,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210251683,
+      "maximumMilliseconds": 2473.32,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T08:10:37.9036170Z",
+      "frames": 8959,
+      "seconds": 299.987,
+      "averageFPS": 29.86,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210333171,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T08:15:37.9151880Z",
+      "frames": 8956,
+      "seconds": 300.012,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210334211,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T08:30:44.1637910Z",
+      "frames": 8822,
+      "seconds": 299.99,
+      "averageFPS": 29.41,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210865811,
+      "maximumMilliseconds": 2331.75,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T08:35:44.1450780Z",
+      "frames": 8905,
+      "seconds": 299.992,
+      "averageFPS": 29.68,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210775883,
+      "maximumMilliseconds": 250.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T08:44:25.2251330Z",
+      "frames": 8838,
+      "seconds": 299.985,
+      "averageFPS": 29.46,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210951083,
+      "maximumMilliseconds": 2604.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T08:49:25.2175090Z",
+      "frames": 8963,
+      "seconds": 300.0,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210797779,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T08:54:25.2237470Z",
+      "frames": 8960,
+      "seconds": 300.008,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210801187,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T08:59:25.2388920Z",
+      "frames": 8907,
+      "seconds": 300.012,
+      "averageFPS": 29.69,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210965923,
+      "maximumMilliseconds": 250.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T09:04:25.2416280Z",
+      "frames": 8955,
+      "seconds": 300.004,
+      "averageFPS": 29.85,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210834315,
+      "maximumMilliseconds": 108.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T09:09:25.2485660Z",
+      "frames": 8964,
+      "seconds": 300.008,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210834427,
+      "maximumMilliseconds": 70.83,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T09:14:25.2441720Z",
+      "frames": 8970,
+      "seconds": 299.996,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210999035,
+      "maximumMilliseconds": 91.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T09:19:25.2405700Z",
+      "frames": 8962,
+      "seconds": 299.996,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210834739,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T09:24:25.2283300Z",
+      "frames": 8960,
+      "seconds": 299.987,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210834787,
+      "maximumMilliseconds": 87.5,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T09:29:25.2201790Z",
+      "frames": 8972,
+      "seconds": 299.992,
+      "averageFPS": 29.91,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210999475,
+      "maximumMilliseconds": 66.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T09:34:25.2088020Z",
+      "frames": 8970,
+      "seconds": 299.987,
+      "averageFPS": 29.9,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210835107,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T09:39:25.1979850Z",
+      "frames": 8964,
+      "seconds": 299.992,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210835219,
+      "maximumMilliseconds": 216.67,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T09:44:25.2023010Z",
+      "frames": 8963,
+      "seconds": 300.004,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210999811,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T09:49:25.1949200Z",
+      "frames": 8960,
+      "seconds": 299.992,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210835315,
+      "maximumMilliseconds": 83.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T09:54:25.2022150Z",
+      "frames": 8965,
+      "seconds": 300.008,
+      "averageFPS": 29.88,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210835435,
+      "maximumMilliseconds": 100.0,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T09:59:25.2071550Z",
+      "frames": 8962,
+      "seconds": 300.004,
+      "averageFPS": 29.87,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 210999995,
+      "maximumMilliseconds": 83.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T10:25:30.8986620Z",
+      "frames": 7667,
+      "seconds": 300.014,
+      "averageFPS": 25.56,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 202676418,
+      "maximumMilliseconds": 38508.33,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T10:42:15.2414370Z",
+      "frames": 8766,
+      "seconds": 299.993,
+      "averageFPS": 29.22,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 212693939,
+      "maximumMilliseconds": 3706.45,
+      "belongsToCapturedProcessInterval": false
+    },
+    {
+      "utc": "2026-10-25T11:02:31.4782720Z",
+      "frames": 8870,
+      "seconds": 299.988,
+      "averageFPS": 29.57,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 199236571,
+      "maximumMilliseconds": 2343.59,
+      "belongsToCapturedProcessInterval": true
+    }
+  ],
+  "currentRows": [
+    {
+      "utc": "2026-10-25T11:02:31.4782720Z",
+      "frames": 8870,
+      "seconds": 299.988,
+      "averageFPS": 29.57,
+      "p95Milliseconds": 33.33,
+      "unityAllocatedBytes": 199236571,
+      "maximumMilliseconds": 2343.59,
+      "belongsToCapturedProcessInterval": true
+    }
+  ],
+  "pssKilobytes": 448981,
+  "fatalOrSaveErrorMatches": [],
+  "hasFiveMinuteSample": true
+}

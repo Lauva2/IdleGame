@@ -1,0 +1,63 @@
+﻿
+﻿
+﻿PASS prepared journey fixture journey-resin
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\journey-resin.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\journey-resin.save: 1 file pushed, 0 skipped. 11.1 MB/s (4074 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\journey-resin.save: 1 file pushed, 0 skipped. 12.8 MB/s (4074 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1278
+WaitTime: 1284
+Complete
+{'tap': [950, 160]}
+{'shot': '01-handbook'}
+{'tap': [900, 1707]}
+{'shot': '02-actual-resin-description'}
+﻿
+﻿
+﻿PASS prepared journey fixture journey-resin
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\journey-resin.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\journey-resin.save: 1 file pushed, 0 skipped. 8.5 MB/s (4074 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\journey-resin.save: 1 file pushed, 0 skipped. 6.3 MB/s (4074 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1560
+WaitTime: 1564
+Complete
+{'tap': [633, 107]}
+{'shot': '01-handbook'}
+{'tap': [600, 1178]}
+{'shot': '02-actual-resin-description'}
+﻿
+﻿
+﻿PASS prepared journey fixture journey-resin
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\journey-resin.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\journey-resin.save: 1 file pushed, 0 skipped. 9.8 MB/s (4074 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\journey-resin.save: 1 file pushed, 0 skipped. 10.8 MB/s (4074 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1919
+WaitTime: 1955
+Complete
+{'tap': [950, 244]}
+{'shot': '01-handbook'}
+{'tap': [900, 1287]}
+{'shot': '02-actual-resin-description'}

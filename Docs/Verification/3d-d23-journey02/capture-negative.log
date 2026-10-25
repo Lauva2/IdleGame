@@ -1,0 +1,60 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\blocked-full.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\blocked-full.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\blocked-full.save: 1 file pushed, 0 skipped. 9.6 MB/s (6495 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\blocked-full.save: 1 file pushed, 0 skipped. 9.6 MB/s (6495 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1524
+WaitTime: 1528
+Complete
+{'tap': [390, 300]}
+{'shot': 'blocked-full-before'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.8 MB/s (4244 bytes in 0.001s)
+/sdcard/3d-d23-journey02-blocked-full.mp4: 1 file pulled, 0 skipped. 26.4 MB/s (7874940 bytes in 0.284s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.1 MB/s (4239 bytes in 0.001s)
+{'shot': 'blocked-full-after'}
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\blocked-input.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\blocked-input.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\blocked-input.save: 1 file pushed, 0 skipped. 14.8 MB/s (6493 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\blocked-input.save: 1 file pushed, 0 skipped. 15.0 MB/s (6493 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1619
+WaitTime: 1624
+Complete
+{'tap': [660, 300]}
+{'shot': 'blocked-input-before'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.5 MB/s (4435 bytes in 0.002s)
+/sdcard/3d-d23-journey02-blocked-input.mp4: 1 file pulled, 0 skipped. 23.2 MB/s (8531871 bytes in 0.351s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.9 MB/s (4430 bytes in 0.001s)
+{'shot': 'blocked-input-after'}
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\blocked-reserve.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\blocked-reserve.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\blocked-reserve.save: 1 file pushed, 0 skipped. 10.8 MB/s (6492 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\blocked-reserve.save: 1 file pushed, 0 skipped. 12.1 MB/s (6492 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1981
+WaitTime: 1990
+Complete
+{'tap': [930, 300]}
+{'shot': 'blocked-reserve-before'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.7 MB/s (4434 bytes in 0.002s)
+/sdcard/3d-d23-journey02-blocked-reserve.mp4: 1 file pulled, 0 skipped. 24.5 MB/s (11459628 bytes in 0.445s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.1 MB/s (4441 bytes in 0.001s)
+{'shot': 'blocked-reserve-after'}

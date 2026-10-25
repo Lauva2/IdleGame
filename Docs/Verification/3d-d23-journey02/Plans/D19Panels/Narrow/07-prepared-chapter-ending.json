@@ -1,0 +1,50 @@
+{
+  "steps": [
+    {
+      "shot": "07-prepared-chapter-ending-top"
+    },
+    {
+      "swipe": [
+        567,
+        1493,
+        567,
+        1187,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        567,
+        1493,
+        567,
+        1187,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        567,
+        1493,
+        567,
+        1187,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        567,
+        1493,
+        567,
+        1187,
+        650
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "07-prepared-chapter-ending-bottom"
+    }
+  ],
+  "directory": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Panels\\Narrow"
+}

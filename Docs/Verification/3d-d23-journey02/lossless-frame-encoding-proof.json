@@ -1,0 +1,22 @@
+{
+  "source": "Evidence/fishing-motion-spots-r02.mp4",
+  "sourceRgbSha256": "7919E7BE55A58AEB982918FEF2C28FA269C87C797662393EA3888A8ABE46E0D9",
+  "scope": "Native1080x1920 sampled RGB frame compared byte-for-byte with lossless WebP decode. Explicit RGB24 matches actual indexer; no resizing, pixel editing or lossy mode.",
+  "samples": [
+    {
+      "effort": 0,
+      "seconds": 0.25,
+      "bytes": 729338,
+      "pixelSha256": "7919E7BE55A58AEB982918FEF2C28FA269C87C797662393EA3888A8ABE46E0D9",
+      "pixelsEqualNativeRgb": true
+    },
+    {
+      "effort": 3,
+      "seconds": 0.6089999999967404,
+      "bytes": 640006,
+      "pixelSha256": "7919E7BE55A58AEB982918FEF2C28FA269C87C797662393EA3888A8ABE46E0D9",
+      "pixelsEqualNativeRgb": true
+    }
+  ],
+  "probeR01": "Local benchmark first omitted explicit RGB24 and used source YUV conversion; assertion failed, output preserved in Builds/Analysis/d23-lossless-benchmark, never used as evidence. This probe conforms to actual indexer RGB24 pipeline."
+}

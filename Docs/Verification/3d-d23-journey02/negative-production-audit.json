@@ -1,0 +1,36 @@
+{
+  "scope": "Actual three prepared negative20sec recording intervals; counters remain unchanged. Independent reviewer separately checks no false visual feedback.",
+  "samples": [
+    {
+      "case": "blocked-full",
+      "scope": "Counter/configuration negative check, not a complete all-field replay or exact visual trigger proof.",
+      "seconds": 20.004183256845867,
+      "targetCounter": "harvests",
+      "delta": 0,
+      "allProductionCountersUnchanged": true,
+      "fishingUnchanged": true,
+      "configurationsUnchanged": true
+    },
+    {
+      "case": "blocked-input",
+      "scope": "Counter/configuration negative check, not a complete all-field replay or exact visual trigger proof.",
+      "seconds": 20.041663247160614,
+      "targetCounter": "crafts",
+      "delta": 0,
+      "allProductionCountersUnchanged": true,
+      "fishingUnchanged": true,
+      "configurationsUnchanged": true
+    },
+    {
+      "case": "blocked-reserve",
+      "scope": "Counter/configuration negative check, not a complete all-field replay or exact visual trigger proof.",
+      "seconds": 20.0458499126471,
+      "targetCounter": "sales",
+      "delta": 0,
+      "allProductionCountersUnchanged": true,
+      "fishingUnchanged": true,
+      "configurationsUnchanged": true
+    }
+  ],
+  "allPassed": true
+}

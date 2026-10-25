@@ -1,0 +1,96 @@
+{
+  "scope": "Explicit prepared states, actual APK inputs. Full economic replay plus no paid/collected/delivered/configured/fish change. Position and visited flags may legitimately change on navigation; not claimed immutable. Timing/visual window requires native movie inspection.",
+  "allPassed": true,
+  "variants": [
+    {
+      "variant": "journey-entry",
+      "elapsed": 50.10006241764495,
+      "checks": {
+        "fullEconomicReplay": true,
+        "noMoneyBeyondSales": true,
+        "noGatherOrDiscovery": true,
+        "noRepairOrDelivery": true,
+        "fishUnchanged": true,
+        "configurationUnchanged": true
+      }
+    },
+    {
+      "variant": "journey-berry",
+      "elapsed": 50.091554164129775,
+      "checks": {
+        "fullEconomicReplay": true,
+        "noMoneyBeyondSales": true,
+        "noGatherOrDiscovery": true,
+        "noRepairOrDelivery": true,
+        "fishUnchanged": true,
+        "configurationUnchanged": true
+      }
+    },
+    {
+      "variant": "journey-dew",
+      "elapsed": 50.10557971266462,
+      "checks": {
+        "fullEconomicReplay": true,
+        "noMoneyBeyondSales": true,
+        "noGatherOrDiscovery": true,
+        "noRepairOrDelivery": true,
+        "fishUnchanged": true,
+        "configurationUnchanged": true
+      }
+    },
+    {
+      "variant": "journey-resin",
+      "elapsed": 50.075331597825425,
+      "checks": {
+        "fullEconomicReplay": true,
+        "noMoneyBeyondSales": true,
+        "noGatherOrDiscovery": true,
+        "noRepairOrDelivery": true,
+        "fishUnchanged": true,
+        "configurationUnchanged": true
+      }
+    },
+    {
+      "variant": "journey-partial",
+      "elapsed": 50.058471134558204,
+      "checks": {
+        "fullEconomicReplay": true,
+        "noMoneyBeyondSales": true,
+        "noGatherOrDiscovery": true,
+        "noRepairOrDelivery": true,
+        "fishUnchanged": true,
+        "configurationUnchanged": true
+      }
+    },
+    {
+      "variant": "journey-complete",
+      "elapsed": 50.07650651488075,
+      "checks": {
+        "fullEconomicReplay": true,
+        "noMoneyBeyondSales": true,
+        "noGatherOrDiscovery": true,
+        "noRepairOrDelivery": true,
+        "fishUnchanged": true,
+        "configurationUnchanged": true
+      }
+    },
+    {
+      "variant": "journey-deliver",
+      "elapsed": 50.07194848366999,
+      "checks": {
+        "fullEconomicReplay": true,
+        "noMoneyBeyondSales": true,
+        "noGatherOrDiscovery": true,
+        "noRepairOrDelivery": true,
+        "fishUnchanged": true,
+        "configurationUnchanged": true
+      }
+    }
+  ],
+  "singleCompletionWindow": {
+    "elapsed": 40.074993174988776,
+    "harvestDelta": 0,
+    "craftDelta": 1,
+    "salesDelta": 0
+  }
+}

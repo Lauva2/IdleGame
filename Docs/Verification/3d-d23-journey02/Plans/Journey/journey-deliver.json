@@ -1,0 +1,116 @@
+{
+  "directory": "Docs/Verification/3d-d23-journey02/Evidence/Journey/journey-deliver",
+  "steps": [
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "shot": "01-handbook"
+    },
+    {
+      "tap": [
+        900,
+        1287
+      ]
+    },
+    {
+      "shot": "02-main-destination"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1519
+      ]
+    },
+    {
+      "shot": "03-secondary-destination"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        900,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        900,
+        300
+      ]
+    },
+    {
+      "shot": "04-fish-progress"
+    },
+    {
+      "tap": [
+        850,
+        650
+      ]
+    },
+    {
+      "shot": "05-clue-or-record-top"
+    },
+    {
+      "swipe": [
+        1000,
+        1740,
+        1000,
+        1050,
+        600
+      ]
+    },
+    {
+      "swipe": [
+        1000,
+        1740,
+        1000,
+        1050,
+        600
+      ]
+    },
+    {
+      "swipe": [
+        1000,
+        1740,
+        1000,
+        1050,
+        600
+      ]
+    },
+    {
+      "swipe": [
+        1000,
+        1740,
+        1000,
+        1050,
+        600
+      ]
+    },
+    {
+      "shot": "06-clue-or-record-footer"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        180,
+        1850
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "steps": [
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "shot": "01-empty-reserved-shelf-symbols"
+    },
+    {
+      "tap": [
+        200,
+        1690
+      ]
+    },
+    {
+      "shot": "02-empty-reserved-written-status"
+    },
+    {
+      "tap": [
+        540,
+        1850
+      ]
+    },
+    {
+      "shot": "03-shortage-order"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d23-journey02/Evidence/Legacy"
+}

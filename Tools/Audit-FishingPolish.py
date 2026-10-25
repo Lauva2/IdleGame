@@ -31,7 +31,9 @@ for folder,name in sources:
         if sequence in history:consistent &= history[sequence]==fish
         history[sequence]=fish
 f=after['fishing'];checks={}
-checks['ordinary_catches_advance_from_latest_previous_candidate']=f['totalCaught']>before['fishing']['totalCaught']==23
+prior_latest_name='normal-restorable.save' if (prior/'normal-restorable.save').is_file() else 'ordinary-continuous-end.save'
+prior_latest,_=read(prior,prior_latest_name)
+checks['ordinary_catches_advance_from_latest_previous_candidate']=f['totalCaught']>before['fishing']['totalCaught']==prior_latest['fishing']['totalCaught'] and same(before['fishing'],prior_latest['fishing'])
 checks['all_actual_ids_unique_contiguous_and_unchanged']=consistent and sorted(history)==list(range(1,f['totalCaught']+1))
 checks['actual_recent_limit_retains_latest_thirty']=len(f['recent'])==min(30,f['totalCaught']) and [x['sequence'] for x in f['recent']]==list(range(f['totalCaught'],max(0,f['totalCaught']-30),-1))
 checks['all_species_aggregates_match_actual_history']=True

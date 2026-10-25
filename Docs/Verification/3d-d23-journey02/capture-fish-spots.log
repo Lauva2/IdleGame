@@ -1,0 +1,42 @@
+﻿
+﻿
+﻿PASS prepared review fixture fishing-filled
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-filled.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 15.5 MB/s (7029 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 16.0 MB/s (7029 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1234
+WaitTime: 1241
+Complete
+{'tap': [150, 410]}
+{'tap': [540, 300]}
+{'shot': '40-deep-water-map-actual-entry'}
+{'tap': [320, 1380]}
+{'tap': [540, 1530]}
+{'shot': '41-deep-water-grass-wait'}
+{'wait': 14}
+{'shot': '42-deep-water-actual-catch'}
+{'tap': [590, 1630]}
+{'shot': '43-deep-water-individual-location-and-bait'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.6 MB/s (7069 bytes in 0.004s)
+{'back': True}
+{'tap': [180, 300]}
+{'shot': '44-shallows-map'}
+{'tap': [860, 880]}
+{'tap': [180, 1530]}
+{'shot': '45-shallows-grain-wait'}
+{'wait': 14}
+{'shot': '46-shallows-actual-catch'}
+{'tap': [590, 1630]}
+{'shot': '47-shallows-individual-location-and-bait'}
+{'back': True}
+{'shot': '48-restored-forest-markers'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.3 MB/s (7067 bytes in 0.002s)
+/sdcard/3d-d23-journey02-fishing-motion-spots-r02.mp4: 1 file pulled, 0 skipped. 19.5 MB/s (29212935 bytes in 1.431s)

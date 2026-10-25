@@ -110,7 +110,7 @@ namespace ForestShop
             {
                 var b = forestBursts[i] = new ForestBurst(); b.root = Group(worldRoot, "Discovery receipt " + i);
                 b.token = Group(b.root, "Gathered material"); b.variants = new Transform[3];
-                for (int j = 0; j < 3; j++) { b.variants[j] = ForestModels.Crop(b.token, j + 4); b.variants[j].localScale = Vector3.one * .5f; b.variants[j].gameObject.SetActive(false); }
+                for (int j = 0; j < 3; j++) { b.variants[j] = ForestModels.Crop(b.token, j + 4); b.variants[j].localScale = Vector3.one * .72f; b.variants[j].gameObject.SetActive(false); }
                 b.ring = Ring(b.root, "Discovery receipt halo", Vector3.zero, .62f, .04f, Cream); b.root.gameObject.SetActive(false);
             }
         }
@@ -265,6 +265,7 @@ namespace ForestShop
             var position = anchor.position + V(0, 1.4f, -.3f); var uv = worldCamera.WorldToViewportPoint(position);
             if (uv.z <= 0 || uv.x < .03f || uv.x > .97f || uv.y < .08f || uv.y > .96f || !anchor.gameObject.activeInHierarchy) return;
             var b = forestBursts[index]; b.start = Time.unscaledTime; b.root.position = position; b.root.gameObject.SetActive(true);
+            b.root.localScale = Vector3.one * Mathf.Clamp(worldCamera.orthographicSize / 7f, 1, 2.1f);
             for (int i = 0; i < 3; i++) b.variants[i].gameObject.SetActive(notice.Item == i + 4);
             b.root.localRotation = Quaternion.identity; b.token.localPosition = V(0, .25f, 0); b.ring.localScale = Vector3.one;
         }
@@ -274,7 +275,7 @@ namespace ForestShop
             foreach (var b in forestBursts)
             {
                 if (b == null || !b.root.gameObject.activeSelf) continue;
-                float t = (Time.unscaledTime - b.start) / 1.5f;
+                float t = (Time.unscaledTime - b.start) / 1.85f;
                 if (t >= 1 || state.report.pending || !worldCamera.enabled) { b.root.gameObject.SetActive(false); continue; }
                 if (state.simpleAnimation) continue;
                 b.token.localPosition = V(0, .25f + Mathf.Sin(t * Mathf.PI) * .55f, 0);

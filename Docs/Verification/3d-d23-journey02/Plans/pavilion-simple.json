@@ -1,0 +1,35 @@
+{
+  "directory": "Docs/Verification/3d-d23-journey02/Evidence/Pavilion",
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "shot": "simple-01-actual-map"
+    },
+    {
+      "tap": [
+        780,
+        1250
+      ]
+    },
+    {
+      "shot": "simple-02-pavilion-wait"
+    },
+    {
+      "tap": [
+        930,
+        1530
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "simple-03-actual-berry-bait-catch"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "directory": "Docs/Verification/3d-d23-journey02/Evidence/Ordinary",
+  "steps": [
+    {
+      "shot": "05-background-report"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        1140,
+        500,
+        600
+      ]
+    },
+    {
+      "shot": "06-background-report-bottom"
+    }
+  ]
+}

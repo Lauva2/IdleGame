@@ -1,0 +1,67 @@
+{
+  "candidate": "3d-d23-journey02",
+  "utc": "2026-10-25T12:16:34.513575+00:00",
+  "apkSha256": "4DD7D6EDC43ADCA32363A3CDA0F8C7C7353CE68C69BD2ECB4B7E6CF0CF025BE1",
+  "apkBytes": 45596054,
+  "frozenSourceInputs": 201,
+  "sourceManifestSha256": "1F4ED2CAB8A287388184F2E0C186F96E06ACC7EE3C2CC691482CD2B180495B4C",
+  "sourceArchiveSha256": "709D780ADF3F423CD5FF46600F87CCD2A107C7396E1E7BC2BC7B28918F463908",
+  "installedFinalSameSha": true,
+  "sourceMovies": 42,
+  "sourcePngs": 364,
+  "sourceMedia": 406,
+  "movieSeconds": 2024.28,
+  "sampledFrames": 8325,
+  "frameExtensions": {
+    ".png": 5417,
+    ".webp": 2908
+  },
+  "totalIndexedMedia": 8731,
+  "deferredSourceFiles": 0,
+  "frameFormat": "lossless PNG and lossless RGB WebP",
+  "selectedUntouchedPngs": 61,
+  "samplingRule": "shop-closeup*, initial-flow* and fishing-motion* basenames 10FPS, all other MP4 basenames 2FPS",
+  "scope": "All current source PNG/MP4 and completed native lossless RGB sampled frames indexed. Hash coverage does not mean every frame visually reviewed. Partial high-effort output and failed benchmark remain local, explicitly excluded; no original retouch, crop, resize or overwrite.",
+  "indexes": [
+    {
+      "file": "media-index.csv",
+      "bytes": 1934506,
+      "sha256": "E21F31405E7799D23ECEFB469B3015A02779258F1E3AF41675F4C112CB40E65E"
+    },
+    {
+      "file": "frame-index.csv",
+      "bytes": 2243446,
+      "sha256": "933F767223D12C1A7B69467F1388EB31CEE6D1B1175D846CD4D6DD4FF8E30693"
+    },
+    {
+      "file": "video-metadata.json",
+      "bytes": 21272,
+      "sha256": "C0AEF934B3C17C6A83BA2EB1852097FC069A13AA80823C411EE6980C9C85F71D"
+    },
+    {
+      "file": "local-frame-storage.json",
+      "bytes": 24743,
+      "sha256": "529D16506B10C4097D04E5A04EB5F3E6D69D297E6AD9C30D9A43B4DCD3805702"
+    },
+    {
+      "file": "selected-originals.json",
+      "bytes": 23018,
+      "sha256": "10EB59EA15C8E3645D36FD9D7685FA0AF0D70B7F2045EA340F7136906FB98AFC"
+    },
+    {
+      "file": "build-info.json",
+      "bytes": 1053,
+      "sha256": "FC556F3EB36C334621EEB8D6725ACC7695CD1D84F51D52FB97BA71AB375BC9A0"
+    },
+    {
+      "file": "source-files.sha256",
+      "bytes": 21631,
+      "sha256": "1F4ED2CAB8A287388184F2E0C186F96E06ACC7EE3C2CC691482CD2B180495B4C"
+    },
+    {
+      "file": "ordinary-final-audit.json",
+      "bytes": 1327,
+      "sha256": "58860FC68933B32C5510002F600C0EC77C9A5164927190813AE0E4C1AB3A83FD"
+    }
+  ]
+}

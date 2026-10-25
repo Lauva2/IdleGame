@@ -1,4 +1,4 @@
-param([string]$Folder='Docs/Verification/3d-d21-forest05')
+param([string]$Folder='Docs/Verification/3d-d21-forest05',[switch]$JourneyLayout)
 $ErrorActionPreference='Stop';Set-Location (Split-Path -Parent $PSScriptRoot)
 $serial=if($env:FOREST_ADB_SERIAL){$env:FOREST_ADB_SERIAL}else{'127.0.0.1:16384'}
 $adb=(Resolve-Path Tools/AndroidSdk/platform-tools/adb.exe).Path
@@ -16,6 +16,9 @@ $tmp=& $adb -P 5038 -s $serial shell ls ($base+'.tmp') 2>$null
 if($LASTEXITCODE -eq 0){A @('pull',($base+'.tmp'),"$qa/prepared-last-before-restore.save.tmp");A @('shell','mv',($base+'.tmp'),($base+'.review-preserved-temp'))}
 foreach($suffix in @('','.bak')){A @('push',"$qa/normal-restorable.save$suffix",($base+$suffix))}
 A @('shell','sha256sum',$base,($base+'.bak'))|Set-Content "$qa/ordinary-restored-device-sha256.txt"
+$deviceHashes=Get-Content -LiteralPath "$qa/ordinary-restored-device-sha256.txt"
+$expectedHashes=@('','.bak')|ForEach-Object{(Get-FileHash -LiteralPath "$qa/normal-restorable.save$_" -Algorithm SHA256).Hash}
+for($i=0;$i -lt 2;$i++){if(-not $deviceHashes[$i].StartsWith($expectedHashes[$i],[StringComparison]::OrdinalIgnoreCase)){throw 'Actual restored device bytes differ from protected ordinary pair'}}
 $monoRoot='C:/Program Files/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/MonoBleedingEdge';$core=Get-ChildItem -LiteralPath Assets/Scripts/Core -Filter '*.cs'|Select-Object -ExpandProperty FullName
 & "$monoRoot/bin/mono.exe" "$monoRoot/lib/mono/4.5/csc.exe" /nologo /langversion:9 /out:Tools/TestOutput/CompareOffline.exe ('/r:'+$monoRoot+'/lib/mono/4.5/System.Web.Extensions.dll') @core Tools/Compare-AndroidOffline.cs
 if($LASTEXITCODE -ne 0){throw 'Restore verifier compilation failed'}
@@ -28,7 +31,8 @@ if($LASTEXITCODE -ne 0){throw 'Latest ordinary restoration did not replay correc
 $record.WaitForExit();if($record.ExitCode -ne 0){throw 'Final startup recorder failed'}
 A @('pull',$remote,"$qa/Evidence/final-startup.mp4")
 $steps=@(@{shot='40-final-ordinary-report'});for($i=0;$i -lt 5;$i++){$steps+=@{swipe=@(850,1740,850,1040,650)}}
-$steps+=@(@{shot='41-final-ordinary-report-bottom'},@{tap=@(850,1780)},@{tap=@(900,1850)},@{tap=@(900,300)},@{tap=@(535,515)},@{shot='42-final-ordinary-fish-progress'},@{tap=@(180,1850)},@{shot='43-final-ordinary-overview'})
+$filterY=if($JourneyLayout){751}else{515}
+$steps+=@(@{shot='41-final-ordinary-report-bottom'},@{tap=@(850,1780)},@{tap=@(900,1850)},@{wait=2},@{tap=@(900,300)},@{wait=3},@{tap=@(535,$filterY)},@{shot='42-final-ordinary-fish-progress'},@{tap=@(180,1850)},@{shot='43-final-ordinary-overview'})
 @{directory="$Folder/Evidence/Ordinary";steps=$steps}|ConvertTo-Json -Depth 6|Set-Content "$qa/Plans/final-ordinary-restore.json"
 & $python Tools/Forest-DeviceReview.py "$qa/Plans/final-ordinary-restore.json"
 if($LASTEXITCODE -ne 0){throw 'Actual final ordinary UI capture failed'}

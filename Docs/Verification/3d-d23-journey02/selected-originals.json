@@ -1,0 +1,558 @@
+{
+  "candidate": "3d-d23-journey02",
+  "apkSha256": "4DD7D6EDC43ADCA32363A3CDA0F8C7C7353CE68C69BD2ECB4B7E6CF0CF025BE1",
+  "scope": "Selected untouched ADB framebuffer PNGs for version control. Native dimensions and original bytes retained; other originals/videos/complete sampled frames stay local with SHA indexes. Selection is not a claim that all artwork passed.",
+  "files": 61,
+  "bytes": 40803489,
+  "originals": [
+    {
+      "path": "Evidence/Journey/journey-entry/01-handbook.png",
+      "bytes": 781415,
+      "sha256": "3AC3AEE79ACA3001ADA6453A2C3D60E1508286BD07DDEB9E8D9AF3B0E1314AD1",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Journey/journey-berry/01-handbook.png",
+      "bytes": 759717,
+      "sha256": "2A8381921C3E72466A810EDD68A5516F0CE5EA54ADFB7484EDBA761DCA865F77",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Journey/journey-berry/02-main-destination.png",
+      "bytes": 591751,
+      "sha256": "1A80BB8CBEF89E7BA2B116BFE6EF47FB4B59CF0709EFC6CC2668816F86394B48",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Journey/journey-dew/01-handbook.png",
+      "bytes": 755299,
+      "sha256": "5B742770D1D113E63821A5E4187DDE2A18DF9523C33F0D3CAD7C6F2B926C7459",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Journey/journey-dew/02-main-destination.png",
+      "bytes": 588485,
+      "sha256": "4041BDB202368696FDCDD6E4737A57FCF3CE9C2D6F2F10F1FB06222DE5CAE763",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Journey/journey-resin/01-handbook.png",
+      "bytes": 759591,
+      "sha256": "68D2412AAD7A9D800FB10191DBB57F2A74B63940B6B135EE0183E138EE132A19",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Journey/journey-resin/02-main-destination.png",
+      "bytes": 553279,
+      "sha256": "1EB673CDD519850E93881352629A3BECB779721B4DDD25953A4AF77466AC0B0C",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Journey/journey-deliver/01-handbook.png",
+      "bytes": 754742,
+      "sha256": "E80F04409A83893D2A36C992AD7BB63C9EE3FCC16C19F195623C926759D86940",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Journey/journey-deliver/02-main-destination.png",
+      "bytes": 252296,
+      "sha256": "2991FA692CB24FA3E31BF504928C010BE9CBAC1061405A49E2AF418685636649",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Journey/journey-entry/07-locked-habitat-condition.png",
+      "bytes": 232600,
+      "sha256": "DED959E4F684305741E68E7A5A8325D1584BDDBBCD28B561D66D3E2080538EAA",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Journey/journey-partial/04-fish-progress.png",
+      "bytes": 228471,
+      "sha256": "747E6693A2035CB2DFDB71263BAC15A2D0C699628037AA67625266B4D422C1A1",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Journey/journey-complete/04-fish-progress.png",
+      "bytes": 231894,
+      "sha256": "C768B980EAB00F6DB561CD3B42E0A217863EB88899D20D8AD7374564C3F29B37",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Journey/journey-complete/06-clue-or-record-footer.png",
+      "bytes": 242734,
+      "sha256": "65ADB5745E399A3BC09E56716BECCFDF53548B4D65D10BD90A3BC77FC9D14E38",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/FishFit/Long/14-handbook.png",
+      "bytes": 936697,
+      "sha256": "8573200184BBC3D962AB7CD88B0B9D8C48B45E482B8DF727851F3C46A14B4264",
+      "width": 1080,
+      "height": 2340,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/14-handbook.png",
+      "bytes": 543587,
+      "sha256": "208AFA679E78D19F67AE0F41D44F430980E5551149F9E7B5B12054BA8567628C",
+      "width": 720,
+      "height": 1600,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/14-handbook.png",
+      "bytes": 505632,
+      "sha256": "A5B00FAB74A256C064AE7A634FE3A3EFF29FE8CD9033A30B3BBBFA5CD5E41909",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/03-species-four-quality-bottom.png",
+      "bytes": 210559,
+      "sha256": "5FA6BFB5A4682DF4D49B645C60526F086B426A0F6A0FB998980065BF49DEA404",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/17-chapter-progress-footer.png",
+      "bytes": 369756,
+      "sha256": "78567B1AAD6302E0529BEA372874792E4AE70E3A90FE0A0C7732BA99B66B8053",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/ResinFit/Narrow/02-actual-resin-description.png",
+      "bytes": 525419,
+      "sha256": "1FFF17F60CE59DCC61B96ABDD1CA7C9CCAA1B849DEACBD51AD1C7F08D821180B",
+      "width": 720,
+      "height": 1600,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/FacilitiesFit/Default-workshop/04-warehouse-actual-upgrade-footer.png",
+      "bytes": 648311,
+      "sha256": "F70834EA72D3E6B199E4EF8D821EB09E946E204F675AC3B3F13E5183B6B50CD8",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/FacilitiesFit/SafeTall-garden/02-actual-facilities-bottom.png",
+      "bytes": 474699,
+      "sha256": "C9992257A4BA5F972EAD145A5F2794D4360319F9EE0EFC96AFF56A06F6F393EA",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/FacilitiesFit/Default-shop/02-actual-facilities-bottom.png",
+      "bytes": 877752,
+      "sha256": "3D33D42F6D36340942A8EF081736F7BF407612590CAC0A6B0D3845E83225C8B1",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-00-top.png",
+      "bytes": 222997,
+      "sha256": "DA018EB3DC8F08F54EA8517F9C9CC7FB961B2FD0BD5653B7D5AF1073A0F2E1ED",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-01-top.png",
+      "bytes": 224754,
+      "sha256": "FD2818708539FD1BC9198A4913F161B688F5AC489BE0EEE218A5BBF14E9B5F89",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-02-top.png",
+      "bytes": 211444,
+      "sha256": "FB83C59C55CBEE7AB5ACCBF67F47F63B392E820CEA9E0BC2B9EB946567200487",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-03-top.png",
+      "bytes": 240076,
+      "sha256": "F088625BC311CAB2142BAF08AA00E53AEF2BDB23D856F229BB1E941ABFB5630E",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-04-top.png",
+      "bytes": 231024,
+      "sha256": "1033E2237B63D96128AA626B589F54C19CF601383480C279E91556BB75C7175C",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-05-top.png",
+      "bytes": 238119,
+      "sha256": "66BE2FAE248E765F48827631663BE5C92DC111E481B53D778E8E1349381F4683",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-06-top.png",
+      "bytes": 248713,
+      "sha256": "D2749E1A6243830F9F90F7CDA012D0E26BE83A3688BC199B1DFE3CA533C1E914",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-07-top.png",
+      "bytes": 229895,
+      "sha256": "528D10160AF7CBA06E409D0BDBDB1EA03EA7F0E2DDDF55BC402340C71254C440",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-08-top.png",
+      "bytes": 234243,
+      "sha256": "8E36BE40DD506A3EEA705E8B404ACB22575255B1511FC1C904C82243A0A15FB2",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-09-top.png",
+      "bytes": 242162,
+      "sha256": "8F09BA38A3C6FBE70F6FDA33D3D22E9396042DC623B65D1812AAB4CC52123B2F",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-10-top.png",
+      "bytes": 222608,
+      "sha256": "BB6B27502DB4FB58CD7B285C688C139BE41887975EC7262FC51C9266E7A0F226",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-11-top.png",
+      "bytes": 242243,
+      "sha256": "043E5B57A2B9F4553B232967153FF6B1AF14A5689732D160A08BCD8D9221109C",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Notices-r01/new-actual-first-landed.png",
+      "bytes": 844481,
+      "sha256": "421130A9396A7D85FA66A307C61ED44BA442FA4CFC395E09869B252A4377D087",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Notices-r01/length-actual-first-landed.png",
+      "bytes": 846408,
+      "sha256": "22AA705BBB12E0B53986384B0DDB89D86137F3C8F61DEAA39A0DF8EC31D3F6EB",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Notices-r01/weight-actual-first-landed.png",
+      "bytes": 845884,
+      "sha256": "FD2BFD2D9D3D33A79B29D1C7468C1078974C8A52B657AA4CEF9EAB627407429A",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Notices-r01/both-actual-first-landed.png",
+      "bytes": 848168,
+      "sha256": "4C18B11B87EBC6A671D39B41609666A1C0281E2BCBD91690BF8DD28B4B806C9D",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Notices-r01/ordinary-actual-first-landed.png",
+      "bytes": 845750,
+      "sha256": "CA9EE21506C7C16948988D0C3D0020E94E8B619D6A9F92107A96AB0752CEBE0C",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Qualities/q0-actual-first-landed.png",
+      "bytes": 836744,
+      "sha256": "63ACC2EE20CFC24127B83AD29AD513D0949D5FAEB8738730864F9270983E2722",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Qualities/q1-actual-first-landed.png",
+      "bytes": 845864,
+      "sha256": "4F6B78B77C8AC060B6224EE5BD29E8C940413302590F8EF71D7328D58CF97594",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Qualities/q2-actual-first-landed.png",
+      "bytes": 844294,
+      "sha256": "05A34670733459410AAB9C7DAB8F4516B7A3422917B3985E2B492797DE0E7844",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Qualities/q3-actual-first-landed.png",
+      "bytes": 849592,
+      "sha256": "B9B0FFF8EEB1F1AC205F31C5E336F3DEF2414EA9AC89AEDFD2005F5D8ED3A733",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Pavilion/filled-03-actual-berry-bait-catch.png",
+      "bytes": 906785,
+      "sha256": "79B143B7F3B4B29D2411019AE2BE49EB900518E34FBCBF0FB774DC934E9CCAD0",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Pavilion/simple-03-actual-berry-bait-catch.png",
+      "bytes": 897777,
+      "sha256": "D11A3904501142E534129B8459DE8FA180AB2DF92F0504FC71E6369D75C7188F",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/FishingSpots-r02/41-deep-water-grass-wait.png",
+      "bytes": 889654,
+      "sha256": "F8822DBDB711DCAFE28490456AC6F5C419C5BE243FC8AEA043F7677FC282E0BD",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/FishingSpots-r02/43-deep-water-individual-location-and-bait.png",
+      "bytes": 621544,
+      "sha256": "2C8B26FB39FF607F42920F352493AE9A9DE2CE5C12DD2DDB5864E287411B3E75",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/FishingSpots-r02/47-shallows-individual-location-and-bait.png",
+      "bytes": 637725,
+      "sha256": "C18B26FD2DC9037B96CACFE53B108B69C4C6AE4563BCB66CC8161A95C9A0D4BA",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Ordinary/41-final-ordinary-report-bottom.png",
+      "bytes": 786008,
+      "sha256": "EF78A5FA7D0B9E58AFD81B1A185A1C5D151C010F6A1858D2E1198D803E9B18EB",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": true,
+      "scope": "actual ordinary restored game"
+    },
+    {
+      "path": "Evidence/Ordinary/42-final-ordinary-fish-progress.png",
+      "bytes": 218645,
+      "sha256": "24186E7D837C0E0367954AB73345943A2C441C42F5533E11A83A524175872313",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": true,
+      "scope": "actual ordinary restored game"
+    },
+    {
+      "path": "Evidence/Ordinary/43-final-ordinary-overview.png",
+      "bytes": 1658732,
+      "sha256": "41A238879B652A15118490F0AEDE2ECE456968693871668A717CA592AADD4AB2",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": true,
+      "scope": "actual ordinary restored game"
+    },
+    {
+      "path": "Evidence/Initial/07-real-income.png",
+      "bytes": 1282487,
+      "sha256": "12C2AE5F8B722AEA62C043E11BB25BEBAC81DC2E81BA5F195F54FBD029703F7F",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Market/06-all-new-products-bottom.png",
+      "bytes": 250882,
+      "sha256": "5974F6A210F50DE65AE11B128387FB174D1C7C4088FE5673CCF3B30C4FCA5F35",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Forest/07-greenhouse-actual-repair.png",
+      "bytes": 1110161,
+      "sha256": "BDA1396D8D32FEB4629CAE21F475446FB2DF353E87423102F3D5ED51A1F803C1",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Forest/14-pavilion-terrace-books-tea-benches.png",
+      "bytes": 1374317,
+      "sha256": "786F8EDB5DB3C23BA85D19545F3C4C66842A6B41CBC16FBBE7FB3A2DA095D12E",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Forest/22-actual-resin-gather.png",
+      "bytes": 1401206,
+      "sha256": "707FEBD16E456819989E5A4563B8984CA966854DAFE272AA44A1766931F41904",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Legacy/05-basic-sign-pot.png",
+      "bytes": 1322302,
+      "sha256": "3F119A2852BDDF098A8952A19DE065D4723660217CBF946142408F64DA2720C5",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Legacy/08-reward-sign-pot.png",
+      "bytes": 1344675,
+      "sha256": "E43974DC4C1C5CF3F60D8F5C532C70BA73672952B453064287B2721EC4D76128",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Window/01-before-single-completion.png",
+      "bytes": 1348795,
+      "sha256": "41225B77861E1035F46EB6CA3A50D9E192490FB46CE33EE4DB07765F43A89B16",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/Window/02-after-quiet-window.png",
+      "bytes": 1348279,
+      "sha256": "576C46FC49C3CDBE5A7C68C15252597B3073C8F2A3FD8CF373D0379546A7C0E0",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    },
+    {
+      "path": "Evidence/ZoomSales/02-closest-after-sales.png",
+      "bytes": 1183366,
+      "sha256": "12E2B03C4FB5EF109D58B4CD1FF53756A9A9D819F5A79FE8CBEA2EC49FB2191B",
+      "width": 1080,
+      "height": 1920,
+      "ordinaryProgress": false,
+      "scope": "isolated prepared state, actual APK UI/gameplay; excluded from ordinary progression"
+    }
+  ]
+}

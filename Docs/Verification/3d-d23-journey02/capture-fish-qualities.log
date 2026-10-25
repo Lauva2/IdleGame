@@ -1,0 +1,116 @@
+﻿
+﻿
+﻿PASS prepared review fixture fishing-seed-q0
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-seed-q0.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-seed-q0.save: 1 file pushed, 0 skipped. 9.7 MB/s (4006 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-seed-q0.save: 1 file pushed, 0 skipped. 10.6 MB/s (4006 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1244
+WaitTime: 1250
+Complete
+{'tap': [150, 410]}
+{'tap': [860, 880]}
+{'shot': 'q0-wait'}
+{'wait': 14}
+{'shot': 'q0-actual-first-landed'}
+{'tap': [590, 1630]}
+{'shot': 'q0-individual-detail-top'}
+{'swipe': [850, 1740, 850, 1050, 700]}
+{'swipe': [850, 1740, 850, 1050, 700]}
+{'shot': 'q0-individual-detail-bottom'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.8 MB/s (4154 bytes in 0.002s)
+/sdcard/3d-d23-journey02-fishing-quality-q0.mp4: 1 file pulled, 0 skipped. 12.2 MB/s (14497077 bytes in 1.129s)
+﻿
+﻿
+﻿PASS prepared review fixture fishing-seed-q1
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-seed-q1.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-seed-q1.save: 1 file pushed, 0 skipped. 7.3 MB/s (4006 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-seed-q1.save: 1 file pushed, 0 skipped. 10.7 MB/s (4006 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1391
+WaitTime: 1408
+Complete
+{'tap': [150, 410]}
+{'tap': [860, 880]}
+{'shot': 'q1-wait'}
+{'wait': 14}
+{'shot': 'q1-actual-first-landed'}
+{'tap': [590, 1630]}
+{'shot': 'q1-individual-detail-top'}
+{'swipe': [850, 1740, 850, 1050, 700]}
+{'swipe': [850, 1740, 850, 1050, 700]}
+{'shot': 'q1-individual-detail-bottom'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.6 MB/s (4159 bytes in 0.002s)
+/sdcard/3d-d23-journey02-fishing-quality-q1.mp4: 1 file pulled, 0 skipped. 21.8 MB/s (13377112 bytes in 0.585s)
+﻿
+﻿
+﻿PASS prepared review fixture fishing-seed-q2
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-seed-q2.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-seed-q2.save: 1 file pushed, 0 skipped. 7.4 MB/s (4006 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-seed-q2.save: 1 file pushed, 0 skipped. 7.6 MB/s (4006 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1327
+WaitTime: 1333
+Complete
+{'tap': [150, 410]}
+{'tap': [860, 880]}
+{'shot': 'q2-wait'}
+{'wait': 14}
+{'shot': 'q2-actual-first-landed'}
+{'tap': [590, 1630]}
+{'shot': 'q2-individual-detail-top'}
+{'swipe': [850, 1740, 850, 1050, 700]}
+{'swipe': [850, 1740, 850, 1050, 700]}
+{'shot': 'q2-individual-detail-bottom'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.0 MB/s (4170 bytes in 0.002s)
+/sdcard/3d-d23-journey02-fishing-quality-q2.mp4: 1 file pulled, 0 skipped. 18.1 MB/s (14516904 bytes in 0.764s)
+﻿
+﻿
+﻿PASS prepared review fixture fishing-seed-q3
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-seed-q3.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-seed-q3.save: 1 file pushed, 0 skipped. 5.7 MB/s (4007 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\fishing-seed-q3.save: 1 file pushed, 0 skipped. 8.3 MB/s (4007 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1364
+WaitTime: 1370
+Complete
+{'tap': [150, 410]}
+{'tap': [860, 880]}
+{'shot': 'q3-wait'}
+{'wait': 14}
+{'shot': 'q3-actual-first-landed'}
+{'tap': [590, 1630]}
+{'shot': 'q3-individual-detail-top'}
+{'swipe': [850, 1740, 850, 1050, 700]}
+{'swipe': [850, 1740, 850, 1050, 700]}
+{'shot': 'q3-individual-detail-bottom'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.7 MB/s (4162 bytes in 0.001s)
+/sdcard/3d-d23-journey02-fishing-quality-q3.mp4: 1 file pulled, 0 skipped. 19.5 MB/s (14907938 bytes in 0.728s)

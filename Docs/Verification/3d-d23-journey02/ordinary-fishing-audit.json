@@ -1,0 +1,23 @@
+{
+  "scope": "Only actual ordinary snapshots, before any prepared fixture. Earlier candidate catches retain their original identity. Full reconstructed history verifies aggregates beyond30 recent entries; no natural probability or full-release acceptance claim.",
+  "beforeSha256": "06B8D4F0841129749D8CCA20282D448986A1E1923908B687FA44EA465A513C2F",
+  "afterSha256": "86F8BDF0D0CFB72269E1EFA241CCB2F16BA19B6310CD8468D5CE1067209953F6",
+  "incomingFish": 39,
+  "fish": 50,
+  "newFishInThisCandidate": 11,
+  "discovered": 6,
+  "coins": 984776,
+  "checks": {
+    "ordinary_catches_advance_from_latest_previous_candidate": true,
+    "all_actual_ids_unique_contiguous_and_unchanged": true,
+    "actual_recent_limit_retains_latest_thirty": true,
+    "all_species_aggregates_match_actual_history": true,
+    "pending_fish_survives_install_and_view_resume": true,
+    "background_keeps_paused_fish_exact": true,
+    "money_only_changes_with_original_sales": true,
+    "original_chapter_and_forest_progress_kept": true,
+    "ordinary_settings_and_facility_counts_kept": true,
+    "fishing_does_not_auto_gather": true,
+    "final_ordinary_cast_paused": true
+  }
+}

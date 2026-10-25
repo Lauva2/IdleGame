@@ -1,0 +1,121 @@
+{
+  "candidate": "3d-d23-journey02",
+  "utc": "2026-10-25T12:50:06.828313+00:00",
+  "apkSha256": "4DD7D6EDC43ADCA32363A3CDA0F8C7C7353CE68C69BD2ECB4B7E6CF0CF025BE1",
+  "version": "0.2.3",
+  "versionCode": 5,
+  "sourceInputFiles": 201,
+  "sourceManifestSha256": "1F4ED2CAB8A287388184F2E0C186F96E06ACC7EE3C2CC691482CD2B180495B4C",
+  "sourceZipSha256": "709D780ADF3F423CD5FF46600F87CCD2A107C7396E1E7BC2BC7B28918F463908",
+  "buildInfoKeptUnchanged": true,
+  "buildInfoPendingMeaning": "Historical build-time art state; current independent conclusion belongs in this record and the original R01.",
+  "art": {
+    "status": "passed",
+    "reviewer": "/root/d19_art_review",
+    "report": "Docs/Reviews/3d-d23-journey02/美术评审-R01.md",
+    "scores": [
+      18.5,
+      18,
+      14,
+      19,
+      8.5,
+      9,
+      4.5
+    ],
+    "maxima": [
+      20,
+      20,
+      15,
+      20,
+      10,
+      10,
+      5
+    ],
+    "floors": [
+      16,
+      16,
+      12,
+      16,
+      8,
+      8,
+      4
+    ],
+    "total": 91.5,
+    "scope": "Independent visual acceptance for this exact frozen APK under documented MuMu conditions; raw reviewer report is authoritative. Sampling is not full-frame or whole-first-release acceptance.",
+    "bytes": 41877,
+    "sha256": "DD73FB171512BFA9A9A6B77DE5DDC183507559CEE63313EB92A160E5A94106B3",
+    "allCriticalOriginalAndExpandedScenesPassed": true,
+    "confirmedArtBlockers": 0,
+    "requiredArtEvidenceOutstanding": 0,
+    "originalStaticPngsActuallyViewed": 241,
+    "sampledFramesActuallyViewed": 176,
+    "viewedCountsIncludeExcludedDiagnosticImages": true,
+    "sourceMediaHashVerified": 406,
+    "generalIssues": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08"
+    ]
+  },
+  "media": {
+    "originalPngs": 364,
+    "originalVideos": 42,
+    "completedSampleFrames": 8325,
+    "pngSampleFrames": 5417,
+    "losslessRgbWebpSampleFrames": 2908,
+    "mediaItems": 8731,
+    "deferred": 0,
+    "versionControlledOriginalPngs": 61,
+    "evidenceFreezeSha256": "C7D14625917F6858E30CCA023E8CEDEEF72A1F8004E527805EF421A8831CC7B8"
+  },
+  "ordinaryFinalSave": {
+    "snapshot": "ordinary-final.save",
+    "sha256": "6F8979EEB6DE832C8A2B20B2983367DAEFB9D30AEAB53D065E6FE27D1B777F92",
+    "coins": 997100,
+    "fish": 50,
+    "species": 6,
+    "plots": 6,
+    "shelves": 2,
+    "fishingPaused": true,
+    "pendingReport": false,
+    "latestAwaySeconds": 4702.392546,
+    "latestOfflineCoins": 12324,
+    "allFinalAuditChecksPassed": true,
+    "notRolledBackToOlderCheckpoints": true,
+    "pausedClockRoundtripErrorSeconds": 2.7755575615628914e-17,
+    "pausedClockToleranceSeconds": 1e-10,
+    "snapshotScope": "At final restoration save; ongoing ordinary foreground production may add coins."
+  },
+  "core": {
+    "passed": 47,
+    "logReused": false,
+    "coreInputsIdentical": 12,
+    "scope": "Fresh47-check run this iteration; exact Core source/meta identity verified against final201 manifest."
+  },
+  "editor": {
+    "finalStage": "journey-dev-r04",
+    "checks": 64,
+    "originalPreviews": 52,
+    "scope": "Isolated Editor state checks and stage opinions; not final Android art acceptance."
+  },
+  "wholeFirstReleaseCompleted": false,
+  "deferredAcceptance": [
+    "Complete human sound quality/listening",
+    "Natural new-save full chapter and normal12-plot purchasing chain",
+    "Complete abnormal recovery and clock/time-span coverage",
+    "Formal continuous30min, stable-only5min and long-term memory trend"
+  ],
+  "physicalPhoneUnverified": [
+    "performance",
+    "touch feel",
+    "real safe area",
+    "heat",
+    "battery"
+  ],
+  "deviceScope": "MuMu5.30.1.3586 instance0 Android12/API32 280dpi virtual240Hz; actual default/long/narrow and84px simulated cutout. User accepted no physical-phone validation."
+}

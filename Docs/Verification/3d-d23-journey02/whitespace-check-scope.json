@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "scope": "Authored source and documentation pass Git whitespace checks. Immutable raw Verification/Reviews and Unity-generated .meta are excluded from normalization.",
+  "reason": "Three newly generated Unity metadata files retain userData/assetBundleName/assetBundleVariant empty fields with trailing spaces. These exact bytes belong to frozen201 inputs; no source or original report was rewritten to satisfy a formatting check.",
+  "preservedGeneratedMetaEmptyValueWhitespace": 9
+}

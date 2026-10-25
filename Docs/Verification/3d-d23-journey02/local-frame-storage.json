@@ -1,0 +1,359 @@
+{
+  "candidate": "3d-d23-journey02",
+  "absoluteFrameRoot": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames",
+  "sourceMediaRemainInProject": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence",
+  "externalUpload": false,
+  "samplingRule": "shop-closeup*, initial-flow* and fishing-motion* basenames 10FPS, all other MP4 basenames 2FPS",
+  "sourceEnumerationNote": "Source files are frozen at run start. New arrivals are excluded from this run and picked up on rerun.",
+  "sourceSnapshotCount": 406,
+  "deferredSourceFiles": [],
+  "samplingTimeNote": "approxOutputPTS is output sampling time, not an exact source frame or touch timestamp.",
+  "integrityNote": "File hash coverage is not frame-by-frame visual inspection or art acceptance.",
+  "jobs": [
+    {
+      "sourceVideo": "Evidence/market-native-2.mp4",
+      "sourceSha256": "97274536E5DE162D8B2F4FCEA548B7F2B9C6E080283B6C42E755F323922293A2",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\market-native-2-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\market-native-2-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 320
+    },
+    {
+      "sourceVideo": "Evidence/market-native-1.mp4",
+      "sourceSha256": "358635AB3BA54F1F2A7E7B016359EBE13E0931DF7B0D2B498DB223FE86157924",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\market-native-1-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\market-native-1-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 320
+    },
+    {
+      "sourceVideo": "Evidence/fishing-gallery-r01.mp4",
+      "sourceSha256": "437482D600EAC13BD66DD0C6DA757B7CD636A282C388686D0963408EB83AA76B",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-gallery-r01-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-gallery-r01-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 360
+    },
+    {
+      "sourceVideo": "Evidence/interfaces.mp4",
+      "sourceSha256": "11743E1833888099DA26D0CD2253A4A68DBF7A81B4C0C2A01D98C725885E3FA0",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\interfaces-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\interfaces-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 240
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-ordinary.mp4",
+      "sourceSha256": "E8113F9172FFBA26BF7F0DBB00233C289EEB793E3162323B6A161DBC34521B55",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-ordinary-frames-10fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-ordinary-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 700
+    },
+    {
+      "sourceVideo": "Evidence/forest-greenhouse.mp4",
+      "sourceSha256": "B64D759B6965CA9427667B15A9992B6500634CB77540548C0DE10A29EE767EB1",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\forest-greenhouse-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\forest-greenhouse-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 130
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-spots-r02.mp4",
+      "sourceSha256": "D870964D147C4DC0C40A278BBF02FDF43D571AB8784ABF6B6C87AD41FA9933FA",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\fishing-motion-spots-r02-frames-10fps-lossless-webp",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\fishing-motion-spots-r02-frames-10fps-lossless-webp\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 645
+    },
+    {
+      "sourceVideo": "Evidence/forest-dew-resin-vines.mp4",
+      "sourceSha256": "EF4D838AF59FD2031A73E4921FFEAC3B6C82FEE52E46CF4FA33D057740D9C561",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\forest-dew-resin-vines-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\forest-dew-resin-vines-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 130
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-resume.mp4",
+      "sourceSha256": "0215F1F15530FB5EDE6F54CC7C1CFEEC6505F9154F297ABE15E110922F22040F",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\fishing-motion-resume-frames-10fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\fishing-motion-resume-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 501
+    },
+    {
+      "sourceVideo": "Evidence/initial-flow.mp4",
+      "sourceSha256": "86D434474B8AD256A6E4B892468831CC6A1F66DD332368B295602CF73D4F6E72",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\initial-flow-frames-10fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\initial-flow-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 800
+    },
+    {
+      "sourceVideo": "Evidence/reduced-garden.mp4",
+      "sourceSha256": "919D8F2A47F8219FB1775E93DAC44E411E4FAF6C9B63A36E75E8B21C401CF4F6",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\reduced-garden-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\reduced-garden-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 60
+    },
+    {
+      "sourceVideo": "Evidence/Journey/journey-complete.mp4",
+      "sourceSha256": "4ECF7D100001FF05C7398EEE73DCA4A9F696D7AB31EE162A96CCC51D8F129400",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\Journey\\journey-complete-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\Journey\\journey-complete-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 80
+    },
+    {
+      "sourceVideo": "Evidence/shop-closeup-zoom-clearance.mp4",
+      "sourceSha256": "0A3010E8B1BDE9FB93FF8C17F06AF8E09183F8854A8F1FF043474F74C0D6E671",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\shop-closeup-zoom-clearance-frames-10fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\shop-closeup-zoom-clearance-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 400
+    },
+    {
+      "sourceVideo": "Evidence/Journey/journey-deliver.mp4",
+      "sourceSha256": "95F310D598952EA6B3A29F2F57365CBEC493759CA231AE904D22AE4114695089",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\Journey\\journey-deliver-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\Journey\\journey-deliver-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 80
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-pavilion-filled.mp4",
+      "sourceSha256": "07F88658C42DF7E079A30F27374384F19ED5EB084525E973BA30D04CC0807829",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-pavilion-filled-frames-10fps-lossless-webp",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-pavilion-filled-frames-10fps-lossless-webp\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 351
+    },
+    {
+      "sourceVideo": "Evidence/production-garden.mp4",
+      "sourceSha256": "372978C5CDB911A42F6E13AB9DA9C3F35082A8E80E42D02630896ACB7D33F0C8",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\production-garden-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\production-garden-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 59
+    },
+    {
+      "sourceVideo": "Evidence/Journey/journey-entry.mp4",
+      "sourceSha256": "DC9C6D81AED491260E6EA7B74B73094ABF0F7498055BE8899B799ED5BEFA5CE0",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\Journey\\journey-entry-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\Journey\\journey-entry-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 80
+    },
+    {
+      "sourceVideo": "Evidence/Journey/journey-dew.mp4",
+      "sourceSha256": "BE0BB85AD3F8650DE987AEB2039FD1DE6903FD51053E89122D682828F8EE8E14",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\Journey\\journey-dew-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\Journey\\journey-dew-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 80
+    },
+    {
+      "sourceVideo": "Evidence/Journey/journey-berry.mp4",
+      "sourceSha256": "6335F9A2AA21D4F3B3C71569C6905AAD129DB610B479FF307535D42D9BDC3C97",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\Journey\\journey-berry-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\Journey\\journey-berry-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 80
+    },
+    {
+      "sourceVideo": "Evidence/busy-garden.mp4",
+      "sourceSha256": "E640F157DD4C43287705525DCD1D8BE2663E33770B00A8702D02FC835D46EFA1",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\busy-garden-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\busy-garden-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 60
+    },
+    {
+      "sourceVideo": "Evidence/production-window.mp4",
+      "sourceSha256": "13B1A71501958DDC5FCB07F3B2FB66DF080E53D294951852AF3079A0539BB7B1",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\production-window-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\production-window-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 80
+    },
+    {
+      "sourceVideo": "Evidence/Journey/journey-partial.mp4",
+      "sourceSha256": "BD18B0338986239556F80705A343417E39BE2A724671AEADF8E9F66A9584C898",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\Journey\\journey-partial-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\Journey\\journey-partial-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 80
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-pavilion-simple.mp4",
+      "sourceSha256": "FC11B2C2600483EC9E1DB450CC4546FB502840AE16EFD44DA6CC945A3D7C9CED",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-pavilion-simple-frames-10fps-lossless-webp",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-pavilion-simple-frames-10fps-lossless-webp\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 350
+    },
+    {
+      "sourceVideo": "Evidence/pavilion-repair.mp4",
+      "sourceSha256": "4693BAE9B038808CD07C15DD450EED35906208B197F8D913971635817F95AC9E",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\pavilion-repair-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\pavilion-repair-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 70
+    },
+    {
+      "sourceVideo": "Evidence/Journey/journey-resin.mp4",
+      "sourceSha256": "28A43461798A64D55A8564E82AF15B9C6F9EBEF1CA98D33AE7C60D3BF12B396A",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\Journey\\journey-resin-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\Journey\\journey-resin-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 80
+    },
+    {
+      "sourceVideo": "Evidence/fishing-quality-q3.mp4",
+      "sourceSha256": "AE9C64DD3A26B595D3E96C94A290DB280EC1F4CB54FD04763872127DE87A4D73",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-quality-q3-frames-2fps-lossless-webp",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-quality-q3-frames-2fps-lossless-webp\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 63
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-notice-r01-new.mp4",
+      "sourceSha256": "8A05F980C3306887A9B4AB9B05912A90F58349533E0B798A9B2C92CB6B7585FF",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-new-frames-10fps-lossless-webp",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-new-frames-10fps-lossless-webp\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 281
+    },
+    {
+      "sourceVideo": "Evidence/production-shop.mp4",
+      "sourceSha256": "88B152403A881E20CDD071FA6E35F37A034FCF74EFA4E97E02A40E00EF24FFF8",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\production-shop-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\production-shop-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 60
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-notice-r01-weight.mp4",
+      "sourceSha256": "91A221905B4E79B27C631A66409DC4DB265BD2591BCA5B1872AB0BA50515DF3F",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-weight-frames-10fps-lossless-webp",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-weight-frames-10fps-lossless-webp\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 279
+    },
+    {
+      "sourceVideo": "Evidence/fishing-quality-q2.mp4",
+      "sourceSha256": "703C53C824E336A292348743F63D09B532625518A37B19ADB050F73073F7A28E",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-quality-q2-frames-2fps-lossless-webp",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-quality-q2-frames-2fps-lossless-webp\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 63
+    },
+    {
+      "sourceVideo": "Evidence/fishing-quality-q0.mp4",
+      "sourceSha256": "B5F9D3C9C1952AD437B6C89F443540D1FC5C0018D573DFAC32E53CC80D3E6B09",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-quality-q0-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-quality-q0-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 63
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-notice-r01-both.mp4",
+      "sourceSha256": "81B3511F33DECFCB71A23A57E1A0FCE0E98E92837AFE41E71F57988FB4694E10",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-both-frames-10fps-lossless-webp",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-both-frames-10fps-lossless-webp\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 280
+    },
+    {
+      "sourceVideo": "Evidence/production-workshop.mp4",
+      "sourceSha256": "1AD1D6C7F3CD441112F6192642B0D7ED471DE08BA624193A012DC1F90FD9A29E",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\production-workshop-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\production-workshop-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 60
+    },
+    {
+      "sourceVideo": "Evidence/reduced-workshop.mp4",
+      "sourceSha256": "019C4D171349B4B24A16EDD93D8884DE81151673403E72D17306A43FAB3E89F3",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\reduced-workshop-frames-2fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\reduced-workshop-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 60
+    },
+    {
+      "sourceVideo": "Evidence/fishing-quality-q1.mp4",
+      "sourceSha256": "BDFF40A923104671C840511D666C7FC5AD7D7532F5EF70B77E006BC289C7A7BA",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\fishing-quality-q1-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\fishing-quality-q1-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 64
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-notice-r01-ordinary.mp4",
+      "sourceSha256": "0DA43245B070C5D0497917CDB55B4B3BC141D700CB6D37F20CD37483FBADEF10",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-ordinary-frames-10fps-lossless-webp",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-ordinary-frames-10fps-lossless-webp\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 280
+    },
+    {
+      "sourceVideo": "Evidence/fishing-motion-notice-r01-length.mp4",
+      "sourceSha256": "75D565B49BD7416350818F60C07B311AC2DBB48F05EFD83F4B0400B83DA8A717",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-length-frames-10fps-lossless-webp",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-length-frames-10fps-lossless-webp\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 280
+    },
+    {
+      "sourceVideo": "Evidence/blocked-reserve.mp4",
+      "sourceSha256": "614D20FB1FEA8B05B4F501B7AA0F1C84EB1E432ADE7A5638D627F1F230F10D8A",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\blocked-reserve-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\blocked-reserve-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 40
+    },
+    {
+      "sourceVideo": "Evidence/shop-closeup-pan-clearance.mp4",
+      "sourceSha256": "3894A9C07C8828DF102FB347DF1FB61C7B27A8E0F19E9B721C47BC01410888E8",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\shop-closeup-pan-clearance-frames-10fps",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\shop-closeup-pan-clearance-frames-10fps\\decode-complete.json",
+      "sampleFPS": 10,
+      "frames": 200
+    },
+    {
+      "sourceVideo": "Evidence/blocked-input.mp4",
+      "sourceSha256": "E961F8B4370FB36EB352103AEA634D2844B6D1C561465A832A5104740BE60A6C",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\blocked-input-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\blocked-input-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 40
+    },
+    {
+      "sourceVideo": "Evidence/blocked-full.mp4",
+      "sourceSha256": "4903EDAFA8075F04F827B727836C90E523BCF26C0D44446A2E03CF5670F206E2",
+      "absoluteFrameDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\blocked-full-frames-2fps",
+      "completionMarker": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\blocked-full-frames-2fps\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 40
+    },
+    {
+      "sourceVideo": "Evidence/final-startup.mp4",
+      "sourceSha256": "69C0F42C6B87D01AD603279C064449CABEA957F5FE125443682DAD3095C784AE",
+      "absoluteFrameDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\final-startup-frames-2fps-lossless-webp",
+      "completionMarker": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\final-startup-frames-2fps-lossless-webp\\decode-complete.json",
+      "sampleFPS": 2,
+      "frames": 36
+    }
+  ],
+  "frameFormat": "lossless PNG and lossless RGB WebP",
+  "frameExtensions": [
+    ".png",
+    ".webp"
+  ],
+  "absoluteFrameRoots": [
+    "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames",
+    "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames"
+  ]
+}

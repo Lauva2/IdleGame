@@ -1,4 +1,4 @@
-param([string]$Folder='Docs/Verification/3d-d21-forest05')
+param([string]$Folder='Docs/Verification/3d-d21-forest05',[ValidatePattern('^[a-zA-Z0-9-]+$')][string]$ClipPrefix='shop-closeup-forest')
 $ErrorActionPreference='Stop';Set-Location (Split-Path -Parent $PSScriptRoot)
 $serial=if($env:FOREST_ADB_SERIAL){$env:FOREST_ADB_SERIAL}else{'127.0.0.1:16384'}
 $adb=(Resolve-Path Tools/AndroidSdk/platform-tools/adb.exe).Path
@@ -18,7 +18,7 @@ $marketProcessId=(Get-Content "$Folder/market-start-pid.txt" -Raw).Trim()
 & $adb -P 5038 -s $serial shell cat "/proc/$marketProcessId/stat"|Set-Content "$Folder/market-process-stat-start.txt"
 & $adb -P 5038 -s $serial pull /sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save "$Folder/market-before.save"
 for($i=1;$i -le 2;$i++){
-    $stem="shop-closeup-forest-$i";$remote="/sdcard/$candidate-$stem.mp4"
+    $stem="$ClipPrefix-$i";$remote="/sdcard/$candidate-$stem.mp4"
     [DateTime]::UtcNow.ToString('o')|Set-Content "$Folder/$stem-start.txt"
     & $adb -P 5038 -s $serial shell screenrecord --size 1080x1920 --bit-rate 4000000 --time-limit 160 $remote
     if($LASTEXITCODE -ne 0){throw 'Market recorder failed'}

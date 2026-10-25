@@ -160,7 +160,7 @@ namespace ForestShop
             if (node < 0 || node > 2) return;
             StartSheet(ForestRules.Discoveries[node], "forage");
             Picture(sheetContent, "inventory", CropIcon(node + 4), 4, 4, 350, 0, 360, 350); sheetY = 365;
-            Paragraph(node == 0 ? "红果藏在林缘的矮枝间。第一次采集会记住野莓种苗，修复温室后便能长期培育。" : node == 1 ? "细长的蓝绿叶子上，挂着小小的露铃。发现种苗后，可在温室里安排培育。" : "温润的松脂慢慢凝在老松树的伤口上。只采已经凝好的部分，等树木自己恢复。", 150, 29);
+            Paragraph(node == 0 ? "红果藏在林缘的矮枝间。第一次采集会记住野莓种苗，修复温室后便能长期培育。" : node == 1 ? "细长的蓝绿叶子上，挂着小小的露铃。发现种苗后，可在温室里安排培育。" : "松脂在老松树的伤口慢慢凝结。\n只采凝好的部分，让树木休养。", 150, 29);
             Row(Catalog.Crops[node + 4], "", CropIcon(node + 4), "采集", () => { if (Act(() => Engine.Forest.Gather(node), Catalog.Crops[node + 4] + "已入库，发现记录已保存。", false)) CloseSheet(); }, true,
                 () => Engine.Forest.CanVisit(node) && State.forest.location == node && State.forest.regrow[node] <= 0 && State.forest.available[node] > 0 && State.crops[node + 4] < Engine.Capacity, () => ForageDetail(node));
             if (Engine.Forest.Discovered(node)) Row("发现已记录", node < 2 ? "温室可培育这株种苗" : "松脂保留野外采集", CropIcon(node + 4), node < 2 ? "前往温室" : "查看配方", () => { if (node < 2) GoGreenhouse(); else { collectionTab = 0; ShowPage("图鉴"); } });

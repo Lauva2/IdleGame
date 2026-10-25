@@ -10,7 +10,8 @@ if(Test-Path "$Folder/normal-restorable.save"){throw 'Preserve original protecte
 & $python Tools/Forest-DeviceReview.py "$Folder/Plans/ordinary-resume.json"
 if($LASTEXITCODE -ne 0){throw 'Actual resume UI plan failed'}
 & $adb -P 5038 -s $serial pull /sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save "$Folder/ordinary-resume-start.save"
-& $adb -P 5038 -s $serial shell screenrecord --size 1080x1920 --bit-rate 4000000 --time-limit 50 /sdcard/d22-fishing-resume.mp4
+$resumeRemote='/sdcard/'+(Split-Path -Leaf $Folder)+'-fishing-resume.mp4'
+& $adb -P 5038 -s $serial shell screenrecord --size 1080x1920 --bit-rate 4000000 --time-limit 50 $resumeRemote
 if($LASTEXITCODE -ne 0){throw 'Actual resume recording failed'}
 & $adb -P 5038 -s $serial shell input keyevent KEYCODE_HOME
 Start-Sleep -Seconds 1
@@ -18,6 +19,6 @@ foreach($suffix in @('','.bak')){
  & $adb -P 5038 -s $serial pull "/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save$suffix" "$Folder/normal-restorable.save$suffix"
  if($LASTEXITCODE -ne 0){throw 'Latest ordinary protection failed'}
 }
-& $adb -P 5038 -s $serial pull /sdcard/d22-fishing-resume.mp4 "$Folder/Evidence/fishing-motion-resume.mp4"
+& $adb -P 5038 -s $serial pull $resumeRemote "$Folder/Evidence/fishing-motion-resume.mp4"
 $files=@('normal-restorable.save','normal-restorable.save.bak')|ForEach-Object{$item=Get-Item "$Folder/$_";@{name=$_;bytes=$item.Length;sha256=(Get-FileHash $item.FullName -Algorithm SHA256).Hash}}
 @{utc=[DateTime]::UtcNow.ToString('o');scope='Latest actual ordinary primary and backup protected after automatic resume, before any prepared fixture. Restore this pair, never an older baseline.';files=$files}|ConvertTo-Json -Depth 5|Set-Content "$Folder/ordinary-restorable-identity.json"

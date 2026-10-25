@@ -118,9 +118,10 @@ namespace ForestShop
         void ShowFishCollection() { collectionTab=2; ShowPage("图鉴"); }
         float BuildFishCollection(Transform parent,float y)
         {
+            y = BuildFishCollectionGoal(parent, y);
             string[] filters={"全部鱼类","已发现","最近钓获"};
             for(int i=0;i<3;i++){int filter=i;IconButton(parent,filters[i],i==2?ForestSymbol.Timer:ForestSymbol.Fish,35+i*350,y,310,78,()=>{fishFilter=filter;ShowFishCollection();},true,fishFilter==i).name="Fish filter "+i;}
-            y+=92; Label(parent,"发现 "+Engine.Fishing.Discovered+"/12 · 总钓获 "+State.fishing.totalCaught.ToString("N0")+"尾",30,Sage,44,y,990,65); y+=78;
+            y+=94;
             if(fishFilter==2)
             {
                 if(State.fishing.recent.Length==0) return FishCollectionEmpty(parent,y);
@@ -173,8 +174,27 @@ namespace ForestShop
                 var number=Label(tile,entry.qualityCounts[q].ToString("N0")+"尾",32,Sage,250,14,236,60,TextAnchor.MiddleRight);number.resizeTextForBestFit=true;number.resizeTextMinSize=22;number.resizeTextMaxSize=32;
             }
             sheetY+=200;
-            int target=0;for(int i=0;i<3;i++)if((kind.Spots&(1<<i))!=0){target=i;break;}
-            IconButton(sheetContent,"前往钓点",ForestSymbol.Fish,28,sheetY,1024,84,()=>ShowFishing(target),true,true).name="Go to species fishing spot";sheetY+=102;EndSheet();
+            if (!known)
+            {
+                Paragraph(Engine.Fishing.BaitUnlocked(kind.Bait) ? "偏好饵料已开放，可在钓点切换。" : "发现" + (kind.Bait * 3) + "种鱼后开放偏好饵料。", 70, 27);
+            }
+            int target=0;for(int i=2;i>=0;i--)if((kind.Spots&(1<<i))!=0)target=i;
+            for(int i=0;i<3;i++)if((kind.Spots&(1<<i))!=0 && Engine.Fishing.SpotUnlocked(i)){target=i;break;}
+            IconButton(sheetContent,Engine.Fishing.SpotUnlocked(target)?"前往钓点":"查看开放条件",ForestSymbol.Fish,28,sheetY,1024,84,()=>ShowFishing(target),true,true).name="Go to species fishing spot";sheetY+=102;EndSheet();
+        }
+        float BuildFishCollectionGoal(Transform parent, float y)
+        {
+            int found = Engine.Fishing.Discovered, next = NextUnfoundFish();
+            var card = Panel(parent, "Fish collection journey", Paper, 32, y, 1016, 218);
+            Symbol(card, ForestSymbol.Fish, 20, 16, 62);
+            Label(card, "发现 " + found + " / 12", 37, Sage, 102, 8, 470, 64);
+            Label(card, State.fishing.totalCaught.ToString("N0") + " 尾 · 自动记录", 27, Muted, 572, 14, 420, 54, TextAnchor.MiddleRight);
+            for (int i = 0; i < 12; i++) Panel(card, "Species progress " + i, i < found ? Sage : Sand, 24 + i * 82, 82, 68, 10);
+            Label(card, next >= 0 ? "下一条线索" : "十二种鱼已发现", 28, Sage, 24, 105, 670, 45);
+            Label(card, next >= 0 ? FishingCatalog.Species[next].Habit : "继续寻找更长、更重的个人纪录", 26, Ink, 24, 155, 680, 46);
+            IconButton(card, next >= 0 ? "看线索" : "看纪录", next >= 0 ? ForestSymbol.Forest : ForestSymbol.Ruler, 734, 125, 258, 78,
+                () => { int target = NextUnfoundFish(); ShowFishSpecies(target >= 0 ? target : State.fishing.recent.Length > 0 ? State.fishing.recent[0].species : 0); }, true, true).name = "Fish next clue";
+            return y + 236;
         }
         void FishStat(Transform parent,int column,float y,string caption,string value,ForestSymbol symbol,int columns=3)
         {

@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory=$true)][string]$Folder,
-    [Parameter(Mandatory=$true)][ValidateSet('late','visits','initial','unrestored','states','chapter','report','dialogue0','dialogue1','dialogue2','dialogue3','dialogue4','blocked-full','blocked-input','blocked-reserve','busy','simple','resume','forest-entry','forest-edge','forest-creek','forest-grove','forest-growth','forest-full','forest-cooling','forest-ending','forest-report','forest-simple','forest-pavilion','forest-visits','forest-vines','forest-dialogue0','forest-dialogue1','forest-dialogue2','fishing-empty','fishing-filled','fishing-simple','fishing-seed-q0','fishing-seed-q1','fishing-seed-q2','fishing-seed-q3','fishing-notice-new','fishing-notice-length','fishing-notice-weight','fishing-notice-both','fishing-notice-ordinary')][string]$Variant
+    [Parameter(Mandatory=$true)][ValidateSet('late','visits','initial','unrestored','states','chapter','report','dialogue0','dialogue1','dialogue2','dialogue3','dialogue4','blocked-full','blocked-input','blocked-reserve','busy','simple','resume','forest-entry','forest-edge','forest-creek','forest-grove','forest-growth','forest-full','forest-cooling','forest-ending','forest-report','forest-simple','forest-pavilion','forest-visits','forest-vines','forest-dialogue0','forest-dialogue1','forest-dialogue2','fishing-empty','fishing-filled','fishing-simple','fishing-seed-q0','fishing-seed-q1','fishing-seed-q2','fishing-seed-q3','fishing-notice-new','fishing-notice-length','fishing-notice-weight','fishing-notice-both','fishing-notice-ordinary','journey-entry','journey-berry','journey-dew','journey-resin','journey-partial','journey-complete','journey-deliver','journey-window')][string]$Variant
 )
 $ErrorActionPreference='Stop'
 $serial=if($env:FOREST_ADB_SERIAL){$env:FOREST_ADB_SERIAL}else{'127.0.0.1:16385'}
@@ -22,7 +22,11 @@ if(Test-Path -LiteralPath $prior){
 }
 $monoRoot='C:/Program Files/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/MonoBleedingEdge'
 $coreSources=Get-ChildItem -LiteralPath Assets/Scripts/Core -Filter '*.cs' | Select-Object -ExpandProperty FullName
-if($Variant.StartsWith('fishing-')){
+if($Variant.StartsWith('journey-')){
+    & ($monoRoot+'/bin/mono.exe') ($monoRoot+'/lib/mono/4.5/csc.exe') /nologo /langversion:9 /out:Tools/TestOutput/PrepareJourneyReview.exe ('/r:'+$monoRoot+'/lib/mono/4.5/System.Web.Extensions.dll') @coreSources Tools/Prepare-JourneyReview.cs
+    if($LASTEXITCODE -ne 0){throw 'Journey preparer did not compile'}
+    & ($monoRoot+'/bin/mono.exe') Tools/TestOutput/PrepareJourneyReview.exe $Folder $Variant
+}elseif($Variant.StartsWith('fishing-')){
     & ($monoRoot+'/bin/mono.exe') ($monoRoot+'/lib/mono/4.5/csc.exe') /nologo /langversion:9 /out:Tools/TestOutput/PrepareFishingReview.exe ('/r:'+$monoRoot+'/lib/mono/4.5/System.Web.Extensions.dll') @coreSources Tools/Prepare-FishingReview.cs
     if($LASTEXITCODE -ne 0){throw 'Fishing preparer did not compile'}
     & ($monoRoot+'/bin/mono.exe') Tools/TestOutput/PrepareFishingReview.exe $Folder $Variant

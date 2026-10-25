@@ -1,0 +1,40 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\forest-visits.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\forest-visits.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\forest-visits.save: 1 file pushed, 0 skipped. 16.6 MB/s (6701 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d23-journey02\Prepared\forest-visits.save: 1 file pushed, 0 skipped. 16.3 MB/s (6701 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1139
+WaitTime: 1142
+Complete
+{'tap': [660, 300]}
+{'tap': [355, 980]}
+{'shot': '01-new-tea-recipe'}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'shot': '02-tea-recipe-bottom'}
+{'back': True}
+{'tap': [700, 980]}
+{'shot': '03-new-workbench-recipes'}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'shot': '04-spray-and-balm-recipes'}
+{'back': True}
+{'tap': [900, 1850]}
+{'shot': '05-nine-products-top'}
+{'swipe': [1000, 1640, 1000, 640, 750]}
+{'swipe': [1000, 1640, 1000, 640, 750]}
+{'swipe': [1000, 1640, 1000, 640, 750]}
+{'shot': '06-all-new-products-bottom'}
+{'tap': [180, 1850]}
+{'tap': [930, 300]}
+{'shot': '07-new-products-shop-default'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.8 MB/s (4721 bytes in 0.001s)
+/sdcard/3d-d23-journey02-market-native-1.mp4: 1 file pulled, 0 skipped. 23.6 MB/s (69595527 bytes in 2.808s)
+/sdcard/3d-d23-journey02-market-native-2.mp4: 1 file pulled, 0 skipped. 23.1 MB/s (70071083 bytes in 2.897s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.3 MB/s (4733 bytes in 0.001s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/performance-v2.csv: 1 file pulled, 0 skipped. 8.0 MB/s (41272 bytes in 0.005s)

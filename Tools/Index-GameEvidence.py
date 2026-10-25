@@ -106,7 +106,8 @@ def main():
     parser.add_argument('folder', type=Path)
     parser.add_argument('frame_root', type=Path)
     parser.add_argument('--index-only', action='store_true')
-    parser.add_argument('--lossless-webp', action='store_true', help='Lossless RGB WebP frames for limited local disk; originals remain untouched')
+    parser.add_argument('--lossless-webp', action='store_true', help='Prefer lossless RGB WebP for new clips; retain any existing completed PNG/WebP frame directory unchanged')
+    parser.add_argument('--webp-effort',type=int,default=0,choices=range(7),help='Lossless WebP compression effort, never a lossy mode; default0 avoids very slow image search')
     parser.add_argument('--png-compression', type=int, default=1, choices=range(10), help='Lossless PNG compression effort; default preserves historical method')
     parser.add_argument('--spill-frame-root', type=Path, help='Optional second authorized local directory; keeps completed frames in place')
     args = parser.parse_args()
@@ -146,10 +147,16 @@ def main():
         fps = 10 if video.stem.casefold().startswith(('shop-closeup', 'initial-flow', 'fishing-motion')) else 2
         # The relative source folder distinguishes identically named clips.
         extension='webp' if args.lossless_webp else 'png'
-        leaf=relative_video.parent / (video.stem + '-frames-' + str(fps) + 'fps'+('-lossless-webp' if args.lossless_webp else ''))
-        existing=[base/leaf for base in frame_roots if (base/leaf).exists()]
+        stem=video.stem + '-frames-' + str(fps) + 'fps'
+        leaves=[relative_video.parent/stem,relative_video.parent/(stem+'-lossless-webp')]
+        existing=[base/leaf for base in frame_roots for leaf in leaves if (base/leaf).exists()]
         if len(existing)>1:raise RuntimeError('Ambiguous duplicate frame directories: '+str(existing))
-        directory=existing[0] if existing else max(frame_roots,key=lambda p:shutil.disk_usage(p).free)/leaf
+        if existing:
+            directory=existing[0]
+            extension='webp' if directory.name.endswith('-lossless-webp') else 'png'
+        else:
+            leaf=leaves[1 if args.lossless_webp else 0]
+            directory=max(frame_roots,key=lambda p:shutil.disk_usage(p).free)/leaf
         marker = directory / 'decode-complete.json'
         initial_stat = video.stat()
         source_sha = sha256(video)
@@ -168,7 +175,7 @@ def main():
             if any(directory.iterdir()):
                 raise RuntimeError('Partial output exists; no files overwritten. Inspect it or choose a fresh frame root: ' + str(directory))
             print('Decoding ' + source + ' at ' + str(fps) + ' FPS -> ' + str(directory), flush=True)
-            encoding=['-c:v','libwebp','-lossless','1','-compression_level','6','-quality','100'] if args.lossless_webp else ['-compression_level',str(args.png_compression)]
+            encoding=['-c:v','libwebp','-lossless','1','-compression_level',str(args.webp_effort),'-quality','0'] if extension=='webp' else ['-compression_level',str(args.png_compression)]
             subprocess.run([ffmpeg, '-hide_banner', '-loglevel', 'error', '-nostdin', '-n',
                             '-threads', '2', '-noautorotate', '-i', str(video), '-vf', 'fps=' + str(fps),
                             '-threads', '2', '-pix_fmt','rgb24', *encoding, str(directory / ('frame-%05d.'+extension))], check=True)
@@ -212,7 +219,9 @@ def main():
                'sourceSnapshotCount': len(source_files), 'deferredSourceFiles': deferred,
                'samplingTimeNote': 'approxOutputPTS is output sampling time, not an exact source frame or touch timestamp.',
                'integrityNote': 'File hash coverage is not frame-by-frame visual inspection or art acceptance.', 'jobs': jobs}
-    storage['frameFormat']='lossless RGB WebP' if args.lossless_webp else 'lossless PNG'
+    formats=sorted(set(Path(row['path']).suffix.lower() for row in frame_rows))
+    storage['frameFormat']='lossless PNG and lossless RGB WebP' if len(formats)>1 else ('lossless RGB WebP' if formats==['.webp'] else 'lossless PNG')
+    storage['frameExtensions']=formats
     storage['absoluteFrameRoots']=[str(p) for p in frame_roots]
     # All hashes and row sets are complete before any public index is replaced.
     write_json(folder / 'video-metadata.json', metadata)

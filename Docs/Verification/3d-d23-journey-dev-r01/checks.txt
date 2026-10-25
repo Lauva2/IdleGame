@@ -1,0 +1,12 @@
+PASS No ordinary SaveStore opened
+PASS 01-opening recommends opening
+PASS 01-opening handbook reads without changing state
+PASS Opening navigation does not harvest
+PASS Existing core opening actions unchanged
+PASS 02-first-sale recommends orders
+PASS 02-first-sale handbook reads without changing state
+
+FAILED System.IO.InvalidDataException: 原料容量无效
+  at ForestShop.Core.StateValidation.Check (ForestShop.Core.GameState s) [0x002d3] in E:\UnityProject\IdleGame\Assets\Scripts\Core\Persistence.cs:29 
+  at ForestShop.Editor.ForestJourneyPreview.Plan (ForestShop.Core.GameState s, System.String target, System.String name) [0x00008] in E:\UnityProject\IdleGame\Assets\Editor\ForestJourneyPreview.cs:91 
+  at ForestShop.Editor.ForestJourneyPreview.Capture () [0x0028e] in E:\UnityProject\IdleGame\Assets\Editor\ForestJourneyPreview.cs:117 

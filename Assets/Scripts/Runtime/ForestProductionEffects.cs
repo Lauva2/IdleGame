@@ -15,12 +15,13 @@ namespace ForestShop
             public Transform[] variants, motes;
             public float started = -100;
             public ProductionKind kind;
+            public float scale = 1;
         }
         readonly Burst[] plots = new Burst[Catalog.MaxPlots], machines = new Burst[2], shelves = new Burst[4];
         readonly Transform[] steam = new Transform[6];
         readonly Transform guide;
         readonly Transform[] plotAnchors, machineAnchors, shelfAnchors;
-        const float Duration = 1.35f;
+        const float Duration = 1.7f;
         public int ActiveCount { get; private set; }
 
         public ForestProductionEffects(Transform root, Transform[] plotAnchors, Transform[] machineAnchors, Transform[] shelfAnchors)
@@ -57,8 +58,8 @@ namespace ForestShop
             if (kind == ProductionKind.Sale)
             {
                 b.variants = new Transform[0];
-                Ball(b.token, "Earned coin", Vector3.zero, new Vector3(.40f, .40f, .10f), Gold);
-                Ring(b.token, "Coin rim", Vector3.zero, .17f, .018f, Cream, new Vector3(90, 0, 0));
+                Ball(b.token, "Earned coin", Vector3.zero, new Vector3(.60f, .60f, .13f), Gold);
+                Ring(b.token, "Coin rim", Vector3.zero, .26f, .022f, Cream, new Vector3(90, 0, 0));
             }
             else
             {
@@ -67,7 +68,7 @@ namespace ForestShop
                 for (int i = 0; i < count; i++)
                 {
                     b.variants[i] = kind == ProductionKind.Harvest ? ForestModels.Crop(b.token, i) : ForestModels.Product(b.token, i);
-                    b.variants[i].localScale = Vector3.one * (kind == ProductionKind.Craft ? .78f : .38f); b.variants[i].gameObject.SetActive(false);
+                    b.variants[i].localScale = Vector3.one * (kind == ProductionKind.Craft ? 1.04f : .54f); b.variants[i].gameObject.SetActive(false);
                 }
             }
             b.store = Group(b.root, kind == ProductionKind.Sale ? "Receipt leaf" : "Into shared stock");
@@ -105,7 +106,7 @@ namespace ForestShop
                 // space so zoom or camera tilt cannot put the coin behind it.
                 Vector3 marker = camera.WorldToViewportPoint(anchor.TransformPoint(new Vector3(0, 1.85f, 0)));
                 if (marker.z < 0 || marker.x < .035f || marker.x > .965f || marker.y < .13f || marker.y > .93f) return;
-                marker.y = Mathf.Clamp(marker.y + (marker.y > .48f ? -.16f : .16f), .18f, .84f);
+                marker.y = Mathf.Clamp(marker.y + (marker.y > .48f ? -.105f : .105f), .18f, .84f);
                 position = camera.ViewportToWorldPoint(marker);
             }
             Vector3 uv = camera.WorldToViewportPoint(position);
@@ -114,6 +115,7 @@ namespace ForestShop
             if (b.root.gameObject.activeSelf && Time.unscaledTime - b.started < .6f) return;
             if (!b.root.gameObject.activeSelf && ActiveCount >= 5) return;
             b.root.position = position;
+            b.scale = Mathf.Clamp(camera.orthographicSize / 7f, 1, 2.25f);
             b.root.rotation = notice.Kind == ProductionKind.Sale ? camera.transform.rotation : Quaternion.Euler(0, camera.transform.eulerAngles.y, 0);
             b.started = Time.unscaledTime;
             for (int i = 0; i < b.variants.Length; i++) b.variants[i].gameObject.SetActive(i == notice.Item);
@@ -124,7 +126,7 @@ namespace ForestShop
         static void Pose(Burst b, float t, bool simple)
         {
             float envelope = Mathf.SmoothStep(0, 1, t / .12f) * (1 - Mathf.SmoothStep(0, 1, (t - .72f) / .28f));
-            b.root.localScale = Vector3.one * envelope;
+            b.root.localScale = Vector3.one * (envelope * b.scale);
             b.token.localPosition = simple ? new Vector3(-.22f, .35f, 0) : Vector3.Lerp(new Vector3(-.30f, 0, 0), new Vector3(.28f, .35f, 0), Mathf.SmoothStep(0, 1, t)) + Vector3.up * (Mathf.Sin(t * Mathf.PI) * .48f);
             b.token.localEulerAngles = simple ? Vector3.zero : new Vector3(0, Mathf.Sin(t * Mathf.PI) * 25, -Mathf.Sin(t * Mathf.PI) * 10);
             b.store.localPosition = new Vector3(.30f, .27f, 0);
@@ -141,7 +143,7 @@ namespace ForestShop
         void Tick(Burst b, bool simple)
         {
             if (!b.root.gameObject.activeSelf) return;
-            float t = (Time.unscaledTime - b.started) / (b.kind == ProductionKind.Craft ? 1.65f : Duration);
+            float t = (Time.unscaledTime - b.started) / (b.kind == ProductionKind.Craft ? 1.95f : Duration);
             if (t >= 1) { b.root.gameObject.SetActive(false); ActiveCount--; return; }
             Pose(b, t, simple);
         }

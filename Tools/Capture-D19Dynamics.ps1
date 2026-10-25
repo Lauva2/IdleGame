@@ -28,7 +28,7 @@ function Record($name,$seconds){
  [DateTime]::UtcNow.ToString('o')|Set-Content "$target/$name-start.txt"
  AdbRun @('shell','pidof','com.forestatelier.curioshop')|Set-Content "$target/$name-pid.txt"
  AdbRun @('pull','/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save',"$target/$name-before.save")
- $remote='/sdcard/d19-'+$name+'.mp4'
+ $remote='/sdcard/'+(Split-Path -Leaf $Folder)+'-'+$name+'.mp4'
  AdbRun @('shell','screenrecord','--size','1080x1920','--bit-rate','4000000','--time-limit',([string]$seconds),$remote)
  AdbRun @('pull',$remote,"$target/Evidence/$name.mp4")
  AdbRun @('pull','/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save',"$target/$name-after.save")
