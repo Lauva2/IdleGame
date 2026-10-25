@@ -1,0 +1,9 @@
+{
+  "scope": "This task authorized C workspace only; logical files and unique allocated bytes differ due to hard links/compression. No other user data inspected.",
+  "files": 44832,
+  "logicalBytes": 58207101784,
+  "uniqueRecords": 1,
+  "allocatedBytes": 671481,
+  "valid": false,
+  "reason": "Windows DirEntry.stat inode values were zero; allocated-byte dedup count invalid. Logical-size field alone was accurate."
+}

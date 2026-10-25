@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-25T14:02:27.993775+00:00",
+  "scope": "Only decoded-frame caches, with explicit user approval and verified existing original movie SHA. Original MP4, native screenshots, source, APKs, saves, reports and existing indexes retained.",
+  "removedDirectories": 169,
+  "removedFrameCacheFiles": 58890,
+  "logicalFileBytes": 63866432666,
+  "freeBefore": {
+    "C": 1017835520,
+    "E": 3345928192
+  },
+  "freeAfter": {
+    "C": 46488117248,
+    "E": 15388176384
+  },
+  "originalMoviesVerifiedBeforeAndAfter": 165,
+  "allOriginalMovieHashesUnchanged": true,
+  "allOriginalIndexesUnchanged": true,
+  "heldDirectories": 15,
+  "note": "Freed volume bytes differ from logical file sizes due to pre-existing hard links and concurrent OS writes. Historical reports/indexes remain frozen; sampled-frame paths are no longer live and can be re-exported from retained sources."
+}

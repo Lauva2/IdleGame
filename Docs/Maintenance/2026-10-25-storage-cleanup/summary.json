@@ -1,0 +1,36 @@
+{
+  "scope": "User-requested project and C-drive storage cleanup; explicit authorization to dispose of decoded-frame caches while retaining original movies and indexes.",
+  "initialFreeBytes": {
+    "C": 533032960,
+    "E": 376434688
+  },
+  "finalFreeBytes": {
+    "C": 46355480576,
+    "E": 15249088512
+  },
+  "approxFreedBytes": {
+    "C": 45822447616,
+    "E": 14872653824
+  },
+  "windowsGiBFree": {
+    "C": 43.17,
+    "E": 14.2
+  },
+  "approxWindowsGiBFreed": {
+    "C": 42.68,
+    "E": 13.85
+  },
+  "decodedFrameDirectoriesRemoved": 169,
+  "decodedCacheFilesRemoved": 58890,
+  "originalMoviesVerifiedUnchanged": 165,
+  "allOriginalIndexesRetained": true,
+  "latestGameInputsAndApkUnchanged": true,
+  "latestSelectedNativeScreenshotsRetained": 61,
+  "unknownMappingDirectoriesPreserved": 15,
+  "unknownMappingLogicalBytes": 5076589445,
+  "sessionLogsMeasuredLogicalBytes": 6112830168,
+  "sessionLogsDeleted": false,
+  "gitHistoryAndReflogsRetained": true,
+  "gitConnectivityCheckPassed": true,
+  "physicalPhoneAndDeferredGameAcceptanceUnchanged": true
+}

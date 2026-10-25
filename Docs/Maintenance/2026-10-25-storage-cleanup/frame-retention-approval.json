@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-25T13:59:00.226769+00:00",
+  "confirmed": true,
+  "source": "user",
+  "answer": "允许删除解码帧，保留原片与索引（推荐）",
+  "scope": "Delete historical batch decoded-frame caches; retain original movies, necessary native screenshots, original reviews, time/SHA indexes, saves, source and delivery APKs. AGENTS frame-retention rule explicitly revised."
+}

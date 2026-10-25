@@ -1,0 +1,24 @@
+{
+  "scope": "Unity regenerable Library and Python bytecode only. Module cache copies retained because sampled installed module DLL differed; no assumption of identical copies.",
+  "freeAfter": {
+    "E": 730091520,
+    "C": 529641472
+  },
+  "utc": "2026-10-25T13:20:59.0313092Z",
+  "removed": [
+    {
+      "files": 15380,
+      "logicalBytes": 337235789.0,
+      "absolutePath": "E:\\UnityProject\\IdleGame\\Library"
+    },
+    {
+      "files": 1,
+      "logicalBytes": 19876.0,
+      "absolutePath": "E:\\UnityProject\\IdleGame\\Tools\\__pycache__"
+    }
+  ],
+  "freeBefore": {
+    "E": 367005696,
+    "C": 529879040
+  }
+}

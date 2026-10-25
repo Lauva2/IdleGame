@@ -1,0 +1,43 @@
+{
+  "scope": "Lossless local retention of decoded frames; originals, native screenshots, APKs, reports and tracked files untouched. Expanded copies removed only after full streaming byte-SHA verification.",
+  "archives": [
+    {
+      "id": "0abb44823f0c9dbb",
+      "sourceDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\blocked-reserve-frames-2fps",
+      "archive": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\evidence-cache-archives\\0abb44823f0c9dbb.7z",
+      "archiveBytes": 38192678,
+      "archiveSha256": "E83D5669938A71AC25DD347E0565D914FC96D93386BA00C191377997E91D2E5C",
+      "manifest": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\evidence-cache-archives\\0abb44823f0c9dbb.manifest.json",
+      "manifestSha256": "FEC962B98957A3F0D00DEC323D3F16F2D9D30BD1BA7A66EB2B768168FF4A1501",
+      "files": 41,
+      "originalBytes": 51218346,
+      "allArchivedFileSha256Verified": true,
+      "expandedCopyRemoved": false,
+      "seconds": 14.22,
+      "volumeFreeIncreaseBytes": 8216576,
+      "lastRestoreUtc": "2026-10-25T13:52:55.799222+00:00",
+      "allRestoredFileSha256Verified": true,
+      "archiveRetained": false,
+      "pilotStatus": "All original files restored and SHA verified. Generated pilot archive removed because compression benefit was poor; no frame-retention policy change."
+    },
+    {
+      "id": "fe4a71562eed47dd",
+      "sourceDirectory": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\blocked-full-frames-2fps",
+      "archive": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\evidence-cache-archives\\fe4a71562eed47dd.tar.zst",
+      "archiveBytes": 54313326,
+      "archiveSha256": "EFAB6BACBFA12E263673FB2669B23A6F3223A996128F86E7600A81FD2C7BE546",
+      "manifest": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\evidence-cache-archives\\fe4a71562eed47dd.manifest.json",
+      "manifestSha256": "37AFD9EBA04778F16A51267612D4E30EEAB3756424DD0674E6A7E30899ACA013",
+      "files": 41,
+      "originalBytes": 58194087,
+      "allArchivedFileSha256Verified": true,
+      "expandedCopyRemoved": false,
+      "seconds": 1.31,
+      "volumeFreeIncreaseBytes": -54345728,
+      "lastRestoreUtc": "2026-10-25T13:52:57.037974+00:00",
+      "allRestoredFileSha256Verified": true,
+      "archiveRetained": false,
+      "pilotStatus": "All original files restored and SHA verified. Generated pilot archive removed because compression benefit was poor; no frame-retention policy change."
+    }
+  ]
+}

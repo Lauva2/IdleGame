@@ -1,0 +1,91 @@
+{
+  "freeAfter": 1826074624,
+  "reason": "Three inactive extracted Android-module cache copies, not the actual installed toolchain; no project script references the cache. Their differing DLLs were not assumed identical.",
+  "activePathsRetained": 664,
+  "deleted": "E:\\UnityProject\\IdleGame\\Tools\\UnityAndroid",
+  "utc": "2026-10-25T13:37:23.3590030Z",
+  "freeBefore": 722231296,
+  "activeSampleHashesUnchanged": [
+    {
+      "sha256": "BC5D8A11447DBB9863A96E26F978818DC3D618A7E8A4F72DF81EDFBE818A8CD4",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\AndroidPlayerBuildProgram.Data.dll"
+    },
+    {
+      "sha256": "A4A7692EC9BA08253111592F544983E28F5953CCDE354D5AE6D18CDDCFDE14AE",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\AndroidPlayerBuildProgram.exe"
+    },
+    {
+      "sha256": "8ADE4503F2D1E57BC086704C20C7AF3273381CA6E700565DC7FB26FD8A2B9F84",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\modules.asset"
+    },
+    {
+      "sha256": "BBAE7316C677C5680A023DE99F774B694A10EC0EB7994FE2CEFE9F73694195A7",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NiceIO.dll"
+    },
+    {
+      "sha256": "AA7C58C0C58C74AA31ACA9134EE0B8A255AA8A7AB3B0A8E5E699AF44A93B44EB",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Unity.Android.Gradle.dll"
+    },
+    {
+      "sha256": "E77852C058C55FA6F59F2BB1EDB71DC8BEDC83411801021DD109200B2BDE8420",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Unity.Android.GradleProject.dll"
+    },
+    {
+      "sha256": "732C22BBF432A1761E1AAAD6FA0F11A44C3A1879AF158D220B7ABE25DBC90C38",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Unity.Android.Types.dll"
+    },
+    {
+      "sha256": "4122A166CADEC34F5F0F39FC5C408E1536F2408D7837C32289861B2233069106",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\UnityEditor.Android.Extensions.dll"
+    },
+    {
+      "sha256": "20D02042D43A5FCE4A9D4FDC5B83EC5D285374C04DE08AA2D08B54E052DFA969",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Apk\\LauncherManifest.xml"
+    },
+    {
+      "sha256": "C8155DAB9861429E65797B4F9A1EC52345A1D900B7A5E6F3C3DAC59369CEF926",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Apk\\UnityManifest.xml"
+    },
+    {
+      "sha256": "E402F50D3069CD59471CD95E0D2166F6F585A15379DE2B9785B669F67A336AEB",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Apk\\res\\drawable-xhdpi\\app_banner.png"
+    },
+    {
+      "sha256": "44CC3246D167BD718FB61FEABA493850FF95255C1DDBB8854C0E4C0534832F96",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Apk\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
+    },
+    {
+      "sha256": "44CC3246D167BD718FB61FEABA493850FF95255C1DDBB8854C0E4C0534832F96",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Apk\\res\\mipmap-anydpi-v26\\app_icon.xml"
+    },
+    {
+      "sha256": "CA4CF311409E14F4B14714B4E2C969CC62D40C1C2A5310A175E5878732C42800",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Apk\\res\\mipmap-mdpi\\app_icon.png"
+    },
+    {
+      "sha256": "75EF53C4D4418A640FA25E4706E3DB1CCE1872F866C5D1E25B1A6E95355B4408",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Apk\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+      "sha256": "B069982E0F75F5621F9D06F066F50E0617BFEB9B14E06D5768A070DDCCF727B0",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Apk\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+      "sha256": "86905D3FA768186636594E94231EB946198B96E8700AC7E100CB7CE1E14E8BDF",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Apk\\res\\values\\colors.xml"
+    },
+    {
+      "sha256": "425D3881C49FBDC050A94641ABE5C55BC56ACA2E214FBA010C4B1ED3A8F3F9BC",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Apk\\res\\values\\freeformwindow.xml"
+    },
+    {
+      "sha256": "8F9E8DC7A26056D00606D53359A35FAE3AA2DB85CCB231B583922F7733791EE0",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Apk\\res\\values\\ids.xml"
+    },
+    {
+      "sha256": "4D585291DA9E6B24535AAEE77AF493E46FE362EAD583F33C8BD96CDF275EE8A6",
+      "path": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Apk\\res\\values\\strings.xml"
+    }
+  ],
+  "installedDirectory": "E:\\UnityHub\\Editor\\Data\\PlaybackEngines\\AndroidPlayer"
+}

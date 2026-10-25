@@ -1,0 +1,3146 @@
+{
+  "utc": "2026-10-25T14:01:06.388645+00:00",
+  "scope": "Only decoded-frame caches, with explicit user approval and verified existing original movie SHA. Original MP4, native screenshots, source, APKs, saves, reports and existing indexes retained.",
+  "directories": [
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\final-startup-frames-2fps-lossless-webp",
+      "bytes": 12039901,
+      "files": 37,
+      "frames": 36,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\final-startup.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest02-0A84EE95\\first-start-frames-2fps",
+      "bytes": 20320047,
+      "files": 41,
+      "frames": 40,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\first-start.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\final-startup-frames-2fps",
+      "bytes": 24261288,
+      "files": 37,
+      "frames": 36,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\final-startup.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\cold-update-frames-2fps",
+      "bytes": 25190987,
+      "files": 53,
+      "frames": 52,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\cold-update.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-quality-q3-frames-2fps-lossless-webp",
+      "bytes": 27377510,
+      "files": 64,
+      "frames": 63,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-quality-q3.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-quality-q2-frames-2fps-lossless-webp",
+      "bytes": 27378926,
+      "files": 64,
+      "frames": 63,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-quality-q2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest01-E9A85351\\first-start-frames-2fps",
+      "bytes": 27480122,
+      "files": 41,
+      "frames": 40,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest01\\Evidence\\first-start.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\final-startup-frames-2fps",
+      "bytes": 30040843,
+      "files": 37,
+      "frames": 36,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\final-startup.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\resin-supplement-frames-2fps",
+      "bytes": 37064302,
+      "files": 51,
+      "frames": 50,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\resin-supplement.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\fishing-quality-q0-frames-2fps",
+      "bytes": 42916578,
+      "files": 65,
+      "frames": 64,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\fishing-quality-q0.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\fishing-quality-q3-frames-2fps",
+      "bytes": 43401078,
+      "files": 65,
+      "frames": 64,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\fishing-quality-q3.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\fishing-quality-q2-frames-2fps",
+      "bytes": 43494512,
+      "files": 65,
+      "frames": 64,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\fishing-quality-q2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-quality-q1-frames-2fps",
+      "bytes": 43994222,
+      "files": 63,
+      "frames": 62,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-quality-q1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\fishing-quality-q1-frames-2fps",
+      "bytes": 44071052,
+      "files": 65,
+      "frames": 64,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\fishing-quality-q1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-quality-q0-frames-2fps",
+      "bytes": 44659316,
+      "files": 64,
+      "frames": 63,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-quality-q0.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-quality-q0-frames-2fps",
+      "bytes": 44799453,
+      "files": 64,
+      "frames": 63,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-quality-q0.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-quality-q2-frames-2fps",
+      "bytes": 45287243,
+      "files": 64,
+      "frames": 63,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-quality-q2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\fishing-quality-q1-frames-2fps",
+      "bytes": 45323692,
+      "files": 65,
+      "frames": 64,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-quality-q1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-quality-q3-frames-2fps",
+      "bytes": 45375093,
+      "files": 64,
+      "frames": 63,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-quality-q3.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\blocked-input-frames-2fps",
+      "bytes": 49119255,
+      "files": 41,
+      "frames": 40,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\blocked-input.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\blocked-input-frames-2fps",
+      "bytes": 49123916,
+      "files": 41,
+      "frames": 40,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\blocked-input.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\blocked-full-frames-2fps",
+      "bytes": 49871015,
+      "files": 41,
+      "frames": 40,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\blocked-full.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\blocked-full-frames-2fps",
+      "bytes": 49873573,
+      "files": 41,
+      "frames": 40,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\blocked-full.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\blocked-reserve-frames-2fps",
+      "bytes": 49986075,
+      "files": 40,
+      "frames": 39,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\blocked-reserve.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\blocked-reserve-frames-2fps",
+      "bytes": 51218346,
+      "files": 41,
+      "frames": 40,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\blocked-reserve.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\blocked-full-frames-2fps",
+      "bytes": 58194087,
+      "files": 41,
+      "frames": 40,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\blocked-full.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\blocked-input-frames-2fps",
+      "bytes": 59313815,
+      "files": 41,
+      "frames": 40,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\blocked-input.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\Journey\\journey-berry-frames-2fps",
+      "bytes": 59725578,
+      "files": 81,
+      "frames": 80,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Journey\\journey-berry.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\Journey\\journey-dew-frames-2fps",
+      "bytes": 60139541,
+      "files": 81,
+      "frames": 80,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Journey\\journey-dew.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\blocked-reserve-frames-2fps",
+      "bytes": 62176731,
+      "files": 41,
+      "frames": 40,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\blocked-reserve.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\reduced-garden-frames-2fps",
+      "bytes": 66010865,
+      "files": 60,
+      "frames": 59,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\reduced-garden.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\production-garden-frames-2fps",
+      "bytes": 66838591,
+      "files": 60,
+      "frames": 59,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\production-garden.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\reduced-garden-frames-2fps",
+      "bytes": 67312450,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\reduced-garden.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\production-garden-frames-2fps",
+      "bytes": 67588560,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\production-garden.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\busy-garden-frames-2fps",
+      "bytes": 68950285,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\busy-garden.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\busy-garden-frames-2fps",
+      "bytes": 71206560,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\busy-garden.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\reduced-workshop-frames-2fps",
+      "bytes": 72475405,
+      "files": 60,
+      "frames": 59,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\reduced-workshop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\reduced-workshop-frames-2fps",
+      "bytes": 73776534,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\reduced-workshop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\production-workshop-frames-2fps",
+      "bytes": 73824860,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\production-workshop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\spill-c-production-workshop-frames-2fps",
+      "bytes": 73909736,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\production-workshop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\production-shop-frames-2fps",
+      "bytes": 76956885,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\production-shop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\spill-c-production-shop-frames-2fps",
+      "bytes": 77119886,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\production-shop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\production-garden-frames-2fps",
+      "bytes": 77313317,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\production-garden.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\reduced-garden-frames-2fps",
+      "bytes": 77328476,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\reduced-garden.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\busy-garden-frames-2fps",
+      "bytes": 77832793,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\busy-garden.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\production-garden-frames-2fps",
+      "bytes": 78586434,
+      "files": 60,
+      "frames": 59,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\production-garden.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\busy-garden-frames-2fps",
+      "bytes": 78680940,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\busy-garden.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\Journey\\journey-resin-frames-2fps",
+      "bytes": 79789612,
+      "files": 81,
+      "frames": 80,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Journey\\journey-resin.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\LongFlowFrames2FPS",
+      "bytes": 79976233,
+      "files": 121,
+      "frames": 120,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\Long\\region-flow.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\creek-fishing-frames-2fps",
+      "bytes": 80432296,
+      "files": 81,
+      "frames": 80,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\creek-fishing.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\Journey\\journey-partial-frames-2fps",
+      "bytes": 80805908,
+      "files": 81,
+      "frames": 80,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Journey\\journey-partial.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\production-garden-frames-2fps",
+      "bytes": 81109992,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\production-garden.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\busy-garden-frames-2fps",
+      "bytes": 81852715,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\busy-garden.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\NarrowFlowFrames2FPS",
+      "bytes": 86335291,
+      "files": 121,
+      "frames": 120,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\Narrow\\region-flow.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\blocked-full-frames-2fps",
+      "bytes": 87436225,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\blocked-full.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\production-workshop-frames-2fps",
+      "bytes": 87625500,
+      "files": 60,
+      "frames": 59,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\production-workshop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\reduced-workshop-frames-2fps",
+      "bytes": 87704647,
+      "files": 60,
+      "frames": 59,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\reduced-workshop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\pavilion-repair-frames-2fps",
+      "bytes": 87810819,
+      "files": 71,
+      "frames": 70,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\pavilion-repair.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\pavilion-repair-frames-2fps",
+      "bytes": 88754487,
+      "files": 71,
+      "frames": 70,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\pavilion-repair.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\reduced-workshop-frames-2fps",
+      "bytes": 88918339,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\reduced-workshop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\reduced-workshop-frames-2fps",
+      "bytes": 88983021,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\reduced-workshop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\production-workshop-frames-2fps",
+      "bytes": 89094562,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\production-workshop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\blocked-input-frames-2fps",
+      "bytes": 89150935,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\blocked-input.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\production-workshop-frames-2fps",
+      "bytes": 89385384,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\production-workshop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\blocked-input-frames-2fps",
+      "bytes": 89424283,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\blocked-input.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\blocked-full-frames-2fps",
+      "bytes": 90253636,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\blocked-full.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\production-shop-frames-2fps",
+      "bytes": 91335244,
+      "files": 60,
+      "frames": 59,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\production-shop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\production-shop-frames-2fps",
+      "bytes": 92937705,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\production-shop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\reduced-shop-frames-2fps",
+      "bytes": 93137235,
+      "files": 60,
+      "frames": 59,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\reduced-shop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\production-shop-frames-2fps",
+      "bytes": 93201301,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\production-shop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\blocked-reserve-frames-2fps",
+      "bytes": 93274871,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\blocked-reserve.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\blocked-reserve-frames-2fps",
+      "bytes": 93499023,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\blocked-reserve.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\Long\\region-flow-frames-2fps",
+      "bytes": 93795066,
+      "files": 121,
+      "frames": 120,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\Long\\region-flow.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\ordinary-resume-fishing-frames-2fps",
+      "bytes": 93983873,
+      "files": 101,
+      "frames": 100,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\ordinary-resume-fishing.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\reduced-shop-frames-2fps",
+      "bytes": 94438305,
+      "files": 61,
+      "frames": 60,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\reduced-shop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\Long\\region-flow-frames-2fps",
+      "bytes": 95092562,
+      "files": 121,
+      "frames": 120,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\Long\\region-flow.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\Journey\\journey-entry-frames-2fps",
+      "bytes": 96495619,
+      "files": 81,
+      "frames": 80,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Journey\\journey-entry.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\production-window-frames-2fps",
+      "bytes": 98365001,
+      "files": 81,
+      "frames": 80,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\production-window.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\Narrow\\region-flow-frames-2fps",
+      "bytes": 98395696,
+      "files": 121,
+      "frames": 120,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\Narrow\\region-flow.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\Journey\\journey-deliver-frames-2fps",
+      "bytes": 98587206,
+      "files": 81,
+      "frames": 80,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Journey\\journey-deliver.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\Narrow\\region-flow-frames-2fps",
+      "bytes": 98679758,
+      "files": 121,
+      "frames": 120,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\Narrow\\region-flow.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\Journey\\journey-complete-frames-2fps",
+      "bytes": 99496416,
+      "files": 81,
+      "frames": 80,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Journey\\journey-complete.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\forest-dew-resin-vines-frames-2fps",
+      "bytes": 101677189,
+      "files": 131,
+      "frames": 130,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\forest-dew-resin-vines.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\offscreen-sale-frames-2fps",
+      "bytes": 104903983,
+      "files": 80,
+      "frames": 79,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\offscreen-sale.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\forest-greenhouse-frames-2fps",
+      "bytes": 111869707,
+      "files": 131,
+      "frames": 130,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\forest-greenhouse.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\forest-greenhouse-frames-2fps",
+      "bytes": 112256768,
+      "files": 131,
+      "frames": 130,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\forest-greenhouse.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest02-0A84EE95\\ordinary-explore-7-frames-2fps",
+      "bytes": 119348530,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-7.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-weight-frames-10fps-lossless-webp",
+      "bytes": 125236962,
+      "files": 280,
+      "frames": 279,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-notice-r01-weight.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-new-frames-10fps-lossless-webp",
+      "bytes": 125644007,
+      "files": 282,
+      "frames": 281,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-notice-r01-new.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-both-frames-10fps-lossless-webp",
+      "bytes": 125959556,
+      "files": 281,
+      "frames": 280,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-notice-r01-both.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\resume-workshop-frames-2fps",
+      "bytes": 133827655,
+      "files": 91,
+      "frames": 90,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\resume-workshop.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-length-frames-10fps-lossless-webp",
+      "bytes": 136074724,
+      "files": 281,
+      "frames": 280,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-notice-r01-length.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-notice-r01-ordinary-frames-10fps-lossless-webp",
+      "bytes": 138501660,
+      "files": 281,
+      "frames": 280,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-notice-r01-ordinary.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\Evidence\\InteractionFrames",
+      "bytes": 155646457,
+      "files": 320,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\Evidence\\interactions.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\InteractionFrames2FPS",
+      "bytes": 158124957,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\interactions.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\forest-dew-resin-vines-frames-2fps",
+      "bytes": 159302322,
+      "files": 131,
+      "frames": 130,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\forest-dew-resin-vines.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\forest-dew-resin-vines-frames-2fps",
+      "bytes": 159699599,
+      "files": 131,
+      "frames": 130,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\forest-dew-resin-vines.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest02-0A84EE95\\ordinary-explore-3-frames-2fps",
+      "bytes": 170744586,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-3.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\forest-greenhouse-frames-2fps",
+      "bytes": 181040020,
+      "files": 161,
+      "frames": 160,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\forest-greenhouse.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest02-0A84EE95\\ordinary-explore-5-frames-2fps",
+      "bytes": 181507049,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-5.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\pavilion-repair-frames-2fps",
+      "bytes": 186098310,
+      "files": 121,
+      "frames": 120,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\pavilion-repair.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-ordinary-frames-10fps",
+      "bytes": 194576732,
+      "files": 278,
+      "frames": 277,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-notice.bak-ordinary.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-new-frames-10fps",
+      "bytes": 202010507,
+      "files": 278,
+      "frames": 277,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-notice.bak-new.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-weight-frames-10fps",
+      "bytes": 203094816,
+      "files": 280,
+      "frames": 279,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-notice.bak-weight.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-length-frames-10fps",
+      "bytes": 203579388,
+      "files": 281,
+      "frames": 280,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-notice.bak-length.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-pavilion-simple-frames-10fps-lossless-webp",
+      "bytes": 203639100,
+      "files": 351,
+      "frames": 350,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-pavilion-simple.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-notice.bak-both-frames-10fps",
+      "bytes": 204889954,
+      "files": 280,
+      "frames": 279,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-notice.bak-both.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-pavilion-filled-frames-10fps-lossless-webp",
+      "bytes": 205245168,
+      "files": 352,
+      "frames": 351,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-pavilion-filled.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-gallery-r01-frames-2fps",
+      "bytes": 216318445,
+      "files": 361,
+      "frames": 360,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-gallery-r01.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\fishing-gallery-r01-frames-2fps",
+      "bytes": 224217974,
+      "files": 361,
+      "frames": 360,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-gallery-r01.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\shop-closeup-pan-clearance-frames-10fps",
+      "bytes": 227572525,
+      "files": 201,
+      "frames": 200,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\shop-closeup-pan-clearance.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\Evidence\\Visits2Frames",
+      "bytes": 228853690,
+      "files": 320,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\Evidence\\visits-2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\Visits1Frames2FPS",
+      "bytes": 228936571,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\visits-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\Evidence\\Visits1Frames",
+      "bytes": 228959000,
+      "files": 320,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\Evidence\\visits-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\Visits2Frames2FPS",
+      "bytes": 228997604,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\visits-2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest02-0A84EE95\\ordinary-explore-1-frames-2fps",
+      "bytes": 229720878,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest02-0A84EE95\\ordinary-explore-2-frames-2fps",
+      "bytes": 246950655,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\fishing-gallery-r02-frames-2fps",
+      "bytes": 250739842,
+      "files": 361,
+      "frames": 360,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\fishing-gallery-r02.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\interfaces-frames-2fps",
+      "bytes": 255393001,
+      "files": 241,
+      "frames": 240,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\interfaces.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\fishing-gallery-frames-2fps",
+      "bytes": 288507718,
+      "files": 361,
+      "frames": 360,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\fishing-gallery.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\three-fishing-spots-frames-2fps",
+      "bytes": 305030068,
+      "files": 221,
+      "frames": 220,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\three-fishing-spots.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\interfaces-frames-2fps",
+      "bytes": 306472439,
+      "files": 241,
+      "frames": 240,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\interfaces.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\interfaces-frames-2fps",
+      "bytes": 327292985,
+      "files": 241,
+      "frames": 240,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\interfaces.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest02-0A84EE95\\ordinary-explore-4-frames-2fps",
+      "bytes": 327428790,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-4.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\ordinary-fishing-frames-2fps",
+      "bytes": 338036114,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\ordinary-fishing.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\interfaces-frames-2fps",
+      "bytes": 348498963,
+      "files": 241,
+      "frames": 240,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\interfaces.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\fishing-motion-simple-frames-10fps",
+      "bytes": 357389583,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-simple.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\interfaces-frames-2fps",
+      "bytes": 376767860,
+      "files": 241,
+      "frames": 240,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\interfaces.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\initial-flow-frames-10fps",
+      "bytes": 386855082,
+      "files": 801,
+      "frames": 800,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\initial-flow.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest02-0A84EE95\\ordinary-explore-8-frames-2fps",
+      "bytes": 394703105,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-8.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\market-native-2-frames-2fps",
+      "bytes": 412057921,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\market-native-2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\market-native-1-frames-2fps",
+      "bytes": 412108831,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\market-native-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-resume-frames-10fps",
+      "bytes": 413929706,
+      "files": 501,
+      "frames": 500,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-resume.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\fishing-motion-spots-r02-frames-10fps-lossless-webp",
+      "bytes": 416798638,
+      "files": 646,
+      "frames": 645,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-spots-r02.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest01-E9A85351\\ordinary-explore-1-frames-2fps",
+      "bytes": 417030777,
+      "files": 320,
+      "frames": 319,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest01\\Evidence\\ordinary-explore-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d23-journey02-4DD7D6ED-frames\\fishing-motion-resume-frames-10fps",
+      "bytes": 418000376,
+      "files": 502,
+      "frames": 501,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-resume.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest02-0A84EE95\\ordinary-explore-9-frames-2fps",
+      "bytes": 453095278,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-9.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest02-0A84EE95\\ordinary-explore-6-frames-2fps",
+      "bytes": 459356618,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-6.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\shop-closeup-zoom-clearance-frames-10fps",
+      "bytes": 492471984,
+      "files": 401,
+      "frames": 400,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\shop-closeup-zoom-clearance.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\visits-wide-1-frames-2fps",
+      "bytes": 504324264,
+      "files": 320,
+      "frames": 319,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\visits-wide-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\visits-wide-2-frames-2fps",
+      "bytes": 505885222,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\visits-wide-2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\visits-wide-2-frames-2fps",
+      "bytes": 506264052,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\visits-wide-2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\visits-wide-1-frames-2fps",
+      "bytes": 506607671,
+      "files": 321,
+      "frames": 320,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\visits-wide-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\initial-flow-frames-10fps",
+      "bytes": 522351550,
+      "files": 801,
+      "frames": 800,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\initial-flow.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\initial-flow-frames-10fps",
+      "bytes": 530557148,
+      "files": 801,
+      "frames": 800,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\initial-flow.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-ordinary-frames-10fps",
+      "bytes": 579369937,
+      "files": 701,
+      "frames": 700,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-ordinary.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\fishing-motion-spots-r02-frames-10fps",
+      "bytes": 607059501,
+      "files": 651,
+      "frames": 650,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-spots-r02.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\initial-flow-r02-frames-10fps",
+      "bytes": 641149786,
+      "files": 802,
+      "frames": 801,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\initial-flow-r02.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\initial-flow-frames-10fps",
+      "bytes": 676957683,
+      "files": 801,
+      "frames": 800,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\initial-flow.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\initial-flow-frames-10fps",
+      "bytes": 1120354841,
+      "files": 1604,
+      "frames": 1603,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\initial-flow.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\DenseVisits1full10FPS",
+      "bytes": 1144586916,
+      "files": 1601,
+      "frames": 1600,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\visits-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\Evidence\\DenseVisits1",
+      "bytes": 1144755863,
+      "files": 1600,
+      "frames": 1600,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\Evidence\\visits-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\Evidence\\DenseVisits2",
+      "bytes": 1145000192,
+      "files": 1601,
+      "frames": 1601,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\Evidence\\visits-2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\DenseVisits2full10FPS",
+      "bytes": 1145616536,
+      "files": 1602,
+      "frames": 1601,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\visits-2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d22-fishing02-F0AEBF40-frames\\fishing-motion-ordinary-frames-10fps",
+      "bytes": 1316069638,
+      "files": 1601,
+      "frames": 1600,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-ordinary.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\fishing-motion-spots-frames-10fps",
+      "bytes": 1321610141,
+      "files": 1052,
+      "frames": 1051,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-spots.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\shop-closeup-detail-frames-10fps",
+      "bytes": 1355585288,
+      "files": 901,
+      "frames": 900,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\shop-closeup-detail.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40-PNG-spill\\shop-closeup-forest-2-frames-10fps",
+      "bytes": 2045671041,
+      "files": 1601,
+      "frames": 1600,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\shop-closeup-forest-2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\d22-offloaded-frames\\shop-closeup-forest-1-frames-10fps",
+      "bytes": 2046498056,
+      "files": 1601,
+      "frames": 1600,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\shop-closeup-forest-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\ShopCloseup1full10FPS",
+      "bytes": 2054633439,
+      "files": 1602,
+      "frames": 1601,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\shop-closeup-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\shop-closeup-forest-2-frames-10fps",
+      "bytes": 2487317857,
+      "files": 1601,
+      "frames": 1600,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\shop-closeup-forest-2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-940D4B70\\shop-closeup-forest-1-frames-10fps",
+      "bytes": 2489829873,
+      "files": 1602,
+      "frames": 1601,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\shop-closeup-forest-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\shop-closeup-1-frames-10fps",
+      "bytes": 2493169700,
+      "files": 1601,
+      "frames": 1600,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\shop-closeup-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping03-8E2644BD\\shop-closeup-2-frames-10fps",
+      "bytes": 2493353105,
+      "files": 1601,
+      "frames": 1600,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\shop-closeup-2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\shop-closeup-1-frames-10fps",
+      "bytes": 2495586174,
+      "files": 1601,
+      "frames": 1600,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\shop-closeup-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping02-12EAA9AF\\shop-closeup-2-frames-10fps",
+      "bytes": 2495932357,
+      "files": 1601,
+      "frames": 1600,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping02-original-media\\Evidence\\shop-closeup-2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping02\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d18-forest04-A96082DA\\ShopCloseup2full10FPS",
+      "bytes": 2496269184,
+      "files": 1601,
+      "frames": 1600,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\shop-closeup-2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d19-experience01-7BD50E86\\shop-closeup-2-frames-10fps",
+      "bytes": 2496282960,
+      "files": 1601,
+      "frames": 1600,
+      "movies": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\shop-closeup-2.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping02-12EAA9AF\\shop-closeup-1-frames-10fps",
+      "bytes": 2496300524,
+      "files": 1601,
+      "frames": 1600,
+      "movies": [
+        "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping02-original-media\\Evidence\\shop-closeup-1.mp4"
+      ],
+      "frameIndexes": [
+        "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping02\\frame-index.csv"
+      ]
+    }
+  ],
+  "held": [
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d17-playtest01\\Evidence\\FreshFrames",
+      "bytes": 4390912,
+      "files": 24,
+      "frames": 24,
+      "reason": "No complete frame-to-original mapping"
+    },
+    {
+      "source": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-F0AEBF40\\cold-update-frames-2fps-lossless-webp",
+      "bytes": 5326886,
+      "files": 27,
+      "frames": 27,
+      "reason": "No complete frame-to-original mapping"
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\fishing-motion-spots-r02-frames-10fps-lossless-webp-effort6-partial",
+      "bytes": 15393044,
+      "files": 27,
+      "frames": 27,
+      "reason": "No complete frame-to-original mapping"
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d17-playtest01\\Evidence\\OrdinaryFrames",
+      "bytes": 20361693,
+      "files": 36,
+      "frames": 36,
+      "reason": "No complete frame-to-original mapping"
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d17-playtest01\\Evidence\\FirstSaleFrames",
+      "bytes": 30344139,
+      "files": 60,
+      "frames": 60,
+      "reason": "No complete frame-to-original mapping"
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d11-release01\\Evidence\\ProductionDynamics\\ProductionFrames",
+      "bytes": 106899889,
+      "files": 300,
+      "frames": 300,
+      "reason": "No complete frame-to-original mapping"
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest02\\Evidence\\DoorDense",
+      "bytes": 131633719,
+      "files": 180,
+      "frames": 180,
+      "reason": "No complete frame-to-original mapping"
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest02\\Evidence\\InteractionFrames",
+      "bytes": 182853992,
+      "files": 320,
+      "frames": 320,
+      "reason": "No complete frame-to-original mapping"
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest02\\Evidence\\Visits2Frames",
+      "bytes": 223905096,
+      "files": 320,
+      "frames": 320,
+      "reason": "No complete frame-to-original mapping"
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest02\\Evidence\\Visits1Frames",
+      "bytes": 228580659,
+      "files": 320,
+      "frames": 320,
+      "reason": "No complete frame-to-original mapping"
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d11-release01\\Evidence\\ProductionDynamics\\CapacityFrames",
+      "bytes": 240385769,
+      "files": 480,
+      "frames": 480,
+      "reason": "No complete frame-to-original mapping"
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d10-release01\\Evidence\\NormalVideo\\DenseFrames",
+      "bytes": 809536888,
+      "files": 1901,
+      "frames": 1901,
+      "reason": "No complete frame-to-original mapping"
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d11-release01\\Evidence\\NormalVideo\\DenseFrames",
+      "bytes": 812592729,
+      "files": 1901,
+      "frames": 1901,
+      "reason": "No complete frame-to-original mapping"
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest02\\Evidence\\DenseVisits2",
+      "bytes": 1120129793,
+      "files": 1601,
+      "frames": 1601,
+      "reason": "No complete frame-to-original mapping"
+    },
+    {
+      "source": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest02\\Evidence\\DenseVisits1",
+      "bytes": 1144254237,
+      "files": 1601,
+      "frames": 1601,
+      "reason": "No complete frame-to-original mapping"
+    }
+  ],
+  "originalMovies": [
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping02-original-media\\Evidence\\shop-closeup-1.mp4",
+      "bytes": 65826717,
+      "sha256": "6C5BE639CFF677CE55C8DE35ED3A9898DF633BAD470808BE1395213D7ECFD64B",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d20-shopping02-original-media\\Evidence\\shop-closeup-2.mp4",
+      "bytes": 64377090,
+      "sha256": "48339D7F7FADBD19144AEFE6225A313BA492C357C98470E9523B5EC585B1A64A",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\blocked-full.mp4",
+      "bytes": 12749966,
+      "sha256": "BCC27C56A6A6F38E3BC04FF1E80472B235C2EE08DEF77BCBBC44528835BAF63D",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\blocked-input.mp4",
+      "bytes": 13625349,
+      "sha256": "7B43AC6811D80DC2230E3B0DD9EE2B178F8ED1C23CB0B3FB290069C938A29C47",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\blocked-reserve.mp4",
+      "bytes": 17100655,
+      "sha256": "830009DB61A44235CD0F9CD26626F1821F957DF783D659838E83A780AF962529",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\busy-garden.mp4",
+      "bytes": 23012269,
+      "sha256": "6221266BF105F6577986DAF01990DDC93E36AAB8ED59179F1A4FCC491A9C04DC",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\creek-fishing.mp4",
+      "bytes": 24094933,
+      "sha256": "C18350CCBD2BCE3190C99EDAB52CE7447581C93DD55A141188ACFE8418646267",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\final-startup.mp4",
+      "bytes": 4019621,
+      "sha256": "7D192A174951AF52C4CCC7166AB034245CA3BE07EF17C7B563460321C0945EA1",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\fishing-gallery-r02.mp4",
+      "bytes": 73017752,
+      "sha256": "50700EF8BB32C1FDE926080D748F47CBFE1A0A86A7AF56637A52B59B2EF087F6",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\fishing-gallery.mp4",
+      "bytes": 70445775,
+      "sha256": "E31C54E83D1B5DBD803B0C1853ECEADEB7E70737BBD196D17E494693FE5EED34",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\fishing-quality-q0.mp4",
+      "bytes": 12467477,
+      "sha256": "FF8CC719CDC94CE0B0A48A9E49168F737E1AB83B68394B47593C863D23221A3E",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\fishing-quality-q1.mp4",
+      "bytes": 12034722,
+      "sha256": "49FDC3442DA907D0FCA0CA4309A7559F4493B61123F83F55096B93C1A199B9F0",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\fishing-quality-q2.mp4",
+      "bytes": 12120699,
+      "sha256": "389697472C52C72CEEF5D85E525A244FD4DA79B3040BB62C8BC621DE72B59DE3",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\fishing-quality-q3.mp4",
+      "bytes": 12938829,
+      "sha256": "282F3E33A3AC22D78C55E784CEAAAB3D3FE91AB067CD01C8574F32FE40E79E1E",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\forest-dew-resin-vines.mp4",
+      "bytes": 23045599,
+      "sha256": "863AC8914275E1066A471AAC4D2E3B6F32A046AC51794434E162CA69F2EF07A8",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\forest-greenhouse.mp4",
+      "bytes": 45072281,
+      "sha256": "FC1041D9328D3E3E6E5F20907F4C0D45624BD4AE4DCDBF590972491F666191AC",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\initial-flow-r02.mp4",
+      "bytes": 24857512,
+      "sha256": "6D518FE28BD633434FD4123E627C08D92869E96A5B4D0CE095687041DA135891",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\initial-flow.mp4",
+      "bytes": 15562176,
+      "sha256": "4D4CB52F960FF0DD87EEED8432DCE08F6CC96CF8489BC3AD9AB37581AED7C2EC",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\interfaces.mp4",
+      "bytes": 57959908,
+      "sha256": "84FC40F672F849033249BE73785B70C13A75B878DBB827146D34E10CA0DEB822",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\ordinary-fishing.mp4",
+      "bytes": 64854286,
+      "sha256": "9AE637E7548C1B3F3C28E2389A5E02E3B49025C67B70813BD1A695727F556765",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\ordinary-resume-fishing.mp4",
+      "bytes": 24482054,
+      "sha256": "CF542EEF5FE49E891CF6CAA1E77F8707A53828ED5F59722538379AA42632751A",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\pavilion-repair.mp4",
+      "bytes": 29361450,
+      "sha256": "6FCA3795492EF489A4A27FCC5578238E0B16C58E6718BBBCBECC6BE242B8B279",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\production-garden.mp4",
+      "bytes": 21198945,
+      "sha256": "CF5AB7B4D310A5866B17A4B122D5108268FE3CF12C1CFC992E23049AC0B95B08",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\production-shop.mp4",
+      "bytes": 15949445,
+      "sha256": "B181C6ED97B320543EFDBD9A2CB686C439CA496FF2CF98F49CFC8FF923B28149",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\production-workshop.mp4",
+      "bytes": 14613563,
+      "sha256": "372074B21A9B90A62BE5CCBBC88CA5B8EDA33A45C85612214DB549ABA4E25A49",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\reduced-shop.mp4",
+      "bytes": 14961940,
+      "sha256": "D7FD127D06F37BAC576F78A3566BAAD57DEC9F2DCD4D4417C9142635EBB16535",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\reduced-workshop.mp4",
+      "bytes": 13226569,
+      "sha256": "35EEEED63E21951B9F1140299B1A22A8BA249D0A716543BEC6384EE4FD1CC31D",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\resin-supplement.mp4",
+      "bytes": 6804272,
+      "sha256": "8D14D4ECCB267D2BF08A34266A74EF457D26F6FAD218427AC91301A3C431B665",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\shop-closeup-forest-1.mp4",
+      "bytes": 66506078,
+      "sha256": "C2E7E01E34A38B347DD339916C1F5D97E0BF62D16DAD4566EC7B0FFCF82F970D",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\shop-closeup-forest-2.mp4",
+      "bytes": 66203589,
+      "sha256": "964A94A1E5987B6BF99EADAC0488EED5C0511AA92F44C0EDD960C63F7C6FA2D8",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d21-forest05-original-media\\three-fishing-spots.mp4",
+      "bytes": 57567511,
+      "sha256": "EA53F872536F538292E80845EBDD730A822A788569C6135B5B481442A44096F3",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\blocked-full.mp4",
+      "bytes": 8530007,
+      "sha256": "01F9A3C70F4E1FE8DE70E751DAEB26A9A224827C9E52CCCC8816C1019A153AAA",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\blocked-input.mp4",
+      "bytes": 9042719,
+      "sha256": "BA2FF421C6CCDDF3B78E9132578C349F91D367D7B3C0B59BD81E8CEA74323CC3",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\blocked-reserve.mp4",
+      "bytes": 9116186,
+      "sha256": "31AF2C9CE9076BA715F06EF257CC7A80B0F6BE286F60DF6E542958CA7A06C875",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\busy-garden.mp4",
+      "bytes": 22737495,
+      "sha256": "94386C3D4F7D1EAD4956572D9E15AC2D99578A6C8C6237108F22E1D9DE9930DA",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\cold-update.mp4",
+      "bytes": 3633902,
+      "sha256": "D45648A9FB65733A7EFF7A3532E85DB64879BDE033CFDBBC6FC170DA41FD0F62",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\final-startup.mp4",
+      "bytes": 4044056,
+      "sha256": "2585F29B1276144758D2F80989561774903F0FC8B86E9F8538C748A40AB19D74",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-gallery-r01.mp4",
+      "bytes": 56192291,
+      "sha256": "A2234E0F9DDE5DCE38F91B917C1D22E38019C0776128DB93493B368BB2FCAA9F",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-notice.bak-both.mp4",
+      "bytes": 13573591,
+      "sha256": "EE8F191FC15C568C36326831A1F69E3312CAEC0B5FB80CD83A0D659EB12651D6",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-notice.bak-length.mp4",
+      "bytes": 12647323,
+      "sha256": "B3000A447074EADC34E543F503C31D445AAF6C518C9EC5F30AB656712BFF8849",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-notice.bak-new.mp4",
+      "bytes": 12483047,
+      "sha256": "B46AC797CE039864176568CA2E7B2A9C18B9598CD64DF4ADAA83F7CA1BCED63C",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-notice.bak-ordinary.mp4",
+      "bytes": 13505574,
+      "sha256": "546DBF3990CD4A5E315B476FB6160D954680CD60DE93A236D498E667A7979734",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-notice.bak-weight.mp4",
+      "bytes": 12655091,
+      "sha256": "67C033B35126B73FE037ED8FA7706C3915914851C9CBEA9EF25195CBFE79B578",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-ordinary.mp4",
+      "bytes": 68975898,
+      "sha256": "0D9B52F0E35A145AD802A96226B5A41B3DC2662A0F23A0530CDA23BA8C2ADDE1",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-resume.mp4",
+      "bytes": 25952881,
+      "sha256": "F9FC5A2BBC9D626C71943530B71FD9B293BBA3900B207D0312B1264158081FAE",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-simple.mp4",
+      "bytes": 13880359,
+      "sha256": "FC845BCD09CDA6E3505DF70729EE6AF516E89FD82EFB08BBC1E2537D9088D3DA",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-spots-r02.mp4",
+      "bytes": 33825742,
+      "sha256": "1A25CF1300339B0C3FAE5D5F53CCE9E62F1205989B5646172B2CA9ABE02EB82A",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-motion-spots.mp4",
+      "bytes": 42110571,
+      "sha256": "F321521A15502EE165460B5F35513E07743A85AA072AF72FA632E8709E700804",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-quality-q0.mp4",
+      "bytes": 13368859,
+      "sha256": "421A08AACE05C6A6045C87CB186C270540E7689E4EF3FA6D60AA4117900E20D8",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-quality-q1.mp4",
+      "bytes": 11473117,
+      "sha256": "D412D41A37FFA58CD2866C6CB5427E72311C8A31323D9AD1C9F2C688C3BC28E7",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-quality-q2.mp4",
+      "bytes": 13519539,
+      "sha256": "616786FAF30CCB41980184DFA0E74E2149F1441D98B367FB9029133E35760051",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\fishing-quality-q3.mp4",
+      "bytes": 10427354,
+      "sha256": "701720F64C5026F3B0C99B45A7E85112ADFCA3E246E05A967C88FC8EFAE03CF0",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\forest-dew-resin-vines.mp4",
+      "bytes": 29395113,
+      "sha256": "F97206460F817651BE0BEBD4EC56BFD68A01C58CCB208C254B60D29B1AF5255A",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\forest-greenhouse.mp4",
+      "bytes": 40088093,
+      "sha256": "72B39AEFE511C597694F5CC5024E19D88D43BA532C0B5D138E4304472BEF1F39",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\initial-flow.mp4",
+      "bytes": 24119374,
+      "sha256": "940EEA9D4FB2D51380024D27C7883B210E899EF2C2B1F97DBFA4AD673CCF5D6F",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\interfaces.mp4",
+      "bytes": 57761695,
+      "sha256": "67FD998A3BE0D1E94A03D87B399B54E6DC7CE99847778230E365F9D5E5B56E31",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\pavilion-repair.mp4",
+      "bytes": 17947297,
+      "sha256": "028126E871D7720C6BCD93CF7C3884BB602CC3620E772FFA853BC542A9D427DD",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\production-garden.mp4",
+      "bytes": 20908564,
+      "sha256": "43961B817FDEAC5F842B2287F23D537A156552EE9C46031AD476BB938041C636",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\production-shop.mp4",
+      "bytes": 15761753,
+      "sha256": "F4570F9C4221E7C25929E53502A86330D74893D66AAAE5708B3422DA94164705",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\production-workshop.mp4",
+      "bytes": 15026882,
+      "sha256": "C20F3A1FD3241A29D432B40E29900BBED737735C86B902607E31FC8D1AA193AE",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\reduced-garden.mp4",
+      "bytes": 17425365,
+      "sha256": "BAA10DF1A1909E157EB9E58A99486952AF95DE4688D3160CE3A2F41F68375719",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\reduced-workshop.mp4",
+      "bytes": 10343294,
+      "sha256": "32F4C52C06543DABE99A35269AC2A5880C2C0F13BA3B15F3B0A75B92A98DB3CE",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\shop-closeup-forest-1.mp4",
+      "bytes": 66081928,
+      "sha256": "3E90AC615338B5F04D0158D383E981C92046DD5996374051D8E87F3CF7663AC3",
+      "indexMatched": true
+    },
+    {
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\ForestShop-d22-fishing02-original-media\\shop-closeup-forest-2.mp4",
+      "bytes": 66047003,
+      "sha256": "155CDC37FEAD193C78C2485475FB11DF929FCF4402C6990D98EDD035B5534570",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\Evidence\\interactions.mp4",
+      "bytes": 43776289,
+      "sha256": "A260AF5FEA0CB0EE86213965B9793DE0A39C88EA12A0D1C84E16D354EB35367F",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\Evidence\\visits-1.mp4",
+      "bytes": 20084721,
+      "sha256": "E83E45DDB0E948D7790ABCD7FBF803D500FF9416C9B8A17319817EE4DE7DC885",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\Evidence\\visits-2.mp4",
+      "bytes": 19793955,
+      "sha256": "88DF8694BD5CE6001F3A7176415E5E9DD3BD8F6EAB1CF00D71948DB158FD7EE3",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\Long\\region-flow.mp4",
+      "bytes": 18994688,
+      "sha256": "72C179DE540DA1B120A5EA72147924443261E517CF16BD356CBA821A545E692C",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\Narrow\\region-flow.mp4",
+      "bytes": 18674220,
+      "sha256": "8A7A75E7356CDEBC2BEA72DCF68FB130705247435F40A77D5F577B8217AE1E69",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\interactions.mp4",
+      "bytes": 43774682,
+      "sha256": "B61520E71767FE97826A6BAA1E39D9F9C392341A325C5554E6034FF10C9E1063",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\shop-closeup-1.mp4",
+      "bytes": 64619728,
+      "sha256": "EF489BE5CE5579C0B29B58A78F7E0A68C059C6482EEE43CA8F72C42D10E92213",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\shop-closeup-2.mp4",
+      "bytes": 64364509,
+      "sha256": "6E309E223382566A1EF0D99302D7070DC37DEC413A9460ABAB406D2796854532",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\visits-1.mp4",
+      "bytes": 20098006,
+      "sha256": "8E577CFDE74B8507FBBDAC65BE0DAC434A64BD76CCEA8958E032396BB9BFB0B9",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\Evidence\\visits-2.mp4",
+      "bytes": 19964479,
+      "sha256": "C025A22BC9A643780DF869DA7CD1FF43B9531436813176FC7222861AC8CF30FD",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\Long\\region-flow.mp4",
+      "bytes": 17360792,
+      "sha256": "441D2C60F7F132D18992712D6D993202E86C542581510E89D1B2AA48B2DF5EF5",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\Narrow\\region-flow.mp4",
+      "bytes": 18457604,
+      "sha256": "B5D7823B4FD0C9E807FAA460FD2F59CA06027627062CE033F528B65F6FBB2B80",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\blocked-full.mp4",
+      "bytes": 8337590,
+      "sha256": "ED54E8BB72285E65D413CA464500B1D7B20A69811404E2A7E709D6FF91CE5202",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\blocked-input.mp4",
+      "bytes": 8463057,
+      "sha256": "40EFCDFE4BCB95D3FBCB6EB16EB6C2781A2DB5D53A8A8B4310F8606A29066E0F",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\blocked-reserve.mp4",
+      "bytes": 11284535,
+      "sha256": "57E30279A39CCEFF34EF298D155BE73164D8DEBF4238E835343965355A238559",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\busy-garden.mp4",
+      "bytes": 22187866,
+      "sha256": "44B57DFE74943D0264351055D0E09EE6CF936A8E3502F118BEE5D0BE4E37D04A",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\initial-flow.mp4",
+      "bytes": 45664581,
+      "sha256": "8F499E365B8CBB786D9426E0AD3153C24748022DEC54ABDBFCBAF07646616E01",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\interfaces.mp4",
+      "bytes": 41243389,
+      "sha256": "75D0836561EAE6C762BB2FD415B044D1F3F3A9495AA5B389C922EFF582E1432D",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\production-garden.mp4",
+      "bytes": 15912945,
+      "sha256": "39A15418BC0382CA619E42A345EE9A2342A4F3B3C1B97A64EC03EFD27FAFE8D8",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\production-shop.mp4",
+      "bytes": 12916879,
+      "sha256": "F27510DCF85453D1535A2E025FA10015C2C8BB3DC5288A6E9899C26687737931",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\production-workshop.mp4",
+      "bytes": 11473663,
+      "sha256": "C4204AAE80B203454236564F15D7C7B960CB19378AC8AF6957B0CF31662BE779",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\reduced-garden.mp4",
+      "bytes": 20189838,
+      "sha256": "49A2B20210D9FD6C83A0E8A44BC9572BB151DD4F8597EDC07E5CA4BFB3E1F61E",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\reduced-workshop.mp4",
+      "bytes": 13168535,
+      "sha256": "571391F1444C5BF222359E9D5917C83A9FF08FA673BC068990D8E38BB49C3D24",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\shop-closeup-1.mp4",
+      "bytes": 65051978,
+      "sha256": "DEBCA145C6F93E28C417378BD3069A56C072F6099F29B8FF3DF8E3AB59D46438",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\shop-closeup-2.mp4",
+      "bytes": 64614403,
+      "sha256": "C43B044F6A9E9364F71307A7BB50605073DD2EEC5AB17CD5FF3D181A3728FDA2",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\visits-wide-1.mp4",
+      "bytes": 40515432,
+      "sha256": "A579D106B7C46EE4F53D5912CB6DB4EB255D6864E8FAD73027DC39C8011B41FD",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\Evidence\\visits-wide-2.mp4",
+      "bytes": 41239028,
+      "sha256": "FED06AA9033D1D5313D1042D93ED109B951BB43B50FCB7819D2FCA2DE2E7359A",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\Long\\region-flow.mp4",
+      "bytes": 19692561,
+      "sha256": "1F93F847FF80CE33E25F5CCB6F17683A58E35EDACF843352CA7837C1A35FFC91",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\Narrow\\region-flow.mp4",
+      "bytes": 19219086,
+      "sha256": "7E744DF16366EA5C87777A7A45F8B3BC9D84866C92D82B65C0EFD22A89CA8402",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\blocked-full.mp4",
+      "bytes": 13131182,
+      "sha256": "B0D6BF02C10A13BC92C541664A4D5C22F8E4AC12C5CBA708D12F8CE3D0234225",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\blocked-input.mp4",
+      "bytes": 13491873,
+      "sha256": "C84A3047B623F65C6E104782A2C0B241B138E6A275A39C6235A03810B28441F4",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\blocked-reserve.mp4",
+      "bytes": 16688343,
+      "sha256": "924866BE5CD2E44E06DCA72BB5A06985B2105D453A83A32A4E9380759203F89A",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\busy-garden.mp4",
+      "bytes": 24107960,
+      "sha256": "A0A3509D53550BBCB04A11FA6610604FB710AAE844178B634D30793DDE1C3818",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\initial-flow.mp4",
+      "bytes": 23504130,
+      "sha256": "A2408E697A066E18513F385CE4A0ABD7104FCB5218E64425640E4332DBB0FF4A",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\interfaces.mp4",
+      "bytes": 50612573,
+      "sha256": "FE88589AE129F3A046C114EADC714FDE517AE84735572CAD77C3921768288C44",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\offscreen-sale.mp4",
+      "bytes": 25953675,
+      "sha256": "B998A6EB3C07FF02891428134549E6C0C78B610CBDB375CC7C0D60FC4012E59E",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\production-garden.mp4",
+      "bytes": 22467936,
+      "sha256": "85ACFAA507CEFD2B4810711D23C12CB2C55BA21916F05835D11D347EA91AADCA",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\production-shop.mp4",
+      "bytes": 15453802,
+      "sha256": "B5428BA8DA289925DB0FFD39103B6D93A601B797BBC90D91C28BCDF2B8752B73",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\production-workshop.mp4",
+      "bytes": 14895396,
+      "sha256": "AAAACF9CB3226AB3754A7DE10E45DDC3830299F6EBCB5A264703D5A4AE900E30",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\reduced-shop.mp4",
+      "bytes": 15580579,
+      "sha256": "209FCED9D85BEC88BA6EDDFCA0DB04DA1BDE250A13FA33FCF21D54F39CF56E9B",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\reduced-workshop.mp4",
+      "bytes": 12638604,
+      "sha256": "21C254BF8710C04E36FEFF43792CC442DCF75195ADED1AD25022F1A3FA836D67",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\resume-workshop.mp4",
+      "bytes": 21982623,
+      "sha256": "E75FB775738E809939A60D24F0EF1E8843491FF40F4CA61FA465B0946C85E9A0",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\shop-closeup-1.mp4",
+      "bytes": 65533890,
+      "sha256": "9D5D3BF0D44760F6A214F14FA4E802D1E853DB5568E09604C2F3E0480B595D78",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\shop-closeup-2.mp4",
+      "bytes": 64773136,
+      "sha256": "CE5D010D0E84630A2FD683D607EA9F44EB2B137B965BBB900B45F767A62E878B",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\shop-closeup-detail.mp4",
+      "bytes": 44443037,
+      "sha256": "3859AC7FCFBD751513F66F476B8ED7F0A6830E70DEADF990108CFD382768D770",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\visits-wide-1.mp4",
+      "bytes": 42318411,
+      "sha256": "D898229B7D069C2A57977C3FAF2C14FEA36EBD86FF5CAD3C513CDA4A0EAA757A",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\Evidence\\visits-wide-2.mp4",
+      "bytes": 42709796,
+      "sha256": "81B480F2831DA5AB7B92B904B933EC683BCF7FEC0A19B1301608B1D511A21E8B",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest01\\Evidence\\first-start.mp4",
+      "bytes": 3915865,
+      "sha256": "B2F48116896CE09365950DF88C0E2040822EFD77E4AC658C33D27DF0E559C916",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest01\\Evidence\\ordinary-explore-1.mp4",
+      "bytes": 44796231,
+      "sha256": "B351B44E2936CC4493E844EFDC74C10CBC9DC172CE6953EA8AF91AFC4CA81DC7",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\first-start.mp4",
+      "bytes": 2497897,
+      "sha256": "F400E28AA0032CE7BE0488BAB752EF5AB51BB81FC7020F35F5E7602EC54B4213",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-1.mp4",
+      "bytes": 38993266,
+      "sha256": "353D1D58CB740FC7080272BAA3F17F155D355C6BE0A4F7F9AC4F878407C0DD85",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-2.mp4",
+      "bytes": 48524144,
+      "sha256": "375851ADC1A825C4B859EDD18EF6BD8F236B98A87186784F8A490D78A32627ED",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-3.mp4",
+      "bytes": 25123002,
+      "sha256": "03E115C1B950500FF5454F664127ABD6B07B8906D2F62A96A504385B970EDE7F",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-4.mp4",
+      "bytes": 54713200,
+      "sha256": "17B50750CEBF1721957F93BDF7C8496AB18D019137073FDFCB8B5AB3C54BBA43",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-5.mp4",
+      "bytes": 25694249,
+      "sha256": "DAD053D2BF6E1604DE6A482BBBDDCBFCA5E99AC21F689D41C4699FA12365E3F6",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-6.mp4",
+      "bytes": 45175819,
+      "sha256": "1864FF3B5A9FC6E876156AE3A52CB1BE1734254B89F6B3A0DDA340F07FF0361C",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-7.mp4",
+      "bytes": 6439836,
+      "sha256": "3D610A27E57FE4A739EF5100C9D9573A85283D82397B2CBD9AFFD7687C7508DD",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-8.mp4",
+      "bytes": 40740154,
+      "sha256": "0778F1BF80BFB357D35D24A7AF8544F24C1EADFF64C5EA4EF5568F57413C49B0",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\Evidence\\ordinary-explore-9.mp4",
+      "bytes": 61962184,
+      "sha256": "B936FFE3074905BD734D22E6DC45E658192CFF81283EC449B05582BAAEF11466",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Journey\\journey-berry.mp4",
+      "bytes": 18412037,
+      "sha256": "6335F9A2AA21D4F3B3C71569C6905AAD129DB610B479FF307535D42D9BDC3C97",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Journey\\journey-complete.mp4",
+      "bytes": 19966227,
+      "sha256": "4ECF7D100001FF05C7398EEE73DCA4A9F696D7AB31EE162A96CCC51D8F129400",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Journey\\journey-deliver.mp4",
+      "bytes": 19860433,
+      "sha256": "95F310D598952EA6B3A29F2F57365CBEC493759CA231AE904D22AE4114695089",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Journey\\journey-dew.mp4",
+      "bytes": 18804603,
+      "sha256": "BE0BB85AD3F8650DE987AEB2039FD1DE6903FD51053E89122D682828F8EE8E14",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Journey\\journey-entry.mp4",
+      "bytes": 18840239,
+      "sha256": "DC9C6D81AED491260E6EA7B74B73094ABF0F7498055BE8899B799ED5BEFA5CE0",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Journey\\journey-partial.mp4",
+      "bytes": 16390039,
+      "sha256": "BD18B0338986239556F80705A343417E39BE2A724671AEADF8E9F66A9584C898",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\Journey\\journey-resin.mp4",
+      "bytes": 15707514,
+      "sha256": "28A43461798A64D55A8564E82AF15B9C6F9EBEF1CA98D33AE7C60D3BF12B396A",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\blocked-full.mp4",
+      "bytes": 7874940,
+      "sha256": "4903EDAFA8075F04F827B727836C90E523BCF26C0D44446A2E03CF5670F206E2",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\blocked-input.mp4",
+      "bytes": 8531871,
+      "sha256": "E961F8B4370FB36EB352103AEA634D2844B6D1C561465A832A5104740BE60A6C",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\blocked-reserve.mp4",
+      "bytes": 11459628,
+      "sha256": "614D20FB1FEA8B05B4F501B7AA0F1C84EB1E432ADE7A5638D627F1F230F10D8A",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\busy-garden.mp4",
+      "bytes": 18390562,
+      "sha256": "E640F157DD4C43287705525DCD1D8BE2663E33770B00A8702D02FC835D46EFA1",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\final-startup.mp4",
+      "bytes": 2977810,
+      "sha256": "69C0F42C6B87D01AD603279C064449CABEA957F5FE125443682DAD3095C784AE",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-gallery-r01.mp4",
+      "bytes": 55905657,
+      "sha256": "437482D600EAC13BD66DD0C6DA757B7CD636A282C388686D0963408EB83AA76B",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-notice-r01-both.mp4",
+      "bytes": 14427693,
+      "sha256": "81B3511F33DECFCB71A23A57E1A0FCE0E98E92837AFE41E71F57988FB4694E10",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-notice-r01-length.mp4",
+      "bytes": 12622023,
+      "sha256": "75D565B49BD7416350818F60C07B311AC2DBB48F05EFD83F4B0400B83DA8A717",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-notice-r01-new.mp4",
+      "bytes": 14740459,
+      "sha256": "8A05F980C3306887A9B4AB9B05912A90F58349533E0B798A9B2C92CB6B7585FF",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-notice-r01-ordinary.mp4",
+      "bytes": 12969375,
+      "sha256": "0DA43245B070C5D0497917CDB55B4B3BC141D700CB6D37F20CD37483FBADEF10",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-notice-r01-weight.mp4",
+      "bytes": 14615113,
+      "sha256": "91A221905B4E79B27C631A66409DC4DB265BD2591BCA5B1872AB0BA50515DF3F",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-ordinary.mp4",
+      "bytes": 40374071,
+      "sha256": "E8113F9172FFBA26BF7F0DBB00233C289EEB793E3162323B6A161DBC34521B55",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-pavilion-filled.mp4",
+      "bytes": 19309440,
+      "sha256": "07F88658C42DF7E079A30F27374384F19ED5EB084525E973BA30D04CC0807829",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-pavilion-simple.mp4",
+      "bytes": 16367908,
+      "sha256": "FC11B2C2600483EC9E1DB450CC4546FB502840AE16EFD44DA6CC945A3D7C9CED",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-resume.mp4",
+      "bytes": 26470790,
+      "sha256": "0215F1F15530FB5EDE6F54CC7C1CFEEC6505F9154F297ABE15E110922F22040F",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-motion-spots-r02.mp4",
+      "bytes": 29212935,
+      "sha256": "D870964D147C4DC0C40A278BBF02FDF43D571AB8784ABF6B6C87AD41FA9933FA",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-quality-q0.mp4",
+      "bytes": 14497077,
+      "sha256": "B5F9D3C9C1952AD437B6C89F443540D1FC5C0018D573DFAC32E53CC80D3E6B09",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-quality-q1.mp4",
+      "bytes": 13377112,
+      "sha256": "BDFF40A923104671C840511D666C7FC5AD7D7532F5EF70B77E006BC289C7A7BA",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-quality-q2.mp4",
+      "bytes": 14516904,
+      "sha256": "703C53C824E336A292348743F63D09B532625518A37B19ADB050F73073F7A28E",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\fishing-quality-q3.mp4",
+      "bytes": 14907938,
+      "sha256": "AE9C64DD3A26B595D3E96C94A290DB280EC1F4CB54FD04763872127DE87A4D73",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\forest-dew-resin-vines.mp4",
+      "bytes": 26511428,
+      "sha256": "EF4D838AF59FD2031A73E4921FFEAC3B6C82FEE52E46CF4FA33D057740D9C561",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\forest-greenhouse.mp4",
+      "bytes": 37063659,
+      "sha256": "B64D759B6965CA9427667B15A9992B6500634CB77540548C0DE10A29EE767EB1",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\initial-flow.mp4",
+      "bytes": 25001152,
+      "sha256": "86D434474B8AD256A6E4B892468831CC6A1F66DD332368B295602CF73D4F6E72",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\interfaces.mp4",
+      "bytes": 53807529,
+      "sha256": "11743E1833888099DA26D0CD2253A4A68DBF7A81B4C0C2A01D98C725885E3FA0",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\market-native-1.mp4",
+      "bytes": 69595527,
+      "sha256": "358635AB3BA54F1F2A7E7B016359EBE13E0931DF7B0D2B498DB223FE86157924",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\market-native-2.mp4",
+      "bytes": 70071083,
+      "sha256": "97274536E5DE162D8B2F4FCEA548B7F2B9C6E080283B6C42E755F323922293A2",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\pavilion-repair.mp4",
+      "bytes": 15835007,
+      "sha256": "4693BAE9B038808CD07C15DD450EED35906208B197F8D913971635817F95AC9E",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\production-garden.mp4",
+      "bytes": 18972999,
+      "sha256": "372978C5CDB911A42F6E13AB9DA9C3F35082A8E80E42D02630896ACB7D33F0C8",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\production-shop.mp4",
+      "bytes": 14677503,
+      "sha256": "88B152403A881E20CDD071FA6E35F37A034FCF74EFA4E97E02A40E00EF24FFF8",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\production-window.mp4",
+      "bytes": 17304717,
+      "sha256": "13B1A71501958DDC5FCB07F3B2FB66DF080E53D294951852AF3079A0539BB7B1",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\production-workshop.mp4",
+      "bytes": 14230122,
+      "sha256": "1AD1D6C7F3CD441112F6192642B0D7ED471DE08BA624193A012DC1F90FD9A29E",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\reduced-garden.mp4",
+      "bytes": 20882518,
+      "sha256": "919D8F2A47F8219FB1775E93DAC44E411E4FAF6C9B63A36E75E8B21C401CF4F6",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\reduced-workshop.mp4",
+      "bytes": 13696618,
+      "sha256": "019C4D171349B4B24A16EDD93D8884DE81151673403E72D17306A43FAB3E89F3",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\shop-closeup-pan-clearance.mp4",
+      "bytes": 10830158,
+      "sha256": "3894A9C07C8828DF102FB347DF1FB61C7B27A8E0F19E9B721C47BC01410888E8",
+      "indexMatched": true
+    },
+    {
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\Evidence\\shop-closeup-zoom-clearance.mp4",
+      "bytes": 19888853,
+      "sha256": "0A3010E8B1BDE9FB93FF8C17F06AF8E09183F8854A8F1FF043474F74C0D6E671",
+      "indexMatched": true
+    }
+  ],
+  "frameIndexHashes": {
+    "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest02\\frame-index.csv": "453A7769C7B52F4BA00CD379D6C6ED90F9401A46579E28CDCB62AA9D4B3CF98B",
+    "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest03\\frame-index.csv": "AAD546E19F8D8657E5DB2E0E4102B8C328FD642F7A85FE3D92C0073A9C206801",
+    "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d18-forest04\\frame-index.csv": "7852E67D5407A4AEE01D1D6944FFA5DA8C1865BEB2CCE5646D5821CAF9562D34",
+    "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d19-experience01\\frame-index.csv": "1D2A2019BA0B51F64984636EE8675BC24CE9D10E8738BD380EF7D2276B07DF47",
+    "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping02\\frame-index.csv": "70A26AD81CB7650650BA20DC1F33CC793EEF7A8E756D26A4018FDF5F0A3BBF7B",
+    "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d20-shopping03\\frame-index.csv": "C8B3F0BC8B0D2ED1A80BE5B8DA7A205FE9ABE5BF9914D80F4DCEFD51DC2BD017",
+    "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest01\\frame-index.csv": "8B640953A6528355EE71CBB9AAF26F9A8AD8650C5F4E796055026814F6ACDEFF",
+    "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest02\\frame-index.csv": "2E7CC058B664983BFA7C90F01BF045AA4C673555729F29CD342E30295639887F",
+    "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d21-forest05\\frame-index.csv": "D36C7403FA4DA7ADE8F947E365DB36F158190E6092C6A81AE0DBDD28B59A1F3B",
+    "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d22-fishing02\\frame-index.csv": "2AD1245139ABA04C6C986A91D5946EB5AD52EAF08297DE35BBFE0685500B064F",
+    "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d23-journey02\\frame-index.csv": "933F767223D12C1A7B69467F1388EB31CEE6D1B1175D846CD4D6DD4FF8E30693"
+  }
+}

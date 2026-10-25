@@ -1,0 +1,23 @@
+{
+  "scope": "Pilot archives were not adopted. All original frames restored byte-for-byte, duplicate storage shared where possible, generated test archives/probe removed. No permanent frame deletion authorized yet.",
+  "restoredFileCount": 163,
+  "restoredFilesShared": 40,
+  "removedGeneratedArchivesAndLogs": [
+    "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\evidence-cache-archives\\0abb44823f0c9dbb.7z",
+    "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\evidence-cache-archives\\0abb44823f0c9dbb.manifest.json",
+    "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\evidence-cache-archives\\0abb44823f0c9dbb.archive.log",
+    "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\evidence-cache-archives\\0abb44823f0c9dbb.verify.log",
+    "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\evidence-cache-archives\\fe4a71562eed47dd.tar.zst",
+    "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\evidence-cache-archives\\fe4a71562eed47dd.manifest.json",
+    "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\evidence-cache-archives\\fe4a71562eed47dd.archive.log",
+    "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\evidence-cache-archives\\fe4a71562eed47dd.verify.log",
+    "E:\\UnityProject\\IdleGame\\Builds\\Archives\\evidence-cache-archives\\3e5e12d8a3f7566f.tar.zst",
+    "E:\\UnityProject\\IdleGame\\Builds\\Archives\\evidence-cache-archives\\3e5e12d8a3f7566f.manifest.json",
+    "E:\\UnityProject\\IdleGame\\Builds\\Archives\\evidence-cache-archives\\3e5e12d8a3f7566f.archive.log",
+    "E:\\UnityProject\\IdleGame\\Builds\\Archives\\evidence-cache-archives\\3e5e12d8a3f7566f.verify.log"
+  ],
+  "freeAfter": {
+    "C": 1019187200,
+    "E": 3350614016
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "scope": "Lossless local retention of decoded frames; originals, native screenshots, APKs, reports and tracked files untouched. Expanded copies removed only after full streaming byte-SHA verification.",
+  "archives": [
+    {
+      "id": "3e5e12d8a3f7566f",
+      "sourceDirectory": "E:\\UnityProject\\IdleGame\\Builds\\Analysis\\3d-d23-journey02-4DD7D6ED-frames\\Journey\\journey-berry-frames-2fps",
+      "archive": "E:\\UnityProject\\IdleGame\\Builds\\Archives\\evidence-cache-archives\\3e5e12d8a3f7566f.tar.zst",
+      "archiveBytes": 54694262,
+      "archiveSha256": "64207B9869F0064DA7880C5136CA8BC600A23105EE2F5820829DF81CC8A8F363",
+      "manifest": "E:\\UnityProject\\IdleGame\\Builds\\Archives\\evidence-cache-archives\\3e5e12d8a3f7566f.manifest.json",
+      "manifestSha256": "8136E3619C5F14BAECCA064C3B69B5A5BFAA182AFFAE53C3728ABC7A1053EFE5",
+      "files": 81,
+      "originalBytes": 59725578,
+      "allArchivedFileSha256Verified": true,
+      "expandedCopyRemoved": false,
+      "seconds": 1.5,
+      "volumeFreeIncreaseBytes": 4038656,
+      "lastRestoreUtc": "2026-10-25T13:52:58.587325+00:00",
+      "allRestoredFileSha256Verified": true,
+      "archiveRetained": false,
+      "pilotStatus": "All original files restored and SHA verified. Generated pilot archive removed because compression benefit was poor; no frame-retention policy change."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "Only byte-identical untracked decoded frames share NTFS storage. Every path and byte retained, no retention-policy change.",
+  "filesShared": 2932,
+  "seconds": 71.5,
+  "freeBefore": {
+    "C": 477003776,
+    "E": 1856106496
+  },
+  "freeAfter": {
+    "C": 988995584,
+    "E": 3349921792
+  },
+  "fullJournal": "E:\\UnityProject\\IdleGame\\Builds\\Archives\\additional-frame-sharing-complete.json",
+  "journalSha256": "3631042402EDF42D79C784392D2949B54C724074E50D26F22AFBCE6BCEC9513E"
+}
