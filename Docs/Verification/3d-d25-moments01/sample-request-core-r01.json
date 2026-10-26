@@ -1,0 +1,135 @@
+[
+  {
+    "id": "production-garden",
+    "video": "production-garden.mp4",
+    "start": 0,
+    "end": 30,
+    "fps": 1
+  },
+  {
+    "id": "production-workshop",
+    "video": "production-workshop.mp4",
+    "start": 0,
+    "end": 30,
+    "fps": 1
+  },
+  {
+    "id": "production-shop",
+    "video": "production-shop.mp4",
+    "start": 0,
+    "end": 30,
+    "fps": 1
+  },
+  {
+    "id": "busy-garden",
+    "video": "busy-garden.mp4",
+    "start": 0,
+    "end": 30,
+    "fps": 1
+  },
+  {
+    "id": "reduced-garden",
+    "video": "reduced-garden.mp4",
+    "start": 0,
+    "end": 30,
+    "fps": 1
+  },
+  {
+    "id": "reduced-workshop",
+    "video": "reduced-workshop.mp4",
+    "start": 0,
+    "end": 30,
+    "fps": 1
+  },
+  {
+    "id": "blocked-full",
+    "video": "blocked-full.mp4",
+    "start": 0,
+    "end": 20,
+    "fps": 0.25
+  },
+  {
+    "id": "blocked-input",
+    "video": "blocked-input.mp4",
+    "start": 0,
+    "end": 20,
+    "fps": 0.25
+  },
+  {
+    "id": "blocked-reserve",
+    "video": "blocked-reserve.mp4",
+    "start": 0,
+    "end": 20,
+    "fps": 0.25
+  },
+  {
+    "id": "single-craft-window",
+    "video": "production-window.mp4",
+    "start": 0,
+    "end": 8,
+    "fps": 4
+  },
+  {
+    "id": "quiet-window",
+    "video": "production-window.mp4",
+    "start": 20,
+    "end": 24,
+    "fps": 1
+  },
+  {
+    "id": "market-overview-1",
+    "video": "market-native-1.mp4",
+    "start": 0,
+    "end": 160,
+    "fps": 0.25
+  },
+  {
+    "id": "market-overview-2",
+    "video": "market-native-2.mp4",
+    "start": 0,
+    "end": 160,
+    "fps": 0.25
+  },
+  {
+    "id": "market-owl",
+    "video": "market-native-1.mp4",
+    "start": 0,
+    "end": 20,
+    "fps": 1
+  },
+  {
+    "id": "market-hedgehog",
+    "video": "market-native-1.mp4",
+    "start": 38,
+    "end": 66,
+    "fps": 1
+  },
+  {
+    "id": "market-squirrel",
+    "video": "market-native-1.mp4",
+    "start": 90,
+    "end": 120,
+    "fps": 1
+  },
+  {
+    "id": "market-rabbit1",
+    "video": "market-native-1.mp4",
+    "start": 140,
+    "end": 159.9,
+    "fps": 1
+  },
+  {
+    "id": "market-rabbit2",
+    "video": "market-native-2.mp4",
+    "start": 0,
+    "end": 16,
+    "fps": 1
+  },
+  {
+    "id": "market-bear",
+    "video": "market-native-2.mp4",
+    "start": 30,
+    "end": 66,
+    "fps": 1
+  }
+]

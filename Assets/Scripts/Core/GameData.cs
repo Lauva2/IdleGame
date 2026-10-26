@@ -91,7 +91,8 @@ namespace ForestShop.Core
     [Serializable]
     public class GameState
     {
-        public int version = 3;
+        public const int CurrentVersion = 4;
+        public int version = CurrentVersion;
         public long coins = 50;
         public int reputation;
         public long sales;
@@ -125,5 +126,6 @@ namespace ForestShop.Core
         public OfflineReport report = new OfflineReport();
         public ForestProgress forest = new ForestProgress();
         public FishingProgress fishing = new FishingProgress();
+        public ForestMomentsProgress moments = new ForestMomentsProgress();
     }
 }

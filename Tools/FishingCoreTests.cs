@@ -35,11 +35,11 @@ public static class FishingCoreTests
             var e=AtSpot(state);Check(e.Fishing.Start(0,0),"sentinel blocks next cast");e.Fishing.Advance(20);StateValidation.Check(Copy(state));
             var bad=Prepared();bad.fishing.candidate=new FishCatch{species=1};bool rejected=false;try{StateValidation.Check(bad);}catch(InvalidDataException){rejected=true;}Check(rejected,"nonempty invalid inactive candidate accepted");
         });
-        test("actual v2 ordinary forest completion migrates to v3 without resetting progress",()=>{
+        test("actual v2 ordinary forest completion migrates to current version without resetting progress",()=>{
             byte[] original=File.ReadAllBytes(Native); var before=Codec.Decode(Encoding.UTF8.GetString(original).Split(new[]{'\n'},4)[3]);
             Check(before.version==2 && before.forest.pavilion,"real version2 ordinary baseline");
-            var after=Codec.Decode(Encoding.UTF8.GetString(original).Split(new[]{'\n'},4)[3]); StateMigration.Upgrade(after); before.version=3; before.fishing=new FishingProgress();
-            Check(after.version==3 && Codec.Encode(before)==Codec.Encode(after),"migration changed existing economy/forest/queues/report/settings");
+            var after=Codec.Decode(Encoding.UTF8.GetString(original).Split(new[]{'\n'},4)[3]); StateMigration.Upgrade(after); before.version=GameState.CurrentVersion; before.fishing=new FishingProgress(); before.moments=new ForestMomentsProgress();
+            Check(after.version==GameState.CurrentVersion && Codec.Encode(before)==Codec.Encode(after),"migration changed existing economy/forest/queues/report/settings");
             Check(after.fishing.totalCaught==0 && after.fishing.entries.Length==12 && !after.fishing.running,"migration awarded fish");
             Check(Convert.ToBase64String(File.ReadAllBytes(Native))==Convert.ToBase64String(original),"native evidence changed"); StateValidation.Check(after);
         });
@@ -104,7 +104,7 @@ public static class FishingCoreTests
             string dir=Path.Combine("Tools/TestOutput",Guid.NewGuid().ToString("N")); Directory.CreateDirectory(dir);
             Wrapped(Path.Combine(dir,"forest-shop.save.bak"),good,1); Wrapped(Path.Combine(dir,"forest-shop.save"),bad,2);
             var store=new SaveStore(dir,Codec); var loaded=store.Load();
-            Check(loaded.version==3 && loaded.fishing.totalCaught==0 && loaded.forest.pavilion && loaded.coins==good.coins && store.RecoveryMessage!=null,"bad v3 was silently repaired or valid forest backup lost"); StateValidation.Check(loaded);
+            Check(loaded.version==GameState.CurrentVersion && loaded.fishing.totalCaught==0 && loaded.forest.pavilion && loaded.coins==good.coins && store.RecoveryMessage!=null,"bad v3 was silently repaired or valid forest backup lost"); StateValidation.Check(loaded);
         });
     }
 }

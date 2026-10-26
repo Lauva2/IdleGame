@@ -1,0 +1,47 @@
+{
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/MomentReload",
+  "steps": [
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        1805
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1704
+      ]
+    },
+    {
+      "shot": "03-same-guestbook-after-load"
+    },
+    {
+      "tap": [
+        540,
+        1080
+      ]
+    },
+    {
+      "shot": "04-pending-choice-kept"
+    },
+    {
+      "tap": [
+        800,
+        1770
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "05-star-after-deliberate-choice"
+    }
+  ]
+}

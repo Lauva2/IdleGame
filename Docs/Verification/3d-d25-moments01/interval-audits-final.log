@@ -1,0 +1,14 @@
+KEEP existing passed replay production-garden
+KEEP existing passed replay production-workshop
+KEEP existing passed replay production-shop
+KEEP existing passed replay busy-garden
+KEEP existing passed replay reduced-garden
+KEEP existing passed replay reduced-workshop
+KEEP existing passed replay market
+﻿PASS actual Android online replay: elapsed=40.0666798342354s, simplified=False, coins=26824, sales=61824; all inventory, production and facility states match; fish state unchanged
+﻿
+KEEP existing passed blocked audit
+KEEP existing passed market audit
+KEEP existing passed quality audit
+KEEP existing passed notice audit
+PASS all retained real intervals and prepared fish landing audits

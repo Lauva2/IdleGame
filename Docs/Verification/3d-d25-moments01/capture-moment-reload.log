@@ -1,0 +1,37 @@
+﻿
+﻿
+﻿PASS valid prepared moment fixture E:\UnityProject\IdleGame\Docs\Verification\3d-d25-moments01\Prepared\moment-await.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d25-moments01/Prepared/moment-await.save: 1 file pushed, 0 skipped. 9.7 MB/s (6865 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d25-moments01/Prepared/moment-await.save: 1 file pushed, 0 skipped. 8.5 MB/s (6865 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1300
+WaitTime: 1306
+Complete
+COMPLETE prepared moment-await
+{'tap': [950, 160]}
+{'tap': [925, 1805]}
+{'tap': [900, 1704]}
+{'tap': [540, 1080]}
+{'shot': '01-pending-choice-before-close'}
+{'back': True}
+{'shot': '02-closed-without-choice'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.0 MB/s (6810 bytes in 0.006s)
+/sdcard/forest-moment-pending-reload.mp4: 1 file pulled, 0 skipped. 29.6 MB/s (6151987 bytes in 0.198s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 5.5 MB/s (6829 bytes in 0.001s)
+COMPLETE actual uncut startup moment-pending-reload
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 5.6 MB/s (6829 bytes in 0.001s)
+{'tap': [950, 160]}
+{'tap': [925, 1805]}
+{'tap': [900, 1704]}
+{'shot': '03-same-guestbook-after-load'}
+{'tap': [540, 1080]}
+{'shot': '04-pending-choice-kept'}
+{'tap': [800, 1770]}
+{'wait': 1}
+{'shot': '05-star-after-deliberate-choice'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 4.3 MB/s (6830 bytes in 0.002s)
+COMPLETE actual pending-choice reload

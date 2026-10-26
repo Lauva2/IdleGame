@@ -243,6 +243,7 @@ public static class CoreTests
             Test("new-save full chapter reachable using normal actions and no gifts", FullChapter);
             ForestCoreTests.Run(Test);
         FishingCoreTests.Run(Test);
+            MomentCoreTests.Run(Test);
             Console.WriteLine("TOTAL " + passed + " tests passed"); return 0;
         }
         catch (Exception e) { Console.Error.WriteLine(e); return 1; }

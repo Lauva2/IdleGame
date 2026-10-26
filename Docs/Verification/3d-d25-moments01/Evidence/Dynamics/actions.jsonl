@@ -1,0 +1,24 @@
+{"utc": "2026-10-26T19:02:22.222233+00:00", "step": {"tap": [390, 300]}}
+{"utc": "2026-10-26T19:02:22.681723+00:00", "step": {"shot": "production-garden-before"}}
+{"utc": "2026-10-26T19:02:54.852345+00:00", "step": {"shot": "production-garden-after"}}
+{"utc": "2026-10-26T19:02:55.917333+00:00", "step": {"tap": [660, 300]}}
+{"utc": "2026-10-26T19:02:56.396348+00:00", "step": {"shot": "production-workshop-before"}}
+{"utc": "2026-10-26T19:03:29.154108+00:00", "step": {"shot": "production-workshop-after"}}
+{"utc": "2026-10-26T19:03:30.329067+00:00", "step": {"tap": [930, 300]}}
+{"utc": "2026-10-26T19:03:30.778137+00:00", "step": {"shot": "production-shop-before"}}
+{"utc": "2026-10-26T19:04:02.846066+00:00", "step": {"shot": "production-shop-after"}}
+{"utc": "2026-10-26T19:04:17.542423+00:00", "step": {"tap": [390, 300]}}
+{"utc": "2026-10-26T19:04:17.999289+00:00", "step": {"shot": "busy-twelve-garden"}}
+{"utc": "2026-10-26T19:05:03.889461+00:00", "step": {"tap": [390, 300]}}
+{"utc": "2026-10-26T19:05:04.341511+00:00", "step": {"shot": "blocked-full-before"}}
+{"utc": "2026-10-26T19:05:26.117699+00:00", "step": {"shot": "blocked-full-after"}}
+{"utc": "2026-10-26T19:05:40.539122+00:00", "step": {"tap": [660, 300]}}
+{"utc": "2026-10-26T19:05:40.997156+00:00", "step": {"shot": "blocked-input-before"}}
+{"utc": "2026-10-26T19:06:03.278243+00:00", "step": {"shot": "blocked-input-after"}}
+{"utc": "2026-10-26T19:06:18.064908+00:00", "step": {"tap": [930, 300]}}
+{"utc": "2026-10-26T19:06:18.517433+00:00", "step": {"shot": "blocked-reserve-before"}}
+{"utc": "2026-10-26T19:06:40.379474+00:00", "step": {"shot": "blocked-reserve-after"}}
+{"utc": "2026-10-26T19:06:55.399169+00:00", "step": {"tap": [390, 300]}}
+{"utc": "2026-10-26T19:06:55.844771+00:00", "step": {"shot": "reduced-garden-before"}}
+{"utc": "2026-10-26T19:07:27.934576+00:00", "step": {"tap": [660, 300]}}
+{"utc": "2026-10-26T19:07:28.394064+00:00", "step": {"shot": "reduced-workshop"}}

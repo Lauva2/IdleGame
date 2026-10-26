@@ -22,6 +22,7 @@ public static class PrepareJourneyReview
             string variant = args[1];
             if (!new[] { "journey-entry", "journey-berry", "journey-dew", "journey-resin", "journey-partial", "journey-complete", "journey-deliver", "journey-window" }.Contains(variant)) throw new Exception("Unknown journey fixture");
             var json = new JavaScriptSerializer(); var s = json.Deserialize<GameState>(original.Last()); StateMigration.Upgrade(s);
+            s.moments = new ForestMomentsProgress();
             s.coins = 25000; s.reputation = 180; s.sales = 60000; s.warehouse = 4; s.harvests = 140; s.crafts = 160;
             s.crops = Enumerable.Range(0, 7).Select(i => i < 4 ? 30 : 0).ToArray(); s.items = Enumerable.Range(0, 9).Select(i => i < 6 ? 24 : 0).ToArray(); s.sold = Enumerable.Range(0, 9).Select(i => i < 6 ? 20 : 0).ToArray();
             s.plots = Enumerable.Range(0, 12).Select(i => new Facility { config = i % 4, workItem = i % 4, remaining = 10 + i % 4 * 4 }).ToArray();

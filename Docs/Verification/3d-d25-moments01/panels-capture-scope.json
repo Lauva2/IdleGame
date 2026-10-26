@@ -1,0 +1,30 @@
+{
+  "startedUtc": "2026-10-26T19:18:14.7945939Z",
+  "prepared": true,
+  "restoreResponsibility": "Display/cutouts restored by this script; newest ordinary main+backup restored by the caller after its complete review suite.",
+  "originalCutouts": [
+    {
+      "package": "com.android.internal.display.cutout.emulation.corner",
+      "enabled": false
+    },
+    {
+      "package": "com.android.internal.display.cutout.emulation.double",
+      "enabled": false
+    },
+    {
+      "package": "com.android.internal.display.cutout.emulation.hole",
+      "enabled": false
+    },
+    {
+      "package": "com.android.internal.display.cutout.emulation.waterfall",
+      "enabled": false
+    },
+    {
+      "package": "com.android.internal.display.cutout.emulation.tall",
+      "enabled": false
+    }
+  ],
+  "evidence": "Original ADB framebuffer PNG only, captured by Forest-DeviceReview.py; every action is timestamped in each profile actions.jsonl.",
+  "scope": "Reward dialogues, prepared offline report and prepared chapter ending. Not natural progression, the full longest story, actual away income or sound acceptance.",
+  "originalOverride": null
+}

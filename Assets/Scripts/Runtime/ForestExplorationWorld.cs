@@ -92,7 +92,7 @@ namespace ForestShop
                     if (Mathf.Abs(at.x-node.x) < 4.4f && at.z > node.z-9 && at.z < node.z+3) coversDiscovery = true;
                 }
                 foreach (var spot in FishingOrigins) if(Mathf.Abs(at.x-spot.x)<4 && at.z>spot.z-6 && at.z<spot.z+3) coversDiscovery=true;
-                if (coversDiscovery || at.x > -61 && at.x < -53 && at.z > 59 && at.z < 72) continue;
+                if (coversDiscovery || TreeCoversMoment(at) || at.x > -61 && at.x < -53 && at.z > 59 && at.z < 72) continue;
                 float scale = .65f + i % 5 * .065f;
                 Sculpture(trees, "Forest canopy " + zone + " " + i, species[(i * 7 + zone) % 6], at, Vector3.one * scale, Color.Lerp(Hex(0xA5B79C), Color.white, .75f)).localEulerAngles = V(0, i * 137.5f, 0);
             }
@@ -105,7 +105,7 @@ namespace ForestShop
             Waypost(forestScene, ForestCenters[0] + V(2.2f, .13f, 5), "forest-path", 1, false);
             Waypost(forestScene, ForestCenters[1] + V(2.5f, .13f, -5.5f), "forest-path", 0, true);
             Waypost(forestScene, ForestCenters[1] + V(-3.5f, .13f, 5.1f), "forest-path", 2, false);
-            Waypost(forestScene, ForestCenters[2] + V(2.6f, .13f, -4.7f), "forest-path", 1, true);
+            Waypost(forestScene, ForestCenters[2] + V(5.4f, .13f, -5.8f), "forest-path", 1, true);
             for (int i = 0; i < 7; i++)
             {
                 var b = forestBursts[i] = new ForestBurst(); b.root = Group(worldRoot, "Discovery receipt " + i);
@@ -237,6 +237,7 @@ namespace ForestShop
         }
         public Vector2 ForestMarker(int index)
         {
+            if(index>=10)return MomentMarker(index-10);
             if(index>=7) return FishingMarker(index-7);
             var target = index < 3 ? forageAnchors[index] : nurseryAnchors[index - 3];
             var v = worldCamera.WorldToViewportPoint(target.position + V(0, index < 3 ? .1f : .18f, index < 3 ? -3.1f : -1.2f)); return new Vector2(v.x, v.y);
@@ -245,6 +246,7 @@ namespace ForestShop
         {
             if (greenhouseOld == null || state == null) return;
             var f = state.forest; greenhouseOld.gameObject.SetActive(!f.greenhouse); greenhouseNew.gameObject.SetActive(f.greenhouse);
+            BindMoments();
             bridgeOld.gameObject.SetActive(!f.bridge); bridgeNew.gameObject.SetActive(f.bridge);
             vinesClosed.gameObject.SetActive(!f.vines); vinesOpen.gameObject.SetActive(f.vines);
             pavilionOld.gameObject.SetActive(!f.pavilion); pavilionNew.gameObject.SetActive(f.pavilion);

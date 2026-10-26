@@ -1,0 +1,126 @@
+{
+  "sourceVideo": "Evidence/market-native-2.mp4",
+  "sourceSha256": "A1481AA6F47DB70DAE876AF9881F17C6C1519B1AAB30A5126463735ADAE2E488",
+  "selection": {
+    "id": "market-rabbit2",
+    "video": "market-native-2.mp4",
+    "start": 0,
+    "end": 16,
+    "fps": 1
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/market-rabbit2/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "B9DB1BC4861860F291005DAD821C927D9BE738FA4C5627FC91E2B0E0489A293F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0002.png",
+      "sourcePTSSeconds": 1.027378,
+      "sha256": "39CAFAA418BF5E67763803780C86C1995253FC2ECAE5D65E60501AC4873E5D86",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0003.png",
+      "sourcePTSSeconds": 2.052411,
+      "sha256": "620AD8176B9B4B0D93B9D5BD9F49124206EA1E1BD6F41E56FA84045283385AD4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0004.png",
+      "sourcePTSSeconds": 3.061367,
+      "sha256": "B3D5730FD4283AA4D58E46A8EC1ABE81A30D1EE610C1EBDCBC154EF1C628ADF5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0005.png",
+      "sourcePTSSeconds": 4.070822,
+      "sha256": "4E862D69A998436CBC524EC953F698DFB5F64E0D7883AA317F8A3CB3BCECBF60",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0006.png",
+      "sourcePTSSeconds": 5.090578,
+      "sha256": "49D41CBBC6410533BB142BF9EDD0182D805B8AF91F23CED5D2CFA8FD7940E8B3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0007.png",
+      "sourcePTSSeconds": 6.0949,
+      "sha256": "CD8CA9918604375E2F0A36C1FD5FB3A07A9FD66DB05FE546EB25BB50BED5470F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0008.png",
+      "sourcePTSSeconds": 7.127933,
+      "sha256": "9849E638D44AF258B17081FFE41F902C6D709B5C29CCD1731471E09E999E1BB4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0009.png",
+      "sourcePTSSeconds": 8.1318,
+      "sha256": "89C611D902C786CFC2520D97C021462616BC8B8F1E9F3C1EA07461A8F6C7DACD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0010.png",
+      "sourcePTSSeconds": 9.132111,
+      "sha256": "D02ACF9A77F9E2560C84E6F6FE90883AFE9AB928AA3FC1FAD2E9D3B452108B1A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0011.png",
+      "sourcePTSSeconds": 10.161078,
+      "sha256": "0ED52F1B6E8E6D370884D943477AE55634FFD0300372DC41507F5F6FF215A60E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0012.png",
+      "sourcePTSSeconds": 11.178033,
+      "sha256": "E597500EDAFD5F3F48F7EBFFBC12B4665570F6DBC1FB073D790F8127F393CAA5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0013.png",
+      "sourcePTSSeconds": 12.178111,
+      "sha256": "B344CC5EADF483D461139C5216D8CD993C2F82E3033B224C870D9F1021B2993B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0014.png",
+      "sourcePTSSeconds": 13.194589,
+      "sha256": "CEA706B23E965E0C0DBA3212A7B14B536D63BB18C0AC69178D41432766F9344D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0015.png",
+      "sourcePTSSeconds": 14.223456,
+      "sha256": "DA59F6E488BEF8552AF7A45CEBEECF561F7ABFAE7DD15D8B38B985A85A284193",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-rabbit2/frame-0016.png",
+      "sourcePTSSeconds": 15.260689,
+      "sha256": "C7C4D5140125166FCFD885C41E659119725DDCE89DE0063A645B5AACF6F57F78",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

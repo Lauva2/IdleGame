@@ -1,0 +1,19 @@
+{
+  "candidate": "3d-d25-moments01",
+  "utc": "2026-10-26T18:21:53.138629+00:00",
+  "sourceBaseCommit": "d3efbf5c6f0f69d6a2274a024f0dc7acd5d6ed10",
+  "sourceInputFiles": 219,
+  "sourceManifest": "Docs\\Verification\\3d-d25-moments01\\source-files.sha256",
+  "sourceManifestSha256": "FFE20AB7C793E598FA81783F57CD7D4D2622A42E4D310B8D074F88B5C950AB63",
+  "apk": "Builds\\Android\\3d-d25-moments01\\ForestShop-3d-d25-moments01.apk",
+  "apkBytes": 45681233,
+  "apkSha256": "7D1EE5B6AD349F141DC6FC72B14F169A20B5F1AE976CA2AD1C193858BF008767",
+  "sourceArchive": "Builds\\Android\\3d-d25-moments01\\build-source-inputs.zip",
+  "sourceArchiveBytes": 57874725,
+  "sourceArchiveSha256": "8A6D7A6BF6364454B3FA477239D7A2FBAB3864A2A9CCF19C8FD75DC4417C45AD",
+  "sourceArchiveVerified": true,
+  "build": "Unity2022.3.62f2 IL2CPP Release ARM64+ARMv7 non-development GLES3 API23-32",
+  "version": "0.2.5",
+  "versionCode": 7,
+  "artAcceptance": "Pending independent evaluation of this exact APK. Editor and earlier candidate scores do not transfer."
+}

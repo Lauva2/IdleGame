@@ -1,0 +1,23 @@
+{
+  "steps": [
+    {
+      "shot": "01-ordinary-after-moments"
+    },
+    {
+      "tap": [
+        180,
+        300
+      ]
+    },
+    {
+      "tap": [
+        860,
+        880
+      ]
+    },
+    {
+      "shot": "03-ordinary-compact"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/Ordinary"
+}

@@ -42,6 +42,7 @@ public static class CompareAndroidOnline
             Equal(Math.Abs(before.fishing.remaining-after.fishing.remaining)<(fishing?.002:1e-10),fishing?"continuous foreground fishing clock":"fishing clock does not advance outside fishing view");
             before.fishing.remaining=after.fishing.remaining;
             Equal(new JavaScriptSerializer().Serialize(before.fishing)==new JavaScriptSerializer().Serialize(after.fishing),fishing?"actual automatic fish parameters RNG counts and records match replay":"fish records unchanged outside fishing view");
+            Equal(new JavaScriptSerializer().Serialize(before.moments)==new JavaScriptSerializer().Serialize(after.moments),"ordinary time and navigation do not advance optional moments");
             Console.WriteLine("PASS actual Android online replay: elapsed=" + elapsed + "s, simplified=" + after.simpleAnimation
                 + ", coins=" + after.coins + ", sales=" + after.sales + "; all inventory, production and facility states match"+(fishing?"; automatic fish RNG parameters counts and records match":"; fish state unchanged"));
             return 0;

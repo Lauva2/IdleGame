@@ -1,0 +1,50 @@
+{
+  "steps": [
+    {
+      "shot": "02-reward-dialogue-hedgehog-top"
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "02-reward-dialogue-hedgehog-bottom"
+    }
+  ],
+  "directory": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d25-moments01\\Evidence\\Panels\\Default"
+}

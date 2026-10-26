@@ -1,0 +1,17 @@
+{
+  "scope": "Host metadata only; MuMu virtual device is the acceptance environment, not physical Android performance.",
+  "cpu": {
+    "Name": "Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz",
+    "NumberOfCores": 8,
+    "NumberOfLogicalProcessors": 16
+  },
+  "os": {
+    "Caption": "Microsoft Windows 11 家庭版 中文版",
+    "Version": "10.0.26300",
+    "BuildNumber": "26300"
+  },
+  "utc": "2026-10-26T19:10:38.2737469Z",
+  "memory": {
+    "TotalPhysicalMemory": 16930631680
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/MomentStates/finished",
+  "steps": [
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "shot": "01-handbook"
+    },
+    {
+      "tap": [
+        925,
+        1805
+      ]
+    },
+    {
+      "shot": "02-journal-top"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1750,
+        1000,
+        1100,
+        500,
+        600
+      ]
+    },
+    {
+      "shot": "03-journal-third-card-footer"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        150,
+        1805
+      ]
+    },
+    {
+      "shot": "04-chapter-from-footer"
+    },
+    {
+      "tap": [
+        50,
+        250
+      ]
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        415,
+        1805
+      ]
+    },
+    {
+      "shot": "05-discovery-from-footer"
+    },
+    {
+      "tap": [
+        50,
+        250
+      ]
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        675,
+        1805
+      ]
+    },
+    {
+      "shot": "06-fish-from-footer"
+    },
+    {
+      "tap": [
+        50,
+        250
+      ]
+    }
+  ]
+}

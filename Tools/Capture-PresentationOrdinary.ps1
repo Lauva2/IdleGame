@@ -1,14 +1,15 @@
-param([Parameter(Mandatory=$true)][string]$Folder)
+param([Parameter(Mandatory=$true)][string]$Folder,[switch]$AfterMoments)
 $ErrorActionPreference='Stop';Set-Location (Split-Path -Parent $PSScriptRoot)
 $serial=$env:FOREST_ADB_SERIAL;if(!$serial){throw 'Explicit device required'}
-if(Test-Path "$Folder/prepared-activation.txt"){throw 'Ordinary test must precede all prepared states'}
+if((Test-Path "$Folder/prepared-activation.txt") -or (Test-Path "$Folder/prepared-input-identity.jsonl")){throw 'Ordinary test must precede all prepared states'}
 $adb=(Resolve-Path Tools/AndroidSdk/platform-tools/adb.exe).Path
 $python='C:/Users/Lauva/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
 $mono='C:/Program Files/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/MonoBleedingEdge/bin/mono.exe'
 New-Item -ItemType Directory -Force -Path "$Folder/Plans","$Folder/Evidence/Ordinary" | Out-Null
 function A([string[]]$p){& $adb -P 5038 -s $serial @p;if($LASTEXITCODE -ne 0){throw 'Ordinary command failed'}}
 function Plan($name,$steps){$p="$Folder/Plans/ordinary-$name.json";@{directory="$Folder/Evidence/Ordinary";steps=$steps}|ConvertTo-Json -Depth 7|Set-Content $p;& $python Tools/Forest-DeviceReview.py $p;if($LASTEXITCODE -ne 0){throw 'Ordinary inputs failed'}}
-Plan 'enter' @(@{shot='01-update-report'},@{tap=@(850,1780)},@{shot='02-actual-claim'},@{tap=@(150,410)},@{tap=@(860,880)},@{shot='03-ordinary-compact'})
+if($AfterMoments){Plan 'enter' @(@{shot='01-ordinary-after-moments'},@{tap=@(180,300)},@{tap=@(860,880)},@{shot='03-ordinary-compact'})}
+else{Plan 'enter' @(@{shot='01-update-report'},@{tap=@(850,1780)},@{shot='02-actual-claim'},@{tap=@(150,410)},@{tap=@(860,880)},@{shot='03-ordinary-compact'})}
 A @('pull','/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save',"$Folder/ordinary-fishing-start.save")
 $candidate=Split-Path -Leaf $Folder;$remote="/sdcard/$candidate-ordinary-fishing.mp4"
 $record=Start-Process -FilePath $adb -ArgumentList '-P','5038','-s',$serial,'shell','screenrecord','--size','1080x1920','--bit-rate','4000000','--time-limit','65',$remote -WindowStyle Hidden -PassThru

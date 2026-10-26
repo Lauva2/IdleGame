@@ -1,0 +1,24 @@
+{
+  "candidate": "3d-d25-moments01",
+  "utc": "2026-10-26T20:11:05.744430+00:00",
+  "apkSha256": "7D1EE5B6AD349F141DC6FC72B14F169A20B5F1AE976CA2AD1C193858BF008767",
+  "sourceManifestSha256": "FFE20AB7C793E598FA81783F57CD7D4D2622A42E4D310B8D074F88B5C950AB63",
+  "indices": [
+    {
+      "path": "original-media-index-r01.json",
+      "sha256": "3770EB5C6440D0F611F60CF80A2502620224F184D7A72720465229A13E35C482",
+      "rows": 700
+    },
+    {
+      "path": "sample-media-index-r01.json",
+      "sha256": "82B01264904B82EB5008136ED0F07B9BCCBDA0F5C769AF8FB8E4D938C7C149ED",
+      "rows": 1574
+    }
+  ],
+  "originalImages": 640,
+  "originalVideos": 60,
+  "sampledFrames": 1574,
+  "originalBytes": 2308389874,
+  "sampleBytes": 1573359745,
+  "scope": "Original media and necessary source-PTS samples retained locally on E. No full-video decode requirement or assertion all frames visually checked. Sampling is not a substitute for independent review or whole-product acceptance."
+}

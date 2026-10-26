@@ -11,7 +11,7 @@ namespace ForestShop.Core
     {
         public static void Check(GameState s)
         {
-            if (s == null || (s.version != 1 && s.version != 2 && s.version != 3) || s.coins < 0 || s.reputation < 0 || s.sales < 0 || s.harvests < 0 || s.crafts < 0 || s.warehouse < 1 || s.warehouse > 4 || s.stories < 0 || s.stories > 5 || s.tutorial < 0 || s.tutorial > 4)
+            if (s == null || s.version < 1 || s.version > GameState.CurrentVersion || s.coins < 0 || s.reputation < 0 || s.sales < 0 || s.harvests < 0 || s.crafts < 0 || s.warehouse < 1 || s.warehouse > 4 || s.stories < 0 || s.stories > 5 || s.tutorial < 0 || s.tutorial > 4)
                 throw new InvalidDataException("存档版本或经营数据无效");
             bool legacy = s.version == 1;
             int crops = legacy ? 4 : Catalog.Crops.Length, items = legacy ? 6 : Catalog.Items.Length;
@@ -36,6 +36,7 @@ namespace ForestShop.Core
                 if ((s.machines[i].config >= 0 && Catalog.Machine[s.machines[i].config] != i) || (s.machines[i].workItem >= 0 && Catalog.Machine[s.machines[i].workItem] != i)) throw new InvalidDataException("设备配方无效");
             if (!legacy) CheckForest(s);
             if (s.version >= 3) FishingRules.Check(s);
+            if (s.version >= 4) ForestMomentRules.Check(s);
         }
         static void CheckForest(GameState s)
         {
@@ -88,6 +89,11 @@ namespace ForestShop.Core
             {
                 StateValidation.Check(state);
                 state.fishing = new FishingProgress(); state.version = 3; StateValidation.Check(state);
+            }
+            if (state.version == 3)
+            {
+                StateValidation.Check(state);
+                state.moments = new ForestMomentsProgress(); state.version = 4; StateValidation.Check(state);
             }
         }
     }

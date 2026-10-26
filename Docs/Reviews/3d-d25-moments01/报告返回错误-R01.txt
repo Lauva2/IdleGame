@@ -1,0 +1,7 @@
+同一独立角色 /root/d24_art_review 在最终报告返回环节的工具原始结果：
+
+Agent errored: {"detail":"Bad Request"}
+
+This agent's turn failed. If you still need this agent, use the available collaboration tools to give it another task.
+
+主代理处理：保留该错误，不伪造分数；对同一角色调用followup_task恢复原上下文，要求根据已完成目视和冻结核验返回紧凑完整原始报告，不另抽评审、不由制作方评分。游戏源码/APK/已冻结证据未改。

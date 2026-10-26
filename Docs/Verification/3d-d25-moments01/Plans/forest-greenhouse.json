@@ -1,0 +1,56 @@
+{
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/Forest",
+  "steps": [
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        300,
+        1285
+      ]
+    },
+    {
+      "shot": "03-berry-actual-object"
+    },
+    {
+      "tap": [
+        850,
+        1765
+      ]
+    },
+    {
+      "shot": "04-actual-gather-receipt"
+    },
+    {
+      "wait": 2
+    },
+    {
+      "tap": [
+        540,
+        400
+      ]
+    },
+    {
+      "shot": "05-greenhouse-before"
+    },
+    {
+      "tap": [
+        540,
+        1150
+      ]
+    },
+    {
+      "shot": "06-greenhouse-repair-requirements"
+    },
+    {
+      "tap": [
+        850,
+        1600
+      ]
+    },
+    {
+      "shot": "07-greenhouse-actual-repair"
+    }
+  ]
+}

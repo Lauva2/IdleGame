@@ -1,0 +1,147 @@
+{
+  "steps": [
+    {
+      "tap": [
+        100,
+        273
+      ]
+    },
+    {
+      "tap": [
+        520,
+        833
+      ]
+    },
+    {
+      "shot": "01-compact-pavilion"
+    },
+    {
+      "tap": [
+        333,
+        1543
+      ]
+    },
+    {
+      "shot": "02-details-and-three-baits"
+    },
+    {
+      "tap": [
+        620,
+        1340
+      ]
+    },
+    {
+      "shot": "03-changed-berry-bait"
+    },
+    {
+      "tap": [
+        333,
+        1543
+      ]
+    },
+    {
+      "shot": "04-expanded-context"
+    },
+    {
+      "tap": [
+        333,
+        1543
+      ]
+    },
+    {
+      "tap": [
+        478,
+        1543
+      ]
+    },
+    {
+      "shot": "05-zoom-out"
+    },
+    {
+      "swipe": [
+        367,
+        467,
+        433,
+        533,
+        700
+      ]
+    },
+    {
+      "shot": "06-real-pan"
+    },
+    {
+      "tap": [
+        651,
+        1543
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "07-recenter-and-actual-catch"
+    },
+    {
+      "tap": [
+        667,
+        33
+      ]
+    },
+    {
+      "shot": "08-settings-directly-from-fishing"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "09-navigation-after-settings"
+    },
+    {
+      "tap": [
+        520,
+        833
+      ]
+    },
+    {
+      "shot": "10-reentered-original-spot"
+    },
+    {
+      "tap": [
+        393,
+        1447
+      ]
+    },
+    {
+      "shot": "11-individual-top"
+    },
+    {
+      "drag_hold": [
+        667,
+        1480,
+        667,
+        1133,
+        400,
+        600
+      ]
+    },
+    {
+      "shot": "12-individual-bottom"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "13-global-navigation-restored"
+    },
+    {
+      "tap": [
+        667,
+        33
+      ]
+    },
+    {
+      "shot": "14-settings-accessible"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/PresentationFit/Narrow"
+}

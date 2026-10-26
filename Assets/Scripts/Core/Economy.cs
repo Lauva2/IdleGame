@@ -11,8 +11,9 @@ namespace ForestShop.Core
         private const double Epsilon = 0.0000001;
         public ForestRules Forest { get; private set; }
         public FishingRules Fishing { get; private set; }
+        public ForestMomentRules Moments { get; private set; }
         public Economy(GameState state)
-        { State = state ?? throw new ArgumentNullException(nameof(state)); StateMigration.Upgrade(State); Forest = new ForestRules(this); Fishing = new FishingRules(this); }
+        { State = state ?? throw new ArgumentNullException(nameof(state)); StateMigration.Upgrade(State); Forest = new ForestRules(this); Fishing = new FishingRules(this); Moments = new ForestMomentRules(State); }
         internal void Notify(ProductionNotice notice) => ProductionCompleted?.Invoke(notice);
         public int Capacity => Catalog.Capacity[State.warehouse - 1];
         public long TotalSold { get { long n = 0; foreach (int v in State.sold) n += v; return n; } }

@@ -1,0 +1,48 @@
+{
+  "reviewer": "/root/d24_art_review",
+  "report": "Docs/Reviews/3d-d25-moments01/美术评审-R01.md",
+  "bytes": 18572,
+  "sha256": "F159C5D96F91F493F71AB1567271F9453432686BA378CE093C3DF7655A371456",
+  "delivery": "Three original send_message parts concatenated verbatim in order, including segment labels; same reviewer recovered after two service Bad Request returns, no replacement reviewer or self-score.",
+  "scores": [
+    18.5,
+    18.0,
+    13.5,
+    18.5,
+    9.0,
+    9.0,
+    4.5
+  ],
+  "maxima": [
+    20,
+    20,
+    15,
+    20,
+    10,
+    10,
+    5
+  ],
+  "floors": [
+    16,
+    16,
+    12,
+    16,
+    8,
+    8,
+    4
+  ],
+  "total": 91.0,
+  "artStatus": "passed",
+  "confirmedArtBlockers": 0,
+  "requiredArtEvidenceOutstanding": 0,
+  "generalIssues": [
+    "D25-G01",
+    "D25-G02",
+    "D25-G03",
+    "D25-G04",
+    "D25-G05",
+    "D25-G06",
+    "D25-G07",
+    "D25-G08"
+  ]
+}

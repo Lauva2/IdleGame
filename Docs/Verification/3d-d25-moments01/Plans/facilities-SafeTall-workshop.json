@@ -1,0 +1,119 @@
+{
+  "steps": [
+    {
+      "tap": [
+        660,
+        384
+      ]
+    },
+    {
+      "shot": "01-actual-world"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "shot": "02-actual-facilities-bottom"
+    },
+    {
+      "tap": [
+        190,
+        1465
+      ]
+    },
+    {
+      "shot": "03-warehouse-top"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "shot": "04-warehouse-actual-upgrade-footer"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/FacilitiesFit/SafeTall-workshop"
+}

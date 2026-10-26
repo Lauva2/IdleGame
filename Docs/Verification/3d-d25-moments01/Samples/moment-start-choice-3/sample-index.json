@@ -1,0 +1,65 @@
+{
+  "sourceVideo": "Evidence/moment-flow-start.mp4",
+  "sourceSha256": "170B5A656207501606966791EB9B79BDDB4723079A10A67F6DC8ACCC38C88F9E",
+  "selection": {
+    "id": "moment-start-choice-3",
+    "video": "moment-flow-start.mp4",
+    "start": 28.687,
+    "end": 32.187,
+    "fps": 2,
+    "approximateHostActionUtc": "2026-10-26T18:31:53.782915+00:00",
+    "scope": "Window chosen from host action time; exported frames retain actual source PTS, not an exact host/video synchronization assertion."
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/moment-start-choice-3/frame-0001.png",
+      "sourcePTSSeconds": 28.705944,
+      "sha256": "517398724B8FD06A075C6E5FA40FF1E128498F8652325DF9E2A9444E7742776B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-start-choice-3/frame-0002.png",
+      "sourcePTSSeconds": 29.256311,
+      "sha256": "517398724B8FD06A075C6E5FA40FF1E128498F8652325DF9E2A9444E7742776B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-start-choice-3/frame-0003.png",
+      "sourcePTSSeconds": 29.779867,
+      "sha256": "14A7EB98111F3AD8CDE3AFEED001EEFEF8F694786C80031C5B3FC1744EADFF50",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-start-choice-3/frame-0004.png",
+      "sourcePTSSeconds": 30.351656,
+      "sha256": "91558B2F4967E6AB00601259591DC2DBE72A69385D0B911D73774E01C15C2AA1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-start-choice-3/frame-0005.png",
+      "sourcePTSSeconds": 30.886378,
+      "sha256": "21ADCECB78817792657DF919B48F9817BF510C80E67CB5CD0EB886DF470A249C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-start-choice-3/frame-0006.png",
+      "sourcePTSSeconds": 31.451189,
+      "sha256": "A68F95F818681CBAD5D9B61EB8C4BDAB7FC5FA7A59E04C337503C66DE961A38C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-start-choice-3/frame-0007.png",
+      "sourcePTSSeconds": 31.956033,
+      "sha256": "E5B429E1A428E6027AE4A44E985DD3FD0F2D12350A43FCE48B1A5C5AE05A1BAB",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

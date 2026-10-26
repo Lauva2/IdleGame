@@ -1,0 +1,122 @@
+{
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/Market",
+  "steps": [
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "tap": [
+        355,
+        980
+      ]
+    },
+    {
+      "shot": "01-new-tea-recipe"
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1040,
+        700
+      ]
+    },
+    {
+      "shot": "02-tea-recipe-bottom"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        700,
+        980
+      ]
+    },
+    {
+      "shot": "03-new-workbench-recipes"
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1040,
+        700
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1040,
+        700
+      ]
+    },
+    {
+      "shot": "04-spray-and-balm-recipes"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        900,
+        1850
+      ]
+    },
+    {
+      "shot": "05-nine-products-top"
+    },
+    {
+      "swipe": [
+        1000,
+        1640,
+        1000,
+        640,
+        750
+      ]
+    },
+    {
+      "swipe": [
+        1000,
+        1640,
+        1000,
+        640,
+        750
+      ]
+    },
+    {
+      "swipe": [
+        1000,
+        1640,
+        1000,
+        640,
+        750
+      ]
+    },
+    {
+      "shot": "06-all-new-products-bottom"
+    },
+    {
+      "tap": [
+        180,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "shot": "07-new-products-shop-default"
+    }
+  ]
+}

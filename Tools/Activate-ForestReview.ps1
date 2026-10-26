@@ -12,6 +12,7 @@ foreach($file in @('normal-held.save','normal-held.save.bak')){if(-not(Test-Path
 $python='C:/Users/Lauva/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
 $adb='E:/UnityProject/IdleGame/Tools/AndroidSdk/platform-tools/adb.exe'
 & $adb -P 5038 -s $serial shell am force-stop com.forestatelier.curioshop
+& Tools/Archive-ReviewTemporary.ps1 -Folder $Folder -Variant $Variant
 $prior=Join-Path $verifiedFolder "Prepared/$Variant.save"
 if(Test-Path -LiteralPath $prior){
     $history=Join-Path $verifiedFolder 'Prepared/History';New-Item -ItemType Directory -Force -Path $history|Out-Null

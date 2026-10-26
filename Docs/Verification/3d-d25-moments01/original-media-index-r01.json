@@ -1,0 +1,5726 @@
+{
+  "utc": "2026-10-26T20:11:05.581060+00:00",
+  "candidate": "3d-d25-moments01",
+  "rows": [
+    {
+      "path": "Evidence/blocked-full.mp4",
+      "sha256": "9E12E6E869A54E9B61A42B0AE4C2E0C4A9DCAA6AD0404FBC7DE6FBC855B3B803",
+      "bytes": 8645022,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 20.02,
+      "nominalFPS": 29.93
+    },
+    {
+      "path": "Evidence/blocked-input.mp4",
+      "sha256": "93644568D186C60C2355CCF8BA7931AD037EE7FC05CCCCB6111A39B68CDBEC25",
+      "bytes": 9220148,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 19.92,
+      "nominalFPS": 29.92
+    },
+    {
+      "path": "Evidence/blocked-reserve.mp4",
+      "sha256": "51F60CEC20DA0B90A9C08AC129D56D5961E5DEF700F8E78ADA78A44FA2723EFA",
+      "bytes": 11462264,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 20.01,
+      "nominalFPS": 29.94
+    },
+    {
+      "path": "Evidence/busy-garden.mp4",
+      "sha256": "230CD5E5CED33A59E12E63DE9C6C208DD6FA85BFA60D3BEC993AAFFC6801F225",
+      "bytes": 22736671,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.04,
+      "nominalFPS": 29.96
+    },
+    {
+      "path": "Evidence/Dynamics/blocked-full-after.png",
+      "sha256": "B065DF70F4D7ACECFFCD393114ADD736BD333974A55E7D23AC1D39B8747A9755",
+      "bytes": 1254491,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Dynamics/blocked-full-before.png",
+      "sha256": "B065DF70F4D7ACECFFCD393114ADD736BD333974A55E7D23AC1D39B8747A9755",
+      "bytes": 1254491,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Dynamics/blocked-input-after.png",
+      "sha256": "DB068042664C7E645AD4AABC4F1AA7959C3C07FF1E67EAC35E481F1014DE6649",
+      "bytes": 1347785,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Dynamics/blocked-input-before.png",
+      "sha256": "DB068042664C7E645AD4AABC4F1AA7959C3C07FF1E67EAC35E481F1014DE6649",
+      "bytes": 1347785,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Dynamics/blocked-reserve-after.png",
+      "sha256": "88281FD6F69F81927666B33C7C889B66151F21F9FE2A50CF26911F442965A9D8",
+      "bytes": 1327125,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Dynamics/blocked-reserve-before.png",
+      "sha256": "1F39979353F928B502237FAA36ADB420CA8AD7ADE8130AE90A0D07DF6342D090",
+      "bytes": 1329504,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Dynamics/busy-twelve-garden.png",
+      "sha256": "34434C292BC28DBE32271B5CE58C3DF507B7A82DCC6B3F043D8A5A1E9F5F7094",
+      "bytes": 1236397,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Dynamics/production-garden-after.png",
+      "sha256": "7F29458A266CD5A82982B4998344C082773E3DCA38CCEF17580912274782A6D2",
+      "bytes": 1220584,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Dynamics/production-garden-before.png",
+      "sha256": "E2BBD4A50E2F85BA98711C1E856EB85EFA6A156ED6FEB73B5E3DC827617F06DE",
+      "bytes": 1223124,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Dynamics/production-shop-after.png",
+      "sha256": "EFD7B0AF4376BCC9E27F19BF0C4550672C31CB879985AFCC9E28253F942FC433",
+      "bytes": 1330107,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Dynamics/production-shop-before.png",
+      "sha256": "4FDDB5961346A2A6B005285C2DF4C83A736549331E7FDA624BE1C72B2DB3101C",
+      "bytes": 1326965,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Dynamics/production-workshop-after.png",
+      "sha256": "A8A53BBE5ED54AF27BF474CA7255886E1C817672756E0E7999C035BCDF73A488",
+      "bytes": 1349830,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Dynamics/production-workshop-before.png",
+      "sha256": "AA29F1AEED02EAA088219378EC665AE36DDA4313DD5EDE5595815D8446052251",
+      "bytes": 1349098,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Dynamics/reduced-garden-before.png",
+      "sha256": "B3D7FBB0C7484EDBE4C051F7F7ED372929E37525A96DA483AABBEF027F087C24",
+      "bytes": 1224310,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Dynamics/reduced-workshop.png",
+      "sha256": "F712BD91FAABFD72284FAD0F69B1C86DFB723B0545EA5A5AB7278C872D0FCF5B",
+      "bytes": 1347984,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/Default-garden/01-actual-world.png",
+      "sha256": "365487103E412B45B298BE72B1A20E52D33CF47CEE6983F224B8A53F4B31D9DF",
+      "bytes": 1223003,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/Default-garden/02-actual-facilities-bottom.png",
+      "sha256": "BBB51FE1655A1531863A6FCC6FC686CDA663CDA314B83A6933CFAC446FB13E38",
+      "bytes": 552137,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/Default-shop/01-actual-world.png",
+      "sha256": "946B339F9C4BABB8607F82461B7050441094B8C0B8205187C342E65174EDBE18",
+      "bytes": 1333715,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/Default-shop/02-actual-facilities-bottom.png",
+      "sha256": "3CF86466B623AE377D58F7A3823DAB1F81173D909E545EA1C55EC26D57163976",
+      "bytes": 876773,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/Default-workshop/01-actual-world.png",
+      "sha256": "C840A44004DC8AB7A3FA5E955EADD589C1E56C0D81A8587D1AD08FDBDC44A1DA",
+      "bytes": 1350188,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/Default-workshop/02-actual-facilities-bottom.png",
+      "sha256": "393F29E6CDD365F90248248AE3BCCA1F6DE77AF29B489798D8EA068CA01AD6B7",
+      "bytes": 1033949,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/Default-workshop/03-warehouse-top.png",
+      "sha256": "006D13EC19269036CD72028C689FAAB07DA05E41473571C44F13ADDB16DA1BFB",
+      "bytes": 627298,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/Default-workshop/04-warehouse-actual-upgrade-footer.png",
+      "sha256": "EE471839EC0D2206664670CF42E4D2DBA50ED2E76725D028AB020D4ADB1976B1",
+      "bytes": 648377,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/SafeTall-garden/01-actual-world.png",
+      "sha256": "D6E1E4BA49D79E37396B4FB9E6B1700233AB6C46DFF3EBF57954ADF925530FE2",
+      "bytes": 1158321,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/SafeTall-garden/02-actual-facilities-bottom.png",
+      "sha256": "EDEB7BC16DC619662457B85959F4498763D7553751ECC2ED250E1C3B9C03B446",
+      "bytes": 472667,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/SafeTall-shop/01-actual-world.png",
+      "sha256": "4522CFA21D7C3D18003880DDA6F9B52A2C899F5564164595E5E484BC9F5B702A",
+      "bytes": 1318397,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/SafeTall-shop/02-actual-facilities-bottom.png",
+      "sha256": "9DFF4A3A69371453870F7183FE8AD727D235766746964C3793508A0733EE3694",
+      "bytes": 793512,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/SafeTall-workshop/01-actual-world.png",
+      "sha256": "7D3B2F075035C1569582FF7A8C1DD2273968B3D30242877D40F9F6647D6446BB",
+      "bytes": 1326958,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/SafeTall-workshop/02-actual-facilities-bottom.png",
+      "sha256": "D90E9689F54BB7416B6DCF699B4FD91AA5E79E6A879002547FB592870CE8AEDE",
+      "bytes": 964350,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/SafeTall-workshop/03-warehouse-top.png",
+      "sha256": "8749B3ED6CC8FACB019125F86C52C58141FE36B3C65939BD34752FCF5BB3C828",
+      "bytes": 567230,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FacilitiesFit/SafeTall-workshop/04-warehouse-actual-upgrade-footer.png",
+      "sha256": "68CD28CADD5BFED0333867E79BED9F9033FDBE31670B87F678F018A52276E39E",
+      "bytes": 590864,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/Long/01-fish-list.png",
+      "sha256": "7CC21F98A04C29093D7EB11604874CE902FA7165F11285E7C47C76943DEEDBBC",
+      "bytes": 285559,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/02-species-top.png",
+      "sha256": "5D33146E7528ED8C96DE1A0D4C0820D093D3554F3976E526A5F0E557F5D8F1C8",
+      "bytes": 272906,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/03-species-four-quality-bottom.png",
+      "sha256": "ECA2A5F566F7A3B201DF7F8451077CD6749DD6C8C224F2BBA736297340FF095A",
+      "bytes": 274298,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/04-actual-go-fishing.png",
+      "sha256": "4D3F1435049C273A980E0173B5E63CECF193B4BA011BCC247B5032859006F97D",
+      "bytes": 1208904,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/05-fishing-zoom-out.png",
+      "sha256": "BC7924CFFD2773941600D2F866EA301CAB853619D3C9D8F45103C0B15940CC1D",
+      "bytes": 1257865,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/06-fishing-real-pan.png",
+      "sha256": "369FAAA0F7F99827E85DF7336B293BE6C464B5EC925984EFDFE7C5F73E103B0E",
+      "bytes": 1255110,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/07-recenter-and-catch.png",
+      "sha256": "869513375B2D33A53EEC004E1EBC05E00B167FE5520BB72ED57EBCFA1C221CAF",
+      "bytes": 1205507,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/08-greenhouse.png",
+      "sha256": "ACF48DD0804DEA21044CE6031BC317B519EF6CD0FEC7909CA103953961E5AA5C",
+      "bytes": 1222665,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/09-main-courtyard.png",
+      "sha256": "7BEF47E1CEB5C628E15E1A21536664E86E50A4C6957D39EE5462E39C6836B5D9",
+      "bytes": 1709420,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/10-garden.png",
+      "sha256": "7A6D5CBA242320F290984E90ED00412EB2597F413332790281FC5F3C19ED1B64",
+      "bytes": 1255382,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/11-workshop.png",
+      "sha256": "1D316DD9109F703A27413245C88B3E4D12D44D325752264BB1B6D80C171A2924",
+      "bytes": 1392971,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/12-shop.png",
+      "sha256": "B5658A4A63005D1D4A46D3ED249F4037979707380E5289E2B31ECBE09D9B6DB2",
+      "bytes": 1347162,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/13-settings.png",
+      "sha256": "1822C30859D479A09032CBD6C817695778C718DB1C8763635D908B6C12518DC3",
+      "bytes": 927890,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/14-handbook.png",
+      "sha256": "A43DECB7700EC2082B1635C05F80BA33368525CBFCA5B53D60C03FA7B0C31308",
+      "bytes": 917640,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/15-handbook-secondary-destination.png",
+      "sha256": "97C75249631B498BC5D20187E0D73F671BFBA05994CDFEC2F1D2F11CF665AEFA",
+      "bytes": 1098563,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/16-chapter-progress-top.png",
+      "sha256": "52F143A57A54E2DA9704A4A3D20B4E34F2C147FED5C39BC0C9CACCCCEB9EB98F",
+      "bytes": 669745,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Long/17-chapter-progress-footer.png",
+      "sha256": "67CCD307DAD81A6C719B94CE27616F3A3EA41E40C7EDC48DECF8FD2E8BE5CF26",
+      "bytes": 659791,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/01-fish-list.png",
+      "sha256": "98736E3FD3C18904DB84901ACACAD204A1BDACDA520F81034839D2212D0B5461",
+      "bytes": 206976,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/02-species-top.png",
+      "sha256": "D30E82D32DB623E0D697BE0703678422A0A44090D02AEC5B28D23480D3DFF29A",
+      "bytes": 189163,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/03-species-four-quality-bottom.png",
+      "sha256": "A39090C4212140A2E82E35B841B0B3E75D05851B6ED5FF80EF97A5168B3ECD2F",
+      "bytes": 188741,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/04-actual-go-fishing.png",
+      "sha256": "A5EB8C7B119FB619348FC976233FAF72D979B945C26102201A1B48A48EA4407C",
+      "bytes": 695529,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/05-fishing-zoom-out.png",
+      "sha256": "C1A20A951E56085DC65BC65D92801AF8C7607BE6FA2D311480F979A170BF05FA",
+      "bytes": 703142,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/06-fishing-real-pan.png",
+      "sha256": "348FB3430B8797DC0EA2274CB0EABA5DD7162D3022E1EB25278E6B36A6DF15F2",
+      "bytes": 706382,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/07-recenter-and-catch.png",
+      "sha256": "AAF237223CA46B4EAE601E30CEDE27EBA66F8A9AD5F6A19659F51B2EDF93E506",
+      "bytes": 698257,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/08-greenhouse.png",
+      "sha256": "7A0FFB340B7D393246FCE317009951B9C1CED3C48A7FF4AA830DD17125705CDE",
+      "bytes": 682797,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/09-main-courtyard.png",
+      "sha256": "156D8BA25EF667FEACABC4086C18229A51B55519182F267066A482C8180FC940",
+      "bytes": 903405,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/10-garden.png",
+      "sha256": "E447B3AA3BC881549C164A3EE3495C1889E6D4D893CF0998FF73CDA4973D1DCB",
+      "bytes": 704435,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/11-workshop.png",
+      "sha256": "02610CDD077EA495FFA200C91D7B3395E73D21A386895BAAB47812C671C1FFD3",
+      "bytes": 754454,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/12-shop.png",
+      "sha256": "5436D94F4980B0FAF9EB2038D360F391C932956EB8B532E3FF93781D207BD6CA",
+      "bytes": 745234,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/13-settings.png",
+      "sha256": "CB0E967A68303FC379928C80CEC8BBDA5C2F0A2C90544B9784CB14B2EA2F916D",
+      "bytes": 549006,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/14-handbook.png",
+      "sha256": "C437212BD145CC2A9399C2D02C727F827AD86D3598AE1FF9E926DD82B49276F3",
+      "bytes": 537991,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/15-handbook-secondary-destination.png",
+      "sha256": "D3411DA33F0A1387E9B70BB7491217A3194E47B2596479FFB25DAA4872769E71",
+      "bytes": 612790,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/16-chapter-progress-top.png",
+      "sha256": "0EF1D3FB4FB6C5AFF956D34AB741FBE10A3FC8A33899EDF2768B414681A6CF65",
+      "bytes": 409590,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/Narrow/17-chapter-progress-footer.png",
+      "sha256": "66ECF484682F65E5B7212B556B824B2BA86FA45ABA86435EE6B3BA90C22BEDD1",
+      "bytes": 405783,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/01-fish-list.png",
+      "sha256": "A01DAF0279E5C97DC728B731CE2AB25490297C862F0F315E9895092BCFE58C43",
+      "bytes": 219752,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/02-species-top.png",
+      "sha256": "5FB5D9A8CC93379D2F5AAC946E1A934F9673BCE0602CA5476A0AD61BDB566954",
+      "bytes": 210512,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/03-species-four-quality-bottom.png",
+      "sha256": "446D9CD5CCB7DE0504E721CD36956A4139379CA51B030A37275FF96625E7B789",
+      "bytes": 211778,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/04-actual-go-fishing.png",
+      "sha256": "552C3E9279C89597B161F8CEA19005F6C72231EE4091ADA258A82F5720C7AA55",
+      "bytes": 1024371,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/05-fishing-zoom-out.png",
+      "sha256": "DE30B047F29CCC045660F7A188278B38027F91F9BE2D9D35DE61F9BAFB028158",
+      "bytes": 1058672,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/06-fishing-real-pan.png",
+      "sha256": "C63E351BE126453AC40F08A39DF2962B25A383F31FBD31F5957CF7CADCB5B9CF",
+      "bytes": 1059097,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/07-recenter-and-catch.png",
+      "sha256": "58DCFE9DFD17D49D18BDBD075D093177FFD40644D8267EAB4F223ED96F60E965",
+      "bytes": 1022062,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/08-greenhouse.png",
+      "sha256": "69D81DAFC57197F79626CD2D157A054AB22DAFF757A8ABCF0A4DD6E3120563FC",
+      "bytes": 1118537,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/09-main-courtyard.png",
+      "sha256": "9FFF6085208E97E960054801756ED526FF13204D0774C60D11CA82D478E6E8D9",
+      "bytes": 1585050,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/10-garden.png",
+      "sha256": "8DAE379402E14A3945527C11AD1727D110C215E0C095B291E518D5302D7E014D",
+      "bytes": 1112350,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/11-workshop.png",
+      "sha256": "01AAB53D349522D300604D9623299A12A3BE4AA3D1B6A7E1E1E919D722168C4D",
+      "bytes": 1325243,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/12-shop.png",
+      "sha256": "A2393607F111D0435A0D3485589BBA9FFF23D601759D35140241BE36A848115B",
+      "bytes": 1297518,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/13-settings.png",
+      "sha256": "EEAE943898E7B85F3FE3B09C01C2841F4D7641B8F15541A1B4FC6537071BB54C",
+      "bytes": 518345,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/14-handbook.png",
+      "sha256": "C9C7AA4FB61194499D1C117539BCC2D2EA58EABA8AC1EA658AA195AA91EFB2B6",
+      "bytes": 504103,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/15-handbook-secondary-destination.png",
+      "sha256": "7EF90CAADB6831D418EC368D365CEB55EB040C7B15641E4790A9E684A11C43B9",
+      "bytes": 1010321,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/16-chapter-progress-top.png",
+      "sha256": "4DFE8DA12A578351D28BEB75DB93E4FFC5BAF62D53BD14E0A57C0EA40845DACB",
+      "bytes": 369692,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/FishFit/SafeTall/17-chapter-progress-footer.png",
+      "sha256": "98BC6E8A9D1A049AC3E920B5551602CB2D8FE77FF9512B769DE0524F1584A007",
+      "bytes": 360212,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/fishing-gallery-r01.mp4",
+      "sha256": "B9DB88D169151E081D0B3040DDFD4A6792499D12668AFD7F4ED540C9848BE838",
+      "bytes": 57776660,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 180.02,
+      "nominalFPS": 29.07
+    },
+    {
+      "path": "Evidence/fishing-motion-notice-both.mp4",
+      "sha256": "44DC560039C65B796152D81F79EB50D37B5A4884769A6EA9D6C55DC28B3F2EC7",
+      "bytes": 13407105,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 28.03,
+      "nominalFPS": 29.46
+    },
+    {
+      "path": "Evidence/fishing-motion-notice-length.mp4",
+      "sha256": "EFBE3B6A89E11CB0B0501E73C52500802FBDB93F5DB98CDA74A3B4704A423040",
+      "bytes": 21520778,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 28.03,
+      "nominalFPS": 29.4
+    },
+    {
+      "path": "Evidence/fishing-motion-notice-new.mp4",
+      "sha256": "33AB024B53DF596A4C32ED7DAF652BA394C0E23774B7215B7EA97A29868265BB",
+      "bytes": 20615694,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 28.03,
+      "nominalFPS": 28.11
+    },
+    {
+      "path": "Evidence/fishing-motion-notice-ordinary.mp4",
+      "sha256": "05A3DC0148D887B86D9C64E73BA3044C025674755A43461B0DE0F935E1A59142",
+      "bytes": 13915713,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 28.04,
+      "nominalFPS": 29.46
+    },
+    {
+      "path": "Evidence/fishing-motion-notice-weight.mp4",
+      "sha256": "E8812DA3D218B0503277A420C68B31EF212FD86B7804D560C3C260582D9C7809",
+      "bytes": 20986447,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 28.02,
+      "nominalFPS": 28.87
+    },
+    {
+      "path": "Evidence/fishing-motion-ordinary.mp4",
+      "sha256": "C05F302A3B1CCF215DB8B9B0002C45D7C056106AADAD86E9C239A8B01F048CBB",
+      "bytes": 36789698,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 65.01,
+      "nominalFPS": 29.07
+    },
+    {
+      "path": "Evidence/fishing-motion-pavilion-filled.mp4",
+      "sha256": "E46CFA0698AE7402ACF3FB972F5A056B0A6979E7432F9A74EED1F9C8BAFEF097",
+      "bytes": 42407033,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 65.01,
+      "nominalFPS": 29.38
+    },
+    {
+      "path": "Evidence/fishing-motion-pavilion-simple.mp4",
+      "sha256": "781D317105DB2732D01B668DDF1464EDFBCD7FDAD57FB908D00FDF28C623EA07",
+      "bytes": 31761284,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 65.01,
+      "nominalFPS": 29.65
+    },
+    {
+      "path": "Evidence/fishing-quality-q0.mp4",
+      "sha256": "FBBD022EE5A07B763920FA53293E01B3678F3978E8267656E50033537A231BF6",
+      "bytes": 22135273,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 32.01,
+      "nominalFPS": 29.12
+    },
+    {
+      "path": "Evidence/fishing-quality-q1.mp4",
+      "sha256": "F5B0816027A296758331F7CA6F2988A5899D218780ADEC03EEE0B4F267E78247",
+      "bytes": 22026260,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 32.03,
+      "nominalFPS": 29.16
+    },
+    {
+      "path": "Evidence/fishing-quality-q2.mp4",
+      "sha256": "E8A1CB78351C2D5E0CD160A9DAEE9C84411F6C66DA89678A93805FE79F1907AC",
+      "bytes": 13798367,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 32.06,
+      "nominalFPS": 28.51
+    },
+    {
+      "path": "Evidence/fishing-quality-q3.mp4",
+      "sha256": "6331A8872CE303DDB417EE3CDE31E5C7D5A029E8C967C6F561106F185E4CDC88",
+      "bytes": 22284598,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 32.04,
+      "nominalFPS": 28.81
+    },
+    {
+      "path": "Evidence/Forest/01-edge-before-discovery-locked-bridge.png",
+      "sha256": "C31C8E77617EF6AF43777C8F6DD3042EAB97D6558B5DC482F4F47C34AE6A741D",
+      "bytes": 1344196,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/02-fishing-locked.png",
+      "sha256": "B5EA75643672947D12945DE91ABFBC8A4CD18C5FBEB08E59AFD6ECA8AC0C0FFD",
+      "bytes": 972934,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/03-berry-actual-object.png",
+      "sha256": "5B50A9FC3CBE9B7788B8C64BA656D7CE0109640019879CAE195FF0E5ED1637C8",
+      "bytes": 701897,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/04-actual-gather-receipt.png",
+      "sha256": "C202AC161283E38F084949E259116C2A0BB377A3D29831D90DAF906AB0E99587",
+      "bytes": 1341347,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/05-greenhouse-before.png",
+      "sha256": "C5CBB633882FD40F24FE51E74247E99957E8F2E8BF2D947AB8985B657E38DD43",
+      "bytes": 1112830,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/06-greenhouse-repair-requirements.png",
+      "sha256": "E386E20E5F70553D1F975671280479BB2900AA6FFBF3CD038CB894919F118A6C",
+      "bytes": 709017,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/07-greenhouse-actual-repair.png",
+      "sha256": "A84BD45F3B49A125BDF5C7F1D647E8DC36D9793E3FB566ED72786D92E4F42872",
+      "bytes": 1110322,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/08-nursery-species-choice.png",
+      "sha256": "3B4006B0FF068286C0311547BDEE7CFA753F09E2532BAE295622E31970095FCF",
+      "bytes": 587142,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/09-growing-greenhouse-closeup.png",
+      "sha256": "8369FDA548CF2B5D36E52B3F266E22E7C289AA327511961D641292279EEFDAD9",
+      "bytes": 1114761,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/10-pavilion-before.png",
+      "sha256": "8FD621E88352165AE96E7DA0AB8F64DD1DE8920F15518A9D7E3E007F7CC2A7A6",
+      "bytes": 1407434,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/11-pavilion-repair-requirements.png",
+      "sha256": "F2E778E6B1795D7227AB1CF81F3EAE077645FDB309B55A44B0CC80E253C455F5",
+      "bytes": 853731,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/12-forest-ending.png",
+      "sha256": "83C811390026E79250E5BB106DAB00A8376453C5474F2E7050787FFAB5867D4D",
+      "bytes": 917572,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/13-pavilion-after.png",
+      "sha256": "4438C844FBFBA3EA1C95B45430DEC219A06D281D23082CA45AA030B5BB5AD771",
+      "bytes": 1408001,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/14-pavilion-terrace-books-tea-benches.png",
+      "sha256": "CFB62C26D8E7088C5604B08A51FB3268C401441BDA7A6A19929B73A915CEAF4A",
+      "bytes": 1372431,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/15-creek-before-vines.png",
+      "sha256": "F8FC02EC2E917D8E7577316FD8D27DA1C225059F19700D51882D31CB69E0C85D",
+      "bytes": 1414160,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/16-dew-inspection.png",
+      "sha256": "AD82F3F814F141150612EAF6BD4DDF1D2BF4FE8CDF6CC1B51A96E6E17D084422",
+      "bytes": 657010,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/17-actual-dew-gather.png",
+      "sha256": "F2106E66F3CDCAE3C072B88C322F7D1EFBB17FBAC51A0CF97AD4AEEC5849789F",
+      "bytes": 1410595,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/18-vine-requirements.png",
+      "sha256": "410CFA18928C31CDA7F32380C77A85D04F085D61F58CD2C2DAB4CE59CED57C93",
+      "bytes": 864298,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/19-vine-path-open.png",
+      "sha256": "30B7E2CE1707A0EFE637723B51F78EE631F6A163C3473728D089FD05EB78B2D3",
+      "bytes": 1385550,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/20-grove-new-path.png",
+      "sha256": "BD42176A4DEA97F19CEACF1B21B1F632004553A6509DD705287B1A8382395FA8",
+      "bytes": 1404913,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/21-resin-inspection.png",
+      "sha256": "171F0607FEEE720BA698427D20901019B7E5DD956D70D1F2E85BD10C1945CDBC",
+      "bytes": 671588,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/22-actual-resin-gather.png",
+      "sha256": "13F1568A14DE649E1148F4BE99D79978FCB5A843BC639E0505CA476DD02EB727",
+      "bytes": 1400515,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/23-forest-dialogue-0-top.png",
+      "sha256": "08DD90F7C135C7043E6206E9E428B77215A746070A1A59F33492F83641F2DCC4",
+      "bytes": 867546,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/23-forest-dialogue-1-top.png",
+      "sha256": "FF4E4656C3B637C41D511A9A15654586DE25FE86D1428F298C0C2D29237A994A",
+      "bytes": 856169,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/23-forest-dialogue-2-top.png",
+      "sha256": "CDF0D31EFF0149500BF714807745E5DE8EBB92292CB0E1ADEC1351BF3F444A78",
+      "bytes": 861612,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/24-forest-dialogue-0-bottom.png",
+      "sha256": "261A500786BD4FFBBFEE005FED2D4F5DBBFA14C83ABF2A4B9F2351C37DB5C7CB",
+      "bytes": 867355,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/24-forest-dialogue-1-bottom.png",
+      "sha256": "A57F54BC136996CD2F380CD0CF6EAC4382A7600D77D5EB13E1CACF81CE719173",
+      "bytes": 852881,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/24-forest-dialogue-2-bottom.png",
+      "sha256": "2E6EDD092AEA517F67B5D1A714E68DCCA5E7C7F98754EDB45EFC887A3F3DA8BA",
+      "bytes": 861297,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/25-both-species-mature-full-warehouse.png",
+      "sha256": "6D75F6EDF6917066D9E47DC7AD03FE3047439CB0F18E8F283ED52B6461FC0644",
+      "bytes": 1165317,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/26-nursery-full-written-status.png",
+      "sha256": "99B6433AED2B6B21E3CADC01E94F7F5B0CEBB988F2E8F0172608677E8FFF4AB7",
+      "bytes": 559747,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/27-full-warehouse-forage-disabled.png",
+      "sha256": "96FA64EEC15C9A66D4CFF7486F71A4988C091F047A132B38795B675E2F7B45CB",
+      "bytes": 615501,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/28-expanded-offline-report-top.png",
+      "sha256": "E669202E96CF90276DE522EE977BBD7E9DDCF7BF7BF4A813137AE39EFA97AD78",
+      "bytes": 564081,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Forest/29-expanded-offline-report-bottom.png",
+      "sha256": "9AFF648EF55BC41E7FE339D7161332C5BBB5457BE8D8336FD58CEB58124DD54A",
+      "bytes": 576053,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/forest-dew-resin-vines.mp4",
+      "sha256": "29DED9F768AF3946B917285B081D4C23066BAF58B0913E8271EA494392DA705B",
+      "bytes": 27219793,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 65.03,
+      "nominalFPS": 26.94
+    },
+    {
+      "path": "Evidence/forest-greenhouse.mp4",
+      "sha256": "2517780B234F99F609E45AE307E15E5F47DA48DC663798784E80253AF93F636F",
+      "bytes": 37721433,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 65.02,
+      "nominalFPS": 26.71
+    },
+    {
+      "path": "Evidence/Gallery-r01/00-twelve-fish-list-top.png",
+      "sha256": "F0B038679A1BA845CF80CC670AFFC735622762C2BE4B8548B9B46C19547C481E",
+      "bytes": 229302,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/13-discovered-filter.png",
+      "sha256": "059675CFB50DAB2303B6878535246935F1D1455459A5DC1F60256DFFC1BD1822",
+      "bytes": 229499,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/14-recent-first.png",
+      "sha256": "9F42470A57D0CCDE3F5B7A4FCF6DF4FADA549473984EB42DC965C5E5C691E110",
+      "bytes": 251467,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/15-recent-thirtieth-and-retention-note.png",
+      "sha256": "C67EBE5F9841C28C1F78DA58595D029ECF26CB42CE0967778A3DBD7913B90733",
+      "bytes": 261302,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/16-grove-default.png",
+      "sha256": "B286D619C8E76B1FC794615C27D69CB83350EBD2269E0C40AB430D6459D92D92",
+      "bytes": 1409167,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-00-bottom.png",
+      "sha256": "80820241AF23E5E889FD29F6E83B75940EB6EAD2F5A2344D322643A6B1192894",
+      "bytes": 224451,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-00-top.png",
+      "sha256": "DA3ADC33248A886A02EAB75DED230936D3A9C8A67B3AF3B7877E3D7F6A82A44F",
+      "bytes": 223119,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-01-bottom.png",
+      "sha256": "C0C89E26C145027895133979B7F300C28677972C0EAA84A54A60DD4C6B9027DD",
+      "bytes": 223202,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-01-top.png",
+      "sha256": "E8800F169F98A100BE9FDF3E02491FD8209102CFD6805A5E5ECECE739AD52537",
+      "bytes": 223595,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-02-bottom.png",
+      "sha256": "7D3A5E8A0E669DCEB6175AD3B533E6C72CD27F5F8DA172E0DF6F8F5986E138D0",
+      "bytes": 211409,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-02-top.png",
+      "sha256": "180207869BBC4547BF49F95C1C0B6F3D985CE33D2B487F7BE58249AE18B21010",
+      "bytes": 211516,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-03-bottom.png",
+      "sha256": "15E6C8AFCCB49196D2DDDB7ED7D4B50CFE24A0D6E3F62EBD7EF93000230274B8",
+      "bytes": 240372,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-03-top.png",
+      "sha256": "AD15D13C933EF470A57257C469740AB5C5638378CC6C7AEF0365D93D0053F21F",
+      "bytes": 239599,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-04-bottom.png",
+      "sha256": "252C3DAD4BA6C28A57E981A74D9092C15533D57B428A5F12881830D5DAACC61F",
+      "bytes": 231008,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-04-top.png",
+      "sha256": "60DB7A1E0314EBF318BD8CC3890DDB34235EC893430668585CFF3AF3894F66AB",
+      "bytes": 231265,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-05-bottom.png",
+      "sha256": "843A2EE28FA5F69252EDA5904026200B0DFB5A967EE22C5A65ABFE06047F80A5",
+      "bytes": 238336,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-05-top.png",
+      "sha256": "76C2DEC4314CD84F3D71E8850346BBC086A4FD775EE44399101AB5CED4FDE7B7",
+      "bytes": 238982,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-06-bottom.png",
+      "sha256": "60405B3186E0EBF6A8B15E283C924886A651C8DD5BC4DBBD9A0A8B287F48758B",
+      "bytes": 247597,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-06-top.png",
+      "sha256": "3CB39C9ADAD52CDDAA7BB532E46E33A67B4CB0CD1DCC38568978BE7E86DB39C5",
+      "bytes": 247768,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-07-bottom.png",
+      "sha256": "72EE32BE9E962286531438C74D46EF0C75854F09008B5BB2E3B94EF8D739B681",
+      "bytes": 228012,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-07-top.png",
+      "sha256": "2CF741670F66C8C4FE883EE26AD13E37249A6A07B74139A46AA76E7AEDECB1FE",
+      "bytes": 228222,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-08-bottom.png",
+      "sha256": "95622CD21B850B53C23ADAB39DC4BFEE50B7C19DF300F79479E37A28292C58E4",
+      "bytes": 232175,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-08-top.png",
+      "sha256": "9397F81EFA2F31A91DC6634DA0D26C567A2C0D2548A1A35E7215A81FED4D5126",
+      "bytes": 232332,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-09-bottom.png",
+      "sha256": "C70920F861C3C12A1CEA37B0575EF1A28517AF1CA50907D8B835DA03FC6A9120",
+      "bytes": 238555,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-09-top.png",
+      "sha256": "05EC598DF335AB3D6B6201CF0BE41F6B661F63D0CE31BA9313E3F6A2EF3E0D10",
+      "bytes": 238649,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-10-bottom.png",
+      "sha256": "26A91910CCF78F0558C5EEC7EB200EA14D471FE16CEC2223B3DC1E2D54C65855",
+      "bytes": 220514,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-10-top.png",
+      "sha256": "95E359BFD55ACAD5838A80FEFDA4D9B172910AC1007EA16AA721399C559989B2",
+      "bytes": 222962,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-11-bottom.png",
+      "sha256": "DF585F06DF97AE97CEF7F40A82848232D254729A31C7AC5444965361E678E502",
+      "bytes": 241843,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-11-top.png",
+      "sha256": "288483FDF82F15E1C134AF5906AE6E40283B80390C8041B3531B111FFF82E9AF",
+      "bytes": 240778,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Initial/00-welcome.png",
+      "sha256": "73CEECF273BA388225D6B611934EAE94673BE1F43466691C547B7F91280A77A5",
+      "bytes": 612714,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Initial/01-key-accepted.png",
+      "sha256": "4E9740043952E753C16BBF6BB4C5D958D4BC97465C939E6B2DA9D69B0BDA42D4",
+      "bytes": 1167517,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Initial/02-harvested-to-workshop.png",
+      "sha256": "11D0654494E5057B5E14247C9DE6CD2FF0B3C519F665904E04CA63ED66328FE1",
+      "bytes": 1291442,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Initial/03-first-recipe-choice.png",
+      "sha256": "1E0EB22F5CC5E74357BA39D502DCCDF61403B3650F45911BFD56827F2F7A86CE",
+      "bytes": 434290,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Initial/04-tea-configured.png",
+      "sha256": "E1D11DAF3CC1671C5E4F27D011C2B9A57F9EB9A5CD3A25A85316A9970E722EB8",
+      "bytes": 1280183,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Initial/05-first-shelf-choice.png",
+      "sha256": "58716932FCD815A66F023F545DA4F236D459CD2F12E96EE0323FBB6EDCAC3F5C",
+      "bytes": 445366,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Initial/06-awaiting-real-sale.png",
+      "sha256": "42515838661B9C23DDE03BB6B1491A14E893949E0EEE3E9D073B9554FAF0CB2C",
+      "bytes": 1275187,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Initial/07-real-income.png",
+      "sha256": "17E8EB0DDCFBE84227166A97776C88650A61880B78792ACF48D96E9E655C4DCD",
+      "bytes": 1279178,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Initial/08-order-entry.png",
+      "sha256": "F6B892FC939C3A125108A8475BF83649A301AA0CC57BFB887AB04EB3D9DEF116",
+      "bytes": 135518,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/initial-flow.mp4",
+      "sha256": "9CDD1942B0E71D5C0EEB8FEA3D0A6C3DD8866A30F73DB8731C10BB67F287AB9E",
+      "bytes": 24107124,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 80.03,
+      "nominalFPS": 29.51
+    },
+    {
+      "path": "Evidence/Interfaces/10-overview.png",
+      "sha256": "62049D63BA13F7B3F08105BEA8ADC92B7F2A5064FFF7AF683BC4FE355DB66752",
+      "bytes": 1677383,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/11-map-zoom.png",
+      "sha256": "3C6CCFC75F51E628ABE0D7278E20828B7EE7FA31760475A89E1450600A906B74",
+      "bytes": 1629363,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/12-map-drag.png",
+      "sha256": "35778EE926A2DC612CCBFFA0F242A9E9F4F1AFAEAA976D96260FFF2F3AEC3442",
+      "bytes": 1620376,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/13-twelve-garden.png",
+      "sha256": "FC3F37C8E435B76469DA87823111427ABAA6E3F05540E38685134A9504B61590",
+      "bytes": 1222630,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/14-plot-configuration.png",
+      "sha256": "D35E823A8CBF775B87BAB43B778E50A888F6B74432D8CF3C2D34664EC8C1B674",
+      "bytes": 419242,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/15-cauldron-recipes.png",
+      "sha256": "72FB5C2909AEB609925CB9E8EBF12472EB5667DD9C6E56A0FB88434C6DCC24B1",
+      "bytes": 509526,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/16-cauldron-bottom.png",
+      "sha256": "A42D9136DB2E03C9ED196E2FE6DFB4F11145ABDF38E882FD8B449F64D72387D8",
+      "bytes": 505015,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/17-workbench-recipes.png",
+      "sha256": "D221836F3B186B3A6E6137B21B3A9A979F162830C9EF67E20989EBC7B94C0B52",
+      "bytes": 514444,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/18-workbench-bottom.png",
+      "sha256": "8C51D1424DDE503AACD0A51FC90956607D6C109BF717A6CAF1C392A400A1541F",
+      "bytes": 514667,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/19-shelf-products.png",
+      "sha256": "B3D3CEAEC4B71CCF66091C6A8A9849FFE1FAA4EF6CB6A2415A2BBA342ED07E51",
+      "bytes": 522140,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/20-shelf-bottom.png",
+      "sha256": "7F7E3C13285378AED3C7CDA99302F2C54E5D45EF321D89ECA5715AA9F00D2302",
+      "bytes": 512389,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/21-order-available.png",
+      "sha256": "392B193894FCB0148466B28DC7163AB260CBD1A09B5579692D7DCC3218D3E41C",
+      "bytes": 246304,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/22-order-accepted.png",
+      "sha256": "742E5640B9475D77A565DD19F1978EE446098387C966726628AEB37CD1092E05",
+      "bytes": 256621,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/23-products-top.png",
+      "sha256": "4BA0CB07749DD4F1BABD592C2C2E1F96618649B736F77523FB78B6D94417353D",
+      "bytes": 235827,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/24-products-bottom.png",
+      "sha256": "6AB11DBF2023D183B4EF21A999B708FD4C27657D28553138D768501DDF3CF6A3",
+      "bytes": 230909,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/25-residents-top.png",
+      "sha256": "075A481D6D4DBE9B7DA3FC1E9B1A9319A340D9A1B2F5A4C546AC615CC8893140",
+      "bytes": 303253,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/26-resident-story.png",
+      "sha256": "02649F1AD1EAF159B74AE6425BC6BBB37141A5E72EAD52C269C2B3E4D0B2F730",
+      "bytes": 287748,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/27-resident-story-bottom.png",
+      "sha256": "702190CE190D2F52111E3121C328B3FBDA57B3FA7273FC9015B52656F35BC699",
+      "bytes": 287729,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/28-memorial.png",
+      "sha256": "249CB16150D9F8DA05E85AE3FA764D49D1D7006FA7FC078CEE617647EF921C73",
+      "bytes": 772469,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/29-residents-bottom.png",
+      "sha256": "AF6D79C8790AB0E66059F0338D5145B39F0C6AF7983CD08A85CAD8FB0BEAA019",
+      "bytes": 298368,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/30-workshop-facilities.png",
+      "sha256": "3A67F792BC390242B547A744176D8EBD01D98B4B2585530B7EBD8472BB9853E8",
+      "bytes": 1033747,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Interfaces/31-real-courtyard-overview.png",
+      "sha256": "E3B397BBC54A1A626789021852C0AE14770463B4A118B79F3702842DD6D92CA4",
+      "bytes": 1682673,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/interfaces.mp4",
+      "sha256": "E0EDC6A844087A0B128BD5076FAA8A0B0D6B9B1F0FCA98C7E29A283A85BF367C",
+      "bytes": 54805441,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 120.02,
+      "nominalFPS": 25.7
+    },
+    {
+      "path": "Evidence/Journey/journey-berry/01-handbook.png",
+      "sha256": "2F846985AE5DED18A823B4891277F7CC517F7FA4744517183BF120A981FB66B7",
+      "bytes": 696938,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-berry/02-main-destination.png",
+      "sha256": "5A4B55B3B8510F38428FAD6B63314E53C5DFF00B23256AFAAB32AF1AA1BB4DAB",
+      "bytes": 588070,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-berry/03-secondary-destination.png",
+      "sha256": "C82B27C8BF00BBEBE329E7A5E8A1076B98DF87D845C994735374855906F828DD",
+      "bytes": 1046185,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-berry/04-fish-progress.png",
+      "sha256": "A87BC7ED92AF43006086AC46A5D35313B9287CC5A1196D8E928BBB7377694F44",
+      "bytes": 237410,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-berry/05-clue-or-record-top.png",
+      "sha256": "6BA8AA0CA58B5C67B5F88B0B23AC1E4AE09DE2486FE8A93B6398FB8C5624EE04",
+      "bytes": 195960,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-berry/06-clue-or-record-footer.png",
+      "sha256": "C7D1CAB601516C0A139AA14AE0CAF3A5C4312193F2CA75766F72C3907A267C1A",
+      "bytes": 199771,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-berry.mp4",
+      "sha256": "4EF94889D63FA250631FE96FC3F1E9D168590B4514F0ECDD62D2258AF8700687",
+      "bytes": 20876677,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 40.04,
+      "nominalFPS": 29.0
+    },
+    {
+      "path": "Evidence/Journey/journey-complete/01-handbook.png",
+      "sha256": "D377A43D871F4B2576A28972B849DA59E2000595159828B6B54372EA6B561DAA",
+      "bytes": 702944,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-complete/02-main-destination.png",
+      "sha256": "D77AB632F46D76B97B5EEED046FF18FE35FECB55D91F489FC71DFDD628DD048E",
+      "bytes": 231739,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-complete/03-secondary-destination.png",
+      "sha256": "704DB783A7D115F3B9909480D271F65F5A1AD4A587D32CA0D1DAF9ECFB83F97B",
+      "bytes": 1048271,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-complete/04-fish-progress.png",
+      "sha256": "587D11F9E0584F83D127E3379A1654F164C220AA7612792B672D13F6CA7B1D1D",
+      "bytes": 230448,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-complete/05-clue-or-record-top.png",
+      "sha256": "83525F956A86DBD674FB786F4E687A6B7304300F1DFE4A6449F33D915E7CE8B2",
+      "bytes": 243006,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-complete/06-clue-or-record-footer.png",
+      "sha256": "D6D793103AFCFF84232EC70AE336A7AC0D2E77879B32B0FEA7AC9465C6E0A858",
+      "bytes": 241495,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-complete.mp4",
+      "sha256": "C4484090DAC8EEBDDD697A82141061579E5D6F5B1AECA73CBF9B198E31DBC8C1",
+      "bytes": 21038759,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 40.03,
+      "nominalFPS": 29.01
+    },
+    {
+      "path": "Evidence/Journey/journey-deliver/01-handbook.png",
+      "sha256": "3C34C8AACACB7F9BC04047A6A5B2883F5C6CCA615E440A2D953723816AA615C5",
+      "bytes": 699901,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-deliver/02-main-destination.png",
+      "sha256": "12BCD841E69B8C499A6DD861C704D7F47FB6375AA4EBFB3EEA79519E80A1D086",
+      "bytes": 250461,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-deliver/03-secondary-destination.png",
+      "sha256": "1346107DF772D74FC74D42904E32E856ED9EA7ECAB26A07A66008D5949846B7E",
+      "bytes": 1047726,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-deliver/04-fish-progress.png",
+      "sha256": "77347B001FA536B3709F4329391045CE0367DAE6E4FACCB38E025942A9153A04",
+      "bytes": 238751,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-deliver/05-clue-or-record-top.png",
+      "sha256": "7F2F97BAD4EDB7AE2C97DAD1FBF483B25335E7C787886A90794156F615890356",
+      "bytes": 199246,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-deliver/06-clue-or-record-footer.png",
+      "sha256": "464E8AEE0C7B03D6CAB562F9AF90FD1AA721695BD86B38268BF4551DF0FB3044",
+      "bytes": 201189,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-deliver.mp4",
+      "sha256": "433891EC9C7343DA184150C7F3E4A9ECC07250E05A7E04E62131794F355C7F0E",
+      "bytes": 21278201,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 40.01,
+      "nominalFPS": 29.02
+    },
+    {
+      "path": "Evidence/Journey/journey-dew/01-handbook.png",
+      "sha256": "85225503E34642996EDB4BBABBF44F7739E08DBB53579291A9F036BD9988A4FF",
+      "bytes": 699220,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-dew/02-main-destination.png",
+      "sha256": "98E61E160EB843FD9EE9543FC716802D47A498A5B2F3FEFA0D9F690C69EBAA5E",
+      "bytes": 585229,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-dew/03-secondary-destination.png",
+      "sha256": "3EE4F8F4452200DEFEDC9B0C8629CBEA77DD5A9D91C8C201272C1978345DD16E",
+      "bytes": 1047656,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-dew/04-fish-progress.png",
+      "sha256": "60CD585CD4346A5789F69F90955AD8C07098DE9E6550171741548103CFDF0368",
+      "bytes": 238397,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-dew/05-clue-or-record-top.png",
+      "sha256": "A131FDD1B89EFF64736C64E9BB5AB11D579F03A672F9D008A99A9DF1E5A0B2AC",
+      "bytes": 198697,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-dew/06-clue-or-record-footer.png",
+      "sha256": "C812606F06E3CA4154AA3ED6FB736A7AC8F640D06EBD2A4B05411BBBCC47CB44",
+      "bytes": 198689,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-dew.mp4",
+      "sha256": "5275D28D8F260CFE6F053F1701A73DEB08D641374AE1EB52B92074FAECF7C30A",
+      "bytes": 20285077,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 39.36,
+      "nominalFPS": 28.6
+    },
+    {
+      "path": "Evidence/Journey/journey-entry/01-handbook.png",
+      "sha256": "F978C4B35E01F9C78FD4600B2652A94F32FC4B420A328D0023AAF460C11E8A3A",
+      "bytes": 718934,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-entry/02-main-destination.png",
+      "sha256": "0FF2E1512FCE33128C7FF972BA4C31F64F2AE8521F9442898D64C2F880FB1E40",
+      "bytes": 891457,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-entry/03-secondary-destination.png",
+      "sha256": "6355C4DEAA6568A76B09B0C0245E819E0335A77C1DBE24038040F0A1545694EF",
+      "bytes": 598186,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-entry/04-fish-progress.png",
+      "sha256": "49686C81564CC7CA2B74541EB1F2F7BD56E6F4D9DB1131A4E75CFC0F90772F19",
+      "bytes": 241089,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-entry/05-clue-or-record-top.png",
+      "sha256": "12DFEEA24C0FC4207A82DB1A21F89B99ECFD8F710D20C9A4A8E2E6DA37E93164",
+      "bytes": 201498,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-entry/06-clue-or-record-footer.png",
+      "sha256": "8A1D1EE11DD355AB8C7F988CB69C2FC512444019C2D96062EE4BE4F01DD778F7",
+      "bytes": 203565,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-entry/07-locked-habitat-condition.png",
+      "sha256": "D79C350850B01FE6B14C68408D7B6E67517ACD83736DBA28DDE9A561A372EA8C",
+      "bytes": 231572,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-entry.mp4",
+      "sha256": "B750C2A2920B07AD63860751AAE32A3A89A8449073355E7A05AABB105E1664A1",
+      "bytes": 21447462,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 40.02,
+      "nominalFPS": 28.98
+    },
+    {
+      "path": "Evidence/Journey/journey-partial/01-handbook.png",
+      "sha256": "921A72A70E82F5437943C3BD7629677294A171CD5742005DF0A1D31313FFE418",
+      "bytes": 700598,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-partial/02-main-destination.png",
+      "sha256": "A8BEBABA5D483C4D7E0342A1C09CA066A14CF99D8C646D79B209212965C63846",
+      "bytes": 742286,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-partial/03-secondary-destination.png",
+      "sha256": "D7A00A7DB5F2AA474A03EE6CAA9E381BE4A6CD6D641254049700FE993ABD8BC3",
+      "bytes": 1048883,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-partial/04-fish-progress.png",
+      "sha256": "8EC66AA3E880021CEC9F88141A6A8AFF2A0D5D006745581AE6C79E980EA158C3",
+      "bytes": 228767,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-partial/05-clue-or-record-top.png",
+      "sha256": "FD656EC436D3554732D1BF2ACB024220765610FE9F11B977E7C236A913B80FB6",
+      "bytes": 200190,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-partial/06-clue-or-record-footer.png",
+      "sha256": "049005834ABECC475E728AFC28B942CEC3DF2475664374DD3B41338B0AB5515C",
+      "bytes": 200132,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-partial.mp4",
+      "sha256": "89D0EFCF50E32118E3B9696F1E57BAF44A6F97C82C204B4D5BF538B3C796F28C",
+      "bytes": 21039914,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 40.03,
+      "nominalFPS": 29.06
+    },
+    {
+      "path": "Evidence/Journey/journey-resin/01-handbook.png",
+      "sha256": "3B59165C9A71937C6CF15724FDC7AF3981675AEE62FADB04CA8E29CF32B84F1D",
+      "bytes": 705545,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-resin/02-main-destination.png",
+      "sha256": "5B89B147A79E76C02AF1B78C16C6E023A1CB323EBD4788FE1854270D51607BCE",
+      "bytes": 552214,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-resin/03-secondary-destination.png",
+      "sha256": "C4E369C6FCD7651539C80DC19CF84F646CEC242BE852E265DAD2CED825DD46C7",
+      "bytes": 1049832,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-resin/04-fish-progress.png",
+      "sha256": "22E0B0983AF268825BCB2EAE39230943E993CF22AD7D4132507FCCC0BC481565",
+      "bytes": 241843,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-resin/05-clue-or-record-top.png",
+      "sha256": "FBD5752319ABBA502B3DE9843744722A9A472A12ED00EDA3A1245333E267F416",
+      "bytes": 199276,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-resin/06-clue-or-record-footer.png",
+      "sha256": "22EE9B6C321C62D85A5C3E2D346839F58834166E432D7E68CDE3603BE5C97B06",
+      "bytes": 201152,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Journey/journey-resin.mp4",
+      "sha256": "9982F706ED6A05B1F9E7F15DACB92F7855C9EECA09C1CB61BA812DBB3E478E82",
+      "bytes": 21054691,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 40.04,
+      "nominalFPS": 29.07
+    },
+    {
+      "path": "Evidence/Legacy/01-empty-reserved-shelf-symbols.png",
+      "sha256": "3160BAD6B8FEAA437D5CD70AEA18DB84A2FDA8CAA405CC92CD90BFC89870029E",
+      "bytes": 1324709,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Legacy/02-empty-reserved-written-status.png",
+      "sha256": "A86E0C5EE891BA2764E2D3402A71A05CC84B8BAEC7A211FD357206AF68BDAF84",
+      "bytes": 879229,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Legacy/03-shortage-order.png",
+      "sha256": "9F808B0D11F4092FE93D461C1CD5AF64D4725AB05471E2B2FBE43F57244A62ED",
+      "bytes": 257186,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Legacy/04-annex-before-overview.png",
+      "sha256": "4E83F3088B6DB422B505FD39CC269A5A05338E654A2693F892C2EB653F0E58C8",
+      "bytes": 1663952,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Legacy/05-basic-sign-pot.png",
+      "sha256": "7C344767AD94F0E913712C7B8E00902D04A9B28BF9F2DB3DF3A6B2F77F133DA9",
+      "bytes": 1321504,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Legacy/06-basic-curtain-rug.png",
+      "sha256": "C065B9E0C1755E98ABB6E8B7F2837C51EFE3FA2B8FCB78BB14A420D1B3B869AF",
+      "bytes": 1348679,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Legacy/07-prepared-chapter.png",
+      "sha256": "D1950FAD3F6E09A2262EA5454A9219C9BF406A91477ECD6FB897E4DABFB5C5CC",
+      "bytes": 792480,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Legacy/08-reward-sign-pot.png",
+      "sha256": "3EB5A8CE4422B454E206468FE9ECCE146D50F9738641D3EFEC0E1FD1A1997B98",
+      "bytes": 1343623,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Legacy/09-reward-curtain-rug.png",
+      "sha256": "31C407A7A135F79F7E21BF87971C2E4878EE90515411B8D7A1073F12C0E95830",
+      "bytes": 1353152,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Market/01-new-tea-recipe.png",
+      "sha256": "4B6F1825BEE6248CEBA294E3817158E6810FC82A8B178DCB5311BDA01D5EC50F",
+      "bytes": 506636,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Market/02-tea-recipe-bottom.png",
+      "sha256": "82455FCE1FECA2E2D33AB799455AB581E4D8F6D094EFBD37CD4F3A903B6DB4F9",
+      "bytes": 502783,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Market/03-new-workbench-recipes.png",
+      "sha256": "C0D98FE79B8A56399912395AA5A87797261852FAC2AD4EA2026373DF61782C59",
+      "bytes": 508447,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Market/04-spray-and-balm-recipes.png",
+      "sha256": "D72E82D00DAAAB541A103A9C9AF78D7257402C3FF50AB452638461B599622E09",
+      "bytes": 510479,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Market/05-nine-products-top.png",
+      "sha256": "83020B0233D6F42B9E84632B5ACDD6C0D975949FE88E62FAA78A8CC0755641A7",
+      "bytes": 252029,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Market/06-all-new-products-bottom.png",
+      "sha256": "AA3C27763F6B9DC5A46CF343D9498E862B3D4B8A6B48B4C018245148936F65D6",
+      "bytes": 252200,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Market/07-new-products-shop-default.png",
+      "sha256": "796AD5EFACDBE67C919554A18FA110201B93EE07B19F06FA783EC923980709AE",
+      "bytes": 1325263,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/market-native-1.mp4",
+      "sha256": "FAD8F55106078D0616858028FF8D4E8F101EB2250A9606355612E0134C83BDB3",
+      "bytes": 65731458,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 160.05,
+      "nominalFPS": 29.91
+    },
+    {
+      "path": "Evidence/market-native-2.mp4",
+      "sha256": "A1481AA6F47DB70DAE876AF9881F17C6C1519B1AAB30A5126463735ADAE2E488",
+      "bytes": 66429398,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 160.03,
+      "nominalFPS": 29.9
+    },
+    {
+      "path": "Evidence/moment-fit-Default.mp4",
+      "sha256": "4A58CE445BDF72C8E5B969D9C432E250B8CFD82A70F7334AC82DBFCB3A9BCE3F",
+      "bytes": 52097166,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 100.03999999999999,
+      "nominalFPS": 25.64
+    },
+    {
+      "path": "Evidence/moment-fit-Long-r02.mp4",
+      "sha256": "33ED0D02C95550FBB747F8DCE7810B9A46F2FFF717C4C0879FB7D4DA2A0D1A70",
+      "bytes": 55042608,
+      "type": "original-video",
+      "width": 1080,
+      "height": 2340,
+      "duration": 100.05,
+      "nominalFPS": 23.59
+    },
+    {
+      "path": "Evidence/moment-fit-Long.mp4",
+      "sha256": "9EFABE0AE1C884DCF607ACDEF0B0A419A22E3AE2EF6588868A05D8EFE0B403E6",
+      "bytes": 52009025,
+      "type": "original-video",
+      "width": 1080,
+      "height": 2340,
+      "duration": 100.03999999999999,
+      "nominalFPS": 24.08
+    },
+    {
+      "path": "Evidence/moment-fit-Narrow-r02.mp4",
+      "sha256": "C098888C8D6E0DC979471561EA393B3737F2EC540ABBB0B0DEC6CEEB93FA42C8",
+      "bytes": 40715177,
+      "type": "original-video",
+      "width": 720,
+      "height": 1600,
+      "duration": 100.03999999999999,
+      "nominalFPS": 28.83
+    },
+    {
+      "path": "Evidence/moment-fit-Narrow.mp4",
+      "sha256": "E0E7CA21948E79E38838ED4E967912DD8D1531677010CF213CBDEC59F79EB3FC",
+      "bytes": 41149724,
+      "type": "original-video",
+      "width": 720,
+      "height": 1600,
+      "duration": 100.03,
+      "nominalFPS": 28.83
+    },
+    {
+      "path": "Evidence/moment-fit-SafeTall.mp4",
+      "sha256": "710F78580417006DFF6B5383F202E562AD3FD13A82D6514F828CDBC2C266D836",
+      "bytes": 45186325,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 100.03,
+      "nominalFPS": 25.52
+    },
+    {
+      "path": "Evidence/moment-flow-simple.mp4",
+      "sha256": "13845D0A9595D250170E222B593EDDCCE73D836EA06E30D36F451BD8777399B0",
+      "bytes": 51996807,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 150.01,
+      "nominalFPS": 25.13
+    },
+    {
+      "path": "Evidence/moment-flow-start.mp4",
+      "sha256": "170B5A656207501606966791EB9B79BDDB4723079A10A67F6DC8ACCC38C88F9E",
+      "bytes": 77250983,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 150.03,
+      "nominalFPS": 25.76
+    },
+    {
+      "path": "Evidence/MomentFit/Default/00-handbook-and-four-footer-links.png",
+      "sha256": "78B7D1FC637DAA181F68E6932BD90B844165D270B38B1E32434DC0ED69D297E5",
+      "bytes": 690791,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/01-all-three-pending-cards.png",
+      "sha256": "B47DD22F91018063D7B7973BE138B8507D424395BE1E3B0B00002F4D6EAD6AA0",
+      "bytes": 686612,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/02-third-card-and-footer.png",
+      "sha256": "FC4ED0627D873D63F7DFFA5D029A8E26E4D3CB03B397E24DD03CEBE7BF3A9015",
+      "bytes": 689469,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/30-completed-journal.png",
+      "sha256": "1996D3E5AEB6D357C3790C21077665A02AC72777360422EF493BCB488A00ED76",
+      "bytes": 528835,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/event-0-10-actual-object.png",
+      "sha256": "E13E45B6087B3582346DCC5CD6A1F1AC97F3E3ADAB51DDF88861C9546532C5C2",
+      "bytes": 1068450,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/event-0-11-choice-card.png",
+      "sha256": "28B424DDAF6A4B73237478F6ADA99B0E7616CA416E84905689A27AF515F93ECB",
+      "bytes": 648087,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/event-0-12-choice0-world.png",
+      "sha256": "C02BB1D1215087A3BE9FD23DB6BFFD8B047D17BDB96A6D10BFB2819868DC3CAC",
+      "bytes": 1042780,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/event-0-13-choice1-world.png",
+      "sha256": "85F29F7456A0693F7D468ED0A181EE1C7878926DB9C2B4994B6E57D7C939F65B",
+      "bytes": 1019417,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/event-1-10-actual-object.png",
+      "sha256": "50DDE76A0B609F9D80E567826E8EB85A2D8A955AEAEC1676EC52E398C2476198",
+      "bytes": 1098879,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/event-1-11-choice-card.png",
+      "sha256": "10519781E555991A6C8B9B3699A614AB1396CFD06AFD4D7680312C5DDEEB2554",
+      "bytes": 599641,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/event-1-12-choice0-world.png",
+      "sha256": "BEB5E6EB8494FA56B329320BEADC68D00B3C965B3F07619CB4C1F3285D7989E6",
+      "bytes": 1086923,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/event-1-13-choice1-world.png",
+      "sha256": "25B189A3CDF864D57EC2A2135C2CDFB43803CBE61C985B9AB3CDC755C16A07CA",
+      "bytes": 1113570,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/event-2-10-actual-object.png",
+      "sha256": "9927D7E762447303C79880CE2621C8BCE676A9758FD89D2BBA766C97B098BBA0",
+      "bytes": 1252203,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/event-2-11-choice-card.png",
+      "sha256": "DDC45F0D2849209A71ECBD7A4CB0580B26696D02591D3A0EE7F6FAD87035D7BA",
+      "bytes": 753132,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/event-2-12-choice0-world.png",
+      "sha256": "4AC6979A67C7D5B9A1E82904367A444C7A181A0AFD97E548329B44AB8DF68548",
+      "bytes": 1241036,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Default/event-2-13-choice1-world.png",
+      "sha256": "11C075F2BBA7F69110A8B2890B5395BED694939E5D32978182C36062B3671CA0",
+      "bytes": 1242190,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/Long/00-handbook-and-four-footer-links.png",
+      "sha256": "3085AA3C04B49D9ADC23F4FE1825EC3AB1F844AF078FCAC09A357624D45C1EEE",
+      "bytes": 1102407,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/01-all-three-pending-cards.png",
+      "sha256": "161D8549C2D83AD1E94F7EEB95D56B508CF552CFBCACB15974133512161CC8B4",
+      "bytes": 1097306,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/02-third-card-and-footer.png",
+      "sha256": "C6FFCDE952543BB144D7A36A2BD36FDE149BE9E4FACE73632CEF28EE041B3490",
+      "bytes": 1098907,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/30-completed-journal.png",
+      "sha256": "0375EE905E72639D136D2515077CE3A77DA610994D4027411CF5437DD92F1459",
+      "bytes": 815291,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/event-0-10-actual-object.png",
+      "sha256": "9B27F752AA538E25FA07548BA96D180F652A9574B94F5E3A0C1D09FAE1A0A6C4",
+      "bytes": 1111597,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/event-0-11-choice-card.png",
+      "sha256": "A149A3B2D2640C8090D8C7730522011CC96CDD6414A4503A93BEA75256F4A684",
+      "bytes": 1111167,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/event-0-12-choice0-world.png",
+      "sha256": "8B169A3EB27889370EDB13E936F3C2359548C33907526CDFCCDC4B427D778946",
+      "bytes": 1114431,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/event-0-13-choice1-world.png",
+      "sha256": "1F00DBB78914CDD4CA09E70F3AAFCAE16439A56E070B37AD8164FF5687F6D537",
+      "bytes": 1111638,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/event-1-10-actual-object.png",
+      "sha256": "A9A401BDDE531F0A078AED7408F6F289F8CC3BD889FB7E97951F3DD33E346FDD",
+      "bytes": 1141611,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/event-1-11-choice-card.png",
+      "sha256": "9D05709C31A89D3161A7AAF079744C25A6F5D29AF103647D2A9E17F03801C6EA",
+      "bytes": 1143604,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/event-1-12-choice0-world.png",
+      "sha256": "37B071F5808FFFADCF59DBC757FF7C0D88E3B38418E52D0133B7CF53173E19D9",
+      "bytes": 1143451,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/event-1-13-choice1-world.png",
+      "sha256": "C9AD0FF8DE5C7F08A70C253BB747CA8100C98D43A1B811C6D668376A9A3D5A58",
+      "bytes": 1143152,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/event-2-10-actual-object.png",
+      "sha256": "F6930EE99A50145BFEA09B142EB1CBF8D0FC49E669B8FB57096EE52DD6E6D2CB",
+      "bytes": 1295290,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/event-2-11-choice-card.png",
+      "sha256": "B255F036ED600B8BAEA4717CA7013A7CA67F0773389E1599321A3B88E5C22E18",
+      "bytes": 1295850,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/event-2-12-choice0-world.png",
+      "sha256": "911D5652769CB821AA935CF8A732049ED0F5007A1214320576CD6CFB69CFBF21",
+      "bytes": 1295765,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long/event-2-13-choice1-world.png",
+      "sha256": "4224EF9D56652BA5FB28BF824C4B638C330603D5371A29F03785FC90D6211A75",
+      "bytes": 1295406,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/00-handbook-and-four-footer-links.png",
+      "sha256": "CE95D974971046FAF15244BADB006BF74FF0ED3FFF1E73CC16C606A01324C47D",
+      "bytes": 1101020,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/01-all-three-pending-cards.png",
+      "sha256": "4567382C1F0F6B77B7D945F519A001460C969B40EF6179E933C50A24E08238FE",
+      "bytes": 1098080,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/02-third-card-and-footer.png",
+      "sha256": "CD67270841E72E603904F597A41228611124B1D058FCDC22D99CC3CED2BDC0D2",
+      "bytes": 1098189,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/30-completed-journal.png",
+      "sha256": "299A4ED69C3ED1111DFED482E7884D17E503C3DFC617678D5A82C393A29D8000",
+      "bytes": 844708,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/event-0-10-actual-object.png",
+      "sha256": "7299D0F5B77C29357DFC62A1EE2B4C5814BB660F0FA00D54DF710D0BAE494EE0",
+      "bytes": 1112129,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/event-0-11-choice-card.png",
+      "sha256": "8530349EEACD03EB4F40752FE474DA9BA164289C22E7366E4C425905CC21CE5F",
+      "bytes": 896261,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/event-0-12-choice0-world.png",
+      "sha256": "B66F86D881521DC7CE0B7B26E1AB32F0A45B08B68D300294242A1CACFB64A0EC",
+      "bytes": 1095432,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/event-0-13-choice1-world.png",
+      "sha256": "06FC18D23E0D09C7BC5D1CB970B4C8F97FA7F068F70A98FA0B4ED0CB63056E83",
+      "bytes": 1074224,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/event-1-10-actual-object.png",
+      "sha256": "863235B2CBE923AD9657FE5DE6F22E97BB53DF4643401688BFCA9EF6DFCE4F15",
+      "bytes": 1142391,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/event-1-11-choice-card.png",
+      "sha256": "7F78F1BB7057AD4DB696D2CABCBCE01EFB9574C896D06854790D2302291AC0B3",
+      "bytes": 892563,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/event-1-12-choice0-world.png",
+      "sha256": "B6546EE64852D117589F161E58917A49229F48120E15746EB753E87F29B5C06A",
+      "bytes": 1140493,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/event-1-13-choice1-world.png",
+      "sha256": "55D8DDCEFBF3ED67EAEDEBE7E50C488477511EE087BF594A405C81FAC2C0BA55",
+      "bytes": 1162519,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/event-2-10-actual-object.png",
+      "sha256": "81EEC5459BE6685C2D1AF4F717B000FF63A6FE0D5FC83EBE785CD209ADD80A53",
+      "bytes": 1295283,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/event-2-11-choice-card.png",
+      "sha256": "A1DF8AF0586B5B9FE94AEA70B354C3EC55F42BE48178A536050145C4C1F49DA4",
+      "bytes": 1038132,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/event-2-12-choice0-world.png",
+      "sha256": "CA8E73FF1730546519CA48926CC20D12A864E0B8D5045D7D6BEA934C70A64170",
+      "bytes": 1294839,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Long-r02/event-2-13-choice1-world.png",
+      "sha256": "0D4A29DE31313E929386CC04947A9541727A75120F02739548C090FFF62F4C50",
+      "bytes": 1296033,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/00-handbook-and-four-footer-links.png",
+      "sha256": "C9C53B7D482DAA63CBE1C670725E118CD4F2C94D6E59F81E2A52B568308DCE32",
+      "bytes": 621922,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/01-all-three-pending-cards.png",
+      "sha256": "2288842C931AAFD6C9DAA898E38F981D86B147342AE5BFC335A507BB7C785576",
+      "bytes": 623493,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/02-third-card-and-footer.png",
+      "sha256": "681750F2EF2342157A3F4D058B52CD02EFB25FC226AD3C2BC9ED3DD691A47F01",
+      "bytes": 621184,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/30-completed-journal.png",
+      "sha256": "F267883D024755A8E925F291819A97DD74154BF3C2FF4DFD84ECF04CE87B3523",
+      "bytes": 504753,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/event-0-10-actual-object.png",
+      "sha256": "81163061289741F51BC275DFC9734FDE84B3AB98F32EF0EF17B40606DB533D33",
+      "bytes": 621760,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/event-0-11-choice-card.png",
+      "sha256": "65329AA78974EB8D08A006510DE1EEB1818D776B4EE1162262A41654E675D121",
+      "bytes": 510300,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/event-0-12-choice0-world.png",
+      "sha256": "8C2B2F6573A33516C01D24772C5128EC6B911C063D90F028DAB829277E9ED6D2",
+      "bytes": 620999,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/event-0-13-choice1-world.png",
+      "sha256": "480F3748C4528BF4FFAA88448601FCC46ACBB76389A34EAE274FC087743A8299",
+      "bytes": 611101,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/event-1-10-actual-object.png",
+      "sha256": "565B5B54AA1B23B8AE533EB38771A0E74F737C6F2FFDCC1A9A2B1CC1ECDEF5F1",
+      "bytes": 635730,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/event-1-11-choice-card.png",
+      "sha256": "D4EDBEBBACBB7E0F6E6918ACDB952E854ED7A8DBA5579C1ADEFDE03A2AFBE975",
+      "bytes": 521686,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/event-1-12-choice0-world.png",
+      "sha256": "58BB0C50395A8297FF36072BB2778E5E88010843AD32A88AF0F2B538B8DDD813",
+      "bytes": 644523,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/event-1-13-choice1-world.png",
+      "sha256": "0D185D600BD97F301E582854FE9CF766C2A580BEFCDCE0BEB7F1B5251CBB1895",
+      "bytes": 655817,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/event-2-10-actual-object.png",
+      "sha256": "CBB2B8C2B6E766697D420AC828A5A4EFF87C03124772100AE2C578AC9F7AEB65",
+      "bytes": 716137,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/event-2-11-choice-card.png",
+      "sha256": "B0CE3EF984F21EAAC6C45085E1E65859B6AA50704B563654D0F66A3379F8475D",
+      "bytes": 596874,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/event-2-12-choice0-world.png",
+      "sha256": "817AB64458D7B721DDB5F174D938264E6C7ADCB448F8D64C2ACE22D3D64D286F",
+      "bytes": 725566,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/event-2-13-choice1-world.png",
+      "sha256": "B859C257FAED3503425796E23FCD5EFF0CC212E4BC580AD65F0D57334D81F3BA",
+      "bytes": 725259,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/00-handbook-and-four-footer-links.png",
+      "sha256": "4564AF8371A7FEC66473AF6B3C15EB2CF44973762A9F8C9048D4F5764A4396F3",
+      "bytes": 621943,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/01-all-three-pending-cards.png",
+      "sha256": "114068AD24F15E0FE407238CD2C3A781DF13AB850AFCE5020268BEF360FB9D1F",
+      "bytes": 623126,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/02-third-card-and-footer.png",
+      "sha256": "47BABB235FCDC589AE6C31CC931E2B5E59AF67CD33820559B181896D9D8C8038",
+      "bytes": 621262,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/30-completed-journal.png",
+      "sha256": "F267883D024755A8E925F291819A97DD74154BF3C2FF4DFD84ECF04CE87B3523",
+      "bytes": 504753,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/event-0-10-actual-object.png",
+      "sha256": "965E0A1CA112E35EB810A6AE2BF6F14CA09E360BC119C546BBDDEC78D4E0A185",
+      "bytes": 621779,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/event-0-11-choice-card.png",
+      "sha256": "98E5EDFF2C178030A780E225ED3D4321F7ACEB80C351D926E2F4C045D4D52940",
+      "bytes": 510435,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/event-0-12-choice0-world.png",
+      "sha256": "8C2B2F6573A33516C01D24772C5128EC6B911C063D90F028DAB829277E9ED6D2",
+      "bytes": 620999,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/event-0-13-choice1-world.png",
+      "sha256": "480F3748C4528BF4FFAA88448601FCC46ACBB76389A34EAE274FC087743A8299",
+      "bytes": 611101,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/event-1-10-actual-object.png",
+      "sha256": "0DA6DA8B844CBFC66E10CC168B4BB8003542AA6495BC6FC1C8E337941C29A798",
+      "bytes": 635453,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/event-1-11-choice-card.png",
+      "sha256": "383815BD35085B380845E5D0E419BE5E49BF1E1A1D40BC06AB6CF8C2B8CE32E2",
+      "bytes": 521811,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/event-1-12-choice0-world.png",
+      "sha256": "58BB0C50395A8297FF36072BB2778E5E88010843AD32A88AF0F2B538B8DDD813",
+      "bytes": 644523,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/event-1-13-choice1-world.png",
+      "sha256": "0D185D600BD97F301E582854FE9CF766C2A580BEFCDCE0BEB7F1B5251CBB1895",
+      "bytes": 655817,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/event-2-10-actual-object.png",
+      "sha256": "EC0DDDD74BAB8E132B57E9632F258082F60A91AA480E40486AE3C18EAA9C8BED",
+      "bytes": 716227,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/event-2-11-choice-card.png",
+      "sha256": "069A024D9091A90B8131C1A89EC69D1C70E5253D4BF8C2CF90883D16E010CA27",
+      "bytes": 596877,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/event-2-12-choice0-world.png",
+      "sha256": "817AB64458D7B721DDB5F174D938264E6C7ADCB448F8D64C2ACE22D3D64D286F",
+      "bytes": 725566,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow-r02/event-2-13-choice1-world.png",
+      "sha256": "B859C257FAED3503425796E23FCD5EFF0CC212E4BC580AD65F0D57334D81F3BA",
+      "bytes": 725259,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/00-handbook-and-four-footer-links.png",
+      "sha256": "96946B0986D3A2B8AD0C15E4E850E8B68DE9152614783A5F0249C903E2B8FA84",
+      "bytes": 601595,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/01-all-three-pending-cards.png",
+      "sha256": "18C96D6E583489C23671418BD67CE51C584882EA327C2DC415E4E03A4F863A9C",
+      "bytes": 601787,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/02-third-card-and-footer.png",
+      "sha256": "99480FBF64AA18EBB9D7983C5E61623985C7139ECA80F6B93B4719C01013F373",
+      "bytes": 599600,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/30-completed-journal.png",
+      "sha256": "83EE3D6F4695EC9DBA495276E9668A5F462B4316FADB0343006809C55015D72A",
+      "bytes": 468994,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/event-0-10-actual-object.png",
+      "sha256": "2670A517D82A6D80E606AB31359DF265A020C4523FFFC4618402C8FE619FA644",
+      "bytes": 1029543,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/event-0-11-choice-card.png",
+      "sha256": "102E5BAB7E5BF8BE113DF141E2662B6155DFCB0FDDF43A72A50B404FFEDD7736",
+      "bytes": 604575,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/event-0-12-choice0-world.png",
+      "sha256": "7E27E94BB19049AF6BCC77950EB0BCD5FAD0FEE95235BC80F49DDED33CF767C9",
+      "bytes": 1005304,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/event-0-13-choice1-world.png",
+      "sha256": "A4B872C03024ACE2804E901CC01730DBDBD8E3B70EC0F69CA4F6E870BD5FA75A",
+      "bytes": 978599,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/event-1-10-actual-object.png",
+      "sha256": "B4A61D70D60D565F49B1A9FA79DED1E8CD0F1872A330E982C92E9F3D7173E906",
+      "bytes": 1071951,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/event-1-11-choice-card.png",
+      "sha256": "95B18C1963076700ED5271ABE333286828B9D0A98E47E2CCDA3B1FA6368883A0",
+      "bytes": 570962,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/event-1-12-choice0-world.png",
+      "sha256": "D0E909577D9916C965EE8A7C475D474156DAF2280137E7976DA2E1BC9F177604",
+      "bytes": 1058877,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/event-1-13-choice1-world.png",
+      "sha256": "C54975201318B7B8F38F9EC6902751052F515AF1DE03E551176942C560E2F536",
+      "bytes": 1074286,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/event-2-10-actual-object.png",
+      "sha256": "A8B97D3DB9391FDC001301A194B46A759BFFD187DFEB1DA7131C0D7C01F4DC5B",
+      "bytes": 1209078,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/event-2-11-choice-card.png",
+      "sha256": "4257C95D396FA29DD1380BCCC861D27C6F7E51B7B1850EB6DA2476AB9F16336D",
+      "bytes": 714286,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/event-2-12-choice0-world.png",
+      "sha256": "D2BAE83305501C658975E6F4C08518EB34951D52BF3DE5AB9E3DC402713E23BF",
+      "bytes": 1195865,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFit/SafeTall/event-2-13-choice1-world.png",
+      "sha256": "264222CC1E6437F21532657DFE16834F311C06ED721404FA0B9E6E1EBCFDEF22",
+      "bytes": 1197718,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/30-world-zoom-out.png",
+      "sha256": "3F890116A2250829E3024BAE74D551A3CB585F5BC4E8F1E415B4564D9B410732",
+      "bytes": 1319748,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/31-target-moved-outside-source.png",
+      "sha256": "32DDE5A9D45D532C2F6629423AF21B64E12AEC57FABD2C88B3CA929B8ABBDEB3",
+      "bytes": 1277336,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/32-no-fixed-ghost-choice-card.png",
+      "sha256": "F4BEECB13BA982DB5FC70C05C5FCB7D783D1136604B897A5A08140FF58A07BE0",
+      "bytes": 1275076,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/33-recenter.png",
+      "sha256": "4C96D936412592C416E58A26A0012990B85E0326D5C3B2681A94F36FC3955714",
+      "bytes": 1397523,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/34-handbook-finished.png",
+      "sha256": "C4A61B005F732B2FBE0B3DC2D82BEA7F0912DEF4C50CE41A9768D9EE81036890",
+      "bytes": 529204,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/35-journal-top.png",
+      "sha256": "71BD9C8EF6B9CB0A58C7A5B1996E85CA499BC4006ED670CA609405E7C285E473",
+      "bytes": 548904,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/36-journal-footer.png",
+      "sha256": "DB6825BF2E516B9F74BF38098DEB0720E2DBC2E66851DFE36D28419F2D18F51B",
+      "bytes": 549558,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-0-00-clue.png",
+      "sha256": "8F1CBA8C93EEA70683792509A8AE8EFA6FCF3AA58D7B52CF06CD7BB9D4489550",
+      "bytes": 1047787,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-0-01-found.png",
+      "sha256": "9A7D118366FC6E4110997B823BE224CB45A73804E5B862E4213C9CC9D70C66E9",
+      "bytes": 1053215,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-0-02-choice.png",
+      "sha256": "077597EBB9F236FD45206298DFE19B6B2213E95687C9486E2A80BA3AFA5C71F2",
+      "bytes": 651965,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-0-03-choice0-world.png",
+      "sha256": "868F0E8E3C8EC842B6558B32F2991EE31916621E9F24B839E3A29D1504A0F1BC",
+      "bytes": 1037971,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-0-04-revisit-card.png",
+      "sha256": "C1D3CD02F32A87E82591518390F9F64CBBAD7AE8D0691809B903C4B9C164A692",
+      "bytes": 615649,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-0-05-choice1-world.png",
+      "sha256": "591BE980551114E456A2C5AA8EF906EA04253361080E8538341B1DA6D9CBF406",
+      "bytes": 1019303,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-1-00-clue.png",
+      "sha256": "9D1CFE46FA8564159252EEE2285C496561F73654C24F7E237539D1D241BBB1EF",
+      "bytes": 1127985,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-1-01-found.png",
+      "sha256": "C8F4929EAB5575A1BD83238E0C98527A7DD1452B379F893A7AA1600BCF36BE33",
+      "bytes": 1130945,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-1-02-choice.png",
+      "sha256": "D650899DE77A5B85C8F0D4880EF03F42D3D56661924B426C59368DB3DD904422",
+      "bytes": 619966,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-1-03-choice0-world.png",
+      "sha256": "5172025A8126DFAB6CD720C9630C5BDEC5C41AAB1B9DB62437A8E9172520E002",
+      "bytes": 1122909,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-1-04-revisit-card.png",
+      "sha256": "8268F07E2D6B1A7A2E074532D14A7CCC25B32D3B39FF2A6CAC8114A7EB2A46F8",
+      "bytes": 618426,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-1-05-choice1-world.png",
+      "sha256": "D4C776DF04BAEF787083DBC2DF70C209B98694828FC5999A683EEDEED297A586",
+      "bytes": 1113521,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-2-00-clue.png",
+      "sha256": "C3FD4AD1B290378F5FC5C570D8B027BB038C490B8C8EF2C09353A98195E9E113",
+      "bytes": 1183044,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-2-01-found.png",
+      "sha256": "1DD6AA9662ED49E712807337C130814EE02C69631498F25D14A702D20CC60CEF",
+      "bytes": 1177688,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-2-02-choice.png",
+      "sha256": "A706B3E2813059311A800F23D23254B7193D669A9BC62FCF89D34C02F84A8894",
+      "bytes": 728523,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-2-03-choice0-world.png",
+      "sha256": "210866A3F6CC119FC8B1CE6B64C130F3B698ED2DCF6D9380ADF1B320E998A925",
+      "bytes": 1178962,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-2-04-revisit-card.png",
+      "sha256": "A4CF2695C00120C3521138C7D83EBB0890BB8BB97B77CA4BE23A57C4676BB54F",
+      "bytes": 757109,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/simple/event-2-05-choice1-world.png",
+      "sha256": "7B7EBC606F95C835C4858737C3A6543CFCD7902467686755A40E631D2052DF51",
+      "bytes": 1242203,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/30-world-zoom-out.png",
+      "sha256": "3F890116A2250829E3024BAE74D551A3CB585F5BC4E8F1E415B4564D9B410732",
+      "bytes": 1319748,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/31-target-moved-outside-source.png",
+      "sha256": "587CDE109DFFC95EA4056A6AA52C3AC68058FAF901E1F0961D751975A270E86D",
+      "bytes": 1279086,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/32-no-fixed-ghost-choice-card.png",
+      "sha256": "A4787C9D0F32C3CAC5BFED0446C7FF7F0B1E14A2C3D28060748D352E3E708347",
+      "bytes": 1277020,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/33-recenter.png",
+      "sha256": "C1D850B0E55487D915B491E1854EE2604351F0A9CADB670B4185A1316B832ADF",
+      "bytes": 1397481,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/34-handbook-finished.png",
+      "sha256": "88C15C446DC6787CF77F1E2A03A6A0329F071F04A8C786E28CD10505B474055C",
+      "bytes": 529205,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/35-journal-top.png",
+      "sha256": "F026857AF83E271FB4E44B36910699C7DA859BAD82BB88EE73ABC9A09C06E74F",
+      "bytes": 548899,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/36-journal-footer.png",
+      "sha256": "F534D95A44876F6FCB022B0816CFD5A7B63087B836776FF52272961B04F36A49",
+      "bytes": 548728,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-0-00-clue.png",
+      "sha256": "AAE8B5B45AA5B79A378FAEEAA37CE2C59E6AA3865A77F32838A304E43CC76209",
+      "bytes": 1047726,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-0-01-found.png",
+      "sha256": "D13F1AFE4323F35CA7997BB32914267F5A7F7DBDA5C750BA76F19BB71A2881E6",
+      "bytes": 1053374,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-0-02-choice.png",
+      "sha256": "57B5FBEAECA77EB9C55E5198A61C4D89CB57CE0290895DEC88466087976575EA",
+      "bytes": 652127,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-0-03-choice0-world.png",
+      "sha256": "868F0E8E3C8EC842B6558B32F2991EE31916621E9F24B839E3A29D1504A0F1BC",
+      "bytes": 1037971,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-0-04-revisit-card.png",
+      "sha256": "C1D3CD02F32A87E82591518390F9F64CBBAD7AE8D0691809B903C4B9C164A692",
+      "bytes": 615649,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-0-05-choice1-world.png",
+      "sha256": "591BE980551114E456A2C5AA8EF906EA04253361080E8538341B1DA6D9CBF406",
+      "bytes": 1019303,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-1-00-clue.png",
+      "sha256": "A462AB063B3E0FB3732D0AB98DEF41EACF16C9AE0878B22941B946493EC608C0",
+      "bytes": 1127688,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-1-01-found.png",
+      "sha256": "B866DE52F0F4EBAC75C36349D4EFFA4B2BD7A2ADF1A1AEFE7DD13CCA3D5F8304",
+      "bytes": 1130151,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-1-02-choice.png",
+      "sha256": "113020CB15EDF591DD4D0A016258CEDDD8634817B3A8BD9A3CABD5472BF78EE3",
+      "bytes": 620698,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-1-03-choice0-world.png",
+      "sha256": "5172025A8126DFAB6CD720C9630C5BDEC5C41AAB1B9DB62437A8E9172520E002",
+      "bytes": 1122909,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-1-04-revisit-card.png",
+      "sha256": "8268F07E2D6B1A7A2E074532D14A7CCC25B32D3B39FF2A6CAC8114A7EB2A46F8",
+      "bytes": 618426,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-1-05-choice1-world.png",
+      "sha256": "D4C776DF04BAEF787083DBC2DF70C209B98694828FC5999A683EEDEED297A586",
+      "bytes": 1113521,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-2-00-clue.png",
+      "sha256": "C4D9C75C60D87AEB404D1C00C41A53252497CF00BF9ABE70195FC3A67A5AA1F4",
+      "bytes": 1182574,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-2-01-found.png",
+      "sha256": "EC37870EEA56AC767D683D03DBFBA015A887A4A37F01F9C295721D853B28E05F",
+      "bytes": 1177588,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-2-02-choice.png",
+      "sha256": "17671EC6D29208BC077756512DCC85A06AA41CFF8943C711EE0F4CF8FCF536F4",
+      "bytes": 728587,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-2-03-choice0-world.png",
+      "sha256": "210866A3F6CC119FC8B1CE6B64C130F3B698ED2DCF6D9380ADF1B320E998A925",
+      "bytes": 1178962,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-2-04-revisit-card.png",
+      "sha256": "154AA8DA53825A0175D4EAEFC70A95CBB8F6C4F21E585B925C880180DE56CF96",
+      "bytes": 756367,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-2-05-choice1-world.png",
+      "sha256": "311322021DEBA45566D9EC8CEC2FB83202BA36E5A1BBAF4293C309E46D22B934",
+      "bytes": 1243634,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentReload/01-pending-choice-before-close.png",
+      "sha256": "FA5502C6B879FBFD21AA00F5B20380FB26BC74497C5B88710E16C130C9C84917",
+      "bytes": 754308,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentReload/02-closed-without-choice.png",
+      "sha256": "9F961DBF181004C667AC0BFC36E19B34129650631A0115684CA84F8D32A4B4F3",
+      "bytes": 1253462,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentReload/03-same-guestbook-after-load.png",
+      "sha256": "BBFC78D5DDA36AA31B4A5963D7203F86A2B4D5D6115528CD0637D97C6E9D6B71",
+      "bytes": 1252217,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentReload/04-pending-choice-kept.png",
+      "sha256": "59763171D3FED619CC0836A850AE8D25EDF391D06CD12078A3AFC4F5E22E39DB",
+      "bytes": 753098,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentReload/05-star-after-deliberate-choice.png",
+      "sha256": "D493249EAFD9CAFDB022E478E67F10E5F50EFC0B377C3D7F9DCF11462FA77454",
+      "bytes": 1241836,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/00-update-report-top.png",
+      "sha256": "D76B5E48F8E10C897A004FA8CC8B487AB020435CEAEAFF3DC61DA8073CD926A0",
+      "bytes": 565177,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/01-update-report-footer.png",
+      "sha256": "6E7B361C6A2C2020B805DCE810D25CD13B0F6716B36574E7F8BE417D5CC46DD3",
+      "bytes": 565207,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/02-actual-claim.png",
+      "sha256": "B4F237C8231D9316490786168AAD18782C178DA1CD3AB0791A0001E5B580C6F1",
+      "bytes": 1663058,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/03-handbook-top.png",
+      "sha256": "F63BFC83A6A604B9158E459ADF7B0B489ED8FC6C558431606E07F81BC839AEC4",
+      "bytes": 693868,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/04-first-actual-clue.png",
+      "sha256": "E48C360F885CECF234466C015983FA1F417F9D9F030A3F553A85DC384FA11986",
+      "bytes": 1048115,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/10-stump-clue.png",
+      "sha256": "201A438AB236097691F557C7B52ACBE31067964FAB7D4A8B0751ED0CB2B7E1C3",
+      "bytes": 1046538,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/11-real-button-reveal.png",
+      "sha256": "8FB470F29A9FC38F4240351EDBBD972F68F3266D2B3D4B0EDB793211965237EB",
+      "bytes": 1053081,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/12-button-choice-card.png",
+      "sha256": "4465A24033C9D2D78801D674553DDD1576721F1B5D21BFEBEE1DF446B7745370",
+      "bytes": 650394,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/13-real-wood-box.png",
+      "sha256": "4CC75ADE60E832FF10E114D2E19ECAE4120C7B2A01FAACA95215EE00E282D1D9",
+      "bytes": 1037654,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/14-handbook-next-moment.png",
+      "sha256": "1CDF7B591B94C168CAB231A4638EA6E77DE80198C0C82CFEA16435EBDEA037B6",
+      "bytes": 418824,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/20-real-footprints-clue.png",
+      "sha256": "943F81AE4ADA8E9EF96EC28B6FA20459077B3AAAE7490807FED13D7214324B9B",
+      "bytes": 1127768,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/21-footprints-before-observation.png",
+      "sha256": "9B7333DAECD0CF9535B5A06B02764C13E255B977EFF4E5B3A6DF97CED86CD0BC",
+      "bytes": 1128107,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/22-real-letter-bottle.png",
+      "sha256": "617D3EEB7590D0096CFA9A2B5B8DF995C9637469A60BE6DF9878CCAB6D1774E4",
+      "bytes": 1130778,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/23-bottle-choice-card.png",
+      "sha256": "41B558B04CEC96DEFE62CA367C631B3957CF3A7F4F715FAB5A1E0AFB932EBEB9",
+      "bytes": 621171,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/24-real-reed-frame.png",
+      "sha256": "288F9C9E06802DD97B1BD5487982BF1EA4B9E1ECE59F2EE8DB33BE469385ADA4",
+      "bytes": 1134514,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/30-real-pavilion-clue.png",
+      "sha256": "9CE0D58F9B8B8C8C9536DC6C70F572E9735AFA1FE83375543075192BB0C32790",
+      "bytes": 1183822,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/31-note-before-observation.png",
+      "sha256": "310B8A6E51139A32D80A22727A4488BCF999772FF3EA7A70BD7640D84359EC8F",
+      "bytes": 1183195,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/32-real-guestbook-revealed.png",
+      "sha256": "ECC6739DC05EFE74EA5607284F62D521A5731623DA1026F114C5B93A3991B511",
+      "bytes": 1177611,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/33-bookmark-choice-card.png",
+      "sha256": "65D910B6F0003AC2E9CE13D148245FDE3EAABFA15F476654224DB5BEB3FA7AD3",
+      "bytes": 728589,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/34-real-leaf-bookmark.png",
+      "sha256": "8D51D86F2AB307CE62C8B0F730C8F4BC03561825F4585D91B980F7A88CCC6150",
+      "bytes": 1178144,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/35-handbook-after-three.png",
+      "sha256": "789674D95B16D2F06A3E4362775FCFF96C72513917F00C9B5B3A0E3F10A5626C",
+      "bytes": 513962,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/36-journal-top.png",
+      "sha256": "31CB164A6CEE73656996AA31E878B499B5A8039AF323C09579B51AA8364ACE31",
+      "bytes": 538896,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/37-journal-third-card-and-footer.png",
+      "sha256": "4A4381E9784644659FE9B83334A14840E8805311DA55080654612AAF4F962251",
+      "bytes": 538743,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentsOrdinary/38-back-to-old-pavilion.png",
+      "sha256": "F1560288F8B88F8C7176DF0BC939C17FD605B52152367775894C77F6341DC638",
+      "bytes": 1192383,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentStates/finished/01-handbook.png",
+      "sha256": "23F20B9E51B5D1E78EA155FB9359C494D268C487E72E13896EF0471438456D54",
+      "bytes": 692820,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentStates/finished/02-journal-top.png",
+      "sha256": "090D370A11F32513644A80B21C687597DBAEBE7ED53C0CB205B792A12314560E",
+      "bytes": 719123,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentStates/finished/03-journal-third-card-footer.png",
+      "sha256": "0022ABFC6D72047F636124681E647136182558C7DD0BB673E722D600F9F045CB",
+      "bytes": 718100,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentStates/finished/04-chapter-from-footer.png",
+      "sha256": "753D81613A30AE094784BD7F96E68A0F9EFA022872C8A01B729488704935F905",
+      "bytes": 591883,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentStates/finished/05-discovery-from-footer.png",
+      "sha256": "86F54B7F9A6DCE31ED22D2938417C84F8DCDE5C237F882B2CFCC2D43B3B86A52",
+      "bytes": 610810,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentStates/finished/06-fish-from-footer.png",
+      "sha256": "71CB07F3083F66C462FD0D7EC155C864F1A08D82A1588914928F4CA6C9EE7E21",
+      "bytes": 218310,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentStates/locked/01-handbook.png",
+      "sha256": "E01DF5CF501779FF728E17475DF98C36AB8D1FD50AE3689C062D333F72B7B05E",
+      "bytes": 714299,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentStates/locked/02-journal-top.png",
+      "sha256": "EC3F9F97D67CDEDD7836AFB9BB8781CA2A4A51EC49F7C8EDC3ADAC3AEAE7D8CC",
+      "bytes": 698963,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentStates/locked/03-journal-third-card-footer.png",
+      "sha256": "E50FA4C559C5E001D09031793BA151A46C4839C93F719025EFDF6B63D31E5A58",
+      "bytes": 695953,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentStates/partial/01-handbook.png",
+      "sha256": "5011B8264E9F3B286BE45C450D8681B64F0C450687BA2026EE8C8515ED99F447",
+      "bytes": 689381,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentStates/partial/02-journal-top.png",
+      "sha256": "EA1C2D43F60587F15A444D61D66BA464A2DB5CD2792D7C0DAE5E856B794F3656",
+      "bytes": 687508,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/MomentStates/partial/03-journal-third-card-footer.png",
+      "sha256": "05A93B716484C81D3C72EA0BFD746D4E8C8CB65A40A3B6C9E37032CE08CA3B74",
+      "bytes": 685898,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/both-actual-first-landed.png",
+      "sha256": "9F229A9EC62B1B2A50DC8BD2236308F223A687C90185C0F727A2307C819C531D",
+      "bytes": 1058852,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/both-individual-bottom.png",
+      "sha256": "9E6E17FEFEA94B94094E5B109E7C87EC43BDE31B581B4E177A9E7A696AAA4430",
+      "bytes": 624129,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/both-individual-top.png",
+      "sha256": "CBFFCF268EE0C8C8BE8A7D24D2454DDA07E9F37A8E0379A921FCBCEC0061BC35",
+      "bytes": 624325,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/both-start.png",
+      "sha256": "135EEA1463797DCD1AD6D1DE4FD6EF534A0AB20FC5636604B9D5D1E805E6DC89",
+      "bytes": 1056306,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/length-actual-first-landed.png",
+      "sha256": "09674A5A5DCE4DDD5381C895DB3D34D9BFF106406CEB466AABDBF7392B30EF6C",
+      "bytes": 1057019,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/length-individual-bottom.png",
+      "sha256": "9E6E17FEFEA94B94094E5B109E7C87EC43BDE31B581B4E177A9E7A696AAA4430",
+      "bytes": 624129,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/length-individual-top.png",
+      "sha256": "CBFFCF268EE0C8C8BE8A7D24D2454DDA07E9F37A8E0379A921FCBCEC0061BC35",
+      "bytes": 624325,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/length-start.png",
+      "sha256": "4B31E76EB1250BD1159BBD340BBC060EDFE3091414506ABD9907725E191F7159",
+      "bytes": 1056657,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/new-actual-first-landed.png",
+      "sha256": "3BE4D11761FE0F56015775C50CF6795101F995DDE4D300C638B3C68774DD2B7C",
+      "bytes": 1054954,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/new-individual-bottom.png",
+      "sha256": "19977B45165962A1DD0547CD3CDB520E691DDD73A0E5413AAC968FFEB8B9B344",
+      "bytes": 623541,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/new-individual-top.png",
+      "sha256": "F16F7869DABB039AFAE19D395CE53C254831E9882A3F2E910F5F1019B86979EC",
+      "bytes": 623755,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/new-start.png",
+      "sha256": "8D338D92E75B957108EBF272BBD60CA3B27324D2FF1B478CAEA5DF1DBD2C3C18",
+      "bytes": 1050637,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/ordinary-actual-first-landed.png",
+      "sha256": "B805A993DD298C5BCA0F21419D17A1F85F012D1263D8D51F1C9DD993FF387156",
+      "bytes": 1056442,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/ordinary-individual-bottom.png",
+      "sha256": "9E6E17FEFEA94B94094E5B109E7C87EC43BDE31B581B4E177A9E7A696AAA4430",
+      "bytes": 624129,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/ordinary-individual-top.png",
+      "sha256": "CBFFCF268EE0C8C8BE8A7D24D2454DDA07E9F37A8E0379A921FCBCEC0061BC35",
+      "bytes": 624325,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/ordinary-start.png",
+      "sha256": "AE72B609B5509E531BC422AA747400CDEC5CD1659E67F134D7A885E2268735A2",
+      "bytes": 1056548,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/weight-actual-first-landed.png",
+      "sha256": "2A257CED0D9D79757BA9FA4BBA45590F90A78448EDAE3F12F24D5DD22334B219",
+      "bytes": 1056781,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/weight-individual-bottom.png",
+      "sha256": "9E6E17FEFEA94B94094E5B109E7C87EC43BDE31B581B4E177A9E7A696AAA4430",
+      "bytes": 624129,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/weight-individual-top.png",
+      "sha256": "CBFFCF268EE0C8C8BE8A7D24D2454DDA07E9F37A8E0379A921FCBCEC0061BC35",
+      "bytes": 624325,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Notices/weight-start.png",
+      "sha256": "4B251A8882AC64FEA88A53F3B00AA1EE373C407E34D354A5CDCBD5EA24944145",
+      "bytes": 1056754,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/01-ordinary-after-moments.png",
+      "sha256": "C02AA5B47476E949CD78AA97D351CE3A25345E99CA178439B69C750D9E7AB8BA",
+      "bytes": 1192644,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/03-ordinary-compact.png",
+      "sha256": "29264A9CA86E428C78F2563DBEF7EA61E535A91CC04225E471D3BC5C4A93A7E2",
+      "bytes": 1061496,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/04-ordinary-details.png",
+      "sha256": "3B200E833680661F19C2F973F105BE76E49085199A8A8E6F1898C747A2A5E539",
+      "bytes": 995028,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/05-ordinary-zoom.png",
+      "sha256": "F770137F45786C97C342CB86E7E8C96E105F34293A0A1C0D940448C509D9B374",
+      "bytes": 1033414,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/06-ordinary-pan.png",
+      "sha256": "2CD85B9C35CB77AE867E58F58D2F3991B9F961940F8B5D633F2D17042AA2BB75",
+      "bytes": 1024221,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/07-ordinary-recenter-catch.png",
+      "sha256": "13952FCA24DB41ED8E899A421A084831DB61897F6CEC1D7346C103102720B2D2",
+      "bytes": 1058036,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/08-background-report.png",
+      "sha256": "830E4E4F5ED492D0BA03A16C5623D7A20277F0250B23D0B02A702B98A23115A8",
+      "bytes": 606274,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/09-global-navigation-restored.png",
+      "sha256": "B1D49C773919BAED7EE88C4F5F29274099152E0DDBE5C1A4DA827C78A335AF2D",
+      "bytes": 1664259,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/10-ordinary-settings.png",
+      "sha256": "4B6E36258874AAAF286186DC4A43BA82075D4A47C9FE29E6B009838F0A39DE78",
+      "bytes": 717889,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/40-final-ordinary-report.png",
+      "sha256": "A9665FDDF72EDF13278651B7920ED852B81D3F07E139574CA6E7337F23E6DCDD",
+      "bytes": 862125,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/41-final-ordinary-report-footer.png",
+      "sha256": "A166714429538568FFD794C54F097D149E2DFCA723B3FB318350E3EB17FE1136",
+      "bytes": 862148,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/42-final-ordinary-after-claim.png",
+      "sha256": "C63EE29A50F9412EA12B46CA3568860BA39CB044CF98B97AE07270527A0107E3",
+      "bytes": 1663101,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/43-final-ordinary-fish-progress.png",
+      "sha256": "3618F4184093B9B8B62768367116075902EC798E795C15F85ED62B3E7E367C1E",
+      "bytes": 219403,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/44-final-ordinary-overview.png",
+      "sha256": "6E79D5907668E545197D21C2FC505CD41449C92B90ABD25689CD292DE3B4C90C",
+      "bytes": 1664855,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/ordinary-event0.mp4",
+      "sha256": "3015082B237D2655D1D8BE8A5B4773617FD10FBBBCF663D81A785B05FAA78222",
+      "bytes": 37350956,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 70.03,
+      "nominalFPS": 29.71
+    },
+    {
+      "path": "Evidence/ordinary-event1.mp4",
+      "sha256": "9CA82F368A7DCDC858ED8E3FDC4BC23ADEFD74C86662F5CB93BA0E0DD0591E1E",
+      "bytes": 29415414,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 50.06,
+      "nominalFPS": 29.8
+    },
+    {
+      "path": "Evidence/ordinary-event2.mp4",
+      "sha256": "C670BD7E91FAC39C4FC7FC73AAEFB1AFC1BB6C038A5F751BF7D31675CBE761BA",
+      "bytes": 24783969,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 50.03,
+      "nominalFPS": 29.6
+    },
+    {
+      "path": "Evidence/Panels/Default/01-reward-dialogue-owl-bottom.png",
+      "sha256": "2D247C7A0B5EDCB0D79B077E0B7CCD9872CA6A81D618751C1D3DBFC435383B19",
+      "bytes": 787867,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/Default/01-reward-dialogue-owl-top.png",
+      "sha256": "6FFB50A069D51AF60313C1ED96DC744415D41417900D99D3B07B785F2DB9E93A",
+      "bytes": 796677,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/Default/02-reward-dialogue-hedgehog-bottom.png",
+      "sha256": "C40EBCE04F42CFE537F7E3ABE734AA76B9C3743E894840860B66E125B9D7EDCA",
+      "bytes": 838984,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/Default/02-reward-dialogue-hedgehog-top.png",
+      "sha256": "47DB59466758C2C5EB1D8B0CA70DA1AEAA59E104CCDA652E2A93FF2AF3315664",
+      "bytes": 846056,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/Default/03-reward-dialogue-squirrel-bottom.png",
+      "sha256": "E8D5F6AA293ED6298987B67AD49351E1D61FF0DB0C24A3DF613D96A0101E5CC3",
+      "bytes": 774920,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/Default/03-reward-dialogue-squirrel-top.png",
+      "sha256": "8CC75C5875A34365D16275A345F3EF35B2C631E9B85CDD0F5CC6A1218039010A",
+      "bytes": 778570,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/Default/04-reward-dialogue-rabbit-bottom.png",
+      "sha256": "B241D6491531A614C8E0BB7673C96F52F3AA478647B02FB3F92062DE3DA5C980",
+      "bytes": 821884,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/Default/04-reward-dialogue-rabbit-top.png",
+      "sha256": "3FB329FDC36D40BEC934C2F96846D1D24D0B5ACA9A2A4AC9D48C561D287F10DE",
+      "bytes": 830660,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/Default/05-reward-dialogue-bear-bottom.png",
+      "sha256": "C2161BF3C746E38CD4CCF8C2D99EFDBE5D128DB263938A451954B601E876DF8F",
+      "bytes": 829766,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/Default/05-reward-dialogue-bear-top.png",
+      "sha256": "32CF2D1588A076A43D20D3B1FE8D70C6869628D54C6B91C9C04BFF029AB95FDE",
+      "bytes": 837910,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/Default/06-prepared-offline-report-bottom.png",
+      "sha256": "A6DB00850DE460D3A414EBF8F0C22AC9A44A3153DBBD0EAD26DA61665C1762D3",
+      "bytes": 564096,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/Default/06-prepared-offline-report-top.png",
+      "sha256": "20E78850546181A4B6AD13E57BD02A8F2FC42F88F234CC633BF4790AB3F5DD36",
+      "bytes": 563285,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/Default/07-prepared-chapter-ending-bottom.png",
+      "sha256": "6F7E562B7738AA478809EEBA46BEC5E75B648653C396B1941219BB1D32F9C7EA",
+      "bytes": 790260,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/Default/07-prepared-chapter-ending-top.png",
+      "sha256": "4ECDCE1078818055A1CF26B5FDECF48476BA4AC7AC8139EB72CC94F0B568E7B0",
+      "bytes": 792103,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/Long/02-reward-dialogue-hedgehog-bottom.png",
+      "sha256": "1943EFA44964D1393B6DE72195482E37C06B458000A426D0F02104C7C220E602",
+      "bytes": 1250247,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/Panels/Long/02-reward-dialogue-hedgehog-top.png",
+      "sha256": "5EDB33E632BDFB100EA7B805C85CF2DCA4F09DDEFEAD84E2956A4B13F9CBB454",
+      "bytes": 1259800,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/Panels/Long/06-prepared-offline-report-bottom.png",
+      "sha256": "D677365FD8F16A6E1988918ADAA4424F928B661026105D7F1F04A042D62FFA8C",
+      "bytes": 995157,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/Panels/Long/06-prepared-offline-report-top.png",
+      "sha256": "35A7F2D5D34E0B5CD4B039053ED48ECDB95D8364628174B50CAC00039C2BAC93",
+      "bytes": 994678,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/Panels/Long/07-prepared-chapter-ending-bottom.png",
+      "sha256": "807094DEA0A04B9BDA0A7A531602772E1A1E7DC9566D2BF3327C647A3AA67DA3",
+      "bytes": 1217824,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/Panels/Long/07-prepared-chapter-ending-top.png",
+      "sha256": "A5868D592EE9B2886BEA83BF2244F98A310E42AC386B74B10E6321181359EEF7",
+      "bytes": 1218810,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/Panels/Narrow/02-reward-dialogue-hedgehog-bottom.png",
+      "sha256": "DA5A7C1C2E1EBAD28E2BC07EE14A51EB0254CD5DC95895DC0652FFBF001B56B3",
+      "bytes": 706522,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/Panels/Narrow/02-reward-dialogue-hedgehog-top.png",
+      "sha256": "40F2916189A9E96FED35B7D5B6D2E20E1F8A1EAD98AA9E06409BD2573D8D1099",
+      "bytes": 706302,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/Panels/Narrow/06-prepared-offline-report-bottom.png",
+      "sha256": "6E753E34E2E3594F6D1717B7C5BB67E733B78F1F4614D2CF6D517CA239C89FE3",
+      "bytes": 572934,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/Panels/Narrow/06-prepared-offline-report-top.png",
+      "sha256": "97A6B0928DC31BBA3AB392DFC5188EC6316807BCE26183A40D9833E04ACCFF7E",
+      "bytes": 571670,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/Panels/Narrow/07-prepared-chapter-ending-bottom.png",
+      "sha256": "86632E625BD4526DC22DF12C59CF0D5BB21020DD44F562C90AC5B926105F20CD",
+      "bytes": 697097,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/Panels/Narrow/07-prepared-chapter-ending-top.png",
+      "sha256": "902C721C0A45715499CD6D9F15D2509987D15AD974C63709265484E75915996E",
+      "bytes": 702426,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/Panels/SafeTall/02-reward-dialogue-hedgehog-bottom.png",
+      "sha256": "BB83E0B0A3603203B4F10E1823366C631E2481A8E2CD076C253EB2D00C093ED2",
+      "bytes": 760957,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/SafeTall/02-reward-dialogue-hedgehog-top.png",
+      "sha256": "65D02FFA60B2CEFBE5E6A09967B2EF5F9748778B2466CCAAF972E7D375ACDD3F",
+      "bytes": 768121,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/SafeTall/06-prepared-offline-report-bottom.png",
+      "sha256": "7BE65CA8573F79BFFC5970BD20190382AB02F1EE5FF4419E836E85B997A377DF",
+      "bytes": 480937,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/SafeTall/06-prepared-offline-report-top.png",
+      "sha256": "2034E1EF9E31678B51B1878F5ED29168D584BB9B147044DDAA31DAFFDAF650DB",
+      "bytes": 480437,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/SafeTall/07-prepared-chapter-ending-bottom.png",
+      "sha256": "5A80E173E34E8F318297D451696358C65DF423C5E5771C0D63D9AA62E745EB59",
+      "bytes": 708829,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Panels/SafeTall/07-prepared-chapter-ending-top.png",
+      "sha256": "6A6F494ED14414103314CFDFC6477DF857B354BC9426150A3D31D56B3CBFDBDC",
+      "bytes": 709320,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Pavilion/filled-01-actual-map.png",
+      "sha256": "DA89570E6F144822587726B44C977796F45C52F4A1CD84DB32DC033101E87941",
+      "bytes": 1410224,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Pavilion/filled-02-pavilion-wait.png",
+      "sha256": "54693A44A3A12172F7CEFFD0D29E9619C757A4E6063EAF1F32F01FAE9EDD9981",
+      "bytes": 1088162,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Pavilion/filled-02b-expanded-details.png",
+      "sha256": "3502CF5A9BE4260C8E8615E69E58391CCBEEB14ABC64E978374E774895F67D00",
+      "bytes": 1041181,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Pavilion/filled-03-actual-berry-bait-catch.png",
+      "sha256": "9DBC71F42AB3593C4081248BE9CDAD5B129779C5D07A0E2C0DDC06EF1C9D49BE",
+      "bytes": 1090067,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Pavilion/filled-04-zoom-out.png",
+      "sha256": "71E81360716DE83EE3C3357E04061C802D8F7A4E6E19FD9E48F648B972B2D8B8",
+      "bytes": 1065527,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Pavilion/filled-05-real-pan.png",
+      "sha256": "1F592D7095B1FBA6F169563D1CD17A5ADC9AF808FA41A4006A5B1B8BF6180106",
+      "bytes": 1085581,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Pavilion/filled-06-recenter.png",
+      "sha256": "8B61C839816A9A9809CE3123B904DFA073145A254D05DE4EAE97080D3071D0EF",
+      "bytes": 1035008,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Pavilion/simple-01-actual-map.png",
+      "sha256": "238B954E855A041C109D0445513C2E9E7A7896DD5F065E85A5F57B70918B6A7D",
+      "bytes": 1410119,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Pavilion/simple-02-pavilion-wait.png",
+      "sha256": "31D77859F8B642074B99ACA46F2B76891D449AA681FD940515E6D5D7C3BC8BA5",
+      "bytes": 1069743,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Pavilion/simple-02b-expanded-details.png",
+      "sha256": "ABC332BFFDC7979D60A8C74924039BFF49A23FCD26EFAA4991D5006F20FEE7FC",
+      "bytes": 1022216,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Pavilion/simple-03-actual-berry-bait-catch.png",
+      "sha256": "14F1B2CB7D300A206DD021A44CB01B9DAB735E88D7F93DA42C24318B3CFBE123",
+      "bytes": 1069598,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/pavilion-repair.mp4",
+      "sha256": "F952F8530334010CB189102F7E1F9EDD87AE7A1AA2A1B12235CF8AC0DC3345DD",
+      "bytes": 16257328,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 35.04,
+      "nominalFPS": 25.34
+    },
+    {
+      "path": "Evidence/presentation-fit-Default.mp4",
+      "sha256": "CEB7807F5F520CF10D591F4D84AC5762831812AD81183985A0FFC15C4D30934F",
+      "bytes": 29985369,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 65.04,
+      "nominalFPS": 29.21
+    },
+    {
+      "path": "Evidence/presentation-fit-Long.mp4",
+      "sha256": "5DD60554C1C6ABCEE65624CAF9191D15953A4E7A0FE2F22C017B6795EFB1B352",
+      "bytes": 52146481,
+      "type": "original-video",
+      "width": 1080,
+      "height": 2340,
+      "duration": 65.02,
+      "nominalFPS": 27.71
+    },
+    {
+      "path": "Evidence/presentation-fit-Narrow.mp4",
+      "sha256": "454268F02C63DC93619E721F017C1E557AD598972941EC8A4FE31A0B1241817C",
+      "bytes": 32596855,
+      "type": "original-video",
+      "width": 720,
+      "height": 1600,
+      "duration": 65.02,
+      "nominalFPS": 29.39
+    },
+    {
+      "path": "Evidence/presentation-fit-SafeTall.mp4",
+      "sha256": "915EE711A8994D4B3D24DD25B2881FEAECEFC26EE4BA12699DC3533B3BED2636",
+      "bytes": 31677644,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 64.59,
+      "nominalFPS": 28.69
+    },
+    {
+      "path": "Evidence/presentation-spots-fishing-filled.mp4",
+      "sha256": "28A19F98223EDA7EEC351C7573452FCCB7002FADE09BAF45561B600E0B8D1541",
+      "bytes": 57133461,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 100.03999999999999,
+      "nominalFPS": 29.22
+    },
+    {
+      "path": "Evidence/presentation-spots-fishing-simple.mp4",
+      "sha256": "51FB4505B4EEFA9B560E94B7B14E4CE5B13F79284271EA041573929FA6DC5665",
+      "bytes": 43785534,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 100.02000000000001,
+      "nominalFPS": 29.11
+    },
+    {
+      "path": "Evidence/PresentationFit/Default/01-compact-pavilion.png",
+      "sha256": "CF99123245D71AE31AE4FC79B53F2721D9C6738A609F9CD716D02369D5D71DDF",
+      "bytes": 1085065,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/Default/02-details-and-three-baits.png",
+      "sha256": "D64DBFDA198DFD20FDFB95E9C95B8C2D3FEC304F9F529476489A928417A88D4F",
+      "bytes": 1040147,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/Default/03-changed-berry-bait.png",
+      "sha256": "C5A44ACE7A094C1E8CE8BD0B564AB59C7AB0130389C7D28439EC37EB02228226",
+      "bytes": 1088954,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/Default/04-expanded-context.png",
+      "sha256": "1476C55FAA2B8C3EBB30967F1C2B44A0790C24F8E573AB1FC31CA020F5BB1C49",
+      "bytes": 1037994,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/Default/05-zoom-out.png",
+      "sha256": "490DEA7FD8BFC28E8633FE4321741D3D683C033C9AF92343EB4F5541DC476D6A",
+      "bytes": 1123630,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/Default/06-real-pan.png",
+      "sha256": "6602534829071841899355EBC574E9D45F1C81F6184693203785CA91B0E96665",
+      "bytes": 1142999,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/Default/07-recenter-and-actual-catch.png",
+      "sha256": "22884F60CA81CA917FEC24B8212B445EC9FD01390C25EDD2499F65000D0417DC",
+      "bytes": 1068504,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/Default/08-settings-directly-from-fishing.png",
+      "sha256": "5546F76D0832C48EF062665324D482195572B339ECAED74EDE02A2A0A24F1A6B",
+      "bytes": 557050,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/Default/09-navigation-after-settings.png",
+      "sha256": "40591D93A20664F3563811870DC3091B21C91E9E000B7D03F1D12D012E807719",
+      "bytes": 1410994,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/Default/10-reentered-original-spot.png",
+      "sha256": "73ECBCBAB75162A1FBC1C13F13BF1BFD3677A8BFA1B9C931A8FA29FA8C629968",
+      "bytes": 1084992,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/Default/11-individual-top.png",
+      "sha256": "F98D93CD2BE6103BF06B997AB0544E29BDF1EF04317291D3EA972648C3604A05",
+      "bytes": 607360,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/Default/12-individual-bottom.png",
+      "sha256": "9CD2180F42669A229788BB5FD5C05BDAD2EC4791B31CB41B51096B9077C1B240",
+      "bytes": 606384,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/Default/13-global-navigation-restored.png",
+      "sha256": "2BE9974FF0A8E9CF6E9BBC56F3C8B06C13C50A775A89F7B7F092D5592E48DBAB",
+      "bytes": 1410988,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/Default/14-settings-accessible.png",
+      "sha256": "A9353AE6FC5016DD9145658D5F3DC0A0C6B734DC09F0869518E7200411A5358D",
+      "bytes": 557045,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/Long/01-compact-pavilion.png",
+      "sha256": "57B20C1795F57003BF18D918EAB582477A2684B2F37572C3657CF83C4C941A1C",
+      "bytes": 1252578,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/PresentationFit/Long/02-details-and-three-baits.png",
+      "sha256": "E2E1FFD4AB69A4A5F62736EC32B588315477B7A16E576D3983CC247B9FBE1505",
+      "bytes": 1212415,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/PresentationFit/Long/03-changed-berry-bait.png",
+      "sha256": "5C3100A88BACE65E8636BBE49D79E89B157D67B69FD4C0F684333599D5AFE9DC",
+      "bytes": 1255104,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/PresentationFit/Long/04-expanded-context.png",
+      "sha256": "D60194D664EEB36C0A03A16A63B5752B6483DE3F90D3B695CD2547AAA49E22F6",
+      "bytes": 1205390,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/PresentationFit/Long/05-zoom-out.png",
+      "sha256": "877BC9F016EA608EA3981D332CB65321D129685EA0007A7530236BA038B6EC31",
+      "bytes": 1342895,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/PresentationFit/Long/06-real-pan.png",
+      "sha256": "0A7295A0DC52F2CB2311287772B86135F6B21ECB6E3670405B23F03BC951706B",
+      "bytes": 1335037,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/PresentationFit/Long/07-recenter-and-actual-catch.png",
+      "sha256": "6C7292EDAAEEFCE5B3BC884D277889E5B9F203CE19DEE33CEFC76C86EA7A6DDF",
+      "bytes": 1229229,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/PresentationFit/Long/08-settings-directly-from-fishing.png",
+      "sha256": "F789A294E5C72526D1C6B999B678C94AA2738D1B4B1F529899758B557F49AAB4",
+      "bytes": 916981,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/PresentationFit/Long/09-navigation-after-settings.png",
+      "sha256": "E216F7295249220F04D720E377F7D19A94E256A9A4EDF8A21ADDCBFFD6B98934",
+      "bytes": 1450158,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/PresentationFit/Long/10-reentered-original-spot.png",
+      "sha256": "B554860839F46E8C5702D7B444FFCB0C09647E3206479BD703B5EBDAE9F71240",
+      "bytes": 1254117,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/PresentationFit/Long/11-individual-top.png",
+      "sha256": "376ADB705C66C398B78B1447B8BAFE811F787A463B5D397DBEDF6DDD36CEA2AD",
+      "bytes": 968167,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/PresentationFit/Long/12-individual-bottom.png",
+      "sha256": "AA30E3E9E8226DCBB7C83BCDEF8A0B50EAEA069CA2CFF3DD9E827386054E5BAA",
+      "bytes": 968004,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/PresentationFit/Long/13-global-navigation-restored.png",
+      "sha256": "F580EC1B4CEE28EF76FFF58BCE31BEA72EDADF140AD4DF25310A074CE7661CA3",
+      "bytes": 1450143,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/PresentationFit/Long/14-settings-accessible.png",
+      "sha256": "7718C0C0CB8DE6C2532909BADB1165B43134B096B3298BEA3E197FFF8896AC95",
+      "bytes": 916936,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/01-compact-pavilion.png",
+      "sha256": "EF3028132B3D10EBC21D6BC24DFEC7EC6960723CBD44180F986A92FF2156DE18",
+      "bytes": 716864,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/02-details-and-three-baits.png",
+      "sha256": "ACAC2FC355C7AE01CD8B5C873A210D86651B9D6D8EE377D15D6B0A91FB66CDE5",
+      "bytes": 701120,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/03-changed-berry-bait.png",
+      "sha256": "0349E763E3B62FF7F2EB39B204123AE2ABA33E3D9CF58873304F2498A4643327",
+      "bytes": 718851,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/04-expanded-context.png",
+      "sha256": "401F47DFDAA747F8617B61CA442A3E2D780C6BBA73E1CD6D45408D8773D99614",
+      "bytes": 700628,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/05-zoom-out.png",
+      "sha256": "11DC7974E704DD51359E461F297DB44E804284C18F3068F0B1E19E46D2F2B0A9",
+      "bytes": 762745,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/06-real-pan.png",
+      "sha256": "8C025BC7EEDAB5AAAF4C80B627B0925E7B67D62004F54E926C48F9F205EF0B8F",
+      "bytes": 760138,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/07-recenter-and-actual-catch.png",
+      "sha256": "19E8800CE1B0C01B1E7FF1F5C30CE5DAF4B31F1E0B3EB4354985891A1EB26BB8",
+      "bytes": 716220,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/08-settings-directly-from-fishing.png",
+      "sha256": "1B686F7E99570773D46DED26C9F91E315D4C372C65B6549305C4FC8FA92E84A4",
+      "bytes": 535989,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/09-navigation-after-settings.png",
+      "sha256": "11B54011B47BBD829375A178A232BA93AD38A3BF8D95A9ABC5E0A3F301C06EC2",
+      "bytes": 779729,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/10-reentered-original-spot.png",
+      "sha256": "27EDB3B09D64C1202C1374FB7701F17386F0F258E337DE7CA30BBD6B21F56C3A",
+      "bytes": 704642,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/11-individual-top.png",
+      "sha256": "6318998BB89572DB9A027D5AB0CD02BA6D3523F961AFA98581EC3379A1E1549E",
+      "bytes": 556585,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/12-individual-bottom.png",
+      "sha256": "A1AED47E9CA54AC0C295AF42F57DE681DCF0FB81A6C804C4FBF601076F78409E",
+      "bytes": 557323,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/13-global-navigation-restored.png",
+      "sha256": "1F59EC8111A23183B8466ADACEC12FC4234AAA45A701B912A890DC0CE76884D5",
+      "bytes": 779625,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/14-settings-accessible.png",
+      "sha256": "7AF960E627FFAE54EE2037D9A810D5C199A2263721BFDD5A6808D6506D938AB3",
+      "bytes": 535992,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/01-compact-pavilion.png",
+      "sha256": "2EA78BF40CBB57153400F663396993D945FD93943BBFC51D4ACEB6520A733459",
+      "bytes": 1056414,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/02-details-and-three-baits.png",
+      "sha256": "2E6742661E0247AED493C08364665BF609D49B92A21E123FC485C40A30E83DF3",
+      "bytes": 1011295,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/03-changed-berry-bait.png",
+      "sha256": "BDA006432584517238AF876E4F4DA92D55837551E76E2BBE7B01E63E4EDE861B",
+      "bytes": 1059684,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/04-expanded-context.png",
+      "sha256": "5E344E8D91F9E01FB6B17D0F3E699BC90A7E25B7A8350463C3F80805D512025F",
+      "bytes": 1008680,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/05-zoom-out.png",
+      "sha256": "415EDE8BD76B06229D68AC5D614E9C5843EE7EAB2DE1E0C8B316FF70AD2E1678",
+      "bytes": 1114835,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/06-real-pan.png",
+      "sha256": "074C709BF1DA50591DAD8379BDD0B4FA54824A9ED5E5A9318B4D7FF7CE296321",
+      "bytes": 1124450,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/07-recenter-and-actual-catch.png",
+      "sha256": "30945862C38DF6EAA6D385738214943015B0B1FCF227CAD627D4EC518F2D8932",
+      "bytes": 1043356,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/08-settings-directly-from-fishing.png",
+      "sha256": "0D98D077840914CD4D8A1C2834D3F9F90E0160766E13FE48333FACDC7AB0B07A",
+      "bytes": 492688,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/09-navigation-after-settings.png",
+      "sha256": "FE0D819D83E3DA68886BEA57A3E41CCF255E15711501A8FCC67964BB3F135A41",
+      "bytes": 1339520,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/10-reentered-original-spot.png",
+      "sha256": "228AAC9811AF856F2030002F9C8DA6E39FAB6EB74CD92CCC1A17C2B2B7117350",
+      "bytes": 1056640,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/11-individual-top.png",
+      "sha256": "CFC6A19E4E48A2924BB3F920A36E9E2E0BCC47DBF004C2D1887835B1F46244E1",
+      "bytes": 545249,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/12-individual-bottom.png",
+      "sha256": "5EAE6012F2AF1AF6B5D4F17E0B0681C1F75AE84BF170E576C8CAECF0035308EB",
+      "bytes": 543962,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/13-global-navigation-restored.png",
+      "sha256": "B0A6F857C291FEC545C70C2480B32F5200623BFEDBF9F184A74E9D54BB6CEC0A",
+      "bytes": 1339524,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/14-settings-accessible.png",
+      "sha256": "F16F36C0EE94F32A8BBCFAAB548E9BC2AF4C6A28FC0D68BE64B866EBDEBDDB7B",
+      "bytes": 492681,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-0-actual-catch.png",
+      "sha256": "75D4882AB14FC2EBF7DF90735780F8EF4CAE7FB463D10551B23A9F4D8FBB572C",
+      "bytes": 1062348,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-0-bait-and-context.png",
+      "sha256": "8EF9063D5ECD98D4DD7C54E2505FECA3A0ECC7F84C05F1DA11AFD149E40C549C",
+      "bytes": 1018910,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-0-compact.png",
+      "sha256": "E80884DB7DCD8C7EA8DDC53E94BD4B903DA5D456D65F99DEA442B3B82DBD66A1",
+      "bytes": 1058511,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-0-details.png",
+      "sha256": "1E618414F006D4AD444F804C299D704AE3387424732C75F61625114D230B1409",
+      "bytes": 1013023,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-0-leave.png",
+      "sha256": "5EB3F400EBE6FCB8496535002888F69039BBAB5B54AAAB43366FDB6B6A6D5B54",
+      "bytes": 1345425,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-0-map.png",
+      "sha256": "1C3BD363B676689D12CE502C2EDFBDFA8CBB7C1C96DBBA023C263D3439C09407",
+      "bytes": 1345310,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-1-actual-catch.png",
+      "sha256": "A3491D13B13C56B644260781C9BC0F579E73DE57F28A8FC7A00EC1D772CDAD29",
+      "bytes": 1168803,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-1-bait-and-context.png",
+      "sha256": "5DFD6CEDD81934ED08CF15BB76297BF0863EF81F536127EF3CED6263DC1FC096",
+      "bytes": 1075503,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-1-compact.png",
+      "sha256": "56E977CEF7578DF6FC320934D4F154C5CAACD0267FC51B2E2E01FF01C416C37F",
+      "bytes": 1177303,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-1-details.png",
+      "sha256": "5C8B401EC9CCA60D0E49E7D776BA39953076E1E75ABA24D39A04FD64D1AEDB8B",
+      "bytes": 1080142,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-1-leave.png",
+      "sha256": "5A30327CE0EDC17B6121C52DB87FD88C038C5444634732656973205321623564",
+      "bytes": 1404370,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-1-map.png",
+      "sha256": "C8FE2CCA07EEA53352E390DC2F498A429DEA03D2656AA040AC3E00E213AAB634",
+      "bytes": 1403498,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-2-actual-catch.png",
+      "sha256": "D203C2B87CDF69B21A749382A49F34C471E639599400240959A155A3C4EEB37A",
+      "bytes": 1089934,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-2-bait-and-context.png",
+      "sha256": "7CF43B5280B0C786347A7CC83B6B869843054419DB8E07237BF209FEC48042C2",
+      "bytes": 1039971,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-2-compact.png",
+      "sha256": "4F47BE98348BE2B8C8E5D281DCE0DDCA9191751DD9F0BA2D29B6DE0518E93ED0",
+      "bytes": 1087702,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-2-details.png",
+      "sha256": "BEA874016560174FD29AC41919C76D3F1D2DCF4AD5B37CD304687426B794BBE5",
+      "bytes": 1041126,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-2-leave.png",
+      "sha256": "9740F88F3664761C943937E57DD695AAE8DF87BDE6722ABA7C9A7AC0D43312D7",
+      "bytes": 1411029,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-2-map.png",
+      "sha256": "BE3601DAA534928CE874CDC0897EC775EA75FABFC2FE58472AA913CBAF9C8797",
+      "bytes": 1410238,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-0-actual-catch.png",
+      "sha256": "90CFB4E95071C7C4686A75372DF9229317EF17D644E74BE2602A1E4176942A7C",
+      "bytes": 1043100,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-0-bait-and-context.png",
+      "sha256": "755FEDE1BEB62534566EA94504B77063297952D7A500526D94C4703F94D7E79E",
+      "bytes": 996129,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-0-compact.png",
+      "sha256": "A7B73F93510389CC52DD42B123932AB04DC8C685E22ED5C67F3D09A52164E041",
+      "bytes": 1040006,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-0-details.png",
+      "sha256": "5C83B61811FCE574030004C5D2304A4DE98866101B4E627A9041A11571B2F6EA",
+      "bytes": 991659,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-0-leave.png",
+      "sha256": "9955168BDAEA65697C7F473D3775D8C9F87E07A234CECF5993990B86527481C7",
+      "bytes": 1345567,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-0-map.png",
+      "sha256": "9A171019C259653C5DF7EBC85722F1E921D38B1962FA88A16A430DDC7093429D",
+      "bytes": 1345434,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-1-actual-catch.png",
+      "sha256": "B9F8CD95F0B82FBD78F463CD0BC40ABE06432464FC937AB677BA600B1B11EA80",
+      "bytes": 1146097,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-1-bait-and-context.png",
+      "sha256": "186567CF0C48581EC7FD0B894BCA104F6B50F2C7AE5AA84DD1D02EC24FE7BBE5",
+      "bytes": 1053798,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-1-compact.png",
+      "sha256": "550D1A0C82936486DDD3385AA5F85DE30F97E0418AECD2DBAB5782D6C152D112",
+      "bytes": 1151286,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-1-details.png",
+      "sha256": "73A94F8980EC98B25E754BCC3FC69472F5AD460D2A8B4685947CEF2455CC980F",
+      "bytes": 1058504,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-1-leave.png",
+      "sha256": "538BAD3020CF8A07734604850EBD727E85CA726A8D7058837520D4C2DB3428E4",
+      "bytes": 1404322,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-1-map.png",
+      "sha256": "011B7AA5F3DF80B42D1FE61309EFC04F18B4C179C52CD63A1044E4E1A5634EBE",
+      "bytes": 1403569,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-2-actual-catch.png",
+      "sha256": "094F7450F11BBC50EBCA0F392E295F017BC7C7B1EF6EE8829CC965612BE4457B",
+      "bytes": 1069605,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-2-bait-and-context.png",
+      "sha256": "1F6F70E4D4FCD4D5CE0A959AE1DFF8414FEF7CF7484772541CF240BE11C029DF",
+      "bytes": 1023155,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-2-compact.png",
+      "sha256": "FC082F689E5DB4468A85C8C4547365AAB20D1357A0E8D1C0ED347ADFF974414D",
+      "bytes": 1069749,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-2-details.png",
+      "sha256": "E98BFD5E27F363EA8FAEF5E0E9FC56A212BB9EA23DE709CAF4E3DD268F77A094",
+      "bytes": 1022231,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-2-leave.png",
+      "sha256": "E840E11FECFC870AB8F164500037631E8DEFAA52273AC5FD12CE95E7CF20E68F",
+      "bytes": 1411059,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-simple/spot-2-map.png",
+      "sha256": "C0D3AF78C46984ED77C7C8300D1B46C3B10D6DB702A8DB49D7D341A6C45CB636",
+      "bytes": 1409496,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/production-garden.mp4",
+      "sha256": "8A0855D953043EE8B43693BD3EAEF11D1D8130E5F651A17E3E9F8FE4BC903200",
+      "bytes": 16677104,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.04,
+      "nominalFPS": 28.4
+    },
+    {
+      "path": "Evidence/production-shop.mp4",
+      "sha256": "15D80474D6F47B85C930F756A1574D463FA0CC20A5D50CD2BB43DE4B37EA2DC4",
+      "bytes": 15919081,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.01,
+      "nominalFPS": 30.02
+    },
+    {
+      "path": "Evidence/production-window.mp4",
+      "sha256": "E1415FAB6BDF1C3FA4B73BFB972CE5DC64F622FE3091D00D82F713B64F66DD97",
+      "bytes": 17680442,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 40.02,
+      "nominalFPS": 28.89
+    },
+    {
+      "path": "Evidence/production-workshop.mp4",
+      "sha256": "DA061A079766E0A6D9AEBB67C486EFE37C868C7EA429F8B4775AD0C9E88BC33B",
+      "bytes": 15204597,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.04,
+      "nominalFPS": 29.83
+    },
+    {
+      "path": "Evidence/Qualities/q0-actual-first-landed.png",
+      "sha256": "61384F7815AF308AF4CA65EE1ABFD82F1CAE9BDB9261AB5A58352DF587A56A7D",
+      "bytes": 1058891,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q0-individual-detail-bottom.png",
+      "sha256": "479DE1BCB131DD6F8FF1C7F67B32530A959A3558CC0BFEB79BE4C5807F0173BE",
+      "bytes": 634802,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q0-individual-detail-top.png",
+      "sha256": "78988F1066F2DAE978E1B90488BEFFF77A56AA6B848DF5374508E4B36DAE3773",
+      "bytes": 634897,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q0-wait.png",
+      "sha256": "92FB5C45FCA1652C16439EE968E26CF1B67138FF8571AC5FB60C574AF60417BC",
+      "bytes": 1050483,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q1-actual-first-landed.png",
+      "sha256": "78B29DDA220B05C5A521D155AC00B72B79F07FAD2E41A7C9BB4DB8B3B08F7E53",
+      "bytes": 1057683,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q1-individual-detail-bottom.png",
+      "sha256": "F9B9377BDAB7C2A5076B70B72A56AF9B59DF527B1D16408762FAD447E195AAB7",
+      "bytes": 629726,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q1-individual-detail-top.png",
+      "sha256": "E5825818E969D5B7AC4E4D0440C56F1D13DA859C0C6F625D183C62AC1EB2FEF6",
+      "bytes": 629843,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q1-wait.png",
+      "sha256": "B620448C4971099DE66C3E6AC1895F2EF16DC3CECFE58C76599C79E0942EBFF9",
+      "bytes": 1050387,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q2-actual-first-landed.png",
+      "sha256": "3F9B43AF9303C043D50D16D760A6CCD8E8DBC95551FFB00A55DF1F107AFDF084",
+      "bytes": 1054710,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q2-individual-detail-bottom.png",
+      "sha256": "4151AE5AEA5874D6D59DDC7AA632F85A432829386BA293C8E371DBD09D7CD174",
+      "bytes": 622380,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q2-individual-detail-top.png",
+      "sha256": "E75F1DA2CA32D1C29512B088685D363F6186A566A849972F33899D0D9FE4914A",
+      "bytes": 622534,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q2-wait.png",
+      "sha256": "29F9FEE48C14AF47D3853B32F33A75A1DAE41D605CFAB218662AE42D68E21FF8",
+      "bytes": 1050608,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q3-actual-first-landed.png",
+      "sha256": "BAE2643919DEA92B4B9CD2D9A10A8882A6E1832ED6E809C7388C87AFB7E5C6A9",
+      "bytes": 1061416,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q3-individual-detail-bottom.png",
+      "sha256": "AF53C7DCAC78C2B6E61ECAF03A7FE9A5A09810FE7796B925CB4776CC0AC20672",
+      "bytes": 644245,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q3-individual-detail-top.png",
+      "sha256": "59A2174A22BF6DEF343A6EC77A6AA663470A7EE836A7839562E6717BD852E0DE",
+      "bytes": 644352,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Qualities/q3-wait.png",
+      "sha256": "00B43D71B98BC517D175067B57CC846647269E604D60F7082E257898F3022CDC",
+      "bytes": 1050345,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/reduced-garden.mp4",
+      "sha256": "A7EDB2FABE57D662AFBED32825CE669554CF2A5C771AE82154B56E83821C7CF4",
+      "bytes": 20800431,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.02,
+      "nominalFPS": 30.01
+    },
+    {
+      "path": "Evidence/reduced-workshop.mp4",
+      "sha256": "50863AB247F39D86F7B6E48D0EEB963D33B36A32D0778010D27387DB2B340C04",
+      "bytes": 13742659,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.02,
+      "nominalFPS": 29.88
+    },
+    {
+      "path": "Evidence/ResinFit/Long/01-handbook.png",
+      "sha256": "58310CD7161F9B08FEDAB6805CC6F1E203D94A5F92C65B08819F3BAD2FF6AD91",
+      "bytes": 1119876,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/ResinFit/Long/02-actual-resin-description.png",
+      "sha256": "FE29D37A14E2B97CB9ECB6F69F1BF332F586E2BA676F25580858DB64C9A5BB09",
+      "bytes": 903421,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/ResinFit/Narrow/01-handbook.png",
+      "sha256": "2061E3F8EA4BC0991C2B95F05FCECB66A106E540970CA95315E15A0EE5F704A4",
+      "bytes": 635174,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/ResinFit/Narrow/02-actual-resin-description.png",
+      "sha256": "2846C8B94685552BA47F1259D1BA3A95E9861687D4CE53C2652B4C02A48548B5",
+      "bytes": 524709,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/ResinFit/SafeTall/01-handbook.png",
+      "sha256": "1BA0EBF7EBB3FA01E29C32B729EAF418BAF9E734FA369A98C27F6AD90A84F98F",
+      "bytes": 611193,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/ResinFit/SafeTall/02-actual-resin-description.png",
+      "sha256": "B64A384D29A2F41895ED976AB7F7A6FFF47DEA440FD6C2A69FE12F2A1E8DF636",
+      "bytes": 487061,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/shop-closeup-offscreen-source.mp4",
+      "sha256": "C6F3A4F271637B5E1BEEA5468770A62F58831F9DB7CD55B8792015B59A22FC2B",
+      "bytes": 27878469,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 35.04,
+      "nominalFPS": 29.85
+    },
+    {
+      "path": "Evidence/shop-closeup-pan-clearance.mp4",
+      "sha256": "14659957F45BB95D9E411C0896B32E844A3ABCA192DAECE5412D3FCECD67D2C8",
+      "bytes": 13030180,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 20.02,
+      "nominalFPS": 29.92
+    },
+    {
+      "path": "Evidence/shop-closeup-zoom-clearance.mp4",
+      "sha256": "258EBF1EE9A4C530F01169D1307FFFCA315C3D227BFC7BEFCDF05438B1F0E306",
+      "bytes": 19888287,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 40.03,
+      "nominalFPS": 29.82
+    },
+    {
+      "path": "Evidence/Startup/final-cold-start.mp4",
+      "sha256": "5B1665424E1F03B9B5E624E0A6C89A7183E5512C2A36B936516C345A6A9D8841",
+      "bytes": 3365994,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 17.49,
+      "nominalFPS": 23.51
+    },
+    {
+      "path": "Evidence/Startup/moment-pending-reload.mp4",
+      "sha256": "C1CB520893DBA5A1EE6E9E661AFC7DC4542777EA3D3FA877DE47C1F20CBCCAB9",
+      "bytes": 6151987,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 18.02,
+      "nominalFPS": 20.98
+    },
+    {
+      "path": "Evidence/Startup/update-start.mp4",
+      "sha256": "5BE3CDD6ACBB007A9A1C90AC0DE0329B971E4F66176AA664372A79B154782386",
+      "bytes": 2268810,
+      "type": "original-video",
+      "width": 1080,
+      "height": 1920,
+      "duration": 18.03,
+      "nominalFPS": 21.19
+    },
+    {
+      "path": "Evidence/Supplement/25-workshop-full-facilities.png",
+      "sha256": "083119F72C46BFB000D4CE56D3D8C6A2EDCB9A74EC130C321421B33FCB34E719",
+      "bytes": 1031903,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/26-warehouse-top.png",
+      "sha256": "26A781CF50D4A9D13787D78D36D219D34FA96714F2D7384DFDD5666F5262D6AC",
+      "bytes": 624480,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/27-warehouse-bottom.png",
+      "sha256": "8F43FAC92D56F2209C91C6B88F5349350F8BA7AEEF2813A2E7466591AB198FE5",
+      "bytes": 655801,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/28-expansion-summary.png",
+      "sha256": "D692634E4D11B78D35B11D261A50A039A3686AA3A1D4218AD513A509BECD3731",
+      "bytes": 840849,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/29-decoration-four-choices.png",
+      "sha256": "55996E64664BF554515D7C773BB79F579058545919C5F6C1D74DBCF4D54B4C06",
+      "bytes": 687820,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/30-selected-basic-curtain.png",
+      "sha256": "C53C058135441655311785B0608E75EC8C53022D7EE84D1517E5F4A0EFFDD0C1",
+      "bytes": 685056,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/30-selected-basic-pot.png",
+      "sha256": "FF7D727F25A2F185938D58E6D504E671F0ACAFF789E6DC85A414001D972D77DD",
+      "bytes": 687790,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/30-selected-basic-rug.png",
+      "sha256": "3E992FBD6341E1E34C3DEA5F9A443EF0DC82380D386E84FEFB5607AD4B54A80A",
+      "bytes": 687961,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/30-selected-basic-sign.png",
+      "sha256": "715311B116B8BE026232304EE92392D188385A81914F050FA6A69714B039177B",
+      "bytes": 687180,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/34-workshop-after-real-switches.png",
+      "sha256": "019BE5DE8AC597345756ED6224DE9CA76FA32AC0846B2ADEA6DE92D59B7977AE",
+      "bytes": 1031933,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/35-shop-after-real-switches.png",
+      "sha256": "A94ED243BFD9CF1B94B7490CE6E9E76A64E2B294600EBC31009AB1326537B759",
+      "bytes": 1320677,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/36-overview-after-real-switches.png",
+      "sha256": "C18801E2800BF7115D88E731EBFCF37D61FC7E6E0F3B6BD3473DFEE40D090872",
+      "bytes": 1674696,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/Default/22-settings.png",
+      "sha256": "D92085336012D6DA08794529312D90504145EB1AEAFEB06818AFE2CEAA4E29EC",
+      "bytes": 723362,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/Default/23-credits-top.png",
+      "sha256": "17346977E7313BF9E21E5A309A284045ED726B53FA2D3240CC3F6FAACDCC8CDC",
+      "bytes": 644278,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/Default/24-credits-actual-final-line.png",
+      "sha256": "4165D9858B1B72611303B7DB50D875C7BB7C15E6C2A7C7250C3E0B8568EF0F8C",
+      "bytes": 579193,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Supplement/Long/22-settings.png",
+      "sha256": "C09C702BD7E6C60F4B8B0915E9CCF238FE19F349F16E2D1C048F9384A4A1B375",
+      "bytes": 1137619,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/Supplement/Long/23-credits-top.png",
+      "sha256": "C546D6AA0F9EF324B15787F919E797BE123CD9D589D82020ADEF3B714926317D",
+      "bytes": 1072620,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/Supplement/Long/24-credits-actual-final-line.png",
+      "sha256": "C50E18AF520A5D1470C9B5BAD9A9813EC881F5773B4B5621D5082FFB25BA93CC",
+      "bytes": 1004638,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "path": "Evidence/Supplement/Narrow/22-settings.png",
+      "sha256": "D51CC9D8D50A2E455751F327ECD6AFB27ADD3FFD84532425066AE514FB737E84",
+      "bytes": 649561,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/Supplement/Narrow/23-credits-top.png",
+      "sha256": "FE24B839BE5555936D0F872C6BE675DE449540EB7B254A5CF660B7EFB7E559F8",
+      "bytes": 643419,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/Supplement/Narrow/24-credits-actual-final-line.png",
+      "sha256": "3424C925961BB2F4D668C2F4702DC146939FF3CEA620BF75C3317088E9C37582",
+      "bytes": 592558,
+      "type": "native-screenshot",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "path": "Evidence/Window/01-before-single-completion.png",
+      "sha256": "66A5497918421427E377DBA241B3E3DC1B15444F244FC57303065E20FB8B95DF",
+      "bytes": 1348096,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Window/02-after-quiet-window.png",
+      "sha256": "E28BFC8EA2D8977E7F7325A1BBD320B14B9DA48973F37237DDB5C780205C1DE0",
+      "bytes": 1348082,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/ZoomSales/01-closest-shop-camera.png",
+      "sha256": "1B1DD086B91DFB677C376274FE702F45218EEDEB82EAD4BFC861E51DB14E3A61",
+      "bytes": 1181588,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/ZoomSales/02-closest-after-sales.png",
+      "sha256": "180D4C90869518CAB8F2F2535A9FDFC8F8F2D827AC7CCDD773F33973CEF4E169",
+      "bytes": 1182944,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/ZoomSales/03-panned-source.png",
+      "sha256": "A5F7720257DC248648DFA3E885AF8C45F7126912CC6CA783D69860485229E965",
+      "bytes": 1160024,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/ZoomSales/04-panned-after-sales.png",
+      "sha256": "0BA600987B1A45B2FCF6FB99FC6AE3D42D6D6ACA0651F357A417582CC444346D",
+      "bytes": 1152368,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/ZoomSales/05-real-pan-far-away-from-shelves.png",
+      "sha256": "E6EFF072BFF67CC19EA641B2F0E35FE3F6CE3A8E6B080EC764D113A63F263B01",
+      "bytes": 1043720,
+      "type": "native-screenshot",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

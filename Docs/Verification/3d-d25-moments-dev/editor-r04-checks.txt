@@ -1,0 +1,42 @@
+PASS Ordinary App SaveStore never opens
+PASS Actual v3 baseline migrated by Unity codec without giving events or losing fish
+PASS Real object lies in view 0 phase 0
+PASS First actual3D ray reveals object 0
+PASS Real object lies in view 0 phase 1
+PASS Second actual3D ray opens optional choice 0
+PASS Closing does not choose 0
+PASS Real object lies in view 0 phase 2
+PASS Third choice records first arrangement 0
+PASS Real object lies in view 0 phase 3
+PASS Revisit swaps only arrangement 0
+PASS Every original saved field remains exact after event and swap 0
+PASS Journal does not complete or award 0
+PASS Real object lies in view 1 phase 0
+PASS First actual3D ray reveals object 1
+PASS Real object lies in view 1 phase 1
+PASS Second actual3D ray opens optional choice 1
+PASS Closing does not choose 1
+PASS Real object lies in view 1 phase 2
+PASS Third choice records first arrangement 1
+PASS Real object lies in view 1 phase 3
+PASS Revisit swaps only arrangement 1
+PASS Every original saved field remains exact after event and swap 1
+PASS Journal does not complete or award 1
+PASS Real object lies in view 2 phase 0
+PASS First actual3D ray reveals object 2
+PASS Real object lies in view 2 phase 1
+PASS Second actual3D ray opens optional choice 2
+PASS Closing does not choose 2
+PASS Real object lies in view 2 phase 2
+PASS Third choice records first arrangement 2
+PASS Real object lies in view 2 phase 3
+PASS Revisit swaps only arrangement 2
+PASS Every original saved field remains exact after event and swap 2
+PASS Journal does not complete or award 2
+PASS Handbook opens the actual read-only keepsake record
+PASS Native JsonUtility/SaveStore roundtrip phase 0
+PASS Native JsonUtility/SaveStore roundtrip phase 1
+PASS Native JsonUtility/SaveStore roundtrip phase 2
+PASS Native JsonUtility/SaveStore roundtrip phase 3
+PASS New game remains locked and empty
+PASS All source inputs unchanged during isolated capture

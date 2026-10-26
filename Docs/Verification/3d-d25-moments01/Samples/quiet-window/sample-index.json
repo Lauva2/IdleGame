@@ -1,0 +1,42 @@
+{
+  "sourceVideo": "Evidence/production-window.mp4",
+  "sourceSha256": "E1415FAB6BDF1C3FA4B73BFB972CE5DC64F622FE3091D00D82F713B64F66DD97",
+  "selection": {
+    "id": "quiet-window",
+    "video": "production-window.mp4",
+    "start": 20,
+    "end": 24,
+    "fps": 1
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/quiet-window/frame-0001.png",
+      "sourcePTSSeconds": 20.027578,
+      "sha256": "CD1812959CC615137CE57DA22127BEE472D037542950F15870CAACE20895DF4A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/quiet-window/frame-0002.png",
+      "sourcePTSSeconds": 21.044178,
+      "sha256": "0961292510437BA9FE0DD92F9A94E641AD5FA102654D2B7C91F10315B51DC04C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/quiet-window/frame-0003.png",
+      "sourcePTSSeconds": 22.073967,
+      "sha256": "D4BE29AA7283ABA3CC8BBFF1FC75C45970D380E4AAD8E3BD3BA4D13BB3D288F6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/quiet-window/frame-0004.png",
+      "sourcePTSSeconds": 23.074667,
+      "sha256": "D8C1E746CB956446BFCB7DE5CD7F74E6C16E63F797DBD3DB1907A9C5FAE52C2F",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

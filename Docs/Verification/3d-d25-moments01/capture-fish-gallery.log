@@ -1,0 +1,140 @@
+﻿
+﻿
+﻿PASS prepared review fixture fishing-filled
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d25-moments01\Prepared\fishing-filled.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d25-moments01\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 8.5 MB/s (7128 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d25-moments01\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 19.0 MB/s (7128 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1296
+WaitTime: 1305
+Complete
+{'tap': [900, 1850]}
+{'wait': 2}
+{'tap': [900, 300]}
+{'wait': 3}
+{'shot': '00-twelve-fish-list-top'}
+{'tap': [900, 1850]}
+{'tap': [600, 933]}
+{'shot': 'species-00-top'}
+{'drag_hold': [1000, 1740, 1000, 1300, 400, 700]}
+{'shot': 'species-00-bottom'}
+{'back': True}
+{'tap': [900, 1850]}
+{'drag_hold': [1000, 1640, 1000, 1414, 300, 900]}
+{'tap': [600, 933]}
+{'shot': 'species-01-top'}
+{'drag_hold': [1000, 1740, 1000, 1300, 400, 700]}
+{'shot': 'species-01-bottom'}
+{'back': True}
+{'tap': [900, 1850]}
+{'drag_hold': [1000, 1640, 1000, 1188, 300, 900]}
+{'tap': [600, 933]}
+{'shot': 'species-02-top'}
+{'drag_hold': [1000, 1740, 1000, 1300, 400, 700]}
+{'shot': 'species-02-bottom'}
+{'back': True}
+{'tap': [900, 1850]}
+{'drag_hold': [1000, 1640, 1000, 962, 300, 900]}
+{'tap': [600, 933]}
+{'shot': 'species-03-top'}
+{'drag_hold': [1000, 1740, 1000, 1300, 400, 700]}
+{'shot': 'species-03-bottom'}
+{'back': True}
+{'tap': [900, 1850]}
+{'drag_hold': [1000, 1640, 1000, 736, 300, 900]}
+{'tap': [600, 933]}
+{'shot': 'species-04-top'}
+{'drag_hold': [1000, 1740, 1000, 1300, 400, 700]}
+{'shot': 'species-04-bottom'}
+{'back': True}
+{'tap': [900, 1850]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 1510, 300, 900]}
+{'tap': [600, 933]}
+{'shot': 'species-05-top'}
+{'drag_hold': [1000, 1740, 1000, 1300, 400, 700]}
+{'shot': 'species-05-bottom'}
+{'back': True}
+{'tap': [900, 1850]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 1284, 300, 900]}
+{'tap': [600, 933]}
+{'shot': 'species-06-top'}
+{'drag_hold': [1000, 1740, 1000, 1300, 400, 700]}
+{'shot': 'species-06-bottom'}
+{'back': True}
+{'tap': [900, 1850]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 1058, 300, 900]}
+{'tap': [600, 933]}
+{'shot': 'species-07-top'}
+{'drag_hold': [1000, 1740, 1000, 1300, 400, 700]}
+{'shot': 'species-07-bottom'}
+{'back': True}
+{'tap': [900, 1850]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'tap': [600, 965]}
+{'shot': 'species-08-top'}
+{'drag_hold': [1000, 1740, 1000, 1300, 400, 700]}
+{'shot': 'species-08-bottom'}
+{'back': True}
+{'tap': [900, 1850]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'tap': [600, 1191]}
+{'shot': 'species-09-top'}
+{'drag_hold': [1000, 1740, 1000, 1300, 400, 700]}
+{'shot': 'species-09-bottom'}
+{'back': True}
+{'tap': [900, 1850]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'tap': [600, 1417]}
+{'shot': 'species-10-top'}
+{'drag_hold': [1000, 1740, 1000, 1300, 400, 700]}
+{'shot': 'species-10-bottom'}
+{'back': True}
+{'tap': [900, 1850]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'drag_hold': [1000, 1640, 1000, 640, 300, 900]}
+{'tap': [600, 1643]}
+{'shot': 'species-11-top'}
+{'drag_hold': [1000, 1740, 1000, 1300, 400, 700]}
+{'shot': 'species-11-bottom'}
+{'back': True}
+{'tap': [900, 1850]}
+{'tap': [535, 751]}
+{'shot': '13-discovered-filter'}
+{'tap': [900, 751]}
+{'shot': '14-recent-first'}
+{'swipe': [1070, 1640, 1070, 640, 750]}
+{'swipe': [1070, 1640, 1070, 640, 750]}
+{'swipe': [1070, 1640, 1070, 640, 750]}
+{'swipe': [1070, 1640, 1070, 640, 750]}
+{'swipe': [1070, 1640, 1070, 640, 750]}
+{'swipe': [1070, 1640, 1070, 640, 750]}
+{'swipe': [1070, 1640, 1070, 640, 750]}
+{'swipe': [1070, 1640, 1070, 640, 750]}
+{'swipe': [1070, 1640, 1070, 640, 750]}
+{'swipe': [1070, 1640, 1070, 640, 750]}
+{'shot': '15-recent-thirtieth-and-retention-note'}
+{'tap': [180, 1850]}
+{'tap': [150, 410]}
+{'shot': '16-grove-default'}
+/sdcard/3d-d25-moments01-fishing-gallery-r01.mp4: 1 file pulled, 0 skipped. 24.4 MB/s (57776660 bytes in 2.257s)

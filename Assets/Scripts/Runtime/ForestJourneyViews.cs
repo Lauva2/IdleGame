@@ -27,7 +27,9 @@ namespace ForestShop
             journeyState = State; journeyRefreshAt = Time.unscaledTime + .5f;
             var main = NextJourneyStep();
             JourneyStep side;
-            if (State.chapterComplete && State.forest.bridge && main.Target != "fish-species" && main.Target != "fish-collection") side = NextFishStep();
+            var moment=NextMomentStep();
+            if(moment!=null)side=moment;
+            else if (State.chapterComplete && State.forest.bridge && main.Target != "fish-species" && main.Target != "fish-collection") side = NextFishStep();
             else if (State.forest.greenhouse && main.Target != "nursery" && main.Target != "greenhouse")
                 side = new JourneyStep("照看温室", "野莓与露铃草，继续供应林间新配方。", "培育位 " + State.forest.beds.Length + "/4", "greenhouse", 0, ForestSymbol.Greenhouse);
             else side = new JourneyStep(State.chapterComplete ? "小店继续营业" : "看看开张进度", "故事、商品与侧屋，一起记在开张路线里。", "声望 " + State.reputation + "/150 · " + (State.sideRoom ? "侧屋已修复" : "侧屋待修复"), "chapter", 0, ForestSymbol.Home);
@@ -126,6 +128,7 @@ namespace ForestShop
             if (step.Target == "fish-species") { ShowFishSpecies(step.Index); return; }
             if (step.Target == "products") { collectionTab = 0; ShowPage("图鉴"); return; }
             if (step.Target == "forest-entry") { OpenObject("forest-entry", 0); return; }
+            if (step.Target == "moment") { GoMoment(step.Index); return; }
             if (step.Target == "forest-repair") { OpenObject("forest-repair", step.Index); return; }
             if (step.Target == "forage") { GoForest(step.Index); OpenObject("forage", step.Index); return; }
             if (step.Target == "greenhouse" || step.Target == "nursery") { GoGreenhouse(); if (step.Target == "nursery") OpenObject("nursery", step.Index); return; }
@@ -165,9 +168,19 @@ namespace ForestShop
                 FishStat(sheetContent, 2, sheetY, "侧屋修复", State.sideRoom ? "已完成" : "待修复", ForestSymbol.Home);
             }
             sheetY += 134;
-            IconButton(sheetContent, "开张进度", ForestSymbol.Home, 28, sheetY, 328, 82, ShowChapterProgress);
-            IconButton(sheetContent, "发现手记", ForestSymbol.Forest, 376, sheetY, 328, 82, ShowForestJournal);
-            IconButton(sheetContent, "鱼类图鉴", ForestSymbol.Fish, 724, sheetY, 328, 82, ShowFishCollection); sheetY += 98;
+            if(State.chapterComplete)
+            {
+                string[] names={"开张","发现","鱼谱","小事"};ForestSymbol[] icons={ForestSymbol.Home,ForestSymbol.Forest,ForestSymbol.Fish,ForestSymbol.Collection};
+                Action[] open={ShowChapterProgress,ShowForestJournal,ShowFishCollection,ShowMomentJournal};
+                for(int i=0;i<4;i++)IconButton(sheetContent,names[i],icons[i],28+i*260,sheetY,244,82,open[i]).name=i==3?"Open moment journal":"Handbook collection "+i;
+            }
+            else
+            {
+                IconButton(sheetContent,"开张进度",ForestSymbol.Home,28,sheetY,328,82,ShowChapterProgress);
+                IconButton(sheetContent,"发现手记",ForestSymbol.Forest,376,sheetY,328,82,ShowForestJournal);
+                IconButton(sheetContent,"鱼类图鉴",ForestSymbol.Fish,724,sheetY,328,82,ShowFishCollection);
+            }
+            sheetY+=98;
             EndSheet();
         }
     }

@@ -1,0 +1,224 @@
+{
+  "sourceVideo": "Evidence/busy-garden.mp4",
+  "sourceSha256": "230CD5E5CED33A59E12E63DE9C6C208DD6FA85BFA60D3BEC993AAFFC6801F225",
+  "selection": {
+    "id": "busy-garden",
+    "video": "busy-garden.mp4",
+    "start": 0,
+    "end": 30,
+    "fps": 1
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/busy-garden/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "94F037DFD4145CFF7D4C3206C2A87E16D09D3F3D86634F6CC2144AB60A739E9F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0002.png",
+      "sourcePTSSeconds": 1.033433,
+      "sha256": "58FAF753152FB153889AB7E0E1405506EFCF3B3FC186DFCD0607A90615B69DCF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0003.png",
+      "sourcePTSSeconds": 2.065844,
+      "sha256": "4D19D878236BFCC22FC701F3A65E2BF9F8E91592884A332FC0DE37F760CFAAA7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0004.png",
+      "sourcePTSSeconds": 3.0955,
+      "sha256": "71DA5E0AC3BEB1622E8C31E9ED3781227321CDE7CBC6A6876F3A8B3279108F8B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0005.png",
+      "sourcePTSSeconds": 4.128444,
+      "sha256": "7E59F18707D049E38DF17E03441BDB0A529DB25CC7E7E964942CD99FA4D4F80A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0006.png",
+      "sourcePTSSeconds": 5.161689,
+      "sha256": "3E9DD159CA5DC8D909478AF127F7745A8D258AF058300DA015740369835AE645",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0007.png",
+      "sourcePTSSeconds": 6.162144,
+      "sha256": "5B73B84425529E12621382B064DDC0EEE86E452E9D570605F7B7D1667A30AB4A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0008.png",
+      "sourcePTSSeconds": 7.194811,
+      "sha256": "CF538160F04CF3861C79799953EFDC2EFF94CC83DB8F3FCEDF3AD2EC9FC1F6CA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0009.png",
+      "sourcePTSSeconds": 8.195122,
+      "sha256": "A667B14D3EAE87347FFFF1CAE3A629DB8765EAFA8376312899198950A9439F0E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0010.png",
+      "sourcePTSSeconds": 9.204167,
+      "sha256": "18ACD3AB239EDB986CA0A79DB057DB5831881F42E1F3A8894534B700FC5C63EB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0011.png",
+      "sourcePTSSeconds": 10.228456,
+      "sha256": "F870350E4949CA7866257EC4E2B22533BDA7DB6EF272DAC0CEF109DC79F8C255",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0012.png",
+      "sourcePTSSeconds": 11.229556,
+      "sha256": "E815E9AAC0D2A2155AA563E1E01D36CCD349AB0ACD14081B28D6A25AFBFBFE43",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0013.png",
+      "sourcePTSSeconds": 12.238033,
+      "sha256": "D57DB51260259843F6AF2E8D0F35D179E81A0266311F87C64A664DE4B4089CEC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0014.png",
+      "sourcePTSSeconds": 13.2657,
+      "sha256": "88F225AFCA0C179A0AD50FF7340E1581E9D4DBB888B8091E2AFB8500606D40C1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0015.png",
+      "sourcePTSSeconds": 14.267133,
+      "sha256": "EF44DE485EC79E9103205C96487A1836E70AFBEBE250DC46DA63FBF0C55CB7FB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0016.png",
+      "sourcePTSSeconds": 15.299678,
+      "sha256": "986ADBA4BA510A33BF3A2FCA12B61B18A0B1A560353C57FCFDE444496A8CA71D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0017.png",
+      "sourcePTSSeconds": 16.2998,
+      "sha256": "B1425856DA6E66F6135B558143F0EF7E456C18E4F6C9408AF23F62DB3FA107EA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0018.png",
+      "sourcePTSSeconds": 17.332089,
+      "sha256": "6FAB34F1AF5692ED4E5DDCBCC77CD750A41F388E017B65DD6CC55B83FFC4DAFD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0019.png",
+      "sourcePTSSeconds": 18.352956,
+      "sha256": "344DE1B16D753A650C51C2403E2AF97D1E1B86FF09A3B193ECD203E7E7BA1055",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0020.png",
+      "sourcePTSSeconds": 19.378211,
+      "sha256": "14ECE00EEA12BECCAFD332E99A4B99AF68EC3C5EBFB4846E101D58EF16BC2120",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0021.png",
+      "sourcePTSSeconds": 20.4109,
+      "sha256": "71FDC7B56E988E39C858A6CAD0DE2949E08B0441ECF4461DBB94D13585742E6E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0022.png",
+      "sourcePTSSeconds": 21.411067,
+      "sha256": "5E030A8E2020D2AAA5B98D49F1FE9898B7C99B6D6B842704ACDA2D44486B664B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0023.png",
+      "sourcePTSSeconds": 22.4162,
+      "sha256": "12516D0339A4C0B4F0909D6416679E39FD9BBB3332425DCE5AF278834C3BF0F1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0024.png",
+      "sourcePTSSeconds": 23.4488,
+      "sha256": "048195AEF3A6CB4C01E9086A0771A8FAF9D0633CE9C02DCF668EE208D88D7CE9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0025.png",
+      "sourcePTSSeconds": 24.4492,
+      "sha256": "169932651D2153FB15501311872C8A8A5F7620E676D6C74D3B7C2138592A922A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0026.png",
+      "sourcePTSSeconds": 25.461211,
+      "sha256": "5D0E2EF1CB274F770411601810A48F2B45DCCAC50DB25AC84404FB9CCA1B7513",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0027.png",
+      "sourcePTSSeconds": 26.491356,
+      "sha256": "25E70BAFE1DC2454B8FCCA768739B3E1B1585DAD2AAD2916E5F5E8F972255272",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0028.png",
+      "sourcePTSSeconds": 27.494844,
+      "sha256": "FB63C5C5A36C9519CCD30B276AB4F8F6EF432C3E85C6901038A53F5060828E2B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0029.png",
+      "sourcePTSSeconds": 28.502633,
+      "sha256": "39B6119279A9B837B074C10645CCA56714D90780D83432ACAF65C6DC07FE7E53",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0030.png",
+      "sourcePTSSeconds": 29.512256,
+      "sha256": "7D22D04E4C2F07391F5EBAA6858064F44351A86BCAD12E1F44BF92CC2D2D4AB3",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "steps": [
+    {
+      "tap": [
+        150,
+        494
+      ]
+    },
+    {
+      "tap": [
+        780,
+        1275
+      ]
+    },
+    {
+      "shot": "01-compact-pavilion"
+    },
+    {
+      "tap": [
+        500,
+        1835
+      ]
+    },
+    {
+      "shot": "02-details-and-three-baits"
+    },
+    {
+      "tap": [
+        930,
+        1530
+      ]
+    },
+    {
+      "shot": "03-changed-berry-bait"
+    },
+    {
+      "tap": [
+        500,
+        1835
+      ]
+    },
+    {
+      "shot": "04-expanded-context"
+    },
+    {
+      "tap": [
+        500,
+        1835
+      ]
+    },
+    {
+      "tap": [
+        717,
+        1835
+      ]
+    },
+    {
+      "shot": "05-zoom-out"
+    },
+    {
+      "swipe": [
+        550,
+        784,
+        650,
+        884,
+        700
+      ]
+    },
+    {
+      "shot": "06-real-pan"
+    },
+    {
+      "tap": [
+        977,
+        1835
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "07-recenter-and-actual-catch"
+    },
+    {
+      "tap": [
+        1000,
+        134
+      ]
+    },
+    {
+      "shot": "08-settings-directly-from-fishing"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "09-navigation-after-settings"
+    },
+    {
+      "tap": [
+        780,
+        1275
+      ]
+    },
+    {
+      "shot": "10-reentered-original-spot"
+    },
+    {
+      "tap": [
+        590,
+        1690
+      ]
+    },
+    {
+      "shot": "11-individual-top"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        1220,
+        400,
+        600
+      ]
+    },
+    {
+      "shot": "12-individual-bottom"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "13-global-navigation-restored"
+    },
+    {
+      "tap": [
+        1000,
+        134
+      ]
+    },
+    {
+      "shot": "14-settings-accessible"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/PresentationFit/SafeTall"
+}

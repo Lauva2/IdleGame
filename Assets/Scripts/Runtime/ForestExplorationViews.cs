@@ -90,6 +90,7 @@ namespace ForestShop
                 bindings.Add(() => status.Symbol = State.crops[node + 4] >= Engine.Capacity ? ForestSymbol.Warehouse : State.forest.regrow[node] > 0 ? ForestSymbol.Timer : ForestSymbol.Harvest);
                 var fishButton=IconButton(view,"钓鱼",Engine.Fishing.SpotUnlocked(node)?ForestSymbol.Fish:ForestSymbol.Lock,0,0,182,72,()=>OpenObject("fishing",node)); fishButton.name="Fishing marker "+node;
                 var fishMarker=fishButton.gameObject.AddComponent<ForestExploreMarker>(); fishMarker.world=world; fishMarker.index=node+7;
+                BuildMomentMarker(view,node,world);
             }
             Label(content, "点按实物观察 · 拖动平移 · 双指缩放", 24, Sage, 30, 214 + height, 1020, 70, TextAnchor.MiddleCenter);
             float y = height + 296;
@@ -126,6 +127,7 @@ namespace ForestShop
         }
         bool OpenForestObject(string type, int index)
         {
+            if(type=="forest-moment"){TapMoment(index/2,index%2);return true;}
             if (type == "forest-home") { GoForestHome(); return true; }
             if (type == "forest-path") { GoForest(index); return true; }
             if (type == "greenhouse") { GoGreenhouse(); return true; }
@@ -228,7 +230,8 @@ namespace ForestShop
             }
             Row("林间温室", State.forest.greenhouse ? "四位培育已开放" : "野莓种苗的新家", 15, "前往温室", GoGreenhouse);
             Row("溪边垂钓", "鱼类发现 "+Engine.Fishing.Discovered+"/12 · 自动收鱼",-1,"鱼类图鉴",ShowFishCollection,glyph:ForestSymbol.Fish);
-            Row("林间旧亭", State.forest.pavilion ? "已修复 · 邻居的林间歇脚处" : "三份新心愿后的修缮目标", 14, "查看", () => OpenObject("forest-repair", 3)); EndSheet();
+            Row("林间旧亭", State.forest.pavilion ? "已修复 · 邻居的林间歇脚处" : "三份新心愿后的修缮目标", 14, "查看", () => OpenObject("forest-repair", 3));
+            Row("林间小事",Engine.Moments.Completed+"/3 · 线索、选择与留下的回忆",-1,"翻看",ShowMomentJournal,glyph:ForestSymbol.Collection);EndSheet();
         }
         void ShowForestMemory(int story)
         {

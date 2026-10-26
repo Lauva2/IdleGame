@@ -1,0 +1,48 @@
+{
+  "scope": "Three actual20-second blocked source clips. Counter/inventory/configuration/order/fish/moment comparison only, not a full interval replay.",
+  "cases": [
+    {
+      "case": "blocked-full",
+      "deltas": {
+        "harvests": 0,
+        "crafts": 0,
+        "sales": 0
+      },
+      "checks": {
+        "counters_unchanged": true,
+        "inventory_unchanged": true,
+        "configuration_kept": true,
+        "orders_and_fish_and_moments_kept": true
+      }
+    },
+    {
+      "case": "blocked-input",
+      "deltas": {
+        "harvests": 0,
+        "crafts": 0,
+        "sales": 0
+      },
+      "checks": {
+        "counters_unchanged": true,
+        "inventory_unchanged": true,
+        "configuration_kept": true,
+        "orders_and_fish_and_moments_kept": true
+      }
+    },
+    {
+      "case": "blocked-reserve",
+      "deltas": {
+        "harvests": 0,
+        "crafts": 0,
+        "sales": 0
+      },
+      "checks": {
+        "counters_unchanged": true,
+        "inventory_unchanged": true,
+        "configuration_kept": true,
+        "orders_and_fish_and_moments_kept": true
+      }
+    }
+  ],
+  "allPassed": true
+}

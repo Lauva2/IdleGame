@@ -1,0 +1,140 @@
+{
+  "sourceVideo": "Evidence/shop-closeup-offscreen-source.mp4",
+  "sourceSha256": "C6F3A4F271637B5E1BEEA5468770A62F58831F9DB7CD55B8792015B59A22FC2B",
+  "selection": {
+    "id": "offscreen-source",
+    "video": "shop-closeup-offscreen-source.mp4",
+    "start": 0,
+    "end": 35,
+    "fps": 0.5
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/offscreen-source/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "FE1B59456EC340AD46FB1D5C3B66DA81CC6CFF642BE7C3E790806EE086C02D91",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0002.png",
+      "sourcePTSSeconds": 2.023456,
+      "sha256": "058D885A52A2FD0E3F8051CC094C13A29394574186FB714588BFF855037B6B28",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0003.png",
+      "sourcePTSSeconds": 4.034178,
+      "sha256": "B60A94ECB3EE6A363DF4506B3C01D19FE88DAC6870AA1D4501FD1FC8D088E5F0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0004.png",
+      "sourcePTSSeconds": 6.038033,
+      "sha256": "74240B7C069F4F1055D40BEA7BE5A51ACBB3916F88F6ECBE750DC4438783B2ED",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0005.png",
+      "sourcePTSSeconds": 8.047344,
+      "sha256": "4B993EAD9F888D3464C4134985088E1ED7D10AF9BA13FEDB74F25059BEB0D38B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0006.png",
+      "sourcePTSSeconds": 10.059989,
+      "sha256": "1C47A338D12E7091051919749795B1E4542BC330BB9581AE72EC994E86844FE2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0007.png",
+      "sourcePTSSeconds": 12.064133,
+      "sha256": "1BFD5112E381148B82DF6C6F7CA09F5BA2BB4B78245F49CCF45D101D3C79740C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0008.png",
+      "sourcePTSSeconds": 14.079822,
+      "sha256": "A5BF77FBC38ABC79109E45BABB46E4E33E51341C9CF907F939CFAE582EA606C4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0009.png",
+      "sourcePTSSeconds": 16.088911,
+      "sha256": "F44E12B8973F271293DDE4FAB7577D47E38B1F06C6BACAB60C9FC4A66CCEE66A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0010.png",
+      "sourcePTSSeconds": 18.092356,
+      "sha256": "C90E76A42C8831D7DBE68C927E1537013753043A93209CE7C8B4C46FC0EB45A7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0011.png",
+      "sourcePTSSeconds": 20.093256,
+      "sha256": "25C0B6974DA9916108245124C9591A1F9231112CCE4F9A689A49E4B438D26292",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0012.png",
+      "sourcePTSSeconds": 22.104844,
+      "sha256": "8E082229AB8F430D3B32E45C62BEC0CB5CFB3BACED116E0CF405DC3C0311A7C1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0013.png",
+      "sourcePTSSeconds": 24.122333,
+      "sha256": "7939A95EF72FA1F0BD1790720EEF9F0C0C99F2BA7ACA38CEECEA4540C20B413F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0014.png",
+      "sourcePTSSeconds": 26.129933,
+      "sha256": "960FD258D433C59766DEEA312DC337B6C022D9B90166F1948A299A6972ACFD22",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0015.png",
+      "sourcePTSSeconds": 28.142511,
+      "sha256": "A6096F06BC63F8352B7F7D699B29D85C4FE360B9F8239B244EC84B2A1306006F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0016.png",
+      "sourcePTSSeconds": 30.173022,
+      "sha256": "1A0E227025523D3FECFDA0935A72C587ACA7FDDB9C0FC086F206E067E9835BD7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0017.png",
+      "sourcePTSSeconds": 32.206067,
+      "sha256": "0A85CD3A1B7C11BC2B58E0851B1E1B7E91584BB1C5390D38E60AB6A9F7C9B31E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/offscreen-source/frame-0018.png",
+      "sourcePTSSeconds": 34.209933,
+      "sha256": "BFFAE6314888904BE1814E94582D97B80D19E1A29E673EE57D33D97EB426D769",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

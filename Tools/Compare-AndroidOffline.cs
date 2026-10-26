@@ -43,6 +43,7 @@ public static class CompareAndroidOffline
             Equal(Math.Abs(before.fishing.remaining-after.fishing.remaining)<1e-10 && Math.Abs(before.fishing.duration-after.fishing.duration)<1e-10, "offline preserves fishing timer within serialization precision");
             before.fishing.running=false; after.fishing.remaining=before.fishing.remaining; after.fishing.duration=before.fishing.duration;
             Equal(Json.Serialize(before.fishing)==Json.Serialize(after.fishing), "offline does not catch fish, reset the current cast, or change fish records");
+            Equal(Json.Serialize(before.moments)==Json.Serialize(after.moments), "offline does not advance or reset optional moments");
             Console.WriteLine("PASS actual Android offline replay: away=" + after.report.away + "s effective=" + after.report.effective + "s income=" + after.report.coins + " coins=" + after.coins + " sales=" + after.sales);
             return 0;
         }

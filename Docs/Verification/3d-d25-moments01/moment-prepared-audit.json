@@ -1,0 +1,30 @@
+{
+  "candidate": "3d-d25-moments01",
+  "fittingSources": {
+    "Long": "Long-r02",
+    "Narrow": "Narrow-r02"
+  },
+  "scope": "Actual installed APK snapshots after separately labelled prepared UI captures. Native sizes and saved choices are checked, not visual quality or natural progression. Incorrect-coordinate originals remain with an explicit correction record; the ordinary save has separate full-state action/online/offline replays and is never replaced by these prepared states.",
+  "checks": {
+    "start_all_three_deliberate_actions_and_swaps": true,
+    "start_correct_animation_mode": true,
+    "simple_all_three_deliberate_actions_and_swaps": true,
+    "simple_correct_animation_mode": true,
+    "Default_actual_choices_saved": true,
+    "Default_native_framebuffer_sizes": true,
+    "Long_actual_choices_saved": true,
+    "Long_native_framebuffer_sizes": true,
+    "Narrow_actual_choices_saved": true,
+    "Narrow_native_framebuffer_sizes": true,
+    "SafeTall_actual_choices_saved": true,
+    "SafeTall_native_framebuffer_sizes": true,
+    "journal_locked_does_not_advance_or_change_choices": true,
+    "journal_partial_does_not_advance_or_change_choices": true,
+    "journal_finished_does_not_advance_or_change_choices": true,
+    "closing_and_actual_restart_keeps_pending_steps": true,
+    "only_the_later_explicit_star_choice_finishes": true,
+    "pending_reload_does_not_give_fish": true,
+    "ordinary_all_three_events_still_protected": true
+  },
+  "allPassed": true
+}

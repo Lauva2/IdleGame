@@ -1,0 +1,47 @@
+{
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/Forest",
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        540,
+        400
+      ]
+    },
+    {
+      "shot": "25-both-species-mature-full-warehouse"
+    },
+    {
+      "tap": [
+        305,
+        1310
+      ]
+    },
+    {
+      "shot": "26-nursery-full-written-status"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        180,
+        300
+      ]
+    },
+    {
+      "tap": [
+        300,
+        1140
+      ]
+    },
+    {
+      "shot": "27-full-warehouse-forage-disabled"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "sourceVideo": "Evidence/blocked-full.mp4",
+  "sourceSha256": "9E12E6E869A54E9B61A42B0AE4C2E0C4A9DCAA6AD0404FBC7DE6FBC855B3B803",
+  "selection": {
+    "id": "blocked-full",
+    "video": "blocked-full.mp4",
+    "start": 0,
+    "end": 20,
+    "fps": 0.25
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/blocked-full/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "19D1655AE1275859DDD80EFAA23412E5245D05B3EA5D72782F70A389F3C07C38",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/blocked-full/frame-0002.png",
+      "sourcePTSSeconds": 4.018644,
+      "sha256": "E66BC3C05E893D2CC43F2F06555984CAB794A4E197A108DD07E41BB665D20037",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/blocked-full/frame-0003.png",
+      "sourcePTSSeconds": 8.033411,
+      "sha256": "E66BC3C05E893D2CC43F2F06555984CAB794A4E197A108DD07E41BB665D20037",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/blocked-full/frame-0004.png",
+      "sourcePTSSeconds": 12.0585,
+      "sha256": "E66BC3C05E893D2CC43F2F06555984CAB794A4E197A108DD07E41BB665D20037",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/blocked-full/frame-0005.png",
+      "sourcePTSSeconds": 16.069256,
+      "sha256": "E66BC3C05E893D2CC43F2F06555984CAB794A4E197A108DD07E41BB665D20037",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

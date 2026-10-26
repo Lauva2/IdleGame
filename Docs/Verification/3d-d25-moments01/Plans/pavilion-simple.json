@@ -1,0 +1,44 @@
+{
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "shot": "simple-01-actual-map"
+    },
+    {
+      "tap": [
+        780,
+        1250
+      ]
+    },
+    {
+      "shot": "simple-02-pavilion-wait"
+    },
+    {
+      "tap": [
+        500,
+        1835
+      ]
+    },
+    {
+      "shot": "simple-02b-expanded-details"
+    },
+    {
+      "tap": [
+        930,
+        1530
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "simple-03-actual-berry-bait-catch"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/Pavilion"
+}

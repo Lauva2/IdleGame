@@ -1,0 +1,39 @@
+{
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/MomentStates/partial",
+  "steps": [
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "shot": "01-handbook"
+    },
+    {
+      "tap": [
+        925,
+        1805
+      ]
+    },
+    {
+      "shot": "02-journal-top"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1750,
+        1000,
+        1100,
+        500,
+        600
+      ]
+    },
+    {
+      "shot": "03-journal-third-card-footer"
+    },
+    {
+      "back": true
+    }
+  ]
+}

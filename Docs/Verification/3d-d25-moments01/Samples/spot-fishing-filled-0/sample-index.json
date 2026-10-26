@@ -1,0 +1,245 @@
+{
+  "sourceVideo": "Evidence/presentation-spots-fishing-filled.mp4",
+  "sourceSha256": "28A19F98223EDA7EEC351C7573452FCCB7002FADE09BAF45561B600E0B8D1541",
+  "selection": {
+    "id": "spot-fishing-filled-0",
+    "video": "presentation-spots-fishing-filled.mp4",
+    "start": 48,
+    "end": 65,
+    "fps": 2
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0001.png",
+      "sourcePTSSeconds": 48.010378,
+      "sha256": "F7CF8CF15413C75957A34ECF9F5C1B41BF425258A4A5DB2EE442A6F6920BF69A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0002.png",
+      "sourcePTSSeconds": 48.5272,
+      "sha256": "33ED5129F041E19DCC51E9D78C6D5E4C734BB977A956953F321F3C9A8A2AB525",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0003.png",
+      "sourcePTSSeconds": 49.052711,
+      "sha256": "335DF0B71C3056B76A41AFC89EAB133D83694229B0E51EDFDC1D998C0D9B8365",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0004.png",
+      "sourcePTSSeconds": 49.573189,
+      "sha256": "692361EEA7A3B57AB6AACBD8DA3620A842FC3AF41470E92716CFFE0C4113F225",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0005.png",
+      "sourcePTSSeconds": 50.097933,
+      "sha256": "36BF5AA0442C47E6A914005A840D53E49C9DF57E1BF02D5DB3523DA516AAE6C7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0006.png",
+      "sourcePTSSeconds": 50.643856,
+      "sha256": "9E3BD096FFAC0F3E2D6D1904479BAC51C94AB6ABB81AC2194E90B7EA571F3D3C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0007.png",
+      "sourcePTSSeconds": 51.153311,
+      "sha256": "BCE012F5827410F9436B9CA65B6763A4FDB37FEACFB5C8060B4FE398E5D2FC92",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0008.png",
+      "sourcePTSSeconds": 51.6604,
+      "sha256": "E5AA1C0BF2097D2845985617C78E4E75663A2A1B2E3D49E2585AB88C8D88639F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0009.png",
+      "sourcePTSSeconds": 52.169778,
+      "sha256": "7A2399FAE8F54EA9506F817DFF3027C21E3EDC603D18B6009BA1F5D65F2CA8B0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0010.png",
+      "sourcePTSSeconds": 52.693656,
+      "sha256": "3E9B5D15C1DC519619262332B561580CB7C188D99C8DFA0F3A6E149CE74A1F27",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0011.png",
+      "sourcePTSSeconds": 53.215267,
+      "sha256": "682FCBDC3A024B0BC5408D3A68682159A26047E0784D53AD5FAAE0C3117CEE13",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0012.png",
+      "sourcePTSSeconds": 53.722689,
+      "sha256": "61A969269D44DF1BB041C19AD9EB7DEDFACB06F8DD43F074092D060D7F1115CE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0013.png",
+      "sourcePTSSeconds": 54.223222,
+      "sha256": "5F579E340D6208CBCBF3AFEC490F0265258DCB3010C3AE3691066A63ABD716A6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0014.png",
+      "sourcePTSSeconds": 54.7569,
+      "sha256": "1B3D02B24E3A1B8D4BD140C3DC7B837AC3936A9141AC374430109E63B89813A9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0015.png",
+      "sourcePTSSeconds": 55.265511,
+      "sha256": "145A3CEC25EEC4398ABA3B0653F1F2E419AC0A3746AFEDF42A41CB1F05B4AB58",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0016.png",
+      "sourcePTSSeconds": 55.765644,
+      "sha256": "B17AADDDA6B3D2B6CB74D50CADA4D1172212A79F042564DF9390AFB1A88380DD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0017.png",
+      "sourcePTSSeconds": 56.289533,
+      "sha256": "61F54C8868DD79C2672B8CB4BA1A53E1E564E5AF61FA116F8863E38AA8D3C8CD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0018.png",
+      "sourcePTSSeconds": 56.793511,
+      "sha256": "2E0AE39487A8F2D3D2AD8CFBDCB0B7653C7C37B1A7A2615D87F5EF29F38229A5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0019.png",
+      "sourcePTSSeconds": 57.302533,
+      "sha256": "0E861D9C41F0E957EF66E8983B4AA8B2D63B45D398D5467371E0DF38AE467D83",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0020.png",
+      "sourcePTSSeconds": 57.831878,
+      "sha256": "D259283451EE017469A7EF81A36D63DF8C5EA8318D98AA7712DE913F6F79FF46",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0021.png",
+      "sourcePTSSeconds": 58.335678,
+      "sha256": "97E14DBE934BD90D9566248A8EA41763726B4C82D94628E1607F72AE16F75F53",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0022.png",
+      "sourcePTSSeconds": 58.864533,
+      "sha256": "0319C90B9D607A34C94E413A81AA736B1312ED4D4835219EE629271F6108074D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0023.png",
+      "sourcePTSSeconds": 59.397889,
+      "sha256": "43B81F865F725DC8E05573CA1E1A7430A073D4367065812CBBB4D8C5B444A610",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0024.png",
+      "sourcePTSSeconds": 59.9031,
+      "sha256": "E423A80E6B3E5CB642F0D0CA56ED0240FCC7E7F9A7481A58A79DA02E441E261E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0025.png",
+      "sourcePTSSeconds": 60.407167,
+      "sha256": "5458B4E453DC20D9E7F6596B55FEB4DA54B3164C56A435F08CE99164BA604E39",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0026.png",
+      "sourcePTSSeconds": 60.915022,
+      "sha256": "D3CB7D586516BFE5DD6B27AAC60DD1FDC4824838A658AA42CEA6AD763E8AD699",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0027.png",
+      "sourcePTSSeconds": 61.452256,
+      "sha256": "23F01F1B699649BEFA58174A4FECAB0F12BFFDF4B6E27C2D1D1820F60D151F63",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0028.png",
+      "sourcePTSSeconds": 61.985444,
+      "sha256": "75EB07DB6A766D231CA27FF1C9D9C527D761E6F13EC475185E2596F3F83719A0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0029.png",
+      "sourcePTSSeconds": 62.506433,
+      "sha256": "621BADA87CF77078D4A609F04D74FF9D8CFE015365F8E43AA985E67DAB494143",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0030.png",
+      "sourcePTSSeconds": 63.019722,
+      "sha256": "50C64CED4BDFECD9378E3577B956994BBF8300EE82AE1A39AFDDA6FE2BA1AF84",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0031.png",
+      "sourcePTSSeconds": 63.5488,
+      "sha256": "F17F434A2C930ED4F9A7354595C8AFBCBEE24A09CBF285B61C3C23A75FD79F59",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0032.png",
+      "sourcePTSSeconds": 64.069144,
+      "sha256": "B122BE726F57C20497AE5F14F66F62AA0029B382F3F0A0EF56EAE1C17F8D383A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/spot-fishing-filled-0/frame-0033.png",
+      "sourcePTSSeconds": 64.589478,
+      "sha256": "01E7AF623382F9AA5061D4AF1D8A3514BF7513B5637CED817BB1CEA0EB718CC3",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

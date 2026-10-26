@@ -1,0 +1,224 @@
+{
+  "sourceVideo": "Evidence/fishing-quality-q3.mp4",
+  "sourceSha256": "6331A8872CE303DDB417EE3CDE31E5C7D5A029E8C967C6F561106F185E4CDC88",
+  "selection": {
+    "id": "rare-landing-dense",
+    "video": "fishing-quality-q3.mp4",
+    "start": 7,
+    "end": 15,
+    "fps": 4
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/rare-landing-dense/frame-0001.png",
+      "sourcePTSSeconds": 7.013756,
+      "sha256": "63D4D304FA36234A3289BCE9CE90F6E9E44FF76EAA65C5FFADC7CE8F9E515272",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0002.png",
+      "sourcePTSSeconds": 7.295589,
+      "sha256": "21009273E2B5E6F84E56870DCE57BF3F46F8ECB2D79061F6A66983780FB5C4DB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0003.png",
+      "sourcePTSSeconds": 7.576811,
+      "sha256": "80D9871EC70C8AF05E0FA43006382D98C0AF54B39BA7D3C85109C8C0BBA55C09",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0004.png",
+      "sourcePTSSeconds": 7.851678,
+      "sha256": "EB5CA0456F3FE3A92BAAD952585009FEE350871F6CDD296937BD2EAABC203E2A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0005.png",
+      "sourcePTSSeconds": 8.1316,
+      "sha256": "D4B2414918082D407DBC7432B8E5E50AF33984B49A42134622036F48A775A121",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0006.png",
+      "sourcePTSSeconds": 8.397267,
+      "sha256": "967367F376E86D2AF432EA3E2693588B82B7EA77F918E5DC4743B454FE77D52E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0007.png",
+      "sourcePTSSeconds": 8.664389,
+      "sha256": "C8E07806FAB69D0D85C05517E77468068BDD6309F98C0913D4F8E56191E7F217",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0008.png",
+      "sourcePTSSeconds": 8.985044,
+      "sha256": "C947285260D982A1A986E19187FAE8DBF459D3E87C831969F70F21652FF14F17",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0009.png",
+      "sourcePTSSeconds": 9.2565,
+      "sha256": "247ECA6E5BE982226C627755B2069EEB34EF117486CACA74696805350D8EC6CC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0010.png",
+      "sourcePTSSeconds": 9.519356,
+      "sha256": "3E228BA10DE120467373B9B45EB0F8A8061F46D2DAFA464E8608C199B825A1B5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0011.png",
+      "sourcePTSSeconds": 9.774722,
+      "sha256": "F57ADFEEF243FF78270093A1FCB207D7CA72600674201B4AED49F99FC94D374D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0012.png",
+      "sourcePTSSeconds": 10.055556,
+      "sha256": "9824C810AD29C4157BD53A6C3A780AF2DFDF74A48F317E46789AAA5D70FC47DA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0013.png",
+      "sourcePTSSeconds": 10.336689,
+      "sha256": "A17A216C281B781966E3C2BFBCAFA9AD916979A7C2CD35E25C49C9FFBB8BB15E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0014.png",
+      "sourcePTSSeconds": 10.605556,
+      "sha256": "7A0A4FA9A4B31B478EF6824F165F37F36105013233835ED2850C7065E6F2B535",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0015.png",
+      "sourcePTSSeconds": 10.877556,
+      "sha256": "2E49F874BEBAA9500AE42639B530427DE74A575536DAD3B6D705583C0435CE9C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0016.png",
+      "sourcePTSSeconds": 11.135067,
+      "sha256": "72ACBD1A66BE0C80DD128E7C6F2D9AFBF7F976F0FA79F003E62F6F894EE2ADF2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0017.png",
+      "sourcePTSSeconds": 11.409744,
+      "sha256": "6138CEFBC05D69EEFFFA6633E11CA99E7D8514F0D9B364577344BB7978BF1775",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0018.png",
+      "sourcePTSSeconds": 11.689722,
+      "sha256": "516D048E066C3137E1E2D900091F737A75DB3A8A33FB577FE7DD148243DB9DE1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0019.png",
+      "sourcePTSSeconds": 11.956167,
+      "sha256": "00035CAEA3A375D9D1AEBA6C589C544385A58DB7F9FA4B85C18D1935589C0D70",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0020.png",
+      "sourcePTSSeconds": 12.251744,
+      "sha256": "A73D9BAA576698D359E6C85FD9AD6B44344EB187C16C48D63996CD4702075586",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0021.png",
+      "sourcePTSSeconds": 12.535722,
+      "sha256": "3B2318B64E8C168FC9453B8316FE4AA600B9031186F7A382968DF1EA84344B79",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0022.png",
+      "sourcePTSSeconds": 12.793878,
+      "sha256": "B675845CEBE58EBC7FC1DDF3EACB235030AF5BD09115E9041306BE12EACADA8A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0023.png",
+      "sourcePTSSeconds": 13.075967,
+      "sha256": "D9F673B378BFD61369BEBFA1FC0BA2A17CCE6AAD68DF644F880A62084CF5171D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0024.png",
+      "sourcePTSSeconds": 13.335,
+      "sha256": "9E2CF06CEC5CC399B928C54055DFFDA9F5E0E853BDA893D3C8A55ECEBC6DDFA5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0025.png",
+      "sourcePTSSeconds": 13.597589,
+      "sha256": "9E34E65D136F223F370DD9101004CC85445D00B50C9760578B9DC61AD767B626",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0026.png",
+      "sourcePTSSeconds": 13.855544,
+      "sha256": "2756B39F53FDE24F58333235D7227CF575728E601411A83D9D4BB9B213913E86",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0027.png",
+      "sourcePTSSeconds": 14.113989,
+      "sha256": "50FDDE144B5E7BF2F98AD970C0D6AF0BC333E9246DCC16C684CB725160158F99",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0028.png",
+      "sourcePTSSeconds": 14.3764,
+      "sha256": "CB5BAE2C0EF96D010D7D0897F4664829CBF3647B941B071B07C789134BC672F9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0029.png",
+      "sourcePTSSeconds": 14.626756,
+      "sha256": "FA2929FA0F9D8F4A0DFC4EF2CB21CE51B024C1A0BE41BE582275228774898C84",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/rare-landing-dense/frame-0030.png",
+      "sourcePTSSeconds": 14.893211,
+      "sha256": "B06A159B576A3438575A0DDB90B55566BAE912D16497602E0AB42F0C38E71A1F",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

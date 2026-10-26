@@ -14,7 +14,7 @@ foreach($variant in $Variants){
     $steps=@(
       @{tap=@(950,160)},@{shot='01-handbook'},
       @{tap=@(900,1287)},@{shot='02-main-destination'},@{back=$true},
-      @{tap=@(950,160)},@{tap=@(900,1519)},@{shot='03-secondary-destination'},@{back=$true},
+      @{tap=@(950,160)},@{tap=@(900,1519)},@{shot='03-secondary-destination'},@{tap=@(50,250)},
       @{tap=@(900,1850)},@{tap=@(900,300)},@{shot='04-fish-progress'},
       @{tap=@(850,650)},@{shot='05-clue-or-record-top'}
     )

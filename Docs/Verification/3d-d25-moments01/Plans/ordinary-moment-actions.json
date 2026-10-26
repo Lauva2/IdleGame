@@ -1,0 +1,13 @@
+[
+  {"kind":"observe","id":0,"arg":0,"expected":true},
+  {"kind":"observe","id":0,"arg":1,"expected":true},
+  {"kind":"choose","id":0,"arg":0,"expected":true},
+  {"kind":"visit","id":1,"arg":0,"expected":true},
+  {"kind":"observe","id":1,"arg":0,"expected":true},
+  {"kind":"observe","id":1,"arg":1,"expected":true},
+  {"kind":"choose","id":1,"arg":1,"expected":true},
+  {"kind":"visit","id":2,"arg":0,"expected":true},
+  {"kind":"observe","id":2,"arg":0,"expected":true},
+  {"kind":"observe","id":2,"arg":1,"expected":true},
+  {"kind":"choose","id":2,"arg":0,"expected":true}
+]

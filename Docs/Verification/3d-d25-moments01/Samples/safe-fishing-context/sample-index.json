@@ -1,0 +1,189 @@
+{
+  "sourceVideo": "Evidence/presentation-fit-SafeTall.mp4",
+  "sourceSha256": "915EE711A8994D4B3D24DD25B2881FEAECEFC26EE4BA12699DC3533B3BED2636",
+  "selection": {
+    "id": "safe-fishing-context",
+    "video": "presentation-fit-SafeTall.mp4",
+    "start": 0,
+    "end": 25,
+    "fps": 1
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/safe-fishing-context/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "6A4711A6E5828C2A5737D98367B3E130F0028E3FBD55F6079242DBD6AD71E6E7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0002.png",
+      "sourcePTSSeconds": 1.0059,
+      "sha256": "61D064F72A247FB0FE5244DA31B288DF411566AD665E3719102EBE514F97EEDF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0003.png",
+      "sourcePTSSeconds": 2.030989,
+      "sha256": "76012DEF6C8C68D53FA99C04C7E66203EFF02CBA4AB6E9E0979076E45B1DAB5C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0004.png",
+      "sourcePTSSeconds": 3.038278,
+      "sha256": "66D780E29F79E1564E92F3867151845B91745045A62F88524BD8625E023AF0CC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0005.png",
+      "sourcePTSSeconds": 4.071833,
+      "sha256": "B1BEA1DF7F30ADE641CBEFE5523541A504FFD9ADDA34EBEEC84421D87D574C17",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0006.png",
+      "sourcePTSSeconds": 5.088756,
+      "sha256": "3CFE8711B11EB1E80BF453EB13FCFC0BBC258924C653F28BDB34E24C144B960F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0007.png",
+      "sourcePTSSeconds": 6.093167,
+      "sha256": "6AE0AE58E20192620828899D5465463AE0151A773F34D3D0BEC7C9B3A206A7B8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0008.png",
+      "sourcePTSSeconds": 7.128344,
+      "sha256": "B4366972E3FF40ED461D315527AB07A5082FA4D66121D316642B015831FE5C3C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0009.png",
+      "sourcePTSSeconds": 8.142644,
+      "sha256": "75AD2C01FA2793BDDEA236CC99FAAF76998933DE67ED94A6A76772E80ACD2B02",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0010.png",
+      "sourcePTSSeconds": 9.143233,
+      "sha256": "86D4E623DFA8CFA1D75864F5F82B86E07249A17D80CE795CB7D313C26AE6B692",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0011.png",
+      "sourcePTSSeconds": 10.143278,
+      "sha256": "424FB44006E9095BBF729840B291BE905E44AC93F5FA44FF6382C54B4AC3D65D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0012.png",
+      "sourcePTSSeconds": 11.167756,
+      "sha256": "84F3027FDDB6D2B3EAD71EF6EE5D539CA134AF7C7DF8474DACBE7667F4A61B59",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0013.png",
+      "sourcePTSSeconds": 12.175722,
+      "sha256": "FC0D2A77460D7E706E7709D12133664533C08A6645B92AB75A078E640BE14988",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0014.png",
+      "sourcePTSSeconds": 13.188289,
+      "sha256": "CDFFE589744E4C5A3BF865E88E40E51F3C4800A19DED5D4AEF16D06079755C65",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0015.png",
+      "sourcePTSSeconds": 14.189,
+      "sha256": "90C6D74AC814FF54B994F224CD41DB60984D2B5BB2D69D921185489552D3B0C9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0016.png",
+      "sourcePTSSeconds": 15.196511,
+      "sha256": "FFCC304C658BFD4D88C38CC229B956F4CDF369046E9FF24E02C75FA30D692994",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0017.png",
+      "sourcePTSSeconds": 16.208867,
+      "sha256": "7EC61B2880B1D0CABC379368655FE3FE6FCEAC9BF62C2EACC7A8C2E817367704",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0018.png",
+      "sourcePTSSeconds": 17.213333,
+      "sha256": "DEBD8416ECCB4466FDAF2141285B9D7DF8959D0CEA3ECE157C2900B2CE02FB55",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0019.png",
+      "sourcePTSSeconds": 18.247956,
+      "sha256": "A2C73CABC5A5A9A2AD8BD5674603496B78458AB1F82EB957D1FCA5615B73E1B8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0020.png",
+      "sourcePTSSeconds": 19.250422,
+      "sha256": "F6C571AFF06AFAEF901F877255A8EEBD403BC123601C9208F9B17F97A018D1CA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0021.png",
+      "sourcePTSSeconds": 20.255411,
+      "sha256": "A91B8468E34C8469417783474BF283074CD195E55AE6D4515C6F6042766C1C66",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0022.png",
+      "sourcePTSSeconds": 21.2881,
+      "sha256": "1AF340C3BE5EDE2F806BAC3B02C24F617CD4E0BFC5DFE4FEE1E64227FFEF0FAF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0023.png",
+      "sourcePTSSeconds": 22.288456,
+      "sha256": "81B6F22AA157A043C41124B4792AAE79A41697D77AF113AA0CAE7EEF421FBFE9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0024.png",
+      "sourcePTSSeconds": 23.321067,
+      "sha256": "4059064774BCCB50B6EF100D668F061E7092450A78EE4E27FB6BD6AE1268C1A2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/safe-fishing-context/frame-0025.png",
+      "sourcePTSSeconds": 24.338433,
+      "sha256": "5CCB6189BBE015C2D60FDE310AADD363789BA1C9443378F750C17936F51017F3",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "sourceVideo": "Evidence/shop-closeup-pan-clearance.mp4",
+  "sourceSha256": "14659957F45BB95D9E411C0896B32E844A3ABCA192DAECE5412D3FCECD67D2C8",
+  "selection": {
+    "id": "panned-sales",
+    "video": "shop-closeup-pan-clearance.mp4",
+    "start": 0,
+    "end": 16,
+    "fps": 2
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/panned-sales/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "E835641EF0390C8D4ED5F68BB9F516ACB14EEE819FF839EA88846BFAFA653486",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0002.png",
+      "sourcePTSSeconds": 0.5021,
+      "sha256": "0A5302AE9CF003DF1F34B16EDE2777759D56B4F65F6B5292C848C70DBF36BE98",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0003.png",
+      "sourcePTSSeconds": 1.002689,
+      "sha256": "658CF0D2FC887F2FD3E841C4DCA431A296ABE14D4E723A3144D6A90031004E0F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0004.png",
+      "sourcePTSSeconds": 1.512356,
+      "sha256": "433F0C9F0F75F9D352E96BA5B57EDAF6DB765D94F8A478A3D6312A8F19371751",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0005.png",
+      "sourcePTSSeconds": 2.040367,
+      "sha256": "AF127B1281CE5F6A72981BC557F73FBF8ED2FEDA5808B01F91F1F1F71C465106",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0006.png",
+      "sourcePTSSeconds": 2.573733,
+      "sha256": "8B11284F61AE40F04B49D73D477915400F7D2132ED97DE73444DFF826B490C93",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0007.png",
+      "sourcePTSSeconds": 3.106744,
+      "sha256": "177869381AA1691F0D42477B17B645E3884999B3ED60F3EA9B50C4CB46D4DF97",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0008.png",
+      "sourcePTSSeconds": 3.6491,
+      "sha256": "555BD77580769BAF6FA9A601C8D8EDBE267353E36D8033CEF1DE43424F03FDB0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0009.png",
+      "sourcePTSSeconds": 4.149156,
+      "sha256": "768D560C0C65F4A07C3F88B1A170D90E1B983A0FA58C652CBDB07CDD280C2189",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0010.png",
+      "sourcePTSSeconds": 4.649278,
+      "sha256": "D686B811D735BC57FE11FCB22A7B6FA1E14F4C78DFD537296AD0E21C2877B033",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0011.png",
+      "sourcePTSSeconds": 5.181733,
+      "sha256": "63C591E846D8A8C697DF1101AF6B705B0B7F9472DD89050D4BC45B3D779DEB40",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0012.png",
+      "sourcePTSSeconds": 5.714944,
+      "sha256": "2AB34FE6989A2680D6C52EA1145F9D18974DFA87041AAE108F640846A28AA4CF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0013.png",
+      "sourcePTSSeconds": 6.222811,
+      "sha256": "5A4DEFA8B9FBB399FB0BB0BD3121237BACDD8B66D535F2B3C788F29E41484262",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0014.png",
+      "sourcePTSSeconds": 6.7276,
+      "sha256": "7BA2B057A924889C32F6922596C97656F5845A96DE4EBCE96903A18C99F1AAC5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0015.png",
+      "sourcePTSSeconds": 7.267022,
+      "sha256": "3A882665055057F8FE48AD999C959711C745B11069BB575DBC6E374125CC1047",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0016.png",
+      "sourcePTSSeconds": 7.768956,
+      "sha256": "09E9798098B546D43815FB365754C1483C50194A25A657149380695E3E917A06",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0017.png",
+      "sourcePTSSeconds": 8.298356,
+      "sha256": "73DD9BEA264197AE9F47217A2C238CCFF87F4E440D6AF08970B74F75047FE209",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0018.png",
+      "sourcePTSSeconds": 8.802033,
+      "sha256": "990A16195B5686E68E76D679F46C2CE7D3E83F2D716AAA27B4BB180CDC905A42",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0019.png",
+      "sourcePTSSeconds": 9.3021,
+      "sha256": "75B2A5C6F0DA5D9A50B088B646B727EF13F29534DE41F57F22B612FA511C54EC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0020.png",
+      "sourcePTSSeconds": 9.807933,
+      "sha256": "0492AD6346B51420417BD3E34D95C0BF82BCAB7C76D5B351C872CD00E3CD1C3A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0021.png",
+      "sourcePTSSeconds": 10.335289,
+      "sha256": "D0B53785469EC9348D43DE792DB6FC5E28773D233FFDFAA97D4CE2F33DC393CB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0022.png",
+      "sourcePTSSeconds": 10.8396,
+      "sha256": "2ADFCF15E3EECDEF9FCAC6F50F68A3CF9171D190A9393EEDDFC822610E27C386",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0023.png",
+      "sourcePTSSeconds": 11.340133,
+      "sha256": "BED5E7259CCF148F56475B33D38142BF1F14C8A8DF3E81A5FE6327D85420305D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0024.png",
+      "sourcePTSSeconds": 11.869422,
+      "sha256": "4DE88CD92449A0C350FA0CDAA61B450F68AD3FD326BE07B5EA552638AC457EDD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0025.png",
+      "sourcePTSSeconds": 12.372767,
+      "sha256": "B884B1369F51A57A2DC5C24BC06FA47F108C76660E1E649E67473BBF8AA5A32D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0026.png",
+      "sourcePTSSeconds": 12.885356,
+      "sha256": "43B4A745FCCF08334F912FAEBA5277698701F1508B64E5F41D940C450ECE6E4E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0027.png",
+      "sourcePTSSeconds": 13.390033,
+      "sha256": "F8F00E9A9CB539A4E63DDEC8E6DA33124484EB144F6D84848CBE0776AF995C81",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0028.png",
+      "sourcePTSSeconds": 13.894089,
+      "sha256": "27C348C962DAF256EDB2FE542AFCA6CFCCEB00F3F03331516D143D9C65D611C6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0029.png",
+      "sourcePTSSeconds": 14.3983,
+      "sha256": "7E3D83EF7328C29FC2A09F4105F89DDA19DF59456485BDF1C2165624977E4A48",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0030.png",
+      "sourcePTSSeconds": 14.903267,
+      "sha256": "BD2D9B25C181B5DF1EACE8085B2A53D5FD6DC707BCD804D5415B599D8C798E61",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0031.png",
+      "sourcePTSSeconds": 15.427089,
+      "sha256": "62958353BE27BD643936AB308AFE7F5AD71A145D4C323AB24CFA9E19E02666F3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/panned-sales/frame-0032.png",
+      "sourcePTSSeconds": 15.927278,
+      "sha256": "CE3B5EEF8BEA22DDD093DD09F7E5D0BA89991CC6BBF02702D50442963FF612A6",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

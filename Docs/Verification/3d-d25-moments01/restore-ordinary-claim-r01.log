@@ -1,0 +1,55 @@
+{'tap': [850, 1780]}
+{'wait': 2}
+{'shot': '42-final-ordinary-after-claim'}
+{'tap': [900, 1850]}
+{'tap': [900, 300]}
+{'tap': [535, 751]}
+{'shot': '43-final-ordinary-fish-progress'}
+{'tap': [180, 1850]}
+{'shot': '44-final-ordinary-overview'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 4.8 MB/s (6841 bytes in 0.001s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save.bak: 1 file pulled, 0 skipped. 3.7 MB/s (6838 bytes in 0.002s)
+{
+  "scope": "Latest actual ordinary primary/backup, after all isolated fixtures; no prepared resources or fish are restored. Snapshot money continues to grow during normal foreground operation.",
+  "checkpointSha256": "571F00814D27FA6BEBEF80AE542015677EF63C31CCC841520A9E5CD129D911BE",
+  "backupSha256": "57AC939DAFBED34F3D1CE42E339F5C13717B59D56D13F4012404FE296D4BD0E5",
+  "finalSaveSha256": "D7B506760CDF2CC3C4F20BA05E5CB69374E20CC3374ACCE02A9563A10B77BAC7",
+  "coins": 1165034,
+  "sales": 1194072,
+  "fish": 61,
+  "discovered": 6,
+  "plots": 6,
+  "shelves": 2,
+  "awaySeconds": 5801.171122,
+  "offlineCoins": 15306,
+  "pausedClockRoundtripErrorSeconds": 1.7763568394002505e-15,
+  "pausedClockToleranceSeconds": 1e-10,
+  "checks": {
+    "latest_documented_primary_and_backup_restored_exactly": true,
+    "protected_primary_is_latest_audited_ordinary": true,
+    "all_fish_records_and_paused_clock_unchanged": true,
+    "normal_catches_and_species_kept": true,
+    "no_pending_report_after_actual_claim": true,
+    "fishing_paused": true,
+    "original_chapter_and_forest_progress_kept": true,
+    "ordinary_configuration_kept": true,
+    "money_only_follows_original_sales": true,
+    "protected_progress_not_rolled_back": true,
+    "full_offline_replay_passed": true,
+    "latest_ordinary_moments_and_arrangements_kept": true
+  },
+  "allPassed": true,
+  "moments": {
+    "stages": [
+      3,
+      3,
+      3
+    ],
+    "choices": [
+      0,
+      1,
+      0
+    ]
+  }
+}
+COMPLETE latest ordinary restoration and claim

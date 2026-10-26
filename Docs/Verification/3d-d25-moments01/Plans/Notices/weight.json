@@ -1,0 +1,48 @@
+{
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        860,
+        880
+      ]
+    },
+    {
+      "shot": "weight-start"
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "weight-actual-first-landed"
+    },
+    {
+      "tap": [
+        590,
+        1690
+      ]
+    },
+    {
+      "shot": "weight-individual-top"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        1150,
+        500,
+        700
+      ]
+    },
+    {
+      "shot": "weight-individual-bottom"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/Notices"
+}

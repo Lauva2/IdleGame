@@ -17,7 +17,7 @@ try{
     for($i=0;$i -lt 3;$i++){$steps+=@{swipe=@([int](850*$s),[int]($h-180*$s),[int](850*$s),[int]($h-850*$s),650)}}
     $steps+=@(@{shot='03-species-four-quality-bottom'},@{tap=@([int](850*$s),[int]($h-110*$s))},@{shot='04-actual-go-fishing'},@{tap=@([int](686*$s),[int]($h-118*$s))},@{shot='05-fishing-zoom-out'},@{swipe=@([int](550*$s),[int](700*$s+$top),[int](650*$s),[int](780*$s+$top),700)},@{shot='06-fishing-real-pan'},@{tap=@([int](966*$s),[int]($h-118*$s))},@{wait=14},@{shot='07-recenter-and-catch'},@{back=$true},@{tap=@([int](540*$s),[int](400*$s+$top))},@{shot='08-greenhouse'},@{tap=@([int](180*$s),[int](400*$s+$top))},@{shot='09-main-courtyard'},@{tap=@([int](390*$s),[int](300*$s+$top))},@{shot='10-garden'},@{tap=@([int](660*$s),[int](300*$s+$top))},@{shot='11-workshop'},@{tap=@([int](930*$s),[int](300*$s+$top))},@{shot='12-shop'},@{tap=@([int](1000*$s),[int](50*$s+$top))},@{shot='13-settings'})
     if($JourneyLayout){
-        $steps+=@(@{back=$true},@{tap=@([int](950*$s),[int](160*$s+$top))},@{shot='14-handbook'},@{tap=@([int](900*$s),[int]($h-401*$s))},@{shot='15-handbook-greenhouse-destination'},@{tap=@([int](950*$s),[int](160*$s+$top))},@{tap=@([int](180*$s),[int]($h-114*$s))},@{shot='16-chapter-progress-top'})
+        $steps+=@(@{back=$true},@{tap=@([int](950*$s),[int](160*$s+$top))},@{shot='14-handbook'},@{tap=@([int](900*$s),[int]($h-401*$s))},@{shot='15-handbook-secondary-destination'},@{tap=@([int](950*$s),[int](160*$s+$top))},@{tap=@([int](180*$s),[int]($h-114*$s))},@{shot='16-chapter-progress-top'})
         for($i=0;$i -lt 4;$i++){$steps+=@{swipe=@([int](850*$s),[int]($h-180*$s),[int](850*$s),[int]($h-850*$s),650)}}
         $steps+=@{shot='17-chapter-progress-footer'}
     }

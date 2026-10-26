@@ -1,0 +1,71 @@
+-vsync is deprecated. Use -fps_mode
+Passing a number to -vsync is deprecated, use a string argument as described in the manual.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 00000217c29665c0] All samples in data stream index:id [1:2] have zero duration, stream set to be discarded by default. Override using AVStream->discard or -discard for ffmpeg command.
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'E:\UnityProject\IdleGame\Docs\Verification\3d-d25-moments01\Evidence\market-native-2.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2026-10-26T19:13:50.000000Z
+    com.android.version: 12
+  Duration: 00:02:40.03, start: 0.000000, bitrate: 3320 kb/s
+  Stream #0:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920, 3315 kb/s, 29.90 fps, 90k tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2026-10-26T19:13:50.000000Z
+        handler_name    : VideoHandle
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](eng): Data: none (mett / 0x7474656D) (default)
+      Metadata:
+        creation_time   : 2026-10-26T19:13:50.000000Z
+        handler_name    : MetadHandle
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+[Parsed_showinfo_1 @ 00000217c47f7340] config in time_base: 1/90000, frame_rate: 430650000/14402671
+[Parsed_showinfo_1 @ 00000217c47f7340] config out time_base: 0/0, frame_rate: 0/0
+[Parsed_showinfo_1 @ 00000217c47f7340] n:   0 pts:      0 pts_time:0       duration:   3432 duration_time:0.0381333 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:1 type:I checksum:DF7A33DF plane_checksum:[E2520630 1ECC0483 6F38292C] mean:[163 106 132] stdev:[42.9 8.7 12.1]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+Output #0, image2, to 'E:\UnityProject\IdleGame\Docs\Verification\3d-d25-moments01\Samples\market-rabbit2\frame-%04d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    com.android.version: 12
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: png, rgb24(pc, gbr/bt709/bt709, progressive), 1080x1920, q=2-31, 200 kb/s, 29.90 fps, 29.90 tbn (default)
+      Metadata:
+        creation_time   : 2026-10-26T19:13:50.000000Z
+        handler_name    : VideoHandle
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 png
+[Parsed_showinfo_1 @ 00000217c47f7340] n:   1 pts:  92464 pts_time:1.027378 duration:   2986 duration_time:0.0331778 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:3D1D1DB7 plane_checksum:[9E364F64 79ECEFF4 2F52DE41] mean:[163 106 132] stdev:[43.0 8.8 12.1]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 00000217c47f7340] n:   2 pts: 184717 pts_time:2.052411 duration:   3093 duration_time:0.0343667 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:F2BC11AD plane_checksum:[2AE84F9F 1E0CE163 D134E08D] mean:[163 106 132] stdev:[43.0 8.8 12.1]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 00000217c47f7340] n:   3 pts: 275523 pts_time:3.061367 duration:   2935 duration_time:0.0326111 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:A027466E plane_checksum:[7B7084CB C2C6D693 77B5EAF2] mean:[163 106 132] stdev:[43.0 8.8 12.1]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 00000217c47f7340] n:   4 pts: 366374 pts_time:4.070822 duration:   1325 duration_time:0.0147222 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:BF482DAB plane_checksum:[A4206BA7 0BFCD8A8 E836E93E] mean:[163 106 132] stdev:[43.0 8.8 12.1]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 00000217c47f7340] n:   5 pts: 458152 pts_time:5.090578 duration:   2697 duration_time:0.0299667 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:CD8FAB04 plane_checksum:[12D7F130 E1D2C361 FC55F655] mean:[163 106 132] stdev:[43.0 8.8 12.1]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 00000217c47f7340] n:   6 pts: 548541 pts_time:6.0949  duration:   2991 duration_time:0.0332333 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:884E525F plane_checksum:[67C592AA C758C9F7 7900F5A0] mean:[163 106 132] stdev:[43.0 8.8 12.1]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 00000217c47f7340] n:   7 pts: 641514 pts_time:7.127933 duration:   2954 duration_time:0.0328222 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:47C379E4 plane_checksum:[5870B6B1 2F9CCE6E 5941F4A7] mean:[163 106 132] stdev:[43.0 8.8 12.1]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 00000217c47f7340] n:   8 pts: 731862 pts_time:8.1318  duration:   2582 duration_time:0.0286889 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:00C1DE58 plane_checksum:[BBF41385 A4EB9B49 FE712F8A] mean:[163 106 132] stdev:[42.9 8.9 12.1]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+frame=    3 fps=0.0 q=-0.0 size=N/A time=00:00:02.10 bitrate=N/A speed=4.17x    [Parsed_showinfo_1 @ 00000217c47f7340] n:   9 pts: 821890 pts_time:9.132111 duration:   2554 duration_time:0.0283778 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:179634EA plane_checksum:[13DE6DFE C9279F61 B6D5277C] mean:[163 106 132] stdev:[42.9 8.9 12.1]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 00000217c47f7340] n:  10 pts: 914497 pts_time:10.161078 duration:   3043 duration_time:0.0338111 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:1C39EB57 plane_checksum:[7E2C2603 4D10A12D EF352427] mean:[163 106 132] stdev:[42.9 8.9 12.1]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 00000217c47f7340] n:  11 pts:1006023 pts_time:11.178033 duration:   2696 duration_time:0.0299556 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:EC1EE1C2 plane_checksum:[31BD102D CFA6B34A 894A1E4B] mean:[163 106 132] stdev:[43.0 8.9 12.1]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 00000217c47f7340] n:  12 pts:1096030 pts_time:12.178111 duration:   2728 duration_time:0.0303111 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:3172A872 plane_checksum:[700CD430 5212A6C7 E2932D6C] mean:[163 106 132] stdev:[43.0 8.9 12.2]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 00000217c47f7340] n:  13 pts:1187513 pts_time:13.194589 duration:   2943 duration_time:0.0327  fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:F213C178 plane_checksum:[4B89F90A 6C77A892 16931FCD] mean:[163 106 132] stdev:[43.0 8.9 12.2]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 00000217c47f7340] n:  14 pts:1280111 pts_time:14.223456 duration:   3471 duration_time:0.0385667 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:EB02E8C2 plane_checksum:[B0C31199 07A6BBDE 39A61B4B] mean:[163 106 132] stdev:[43.0 8.9 12.2]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 00000217c47f7340] n:  15 pts:1373462 pts_time:15.260689 duration:   2685 duration_time:0.0298333 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:9443C149 plane_checksum:[9B2003BD 5BEB93CB D4D629C1] mean:[163 106 132] stdev:[43.0 8.9 12.1]
+[Parsed_showinfo_1 @ 00000217c47f7340] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+frame=    7 fps=6.9 q=-0.0 size=N/A time=00:00:06.12 bitrate=N/A speed=5.99x    frame=   11 fps=7.2 q=-0.0 size=N/A time=00:00:10.20 bitrate=N/A speed=6.64x    frame=   14 fps=6.8 q=-0.0 size=N/A time=00:00:13.24 bitrate=N/A speed=6.45x    frame=   14 fps=5.5 q=-0.0 size=N/A time=00:00:13.24 bitrate=N/A speed=5.16x    frame=   14 fps=4.5 q=-0.0 size=N/A time=00:00:13.24 bitrate=N/A speed= 4.3x    frame=   14 fps=3.9 q=-0.0 size=N/A time=00:00:13.24 bitrate=N/A speed=3.68x    frame=   14 fps=3.4 q=-0.0 size=N/A time=00:00:13.24 bitrate=N/A speed=3.22x    frame=   14 fps=3.0 q=-0.0 size=N/A time=00:00:13.24 bitrate=N/A speed=2.86x    frame=   14 fps=2.7 q=-0.0 size=N/A time=00:00:13.24 bitrate=N/A speed=2.57x    frame=   14 fps=2.5 q=-0.0 size=N/A time=00:00:13.24 bitrate=N/A speed=2.34x    frame=   14 fps=2.3 q=-0.0 size=N/A time=00:00:13.24 bitrate=N/A speed=2.14x    frame=   14 fps=2.1 q=-0.0 size=N/A time=00:00:13.24 bitrate=N/A speed=1.98x    [out#0/image2 @ 00000217c2977e40] video:19887KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=   16 fps=2.3 q=-0.0 Lsize=N/A time=00:00:15.31 bitrate=N/A speed=2.18x    

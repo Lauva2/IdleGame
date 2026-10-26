@@ -1,0 +1,79 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d25-moments01\Prepared\late.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d25-moments01\Prepared\late.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d25-moments01\Prepared\late.save: 1 file pushed, 0 skipped. 6.5 MB/s (6489 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d25-moments01\Prepared\late.save: 1 file pushed, 0 skipped. 9.4 MB/s (6489 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1560
+WaitTime: 1566
+Complete
+{'tap': [130, 300]}
+{'shot': '10-overview'}
+{'tap': [885, 1612]}
+{'shot': '11-map-zoom'}
+{'swipe': [550, 1000, 650, 1080, 700]}
+{'shot': '12-map-drag'}
+{'tap': [998, 1612]}
+{'tap': [390, 300]}
+{'shot': '13-twelve-garden'}
+{'tap': [260, 820]}
+{'shot': '14-plot-configuration'}
+{'back': True}
+{'tap': [660, 300]}
+{'tap': [355, 980]}
+{'shot': '15-cauldron-recipes'}
+{'swipe': [850, 1720, 850, 1070, 650]}
+{'swipe': [850, 1720, 850, 1070, 650]}
+{'shot': '16-cauldron-bottom'}
+{'back': True}
+{'tap': [700, 980]}
+{'shot': '17-workbench-recipes'}
+{'swipe': [850, 1720, 850, 1070, 650]}
+{'swipe': [850, 1720, 850, 1070, 650]}
+{'shot': '18-workbench-bottom'}
+{'back': True}
+{'tap': [930, 300]}
+{'tap': [320, 950]}
+{'shot': '19-shelf-products'}
+{'swipe': [850, 1720, 850, 1070, 650]}
+{'swipe': [850, 1720, 850, 1070, 650]}
+{'swipe': [850, 1720, 850, 1070, 650]}
+{'shot': '20-shelf-bottom'}
+{'back': True}
+{'tap': [540, 1850]}
+{'shot': '21-order-available'}
+{'tap': [350, 770]}
+{'shot': '22-order-accepted'}
+{'tap': [900, 1850]}
+{'shot': '23-products-top'}
+{'swipe': [700, 1620, 700, 620, 700]}
+{'shot': '24-products-bottom'}
+{'tap': [900, 1850]}
+{'tap': [790, 410]}
+{'shot': '25-residents-top'}
+{'tap': [350, 725]}
+{'shot': '26-resident-story'}
+{'swipe': [850, 1720, 850, 1070, 650]}
+{'shot': '27-resident-story-bottom'}
+{'back': True}
+{'tap': [800, 725]}
+{'shot': '28-memorial'}
+{'back': True}
+{'swipe': [700, 1630, 700, 650, 700]}
+{'shot': '29-residents-bottom'}
+{'tap': [180, 1850]}
+{'tap': [660, 300]}
+{'tap': [200, 1690]}
+{'shot': '30-workshop-facilities'}
+{'swipe': [1000, 1700, 1000, 2050, 650]}
+{'swipe': [1000, 1700, 1000, 2050, 650]}
+{'swipe': [1000, 1700, 1000, 2050, 650]}
+{'swipe': [1000, 1700, 1000, 2050, 650]}
+{'tap': [130, 300]}
+{'shot': '31-real-courtyard-overview'}
+/sdcard/3d-d25-moments01-interfaces.mp4: 1 file pulled, 0 skipped. 23.5 MB/s (54805441 bytes in 2.224s)

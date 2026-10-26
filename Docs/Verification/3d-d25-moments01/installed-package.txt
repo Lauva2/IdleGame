@@ -1,0 +1,116 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        8f1bb42 com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity filter d070753
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Domain verification status:
+
+Key Set Manager:
+  [com.forestatelier.curioshop]
+      Signing KeySets: 14
+
+Packages:
+  Package [com.forestatelier.curioshop] (867d210):
+    userId=10046
+    pkg=Package{e958109 com.forestatelier.curioshop}
+    codePath=/data/app/~~HpeeBThJlSyJASdOh0SnuQ==/com.forestatelier.curioshop-tBW5U0h9ZyKtxlCd1hncNg==
+    resourcePath=/data/app/~~HpeeBThJlSyJASdOh0SnuQ==/com.forestatelier.curioshop-tBW5U0h9ZyKtxlCd1hncNg==
+    legacyNativeLibraryDir=/data/app/~~HpeeBThJlSyJASdOh0SnuQ==/com.forestatelier.curioshop-tBW5U0h9ZyKtxlCd1hncNg==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=7 minSdk=23 targetSdk=32
+    minExtensionVersions=[]
+    versionName=0.2.5
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{e958109 com.forestatelier.curioshop}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.forestatelier.curioshop
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2026-10-27 02:22:10
+    firstInstallTime=2026-10-23 06:01:25
+    lastUpdateTime=2026-10-27 02:22:11
+    signatures=PackageSignatures{8eedf0e version:2, signatures:[8b9a5060], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.QUERY_ALL_PACKAGES
+    install permissions:
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+    User 0: ceDataInode=5244102 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=false enabled=0 instant=false virtual=false
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-8Y7k.frro
+        /data/resource-cache/com.android.systemui-accent-KAzk.frro
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=3
+  User 0:
+    seq=2, package=com.forestatelier.curioshop
+
+
+Dexopt state:
+  [com.forestatelier.curioshop]
+    path: /data/app/~~HpeeBThJlSyJASdOh0SnuQ==/com.forestatelier.curioshop-tBW5U0h9ZyKtxlCd1hncNg==/base.apk
+      x86_64: [status=verify] [reason=install]
+
+
+Compiler stats:
+  [com.forestatelier.curioshop]
+     base.apk - 303
+Snapshot statistics
+   Unrecorded-hits: 1332  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:46         now           1         526           0           0           0           2           2
+          1:46        0:46           0           0           0           0           0           0           0
+          2:46        1:46           0           0           0           0           0           0           0
+          3:46        2:46           0           0           0           0           0           0           0
+          4:46        3:46           0           0           0           0           0           0           0
+          5:46        4:46           0           0           0           0           0           0           0
+          6:46        5:46           0           0           0           0           0           0           0
+          7:46        6:46           2        4728           0           0           0           7           7
+          8:46        7:46           0           0           0           0           0           0           0
+          9:46        8:46           0           0           0           0           0           0           0
+      04:07:47         now         347      218138           0           8          36         424          26
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:46         now           0           1           0           0           0           0           0           0
+          1:46        0:46           0           0           0           0           0           0           0           0
+          2:46        1:46           0           0           0           0           0           0           0           0
+          3:46        2:46           0           0           0           0           0           0           0           0
+          4:46        3:46           0           0           0           0           0           0           0           0
+          5:46        4:46           0           0           0           0           0           0           0           0
+          6:46        5:46           0           0           0           0           0           0           0           0
+          7:46        6:46           1           0           0           1           0           0           0           0
+          8:46        7:46           0           0           0           0           0           0           0           0
+          9:46        8:46           0           0           0           0           0           0           0           0
+      04:07:47         now         308          12          10          11           4           2           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:46         now           0           0           0           0           0           0           0           1
+          1:46        0:46           0           0           0           0           0           0           0           0
+          2:46        1:46           0           0           0           0           0           0           0           0
+          3:46        2:46           0           0           0           0           0           0           0           0
+          4:46        3:46           0           0           0           0           0           0           0           0
+          5:46        4:46           0           0           0           0           0           0           0           0
+          6:46        5:46           0           0           0           0           0           0           0           0
+          7:46        6:46           0           0           0           0           0           0           1           1
+          8:46        7:46           0           0           0           0           0           0           0           0
+          9:46        8:46           0           0           0           0           0           0           0           0
+      04:07:47         now          31           2           2           8          19          18          40         226

@@ -1,0 +1,291 @@
+{
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/MomentFit/Long",
+  "steps": [
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "shot": "00-handbook-and-four-footer-links"
+    },
+    {
+      "tap": [
+        925,
+        2225
+      ]
+    },
+    {
+      "shot": "01-all-three-pending-cards"
+    },
+    {
+      "drag_hold": [
+        1000,
+        2170,
+        1000,
+        1540,
+        500,
+        600
+      ]
+    },
+    {
+      "shot": "02-third-card-and-footer"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        2225
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1700
+      ]
+    },
+    {
+      "shot": "event-0-10-actual-object"
+    },
+    {
+      "tap": [
+        540,
+        1286
+      ]
+    },
+    {
+      "shot": "event-0-11-choice-card"
+    },
+    {
+      "tap": [
+        270,
+        2190
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-0-12-choice0-world"
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        2225
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1700
+      ]
+    },
+    {
+      "tap": [
+        540,
+        1286
+      ]
+    },
+    {
+      "tap": [
+        800,
+        2190
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-0-13-choice1-world"
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        2225
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1912
+      ]
+    },
+    {
+      "shot": "event-1-10-actual-object"
+    },
+    {
+      "tap": [
+        540,
+        1286
+      ]
+    },
+    {
+      "shot": "event-1-11-choice-card"
+    },
+    {
+      "tap": [
+        270,
+        2190
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-1-12-choice0-world"
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        2225
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1912
+      ]
+    },
+    {
+      "tap": [
+        540,
+        1286
+      ]
+    },
+    {
+      "tap": [
+        800,
+        2190
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-1-13-choice1-world"
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        2225
+      ]
+    },
+    {
+      "tap": [
+        900,
+        2124
+      ]
+    },
+    {
+      "shot": "event-2-10-actual-object"
+    },
+    {
+      "tap": [
+        540,
+        1286
+      ]
+    },
+    {
+      "shot": "event-2-11-choice-card"
+    },
+    {
+      "tap": [
+        270,
+        2190
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-2-12-choice0-world"
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        2225
+      ]
+    },
+    {
+      "tap": [
+        900,
+        2124
+      ]
+    },
+    {
+      "tap": [
+        540,
+        1286
+      ]
+    },
+    {
+      "tap": [
+        800,
+        2190
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-2-13-choice1-world"
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        2225
+      ]
+    },
+    {
+      "shot": "30-completed-journal"
+    },
+    {
+      "back": true
+    }
+  ]
+}

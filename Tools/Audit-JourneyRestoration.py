@@ -31,5 +31,8 @@ checks=dict(
     protected_progress_not_rolled_back=final['coins']>=start['coins'] and final['sales']>=start['sales'],
     full_offline_replay_passed=(q/'ordinary-final-offline-replay.txt').read_text(encoding='utf-8-sig').startswith('PASS actual Android offline replay:'))
 result=dict(scope='Latest actual ordinary primary/backup, after all isolated fixtures; no prepared resources or fish are restored. Snapshot money continues to grow during normal foreground operation.',checkpointSha256=sha,backupSha256=bsha,finalSaveSha256=fsha,coins=final['coins'],sales=final['sales'],fish=final['fishing']['totalCaught'],discovered=sum(e['count']>0 for e in final['fishing']['entries']),plots=len(final['plots']),shelves=len(final['shelves']),awaySeconds=report['report']['away'],offlineCoins=report['report']['coins'],pausedClockRoundtripErrorSeconds=abs(start['fishing']['remaining']-final['fishing']['remaining']),pausedClockToleranceSeconds=1e-10,checks=checks,allPassed=all(checks.values()))
+if 'moments' in start:
+    checks['latest_ordinary_moments_and_arrangements_kept']=start['moments']==report['moments']==final['moments']
+    result['moments']=final['moments'];result['allPassed']=all(checks.values())
 (q/'ordinary-final-audit.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(result,ensure_ascii=False,indent=2));assert result['allPassed']

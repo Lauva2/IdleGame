@@ -1,0 +1,32 @@
+{
+  "steps": [
+    {
+      "shot": "08-background-report"
+    },
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "09-global-navigation-restored"
+    },
+    {
+      "tap": [
+        1000,
+        50
+      ]
+    },
+    {
+      "shot": "10-ordinary-settings"
+    },
+    {
+      "back": true
+    }
+  ],
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/Ordinary"
+}

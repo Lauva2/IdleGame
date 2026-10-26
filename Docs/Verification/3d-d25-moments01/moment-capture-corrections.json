@@ -1,0 +1,10 @@
+{
+  "candidate":"3d-d25-moments01",
+  "sameApkSha256":"7D1EE5B6AD349F141DC6FC72B14F169A20B5F1AE976CA2AD1C193858BF008767",
+  "useForActualInput":{"Long":"Long-r02","Narrow":"Narrow-r02"},
+  "originalsKept":true,
+  "originalAudit":"moment-prepared-audit-r01-failed.json",
+  "reason":"First Fit used an uncapped full-screen viewport center. Actual forest height caps at1280 design pixels: Long taps hit air and its final stages remained2/2/2, so Long event-*-12/13 do not prove completed arrangements. Narrow taps reached bound phase markers and did finish; these are valid marker/visual evidence, not direct-mesh ray proof. r02 uses the actual center1088px forLong and725px forNarrow, native screen sizes unchanged.",
+  "excludedUse":"Do not use originalLong named choice0/choice1 images as world results or successful input. Preserve all images, actions, snapshots and movies with original names and SHA.",
+  "scope":"Capture-script correction only. No Assets/Packages/ProjectSettings or installed APK change; fresh fixture inputs explicitly marked, latest ordinary save remains protected. r02 completion must be checked by actual snapshots and independent visual review."
+}

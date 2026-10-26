@@ -1,0 +1,47 @@
+[
+  {
+    "video": "moment-flow-start",
+    "sourceSize": [
+      1080,
+      1920
+    ],
+    "duration": 150.03,
+    "nominalFPS": 25.76
+  },
+  {
+    "video": "moment-flow-simple",
+    "sourceSize": [
+      1080,
+      1920
+    ],
+    "duration": 150.01,
+    "nominalFPS": 25.13
+  },
+  {
+    "video": "moment-fit-Long-r02",
+    "sourceSize": [
+      1080,
+      2340
+    ],
+    "duration": 100.05,
+    "nominalFPS": 23.59
+  },
+  {
+    "video": "moment-fit-Narrow-r02",
+    "sourceSize": [
+      720,
+      1600
+    ],
+    "duration": 100.03999999999999,
+    "nominalFPS": 28.83
+  },
+  {
+    "video": "moment-fit-SafeTall",
+    "sourceSize": [
+      1080,
+      1920
+    ],
+    "duration": 100.03,
+    "nominalFPS": 25.52
+  }
+]

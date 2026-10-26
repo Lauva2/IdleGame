@@ -1,0 +1,147 @@
+{
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        780,
+        1250
+      ]
+    },
+    {
+      "shot": "01-compact-pavilion"
+    },
+    {
+      "tap": [
+        500,
+        2255
+      ]
+    },
+    {
+      "shot": "02-details-and-three-baits"
+    },
+    {
+      "tap": [
+        930,
+        1950
+      ]
+    },
+    {
+      "shot": "03-changed-berry-bait"
+    },
+    {
+      "tap": [
+        500,
+        2255
+      ]
+    },
+    {
+      "shot": "04-expanded-context"
+    },
+    {
+      "tap": [
+        500,
+        2255
+      ]
+    },
+    {
+      "tap": [
+        717,
+        2255
+      ]
+    },
+    {
+      "shot": "05-zoom-out"
+    },
+    {
+      "swipe": [
+        550,
+        700,
+        650,
+        800,
+        700
+      ]
+    },
+    {
+      "shot": "06-real-pan"
+    },
+    {
+      "tap": [
+        977,
+        2255
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "07-recenter-and-actual-catch"
+    },
+    {
+      "tap": [
+        1000,
+        50
+      ]
+    },
+    {
+      "shot": "08-settings-directly-from-fishing"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "09-navigation-after-settings"
+    },
+    {
+      "tap": [
+        780,
+        1250
+      ]
+    },
+    {
+      "shot": "10-reentered-original-spot"
+    },
+    {
+      "tap": [
+        590,
+        2110
+      ]
+    },
+    {
+      "shot": "11-individual-top"
+    },
+    {
+      "drag_hold": [
+        1000,
+        2160,
+        1000,
+        1640,
+        400,
+        600
+      ]
+    },
+    {
+      "shot": "12-individual-bottom"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "13-global-navigation-restored"
+    },
+    {
+      "tap": [
+        1000,
+        50
+      ]
+    },
+    {
+      "shot": "14-settings-accessible"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/PresentationFit/Long"
+}

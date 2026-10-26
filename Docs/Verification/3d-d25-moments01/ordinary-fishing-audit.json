@@ -1,0 +1,29 @@
+{
+  "beforeSha256": "844C5732BF7E1015025BC049CDF6CA1BFB05C587374494052B8F22D324D49B8B",
+  "afterSha256": "571F00814D27FA6BEBEF80AE542015677EF63C31CCC841520A9E5CD129D911BE",
+  "beforeCoins": 1147358,
+  "afterCoins": 1149728,
+  "beforeFish": 55,
+  "fish": 61,
+  "discovered": 6,
+  "salesDelta": 2370,
+  "checks": {
+    "new_fish_are_real_recorded_foreground_catches": true,
+    "bounded_recent_ids_are_unique_contiguous": true,
+    "background_fish_clock_rng_records_unchanged": true,
+    "restorable_retains_paused_fish": true,
+    "ordinary_settings_facilities_and_original_progress_kept": true,
+    "nursery_configuration_kept": true,
+    "forest_repairs_and_gathered_counts_kept": true,
+    "money_only_follows_original_sales": true,
+    "no_pending_report_in_latest_checkpoint": true,
+    "update_full_replay_passed": true,
+    "foreground_full_replay_passed": true,
+    "background_full_replay_passed": true,
+    "all_individual_parameters_quality_totals_and_records_match_new_catches": true,
+    "new_moments_have_full_recorded_action_replay": true,
+    "events_and_arrangements_preserved_after_fishing_and_background": true
+  },
+  "allPassed": true,
+  "scope": "Actual ordinary save, ordinary UI and wall time only before all prepared evidence. Existing legitimate income is retained in the protected baseline. Optional moment changes, when requested, require their own full-state action replay. Clock-only tolerance1e-10 seconds follows the existing Core verifier; all other fish fields stay exact."
+}

@@ -1,0 +1,47 @@
+{
+  "steps": [
+    {
+      "swipe": [
+        550,
+        1000,
+        1000,
+        1450,
+        900
+      ]
+    },
+    {
+      "swipe": [
+        550,
+        1000,
+        1000,
+        1450,
+        900
+      ]
+    },
+    {
+      "swipe": [
+        550,
+        1000,
+        1000,
+        1450,
+        900
+      ]
+    },
+    {
+      "swipe": [
+        550,
+        1000,
+        1000,
+        1450,
+        900
+      ]
+    },
+    {
+      "wait": 3
+    },
+    {
+      "shot": "05-real-pan-far-away-from-shelves"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d25-moments01/Evidence/ZoomSales"
+}

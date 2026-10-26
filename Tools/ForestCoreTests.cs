@@ -46,7 +46,7 @@ public static class ForestCoreTests
             string dir = Path.Combine("Tools/TestOutput", Guid.NewGuid().ToString("N")); Directory.CreateDirectory(dir);
             File.WriteAllBytes(Path.Combine(dir, "forest-shop.save"), bytes);
             var after = new SaveStore(dir, Codec).Load();
-            Check(after.version == 3 && after.crops.Length == 7 && after.items.Length == 9 && after.sold.Length == 9, "new shape missing");
+            Check(after.version == GameState.CurrentVersion && after.crops.Length == 7 && after.items.Length == 9 && after.sold.Length == 9, "new shape missing");
             Check(before.coins == after.coins && before.sales == after.sales && before.utcTicks == after.utcTicks && after.stories == before.stories, "ordinary progress changed on migration");
             for (int i = 0; i < 4; i++) Check(before.crops[i] == after.crops[i], "old crop changed");
             for (int i = 0; i < 6; i++) Check(before.items[i] == after.items[i] && before.sold[i] == after.sold[i], "old item changed");
@@ -57,14 +57,14 @@ public static class ForestCoreTests
         test("legacy pending report preserves earned income and cannot award again", () => {
             var old = Legacy(EndOfChapter()); old.report.pending = true; old.report.coins = 123; old.report.cropDelta[0] = -2; old.utcTicks = DateTime.UtcNow.Ticks;
             long coins = old.coins, stamp = old.utcTicks; StateMigration.Upgrade(old); OfflineSettlement.Resume(old, stamp + TimeSpan.FromHours(8).Ticks);
-            Check(old.version == 3 && old.report.pending && old.report.coins == 123 && old.report.cropDelta[0] == -2 && old.report.itemDelta.Length == 9 && old.coins == coins && old.utcTicks == stamp, "pending report replayed or changed");
+            Check(old.version == GameState.CurrentVersion && old.report.pending && old.report.coins == 123 && old.report.cropDelta[0] == -2 && old.report.itemDelta.Length == 9 && old.coins == coins && old.utcTicks == stamp, "pending report replayed or changed");
         });
         test("malformed old shape is rejected before migration and valid backup wins", () => {
             string dir = Path.Combine("Tools/TestOutput", Guid.NewGuid().ToString("N")); Directory.CreateDirectory(dir);
             var good = Legacy(EndOfChapter()); Wrapped(Path.Combine(dir, "forest-shop.save.bak"), good, 1);
             var bad = Legacy(EndOfChapter()); bad.crops = new int[3]; Wrapped(Path.Combine(dir, "forest-shop.save"), bad, 2);
             var store = new SaveStore(dir, Codec); var s = store.Load();
-            Check(s.version == 3 && s.coins == good.coins && store.RecoveryMessage != null, "bad v1 was silently repaired instead of backup");
+            Check(s.version == GameState.CurrentVersion && s.coins == good.coins && store.RecoveryMessage != null, "bad v1 was silently repaired instead of backup");
         });
         test("forest remains dormant until chapter completion and explicit entry", () => {
             var s = new GameState(); var e = new Economy(s);

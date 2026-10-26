@@ -1,0 +1,107 @@
+{
+  "sourceVideo": "Evidence/moment-flow-simple.mp4",
+  "sourceSha256": "13845D0A9595D250170E222B593EDDCCE73D836EA06E30D36F451BD8777399B0",
+  "selection": {
+    "id": "moment-simple-choice-4",
+    "video": "moment-flow-simple.mp4",
+    "start": 39.21,
+    "end": 42.71,
+    "fps": 4,
+    "approximateHostActionUtc": "2026-10-26T18:34:52.531787+00:00",
+    "scope": "Window chosen from host action time; exported frames retain actual source PTS, not an exact host/video synchronization assertion."
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/moment-simple-choice-4/frame-0001.png",
+      "sourcePTSSeconds": 39.214267,
+      "sha256": "228829FD58B7FD859716858344774C121D823FEA375A3F7D3BFF38DAC2A3CECE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-simple-choice-4/frame-0002.png",
+      "sourcePTSSeconds": 39.468378,
+      "sha256": "1DF2CE1701C6CC0C1AFAB66319CC294FB6175D3168699226550F3F34E64B5E1B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-simple-choice-4/frame-0003.png",
+      "sourcePTSSeconds": 39.723733,
+      "sha256": "F070F5E645657FE11C2F87AB09BAE357D21E9A99297CC22541AA5CA406B5CF32",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-simple-choice-4/frame-0004.png",
+      "sourcePTSSeconds": 40.039189,
+      "sha256": "B082909D0B95202F3A371A592A5BF9834FF7245EE1F81BDB6936046A131C898E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-simple-choice-4/frame-0005.png",
+      "sourcePTSSeconds": 40.310078,
+      "sha256": "14D722352B73D11DDB8C1B2F43054F6CEC62912D9352FA693E92F011717B762C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-simple-choice-4/frame-0006.png",
+      "sourcePTSSeconds": 40.580622,
+      "sha256": "6780B37E257D427D754A30B354ABD76EFAA7A13FA90333A2AABD6B2A584AB9D7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-simple-choice-4/frame-0007.png",
+      "sourcePTSSeconds": 40.861556,
+      "sha256": "EDC0D8AAB095E98C55DD1388C2A7080AF3E7E9CA7F7CB918ACD65E4B87466752",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-simple-choice-4/frame-0008.png",
+      "sourcePTSSeconds": 41.131633,
+      "sha256": "06769350DCA87031C5EEDF5D246D9F030BF146E2A55C43B7E773A9792CBB9C13",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-simple-choice-4/frame-0009.png",
+      "sourcePTSSeconds": 41.4704,
+      "sha256": "D870883444D0B18464A26E31DCC051D7AF324B5C79B405226CF0E15F09DEA86B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-simple-choice-4/frame-0010.png",
+      "sourcePTSSeconds": 41.730933,
+      "sha256": "D6C7030C495B3586911084D9BC6C48137F3743CF103EA3A6544AF644183FDD6C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-simple-choice-4/frame-0011.png",
+      "sourcePTSSeconds": 42.028033,
+      "sha256": "83DF8C2EAC21C1CCD03E4194A3866011E351539443D0FE14F386086A73673397",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-simple-choice-4/frame-0012.png",
+      "sourcePTSSeconds": 42.297644,
+      "sha256": "19BABD60528A157FC00FEDD757F80264851F987EE91C3420665D122B40F8F5B8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moment-simple-choice-4/frame-0013.png",
+      "sourcePTSSeconds": 42.572833,
+      "sha256": "2CCA89BD08150D3C219AE08F6714D1E9C698EF3BD42D0FAF641FC9405E8FBC72",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+[
+  {
+    "id": "update-start",
+    "video": "Startup/update-start.mp4",
+    "start": 0,
+    "end": 14,
+    "fps": 4
+  },
+  {
+    "id": "pending-reload",
+    "video": "Startup/moment-pending-reload.mp4",
+    "start": 0,
+    "end": 10,
+    "fps": 3
+  },
+  {
+    "id": "ordinary-event0",
+    "video": "ordinary-event0.mp4",
+    "start": 0,
+    "end": 67,
+    "fps": 0.5
+  },
+  {
+    "id": "ordinary-event1",
+    "video": "ordinary-event1.mp4",
+    "start": 0,
+    "end": 18,
+    "fps": 2
+  },
+  {
+    "id": "ordinary-event2",
+    "video": "ordinary-event2.mp4",
+    "start": 0,
+    "end": 18,
+    "fps": 2
+  },
+  {
+    "id": "moment-start-continuous",
+    "video": "moment-flow-start.mp4",
+    "start": 0,
+    "end": 65,
+    "fps": 0.5
+  },
+  {
+    "id": "moment-start-choice-0",
+    "video": "moment-flow-start.mp4",
+    "start": 6.594,
+    "end": 10.094,
+    "fps": 4,
+    "approximateHostActionUtc": "2026-10-26T18:31:31.690084+00:00",
+    "scope": "Window chosen from host action time; exported frames retain actual source PTS, not an exact host/video synchronization assertion."
+  },
+  {
+    "id": "moment-start-choice-1",
+    "video": "moment-flow-start.mp4",
+    "start": 12.552,
+    "end": 16.052,
+    "fps": 2,
+    "approximateHostActionUtc": "2026-10-26T18:31:37.648232+00:00",
+    "scope": "Window chosen from host action time; exported frames retain actual source PTS, not an exact host/video synchronization assertion."
+  },
+  {
+    "id": "moment-start-choice-2",
+    "video": "moment-flow-start.mp4",
+    "start": 22.771,
+    "end": 26.271,
+    "fps": 4,
+    "approximateHostActionUtc": "2026-10-26T18:31:47.867013+00:00",
+    "scope": "Window chosen from host action time; exported frames retain actual source PTS, not an exact host/video synchronization assertion."
+  },
+  {
+    "id": "moment-start-choice-3",
+    "video": "moment-flow-start.mp4",
+    "start": 28.687,
+    "end": 32.187,
+    "fps": 2,
+    "approximateHostActionUtc": "2026-10-26T18:31:53.782915+00:00",
+    "scope": "Window chosen from host action time; exported frames retain actual source PTS, not an exact host/video synchronization assertion."
+  },
+  {
+    "id": "moment-start-choice-4",
+    "video": "moment-flow-start.mp4",
+    "start": 38.647,
+    "end": 42.147,
+    "fps": 4,
+    "approximateHostActionUtc": "2026-10-26T18:32:03.742919+00:00",
+    "scope": "Window chosen from host action time; exported frames retain actual source PTS, not an exact host/video synchronization assertion."
+  },
+  {
+    "id": "moment-start-choice-5",
+    "video": "moment-flow-start.mp4",
+    "start": 44.417,
+    "end": 47.917,
+    "fps": 2,
+    "approximateHostActionUtc": "2026-10-26T18:32:09.513305+00:00",
+    "scope": "Window chosen from host action time; exported frames retain actual source PTS, not an exact host/video synchronization assertion."
+  },
+  {
+    "id": "moment-simple-continuous",
+    "video": "moment-flow-simple.mp4",
+    "start": 0,
+    "end": 65,
+    "fps": 0.5
+  },
+  {
+    "id": "moment-simple-choice-0",
+    "video": "moment-flow-simple.mp4",
+    "start": 6.127,
+    "end": 9.627,
+    "fps": 4,
+    "approximateHostActionUtc": "2026-10-26T18:34:19.449415+00:00",
+    "scope": "Window chosen from host action time; exported frames retain actual source PTS, not an exact host/video synchronization assertion."
+  },
+  {
+    "id": "moment-simple-choice-1",
+    "video": "moment-flow-simple.mp4",
+    "start": 11.906,
+    "end": 15.406,
+    "fps": 2,
+    "approximateHostActionUtc": "2026-10-26T18:34:25.228426+00:00",
+    "scope": "Window chosen from host action time; exported frames retain actual source PTS, not an exact host/video synchronization assertion."
+  },
+  {
+    "id": "moment-simple-choice-2",
+    "video": "moment-flow-simple.mp4",
+    "start": 22.195,
+    "end": 25.695,
+    "fps": 4,
+    "approximateHostActionUtc": "2026-10-26T18:34:35.517322+00:00",
+    "scope": "Window chosen from host action time; exported frames retain actual source PTS, not an exact host/video synchronization assertion."
+  },
+  {
+    "id": "moment-simple-choice-3",
+    "video": "moment-flow-simple.mp4",
+    "start": 28.188,
+    "end": 31.688,
+    "fps": 2,
+    "approximateHostActionUtc": "2026-10-26T18:34:41.510435+00:00",
+    "scope": "Window chosen from host action time; exported frames retain actual source PTS, not an exact host/video synchronization assertion."
+  },
+  {
+    "id": "moment-simple-choice-4",
+    "video": "moment-flow-simple.mp4",
+    "start": 39.21,
+    "end": 42.71,
+    "fps": 4,
+    "approximateHostActionUtc": "2026-10-26T18:34:52.531787+00:00",
+    "scope": "Window chosen from host action time; exported frames retain actual source PTS, not an exact host/video synchronization assertion."
+  },
+  {
+    "id": "moment-simple-choice-5",
+    "video": "moment-flow-simple.mp4",
+    "start": 45.764,
+    "end": 49.264,
+    "fps": 2,
+    "approximateHostActionUtc": "2026-10-26T18:34:59.086388+00:00",
+    "scope": "Window chosen from host action time; exported frames retain actual source PTS, not an exact host/video synchronization assertion."
+  },
+  {
+    "id": "moment-adapt-Long-r02",
+    "video": "moment-fit-Long-r02.mp4",
+    "start": 0,
+    "end": 60,
+    "fps": 0.5
+  },
+  {
+    "id": "moment-adapt-Narrow-r02",
+    "video": "moment-fit-Narrow-r02.mp4",
+    "start": 0,
+    "end": 60,
+    "fps": 0.5
+  },
+  {
+    "id": "moment-adapt-SafeTall",
+    "video": "moment-fit-SafeTall.mp4",
+    "start": 0,
+    "end": 60,
+    "fps": 0.5
+  }
+]
