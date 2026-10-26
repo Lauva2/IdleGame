@@ -1,0 +1,189 @@
+﻿
+﻿
+﻿PASS prepared review fixture fishing-filled
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 19.6 MB/s (7024 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 20.8 MB/s (7024 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 941
+WaitTime: 948
+Complete
+{'tap': [900, 2270]}
+{'wait': 2}
+{'tap': [900, 300]}
+{'wait': 3}
+{'shot': '01-fish-list'}
+{'tap': [600, 933]}
+{'shot': '02-species-top'}
+{'swipe': [850, 2160, 850, 1490, 650]}
+{'swipe': [850, 2160, 850, 1490, 650]}
+{'swipe': [850, 2160, 850, 1490, 650]}
+{'shot': '03-species-four-quality-bottom'}
+{'tap': [850, 2230]}
+{'shot': '04-actual-go-fishing'}
+{'tap': [686, 2222]}
+{'shot': '05-fishing-zoom-out'}
+{'swipe': [550, 700, 650, 780, 700]}
+{'shot': '06-fishing-real-pan'}
+{'tap': [966, 2222]}
+{'wait': 14}
+{'shot': '07-recenter-and-catch'}
+{'back': True}
+{'tap': [540, 400]}
+{'shot': '08-greenhouse'}
+{'tap': [180, 400]}
+{'shot': '09-main-courtyard'}
+{'tap': [390, 300]}
+{'shot': '10-garden'}
+{'tap': [660, 300]}
+{'shot': '11-workshop'}
+{'tap': [930, 300]}
+{'shot': '12-shop'}
+{'tap': [1000, 50]}
+{'shot': '13-settings'}
+{'back': True}
+{'tap': [950, 160]}
+{'shot': '14-handbook'}
+{'tap': [900, 1939]}
+{'shot': '15-handbook-greenhouse-destination'}
+{'tap': [950, 160]}
+{'tap': [180, 2226]}
+{'shot': '16-chapter-progress-top'}
+{'swipe': [850, 2160, 850, 1490, 650]}
+{'swipe': [850, 2160, 850, 1490, 650]}
+{'swipe': [850, 2160, 850, 1490, 650]}
+{'swipe': [850, 2160, 850, 1490, 650]}
+{'shot': '17-chapter-progress-footer'}
+﻿
+﻿
+﻿PASS prepared review fixture fishing-filled
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 15.4 MB/s (7024 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 14.9 MB/s (7024 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1008
+WaitTime: 1011
+Complete
+{'tap': [600, 1553]}
+{'wait': 2}
+{'tap': [600, 200]}
+{'wait': 3}
+{'shot': '01-fish-list'}
+{'tap': [400, 622]}
+{'shot': '02-species-top'}
+{'swipe': [567, 1480, 567, 1033, 650]}
+{'swipe': [567, 1480, 567, 1033, 650]}
+{'swipe': [567, 1480, 567, 1033, 650]}
+{'shot': '03-species-four-quality-bottom'}
+{'tap': [567, 1527]}
+{'shot': '04-actual-go-fishing'}
+{'tap': [457, 1521]}
+{'shot': '05-fishing-zoom-out'}
+{'swipe': [367, 467, 433, 520, 700]}
+{'shot': '06-fishing-real-pan'}
+{'tap': [644, 1521]}
+{'wait': 14}
+{'shot': '07-recenter-and-catch'}
+{'back': True}
+{'tap': [360, 267]}
+{'shot': '08-greenhouse'}
+{'tap': [120, 267]}
+{'shot': '09-main-courtyard'}
+{'tap': [260, 200]}
+{'shot': '10-garden'}
+{'tap': [440, 200]}
+{'shot': '11-workshop'}
+{'tap': [620, 200]}
+{'shot': '12-shop'}
+{'tap': [667, 33]}
+{'shot': '13-settings'}
+{'back': True}
+{'tap': [633, 107]}
+{'shot': '14-handbook'}
+{'tap': [600, 1333]}
+{'shot': '15-handbook-greenhouse-destination'}
+{'tap': [633, 107]}
+{'tap': [120, 1524]}
+{'shot': '16-chapter-progress-top'}
+{'swipe': [567, 1480, 567, 1033, 650]}
+{'swipe': [567, 1480, 567, 1033, 650]}
+{'swipe': [567, 1480, 567, 1033, 650]}
+{'swipe': [567, 1480, 567, 1033, 650]}
+{'shot': '17-chapter-progress-footer'}
+﻿
+﻿
+﻿PASS prepared review fixture fishing-filled
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 19.0 MB/s (7024 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 20.0 MB/s (7024 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 962
+WaitTime: 969
+Complete
+{'tap': [900, 1850]}
+{'wait': 2}
+{'tap': [900, 384]}
+{'wait': 3}
+{'shot': '01-fish-list'}
+{'tap': [600, 1017]}
+{'shot': '02-species-top'}
+{'swipe': [850, 1740, 850, 1070, 650]}
+{'swipe': [850, 1740, 850, 1070, 650]}
+{'swipe': [850, 1740, 850, 1070, 650]}
+{'shot': '03-species-four-quality-bottom'}
+{'tap': [850, 1810]}
+{'shot': '04-actual-go-fishing'}
+{'tap': [686, 1802]}
+{'shot': '05-fishing-zoom-out'}
+{'swipe': [550, 784, 650, 864, 700]}
+{'shot': '06-fishing-real-pan'}
+{'tap': [966, 1802]}
+{'wait': 14}
+{'shot': '07-recenter-and-catch'}
+{'back': True}
+{'tap': [540, 484]}
+{'shot': '08-greenhouse'}
+{'tap': [180, 484]}
+{'shot': '09-main-courtyard'}
+{'tap': [390, 384]}
+{'shot': '10-garden'}
+{'tap': [660, 384]}
+{'shot': '11-workshop'}
+{'tap': [930, 384]}
+{'shot': '12-shop'}
+{'tap': [1000, 134]}
+{'shot': '13-settings'}
+{'back': True}
+{'tap': [950, 244]}
+{'shot': '14-handbook'}
+{'tap': [900, 1519]}
+{'shot': '15-handbook-greenhouse-destination'}
+{'tap': [950, 244]}
+{'tap': [180, 1806]}
+{'shot': '16-chapter-progress-top'}
+{'swipe': [850, 1740, 850, 1070, 650]}
+{'swipe': [850, 1740, 850, 1070, 650]}
+{'swipe': [850, 1740, 850, 1070, 650]}
+{'swipe': [850, 1740, 850, 1070, 650]}
+{'shot': '17-chapter-progress-footer'}

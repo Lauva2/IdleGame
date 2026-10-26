@@ -1,0 +1,574 @@
+{
+  "sourceVideo": "Evidence/market-native-1.mp4",
+  "sourceSha256": "5255B54A48F0EC183C71B8D89911B7160B583FE5DAEDFA767489E3B615922453",
+  "selection": {
+    "end": 160,
+    "fps": 0.5,
+    "id": "market-overview-1",
+    "start": 0,
+    "video": "market-native-1.mp4"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/market-overview-1/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "AF4FB4FE574C5277F1F72CC38DD64987D833298387E7A21437258BF6AAE29F24",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0002.png",
+      "sourcePTSSeconds": 2.031022,
+      "sha256": "715693BB066736BC2E3927A282CAFBA325DF2D3F2F888460CAF0057735463A53",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0003.png",
+      "sourcePTSSeconds": 4.036489,
+      "sha256": "5A33FCA6921913A08E1CF0AFFB28A5BBA5DA292C25FD40ACA18236AEE6D91AFC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0004.png",
+      "sourcePTSSeconds": 6.074089,
+      "sha256": "D006206605C15A1DE16284E4C7A1A97F371E06787AAD1E65DE349F0D77C88940",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0005.png",
+      "sourcePTSSeconds": 8.080911,
+      "sha256": "D32E94657C0F9355DB52065495EC3E62B5C796802166B372404526C4FF8A747C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0006.png",
+      "sourcePTSSeconds": 10.0862,
+      "sha256": "D430C2D6E0C9711EF50141D2345FB44ACFC9F2E24AE3629D80DA97AD91D573BB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0007.png",
+      "sourcePTSSeconds": 12.093633,
+      "sha256": "C9CC210D67984BEDCE9F844BD9C3CCB8D645490B3A151169E385DDBD1447A475",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0008.png",
+      "sourcePTSSeconds": 14.094544,
+      "sha256": "4BDCE77D239B014C03964DCF49D2B0164CB5CCD55E356E4D9F97D54F04D44CDD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0009.png",
+      "sourcePTSSeconds": 16.111411,
+      "sha256": "882015E2481AA7CE5C78AA3A6B3D18541FC1E3083E80800BB56A1E6F9621D655",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0010.png",
+      "sourcePTSSeconds": 18.115067,
+      "sha256": "87D82EC20BF62ADE70754885CB8C9E6080EA8FC63B6CEFE90CEABF699FFCA66C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0011.png",
+      "sourcePTSSeconds": 20.1292,
+      "sha256": "6F69B71F4DAED0CFC669466D19926BD0019BAA6CAA2574BF3167E33662328C43",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0012.png",
+      "sourcePTSSeconds": 22.134956,
+      "sha256": "12EC4FD57DA2980682D45454FB6359E2E4A5A35EA2FC84697F152FBB6EB389FD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0013.png",
+      "sourcePTSSeconds": 24.144633,
+      "sha256": "3C38750DE34B7B2D71D9505E56D5C9426CB0C4014183B826F41B49EB145A0559",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0014.png",
+      "sourcePTSSeconds": 26.151789,
+      "sha256": "64CFA55D755F0206CB06DE0C4C74DDEEFD3FD775E47217D68B2A1AD0EC5EF511",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0015.png",
+      "sourcePTSSeconds": 28.164844,
+      "sha256": "D762E0929F14ED91E76434E001805E9F47E73248DDA807849CE2647D74A048B9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0016.png",
+      "sourcePTSSeconds": 30.172956,
+      "sha256": "C01146E6687885107FC82B7E3EA9834503717A0A6712DFC87CCF6A25B7762687",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0017.png",
+      "sourcePTSSeconds": 32.177856,
+      "sha256": "4285EFF8222C7D36DA2312573F17B1A8E6F96D5AAF2135F2A1B555076DC582F2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0018.png",
+      "sourcePTSSeconds": 34.206933,
+      "sha256": "BEDAA3659B00E5675820E7ABB1C9C449F77E02D5732B0D1D2A9D6E3EF1584278",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0019.png",
+      "sourcePTSSeconds": 36.210833,
+      "sha256": "0A3E8E2B5F1CFA1BF9F06448B983572FF09C467467AF7ABE631EBD4FDBCB2FEB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0020.png",
+      "sourcePTSSeconds": 38.218133,
+      "sha256": "282011779B553DC893A1F7225C14670079755BB62674420E227E4A4039FC03F2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0021.png",
+      "sourcePTSSeconds": 40.244267,
+      "sha256": "BF496D7B3E45F678B534AEBA09F4196E446B47FEC40ABA47948B458EC8CF4AE0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0022.png",
+      "sourcePTSSeconds": 42.264622,
+      "sha256": "B9A2CFEA7AC2A376BCFA47B9EBC55CF1E6B3FF2855EEC299C724A513229E658B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0023.png",
+      "sourcePTSSeconds": 44.276789,
+      "sha256": "5809CC25CE9BAB6A2BC7F72DBF6ECDB406ADD8644FB879A05E6FEF68A315FFB4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0024.png",
+      "sourcePTSSeconds": 46.282544,
+      "sha256": "31C922D5891A55956752F7A78D4B39B684D3535983A8E72BE2DA8F8A9E48D370",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0025.png",
+      "sourcePTSSeconds": 48.310967,
+      "sha256": "C94CC3510470A5DF42E7162F25D92D5430B5378798D973C171163245AB19ED1E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0026.png",
+      "sourcePTSSeconds": 50.335122,
+      "sha256": "52EBEFB7A634BEB376A95E926D3AB72D9A2C507F17172F5556F088CE1F21E435",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0027.png",
+      "sourcePTSSeconds": 52.344367,
+      "sha256": "6AD0CC7A3CB300A40D83E27699F6862790D4802CA336DC4DE5DD4DDB13B62CAB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0028.png",
+      "sourcePTSSeconds": 54.351811,
+      "sha256": "31CB7933BAD204F2D5130B4D98441DC2CC448EC691DF1F30352636E32BA3259B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0029.png",
+      "sourcePTSSeconds": 56.376867,
+      "sha256": "989FF03B0C12832A100A8B9C938764E986BD313C086400BD184519220C631F24",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0030.png",
+      "sourcePTSSeconds": 58.377544,
+      "sha256": "6F848DDE9BB6FCB4D56F13A241839B53ECB115B5535D7F127186F061D9B9F4E4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0031.png",
+      "sourcePTSSeconds": 60.3809,
+      "sha256": "5AF1A770B065061A7AA907E7880C0311D32EC6E9B371202CEA09466708E93373",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0032.png",
+      "sourcePTSSeconds": 62.389056,
+      "sha256": "9A0C2ECADB7EECF90BE15D9E769CC0B012F24A3E3435304220D8DBB31B299397",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0033.png",
+      "sourcePTSSeconds": 64.414289,
+      "sha256": "863A3578E42772A370F33CFEC97E9AFFB1180CD1FC52AB31CCB41605305E68C8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0034.png",
+      "sourcePTSSeconds": 66.443511,
+      "sha256": "E153B2503BFD61E7BA511C77BB96E0D272C6742658C3FC9F065CA2E84EFBB7A2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0035.png",
+      "sourcePTSSeconds": 68.452922,
+      "sha256": "F10B669F2456A111C71BD7F3C04D8B4DDAF01E4E69704355EC96AC0260DA50E3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0036.png",
+      "sourcePTSSeconds": 70.477267,
+      "sha256": "F89664FB1384B543FC63A780A8ADBF3482277C48A6783B6F2FD7E32D0558DCE9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0037.png",
+      "sourcePTSSeconds": 72.485344,
+      "sha256": "0AA7765822F7A2AD826C9445DDDB7AA8E625100B8CF06CED6EEEC6F85B9DC7C1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0038.png",
+      "sourcePTSSeconds": 74.489622,
+      "sha256": "D8DE4B03972D7A6C6B1EFC005AFBFC5E5D736A5A30313408B1911498B476FF38",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0039.png",
+      "sourcePTSSeconds": 76.497933,
+      "sha256": "D3BC852B1E7D56DBD4EA7894632AF71C107C77F751A7E8D8901BFA6643E0AFE4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0040.png",
+      "sourcePTSSeconds": 78.506744,
+      "sha256": "2D6A2D11C08B10B3F603953B531A67C78121824DC3E38B84B0A01F1D74FCF5B5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0041.png",
+      "sourcePTSSeconds": 80.520711,
+      "sha256": "AC3A99B9FA22EADFB6C8BFD34A7CEDD378E8F74F32C0EF3E5801ADEE129E7813",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0042.png",
+      "sourcePTSSeconds": 82.526811,
+      "sha256": "74B473A760D36B48479B73C6234436D3E32F8088ABA38A9ABC3632F5254DFE82",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0043.png",
+      "sourcePTSSeconds": 84.547856,
+      "sha256": "7F547832E12939BBD06CCD3399FF2512220EB45C1D306B4A77A1F14D23D8168B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0044.png",
+      "sourcePTSSeconds": 86.560278,
+      "sha256": "4F6DFD1E4834E0E93B56B3A2B51419FDD72CE02837EA655AFD40B3A4429999B2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0045.png",
+      "sourcePTSSeconds": 88.579422,
+      "sha256": "A64B813E7B0C8641D9247CB4856F16EF419EA586DA0B3BA0B7F10E866AFB50C8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0046.png",
+      "sourcePTSSeconds": 90.581256,
+      "sha256": "0B12C0A724427B569420D45CEA94EBA331004CBB7514149B011F9F4490347CFE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0047.png",
+      "sourcePTSSeconds": 92.599267,
+      "sha256": "BA3A69460085E055CC102504C75D456CCB98B94BA746654B153CE3C3A9BAE89A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0048.png",
+      "sourcePTSSeconds": 94.626756,
+      "sha256": "5FC8276497643076AF86D86308B3643833F0391965D9AD4B64AD548FA0301696",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0049.png",
+      "sourcePTSSeconds": 96.632144,
+      "sha256": "A4C5DEB93E9CAD1F472C6AB123829A9DB9F44A62AB4D6F882D8BEEE10D73A99F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0050.png",
+      "sourcePTSSeconds": 98.647533,
+      "sha256": "AB0B745879CAD2FCA5BD948A5C60B1FE3DAE71EB03A4ACAC77C7B2A389F9E0D9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0051.png",
+      "sourcePTSSeconds": 100.6729,
+      "sha256": "95582B248709E7879C4CDA672B6B3F466694713C85F9E0E0E77FD83211985738",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0052.png",
+      "sourcePTSSeconds": 102.706244,
+      "sha256": "038387162A549BFE50C2A0E88ABB2E00C8BEC2EC0526630DA7AE3B9442D03E36",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0053.png",
+      "sourcePTSSeconds": 104.739833,
+      "sha256": "8C17EB8660863DB0EB9AC383B4B4B2975D9EC50A03D6C782EA6CF8C896C164F5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0054.png",
+      "sourcePTSSeconds": 106.743933,
+      "sha256": "64A08013F995E37B566DEFEC623728044605E5CC82C78672286745C0B687101A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0055.png",
+      "sourcePTSSeconds": 108.745078,
+      "sha256": "A05FF195F4F9ABCB19763B2F4E8A09FCAAB54DEC53FC5D3AE492C96026401C94",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0056.png",
+      "sourcePTSSeconds": 110.748344,
+      "sha256": "476C1C3D3AE1D8252313DFED50C1681A05CB09B8BFFD4F59B175699FF058E265",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0057.png",
+      "sourcePTSSeconds": 112.751956,
+      "sha256": "9CF6507DF9D3ABFB3102733AF44598A32C7A4F6E3D05125E002DDD0236264CFA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0058.png",
+      "sourcePTSSeconds": 114.785167,
+      "sha256": "10FCDE08B523D36D9F35410A95E3D1C23E2007729C0AB7367EAF59C71902D32F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0059.png",
+      "sourcePTSSeconds": 116.789778,
+      "sha256": "1F6CE2E0229D478ED0992589FFB9DD2266F560794E6ABC239D6D65EDED2EE3E7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0060.png",
+      "sourcePTSSeconds": 118.7982,
+      "sha256": "823CAB21FDB3F910334BF6169A0A97A5B751BA85831FC72B8799E6A9A8B99286",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0061.png",
+      "sourcePTSSeconds": 120.802489,
+      "sha256": "0D0D55EA1D79C596F2109C8430555B8E5FD6DE47D530954EAC169CF503DE0EA1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0062.png",
+      "sourcePTSSeconds": 122.823311,
+      "sha256": "E43D900B5DF4C8EE06183EB07123B9484AC1573CBE7652D3C3427DEC7DB28595",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0063.png",
+      "sourcePTSSeconds": 124.828822,
+      "sha256": "5245F7FCE5D2920AF2264B1557B3F868981367C127858B6D6DA8EC30B8FE48F3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0064.png",
+      "sourcePTSSeconds": 126.835933,
+      "sha256": "CA3F5999CD01BDF976576ADCF3579C7C049BD7782269700579F31ED7878AC680",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0065.png",
+      "sourcePTSSeconds": 128.868756,
+      "sha256": "A263F7A9FDDB3F15D0CC5B4DD8AC698E6BA60F4E70BDE334CB64CC172BEFAEE0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0066.png",
+      "sourcePTSSeconds": 130.902444,
+      "sha256": "D5AA70FB25CA47BA39DFD597CB9AE502F9FACB2064BEB688A08A2AEA80F87457",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0067.png",
+      "sourcePTSSeconds": 132.934967,
+      "sha256": "48D14E453DE3A0CC0BACFF49F2D72F28E4AD2A1CEE784FC115480DAC8BB2D3D5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0068.png",
+      "sourcePTSSeconds": 134.935433,
+      "sha256": "E83D9CBEF66BB7A672F8D63189C523C863780A43EE2453299E0EEBC30B1189CD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0069.png",
+      "sourcePTSSeconds": 136.944256,
+      "sha256": "8613C3BB7E4FA2695AF9BC689F865BA2CC43B15FD09707F9FAB8E8F44E250E34",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0070.png",
+      "sourcePTSSeconds": 138.951878,
+      "sha256": "9A902CF538B47191A81C617B027CAE2D165D07A9B867CD78554B2873A405818B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0071.png",
+      "sourcePTSSeconds": 140.955544,
+      "sha256": "35CCBD5FCFF4AF63029E1A29AB6C6A03C59CC40CD3CE1BB2515878AC299EAF95",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0072.png",
+      "sourcePTSSeconds": 142.973378,
+      "sha256": "1CF4777CB385675D514A77D8E647F39E439504C9EF65E4C8FA897DE47B2D7490",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0073.png",
+      "sourcePTSSeconds": 144.9808,
+      "sha256": "3EA040F0029E02B95D63917159B33F6FE10D7F730C7EFA6438FB138F3CEF5EA0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0074.png",
+      "sourcePTSSeconds": 146.985811,
+      "sha256": "B18A4974823E400552637A5221BB146ABFF3F754CBBDE4FB56FF0F4BFBF48756",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0075.png",
+      "sourcePTSSeconds": 148.989044,
+      "sha256": "EF22B2AEED7EE55B2ECB2F9DD5FBCFB25E94BAC9F7AD21CB62D698D07A586EF0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0076.png",
+      "sourcePTSSeconds": 151.005289,
+      "sha256": "70B7DAB28422EB9169A53657696006C452F74E8B20A3B3CB5A426166D99C32AC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0077.png",
+      "sourcePTSSeconds": 153.032911,
+      "sha256": "F2FECD6036C2D0DEE6F7FFCCC0A88127B48380A57326A43B36B04F55317070AB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0078.png",
+      "sourcePTSSeconds": 155.039067,
+      "sha256": "61C43ABC13566E95CDFA720563F1A2C330DBBD12D5D059A2FB69625EE6FB5D1E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0079.png",
+      "sourcePTSSeconds": 157.048233,
+      "sha256": "DECB85EC430B6C7DD07B3E8241A433BC59EA9E23172E8ED5CD0FA0F4780117A8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-overview-1/frame-0080.png",
+      "sourcePTSSeconds": 159.052056,
+      "sha256": "1A145A4445B662CC2601455DDD806B984073F041E5F5501805A51841D00C152E",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

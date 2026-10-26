@@ -1,0 +1,27 @@
+--------- beginning of main
+10-26 22:56:41.674  7066  7095 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-26 22:56:41.744  7066  7095 I Unity   : SystemInfo CPU = x86-64 SSE3 SSE4.1 SSE4.2 AVX, Cores = 4, Memory = 5949mb
+10-26 22:56:41.745  7066  7095 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf), 0 little (mask: 0x0)
+10-26 22:56:41.745  7066  7095 I Unity   : ApplicationInfo com.forestatelier.curioshop version 0.2.4
+10-26 22:56:41.745  7066  7095 I Unity   : Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch, Version '2022.3.62f2 (7670c08855a9)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+10-26 22:56:41.916  7066  7095 I Unity   : Company Name: Forest Atelier
+10-26 22:56:41.916  7066  7095 I Unity   : Product Name: 林间奇物铺
+10-26 22:56:41.974  7066  7095 D Unity   :  GL_ANDROID_extension_pack_es31a GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_copy_image GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_primitive_bounding_box GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_io_blocks GL_EXT_shader_texture_lod GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture
+10-26 22:56:41.975  7066  7095 D Unity   : _sRGB_decode GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_geometry_shader GL_OES_packed_depth_stencil GL_OES_primitive_bounding_box GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader
+10-26 22:56:41.975  7066  7095 D Unity   : _image_atomic GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float
+10-26 22:56:42.783  7066  7095 I Unity   : FOREST_STARTUP shell 0.552
+10-26 22:56:42.783  7066  7095 I Unity   : ForestShop.<OpenShop>d__53:MoveNext()
+10-26 22:56:42.783  7066  7095 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+10-26 22:56:42.783  7066  7095 I Unity   : 
+10-26 22:56:42.960  7066  7095 I Unity   : FOREST_STARTUP save-ready 0.753
+10-26 22:56:42.960  7066  7095 I Unity   : ForestShop.<OpenShop>d__53:MoveNext()
+10-26 22:56:42.960  7066  7095 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+10-26 22:56:42.960  7066  7095 I Unity   : 
+10-26 22:56:45.994  7066  7095 I Unity   : FOREST_STARTUP world-ready 3.788
+10-26 22:56:45.994  7066  7095 I Unity   : ForestShop.<OpenShop>d__53:MoveNext()
+10-26 22:56:45.994  7066  7095 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+10-26 22:56:45.994  7066  7095 I Unity   : 
+10-26 22:56:46.307  7066  7095 I Unity   : FOREST_STARTUP interactive 4.088
+10-26 22:56:46.307  7066  7095 I Unity   : ForestShop.<OpenShop>d__53:MoveNext()
+10-26 22:56:46.307  7066  7095 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+10-26 22:56:46.307  7066  7095 I Unity   : 

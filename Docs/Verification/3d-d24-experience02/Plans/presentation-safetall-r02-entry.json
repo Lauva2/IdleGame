@@ -1,0 +1,23 @@
+{
+  "steps": [
+    {
+      "tap": [
+        150,
+        494
+      ]
+    },
+    {
+      "shot": "00-actual-safe-area-map"
+    },
+    {
+      "tap": [
+        780,
+        1275
+      ]
+    },
+    {
+      "shot": "01-confirmed-compact-pavilion"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d24-experience02/Evidence/PresentationFit/SafeTall-r02"
+}

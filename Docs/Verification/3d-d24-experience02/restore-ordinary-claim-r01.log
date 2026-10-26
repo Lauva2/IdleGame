@@ -1,0 +1,42 @@
+{'tap': [850, 1780]}
+{'wait': 2}
+{'shot': '42-final-ordinary-after-claim'}
+{'tap': [900, 1850]}
+{'tap': [900, 300]}
+{'tap': [535, 751]}
+{'shot': '43-final-ordinary-fish-progress'}
+{'tap': [180, 1850]}
+{'shot': '44-final-ordinary-overview'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 5.3 MB/s (6778 bytes in 0.001s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save.bak: 1 file pulled, 0 skipped. 4.8 MB/s (6777 bytes in 0.001s)
+{
+  "scope": "Latest actual ordinary primary/backup, after all isolated fixtures; no prepared resources or fish are restored. Snapshot money continues to grow during normal foreground operation.",
+  "checkpointSha256": "699829AF252D5D83E1B433747BDFAD29D689E45538C3135F2F3B02965A7DCC70",
+  "backupSha256": "3374D69D6BFC7550C9A9E69EEA2665C852DCBBA93E4D6E145856F640495169B7",
+  "finalSaveSha256": "8EA2253FF1C48CED2B5F852723AA11C773285A679F08F7CAF12FA95E92FB79E6",
+  "coins": 1128338,
+  "sales": 1157376,
+  "fish": 55,
+  "discovered": 6,
+  "plots": 6,
+  "shelves": 2,
+  "awaySeconds": 5370.2995,
+  "offlineCoins": 14160,
+  "pausedClockRoundtripErrorSeconds": 0.0,
+  "pausedClockToleranceSeconds": 1e-10,
+  "checks": {
+    "latest_documented_primary_and_backup_restored_exactly": true,
+    "protected_primary_is_latest_audited_ordinary": true,
+    "all_fish_records_and_paused_clock_unchanged": true,
+    "normal_catches_and_species_kept": true,
+    "no_pending_report_after_actual_claim": true,
+    "fishing_paused": true,
+    "original_chapter_and_forest_progress_kept": true,
+    "ordinary_configuration_kept": true,
+    "money_only_follows_original_sales": true,
+    "protected_progress_not_rolled_back": true,
+    "full_offline_replay_passed": true
+  },
+  "allPassed": true
+}
+COMPLETE latest ordinary restoration and claim

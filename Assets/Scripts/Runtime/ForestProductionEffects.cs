@@ -106,7 +106,10 @@ namespace ForestShop
                 // space so zoom or camera tilt cannot put the coin behind it.
                 Vector3 marker = camera.WorldToViewportPoint(anchor.TransformPoint(new Vector3(0, 1.85f, 0)));
                 if (marker.z < 0 || marker.x < .035f || marker.x > .965f || marker.y < .13f || marker.y > .93f) return;
-                marker.y = Mathf.Clamp(marker.y + (marker.y > .48f ? -.105f : .105f), .18f, .84f);
+                // Keep receipts above the badge/product, with a side fallback
+                // near the top edge. Never pull an off-screen source into view.
+                if (marker.y <= .82f) marker.y += .075f;
+                else marker.x += marker.x < .5f ? .11f : -.11f;
                 position = camera.ViewportToWorldPoint(marker);
             }
             Vector3 uv = camera.WorldToViewportPoint(position);
@@ -115,7 +118,9 @@ namespace ForestShop
             if (b.root.gameObject.activeSelf && Time.unscaledTime - b.started < .6f) return;
             if (!b.root.gameObject.activeSelf && ActiveCount >= 5) return;
             b.root.position = position;
-            b.scale = Mathf.Clamp(camera.orthographicSize / 7f, 1, 2.25f);
+            // Sales have a small, stable screen footprint even at closest zoom.
+            // Harvest/craft retain their item silhouette, but also shrink nearby.
+            b.scale = notice.Kind == ProductionKind.Sale ? camera.orthographicSize * .052f : Mathf.Clamp(camera.orthographicSize / 7f, .45f, 1.8f);
             b.root.rotation = notice.Kind == ProductionKind.Sale ? camera.transform.rotation : Quaternion.Euler(0, camera.transform.eulerAngles.y, 0);
             b.started = Time.unscaledTime;
             for (int i = 0; i < b.variants.Length; i++) b.variants[i].gameObject.SetActive(i == notice.Item);

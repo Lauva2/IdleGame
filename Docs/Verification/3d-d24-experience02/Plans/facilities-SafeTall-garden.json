@@ -1,0 +1,47 @@
+{
+  "directory": "Docs/Verification/3d-d24-experience02/Evidence/FacilitiesFit/SafeTall-garden",
+  "steps": [
+    {
+      "tap": [
+        390,
+        384
+      ]
+    },
+    {
+      "shot": "01-actual-world"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "drag_hold": [
+        1000,
+        1740,
+        1000,
+        600,
+        500,
+        650
+      ]
+    },
+    {
+      "shot": "02-actual-facilities-bottom"
+    }
+  ]
+}

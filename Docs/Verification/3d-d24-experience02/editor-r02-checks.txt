@@ -1,0 +1,71 @@
+PASS No ordinary SaveStore opened
+PASS 01-opening recommends opening
+PASS 01-opening handbook reads without changing state
+PASS Opening navigation does not harvest
+PASS Existing core opening actions unchanged
+PASS 02-first-sale recommends orders
+PASS 02-first-sale handbook reads without changing state
+PASS stage-00 recommends forest-entry
+PASS stage-00 handbook reads without changing state
+PASS stage-01 recommends forage
+PASS stage-01 handbook reads without changing state
+PASS Navigation never grants/collects/configures or delivers forage
+PASS Navigation opens actual forage
+PASS stage-02 recommends forest-repair
+PASS stage-02 handbook reads without changing state
+PASS stage-03 recommends orders
+PASS stage-03 handbook reads without changing state
+PASS stage-04 recommends forest-repair
+PASS stage-04 handbook reads without changing state
+PASS stage-05 recommends forage
+PASS stage-05 handbook reads without changing state
+PASS Navigation never grants/collects/configures or delivers forage
+PASS Navigation opens actual forage
+PASS stage-06 recommends orders
+PASS stage-06 handbook reads without changing state
+PASS stage-07 recommends forest-repair
+PASS stage-07 handbook reads without changing state
+PASS stage-08 recommends forage
+PASS stage-08 handbook reads without changing state
+PASS Navigation never grants/collects/configures or delivers forage
+PASS Navigation opens actual forage
+PASS stage-09 recommends orders
+PASS stage-09 handbook reads without changing state
+PASS stage-10 recommends forest-repair
+PASS stage-10 handbook reads without changing state
+PASS stage-11 recommends fish-species
+PASS stage-11 handbook reads without changing state
+PASS supply-berry recommends nursery
+PASS supply-berry handbook reads without changing state
+PASS Navigation never grants/collects/configures or delivers nursery
+PASS Navigation opens actual nursery
+PASS supply-dew recommends nursery
+PASS supply-dew handbook reads without changing state
+PASS supply-resin recommends forage
+PASS supply-resin handbook reads without changing state
+PASS supply-ready recommends machine
+PASS supply-ready handbook reads without changing state
+PASS Navigation never grants/collects/configures or delivers machine
+PASS Navigation opens actual machine
+PASS supply-working recommends machine
+PASS supply-working handbook reads without changing state
+PASS Committed recipe materials are not mistaken for a missing input
+PASS supply-deliver recommends orders
+PASS supply-deliver handbook reads without changing state
+PASS Next clue prefers an unfound fish with an accessible habitat and bait
+PASS Clue navigates to an accessible actual fishing spot
+PASS Fishing hides repeated chrome while resources/settings remain reachable
+PASS Expanded details are reachable and compact mode gives more water height
+PASS All three bait choices remain reachable in details
+PASS Detail expansion changes no state/RNG/fish clock or zoom
+PASS Expand/collapse round trip preserves pan and exact saved state
+PASS Settings safely leave fishing and pause the original cast
+PASS Global navigation is restored after fishing
+PASS all-species recommends fish-collection
+PASS all-species handbook reads without changing state
+PASS Prepared all-species collection is complete
+PASS HUD counts match actual Core settlement deltas
+PASS Pending offline report does not replay receipt
+PASS A new foreground receipt excludes old offline income
+PASS Switching prepared state cannot replay historical counters
+PASS Source inputs unchanged throughout isolated capture

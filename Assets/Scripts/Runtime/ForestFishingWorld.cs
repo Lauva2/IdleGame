@@ -93,6 +93,13 @@ namespace ForestShop
             cameraFocus+=framing;worldCamera.transform.position+=framing;fishingCameraAnchor=cameraFocus-transform.position;
         }
         public void LeaveFishingFocus(){if(!FishingFocused)return;FishingFocused=false;if(Region>=4 && Region<=6)SetRegion(Region);}
+        public void ReframeFishing(float viewportY)
+        {
+            if(!FishingFocused)return;
+            float next=Mathf.Clamp(viewportY,.5f,.82f);
+            Vector3 shift=-worldCamera.transform.up*((next-fishingFramingY)*worldCamera.orthographicSize*2);
+            cameraFocus+=shift;worldCamera.transform.position+=shift;fishingCameraAnchor+=shift;fishingFramingY=next;
+        }
         Vector2 FishingMarker(int spot)
         { var p=worldCamera.WorldToViewportPoint(fishingDocks[spot].TransformPoint(V(0,.15f,spot==2?-4:spot==1?2:-.95f))); return new Vector2(p.x,p.y); }
         public void PresentFishCatch(FishCatch caught)

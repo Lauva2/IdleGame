@@ -1,0 +1,35 @@
+{
+  "directory": "Docs/Verification/3d-d24-experience02/Evidence/Forest",
+  "steps": [
+    {
+      "tap": [
+        305,
+        1310
+      ]
+    },
+    {
+      "shot": "08-nursery-species-choice"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        885,
+        1640
+      ]
+    },
+    {
+      "wait": 15
+    },
+    {
+      "shot": "09-growing-greenhouse-closeup"
+    },
+    {
+      "tap": [
+        998,
+        1640
+      ]
+    }
+  ]
+}

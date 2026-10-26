@@ -1,0 +1,200 @@
+﻿
+﻿
+﻿PASS prepared review fixture fishing-filled
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 13.8 MB/s (7024 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 19.3 MB/s (7024 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 952
+WaitTime: 964
+Complete
+{'tap': [150, 410]}
+{'tap': [780, 1250]}
+{'shot': '01-compact-pavilion'}
+{'tap': [500, 1835]}
+{'shot': '02-details-and-three-baits'}
+{'tap': [930, 1530]}
+{'shot': '03-changed-berry-bait'}
+{'tap': [500, 1835]}
+{'shot': '04-expanded-context'}
+{'tap': [500, 1835]}
+{'tap': [717, 1835]}
+{'shot': '05-zoom-out'}
+{'swipe': [550, 700, 650, 800, 700]}
+{'shot': '06-real-pan'}
+{'tap': [977, 1835]}
+{'wait': 14}
+{'shot': '07-recenter-and-actual-catch'}
+{'tap': [1000, 50]}
+{'shot': '08-settings-directly-from-fishing'}
+{'back': True}
+{'shot': '09-navigation-after-settings'}
+{'tap': [780, 1250]}
+{'shot': '10-reentered-original-spot'}
+{'tap': [590, 1690]}
+{'shot': '11-individual-top'}
+{'drag_hold': [1000, 1740, 1000, 1220, 400, 600]}
+{'shot': '12-individual-bottom'}
+{'back': True}
+{'shot': '13-global-navigation-restored'}
+{'tap': [1000, 50]}
+{'shot': '14-settings-accessible'}
+/sdcard/3d-d24-experience02-presentation-fit-Default.mp4: 1 file pulled, 0 skipped. 26.6 MB/s (30080797 bytes in 1.077s)
+COMPLETE fishing fitting Default
+﻿
+﻿
+﻿PASS prepared review fixture fishing-filled
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 18.1 MB/s (7024 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 21.7 MB/s (7024 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1110
+WaitTime: 1117
+Complete
+{'tap': [150, 410]}
+{'tap': [780, 1250]}
+{'shot': '01-compact-pavilion'}
+{'tap': [500, 2255]}
+{'shot': '02-details-and-three-baits'}
+{'tap': [930, 1950]}
+{'shot': '03-changed-berry-bait'}
+{'tap': [500, 2255]}
+{'shot': '04-expanded-context'}
+{'tap': [500, 2255]}
+{'tap': [717, 2255]}
+{'shot': '05-zoom-out'}
+{'swipe': [550, 700, 650, 800, 700]}
+{'shot': '06-real-pan'}
+{'tap': [977, 2255]}
+{'wait': 14}
+{'shot': '07-recenter-and-actual-catch'}
+{'tap': [1000, 50]}
+{'shot': '08-settings-directly-from-fishing'}
+{'back': True}
+{'shot': '09-navigation-after-settings'}
+{'tap': [780, 1250]}
+{'shot': '10-reentered-original-spot'}
+{'tap': [590, 2110]}
+{'shot': '11-individual-top'}
+{'drag_hold': [1000, 2160, 1000, 1640, 400, 600]}
+{'shot': '12-individual-bottom'}
+{'back': True}
+{'shot': '13-global-navigation-restored'}
+{'tap': [1000, 50]}
+{'shot': '14-settings-accessible'}
+/sdcard/3d-d24-experience02-presentation-fit-Long.mp4: 1 file pulled, 0 skipped. 25.3 MB/s (53575982 bytes in 2.016s)
+COMPLETE fishing fitting Long
+﻿
+﻿
+﻿PASS prepared review fixture fishing-filled
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 20.7 MB/s (7024 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 21.7 MB/s (7024 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1039
+WaitTime: 1049
+Complete
+{'tap': [100, 273]}
+{'tap': [520, 833]}
+{'shot': '01-compact-pavilion'}
+{'tap': [333, 1543]}
+{'shot': '02-details-and-three-baits'}
+{'tap': [620, 1340]}
+{'shot': '03-changed-berry-bait'}
+{'tap': [333, 1543]}
+{'shot': '04-expanded-context'}
+{'tap': [333, 1543]}
+{'tap': [478, 1543]}
+{'shot': '05-zoom-out'}
+{'swipe': [367, 467, 433, 533, 700]}
+{'shot': '06-real-pan'}
+{'tap': [651, 1543]}
+{'wait': 14}
+{'shot': '07-recenter-and-actual-catch'}
+{'tap': [667, 33]}
+{'shot': '08-settings-directly-from-fishing'}
+{'back': True}
+{'shot': '09-navigation-after-settings'}
+{'tap': [520, 833]}
+{'shot': '10-reentered-original-spot'}
+{'tap': [393, 1447]}
+{'shot': '11-individual-top'}
+{'drag_hold': [667, 1480, 667, 1133, 400, 600]}
+{'shot': '12-individual-bottom'}
+{'back': True}
+{'shot': '13-global-navigation-restored'}
+{'tap': [667, 33]}
+{'shot': '14-settings-accessible'}
+/sdcard/3d-d24-experience02-presentation-fit-Narrow.mp4: 1 file pulled, 0 skipped. 24.5 MB/s (32755858 bytes in 1.277s)
+COMPLETE fishing fitting Narrow
+﻿
+﻿
+﻿PASS prepared review fixture fishing-filled
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 16.9 MB/s (7024 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 19.1 MB/s (7024 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1101
+WaitTime: 1109
+Complete
+{'tap': [150, 494]}
+{'tap': [780, 1334]}
+{'shot': '01-compact-pavilion'}
+{'tap': [500, 1835]}
+{'shot': '02-details-and-three-baits'}
+{'tap': [930, 1530]}
+{'shot': '03-changed-berry-bait'}
+{'tap': [500, 1835]}
+{'shot': '04-expanded-context'}
+{'tap': [500, 1835]}
+{'tap': [717, 1835]}
+{'shot': '05-zoom-out'}
+{'swipe': [550, 784, 650, 884, 700]}
+{'shot': '06-real-pan'}
+{'tap': [977, 1835]}
+{'wait': 14}
+{'shot': '07-recenter-and-actual-catch'}
+{'tap': [1000, 134]}
+{'shot': '08-settings-directly-from-fishing'}
+{'back': True}
+{'shot': '09-navigation-after-settings'}
+{'tap': [780, 1334]}
+{'shot': '10-reentered-original-spot'}
+{'tap': [590, 1690]}
+{'shot': '11-individual-top'}
+{'drag_hold': [1000, 1740, 1000, 1220, 400, 600]}
+{'shot': '12-individual-bottom'}
+{'back': True}
+{'shot': '13-global-navigation-restored'}
+{'tap': [1000, 134]}
+{'shot': '14-settings-accessible'}
+/sdcard/3d-d24-experience02-presentation-fit-SafeTall.mp4: 1 file pulled, 0 skipped. 21.5 MB/s (13268168 bytes in 0.588s)
+COMPLETE fishing fitting SafeTall

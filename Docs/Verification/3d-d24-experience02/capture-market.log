@@ -1,0 +1,40 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-visits.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-visits.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-visits.save: 1 file pushed, 0 skipped. 15.9 MB/s (6699 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-visits.save: 1 file pushed, 0 skipped. 18.1 MB/s (6699 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1460
+WaitTime: 1463
+Complete
+{'tap': [660, 300]}
+{'tap': [355, 980]}
+{'shot': '01-new-tea-recipe'}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'shot': '02-tea-recipe-bottom'}
+{'back': True}
+{'tap': [700, 980]}
+{'shot': '03-new-workbench-recipes'}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'shot': '04-spray-and-balm-recipes'}
+{'back': True}
+{'tap': [900, 1850]}
+{'shot': '05-nine-products-top'}
+{'swipe': [1000, 1640, 1000, 640, 750]}
+{'swipe': [1000, 1640, 1000, 640, 750]}
+{'swipe': [1000, 1640, 1000, 640, 750]}
+{'shot': '06-all-new-products-bottom'}
+{'tap': [180, 1850]}
+{'tap': [930, 300]}
+{'shot': '07-new-products-shop-default'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.3 MB/s (4710 bytes in 0.001s)
+/sdcard/3d-d24-experience02-market-native-1.mp4: 1 file pulled, 0 skipped. 22.7 MB/s (65727642 bytes in 2.762s)
+/sdcard/3d-d24-experience02-market-native-2.mp4: 1 file pulled, 0 skipped. 23.7 MB/s (65731544 bytes in 2.647s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.9 MB/s (4719 bytes in 0.002s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/performance-v2.csv: 1 file pulled, 0 skipped. 9.1 MB/s (44951 bytes in 0.005s)

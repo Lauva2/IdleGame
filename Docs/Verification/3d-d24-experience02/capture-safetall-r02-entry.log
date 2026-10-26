@@ -1,0 +1,22 @@
+﻿
+﻿
+﻿PASS prepared review fixture fishing-filled
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 5.5 MB/s (7024 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 14.2 MB/s (7024 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1378
+WaitTime: 1393
+Complete
+{'tap': [150, 494]}
+{'shot': '00-actual-safe-area-map'}
+{'tap': [780, 1275]}
+{'shot': '01-confirmed-compact-pavilion'}
+ENTRY requires visual confirmation before Flow

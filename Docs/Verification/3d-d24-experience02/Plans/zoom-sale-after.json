@@ -1,0 +1,26 @@
+{
+  "directory": "Docs/Verification/3d-d24-experience02/Evidence/ZoomSales",
+  "steps": [
+    {
+      "shot": "02-closest-after-sales"
+    },
+    {
+      "swipe": [
+        550,
+        1000,
+        300,
+        1500,
+        900
+      ]
+    },
+    {
+      "shot": "03-panned-source"
+    },
+    {
+      "wait": 12
+    },
+    {
+      "shot": "04-panned-after-sales"
+    }
+  ]
+}

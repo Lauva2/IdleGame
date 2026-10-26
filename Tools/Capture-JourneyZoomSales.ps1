@@ -22,3 +22,12 @@ $panRemote='/sdcard/'+(Split-Path -Leaf $Folder)+'-shop-pan.mp4'
 & $adb -P 5038 -s $serial shell screenrecord --size 1080x1920 --bit-rate 4000000 --time-limit 20 $panRemote
 if($LASTEXITCODE -ne 0){throw 'Actual pan recorder failed'}
 & $adb -P 5038 -s $serial pull $panRemote "$Folder/Evidence/shop-closeup-pan-clearance.mp4"
+@{directory="$Folder/Evidence/ZoomSales";steps=@(@{swipe=@(550,1000,1000,1450,900)},@{swipe=@(550,1000,1000,1450,900)},@{swipe=@(550,1000,1000,1450,900)},@{swipe=@(550,1000,1000,1450,900)},@{wait=3},@{shot='05-real-pan-far-away-from-shelves'})}|ConvertTo-Json -Depth 7|Set-Content "$Folder/Plans/zoom-sale-offscreen.json"
+& $python Tools/Forest-DeviceReview.py "$Folder/Plans/zoom-sale-offscreen.json"
+if($LASTEXITCODE -ne 0){throw 'Actual offscreen source plan failed'}
+& $adb -P 5038 -s $serial pull /sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save "$Folder/offscreen-sales-before.save"
+$offRemote='/sdcard/'+(Split-Path -Leaf $Folder)+'-shop-offscreen.mp4'
+& $adb -P 5038 -s $serial shell screenrecord --size 1080x1920 --bit-rate 4000000 --time-limit 35 $offRemote
+if($LASTEXITCODE -ne 0){throw 'Actual offscreen source recorder failed'}
+& $adb -P 5038 -s $serial pull $offRemote "$Folder/Evidence/shop-closeup-offscreen-source.mp4"
+& $adb -P 5038 -s $serial pull /sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save "$Folder/offscreen-sales-after.save"

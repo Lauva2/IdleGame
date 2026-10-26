@@ -1,0 +1,126 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-vines.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-vines.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-vines.save: 1 file pushed, 0 skipped. 13.7 MB/s (6700 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-vines.save: 1 file pushed, 0 skipped. 8.8 MB/s (6700 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1695
+WaitTime: 1704
+Complete
+{'tap': [150, 410]}
+{'shot': '15-creek-before-vines'}
+{'tap': [300, 1140]}
+{'shot': '16-dew-inspection'}
+{'tap': [850, 1605]}
+{'shot': '17-actual-dew-gather'}
+{'tap': [900, 300]}
+{'shot': '18-vine-requirements'}
+{'tap': [850, 1600]}
+{'shot': '19-vine-path-open'}
+{'tap': [900, 300]}
+{'shot': '20-grove-new-path'}
+{'tap': [300, 1140]}
+{'shot': '21-resin-inspection'}
+{'tap': [850, 1765]}
+{'shot': '22-actual-resin-gather'}
+/sdcard/3d-d24-experience02-forest-dew-resin-vines.mp4: 1 file pulled, 0 skipped. 22.4 MB/s (33877336 bytes in 1.439s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-dialogue0.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-dialogue0.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-dialogue0.save: 1 file pushed, 0 skipped. 20.5 MB/s (6698 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-dialogue0.save: 1 file pushed, 0 skipped. 17.2 MB/s (6698 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1150
+WaitTime: 1158
+Complete
+{'shot': '23-forest-dialogue-0-top'}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'shot': '24-forest-dialogue-0-bottom'}
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-dialogue1.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-dialogue1.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-dialogue1.save: 1 file pushed, 0 skipped. 16.6 MB/s (6698 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-dialogue1.save: 1 file pushed, 0 skipped. 17.8 MB/s (6698 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1165
+WaitTime: 1169
+Complete
+{'shot': '23-forest-dialogue-1-top'}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'shot': '24-forest-dialogue-1-bottom'}
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-dialogue2.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-dialogue2.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-dialogue2.save: 1 file pushed, 0 skipped. 16.2 MB/s (6698 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-dialogue2.save: 1 file pushed, 0 skipped. 17.5 MB/s (6698 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1068
+WaitTime: 1076
+Complete
+{'shot': '23-forest-dialogue-2-top'}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'shot': '24-forest-dialogue-2-bottom'}
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-full.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-full.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-full.save: 1 file pushed, 0 skipped. 10.1 MB/s (6708 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-full.save: 1 file pushed, 0 skipped. 9.6 MB/s (6708 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1052
+WaitTime: 1065
+Complete
+{'tap': [150, 410]}
+{'tap': [540, 400]}
+{'shot': '25-both-species-mature-full-warehouse'}
+{'tap': [305, 1310]}
+{'shot': '26-nursery-full-written-status'}
+{'back': True}
+{'tap': [180, 300]}
+{'tap': [300, 1140]}
+{'shot': '27-full-warehouse-forage-disabled'}
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-report.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-report.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-report.save: 1 file pushed, 0 skipped. 14.5 MB/s (6841 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-report.save: 1 file pushed, 0 skipped. 17.0 MB/s (6841 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1111
+WaitTime: 1118
+Complete
+{'shot': '28-expanded-offline-report-top'}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'shot': '29-expanded-offline-report-bottom'}

@@ -1,0 +1,24 @@
+{
+  "candidate": "3d-d24-experience02",
+  "utc": "2026-10-26T16:16:23.536998+00:00",
+  "apkSha256": "8877778FBA2D3D47AA4634300DA77FF388A533B57EDCCF952FA1D4D98087B797",
+  "sourceManifestSha256": "0E7D86CAE95D99DCC5F8DFD22C82E5858B1625860FF73DEB34256B55B9B36CF9",
+  "indices": [
+    {
+      "path": "original-media-index-r01.json",
+      "sha256": "D0A25B90E81D4A4DA1DE12F030F645BB4FFF0F2C82B1E262178C8BD45C8F682E",
+      "rows": 519
+    },
+    {
+      "path": "sample-media-index-r01.json",
+      "sha256": "7FB635B3076ED5CE1F4C228369F453D7002E58A3B156DD7D8ED7DD34945FDB9E",
+      "rows": 1591
+    }
+  ],
+  "originalImages": 470,
+  "originalVideos": 49,
+  "sampledFrames": 1591,
+  "originalBytes": 1615629351,
+  "sampleBytes": 1806515231,
+  "scope": "Original media and necessary source-PTS samples retained locally on E. No full-video decode requirement or assertion all frames visually checked. Sampling is not a substitute for independent review or whole-product acceptance."
+}

@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-26T16:51:45.704853+00:00",
+  "candidate": "3d-d24-experience02",
+  "apkSha256": "8877778FBA2D3D47AA4634300DA77FF388A533B57EDCCF952FA1D4D98087B797",
+  "sourceManifestSha256": "0E7D86CAE95D99DCC5F8DFD22C82E5858B1625860FF73DEB34256B55B9B36CF9",
+  "baseEvidenceFreeze": {
+    "path": "evidence-freeze-r01.json",
+    "sha256": "E128FA12261E0CAAC2967F3D4B1BD21BF6F396BC45B0E071C36D8E4C3681BEE7"
+  },
+  "sourceVideo": {
+    "path": "Evidence/interfaces.mp4",
+    "sha256": "E094014257F7C2BE4EDD4B39B0B05D55F5CD3738462D7D0FFF63FA1A223377B7",
+    "bytes": 54846263,
+    "type": "original-video",
+    "width": 1080,
+    "height": 1920,
+    "duration": 119.25,
+    "nominalFPS": 23.3
+  },
+  "sampleIndex": {
+    "path": "Samples/interface-scroll-r02/sample-index.json",
+    "sha256": "6B8D077F9986A3D7DCFC3F436831A6C79CBD174C143E0FEA611391717C513337",
+    "frames": 44
+  },
+  "actualPTSRangeSeconds": [
+    32.554122,
+    48.2768
+  ],
+  "bytes": 23888038,
+  "scope": "Independent reviewer requested real scrolling intermediates. Select original native source PTS32.5-48.5 with3FPS upper limit and small UTC alignment buffers, not a whole-video expansion. The original video was already frozen by r01; no game/device changes or old-index overwrites. Dynamic visual acceptance remains with the same independent role."
+}

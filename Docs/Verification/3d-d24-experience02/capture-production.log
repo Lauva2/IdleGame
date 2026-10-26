@@ -1,0 +1,51 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\late.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\late.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\late.save: 1 file pushed, 0 skipped. 18.1 MB/s (6490 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\late.save: 1 file pushed, 0 skipped. 19.0 MB/s (6490 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1019
+WaitTime: 1024
+Complete
+{'tap': [390, 300]}
+{'shot': 'production-garden-before'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.1 MB/s (4271 bytes in 0.001s)
+/sdcard/3d-d24-experience02-production-garden.mp4: 1 file pulled, 0 skipped. 24.2 MB/s (17093072 bytes in 0.673s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.2 MB/s (4396 bytes in 0.001s)
+{'shot': 'production-garden-after'}
+{'tap': [660, 300]}
+{'shot': 'production-workshop-before'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.5 MB/s (4399 bytes in 0.003s)
+/sdcard/3d-d24-experience02-production-workshop.mp4: 1 file pulled, 0 skipped. 26.8 MB/s (14799294 bytes in 0.527s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.7 MB/s (4398 bytes in 0.002s)
+{'shot': 'production-workshop-after'}
+{'tap': [930, 300]}
+{'shot': 'production-shop-before'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.9 MB/s (4398 bytes in 0.002s)
+/sdcard/3d-d24-experience02-production-shop.mp4: 1 file pulled, 0 skipped. 25.6 MB/s (15379702 bytes in 0.573s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.3 MB/s (4390 bytes in 0.001s)
+{'shot': 'production-shop-after'}
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\busy.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\busy.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\busy.save: 1 file pushed, 0 skipped. 9.4 MB/s (6487 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\busy.save: 1 file pushed, 0 skipped. 9.8 MB/s (6487 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1584
+WaitTime: 1589
+Complete
+{'tap': [390, 300]}
+{'shot': 'busy-twelve-garden'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.6 MB/s (4250 bytes in 0.002s)
+/sdcard/3d-d24-experience02-busy-garden.mp4: 1 file pulled, 0 skipped. 27.6 MB/s (22271238 bytes in 0.770s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.3 MB/s (4390 bytes in 0.001s)

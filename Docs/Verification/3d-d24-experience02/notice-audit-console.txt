@@ -1,0 +1,159 @@
+{
+  "scope": "Explicit artificial prior records/RNG seed, followed by one actual automatic APK catch. Excluded from ordinary progress and natural probability evidence. Visible notice text must also be inspected in untouched native screenshots/video.",
+  "capturePrefix": "notice",
+  "samples": [
+    {
+      "kind": "new",
+      "preparedSeed": 3,
+      "prior": null,
+      "actual": {
+        "sequence": 1,
+        "species": 1,
+        "quality": 0,
+        "lengthMm": 221,
+        "weightGrams": 120,
+        "spot": 0,
+        "bait": 0
+      },
+      "sha256": "707AEC74F4A71B37FCAF4B292805F06EE8343BAB1741900676B7E8D628A22DE1",
+      "checks": {
+        "actual_catch_equals_prepared_seed": true,
+        "exactly_one_real_new_catch": true,
+        "paused_on_opening_individual": true,
+        "expected_notice_from_independent_prior": true,
+        "record_length_correct": true,
+        "record_weight_correct": true,
+        "quality_count_preserved": true
+      }
+    },
+    {
+      "kind": "length",
+      "preparedSeed": 3,
+      "prior": {
+        "sequence": 1,
+        "species": 1,
+        "quality": 0,
+        "lengthMm": 211,
+        "weightGrams": 123,
+        "spot": 0,
+        "bait": 0
+      },
+      "actual": {
+        "sequence": 2,
+        "species": 1,
+        "quality": 0,
+        "lengthMm": 221,
+        "weightGrams": 120,
+        "spot": 0,
+        "bait": 0
+      },
+      "sha256": "AD6D0568A6B5BC5560A1D2A6BFBCBA1237617A7A1B292A7A807388E70F637566",
+      "checks": {
+        "actual_catch_equals_prepared_seed": true,
+        "exactly_one_real_new_catch": true,
+        "paused_on_opening_individual": true,
+        "expected_notice_from_independent_prior": true,
+        "record_length_correct": true,
+        "record_weight_correct": true,
+        "quality_count_preserved": true
+      }
+    },
+    {
+      "kind": "weight",
+      "preparedSeed": 3,
+      "prior": {
+        "sequence": 1,
+        "species": 1,
+        "quality": 0,
+        "lengthMm": 231,
+        "weightGrams": 117,
+        "spot": 0,
+        "bait": 0
+      },
+      "actual": {
+        "sequence": 2,
+        "species": 1,
+        "quality": 0,
+        "lengthMm": 221,
+        "weightGrams": 120,
+        "spot": 0,
+        "bait": 0
+      },
+      "sha256": "D4E4BE75C0BFE5F2E8C7886357B70BDC2DF9BBE962ECEE850932F2FD396A6E5A",
+      "checks": {
+        "actual_catch_equals_prepared_seed": true,
+        "exactly_one_real_new_catch": true,
+        "paused_on_opening_individual": true,
+        "expected_notice_from_independent_prior": true,
+        "record_length_correct": true,
+        "record_weight_correct": true,
+        "quality_count_preserved": true
+      }
+    },
+    {
+      "kind": "both",
+      "preparedSeed": 3,
+      "prior": {
+        "sequence": 1,
+        "species": 1,
+        "quality": 0,
+        "lengthMm": 211,
+        "weightGrams": 117,
+        "spot": 0,
+        "bait": 0
+      },
+      "actual": {
+        "sequence": 2,
+        "species": 1,
+        "quality": 0,
+        "lengthMm": 221,
+        "weightGrams": 120,
+        "spot": 0,
+        "bait": 0
+      },
+      "sha256": "BAB24A8E7EC4932837EE68191DD4A77A3A56262595C963BBB1AD4CAE195652AB",
+      "checks": {
+        "actual_catch_equals_prepared_seed": true,
+        "exactly_one_real_new_catch": true,
+        "paused_on_opening_individual": true,
+        "expected_notice_from_independent_prior": true,
+        "record_length_correct": true,
+        "record_weight_correct": true,
+        "quality_count_preserved": true
+      }
+    },
+    {
+      "kind": "ordinary",
+      "preparedSeed": 3,
+      "prior": {
+        "sequence": 1,
+        "species": 1,
+        "quality": 0,
+        "lengthMm": 231,
+        "weightGrams": 123,
+        "spot": 0,
+        "bait": 0
+      },
+      "actual": {
+        "sequence": 2,
+        "species": 1,
+        "quality": 0,
+        "lengthMm": 221,
+        "weightGrams": 120,
+        "spot": 0,
+        "bait": 0
+      },
+      "sha256": "8D986182C99223B52E16057D95621121F3F2060324994D0ACF5811398DB9E9F5",
+      "checks": {
+        "actual_catch_equals_prepared_seed": true,
+        "exactly_one_real_new_catch": true,
+        "paused_on_opening_individual": true,
+        "expected_notice_from_independent_prior": true,
+        "record_length_correct": true,
+        "record_weight_correct": true,
+        "quality_count_preserved": true
+      }
+    }
+  ],
+  "allPassed": true
+}

@@ -1,0 +1,32 @@
+{'shot': '02-compact-recording-start'}
+{'tap': [500, 1835]}
+{'shot': '03-details-and-three-baits'}
+{'tap': [930, 1530]}
+{'shot': '04-changed-berry-bait'}
+{'tap': [500, 1835]}
+{'shot': '05-expanded-context'}
+{'tap': [500, 1835]}
+{'tap': [717, 1835]}
+{'shot': '06-zoom-out'}
+{'swipe': [550, 784, 650, 884, 700]}
+{'shot': '07-real-pan'}
+{'tap': [977, 1835]}
+{'wait': 14}
+{'shot': '08-recenter-and-actual-catch'}
+{'tap': [1000, 134]}
+{'shot': '09-settings-directly-from-fishing'}
+{'back': True}
+{'shot': '10-navigation-after-settings'}
+{'tap': [780, 1275]}
+{'shot': '11-reentered-original-spot'}
+{'tap': [590, 1690]}
+{'shot': '12-individual-top'}
+{'drag_hold': [1000, 1740, 1000, 1220, 400, 600]}
+{'shot': '13-individual-bottom'}
+{'back': True}
+{'shot': '14-global-navigation-restored'}
+{'tap': [1000, 134]}
+{'shot': '15-settings-accessible'}
+/sdcard/3d-d24-experience02-presentation-safetall-r02.mp4: 1 file pulled, 0 skipped. 29.5 MB/s (26399581 bytes in 0.853s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 4.9 MB/s (7023 bytes in 0.001s)
+COMPLETE corrected safe-area native flow

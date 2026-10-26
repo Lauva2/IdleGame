@@ -1,0 +1,35 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\visits.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\visits.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\visits.save: 1 file pushed, 0 skipped. 20.7 MB/s (6490 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\visits.save: 1 file pushed, 0 skipped. 20.0 MB/s (6490 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1067
+WaitTime: 1072
+Complete
+{'tap': [930, 300]}
+{'tap': [888, 1572]}
+{'tap': [888, 1572]}
+{'tap': [888, 1572]}
+{'shot': '01-closest-shop-camera'}
+/sdcard/3d-d24-experience02-shop-zoom.mp4: 1 file pulled, 0 skipped. 27.3 MB/s (19923163 bytes in 0.695s)
+{'shot': '02-closest-after-sales'}
+{'swipe': [550, 1000, 300, 1500, 900]}
+{'shot': '03-panned-source'}
+{'wait': 12}
+{'shot': '04-panned-after-sales'}
+/sdcard/3d-d24-experience02-shop-pan.mp4: 1 file pulled, 0 skipped. 30.0 MB/s (10705264 bytes in 0.341s)
+{'swipe': [550, 1000, 1000, 1450, 900]}
+{'swipe': [550, 1000, 1000, 1450, 900]}
+{'swipe': [550, 1000, 1000, 1450, 900]}
+{'swipe': [550, 1000, 1000, 1450, 900]}
+{'wait': 3}
+{'shot': '05-real-pan-far-away-from-shelves'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 0.9 MB/s (4398 bytes in 0.005s)
+/sdcard/3d-d24-experience02-shop-offscreen.mp4: 1 file pulled, 0 skipped. 26.5 MB/s (28170427 bytes in 1.012s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.9 MB/s (4400 bytes in 0.002s)

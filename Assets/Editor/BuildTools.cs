@@ -16,10 +16,11 @@ namespace ForestShop.Editor
         {
             StartupBranding.Configure();
             ForestAppIcon.Configure();
+            ForestLaunchCard.Configure();
             PlayerSettings.companyName = "Forest Atelier";
             PlayerSettings.productName = "林间奇物铺";
-            PlayerSettings.bundleVersion = "0.2.3";
-            PlayerSettings.Android.bundleVersionCode = 5;
+            PlayerSettings.bundleVersion = "0.2.4";
+            PlayerSettings.Android.bundleVersionCode = 6;
             PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.Android, "com.forestatelier.curioshop");
             PlayerSettings.defaultInterfaceOrientation = UIOrientation.Portrait;
             PlayerSettings.allowedAutorotateToLandscapeLeft = false; PlayerSettings.allowedAutorotateToLandscapeRight = false;

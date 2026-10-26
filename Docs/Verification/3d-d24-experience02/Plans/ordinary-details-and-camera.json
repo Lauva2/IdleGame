@@ -1,0 +1,53 @@
+{
+  "directory": "Docs/Verification/3d-d24-experience02/Evidence/Ordinary",
+  "steps": [
+    {
+      "tap": [
+        500,
+        1835
+      ]
+    },
+    {
+      "shot": "04-ordinary-details"
+    },
+    {
+      "tap": [
+        500,
+        1835
+      ]
+    },
+    {
+      "tap": [
+        717,
+        1835
+      ]
+    },
+    {
+      "shot": "05-ordinary-zoom"
+    },
+    {
+      "swipe": [
+        550,
+        700,
+        640,
+        790,
+        700
+      ]
+    },
+    {
+      "shot": "06-ordinary-pan"
+    },
+    {
+      "tap": [
+        977,
+        1835
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "07-ordinary-recenter-catch"
+    }
+  ]
+}

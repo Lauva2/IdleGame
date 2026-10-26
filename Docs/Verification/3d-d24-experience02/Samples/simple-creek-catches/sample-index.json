@@ -1,0 +1,357 @@
+{
+  "sourceVideo": "Evidence/presentation-spots-fishing-simple.mp4",
+  "sourceSha256": "D8E1908F7E593EB751CA5241E5D856E05F401A96BC5F164A15086138A1C3DCB3",
+  "selection": {
+    "id": "simple-creek-catches",
+    "video": "presentation-spots-fishing-simple.mp4",
+    "start": 25,
+    "end": 42,
+    "fps": 3
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/simple-creek-catches/frame-0001.png",
+      "sourcePTSSeconds": 25.027811,
+      "sha256": "70E1BB28D7D42360E7E1FBA8FE5CB67D99B1A339B198F9ABF5B280EB90E06EF0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0002.png",
+      "sourcePTSSeconds": 25.361633,
+      "sha256": "D93FC5CFA74FE265DD67AF6E20E4D72255E4021D080F1303337437CCDDBFC062",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0003.png",
+      "sourcePTSSeconds": 25.714956,
+      "sha256": "14ECC92F57CC87CA8A1EB80B42B0F95DDADFEC6FBE33F827B729BE43473C5ACF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0004.png",
+      "sourcePTSSeconds": 26.053167,
+      "sha256": "AEF9D8FEEE31C146A07B90AC5D2514DB57A92FAA240943EA111267CC6F5C61EA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0005.png",
+      "sourcePTSSeconds": 26.415822,
+      "sha256": "B8D160C41C6066EAB7B00B31E6D5819AD1C46EBC3E2031C9E3748407CFC449FD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0006.png",
+      "sourcePTSSeconds": 26.7574,
+      "sha256": "F2ACF786D8A2D852E4D214D505609F8DF85DA894B7696CBDB54EC7D99A983A22",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0007.png",
+      "sourcePTSSeconds": 27.206578,
+      "sha256": "ABB2FB29E538D692A831B86B92069B9EC71C8E48CDD80AF0D0301AB64128727C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0008.png",
+      "sourcePTSSeconds": 27.5489,
+      "sha256": "0692EC7B541F29D6F93CDD8557E36458528D5FEA9024F89D008AE40C785A5B74",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0009.png",
+      "sourcePTSSeconds": 27.915122,
+      "sha256": "663BBDF56A5EC34BEDB52C4D3FFA97AA429B31157CA9BE790F2404C2C153D695",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0010.png",
+      "sourcePTSSeconds": 28.278144,
+      "sha256": "CB50295EF09642F435563C7406927C155857218927F1A6004B92E3B388967806",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0011.png",
+      "sourcePTSSeconds": 28.620167,
+      "sha256": "34800277C90564674DD6967C1855417F1657CD7F44C7542B09E3C56AE4934EE8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0012.png",
+      "sourcePTSSeconds": 28.986122,
+      "sha256": "7D0A63458AB9D4CCBE8C8DD0644216992DA597FB28D3DFB5446AA95760A05AB1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0013.png",
+      "sourcePTSSeconds": 29.320967,
+      "sha256": "CA8F8432BDB887EA08120F60DBF158BA4707D2223591FDB3E9433D20E72483CE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0014.png",
+      "sourcePTSSeconds": 29.677244,
+      "sha256": "4C86CA108EEE5F6ECDF0FF821742C30CF34B8C4D46E7CBA9964C423FB7F57A7B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0015.png",
+      "sourcePTSSeconds": 30.019156,
+      "sha256": "2C13F6B3B44490D9731E5D95D803B0EBED39A731002B55620F0F5EF2D487B43C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0016.png",
+      "sourcePTSSeconds": 30.352989,
+      "sha256": "D0F24F4B91A1ED413979CD6818B5873FB63E460C003B7C738141873E00E552F0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0017.png",
+      "sourcePTSSeconds": 30.710589,
+      "sha256": "C407C10BC64269FED4533C6E3E880FD478B9AE8EE2C735F4136CBA18590E60DB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0018.png",
+      "sourcePTSSeconds": 31.044311,
+      "sha256": "C9EB2917FA3F841120944C70024D8711398DB161E816638ED756574E06B2621E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0019.png",
+      "sourcePTSSeconds": 31.377944,
+      "sha256": "6F91AC573D4B9AA5F526361637F749852291788F14AE6A035D4808721BD2F862",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0020.png",
+      "sourcePTSSeconds": 31.711944,
+      "sha256": "5F557A25ECC4B6146F86B06EAEB3215EC35BCC3357993C5153930AE86BFCB142",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0021.png",
+      "sourcePTSSeconds": 32.077589,
+      "sha256": "1076759B3B2FE8E86F1DD71032945AB5F7AE4F285D27BF5E4C697C2DD4D76286",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0022.png",
+      "sourcePTSSeconds": 32.420544,
+      "sha256": "A0E45DD806388AD71DDFFBEDB4C2CAB07974201C7EBD7919872B1985B4A598E1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0023.png",
+      "sourcePTSSeconds": 32.781933,
+      "sha256": "8FF444754DCFAB9C121AB00E9A4C8C8D2988ED20A45F82D444F715344A8C138F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0024.png",
+      "sourcePTSSeconds": 33.115333,
+      "sha256": "E0893938A34EFB80635E7ED9094890AF90F838B1C087FC5C4397E6863749E407",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0025.png",
+      "sourcePTSSeconds": 33.452822,
+      "sha256": "AA9C88F78226CD7C0C68A01B3B3D874F90F935F1BE82E242CB7249AE0F07BA33",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0026.png",
+      "sourcePTSSeconds": 33.787133,
+      "sha256": "A6DE908BBC4D9DA8F30FD5801EB5669745DADDC6597258FD625C4827EBD990DF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0027.png",
+      "sourcePTSSeconds": 34.126756,
+      "sha256": "2050612BC0382BDC7B88634D7B464AB101055F8A0CA87495A1955BB8DBCCE99A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0028.png",
+      "sourcePTSSeconds": 34.462567,
+      "sha256": "182BA4DD021F7AA3D6AF5A66E0EF1A53C22369BFE94A43BB0078C190DA4A884E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0029.png",
+      "sourcePTSSeconds": 34.798067,
+      "sha256": "F14461C7D3601162C46F68331521EFEDAC3AF725826B171763D0D5BE2BD0E01F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0030.png",
+      "sourcePTSSeconds": 35.131411,
+      "sha256": "0EAE615F3E2A16DB5CA933CACEE0D2E9397EE528D7A49EB673847FE9CFEA906D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0031.png",
+      "sourcePTSSeconds": 35.469022,
+      "sha256": "67D537D30BDC8C249A4E38D67AFB95C312FF4B4F4920C5FD33D3C2DC6CBCBD21",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0032.png",
+      "sourcePTSSeconds": 35.803489,
+      "sha256": "6E618461FF49A7B639203346C904B6610289BD59ED6ED881CF3426D3CA58BC3F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0033.png",
+      "sourcePTSSeconds": 36.137511,
+      "sha256": "6DA83BD60B72D679A24597BD917684AEE7987ACF84E0FE39CB42D65874AA4085",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0034.png",
+      "sourcePTSSeconds": 36.503211,
+      "sha256": "6A51DEF25AFB3E92C4C3C2005A62446D4AD397081D5D9D983A8B305E5D9F1A0D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0035.png",
+      "sourcePTSSeconds": 36.840067,
+      "sha256": "62F70BBD43EEE99EAAF80C7E8E71CE8F044D29C5A6892455BE7D13972EBC6EE0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0036.png",
+      "sourcePTSSeconds": 37.206956,
+      "sha256": "7DEEC57C854C423E2963349E4E956D32E90AEAFF3C2BE71CC6DDE4E41E33E9BB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0037.png",
+      "sourcePTSSeconds": 37.569422,
+      "sha256": "D1DC9E3CE6375F259E06C1AC041C818A81B228A88D1672698C1C1762719F9C14",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0038.png",
+      "sourcePTSSeconds": 37.938444,
+      "sha256": "D357D19202FF6196A266EDBA976B20FDE99FEDA137A31254D8BE71DFF2F07DB0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0039.png",
+      "sourcePTSSeconds": 38.303122,
+      "sha256": "84C5F0E0C03BF6859F8A365931EB873D833A0C21AF3A41D8D548B14118A520EF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0040.png",
+      "sourcePTSSeconds": 38.641156,
+      "sha256": "7C00EC45E2150163DBFFCBEB25052E3FA2F0B17E7A44B1701894E90530BFE3A2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0041.png",
+      "sourcePTSSeconds": 39.0031,
+      "sha256": "350E82AFB652207334577410C216A346BDCD637C3B5B8069BD3DF90E5D08E3D4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0042.png",
+      "sourcePTSSeconds": 39.337011,
+      "sha256": "8D0C4EED35C3421A0C2371E8509D26F27C387B4E108A43084940F3DEFFAB8023",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0043.png",
+      "sourcePTSSeconds": 39.702844,
+      "sha256": "32FB713902A499BCACCCB6993B6320F840B6E79B497CD0E154C75C7F59374A6B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0044.png",
+      "sourcePTSSeconds": 40.069478,
+      "sha256": "CC273F54524328DC7D58088E5EBA20BB757DBBC3335FDC04390B7610DEBE7A1D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0045.png",
+      "sourcePTSSeconds": 40.436856,
+      "sha256": "8B058A9656C71AE3F343BF83799B0A4DDB1A4EC35219BA43043761C1A6CAD247",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0046.png",
+      "sourcePTSSeconds": 40.802767,
+      "sha256": "0828A32BB34EC8DB677153D5472B04E9D021B8A8831B1525A25E9BFB87FA3241",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0047.png",
+      "sourcePTSSeconds": 41.145456,
+      "sha256": "31B549F1C8AED3297908639DCB9EC1D4D3B388A081D8A07D5F5721D748A27E7B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0048.png",
+      "sourcePTSSeconds": 41.519722,
+      "sha256": "0F229F4158E0965BACA912ACDF535528329488F0BCCB8178507C7767799C4816",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-creek-catches/frame-0049.png",
+      "sourcePTSSeconds": 41.8692,
+      "sha256": "805C4D4BBFE57AFB7C54F39E27B8178B150E971252C11D73C94C311CE87E6459",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

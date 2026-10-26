@@ -1,0 +1,560 @@
+{
+  "sourceVideo": "Evidence/fishing-motion-ordinary.mp4",
+  "sourceSha256": "BDF49C63652C86757501CA7B9597516C42B9107EB879EC6FC2FDAFE177A312DB",
+  "selection": {
+    "id": "ordinary-first-catches",
+    "video": "fishing-motion-ordinary.mp4",
+    "end": 18,
+    "fps": 5,
+    "start": 0
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/ordinary-first-catches/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "28933D85E84B03683431D091A38F8826B4DEF89D1FE960352EE5D1613003BC4B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0002.png",
+      "sourcePTSSeconds": 0.225256,
+      "sha256": "2D0D25A719EE9400E7D506637C2A97AC98C9499C0013EB5263E40090B417E166",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0003.png",
+      "sourcePTSSeconds": 0.430067,
+      "sha256": "769E0800F64C6673CC0AC557954C290CB874DA90DC0B4BBA3161C8F5E78EF41B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0004.png",
+      "sourcePTSSeconds": 0.659322,
+      "sha256": "1A2CBB463C6D671D3D05B8E2B10E856C15C66DE89D44AFDB98F338F1DABA94AE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0005.png",
+      "sourcePTSSeconds": 0.880578,
+      "sha256": "5A6939958A5344D308EBF229C5C53F4687C8373CBFE011A8E6A57B6ADD228279",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0006.png",
+      "sourcePTSSeconds": 1.091122,
+      "sha256": "62BB7A033A7514480776726692E0C0FB79561C6DCEF01F18905E8BF717AF7713",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0007.png",
+      "sourcePTSSeconds": 1.305689,
+      "sha256": "E8E329A38C251B43FD648ADE27BAF9D4403CADD6F30EACA180F791DB0D211764",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0008.png",
+      "sourcePTSSeconds": 1.524989,
+      "sha256": "BF9AFEA1FC22171873D59F81D341F628021697C4573016B975856A4D5149849C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0009.png",
+      "sourcePTSSeconds": 1.740067,
+      "sha256": "B056D4B68380C9A8792AD0C14519ACDCB0B773B3C037884B892DE2F85C5D42F5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0010.png",
+      "sourcePTSSeconds": 1.987156,
+      "sha256": "D83A613421F1C07E0F4AAC71928E37C57770300804A4AF060DAD43746EEC63A6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0011.png",
+      "sourcePTSSeconds": 2.208322,
+      "sha256": "E9FDC2A41836913DA7D4C291379FA730E6694DD2D648402B4FDDC1934699AEDB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0012.png",
+      "sourcePTSSeconds": 2.460089,
+      "sha256": "D3F04131A899E26E8E990C0F19482DED37A690C8BC35822D582BE8AAA2B2406A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0013.png",
+      "sourcePTSSeconds": 2.680267,
+      "sha256": "CFD8041FFBB40DF83966A92907D71359A2D3C459B1E8D45C11FA4DF9608C924C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0014.png",
+      "sourcePTSSeconds": 2.937978,
+      "sha256": "E5CC11D70B4FCE71F838069266C9041CFDD5BD32ECF42C94BFA6364AFF022B96",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0015.png",
+      "sourcePTSSeconds": 3.154422,
+      "sha256": "604E37119E143AD98E9CE0414517037AE141CFEC6CB7DE3F899028CD7DA52896",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0016.png",
+      "sourcePTSSeconds": 3.393022,
+      "sha256": "14DB3A80AD843BDF93E67D9C70245B5AE6E7811424D48E475B148EBE66461596",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0017.png",
+      "sourcePTSSeconds": 3.697022,
+      "sha256": "53557797DE75D3D576E30025CCA0F2FD1387283871C01DB681629D996ED7E468",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0018.png",
+      "sourcePTSSeconds": 3.908744,
+      "sha256": "152FD841C62D496EBB989D32520295652569A4C882E93C074CE15FA9C54F4A69",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0019.png",
+      "sourcePTSSeconds": 4.115589,
+      "sha256": "C39BDE0919E4BDDE2E30B572BDABB1D84702BE9717D62ABC09B8AED9E61DB383",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0020.png",
+      "sourcePTSSeconds": 4.361656,
+      "sha256": "29AF6C36D3876E3A2A5077C664C2F67DB45816A6DC0CF77E9C1192542162C38C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0021.png",
+      "sourcePTSSeconds": 4.625833,
+      "sha256": "A24EC5BEE9757A044D36C0641B298FDD12CCBAA98BEBF42E94CD6A3EF2545242",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0022.png",
+      "sourcePTSSeconds": 4.867611,
+      "sha256": "8CC7F75403302E6868A63561A1A95C16A1DF1F5D36FCECCA522344E62BA0C61D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0023.png",
+      "sourcePTSSeconds": 5.112467,
+      "sha256": "9552A54C796AC07AA98C51C5BA7B5C877FE6FE99B1F9A037303168532C04EE5C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0024.png",
+      "sourcePTSSeconds": 5.317044,
+      "sha256": "61562299E78F31416A2A25EB94CEFFD8778DC56480057C109BF95EC46205F005",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0025.png",
+      "sourcePTSSeconds": 5.579756,
+      "sha256": "9898527D69E6CC52C2B5A8189C6EBE7612404E96D79B7E96A679706A4379657E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0026.png",
+      "sourcePTSSeconds": 5.8209,
+      "sha256": "31B61D82B57599FE38D353D5D7184D701C5C5E5073E0F832812F9A980BA8616C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0027.png",
+      "sourcePTSSeconds": 6.038922,
+      "sha256": "C523E4A4B9B1E806D40C351CA08D1A93A3F56954C3B9128A80FDF3CCD1308066",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0028.png",
+      "sourcePTSSeconds": 6.299511,
+      "sha256": "33A4A279737562CC90FF8855A917F7A3C20DB0A50DA529F6FD85D0914FFCF672",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0029.png",
+      "sourcePTSSeconds": 6.571111,
+      "sha256": "D4DDC690D6BC5DB9F7391896D2DFAAF5DBB546A3CFD72CEC86E9BF3B2BE50A1D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0030.png",
+      "sourcePTSSeconds": 6.808344,
+      "sha256": "B21E0C435190EB74F3770CF3BBA3BA4BC586D642A0F81D10F66F78FF866F050C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0031.png",
+      "sourcePTSSeconds": 7.021744,
+      "sha256": "5B6CAD8468CB19E4E7F03CD30518D40B9C0E995253EB3193D4A219641EB4BC73",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0032.png",
+      "sourcePTSSeconds": 7.287911,
+      "sha256": "0E4289CB6951F2C768FA5D3B2CAAF6AD39F7B76AB8891F928067E60AE46233A3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0033.png",
+      "sourcePTSSeconds": 7.517433,
+      "sha256": "1B7C75320C1ABFDDDC18B204FED2581307684D78DF5E3771FB1B8F26ABB3AFEC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0034.png",
+      "sourcePTSSeconds": 7.830122,
+      "sha256": "93C5C2549EC09DEBE7A6D766F8E1274C8E5D44A5046DA096265682D16CF0EBE6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0035.png",
+      "sourcePTSSeconds": 8.034189,
+      "sha256": "A73F64FA3D64EE98BC086CA98BCF5AF7BC6CEE2F56C20C3F47A6157B287474F3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0036.png",
+      "sourcePTSSeconds": 8.247333,
+      "sha256": "3225886D03E9D891D5C34ECC919DC895B646E74E57385345CB6702AB13D7C76E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0037.png",
+      "sourcePTSSeconds": 8.486844,
+      "sha256": "35E6011FF11293CB7138287F4A5952D185F3E38C8B265D4C9FA40B72C5673EBB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0038.png",
+      "sourcePTSSeconds": 8.757844,
+      "sha256": "1ECAACCCEDE6D26F59D900D29697C186A9438F4511E326D6BD7C6199E1444B5F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0039.png",
+      "sourcePTSSeconds": 8.976956,
+      "sha256": "28325A825EEBD59AFB10BB8554C03419CA898B924EEB7D0A4630A49DDCACC694",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0040.png",
+      "sourcePTSSeconds": 9.197411,
+      "sha256": "A7DB6B7152ABA5B4AE075BAE8A96849524FCAA23A1CB8EA774215E40CA23C533",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0041.png",
+      "sourcePTSSeconds": 9.531967,
+      "sha256": "6E5ACEB31E87B79FB885079B4CA7176008B6B5007E5EC132008B5A0BB758DE0D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0042.png",
+      "sourcePTSSeconds": 9.800856,
+      "sha256": "1D43B22A8A561F07DF9CD20806A4FF4BC77BF5DB5461E4F363708F2B1B6DB16A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0043.png",
+      "sourcePTSSeconds": 10.033022,
+      "sha256": "BDBA67DF83AD8E9213D7F85FEF6CD1BEB5D3DD3780100B64900167DBF3F8DA68",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0044.png",
+      "sourcePTSSeconds": 10.303411,
+      "sha256": "DFF7F5B94143472854F7C2A868E905ED0910BF58EC42BD96A05498BDA1BDC49A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0045.png",
+      "sourcePTSSeconds": 10.5169,
+      "sha256": "B171B657105233B36A5528835000370591988E187A892BFF2BE0BA89C97B8424",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0046.png",
+      "sourcePTSSeconds": 10.741367,
+      "sha256": "7C6AD1FAA4C0D6FB286ED4BC27C6718129A04081D7CD82548DC915904B8289DA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0047.png",
+      "sourcePTSSeconds": 10.949589,
+      "sha256": "C821F821DB582E18FC619091C49912180C25C5E66B77304A9D5503726A35FE14",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0048.png",
+      "sourcePTSSeconds": 11.155078,
+      "sha256": "96141703CE0DD6B191761DA61085A5302BF92133DDF9346F800410C7702FC3B6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0049.png",
+      "sourcePTSSeconds": 11.360244,
+      "sha256": "6C5B25A750C8BE49F63309DCA26864FCB111229BC642DFCE3E4B1482FFB4E25F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0050.png",
+      "sourcePTSSeconds": 11.564744,
+      "sha256": "A500811D5574F59C37EC309527ECF78307098CF1285DEB484171EBA9EAB165BC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0051.png",
+      "sourcePTSSeconds": 11.8088,
+      "sha256": "F15752426482A410107183A3381CB3FE0BF3161686AB1CCE3C9376B4DEC7E010",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0052.png",
+      "sourcePTSSeconds": 12.036167,
+      "sha256": "132B1B91FBC0F9EC5737E5B8D0A816A763AB635BDB8997570F22EDF028F30A01",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0053.png",
+      "sourcePTSSeconds": 12.253456,
+      "sha256": "6D80CB79A4C6AFBE6BD170510D2A4A90B2EF5FE073D44907D4FBA0010DDE7E4B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0054.png",
+      "sourcePTSSeconds": 12.457744,
+      "sha256": "45EC49967DB6BB0AFDD909C8CE2186C9F656FF502F7B44687C902215F828771D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0055.png",
+      "sourcePTSSeconds": 12.661711,
+      "sha256": "95CB3B07CC58036660E68DADD02BCE5CD0BE319838DF2D6E2141E31DC27D0562",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0056.png",
+      "sourcePTSSeconds": 12.8988,
+      "sha256": "CFAED4B35F9A29AFFA4779527B5BEB48272FFBD9E79292B872826C8846ED48B5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0057.png",
+      "sourcePTSSeconds": 13.116222,
+      "sha256": "85BEBFCBCD65C815210990846C20636344893B465073F9C2186DA2FD9BB81531",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0058.png",
+      "sourcePTSSeconds": 13.344767,
+      "sha256": "718CD1C4DA9480F6C283D296A1CCC5B917906151BCE61844422A942D868F62D2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0059.png",
+      "sourcePTSSeconds": 13.545533,
+      "sha256": "FD2BE2BB7CDB680171AD04CB186ADF1AD45C2495C1F6AB424B73D16E7263FD2E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0060.png",
+      "sourcePTSSeconds": 13.756,
+      "sha256": "36A1E43DE8935E0DBD4575958B78BE665ECEB29CAF112FA1FEBB3411788B1359",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0061.png",
+      "sourcePTSSeconds": 13.987456,
+      "sha256": "2D859C6F74AD36DF8CCFA6CA43A9734E6D06412C30FAAFAEA8EA9AD0A05C537D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0062.png",
+      "sourcePTSSeconds": 14.1996,
+      "sha256": "B2F2E433854BE707C34D433947B1788F7A839234575DF331127729A771326345",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0063.png",
+      "sourcePTSSeconds": 14.432467,
+      "sha256": "6587A01AF14369A17FB9E9A9B2E6D3060855B30B8C408078B170F89A6D14C560",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0064.png",
+      "sourcePTSSeconds": 14.662756,
+      "sha256": "D3DF355768DC457F77FA5EFF6130507EF4E80FF034B00AA91BBF6FC9BDF37FF0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0065.png",
+      "sourcePTSSeconds": 14.891144,
+      "sha256": "ED5A8D2CC228BF4FE88579A7CA2DD30545F3202629ED8A8195D900403D641F1B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0066.png",
+      "sourcePTSSeconds": 15.12,
+      "sha256": "C1AC97F96CEFCB8DA86327C29D0EE97A5AE42121F6A7F8AE1C7B8E77CF4769AE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0067.png",
+      "sourcePTSSeconds": 15.328389,
+      "sha256": "72EE2E0D8FE1646ABF2B5922D8FFA9BE4E88D91D54F54CED671B7214BF7CB5FD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0068.png",
+      "sourcePTSSeconds": 15.545022,
+      "sha256": "DCA3FF9762F0A5CE0A8336E37938D37B6A9732DC5222BA75FC54AA7F783C0A2D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0069.png",
+      "sourcePTSSeconds": 15.757122,
+      "sha256": "C05F7220F89A2FD183940E765CB72C6937E0CDFE2AEC288ED848E59557A0377E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0070.png",
+      "sourcePTSSeconds": 15.965944,
+      "sha256": "493A7F05EBEEB63D9B75D299E438588E490E51D30443145E6CA120D9A7200647",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0071.png",
+      "sourcePTSSeconds": 16.211378,
+      "sha256": "FED4812AAF004AD2CFCF0B7E2675FE9E66727F03F3DC4F7D609396125D434209",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0072.png",
+      "sourcePTSSeconds": 16.4203,
+      "sha256": "8A05EAE97FF216397E7D4B6B0FF69674AD8DAC2142D7562EE90CCC4E5554383C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0073.png",
+      "sourcePTSSeconds": 16.641389,
+      "sha256": "2FD44F272F9CF0171048628B3327CA77F6CA6B346CE2454A6D8BF62F8F9383F4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0074.png",
+      "sourcePTSSeconds": 16.887322,
+      "sha256": "BC29DA6ABD17AF8C4E5DC38291723FE4F81F876F9EDBC131018ADD9E3C704443",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0075.png",
+      "sourcePTSSeconds": 17.115433,
+      "sha256": "6854C310C58F0C5220BB59D055AA2862AAA1EC407F0A55CB0A77377DD380954F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0076.png",
+      "sourcePTSSeconds": 17.319667,
+      "sha256": "199AC9B6EB3DF33F38E944EC7D7449215290EA3009A7F8E023687B0CD203B0CC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0077.png",
+      "sourcePTSSeconds": 17.538711,
+      "sha256": "5197395EF12C094CC1D3D9F618E219B49804C9ED4A61572A6B34308AD948BCCE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-first-catches/frame-0078.png",
+      "sourcePTSSeconds": 17.804911,
+      "sha256": "FE2D8D742933A9F883118882D5ABF8599C44E10E7AD2EA13CEA8B0E68396CE5B",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

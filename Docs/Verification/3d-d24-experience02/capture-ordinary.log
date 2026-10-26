@@ -1,0 +1,35 @@
+{'shot': '01-update-report'}
+{'tap': [850, 1780]}
+{'shot': '02-actual-claim'}
+{'tap': [150, 410]}
+{'tap': [860, 880]}
+{'shot': '03-ordinary-compact'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.0 MB/s (6817 bytes in 0.003s)
+{'tap': [500, 1835]}
+{'shot': '04-ordinary-details'}
+{'tap': [500, 1835]}
+{'tap': [717, 1835]}
+{'shot': '05-ordinary-zoom'}
+{'swipe': [550, 700, 640, 790, 700]}
+{'shot': '06-ordinary-pan'}
+{'tap': [977, 1835]}
+{'wait': 14}
+{'shot': '07-ordinary-recenter-catch'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.5 MB/s (6813 bytes in 0.002s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save.bak: 1 file pulled, 0 skipped. 4.2 MB/s (6786 bytes in 0.002s)
+/sdcard/3d-d24-experience02-ordinary-fishing.mp4: 1 file pulled, 0 skipped. 13.2 MB/s (58635518 bytes in 4.251s)
+﻿PASS actual Android online replay: elapsed=66.9625286671799s, simplified=False, coins=1114040, sales=1143078; all inventory, production and facility states match; automatic fish RNG parameters counts and records match
+﻿
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.7 MB/s (6784 bytes in 0.004s)
+﻿PASS actual Android offline replay: away=41.238997s effective=41.238997s income=138 coins=1114178 sales=1143216
+﻿
+{'shot': '08-background-report'}
+{'tap': [850, 1780]}
+{'back': True}
+{'shot': '09-global-navigation-restored'}
+{'tap': [1000, 50]}
+{'shot': '10-ordinary-settings'}
+{'back': True}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.0 MB/s (6784 bytes in 0.002s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save.bak: 1 file pulled, 0 skipped. 5.4 MB/s (6785 bytes in 0.001s)
+COMPLETE ordinary progression protected before all art fixtures

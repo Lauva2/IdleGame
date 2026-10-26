@@ -1,0 +1,20 @@
+{
+  "directory": "Docs/Verification/3d-d24-experience02/Evidence/Forest",
+  "steps": [
+    {
+      "shot": "23-forest-dialogue-2-top"
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1040,
+        700
+      ]
+    },
+    {
+      "shot": "24-forest-dialogue-2-bottom"
+    }
+  ]
+}

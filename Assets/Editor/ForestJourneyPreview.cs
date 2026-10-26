@@ -62,12 +62,23 @@ namespace ForestShop.Editor
             var rt=new RenderTexture(1080,1920,24);c.targetTexture=rt;var scaler=canvas.GetComponent<CanvasScaler>();bool enabled=scaler.enabled;scaler.enabled=false;
             canvas.renderMode=RenderMode.ScreenSpaceCamera;canvas.worldCamera=c;canvas.planeDistance=10;canvas.scaleFactor=1;safe.anchorMin=Vector2.zero;safe.anchorMax=Vector2.one;safe.offsetMin=safe.offsetMax=Vector2.zero;
             Canvas.ForceUpdateCanvases();foreach(var s in scrolls)s.Scroll.normalizedPosition=s.Position;
-            if(Field<string>("currentSheet")=="fishing")Call("FrameFishing",World,app.State.fishing.spot);
+            if(Field<string>("currentSheet")=="fishing")
+            {
+                var viewport=(RectTransform)Field<RectTransform>("page").GetComponentInChildren<ForestWorldPointer>().transform;
+                World.SetViewportAspect(viewport.rect.width/viewport.rect.height);
+                Call("FrameFishing",World,app.State.fishing.spot,true);
+            }
             World.RenderNow();foreach(var m in UnityEngine.Object.FindObjectsOfType<ForestExploreMarker>())m.Refresh();Canvas.ForceUpdateCanvases();
             c.Render();
             var previous=RenderTexture.active;RenderTexture.active=rt;var texture=new Texture2D(1080,1920,TextureFormat.RGB24,false);texture.ReadPixels(new Rect(0,0,1080,1920),0,0);texture.Apply();File.WriteAllBytes(Output+"/"+name+".png",texture.EncodeToPNG());
             RenderTexture.active=previous;c.targetTexture=null;c.enabled=false;rt.Release();UnityEngine.Object.Destroy(rt);UnityEngine.Object.Destroy(texture);UnityEngine.Object.Destroy(c.gameObject);
             canvas.renderMode=RenderMode.ScreenSpaceOverlay;canvas.worldCamera=null;scaler.enabled=enabled;Call("ApplySafeArea");Canvas.ForceUpdateCanvases();foreach(var s in scrolls)s.Scroll.normalizedPosition=s.Position;
+            if(Field<string>("currentSheet")=="fishing")
+            {
+                var viewport=(RectTransform)Field<RectTransform>("page").GetComponentInChildren<ForestWorldPointer>().transform;
+                World.SetViewportAspect(viewport.rect.width/viewport.rect.height);
+                Call("FrameFishing",World,app.State.fishing.spot,true);
+            }
         }
         static object[] Steps() => ((System.Array)Call("JourneySteps",true)).Cast<object>().ToArray();
         static string TextOf(object step,string field)=>(string)step.GetType().GetField(field).GetValue(step);
@@ -124,7 +135,7 @@ namespace ForestShop.Editor
                 var empty=Stage(5);Use(empty);app.Engine.Fishing.Start(0,0);app.Engine.Fishing.Advance(45);app.Engine.Fishing.Pause();Call("ShowPage","小店");var next=Steps()[1];int species=IndexOf(next);var kind=FishingCatalog.Species[species];
                 Check(TextOf(next,"Target")=="fish-species" && empty.fishing.entries[species].count==0 && app.Engine.Fishing.BaitUnlocked(kind.Bait) && Enumerable.Range(0,3).Any(i=>(kind.Spots&(1<<i))!=0 && app.Engine.Fishing.SpotUnlocked(i)),"Next clue prefers an unfound fish with an accessible habitat and bait");
                 Call("ShowFishCollection");Shot("fish-partial-progress");Call("ShowFishSpecies",species);Shot("fish-clue-top");Call("EvidenceScroll",true,0f);Shot("fish-clue-footer");
-                var unknown=Field<RectTransform>("sheetContent").GetComponentsInChildren<Button>().First(b=>b.name=="Go to species fishing spot");unknown.onClick.Invoke();Check(Field<string>("currentSheet")=="fishing","Clue navigates to an accessible actual fishing spot");Call("CloseSheet");
+                var unknown=Field<RectTransform>("sheetContent").GetComponentsInChildren<Button>().First(b=>b.name=="Go to species fishing spot");unknown.onClick.Invoke();Check(Field<string>("currentSheet")=="fishing","Clue navigates to an accessible actual fishing spot");CheckFishingLayout();Call("CloseSheet");
                 var filled=Stage(11);var rules=new Economy(filled);for(int spot=0;spot<3;spot++){filled.forest.location=spot;rules.Fishing.Start(spot,0);rules.Fishing.Advance(60000);rules.Fishing.Pause();}
                 Plan(filled,"fish-collection","all-species");Check(app.Engine.Fishing.Discovered==12,"Prepared all-species collection is complete");Call("ShowFishCollection");Shot("fish-complete-progress");Call("ShowChapterProgress");Shot("chapter-progress");Call("EvidenceScroll",true,0f);Shot("chapter-progress-footer");
                 var busy=Stage(11);Use(busy);Call("ShowPage","小店");World.SetRegion(2);Call("ShowPage","小店");Call("ConnectProductionPresentation");Call("RefreshProductionReceipts");busy.plots[0].remaining=.1;busy.machines[0].remaining=.1;busy.shelves[0].remaining=.2;long h=busy.harvests,c=busy.crafts,m=busy.sales;app.Engine.Advance(.3);Call("RefreshProductionReceipts");
@@ -135,6 +146,26 @@ namespace ForestShop.Editor
                 Check(frozenFiles.Select((file,i)=>Hash(file)==frozenHashes[i]).All(v=>v),"Source inputs unchanged throughout isolated capture");File.WriteAllText(Output+"/checks.txt",log.ToString());Debug.Log("FOREST_JOURNEY_PREVIEW_OK "+Path.GetFullPath(Output));EditorApplication.Exit(0);
             }
             catch(Exception e){File.WriteAllText(Output+"/checks.txt",log+"\nFAILED "+e);Debug.LogException(e);EditorApplication.Exit(1);}
+        }
+        static void CheckFishingLayout()
+        {
+            var safe=Field<RectTransform>("safe");
+            Check(new[]{"Current goal","Production updates","Navigation"}.All(n=>!safe.Find(n).gameObject.activeSelf),"Fishing hides repeated chrome while resources/settings remain reachable");
+            Shot("fishing-compact");
+            var sheet=Field<RectTransform>("sheetPanel");float compact=sheet.rect.height;
+            var toggle=sheet.GetComponentsInChildren<Button>().First(b=>b.name=="Fishing details toggle");
+            World.Zoom(1.16f);World.Pan(new Vector2(.5f,.55f),new Vector2(.53f,.59f));
+            float zoom=World.CameraSize;Vector3 focus=World.CameraFocus;
+            string before=JsonUtility.ToJson(app.State);toggle.onClick.Invoke();
+            Check(sheet.rect.height>compact+100,"Expanded details are reachable and compact mode gives more water height");
+            Check(sheet.GetComponentsInChildren<Button>().Count(b=>b.name.StartsWith("Fishing bait "))==3,"All three bait choices remain reachable in details");
+            Check(JsonUtility.ToJson(app.State)==before && Mathf.Approximately(World.CameraSize,zoom),"Detail expansion changes no state/RNG/fish clock or zoom");
+            toggle.onClick.Invoke();
+            Check(JsonUtility.ToJson(app.State)==before && Vector3.Distance(focus,World.CameraFocus)<.001f,"Expand/collapse round trip preserves pan and exact saved state");
+            toggle.onClick.Invoke();Shot("fishing-details");
+            Call("ShowSettings");
+            Check(Field<string>("currentSheet")=="settings" && !app.State.fishing.running,"Settings safely leave fishing and pause the original cast");
+            Check(new[]{"Current goal","Production updates","Navigation"}.All(n=>safe.Find(n).gameObject.activeSelf),"Global navigation is restored after fishing");
         }
     }
 }

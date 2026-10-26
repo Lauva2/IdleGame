@@ -62,7 +62,7 @@ namespace ForestShop.Editor
             var rt=new RenderTexture(1080,1920,24);c.targetTexture=rt;var scaler=canvas.GetComponent<CanvasScaler>();bool enabled=scaler.enabled;scaler.enabled=false;
             canvas.renderMode=RenderMode.ScreenSpaceCamera;canvas.worldCamera=c;canvas.planeDistance=10;canvas.scaleFactor=1;safe.anchorMin=Vector2.zero;safe.anchorMax=Vector2.one;safe.offsetMin=safe.offsetMax=Vector2.zero;
             Canvas.ForceUpdateCanvases();foreach(var s in scrolls)s.Scroll.normalizedPosition=s.Position;
-            if(Field<string>("currentSheet")=="fishing")Call("FrameFishing",World,app.State.fishing.spot);
+            if(Field<string>("currentSheet")=="fishing")Call("FrameFishing",World,app.State.fishing.spot,true);
             World.RenderNow();foreach(var m in UnityEngine.Object.FindObjectsOfType<ForestExploreMarker>())m.Refresh();Canvas.ForceUpdateCanvases();
             if(Field<string>("currentSheet")=="fishing")CheckBasketFrame();c.Render();
             var previous=RenderTexture.active;RenderTexture.active=rt;var texture=new Texture2D(1080,1920,TextureFormat.RGB24,false);texture.ReadPixels(new Rect(0,0,1080,1920),0,0);texture.Apply();File.WriteAllBytes(Output+"/"+name+".png",texture.EncodeToPNG());

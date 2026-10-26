@@ -1,0 +1,357 @@
+{
+  "sourceVideo": "Evidence/presentation-spots-fishing-filled.mp4",
+  "sourceSha256": "A1F0AC540358F0643D09DB1FD9206E9389400084C90590DEB442DB61432C4E69",
+  "selection": {
+    "id": "full-creek-catches",
+    "video": "presentation-spots-fishing-filled.mp4",
+    "start": 25,
+    "end": 42,
+    "fps": 3
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/full-creek-catches/frame-0001.png",
+      "sourcePTSSeconds": 25.0105,
+      "sha256": "845464555B2AC1AA418206D26A95F54249AB003AABE7BA3A747DB99DFE2F218B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0002.png",
+      "sourcePTSSeconds": 25.356089,
+      "sha256": "18537A6E2672E774F31FD8D6CC81105A01FB6E1C8DFDBE2C5C8B0C50F39DBED6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0003.png",
+      "sourcePTSSeconds": 25.6986,
+      "sha256": "EF796991129658625EFED1211419D3E8FBDCF3EC90509C0FD0EA8CB0D0364436",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0004.png",
+      "sourcePTSSeconds": 26.061067,
+      "sha256": "CB2D0C6A332BAB87BB5992DDA6AFF1289E9BE466D49417AFCD9BDE0D26B9E879",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0005.png",
+      "sourcePTSSeconds": 26.418578,
+      "sha256": "524CC01920B92C78B51B11154F5A260BC08B164619638CB444AB8CB811927B45",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0006.png",
+      "sourcePTSSeconds": 26.781578,
+      "sha256": "2785C7BCCD4ECA31B99DFDE359CFF9EECB7FDB1DC7ABD0770D3C3DE49521D7DF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0007.png",
+      "sourcePTSSeconds": 27.135233,
+      "sha256": "5DC70EC8F92E32E5808897CAE4D93BB1B1CAE99B81D326AB2C99554B0763FC9D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0008.png",
+      "sourcePTSSeconds": 27.477167,
+      "sha256": "1A90DF2651FA7699D87B0AF11026394A032629975010A2B2D2F72560297ACB91",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0009.png",
+      "sourcePTSSeconds": 27.8168,
+      "sha256": "E35CDFF1FAE186F9864927CE9EB5DB0B52F9A020809F6E3FF956819E17D20FB0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0010.png",
+      "sourcePTSSeconds": 28.177444,
+      "sha256": "79E84BCB23F887D1A757597A354F5C8FC4805AF75424B76BF4E6F91408C86BC5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0011.png",
+      "sourcePTSSeconds": 28.544078,
+      "sha256": "89C982CE86D4DE39FFCB2491CA82A1EF17638CCE3689C8A9AE33A6B01488B599",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0012.png",
+      "sourcePTSSeconds": 28.878089,
+      "sha256": "36EEA71C15113A93BAA2DA4CC12E02E9B37B8DF163952C4BA432B9A182A09352",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0013.png",
+      "sourcePTSSeconds": 29.245011,
+      "sha256": "20A78471F8E34374F03EC01A6A497A349238F67A5D11932A9E3E55231CFFEF19",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0014.png",
+      "sourcePTSSeconds": 29.610667,
+      "sha256": "75277558D2EFB6EB4E26746001AEE5D46E64679B566E79395243BA8E93542631",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0015.png",
+      "sourcePTSSeconds": 29.948422,
+      "sha256": "3347ACCAD5DCC8175578068BCD3B840089132C72AA554C7256888925AB2C0AE2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0016.png",
+      "sourcePTSSeconds": 30.314689,
+      "sha256": "EB8A8BE120C542CCA6E05CA77A47755B2933368CC0D224B42D7D7CD1AB3F5139",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0017.png",
+      "sourcePTSSeconds": 30.6568,
+      "sha256": "B783DB174DC86515A74AA37EB047357BC0ADE0CAF3E959D010CC9F8B3F79E7B6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0018.png",
+      "sourcePTSSeconds": 30.990133,
+      "sha256": "1CF23C05EB285F30ABF714EA6E634892AEA24441F0D41730EF53D29CC246DF5F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0019.png",
+      "sourcePTSSeconds": 31.353333,
+      "sha256": "D428AF95CAD0BBE7757CFF84D2EAF083D54B6DA9AF602EDD7E2ED364B23005D0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0020.png",
+      "sourcePTSSeconds": 31.718922,
+      "sha256": "950955A56E14D4FA349884D519F054ECE059838BA695DB49D13966E1C47E0126",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0021.png",
+      "sourcePTSSeconds": 32.056189,
+      "sha256": "EEA791B02296BF47E7E3B46DF9B0BC709090CF89782D1413DAC899A94CEECB64",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0022.png",
+      "sourcePTSSeconds": 32.420922,
+      "sha256": "6AF547EE70A9B2509EF844250CDAB9B22570B26F9156659315E4D7E7E7486B27",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0023.png",
+      "sourcePTSSeconds": 32.757822,
+      "sha256": "36424EFF46475D1292D2B11AC65A4638FC137782C265DDEA3962E333C89F34D1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0024.png",
+      "sourcePTSSeconds": 33.095089,
+      "sha256": "AFDA4E1EA94EDE55EB2EE58F620969B4353D31C07DD5371064F409F963B38DE4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0025.png",
+      "sourcePTSSeconds": 33.456678,
+      "sha256": "8A9728C3BEF8E5D370EFA3ABB9C6693BFDEE604A35309A1D57CEC4AB8753C905",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0026.png",
+      "sourcePTSSeconds": 33.823767,
+      "sha256": "8DA954EA4C54751FF9141F7470ED180861E64436A3619A5BDE5969D72E5E316E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0027.png",
+      "sourcePTSSeconds": 34.157156,
+      "sha256": "DB16F3F013465DDA12321D4BCEA25194FE02AD626909DA4BA62E53F173A636CF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0028.png",
+      "sourcePTSSeconds": 34.494544,
+      "sha256": "47612280839590B2662FC10C9107D8689EA236DD4B734205B447028EC91F0720",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0029.png",
+      "sourcePTSSeconds": 34.856856,
+      "sha256": "5E78C21F3DF7474899A8EE1DEFB2154E1D18B0D819FADB1419BAF749DF5FE461",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0030.png",
+      "sourcePTSSeconds": 35.190533,
+      "sha256": "E3B1DC675D2781F3AD9478FD8C8A721194E91A9CA85FD5F1512A8FA2D517686D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0031.png",
+      "sourcePTSSeconds": 35.556589,
+      "sha256": "BA4FE559E75366D36DED70683E53C7748CB37CCD328FE61926CEB0F07601DF04",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0032.png",
+      "sourcePTSSeconds": 35.894211,
+      "sha256": "E071AB47DFC725FD77FD7FEB8A16D9CEE971B601F854E525F965DD3D2FE0115C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0033.png",
+      "sourcePTSSeconds": 36.231522,
+      "sha256": "1855042EF153185BEF2E3169B8F8CD6B2B14BBE8D1C35263898217A73B7A583E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0034.png",
+      "sourcePTSSeconds": 36.593589,
+      "sha256": "397DB20165B6B2835C590B2DA1241E0030A62F4CE1B13911A028F533787372F0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0035.png",
+      "sourcePTSSeconds": 36.935022,
+      "sha256": "0D9C00C1FD79CD211DE65B5E178939626EEB7DDAD176B2ACC43C1D3B0146A5D3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0036.png",
+      "sourcePTSSeconds": 37.302122,
+      "sha256": "7253AC9131F62135C0CD384447026862270275F07B52CC79424E2D24048AF49D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0037.png",
+      "sourcePTSSeconds": 37.636,
+      "sha256": "A45B74E2069BE2D6790B43C79DCA36D9B6C58FDD5950BF23EB89760170F44C75",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0038.png",
+      "sourcePTSSeconds": 37.976456,
+      "sha256": "16B541988C71B8F67F2BA4C79CAA9AB96F1C7A6FE7CB9D8CC57F6710CD1D0783",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0039.png",
+      "sourcePTSSeconds": 38.335856,
+      "sha256": "2057878BF57CF11F260B5BECB535AA0C9258E34FFA7D7551D6CF735B7D18A4D0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0040.png",
+      "sourcePTSSeconds": 38.672978,
+      "sha256": "15DB7E7E665C650AA6E8ADD97092B75300E3BAB83315F720EF50599A9072D477",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0041.png",
+      "sourcePTSSeconds": 39.007722,
+      "sha256": "F9C56DBD19E6267A9DBEB5B9C6CDEF5C1265483AAFBA8F807725A815832904A1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0042.png",
+      "sourcePTSSeconds": 39.368933,
+      "sha256": "F14EB45E4750DB8290042B1C862CBEE663A6832F72332FDD1D70A7DD643F0ABF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0043.png",
+      "sourcePTSSeconds": 39.707011,
+      "sha256": "5A1F157646B6B17E85938353183AC2B01BF8E693180C0A8FBC4396D62E08BF8D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0044.png",
+      "sourcePTSSeconds": 40.045022,
+      "sha256": "1F288240189C2A8734495A95CD8CEDDCE3CC4E29E1B298FCD96E8CEEB9748EB5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0045.png",
+      "sourcePTSSeconds": 40.408233,
+      "sha256": "13F43F60F32B4EEE62CA08E0F755A3118751CB3B1CEE0344B84837DDF6A1DFA0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0046.png",
+      "sourcePTSSeconds": 40.7564,
+      "sha256": "0492CA7A3995EDEBDCF9767CC2F4D004B0EA4F13B670E808BD659CF7BF06A035",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0047.png",
+      "sourcePTSSeconds": 41.1158,
+      "sha256": "5CD38FF8541BE9C0BE3AAC2EE1A23EFD9DA80903770888E4B4765A0060114D30",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0048.png",
+      "sourcePTSSeconds": 41.469267,
+      "sha256": "F38643E55FCF76F8F84578C8567B9B548DB305B577893C507A1D0DC985D47535",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/full-creek-catches/frame-0049.png",
+      "sourcePTSSeconds": 41.806122,
+      "sha256": "C5CDE466007FEE5A932936A5AF971DFACA64AD9D11C0096871AACFD9EFB34ED7",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

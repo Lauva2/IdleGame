@@ -1,0 +1,273 @@
+{
+  "sourceVideo": "Evidence/production-window.mp4",
+  "sourceSha256": "D1160078B83228DC403BB8ED223703A176BB272EF2D038DB218CCFAE124F1B6A",
+  "selection": {
+    "id": "single-craft-window",
+    "video": "production-window.mp4",
+    "end": 8,
+    "fps": 5,
+    "start": 0
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/single-craft-window/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "6F376C0B51F14371C117AA8CB4FE89014CFC2B23781212E9200F408422CF91CA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0002.png",
+      "sourcePTSSeconds": 0.200622,
+      "sha256": "6DF66DDFD7948D74DA50DFB567DA6E6B9B34DC571744B6FF5901B2C2E0015BB3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0003.png",
+      "sourcePTSSeconds": 0.400978,
+      "sha256": "9BA1CAB65B014574BBD80ABD003B0AB259649AF8BD172B364DCD7F8BE8FA5DD2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0004.png",
+      "sourcePTSSeconds": 0.639833,
+      "sha256": "829DE27D0C559E099BCFE51F7DD007797983A84893919141C702C062F09CAA6E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0005.png",
+      "sourcePTSSeconds": 0.871067,
+      "sha256": "54A9D9C6C700DBD3CFEEFF9DEEC843940E1E7012E52405623DB5BA42CEE45A66",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0006.png",
+      "sourcePTSSeconds": 1.076078,
+      "sha256": "C2EFF5159C3FE9F24E330E108D210BE56F103629F03619EB0865CCDCDD84FB32",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0007.png",
+      "sourcePTSSeconds": 1.278833,
+      "sha256": "C3480D778F5CDFECDB151524BD58838B85C0305140682C3FF7F0666458D0FB0A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0008.png",
+      "sourcePTSSeconds": 1.4994,
+      "sha256": "FF11D6DE6ED3247B28FEEC9003EE29788DE3083A3D22AF9B95A2C01C31D7F87F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0009.png",
+      "sourcePTSSeconds": 1.723533,
+      "sha256": "9475E1D813AF7B97B7A10BFFB0BC253C4F7C9B0AE833F3D9536C8D71A7D6A5DF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0010.png",
+      "sourcePTSSeconds": 1.928756,
+      "sha256": "A4DCA48979FADCCFD658A9D643DC562DD0EEEB232C1D936DFA449425F510549B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0011.png",
+      "sourcePTSSeconds": 2.144844,
+      "sha256": "BD6B76A8E656C256B5CF197A6C6AF76CE608DB3BE834321DD17FBEFC7510D36C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0012.png",
+      "sourcePTSSeconds": 2.351822,
+      "sha256": "88257DEF41729026FF7A6CBB99D07B45E2A7AD751CD53E091A8B9A373489C751",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0013.png",
+      "sourcePTSSeconds": 2.5552,
+      "sha256": "23A81CA4C36678D97CCBC1BF2D3F7FC393CDC4757F23D656AF13BDC7A9247278",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0014.png",
+      "sourcePTSSeconds": 2.7843,
+      "sha256": "227F1BA9345A5D38BD4094C42F0603D15DAD4DFD1C6D8A64285C8D40C59DAFD7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0015.png",
+      "sourcePTSSeconds": 2.988256,
+      "sha256": "D28F0CC7BF6C963FCFD8921CFB9CBCDC7F602164F6CC3F2BA603D32612DEF77A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0016.png",
+      "sourcePTSSeconds": 3.205567,
+      "sha256": "012F035E178416341CE44482D55263A9BF6E6F12EBEECB95FC4522BAF7636F30",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0017.png",
+      "sourcePTSSeconds": 3.460589,
+      "sha256": "6853F1F7BDE6FD57E1D9F799D6F401B671D1D0108C9F48226283F1A7B83F76A4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0018.png",
+      "sourcePTSSeconds": 3.724444,
+      "sha256": "DE6A384C832ED18A502AC409F5F72BB2CBF3CCCB88FD5C20B62F926113F50557",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0019.png",
+      "sourcePTSSeconds": 3.969133,
+      "sha256": "5DE4E611972F448CFF13003BCD250995F8F407A12E4ADE6E591D9BEB3227D6E7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0020.png",
+      "sourcePTSSeconds": 4.169167,
+      "sha256": "3DA110C3B82CD716D9508BEC88BAAF484EF9FFB48CC808793C1C6F15CE34AC85",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0021.png",
+      "sourcePTSSeconds": 4.373078,
+      "sha256": "3DA110C3B82CD716D9508BEC88BAAF484EF9FFB48CC808793C1C6F15CE34AC85",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0022.png",
+      "sourcePTSSeconds": 4.580644,
+      "sha256": "3DA110C3B82CD716D9508BEC88BAAF484EF9FFB48CC808793C1C6F15CE34AC85",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0023.png",
+      "sourcePTSSeconds": 4.804289,
+      "sha256": "DDB84E3703EBC6620C61128C99D59A6720C489E1412C77EBAA7564FA64A5FDEB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0024.png",
+      "sourcePTSSeconds": 5.008744,
+      "sha256": "D78283D87CC6210EE17DFD5332CB68F1FD913FF812FFD2D0BDF2E588927AA84E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0025.png",
+      "sourcePTSSeconds": 5.276544,
+      "sha256": "AAB09CED20FF07295DC79DB6BC6C019C535A3DC2771392BF8E312EA9F05E4849",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0026.png",
+      "sourcePTSSeconds": 5.484556,
+      "sha256": "D78283D87CC6210EE17DFD5332CB68F1FD913FF812FFD2D0BDF2E588927AA84E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0027.png",
+      "sourcePTSSeconds": 5.709678,
+      "sha256": "DDB84E3703EBC6620C61128C99D59A6720C489E1412C77EBAA7564FA64A5FDEB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0028.png",
+      "sourcePTSSeconds": 5.927322,
+      "sha256": "D35874B20FAD381CAAFFE54F3897D039E32D978100ACBAA7A9430E0A03C102FB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0029.png",
+      "sourcePTSSeconds": 6.1541,
+      "sha256": "D78283D87CC6210EE17DFD5332CB68F1FD913FF812FFD2D0BDF2E588927AA84E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0030.png",
+      "sourcePTSSeconds": 6.3643,
+      "sha256": "DDB84E3703EBC6620C61128C99D59A6720C489E1412C77EBAA7564FA64A5FDEB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0031.png",
+      "sourcePTSSeconds": 6.583611,
+      "sha256": "D35874B20FAD381CAAFFE54F3897D039E32D978100ACBAA7A9430E0A03C102FB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0032.png",
+      "sourcePTSSeconds": 6.812378,
+      "sha256": "D78283D87CC6210EE17DFD5332CB68F1FD913FF812FFD2D0BDF2E588927AA84E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0033.png",
+      "sourcePTSSeconds": 7.020889,
+      "sha256": "DDB84E3703EBC6620C61128C99D59A6720C489E1412C77EBAA7564FA64A5FDEB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0034.png",
+      "sourcePTSSeconds": 7.2214,
+      "sha256": "D78283D87CC6210EE17DFD5332CB68F1FD913FF812FFD2D0BDF2E588927AA84E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0035.png",
+      "sourcePTSSeconds": 7.425411,
+      "sha256": "DDB84E3703EBC6620C61128C99D59A6720C489E1412C77EBAA7564FA64A5FDEB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0036.png",
+      "sourcePTSSeconds": 7.654267,
+      "sha256": "D78283D87CC6210EE17DFD5332CB68F1FD913FF812FFD2D0BDF2E588927AA84E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/single-craft-window/frame-0037.png",
+      "sourcePTSSeconds": 7.867967,
+      "sha256": "DDB84E3703EBC6620C61128C99D59A6720C489E1412C77EBAA7564FA64A5FDEB",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

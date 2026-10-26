@@ -1,0 +1,239 @@
+{
+  "directory": "Docs/Verification/3d-d24-experience02/Evidence/FishFit/Long",
+  "steps": [
+    {
+      "tap": [
+        900,
+        2270
+      ]
+    },
+    {
+      "wait": 2
+    },
+    {
+      "tap": [
+        900,
+        300
+      ]
+    },
+    {
+      "wait": 3
+    },
+    {
+      "shot": "01-fish-list"
+    },
+    {
+      "tap": [
+        600,
+        933
+      ]
+    },
+    {
+      "shot": "02-species-top"
+    },
+    {
+      "swipe": [
+        850,
+        2160,
+        850,
+        1490,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        2160,
+        850,
+        1490,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        2160,
+        850,
+        1490,
+        650
+      ]
+    },
+    {
+      "shot": "03-species-four-quality-bottom"
+    },
+    {
+      "tap": [
+        850,
+        2230
+      ]
+    },
+    {
+      "shot": "04-actual-go-fishing"
+    },
+    {
+      "tap": [
+        686,
+        2222
+      ]
+    },
+    {
+      "shot": "05-fishing-zoom-out"
+    },
+    {
+      "swipe": [
+        550,
+        700,
+        650,
+        780,
+        700
+      ]
+    },
+    {
+      "shot": "06-fishing-real-pan"
+    },
+    {
+      "tap": [
+        966,
+        2222
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "07-recenter-and-catch"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        540,
+        400
+      ]
+    },
+    {
+      "shot": "08-greenhouse"
+    },
+    {
+      "tap": [
+        180,
+        400
+      ]
+    },
+    {
+      "shot": "09-main-courtyard"
+    },
+    {
+      "tap": [
+        390,
+        300
+      ]
+    },
+    {
+      "shot": "10-garden"
+    },
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "shot": "11-workshop"
+    },
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "shot": "12-shop"
+    },
+    {
+      "tap": [
+        1000,
+        50
+      ]
+    },
+    {
+      "shot": "13-settings"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "shot": "14-handbook"
+    },
+    {
+      "tap": [
+        900,
+        1939
+      ]
+    },
+    {
+      "shot": "15-handbook-greenhouse-destination"
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        180,
+        2226
+      ]
+    },
+    {
+      "shot": "16-chapter-progress-top"
+    },
+    {
+      "swipe": [
+        850,
+        2160,
+        850,
+        1490,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        2160,
+        850,
+        1490,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        2160,
+        850,
+        1490,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        2160,
+        850,
+        1490,
+        650
+      ]
+    },
+    {
+      "shot": "17-chapter-progress-footer"
+    }
+  ]
+}

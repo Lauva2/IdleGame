@@ -1,0 +1,19 @@
+{
+  "candidate": "3d-d24-experience01",
+  "utc": "2026-10-26T14:29:06.638180+00:00",
+  "sourceBaseCommit": "0901462aef910904a031846777af2576c2033bd4",
+  "sourceInputFiles": 209,
+  "sourceManifest": "Docs\\Verification\\3d-d24-experience01\\source-files.sha256",
+  "sourceManifestSha256": "1244547FB0340EBD7A52B530BC8EB9AF1AE3779387E6D26DF6AEAEA74D50B1D6",
+  "apk": "Builds\\Android\\3d-d24-experience01\\ForestShop-3d-d24-experience01.apk",
+  "apkBytes": 45641463,
+  "apkSha256": "2FBDF839052188195B9B54C42695FDB0E725562AB5752A4BE28988558C2D09B6",
+  "sourceArchive": "Builds\\Android\\3d-d24-experience01\\build-source-inputs.zip",
+  "sourceArchiveBytes": 57860032,
+  "sourceArchiveSha256": "B2AD6FF456C2C83AE4B6FD199BA9193299C77A108534AC73E5296DD01B9B7209",
+  "sourceArchiveVerified": true,
+  "build": "Unity2022.3.62f2 IL2CPP Release ARM64+ARMv7 non-development GLES3 API23-32",
+  "version": "0.2.4",
+  "versionCode": 6,
+  "artAcceptance": "Pending independent evaluation of this exact APK. Editor and earlier candidate scores do not transfer."
+}

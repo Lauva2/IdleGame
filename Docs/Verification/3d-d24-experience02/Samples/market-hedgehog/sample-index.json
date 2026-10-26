@@ -1,0 +1,399 @@
+{
+  "sourceVideo": "Evidence/market-native-1.mp4",
+  "sourceSha256": "5255B54A48F0EC183C71B8D89911B7160B583FE5DAEDFA767489E3B615922453",
+  "selection": {
+    "id": "market-hedgehog",
+    "start": 38,
+    "fps": 2,
+    "end": 66,
+    "video": "market-native-1.mp4"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/market-hedgehog/frame-0001.png",
+      "sourcePTSSeconds": 38.019044,
+      "sha256": "7E70CB5A306D3268FC54D6102AA4F4FEB05528B99DA0514B6EB8918282ED831C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0002.png",
+      "sourcePTSSeconds": 38.5229,
+      "sha256": "61C1D773FE159EC75286B706CA68832031B126600B6A9921BEABE2BCDBC145C7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0003.png",
+      "sourcePTSSeconds": 39.023122,
+      "sha256": "06BB6185AD9179D29D2265836C1CC133550B2F70074C6CFC4F00A953F0040163",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0004.png",
+      "sourcePTSSeconds": 39.526911,
+      "sha256": "BB41F0D3F0D9807FB465C8F47622197D80530671231B319030ED001057E3E42D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0005.png",
+      "sourcePTSSeconds": 40.0309,
+      "sha256": "E8437A9EF21AD95F66946C3EF487C13C16B7DA170BFDD745A1A3211D16299EB4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0006.png",
+      "sourcePTSSeconds": 40.564967,
+      "sha256": "20E6F46C38F7E3BBD09E2DF3CB89D95F8F6B9CA8304477B0C0BC382425DC891B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0007.png",
+      "sourcePTSSeconds": 41.065456,
+      "sha256": "BD90A403A9F5A1BD2FEC58783729C39E46DB31916A9E5593A9221C41CB4DA724",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0008.png",
+      "sourcePTSSeconds": 41.602356,
+      "sha256": "B64738D0673FD919A6F546F5701F83F6C465114F4FF9BD6700EEF34BD5C35194",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0009.png",
+      "sourcePTSSeconds": 42.131322,
+      "sha256": "BBBED668B4F27E915BB7A48005A029ADEAD84139D18DE2F5FC090927DDB1F53C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0010.png",
+      "sourcePTSSeconds": 42.635333,
+      "sha256": "AE5494A5B5DA822BDFB3C31FF978400D78750049B658AC130B3A99F14E598AAB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0011.png",
+      "sourcePTSSeconds": 43.143489,
+      "sha256": "E67171FB833D18012A11A3C214B55AAD88652B215BBFC99D59B537D114C92454",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0012.png",
+      "sourcePTSSeconds": 43.677733,
+      "sha256": "47EFD0BB20C4E6088EF4CF49937FC14F76A3BDC94B79F92B7C5E58E6723E08B9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0013.png",
+      "sourcePTSSeconds": 44.1813,
+      "sha256": "FB8F9325AA5BE3A4DC86294A268B0349BC8C204BC0A4FE1869419FA6AFD989FB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0014.png",
+      "sourcePTSSeconds": 44.686233,
+      "sha256": "837274192911D61AA54E6A1772587BC12037F153EDC28ACA2D72112AEF502C01",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0015.png",
+      "sourcePTSSeconds": 45.211022,
+      "sha256": "0BC0022F876079231191F405CCB5E7432BD0D4F764B05404C80011FCD49F70A8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0016.png",
+      "sourcePTSSeconds": 45.718878,
+      "sha256": "337352C4F8027C357609D64752C331C57352763F12AA2144407062615BF4DBD6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0017.png",
+      "sourcePTSSeconds": 46.2485,
+      "sha256": "2BE9EDD2A790A22DA5FF227BFA47B90ABFAEE048DD1CE48A09A8AA52A04DE478",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0018.png",
+      "sourcePTSSeconds": 46.786078,
+      "sha256": "59105B628431E29CCB9663B1E8D02A6588D26FCC7E452B5CA73A6A2596D94E1C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0019.png",
+      "sourcePTSSeconds": 47.293378,
+      "sha256": "BC1EBF89B95E7C94F7A8514D52294FFCB2EEFF9F93C7D5DA873FD769D0979BE8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0020.png",
+      "sourcePTSSeconds": 47.801556,
+      "sha256": "9C3025851277682346F4D1B9A5CFEC209F582F96A2D98F211FA7D1D239AF90AC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0021.png",
+      "sourcePTSSeconds": 48.310967,
+      "sha256": "C94CC3510470A5DF42E7162F25D92D5430B5378798D973C171163245AB19ED1E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0022.png",
+      "sourcePTSSeconds": 48.835811,
+      "sha256": "AADC72FFC49F667AAB2A32CD0C1F481405BDF10DEE22D770AF95182AD678A495",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0023.png",
+      "sourcePTSSeconds": 49.372889,
+      "sha256": "2D0B9268CD51A6A71C776F8AAD0ECA937C2CC608F2FA4DB19D06E611AA8A80B1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0024.png",
+      "sourcePTSSeconds": 49.883944,
+      "sha256": "3F735BBF246DB0F6A7C7A463BE0BEA8B30109242728B4E34D3C80242DC18C548",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0025.png",
+      "sourcePTSSeconds": 50.401544,
+      "sha256": "230F0DA829F027A4194003AE97666AC3CF28B71F1C6E5572A45A1D7260560533",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0026.png",
+      "sourcePTSSeconds": 50.9018,
+      "sha256": "01A85466BCD9EDC50100111723128597320B04C593ACBF3396DCB8CA199F3100",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0027.png",
+      "sourcePTSSeconds": 51.419567,
+      "sha256": "F008D82A1AFEDFA51C34682A7D75905614D6B16B55A02D305C19BC7D878A4257",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0028.png",
+      "sourcePTSSeconds": 51.939756,
+      "sha256": "E328F80EEC7693CE572BEF98F414B2F72B357A7FD0CBCA59D801EDC731745984",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0029.png",
+      "sourcePTSSeconds": 52.447522,
+      "sha256": "4D3329B6B0602A72ABF09222E631711248F5DCFF776BAD60B9E4F6454DADDCF7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0030.png",
+      "sourcePTSSeconds": 52.972556,
+      "sha256": "E18B93AF26A8D129AF5EFB91466C4594F500016253814B08CDEEC6026CA432A7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0031.png",
+      "sourcePTSSeconds": 53.486356,
+      "sha256": "ECA69F53D57207CDBF11318095B085F08D654F3147C120AD4DE19A522CF8CC66",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0032.png",
+      "sourcePTSSeconds": 53.989389,
+      "sha256": "8FEBD801C936B4CBDFA2FC3DB1427BAE3770F4BB5DEE0179707B3FD67C5B70BB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0033.png",
+      "sourcePTSSeconds": 54.520311,
+      "sha256": "7B23D95FB9F008150662B5C32544AD99F67015966B5C9ABB47F7E411A7A45181",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0034.png",
+      "sourcePTSSeconds": 55.031967,
+      "sha256": "FC30D289E3FCF8722E660D0381F752F336734D43BF28959A7DD69A85FFA1939B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0035.png",
+      "sourcePTSSeconds": 55.544467,
+      "sha256": "73FE59FDE946F1AEBBE8E59D84A2C8BB6F5866E9131863057A27FC4812129FE8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0036.png",
+      "sourcePTSSeconds": 56.064522,
+      "sha256": "999800E6D7C8088A3FEE5F11C54F50E48A2C4E393B74732813473E8BAD075A92",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0037.png",
+      "sourcePTSSeconds": 56.582467,
+      "sha256": "82F1D2EDE8770B4FD21008AA0C31C3DC4E082D578FBE357D347A3D78821AFFB6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0038.png",
+      "sourcePTSSeconds": 57.106233,
+      "sha256": "131949379E0A54D124A3BD5636CB7B78697EC639EC9D3CE888F71681899F69DB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0039.png",
+      "sourcePTSSeconds": 57.614767,
+      "sha256": "77A54B4A8F97CD6434810EE075324406CA78B8A042035D991FC6DDF08D7402D5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0040.png",
+      "sourcePTSSeconds": 58.144467,
+      "sha256": "18ECBB64D62715916BF0A6FEC17D9D6680EC468E6062443E4C487BE193152017",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0041.png",
+      "sourcePTSSeconds": 58.648133,
+      "sha256": "B8489062AFAF1A065633479D54F484C749924DF60AC600C08E6F1A074A75787C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0042.png",
+      "sourcePTSSeconds": 59.181411,
+      "sha256": "B8D2E1DE8352A0A031F619BCF52F53316BB945FD8526AC423FAD2012A9EE0527",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0043.png",
+      "sourcePTSSeconds": 59.711767,
+      "sha256": "44075404294A0ABDCD8134C03E72254D44FA589A49AA5C51C7DD1DBDF165A5D7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0044.png",
+      "sourcePTSSeconds": 60.219322,
+      "sha256": "5532CF73ED58EA032740FBFB44079BC95E6A8438F1475027178DF84FB9FB08D9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0045.png",
+      "sourcePTSSeconds": 60.748422,
+      "sha256": "C613A54FEACA950ECDB22506911BAEF9FB2C50528CE4A4F12B5B4D652B268F24",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0046.png",
+      "sourcePTSSeconds": 61.249156,
+      "sha256": "60086BA8A78B15F5819E3222F9C77859D1D3C2CFA006E7E58DD6875A9FBB8321",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0047.png",
+      "sourcePTSSeconds": 61.780811,
+      "sha256": "C3CC0B1CF713CB946D9DC037531F56710520129955880A4D1F3C4692830CBBFB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0048.png",
+      "sourcePTSSeconds": 62.293522,
+      "sha256": "55C0B021BD16D7B38EE0A1CD051AC648CC358AA6F0361DEA7F972FFCAE5FCBFD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0049.png",
+      "sourcePTSSeconds": 62.802233,
+      "sha256": "1E5ED01B94EAB7571DBB2816126B02203C53E42DD70277F78F58616D9DDC22D1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0050.png",
+      "sourcePTSSeconds": 63.331933,
+      "sha256": "184EDE5AF72FA111AE167F907A932474FB5E2C634A1BF3A5D31CD8BF5CCA27DF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0051.png",
+      "sourcePTSSeconds": 63.843111,
+      "sha256": "CC02D46B134F3F9447464EF6F4702521B9C0D6595F7D63D5D0F420B274A0BEB7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0052.png",
+      "sourcePTSSeconds": 64.348344,
+      "sha256": "45C04B96A1CF54EBC9C45B2E04E456AC3EEB846AAEC2DF244BA5960AEE79CBAC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0053.png",
+      "sourcePTSSeconds": 64.853089,
+      "sha256": "ADAC11EB8B829F7FBE68C0DB2DE63B950FBD932A1C67683DBBDD96073537995D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0054.png",
+      "sourcePTSSeconds": 65.364567,
+      "sha256": "C5A5E439F7EFCD825C3C198804385143F5CD7898467AE8A206CA8312F8C2CA45",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-hedgehog/frame-0055.png",
+      "sourcePTSSeconds": 65.889233,
+      "sha256": "8FCF4B34DA17C15CBB55EF86FF31F14D9C90A499ECB568554BDA72B61B63C43C",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

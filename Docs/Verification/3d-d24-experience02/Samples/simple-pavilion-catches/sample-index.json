@@ -1,0 +1,357 @@
+{
+  "sourceVideo": "Evidence/presentation-spots-fishing-simple.mp4",
+  "sourceSha256": "D8E1908F7E593EB751CA5241E5D856E05F401A96BC5F164A15086138A1C3DCB3",
+  "selection": {
+    "id": "simple-pavilion-catches",
+    "video": "presentation-spots-fishing-simple.mp4",
+    "start": 3,
+    "end": 20,
+    "fps": 3
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0001.png",
+      "sourcePTSSeconds": 3.010622,
+      "sha256": "7B46A408B2CC03406BEE1AFB81CEEC00F0C52ADAE699437EE79C307706201707",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0002.png",
+      "sourcePTSSeconds": 3.366256,
+      "sha256": "6AFE3155F7C6E10A3E116552DD8F66C2B05CE513F9A1091ED7D898A635283281",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0003.png",
+      "sourcePTSSeconds": 3.707244,
+      "sha256": "51171481589E28AE40D1BF782911129804E664BF90292B82364972C597A16370",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0004.png",
+      "sourcePTSSeconds": 4.061411,
+      "sha256": "3C0CB022ACC90C2F471697036589777E55EDFF64A7C245D448882E79F8726171",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0005.png",
+      "sourcePTSSeconds": 4.469933,
+      "sha256": "D3010E8A116E783870E309A814A90BCA1CC6D928050A152C4D39108C7F794AA5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0006.png",
+      "sourcePTSSeconds": 4.806522,
+      "sha256": "758A4C8311614DF0201AFC7B515CBDF911DE879CDDA8721ADF07B5C189B285E0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0007.png",
+      "sourcePTSSeconds": 5.144367,
+      "sha256": "1E0FE660D0CC3E1A11F1D075EBFF5EC3D4C07376337C7F0D942DAC8B29A5A510",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0008.png",
+      "sourcePTSSeconds": 5.477911,
+      "sha256": "66987BF36CD16C4A5F653E0BCE66DC85AFB4479D139411B7FD55AD077315AB37",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0009.png",
+      "sourcePTSSeconds": 5.848256,
+      "sha256": "FAC18431A778FDC7F9EB089281DA88437B92857974C70F00497151EBD29B98A7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0010.png",
+      "sourcePTSSeconds": 6.214956,
+      "sha256": "97F5FFACA9776F3EFA27F8531A0FD4882832CDBF922F25959300EECA47A602C7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0011.png",
+      "sourcePTSSeconds": 6.578344,
+      "sha256": "9FACDE546ACAAAD1F5A7FDDA8F8C5DF3DAC4A8EDE53224290D31DDB68E686882",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0012.png",
+      "sourcePTSSeconds": 6.939667,
+      "sha256": "00C5B69EBE4E56A9E71C94ADCAD8906912E8FBB20763B71E9FDDE5AE77E46824",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0013.png",
+      "sourcePTSSeconds": 7.273578,
+      "sha256": "FEEAB3BFC08BB6602756751AD1CF14DFDCC04B113080D71F80C6D5D9410E77EF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0014.png",
+      "sourcePTSSeconds": 7.610567,
+      "sha256": "E7A91CD8459973BFC9A8959F30E76E537860EE1994864F2D3A9EBD4156C29262",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0015.png",
+      "sourcePTSSeconds": 7.973056,
+      "sha256": "93074A43233A6037CBCEDD7438B5EDDB36979D5910A406130BFC46EF6E36E7AA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0016.png",
+      "sourcePTSSeconds": 8.345156,
+      "sha256": "AF7FDDA674F8ADD2FB83B36DD5AB2DE3E12A1543CE561196292E92F4562BC61F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0017.png",
+      "sourcePTSSeconds": 8.710656,
+      "sha256": "858793E2A1BB9D23DCB5E5751ADD42FCAC7593C99DEE5F468955F9E62994A72F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0018.png",
+      "sourcePTSSeconds": 9.044933,
+      "sha256": "C9EA810EA70E52EF8A8787CA49C48FB1463A808EE39BB12E86D8FA43C57C5ABA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0019.png",
+      "sourcePTSSeconds": 9.385778,
+      "sha256": "6E991010341E098A2BED0CDEEDD601202F1A040018DD8943D8D438C73752F6C2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0020.png",
+      "sourcePTSSeconds": 9.719844,
+      "sha256": "F57C1EE296865C900BF76739C4AECC94D614CC16531414006B726D9FC9B7854A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0021.png",
+      "sourcePTSSeconds": 10.056878,
+      "sha256": "AE21C59F14EC436D8AB11D9E3C1DBF93BDA32F769DAEAFE6F0E9202A9528998A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0022.png",
+      "sourcePTSSeconds": 10.418878,
+      "sha256": "5E0D8604F6F3A2CC4089B15422A85005320F65348305F7B20ACC199AE989EF3D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0023.png",
+      "sourcePTSSeconds": 10.752478,
+      "sha256": "760ADA2E0EA2DFACD608D0D254D6CDA99A9AAC9FE6E8FC46830C3B2CD1831EAB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0024.png",
+      "sourcePTSSeconds": 11.086467,
+      "sha256": "6605310C1E5141C094B7CDABFF717D2715E417D68AA4C11ECDD79C1A6C9DBD79",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0025.png",
+      "sourcePTSSeconds": 11.452844,
+      "sha256": "160B931BBAC742B02A18BFB4EA35F9379682E82B45075D7B7489C5AE533CC5E2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0026.png",
+      "sourcePTSSeconds": 11.819389,
+      "sha256": "4298673D63AEDD7746322A5E1DCA2804D19EA8725C4B5D52303DECF0204EC8B8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0027.png",
+      "sourcePTSSeconds": 12.187033,
+      "sha256": "5A15253994DA42F7B071905FE14A11209B1EE4A8B82F62BDD33E08C62606D5E8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0028.png",
+      "sourcePTSSeconds": 12.529144,
+      "sha256": "D7AF96F536C5B6B325D2291BBCF5BACAD6680B46CA83851F140FA6A2C5965D9E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0029.png",
+      "sourcePTSSeconds": 12.865411,
+      "sha256": "2E16FBBC0DF60A58138AC74A3789D38ABA59DFF48D75506079DFCD631BDFD543",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0030.png",
+      "sourcePTSSeconds": 13.236867,
+      "sha256": "7357A76EE4D8D0D264F86A648AE8A9F9F502F1BF16CDE7947035645C78D4776F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0031.png",
+      "sourcePTSSeconds": 13.603278,
+      "sha256": "0A47BCE6FD0A59564F035E5E6A6087F240448BC4134A906C158C18B5A4A640FC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0032.png",
+      "sourcePTSSeconds": 13.941089,
+      "sha256": "3A81908A87B83F27B0557E73927941E58F6953DAC2A117C13ECE17553E46BB48",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0033.png",
+      "sourcePTSSeconds": 14.283278,
+      "sha256": "780AE6A0342704C090F60E72E9D9E72F623A619323BB25A14AF5D330B0CFEC87",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0034.png",
+      "sourcePTSSeconds": 14.6483,
+      "sha256": "8235D1C03DD6457079102C94500282C8574B76C188D160C36DA86B3C7159299E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0035.png",
+      "sourcePTSSeconds": 14.989778,
+      "sha256": "BC0770C0474D9B1B7481277E9AED6ABF6DE8E62E9A95E26B7AADA442F82137F8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0036.png",
+      "sourcePTSSeconds": 15.352367,
+      "sha256": "FEDE124765900116D399813C16B08BD0BEB91A1B6934FFF38AE0A180DB311E1D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0037.png",
+      "sourcePTSSeconds": 15.686078,
+      "sha256": "E0E1B82B11E2D8CB7A2982D1323484C15046601610D3A34D4CF4232D47D3390B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0038.png",
+      "sourcePTSSeconds": 16.052278,
+      "sha256": "B8ED5DB81DE39DBFC1B8E1F996A2260A3CC61EBE659C348B21BEA6505F68817A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0039.png",
+      "sourcePTSSeconds": 16.3873,
+      "sha256": "E564D3CF418BD69A0BE061FDC81C682512697A316175397040F7309366B7A486",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0040.png",
+      "sourcePTSSeconds": 16.753167,
+      "sha256": "7547652B56E0145E1EAAF866650EA2E3962C873A298C507E12099C95D679BDD7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0041.png",
+      "sourcePTSSeconds": 17.086644,
+      "sha256": "FC7F094C1175BDF5925C26C08F45E91854DB35BB84193094948788809240AF01",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0042.png",
+      "sourcePTSSeconds": 17.424756,
+      "sha256": "4F3E91DA3505BCECFFF5E27CAC04D431BBCB38183FEC77E9D25A18C4F6E80F30",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0043.png",
+      "sourcePTSSeconds": 17.786156,
+      "sha256": "BC97974EBDA0A84A8ABB861798AAB512B6EDC0E21CD572A63A36E06D9F7783E6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0044.png",
+      "sourcePTSSeconds": 18.119856,
+      "sha256": "C759E74BD11AF85D19750BAB08098E0F746F10226B6F22896EF58870F67BE769",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0045.png",
+      "sourcePTSSeconds": 18.490156,
+      "sha256": "332088FEB3E83A08C4E4F281F66922B582172259B24B558E7D00AF0DA57D509D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0046.png",
+      "sourcePTSSeconds": 18.857389,
+      "sha256": "B1FD83A6D47453B592A2B0E9239B7D8A22086846239DF01F0F550F93A822C2CA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0047.png",
+      "sourcePTSSeconds": 19.214611,
+      "sha256": "DF370C085D06D7506BEC736C04B140B29944186B7A5B9552686E9A95BBF61A4F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0048.png",
+      "sourcePTSSeconds": 19.548178,
+      "sha256": "A025862221004A85FBD3549DD4B63C4C7BB303FBCD3777570A481325FC20C288",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-pavilion-catches/frame-0049.png",
+      "sourcePTSSeconds": 19.898178,
+      "sha256": "34A09AB2B57E0932B0779914B56BA1A709E3B04DFDF4A3940A79813F20CFC077",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

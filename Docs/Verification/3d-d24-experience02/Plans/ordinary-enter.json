@@ -1,0 +1,32 @@
+{
+  "directory": "Docs/Verification/3d-d24-experience02/Evidence/Ordinary",
+  "steps": [
+    {
+      "shot": "01-update-report"
+    },
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "shot": "02-actual-claim"
+    },
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        860,
+        880
+      ]
+    },
+    {
+      "shot": "03-ordinary-compact"
+    }
+  ]
+}

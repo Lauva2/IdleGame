@@ -1,0 +1,25 @@
+﻿
+﻿
+﻿PASS prepared journey fixture journey-window
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\journey-window.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\journey-window.save: 1 file pushed, 0 skipped. 2.4 MB/s (3936 bytes in 0.002s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\journey-window.save: 1 file pushed, 0 skipped. 5.4 MB/s (3936 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1742
+WaitTime: 1748
+Complete
+{'tap': [660, 300]}
+{'shot': '01-before-single-completion'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.9 MB/s (4441 bytes in 0.002s)
+/sdcard/3d-d24-experience02-production-window.mp4: 1 file pulled, 0 skipped. 18.1 MB/s (17696571 bytes in 0.930s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.9 MB/s (4482 bytes in 0.002s)
+{'shot': '02-after-quiet-window'}
+﻿PASS actual Android online replay: elapsed=40.0499931778759s, simplified=False, coins=25000, sales=60000; all inventory, production and facility states match; fish state unchanged
+﻿

@@ -1,0 +1,118 @@
+﻿
+﻿
+﻿PASS prepared review fixture fishing-filled
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 20.9 MB/s (7024 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 18.2 MB/s (7024 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 962
+WaitTime: 967
+Complete
+{'tap': [150, 410]}
+{'shot': 'spot-2-map'}
+{'tap': [780, 1250]}
+{'shot': 'spot-2-compact'}
+{'tap': [500, 1835]}
+{'shot': 'spot-2-details'}
+{'tap': [930, 1530]}
+{'wait': 14}
+{'shot': 'spot-2-actual-catch'}
+{'tap': [500, 1835]}
+{'shot': 'spot-2-bait-and-context'}
+{'back': True}
+{'shot': 'spot-2-leave'}
+{'tap': [540, 300]}
+{'shot': 'spot-1-map'}
+{'tap': [320, 1380]}
+{'shot': 'spot-1-compact'}
+{'tap': [500, 1835]}
+{'shot': 'spot-1-details'}
+{'tap': [540, 1530]}
+{'wait': 14}
+{'shot': 'spot-1-actual-catch'}
+{'tap': [500, 1835]}
+{'shot': 'spot-1-bait-and-context'}
+{'back': True}
+{'shot': 'spot-1-leave'}
+{'tap': [180, 300]}
+{'shot': 'spot-0-map'}
+{'tap': [860, 880]}
+{'shot': 'spot-0-compact'}
+{'tap': [500, 1835]}
+{'shot': 'spot-0-details'}
+{'tap': [180, 1530]}
+{'wait': 14}
+{'shot': 'spot-0-actual-catch'}
+{'tap': [500, 1835]}
+{'shot': 'spot-0-bait-and-context'}
+{'back': True}
+{'shot': 'spot-0-leave'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.9 MB/s (7019 bytes in 0.002s)
+/sdcard/3d-d24-experience02-presentation-spots-fishing-filled.mp4: 1 file pulled, 0 skipped. 26.6 MB/s (57845895 bytes in 2.072s)
+COMPLETE actual three spots fishing-filled
+﻿
+﻿
+﻿PASS prepared review fixture fishing-simple
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-simple.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-simple.save: 1 file pushed, 0 skipped. 20.2 MB/s (7023 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\fishing-simple.save: 1 file pushed, 0 skipped. 22.0 MB/s (7023 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1122
+WaitTime: 1129
+Complete
+{'tap': [150, 410]}
+{'shot': 'spot-2-map'}
+{'tap': [780, 1250]}
+{'shot': 'spot-2-compact'}
+{'tap': [500, 1835]}
+{'shot': 'spot-2-details'}
+{'tap': [930, 1530]}
+{'wait': 14}
+{'shot': 'spot-2-actual-catch'}
+{'tap': [500, 1835]}
+{'shot': 'spot-2-bait-and-context'}
+{'back': True}
+{'shot': 'spot-2-leave'}
+{'tap': [540, 300]}
+{'shot': 'spot-1-map'}
+{'tap': [320, 1380]}
+{'shot': 'spot-1-compact'}
+{'tap': [500, 1835]}
+{'shot': 'spot-1-details'}
+{'tap': [540, 1530]}
+{'wait': 14}
+{'shot': 'spot-1-actual-catch'}
+{'tap': [500, 1835]}
+{'shot': 'spot-1-bait-and-context'}
+{'back': True}
+{'shot': 'spot-1-leave'}
+{'tap': [180, 300]}
+{'shot': 'spot-0-map'}
+{'tap': [860, 880]}
+{'shot': 'spot-0-compact'}
+{'tap': [500, 1835]}
+{'shot': 'spot-0-details'}
+{'tap': [180, 1530]}
+{'wait': 14}
+{'shot': 'spot-0-actual-catch'}
+{'tap': [500, 1835]}
+{'shot': 'spot-0-bait-and-context'}
+{'back': True}
+{'shot': 'spot-0-leave'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 4.4 MB/s (7020 bytes in 0.002s)
+/sdcard/3d-d24-experience02-presentation-spots-fishing-simple.mp4: 1 file pulled, 0 skipped. 22.2 MB/s (45449060 bytes in 1.952s)
+COMPLETE actual three spots fishing-simple

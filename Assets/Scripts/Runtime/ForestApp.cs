@@ -37,6 +37,8 @@ namespace ForestShop
         int selectedIndex;
         float saveTimer, toastTimer;
         bool backgrounded, recovering, quitting;
+        bool booting, changingPage;
+        ForestStartupCover startupCover;
         bool resumeFishingAfterPause;
         long previousSales;
         long previousHarvests, previousCrafts;
@@ -58,6 +60,18 @@ namespace ForestShop
             if (font == null) throw new InvalidOperationException("Required licensed Chinese font is missing");
             round = MakeRound();
             BuildShell();
+            booting = true;
+            startupCover = ForestStartupCover.Create(font);
+            StartCoroutine(OpenShop());
+        }
+
+        System.Collections.IEnumerator OpenShop()
+        {
+            // Let the first branded frame render before synchronous save/world
+            // preparation. No artificial minimum wait or invented percentage.
+            Debug.Log("FOREST_STARTUP shell " + Time.realtimeSinceStartup.ToString("F3"));
+            yield return null;
+            startupCover.Stage("正在读取小店进度");
             Canvas.ForceUpdateCanvases();
             store = new SaveStore(Application.persistentDataPath, new UnityStateCodec());
             try
@@ -73,24 +87,33 @@ namespace ForestShop
                 recovering = true;
                 Debug.LogError("Save recovery required: " + e.Message);
                 ShowRecovery(e.Message);
-                return;
+                booting = false; Destroy(startupCover.gameObject);
+                yield break;
             }
             previousSales = State.sales;
             previousHarvests = State.harvests; previousCrafts = State.crafts;
             receiptState = State;
+            Debug.Log("FOREST_STARTUP save-ready " + Time.realtimeSinceStartup.ToString("F3"));
+            startupCover.Stage("正在布置林间小院");
+            yield return null;
             audioController = gameObject.AddComponent<ForestAudio>(); audioController.Apply(State);
             FocusOpeningStep();
             ShowPage("小店");
             if (State.report.pending) ShowReport();
             else if (!State.welcomeRead) ShowWelcome();
+            RefreshHeader();
             if (!string.IsNullOrEmpty(store.RecoveryMessage)) Toast(store.RecoveryMessage);
+            Debug.Log("FOREST_STARTUP world-ready " + Time.realtimeSinceStartup.ToString("F3"));
+            yield return null;
+            booting = false; Destroy(startupCover.gameObject);
+            Debug.Log("FOREST_STARTUP interactive " + Time.realtimeSinceStartup.ToString("F3"));
             EvidenceStart();
         }
 
         void Update()
         {
             DiagnosticsUpdate();
-            if (recovering || State == null) return;
+            if (booting || recovering || State == null) return;
             long diagnosticStamp = DiagnosticsStamp();
             if (!backgrounded && !State.report.pending && !quitting)
             {
@@ -297,7 +320,8 @@ namespace ForestShop
         }
         void ShowPage(string name)
         {
-            CloseSheet(); currentPage = name; bindings.Clear(); animationBindings.Clear();
+            changingPage = true; CloseSheet(); changingPage = false;
+            currentPage = name; bindings.Clear(); animationBindings.Clear();
             if (State != null) JourneySteps(true);
             RefreshNavigation(name);
             if (world3D != null) world3D.SetVisible(name == "小店");

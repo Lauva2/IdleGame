@@ -43,6 +43,7 @@ namespace ForestShop
             }
             GoForest(spot); var world=World();
             StartSheet(FishingCatalog.Spots[spot],"fishing",660);
+            BeginFishingViewport(world);
             // Keep the actual float visible and allow dragging the exposed world.
             modal.GetComponent<Image>().color=Color.clear; modal.GetComponent<Image>().raycastTarget=false; modal.GetComponent<Button>().enabled=false;
             int bait=Engine.Fishing.BaitUnlocked(State.fishing.bait)?State.fishing.bait:0;
@@ -62,10 +63,11 @@ namespace ForestShop
                 phaseIcon.Symbol=!f.running?ForestSymbol.Timer:f.phase==3?ForestSymbol.Check:f.phase==2?ForestSymbol.Fish:ForestSymbol.Timer;
                 fill.sizeDelta=new Vector2(976*(f.duration>0?Mathf.Clamp01(1-(float)(f.remaining/f.duration)):0),9);
             }); sheetY+=94;
+            var baitStrip=Rect(sheetContent,"Fishing bait choices",0,sheetY,1080,94);
             for(int i=0;i<3;i++)
             {
                 int lure=i; bool available=Engine.Fishing.BaitUnlocked(i); bool selected=State.fishing.bait==i;
-                var button=Button(sheetContent,FishingCatalog.Baits[i],30+i*350,sheetY,320,84,()=>{Engine.Fishing.Pause();Engine.Fishing.Start(spot,lure);Save();ShowFishing(spot);},available,selected);
+                var button=Button(baitStrip,FishingCatalog.Baits[i],30+i*350,0,320,84,()=>{Engine.Fishing.Pause();Engine.Fishing.Start(spot,lure);Save();ShowFishing(spot);},available,selected);
                 button.name="Fishing bait "+i;EnlargeTouch(button,0,84);var label=button.GetComponentInChildren<Text>(); label.fontSize=29;label.rectTransform.anchoredPosition=new Vector2(94,-1);label.rectTransform.sizeDelta=new Vector2(216,44);
                 var icon=Picture(button.transform,"fishing-bait",i,1,1,6,6,82,69);
                 var hint=Label(button.transform,"",22,selected?Paper:Muted,94,43,216,35);
@@ -98,13 +100,25 @@ namespace ForestShop
                 noticeIcon.Symbol=fresh && fishNotice!="新发现"?ForestSymbol.Check:ForestSymbol.Fish;
                 note.text=(fresh?fishNotice:"最近钓获")+" · 第"+caught.sequence+"尾";
             }); sheetY+=186;
-            IconButton(sheetContent,"鱼类图鉴",ForestSymbol.Fish,30,sheetY,560,82,ShowFishCollection).name="Open fish collection";
-            IconButton(sheetContent,"",ForestSymbol.ZoomOut,626,sheetY,120,82,()=>world.Zoom(1.16f));
-            IconButton(sheetContent,"",ForestSymbol.ZoomIn,766,sheetY,120,82,()=>world.Zoom(1/1.16f));
-            IconButton(sheetContent,"",ForestSymbol.Recenter,906,sheetY,120,82,()=>FrameFishing(world,spot)); sheetY+=92;
-            EndSheet();FrameFishing(world,spot);
+            var tools=Rect(sheetContent,"Fishing controls",0,sheetY,1080,82);
+            IconButton(tools,"鱼谱",ForestSymbol.Fish,30,0,320,82,ShowFishCollection).name="Open fish collection";
+            bool details=false; Button toggle=null;
+            Action reflow=()=>
+            {
+                baitStrip.gameObject.SetActive(details);context.gameObject.SetActive(details);
+                recent.anchoredPosition=new Vector2(28,-(details?188:94));recent.sizeDelta=new Vector2(1024,details?176:140);
+                notice.anchoredPosition=new Vector2(195,-(details?124:88));
+                float toolsY=details?374:244;tools.anchoredPosition=new Vector2(0,-toolsY);sheetY=toolsY+92;
+                toggle.GetComponentInChildren<Text>().text=details?"收起":"详情";
+                FinishFishingSheet();FrameFishing(world,spot,false);
+            };
+            toggle=IconButton(tools,"详情",ForestSymbol.Info,370,0,260,82,()=>{details=!details;reflow();});toggle.name="Fishing details toggle";
+            IconButton(tools,"",ForestSymbol.ZoomOut,662,0,110,82,()=>world.Zoom(1.16f)).name="Fishing zoom out";
+            IconButton(tools,"",ForestSymbol.ZoomIn,792,0,110,82,()=>world.Zoom(1/1.16f)).name="Fishing zoom in";
+            IconButton(tools,"",ForestSymbol.Recenter,922,0,110,82,()=>FrameFishing(world,spot)).name="Fishing recenter";
+            reflow();FrameFishing(world,spot);
         }
-        void FrameFishing(ForestWorld3D world,int spot)
+        void FrameFishing(ForestWorld3D world,int spot,bool reset=true)
         {
             Canvas.ForceUpdateCanvases();float focus=.5f;
             if(page!=null && sheetPanel!=null)foreach(var pointer in page.GetComponentsInChildren<ForestWorldPointer>())
@@ -113,7 +127,7 @@ namespace ForestShop
                 float bottom=corners[0].y,top=corners[1].y,visibleBottom=Mathf.Max(bottom,paper[1].y);
                 focus=top>bottom?((top+Mathf.Min(top,visibleBottom))*.5f-bottom)/(top-bottom):.5f;break;
             }
-            world.FocusFishing(spot,focus);
+            if(reset)world.FocusFishing(spot,focus);else world.ReframeFishing(focus);
         }
         void ShowFishCollection() { collectionTab=2; ShowPage("图鉴"); }
         float BuildFishCollection(Transform parent,float y)

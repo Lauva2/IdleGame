@@ -1,0 +1,67 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-edge.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-edge.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-edge.save: 1 file pushed, 0 skipped. 6.4 MB/s (6440 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-edge.save: 1 file pushed, 0 skipped. 7.2 MB/s (6440 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2092
+WaitTime: 2100
+Complete
+{'tap': [150, 410]}
+{'shot': '01-edge-before-discovery-locked-bridge'}
+{'tap': [860, 880]}
+{'shot': '02-fishing-locked'}
+{'back': True}
+{'tap': [300, 1285]}
+{'shot': '03-berry-actual-object'}
+{'tap': [850, 1765]}
+{'shot': '04-actual-gather-receipt'}
+{'wait': 2}
+{'tap': [540, 400]}
+{'shot': '05-greenhouse-before'}
+{'tap': [540, 1150]}
+{'shot': '06-greenhouse-repair-requirements'}
+{'tap': [850, 1600]}
+{'shot': '07-greenhouse-actual-repair'}
+{'tap': [305, 1310]}
+{'shot': '08-nursery-species-choice'}
+{'back': True}
+{'tap': [885, 1640]}
+{'wait': 15}
+{'shot': '09-growing-greenhouse-closeup'}
+{'tap': [998, 1640]}
+/sdcard/3d-d24-experience02-forest-greenhouse.mp4: 1 file pulled, 0 skipped. 23.2 MB/s (37653468 bytes in 1.547s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.9 MB/s (4712 bytes in 0.002s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-pavilion.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-pavilion.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-pavilion.save: 1 file pushed, 0 skipped. 10.3 MB/s (6699 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d24-experience02\Prepared\forest-pavilion.save: 1 file pushed, 0 skipped. 7.5 MB/s (6699 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1624
+WaitTime: 1636
+Complete
+{'tap': [150, 410]}
+{'shot': '10-pavilion-before'}
+{'tap': [700, 1050]}
+{'shot': '11-pavilion-repair-requirements'}
+{'tap': [850, 1600]}
+{'wait': 1}
+{'shot': '12-forest-ending'}
+{'tap': [850, 1770]}
+{'shot': '13-pavilion-after'}
+{'tap': [885, 1640]}
+{'swipe': [850, 1000, 700, 1000, 700]}
+{'shot': '14-pavilion-terrace-books-tea-benches'}
+/sdcard/3d-d24-experience02-pavilion-repair.mp4: 1 file pulled, 0 skipped. 23.0 MB/s (16105912 bytes in 0.668s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.8 MB/s (4730 bytes in 0.001s)

@@ -408,6 +408,7 @@ namespace ForestShop
         }
         void CloseSheet()
         {
+            bool restoreFishingPage=fishingImmersed;
             if (State != null && currentSheet == "dialogue") { State.dialogue = -1; Save(); }
             if (State != null && currentSheet == "celebration") { State.chapterCelebrated = true; Save(); }
             if (State != null && currentSheet == "forest-dialogue") { State.forest.dialogue = -1; Save(); }
@@ -417,6 +418,11 @@ namespace ForestShop
             currentSheet = null; modalBindings.Clear();
             if (modal != null) { modal.gameObject.SetActive(false); Destroy(modal.gameObject); modal = null; }
             sheetPanel = null;
+            if(restoreFishingPage)
+            {
+                FishingChrome(false);
+                if(!changingPage)ShowPage(currentPage);
+            }
         }
         void OpenObject(string type, int index)
         {
