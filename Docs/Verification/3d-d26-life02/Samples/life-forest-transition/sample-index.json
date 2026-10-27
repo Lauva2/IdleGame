@@ -1,0 +1,210 @@
+{
+  "sourceVideo": "Evidence/life-Forest-Default.mp4",
+  "sourceSha256": "BCC0F9B80DD9A5D6532223BA48C228067672975BD8A1CB78808E96D57A992819",
+  "selection": {
+    "video": "life-Forest-Default.mp4",
+    "start": 3,
+    "end": 13,
+    "fps": 3,
+    "id": "life-forest-transition"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/life-forest-transition/frame-0001.png",
+      "sourcePTSSeconds": 3.009056,
+      "sha256": "3797F90BD62F6C8D2E6EB8AC1220DBB0C98F80DD119ED73AE958E479557DD1DB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0002.png",
+      "sourcePTSSeconds": 3.369433,
+      "sha256": "402004DC4B17667D6E65C5263D97E3AB978DBEC27F40B33F9450F16A0BD43EE4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0003.png",
+      "sourcePTSSeconds": 3.744267,
+      "sha256": "D459273C2CE3FB606A29D3B16D1299C08D741FDC56A533093C55E050DC8DF67E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0004.png",
+      "sourcePTSSeconds": 4.0985,
+      "sha256": "A0163AE731791F10A1B3D2C84211A9E1415E3DDD520307407F4BEA63D156FD4D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0005.png",
+      "sourcePTSSeconds": 4.435656,
+      "sha256": "9CE8AF9E0EC187700FA67F6600AD23C8807A7A50397FE3343D1DD7C918EC6EEB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0006.png",
+      "sourcePTSSeconds": 4.802867,
+      "sha256": "035C7694A374E2CD0D6AEB4F58FE1B1DAB4713C44CE2F25D5DD542B304E056E3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0007.png",
+      "sourcePTSSeconds": 5.1591,
+      "sha256": "2FEA4DF28E92029DF69BC8DDE97B14760559152BE18B14D83D1B82C34BB0C96B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0008.png",
+      "sourcePTSSeconds": 5.518889,
+      "sha256": "2A8BBE7C76C46D679863BE8CEF073ADCCE024ED58CD1E38590274AA574CE8C19",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0009.png",
+      "sourcePTSSeconds": 5.886656,
+      "sha256": "F9B0C81965B9B1A26FBCCC30EDCB4F5B10F8B39A96A912E999626C7EA518A9A0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0010.png",
+      "sourcePTSSeconds": 6.253478,
+      "sha256": "C46F2F5EA6690E0D9FA835572341F2143B8231C4D744A69979ED4E97F47649FD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0011.png",
+      "sourcePTSSeconds": 6.644933,
+      "sha256": "0009932D0B615BC53BA5B673F0AA78D5C1C192F45634A04CBBF59592F71E7A36",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0012.png",
+      "sourcePTSSeconds": 7.065478,
+      "sha256": "A5EAF384EC20A7056E6B98294429F91369D137DA7F51B6918977844778DA0EC6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0013.png",
+      "sourcePTSSeconds": 7.464811,
+      "sha256": "1404BECC98921F6473885525FF1315280F901C11D537DAFC7A0E8F1B6B0D1E18",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0014.png",
+      "sourcePTSSeconds": 7.807822,
+      "sha256": "A5EAF384EC20A7056E6B98294429F91369D137DA7F51B6918977844778DA0EC6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0015.png",
+      "sourcePTSSeconds": 8.148156,
+      "sha256": "D85304B68E4A1C56D04B8393D9E1658DC95AF076ED212D55FDCF6DE77D2EB693",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0016.png",
+      "sourcePTSSeconds": 8.502222,
+      "sha256": "363D9F271EB1D6897AC8F7A5051328A9CD6880B9D42BF211F1B94CA022F0A093",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0017.png",
+      "sourcePTSSeconds": 8.836844,
+      "sha256": "52CD2395E25E0F1AC90C348E8D2AB416EE93173173711125A8F9967A795FA3AD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0018.png",
+      "sourcePTSSeconds": 9.198211,
+      "sha256": "DA38336963D9937C25A3C1933C72FC9666E7BE5A965A33BFBB0FD6AAC983EECD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0019.png",
+      "sourcePTSSeconds": 9.540078,
+      "sha256": "B88EEC691348F8BD32A9A685E5C99ECF660C7318F83983D915D677C7A3B18BC2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0020.png",
+      "sourcePTSSeconds": 9.882633,
+      "sha256": "C7F01F4A9CC39A468C11D397BABF22933637C74730F5EA414D5105859F1FB439",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0021.png",
+      "sourcePTSSeconds": 10.216122,
+      "sha256": "43E9F120EDD46D5B197533537ED883A4C5A2D7D08A16F4C1C8363775772B9F22",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0022.png",
+      "sourcePTSSeconds": 10.558622,
+      "sha256": "2F894330D29E91F38BF041FBD278F9111BF3281C9A22ED195502D425B6FCBC38",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0023.png",
+      "sourcePTSSeconds": 10.923856,
+      "sha256": "48DF6543BA81C81C0A41FCFFDC0D44404019972699F14482BC6DC352B6D334BA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0024.png",
+      "sourcePTSSeconds": 11.282033,
+      "sha256": "E5BD67C4FAAA3F1CE1F29CA6B86D1B2056B5DED2DBD33A668011CBE452A21918",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0025.png",
+      "sourcePTSSeconds": 11.638633,
+      "sha256": "CA10B224EA3A6940C15FCD563ACE216432BF1A8E375111D810C4CB4B1489550D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0026.png",
+      "sourcePTSSeconds": 11.981922,
+      "sha256": "3E75D0404F8539282E03A9B4FF6FDB2E7F8627192E96B488B80FB695017DD7DF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0027.png",
+      "sourcePTSSeconds": 12.328289,
+      "sha256": "57111EFD988699FDAAA1B0EA4934D292258822B2E79F511393362C7C9452377F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-transition/frame-0028.png",
+      "sourcePTSSeconds": 12.670733,
+      "sha256": "FFF185CA2187B8A4F5FED92954785FAD36B6E20402C9FCEDF1C2CBAA1CDB065B",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "candidate": "3d-d26-life01",
+  "utc": "2026-10-27T10:58:24.077201+00:00",
+  "sourceBaseCommit": "7df5a68e7c1cc3a4f166a9ad677fe352d5aba08f",
+  "sourceInputFiles": 225,
+  "sourceManifest": "Docs\\Verification\\3d-d26-life01\\source-files.sha256",
+  "sourceManifestSha256": "86D840B3193550F37C739173031ACB1982858C75DD2776D5170514117299B89A",
+  "apk": "Builds\\Android\\3d-d26-life01\\ForestShop-3d-d26-life01.apk",
+  "apkBytes": 45739356,
+  "apkSha256": "FECF0A0B6DCA9D05FD3C36C2DBF6C51DC6B11D7DCDD7931232900467D7F064D1",
+  "sourceArchive": "Builds\\Android\\3d-d26-life01\\build-source-inputs.zip",
+  "sourceArchiveBytes": 57886576,
+  "sourceArchiveSha256": "A1C24D24CF55B45E7B7A1A2FBEE1E6F5370122526376EC1EE3630F39FAF1D702",
+  "sourceArchiveVerified": true,
+  "build": "Unity2022.3.62f2 IL2CPP Release ARM64+ARMv7 non-development GLES3 API23-32",
+  "version": "0.2.6",
+  "versionCode": 8,
+  "artAcceptance": "Pending independent evaluation of this exact APK. Editor and earlier candidate scores do not transfer."
+}

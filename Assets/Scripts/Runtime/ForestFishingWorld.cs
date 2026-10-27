@@ -91,6 +91,7 @@ namespace ForestShop
             fishingFramingY=Mathf.Clamp(viewportY,.5f,.82f);
             var framing=-worldCamera.transform.up*((fishingFramingY-.5f)*worldCamera.orthographicSize*2);
             cameraFocus+=framing;worldCamera.transform.position+=framing;fishingCameraAnchor=cameraFocus-transform.position;
+            compositionDirty=true;RefreshCameraComposition();
         }
         public void LeaveFishingFocus(){if(!FishingFocused)return;FishingFocused=false;if(Region>=4 && Region<=6)SetRegion(Region);}
         public void ReframeFishing(float viewportY)
@@ -99,9 +100,12 @@ namespace ForestShop
             float next=Mathf.Clamp(viewportY,.5f,.82f);
             Vector3 shift=-worldCamera.transform.up*((next-fishingFramingY)*worldCamera.orthographicSize*2);
             cameraFocus+=shift;worldCamera.transform.position+=shift;fishingCameraAnchor+=shift;fishingFramingY=next;
+            compositionDirty=true;RefreshCameraComposition();
         }
-        Vector2 FishingMarker(int spot)
-        { var p=worldCamera.WorldToViewportPoint(fishingDocks[spot].TransformPoint(V(0,.15f,spot==2?-4:spot==1?2:-.95f))); return new Vector2(p.x,p.y); }
+        public Vector2 FishingMarker(int spot)
+        { var p=worldCamera.WorldToViewportPoint(fishingDocks[spot].TransformPoint(V(0,.6f,.2f))); return new Vector2(p.x,p.y); }
+        public Vector2 FishingFloatMarker(int spot)
+        {var p=worldCamera.WorldToViewportPoint(fishingFloats[spot].position);return new Vector2(p.x,p.y);}
         public void PresentFishCatch(FishCatch caught)
         {
             ClearFishingReceipt(); int key=caught.species*4+caught.quality;

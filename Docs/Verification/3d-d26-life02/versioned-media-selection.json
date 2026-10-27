@@ -1,0 +1,598 @@
+{
+  "candidate": "3d-d26-life02",
+  "images": 59,
+  "bytes": 58477910,
+  "scope": "Necessary original native screenshots and lossless source-PTS frames selected for Git. All other original media remains local with immutable SHA/time indexes; no pixel rewriting.",
+  "rows": [
+    {
+      "path": "Evidence/Life/Courtyard/Default/region-0-00-default.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Life/Courtyard/Default/region-0-00-default.png",
+      "sha256": "FFF17A55458CF84620950D7161AC49B40EAC4E2DB3A626E4B94F4F77408811BD",
+      "bytes": 1691236,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Life/Courtyard/Default/region-1-00-default.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Life/Courtyard/Default/region-1-00-default.png",
+      "sha256": "2CE40ED45B21682CF45E0821ACE73C92FE5E0CD4C3C2ED690017F94A5FF11639",
+      "bytes": 1251425,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Life/Courtyard/Default/region-2-00-default.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Life/Courtyard/Default/region-2-00-default.png",
+      "sha256": "CA0DF0BD2D637BA8B7E3CFDD28012E374B7D9680820CD53644D8EFA9BE7024BA",
+      "bytes": 1364018,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Life/Courtyard/Default/region-3-00-default.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Life/Courtyard/Default/region-3-00-default.png",
+      "sha256": "627F105DE7A8348E3334109FC97AAF3DBB237110ADB6CC6BA75B1430DAA68A62",
+      "bytes": 1354288,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Life/Courtyard/Long/region-0-03-boundary-a.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Life/Courtyard/Long/region-0-03-boundary-a.png",
+      "sha256": "A86043267B343CED0E4E081A59CDB749B0F65D68ADB404FDCB32FD6194601B77",
+      "bytes": 1114828,
+      "width": 1080,
+      "height": 2340,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Life/Courtyard/Narrow/region-3-01-wide-cap.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Life/Courtyard/Narrow/region-3-01-wide-cap.png",
+      "sha256": "9654E874F4BC21ECAB6B2A233E4B12917D9D52747D8B506F09EF37A58E32CA5D",
+      "bytes": 851802,
+      "width": 720,
+      "height": 1600,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Life/Courtyard/SafeTall/region-1-00-default.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Life/Courtyard/SafeTall/region-1-00-default.png",
+      "sha256": "AFA80298A99619C0058C18052B09D787E58EBA25E01EC141411772E0DAE6F932",
+      "bytes": 1184138,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Life/Forest/Default/region-4-00-default.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Life/Forest/Default/region-4-00-default.png",
+      "sha256": "6DD5FE211F02687D5E7715029AD0308F12EEE86631894D7C1BEBE31C86ED450A",
+      "bytes": 1353616,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Life/Forest/Default/region-5-00-default.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Life/Forest/Default/region-5-00-default.png",
+      "sha256": "18B080AE3A4E11F3D612077A0D95A2553EB33117B3DC57B53DAC8D2B20C03E2A",
+      "bytes": 1432118,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Life/Forest/Default/region-6-00-default.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Life/Forest/Default/region-6-00-default.png",
+      "sha256": "2BC2E7D81BFF15316DB4003E56EFDF1DBF5DF74BDF259AE93F5DD0A4EB011CAE",
+      "bytes": 1411733,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Life/Forest/Default/region-7-00-default.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Life/Forest/Default/region-7-00-default.png",
+      "sha256": "464572BF1480A991477E8051AFAA190BCAF8AC1880DC8F120BC9A5EED8474F81",
+      "bytes": 1160917,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Life/Forest/Narrow/region-5-01-wide-cap.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Life/Forest/Narrow/region-5-01-wide-cap.png",
+      "sha256": "BE21491782095BD686140CF2C6CF23A325FB01035A1441240CA3EF2F0A2035A9",
+      "bytes": 873838,
+      "width": 720,
+      "height": 1600,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Life/Forest/Default/30-leaf-focused.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Life/Forest/Default/30-leaf-focused.png",
+      "sha256": "FC980C41F26349650EA3DE49083886D577ED4E253566E4B19740F6C188C57023",
+      "bytes": 1261967,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Life/Forest/Default/32-star-focused.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Life/Forest/Default/32-star-focused.png",
+      "sha256": "67DAD8BEFB41C4AAE2563887DE75CED67E685C9999D66F565E404248B292ADC7",
+      "bytes": 1257732,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Initial/00-welcome.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Initial/00-welcome.png",
+      "sha256": "3F4E7650588667A4C9C45AF6CD5107A47C51BBEB145D3CFDB148F470525FD6BD",
+      "bytes": 634069,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Initial/07-real-income.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Initial/07-real-income.png",
+      "sha256": "8F3A5B82C25B6D6D8F6031DA93D3205CC5CFA6E4439FB1ABF8D82A4B247E1DB7",
+      "bytes": 1305304,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Interfaces/14-plot-configuration.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Interfaces/14-plot-configuration.png",
+      "sha256": "7E8104DC635648FBB4F94BDC3F4645429F8E01DB2F1423DE28361EF3065AFBD3",
+      "bytes": 443503,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Interfaces/25-residents-top.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Interfaces/25-residents-top.png",
+      "sha256": "2045E3D92D5BDB74FC9317DAE34A13B6A0D019BF27333F6BA522350C4588388C",
+      "bytes": 303269,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Interfaces/26-resident-story.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Interfaces/26-resident-story.png",
+      "sha256": "277F76715DDA10796A07FFDD97A2BFDE547E8D1CE18549D4160ABA4881AFF7D3",
+      "bytes": 287777,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Market/04-spray-and-balm-recipes.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Market/04-spray-and-balm-recipes.png",
+      "sha256": "2B0929106D6049BEEBFBBCB3F0EFBA1C5C38668BFF5CA1E31C4CCF18519D1F2F",
+      "bytes": 508114,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Market/06-all-new-products-bottom.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Market/06-all-new-products-bottom.png",
+      "sha256": "2880DE65E0AC7E85528CC2B4C35F8E3F866B930F0F4D0BF0B5DBA92991B829DB",
+      "bytes": 252214,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Legacy/01-empty-reserved-shelf-symbols.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Legacy/01-empty-reserved-shelf-symbols.png",
+      "sha256": "687FD3952EDCD786D0FA06A9C8A97B7A347B69F91A2C230AF48131559B2F1B1B",
+      "bytes": 1358874,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Legacy/03-shortage-order.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Legacy/03-shortage-order.png",
+      "sha256": "7D92B4A9344F984AB60436FB22146CA67E5025D7B01182814083935FD41D263D",
+      "bytes": 257064,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Legacy/04-annex-before-overview.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Legacy/04-annex-before-overview.png",
+      "sha256": "06B4C0D8E236E65535A58B1DDFC3176369181587BDFF36BEC7A9DA4BAC433A2B",
+      "bytes": 1680664,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Legacy/07-prepared-chapter.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Legacy/07-prepared-chapter.png",
+      "sha256": "03A465BC3EE36A5AD0AD8E4F8D4C6DAB18F718318F2F558E1C50F56CC02F5A2A",
+      "bytes": 797860,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Legacy/08-reward-sign-pot.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Legacy/08-reward-sign-pot.png",
+      "sha256": "9833C16579E81C639C6A3436AC0D907422E519B9A8A88B54BB920DC400EFE23E",
+      "bytes": 1372935,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Supplement/29-decoration-four-choices.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Supplement/29-decoration-four-choices.png",
+      "sha256": "7827A7DA978CA3F3C7628ADB523C637479AC9F56C6E8378E66B4095FED6966A8",
+      "bytes": 695943,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Panels/SafeTall/07-prepared-chapter-ending-bottom.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Panels/SafeTall/07-prepared-chapter-ending-bottom.png",
+      "sha256": "3E67303B44465FCC75AADEC4070ACC4AC54A5AC45F653E2BEE049015A027F3F9",
+      "bytes": 710145,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Supplement/Narrow/22-settings.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Supplement/Narrow/22-settings.png",
+      "sha256": "E810D2AFFAD46D8544A43EB0C701C8217925A8C6897BC4BF221C6EA33E0AB07D",
+      "bytes": 660632,
+      "width": 720,
+      "height": 1600,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Supplement/Narrow/24-credits-actual-final-line.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Supplement/Narrow/24-credits-actual-final-line.png",
+      "sha256": "A43EC2B7C07542804A611D1D0CB6061B598C5BB2C9FEEDC4C6C2198AC2A3EE20",
+      "bytes": 600656,
+      "width": 720,
+      "height": 1600,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Qualities/q0-actual-first-landed.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Qualities/q0-actual-first-landed.png",
+      "sha256": "AE959A39CB9585431FF520388C946A06A86B46EFBBBF7D4D5FAF2ECECD406736",
+      "bytes": 1059977,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Qualities/q1-actual-first-landed.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Qualities/q1-actual-first-landed.png",
+      "sha256": "8C54BF1D90D5A8B668A5C889DB475D37BD653ECADCB1906B0B69B54DC0E94001",
+      "bytes": 1058950,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Qualities/q2-actual-first-landed.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Qualities/q2-actual-first-landed.png",
+      "sha256": "7D6469C9F235009EF4919645C877133717FFB04FD6FE256A188313AEEDBCEBFF",
+      "bytes": 1056165,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Qualities/q3-actual-first-landed.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Qualities/q3-actual-first-landed.png",
+      "sha256": "DAD4597D754009726225C98E36538C69453C5A4B830D9FC378C7098B5B617600",
+      "bytes": 1062800,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Notices/new-actual-first-landed.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Notices/new-actual-first-landed.png",
+      "sha256": "C53D8060168EF94E6D537C0EC7B90B81876E1D83E334004F67CF97AE17CCEAE3",
+      "bytes": 1056548,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Notices/both-actual-first-landed.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Notices/both-actual-first-landed.png",
+      "sha256": "C4A2E460629A3EA037CA0256D1B427DB57021F8844B6FFFB230DEBBA95C111BF",
+      "bytes": 1060025,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Notices/ordinary-actual-first-landed.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Notices/ordinary-actual-first-landed.png",
+      "sha256": "C844B78BB8E986A9BC63059E5CF10C439B1D02FEA707BDC4E875065B9CDB5F3D",
+      "bytes": 1057748,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Gallery-r01/species-11-top.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Gallery-r01/species-11-top.png",
+      "sha256": "53D6D12B9CA00C7560A8A192B950F508AF36FAC0B4D865550485E9EE7ECBFC65",
+      "bytes": 241063,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Gallery-r01/15-recent-thirtieth-and-retention-note.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Gallery-r01/15-recent-thirtieth-and-retention-note.png",
+      "sha256": "81F7DF98838B6BE1EE1A3164432B037A7A117E4F99158BDF6E3F7301A545A4A1",
+      "bytes": 261502,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-0-compact.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/PresentationSpots/fishing-filled/spot-0-compact.png",
+      "sha256": "247D19B31495D4521411BD56C8C1091F1B2F88ED3ED06122AE3C93F987B26245",
+      "bytes": 1064054,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-1-compact.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/PresentationSpots/fishing-filled/spot-1-compact.png",
+      "sha256": "F6F225538F891B67B87665DDFCBEBD527ECE12E68730BBFF33697460A00F6F23",
+      "bytes": 1174009,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/PresentationSpots/fishing-filled/spot-2-compact.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/PresentationSpots/fishing-filled/spot-2-compact.png",
+      "sha256": "06FCFC1512A9B57E8CCF335E5F7759982302395DC737EC80C0368902983B62F6",
+      "bytes": 1089007,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/PresentationFit/Narrow/02-details-and-three-baits.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/PresentationFit/Narrow/02-details-and-three-baits.png",
+      "sha256": "2A865F0A84D97C99B43DFBBF71CF32BECC0E5726302BCBFA51B7C544B364708F",
+      "bytes": 701170,
+      "width": 720,
+      "height": 1600,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/PresentationFit/SafeTall/07-recenter-and-actual-catch.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/PresentationFit/SafeTall/07-recenter-and-actual-catch.png",
+      "sha256": "2C23B54A9A6B88123FBD85822CFC861B481BF51FE8E598A6825037938AFA2771",
+      "bytes": 1042771,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-0-03-choice0-world.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/MomentFlow/start/event-0-03-choice0-world.png",
+      "sha256": "5DAA00E650621B4BD5BEEFF79D823C332D76FE2261333EA03AEA1C83E911A342",
+      "bytes": 1006809,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-0-05-choice1-world.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/MomentFlow/start/event-0-05-choice1-world.png",
+      "sha256": "C72B90E319BBB79399050409E91A2362591FEBB52338F2DB5C825682FBBCB2D2",
+      "bytes": 987620,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-1-03-choice0-world.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/MomentFlow/start/event-1-03-choice0-world.png",
+      "sha256": "A8967900948EB0EBA6559481828E14E57792C578E8515C9075D38CBD6330CB63",
+      "bytes": 1162186,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-1-05-choice1-world.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/MomentFlow/start/event-1-05-choice1-world.png",
+      "sha256": "495D72CAC46737008C6A24EC7EFAE3150D319E2B4D7DB8F146F8199B2720E841",
+      "bytes": 1148174,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-2-03-choice0-world.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/MomentFlow/start/event-2-03-choice0-world.png",
+      "sha256": "631CAF6A2035D68B12968B9ED3DA606F6B056A22BE1E7B8DF78F996A67C3BD0B",
+      "bytes": 1156679,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/MomentFlow/start/event-2-05-choice1-world.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/MomentFlow/start/event-2-05-choice1-world.png",
+      "sha256": "E7234E95B892AC02ACCFEF8B9D8E54C8C51EF7A8ACE0D35CE41CF439B42BCB48",
+      "bytes": 1247294,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/event-2-12-choice0-world.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/MomentFit/Narrow/event-2-12-choice0-world.png",
+      "sha256": "CD82DA3C34281E65A3FD2089AE982892301B24B208A796916E37866C2FA2FE16",
+      "bytes": 729310,
+      "width": 720,
+      "height": 1600,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/MomentFit/Narrow/event-2-13-choice1-world.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/MomentFit/Narrow/event-2-13-choice1-world.png",
+      "sha256": "EC3DF32710506D869205403906AA5D2D537FE1822D4AB54DCC4C6ED1C10B8D80",
+      "bytes": 727453,
+      "width": 720,
+      "height": 1600,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/MomentReload/04-pending-choice-kept.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/MomentReload/04-pending-choice-kept.png",
+      "sha256": "11A92BEB2E1DF89AFFAE8BD7E70CBE08D526E591D49681734167EFA8873A4CB7",
+      "bytes": 755151,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/MomentStates/finished/03-journal-third-card-footer.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/MomentStates/finished/03-journal-third-card-footer.png",
+      "sha256": "DC9E52165BCFC325615641EDE217CCDCC982B553C28AB5D61815906660047631",
+      "bytes": 725275,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Ordinary/41-final-ordinary-report-footer.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Ordinary/41-final-ordinary-report-footer.png",
+      "sha256": "65BA653488B10C3D4EADBE7ABA010F1715DF9326D956F90CB1D2B0CFF633513B",
+      "bytes": 869612,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Ordinary/44-final-ordinary-overview.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/Ordinary/44-final-ordinary-overview.png",
+      "sha256": "BBC1B6C9E12FAA0BE3CCAB29041A71E298493FF1760D04805921D99FF4D18FB7",
+      "bytes": 1675260,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0011.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Samples/review-rabbit-fourth-shelf/frame-0011.png",
+      "sha256": "356757D7FED219C05F86501A608FF62D3A38985820EF31D97FC7D5815F71F7EB",
+      "bytes": 1325592,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": 148.149222,
+      "sourceVideo": "Evidence/market-native-1.mp4"
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0008.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Samples/review-workbench-finish/frame-0008.png",
+      "sha256": "0E2A32985EE72442752C6CD65E681F5CF53DC39BF8B8B68FDB2457686A298529",
+      "bytes": 1271533,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": 26.980511,
+      "sourceVideo": "Evidence/production-workshop.mp4"
+    },
+    {
+      "path": "Samples/review-window-fade/frame-0006.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Samples/review-window-fade/frame-0006.png",
+      "sha256": "B86D90F75B8D2A71C1479EEB7CA321ABB17BE42A9AC6CE768B8A1110D6AA3BDD",
+      "bytes": 1271494,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": 5.3457,
+      "sourceVideo": "Evidence/production-window.mp4"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "sourceVideo": "Evidence/market-native-1.mp4",
+  "sourceSha256": "AC1374C7A5ADD1E138F180EA3457B9C43DC5E5BBE023B1D4B2F696BBF4451152",
+  "selection": {
+    "video": "market-native-1.mp4",
+    "start": 143,
+    "end": 159,
+    "fps": 2,
+    "id": "review-rabbit-fourth-shelf"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0001.png",
+      "sourcePTSSeconds": 143.030433,
+      "sha256": "9EC784ACB3D94D64F22957BD575D9877D7656722CFB870D2D4BC497C05CB71CE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0002.png",
+      "sourcePTSSeconds": 143.549033,
+      "sha256": "DA4F37240CD1A07D7B9710798E0C62D5B634E7EB203A0D652F67FD60A4755E2E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0003.png",
+      "sourcePTSSeconds": 144.0739,
+      "sha256": "694B6B762C5FFF9AA0DCE8DB495F89E465D8251FA8468B28FD534670BF1AA745",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0004.png",
+      "sourcePTSSeconds": 144.573944,
+      "sha256": "F326A4871DE150DDBF278FCF073E51A2E9065608651516EC3615978F80EF2103",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0005.png",
+      "sourcePTSSeconds": 145.107,
+      "sha256": "19E6EDC86D1309C69523933A4123738BDFA0971D3435550ED377EC8CA1ED1018",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0006.png",
+      "sourcePTSSeconds": 145.608889,
+      "sha256": "86DA266E3A4F225E5199A6AC3C72ACBAEEC689E22533ABFA75C44612CB93E5F5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0007.png",
+      "sourcePTSSeconds": 146.115389,
+      "sha256": "7CFFA943C2AC659E84593EEB10FB7C6B5EDCBE738F0732B698E4020D38D0EA60",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0008.png",
+      "sourcePTSSeconds": 146.6205,
+      "sha256": "EA59A517F00C00C9C8353695F450ECB8792B7C6678EF14AF8ED6835AABE79ACB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0009.png",
+      "sourcePTSSeconds": 147.128056,
+      "sha256": "D137F291C4F7157DBE6A6D582587C61102E0A376543B293F78304B0F544888AA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0010.png",
+      "sourcePTSSeconds": 147.649167,
+      "sha256": "E114F722C8BCA5802547AE68C7AD1619559C39B8FA4C1291B8A58A6F4FA54A2D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0011.png",
+      "sourcePTSSeconds": 148.149222,
+      "sha256": "356757D7FED219C05F86501A608FF62D3A38985820EF31D97FC7D5815F71F7EB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0012.png",
+      "sourcePTSSeconds": 148.661756,
+      "sha256": "EA946250AF50664B5A987AC7D1CE8EB87AB369D6CDC527076708DFFFDBCF314E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0013.png",
+      "sourcePTSSeconds": 149.169567,
+      "sha256": "772915B52EBDFB2C6675DF3714F72FE8D057CBA71412F190EA12B98447EA167D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0014.png",
+      "sourcePTSSeconds": 149.691256,
+      "sha256": "6E649218D09B895FA27A6EDCC7FD567F00490A1458CC26DA11E6F5F2D88A017B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0015.png",
+      "sourcePTSSeconds": 150.197689,
+      "sha256": "A0590D7EE51FFFA4533033B77809E61329B4933D38FBF8C5592EDFB40D6BA4F5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0016.png",
+      "sourcePTSSeconds": 150.703722,
+      "sha256": "286A6E05EC450CE67E536AB2F762CFEE9769C152DDE8DB06F86292626442BA3E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0017.png",
+      "sourcePTSSeconds": 151.236744,
+      "sha256": "75FAACC8B687DA7A2968D09B2A1ACB0D41A8823CD830FCE7800DBD0A21AB83CA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0018.png",
+      "sourcePTSSeconds": 151.761389,
+      "sha256": "B92ED9765A01A433B7EE18EC842160FF2F0BFEBE58A243D495EFA8A70DC51E4B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0019.png",
+      "sourcePTSSeconds": 152.2782,
+      "sha256": "725954D43B55E5E2E8F775A52E541B7B0E3D528C14D38789FEE9FEE7468E3346",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0020.png",
+      "sourcePTSSeconds": 152.778544,
+      "sha256": "470B6FE8FF269688A3FEB33D7DF55F9053889064659E806CD8323F6AA91E9526",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0021.png",
+      "sourcePTSSeconds": 153.278611,
+      "sha256": "DD6B5F825DE817122B5CDF908CF3562B3DA8828CB30C8F0C060918B39DF21BA8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0022.png",
+      "sourcePTSSeconds": 153.782256,
+      "sha256": "93E3D0855C5BDB403438D48FA20CBC115F97C4B87E1EA09764B39855C6710C84",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0023.png",
+      "sourcePTSSeconds": 154.290633,
+      "sha256": "ED3934BE60A3F5FC630CC9FB9E8B80F03CEFD3CE6BF94D231F683D0BDA0F14C3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0024.png",
+      "sourcePTSSeconds": 154.819822,
+      "sha256": "376B308D1958DD2B643A5B1EC8EE07E6429CC8320F5180695536234D6F1B7651",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0025.png",
+      "sourcePTSSeconds": 155.341567,
+      "sha256": "61FB963BB4F793E8601C6F96F0DFE96F7054D6DE8892D8A50BD4505372D417CE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0026.png",
+      "sourcePTSSeconds": 155.874089,
+      "sha256": "1D1015E0D9BEF7151DE42781189200A88F78AE410684D6043531C2D56FDA5F08",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0027.png",
+      "sourcePTSSeconds": 156.411456,
+      "sha256": "9F4268CE9F7A1C722FBADC09F443C64CEB762F47EA57469B96536C8E174ED7F2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0028.png",
+      "sourcePTSSeconds": 156.911544,
+      "sha256": "09ACAA92A43AF8B8BAF58E6B56B0A62A76493D25C68DE651B8DF2B2A9E59E395",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0029.png",
+      "sourcePTSSeconds": 157.412233,
+      "sha256": "ACA9E1C2E05351F6ECAFBD0822810948EE9F385BB9D22271E652E0F1F4236ECE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0030.png",
+      "sourcePTSSeconds": 157.945267,
+      "sha256": "8EA8AC134A28D075588A52243F913D57E55488F5FEE28E75201D0D5A89B4B792",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0031.png",
+      "sourcePTSSeconds": 158.445278,
+      "sha256": "9CAC46B690AD2AFA3EE353D80450EFFD5DABD26EEEB93A2D63559789188871FA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-rabbit-fourth-shelf/frame-0032.png",
+      "sourcePTSSeconds": 158.9618,
+      "sha256": "ABE02CDB656101927E021AB3A4D84E03312501A6EF235282CAD88B1901FAABD8",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

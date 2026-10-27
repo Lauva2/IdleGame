@@ -1,0 +1,56 @@
+{
+  "sourceVideo": "Evidence/shop-closeup-pan-clearance.mp4",
+  "sourceSha256": "B2EFE047B4A1F80CB4674043EDFC6C6BFA278B356FF5FD8884B8114D1EAA0F10",
+  "selection": {
+    "video": "shop-closeup-pan-clearance.mp4",
+    "start": 0,
+    "end": 19,
+    "fps": 0.3,
+    "id": "shop-panned-clearance"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/shop-panned-clearance/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "0E56CF997DE5D52D78E1B2240922AEF552725D0A105C4262D2E1C21B50F4F712",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-panned-clearance/frame-0002.png",
+      "sourcePTSSeconds": 3.347833,
+      "sha256": "802891F45DBD83413E143367F0DC62D6F4CBED7871AD41D932E1DD0430B78A04",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-panned-clearance/frame-0003.png",
+      "sourcePTSSeconds": 6.706033,
+      "sha256": "A767D881809BFC4A7947D578F8B602C5E4AA6097D6CAB81A793E6A4FA83566C8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-panned-clearance/frame-0004.png",
+      "sourcePTSSeconds": 10.051922,
+      "sha256": "3616953D6E5A56EBF43241AF22EB5008A7EF84ABCE56CCD4FA0678B28F7FD8AE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-panned-clearance/frame-0005.png",
+      "sourcePTSSeconds": 13.394389,
+      "sha256": "21E32729BD1FE55DDB1B045BBFE3B8C0A5A5369C20AE66D100617187ECFCB528",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-panned-clearance/frame-0006.png",
+      "sourcePTSSeconds": 16.760533,
+      "sha256": "799EB9F571537C75ECDCD62BFA2226E017A242F3EA63209272EE6AE8FED29949",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

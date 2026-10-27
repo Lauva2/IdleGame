@@ -1,0 +1,126 @@
+{
+  "sourceVideo": "Evidence/fishing-gallery-r01.mp4",
+  "sourceSha256": "4237E7F3370D488C29A58B7CAF3D92B273073E0E0E29206CCDDAA2909C3FB1A9",
+  "selection": {
+    "video": "fishing-gallery-r01.mp4",
+    "start": 0,
+    "end": 160,
+    "fps": 0.1,
+    "id": "fish-gallery-scroll"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "69E097F9FF5320D7DC97B44FBD7BBF1A75C708F315F64DB9257584DAB2AA6B05",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0002.png",
+      "sourcePTSSeconds": 10.004322,
+      "sha256": "BD486B1400D94B7B3AAAC7A89F740149FF52239ED0EA1C4E2129360B7CA3778E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0003.png",
+      "sourcePTSSeconds": 20.029056,
+      "sha256": "55BFB4D8A9151CABDF227C7706FE8FE23E39B56ED7DD11CC2C389373110EB6C7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0004.png",
+      "sourcePTSSeconds": 30.030244,
+      "sha256": "C964E247ADCA4E3C073B6F64D611870820E7DC7E3F70EFE7C81923EB58AFB8E3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0005.png",
+      "sourcePTSSeconds": 40.053478,
+      "sha256": "C33D43C1682D8E94A79AFBFE4CD0251108E30F9115F9C537C8B70A0028411AC1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0006.png",
+      "sourcePTSSeconds": 50.104033,
+      "sha256": "BA502C817DBDD60D6BF015964A65EDE03D715B73905993F7E33C5AABAFBB2D42",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0007.png",
+      "sourcePTSSeconds": 60.121178,
+      "sha256": "F5A53BC3FBBD365F6BB920D77EB4BEA36673B422F3EA3D41F1FEE0320DEF41E4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0008.png",
+      "sourcePTSSeconds": 70.153522,
+      "sha256": "CF86DD5E50AC8907B0F48269647B3820AFF3D4B110806C296D422BC989FAB5CD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0009.png",
+      "sourcePTSSeconds": 80.188367,
+      "sha256": "AF863362667CAB619C8255BA99E3FBDDA329FBF9A50C21AB5839E7207126E4A8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0010.png",
+      "sourcePTSSeconds": 90.190978,
+      "sha256": "43F527EBCDA4E494F96DDEE01CF61AA7ED0F49C1CB4CAD029FB5F33B4A845D6A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0011.png",
+      "sourcePTSSeconds": 100.191478,
+      "sha256": "549688654014ABB73A8502578CB363284FAAC027C6CFC2B2798D553F74E8E5B7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0012.png",
+      "sourcePTSSeconds": 110.230089,
+      "sha256": "4D3B3EB72A0E1FBB79E9E051662F63550C8C045E7D5614C0BE9168ED5206099A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0013.png",
+      "sourcePTSSeconds": 120.237522,
+      "sha256": "31454BCDE97117BA6129CEAEEFC74563406A3EB23646C9028945B85200674318",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0014.png",
+      "sourcePTSSeconds": 130.2665,
+      "sha256": "5FCD55F61DBC609FEE5D106A54BCE26CB11795D4798F349FEA9317078997BC0E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0015.png",
+      "sourcePTSSeconds": 140.278778,
+      "sha256": "F36D74CC360A20865FFB2C52166AB1129BA70A65A1371C9F5EDD051191E6AA69",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-gallery-scroll/frame-0016.png",
+      "sourcePTSSeconds": 150.286733,
+      "sha256": "C5DAB7E8563C7794B20BAB64887E3A64A807EA4F0CB9837A07108FD4B2FBB75B",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

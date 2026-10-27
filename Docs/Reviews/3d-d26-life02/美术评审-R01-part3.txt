@@ -1,0 +1,63 @@
+【正式原始报告，第3/3段】
+## 6. 源PTS实际查看清单与抽样边界
+
+下列均指`Samples/<组名>/frame-NNNN.png`，编号从1起；“全”仅指该组已生成的必要采样全部目视，不指原片逐渲染帧。各sample-index保留准确原片SHA及逐帧实际PTS。以下合计724张、52组。
+
+| 组名 | 实际查看编号（或该组全部数量） |
+|---|---|
+| market-first-chains / market-second-chains / market-continuous-61s |全53 / 全53 / 全61|
+| production-garden / production-workshop / production-shop / production-window |全12 / 全12 / 全12 / 全16|
+| review-rabbit-fourth-shelf / review-workbench-finish / review-garden-receipt / review-window-fade |全32 / 全15 / 全9 / 全10|
+| blocked-full / blocked-input / blocked-reserve |各全4|
+| busy-garden / reduced-garden / reduced-workshop / interfaces-scroll |全9 / 全6 / 全6 / 全12|
+| life-courtyard-camera / life-forest-camera |各1,3,5…31,32，共17|
+| life-courtyard-transition / life-forest-transition |各1,3,5…27,28，共15|
+| life-bookmark-change |1,3,5…19,20，共11|
+| shop-near-clearance / shop-panned-clearance / shop-source-boundary / simple-shop-standing |全16 / 全6 / 全7 / 全6|
+| three-spots-normal |全35|
+| three-spots-simple |1,2,3,5,6,7,9,10,11,13,14,15,16,17,19,21,22,23,24,25,26,35，共22|
+| ordinary-fishing / fish-landing-motion |全24 / 全30|
+| fish-common-quality / fish-prized-quality |1,7,8,10,13共5 / 1,14,16,20,25共5|
+| fish-notice-both |1,6,7,10，共4|
+| fish-notice-length / fish-notice-new / fish-notice-ordinary / fish-notice-weight |各6,7,10，共3|
+| fish-gallery-scroll |1,3,4,7,10,13,16，共7|
+| fish-narrow-navigation / fish-safe-navigation |1,3,5,7,9,11,13共7 / 1,3,5,7,9,13共6|
+| moments-normal-flow |1～17、19,21,23,25,51，共22|
+| moments-simple-flow |1～17、19,51，共19|
+| moments-narrow-fit |2,4,6…20，共10|
+| moments-pending-reload |1,2,3,5,8，共5|
+| initial-flow / forest-discoveries |各1,3,5…23,24，共13|
+| forest-greenhouse |1～7、22，共8|
+| forest-pavilion-repair |1～7、17，共8|
+| handbook-navigation / final-cold-start |全8 / 全15|
+| update-cold-start |1,2,3,4,6,14，共6|
+
+镜头长间隔样本用于边界/回中状态，过渡另有约3～12.8秒的较密序列；并不把8秒间隔当连续运动检查。鱼获稠密序列约4FPS、追加生产短窗约3FPS、兔子路线约2FPS；仍可能漏掉采样间瞬时瑕疵。`handbook-navigation`所采片主要是小院/森林及一次鱼类详情打开关闭，不据组名断言其中有四个手册入口连续跳转；四入口依第4节真页面及动作记录覆盖。
+
+取证误名已明确排除：MomentFlow两模式34/35实际仍是林区世界、36是林区功能页；31仍保留旧亭/书签，32是合法旧亭修复卡，不能作为目标完全画外或无幽灵卡证明。Supplement的27仓库图未到实际页脚，由FacilitiesFit的04真实升级页脚补足。FishFit的07部分是浮漂下沉，不能据名字当鱼已入篮。PresentationFit导航片后段仍在设置，返回背景以原图补足。保留原图及更正说明即可，本轮无须为这些误名重复录制。
+
+## 7. 问题、建议与复验
+
+本轮未发现美术阻断项；以下为未解决的一般问题，已纳入扣分，不因达到总分线而隐藏。
+
+- **D26-G01，一般/中：极端镜头主次不足。** Evidence/Life各组region-0、region-1等最近边界及`life-courtyard-transition`约10.99～12.79秒，地板/草地/屋顶占比较大，仍有经营地标但生活感减弱。建议进一步按主要设施可见面积收敛焦点，或补低矮路径细节；复验八区四方向、最大缩小与回中，确保不会反向挤掉入口。
+- **D26-G02，一般/低：少量标牌与控件余量紧。** 参见Life/Courtyard的region-1最近视角，第12田标牌部分贴叠右下缩放区域；Life/Forest的region-6最近视角叶签与控件间隔很窄；Long的region-5-wide有较长跨区引线。默认视图信息可读、实物仍可识别，未形成关键操作失效。建议以实物包围范围、固定控件及短引线共同留边；复验三画幅/84px及相邻区，不仅单区默认。
+- **D26-G03，一般/低：自然物和水面精度。** Life森林、三钓点原图中球团树冠/石草重复可见，水岸边缘偏硬、部分波纹有锯齿，拉近时更明显。建议丰富少量轮廓/表面变化并平衡水面与岸线；复验最近与最远、常规/简化，避免以增加密度遮挡物件。
+- **D26-G04，一般/低：收集对象细节层次。** Gallery-r01十二鱼靠颜色/鳍纹可分，但若干鱼身体模板相似；MomentFlow/MomentFit的小留念有厚重拼搭感。建议后续加强少量关键轮廓和材质差异；复验灰度/缩略与世界结果，不改变既有概率或数值。
+- **D26-G05，一般/低：动作仍较机械。** 市场转向、拿取、离店及自动等待的姿态变化有限；本包购物/生产/鱼获链成立，尚不够自然。建议后续增加轻微预备/停顿与身体朝向过渡；复验完整顾客链、简化模式及金币/成品短反馈，不能扩大遮挡。
+- **D26-G06，一般/低：启动前空底及等待。** final-cold-start第2张、update-cold-start第2张实际为空底，随后有标题卡，直到约6～8秒样本才进入报告。不能写成完全无等待或已经证实提速。建议继续测量外部启动区间和标题接续；复验保留桌面/系统前置帧、实际报告数字与Unity Logo关闭状态。
+- **D26-G07，一般/低：简化固定站位距箱体偏紧。** LifeSimpleShop/02-shop-simple-default、03-shop-simple-near及6张standing样本中，厨帽顾客右臂与箱/台投影靠近，有接触式叠压感；所见角度未见明确穿板或关键识别部位被切掉。建议以后留更宽间隔；复验默认/最近与五角色，不泛化为所有视角几何无交叠证明。
+
+已复验关闭：R04-M01标牌停留旧位置、R04-M02边界失去经营地标的必改现象；跨区浮漂/书签主体被标牌压住的专项；靠墙备货角与第四架普通路线及简化固定站位的必需覆盖。关闭是就本包所查范围，不撤销历史问题记录。一般构图/间距问题仍按上述条目保留。
+
+## 8. 最终结论与适用限制
+
+**本候选独立美术验收通过：91.0/100，七项达到下限，原八关键场景及全部本轮扩展覆盖通过，所查范围零美术阻断项，无本轮美术通过前必须补齐的证据。** 结论只适用于本报告绑定的life02 APK与冻结证据。任何可见资产、构建输入或候选变化均须更新证据并由同一独立角色重新确认。
+
+功能回放、普通审计、准备状态审计及性能数据仅作辅助。最后普通档已恢复并领取离线收益；r03实际设置往返后1,341,224币/66鱼/三小事333与010保留，不能用旧快照覆盖新增进度。12秒简化原片不等于460.645814643765秒完整设置区间的连续录像；首次短区间校验被前置条件拒绝的原错误保留，未降低门槛。
+
+性能样本299.988秒29.56FPS/P95 37.5ms/最大150ms，包含界面操作；PSS423484KB为单点。不能称正式30分钟、稳定纯五分钟或内存趋势验证。完整声音人工验收、自然全章/十二田购买、全部异常和正式长测仍延期。本角色没有完整试听；许可与声音开关不能替代听感结论。
+
+最终设备仅MuMu Android12；实体手机性能、触控、真实安全区、发热耗电未验证，大字体及其他安卓系统未扩展验证。美术通过不等于第一版全部验收完成。依据用户授权，评审结束可由主代理另记范围清理可再生冗余解码缓存；原片、原图、必要保留样本、原始报告与索引继续保留，删除后的展开帧路径不得继续声称现存。
+
+——正式原始报告完，第3/3段结束。

@@ -1,0 +1,59 @@
+-vsync is deprecated. Use -fps_mode
+Passing a number to -vsync is deprecated, use a string argument as described in the manual.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000002babb3afd40] All samples in data stream index:id [1:2] have zero duration, stream set to be discarded by default. Override using AVStream->discard or -discard for ffmpeg command.
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Evidence\fishing-motion-notice-length.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2026-10-27T13:02:13.000000Z
+    com.android.version: 12
+  Duration: 00:00:27.94, start: 0.000000, bitrate: 3628 kb/s
+  Stream #0:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920, 3623 kb/s, 27.74 fps, 90k tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2026-10-27T13:02:13.000000Z
+        handler_name    : VideoHandle
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](eng): Data: none (mett / 0x7474656D) (default)
+      Metadata:
+        creation_time   : 2026-10-27T13:02:13.000000Z
+        handler_name    : MetadHandle
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+[Parsed_showinfo_1 @ 000002babbe2ecc0] config in time_base: 1/90000, frame_rate: 69750000/2514173
+[Parsed_showinfo_1 @ 000002babbe2ecc0] config out time_base: 0/0, frame_rate: 0/0
+[Parsed_showinfo_1 @ 000002babbe2ecc0] n:   0 pts:      0 pts_time:0       duration:  17015 duration_time:0.189056 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:1 type:I checksum:6A4BE668 plane_checksum:[AAA2B472 57F8EA10 82E247D7] mean:[160 107 130] stdev:[42.8 7.4 10.3]
+[Parsed_showinfo_1 @ 000002babbe2ecc0] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+Output #0, image2, to 'E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Samples\fish-notice-length\frame-%04d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    com.android.version: 12
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: png, rgb24(pc, gbr/bt709/bt709, progressive), 1080x1920, q=2-31, 200 kb/s, 27.74 fps, 27.74 tbn (default)
+      Metadata:
+        creation_time   : 2026-10-27T13:02:13.000000Z
+        handler_name    : VideoHandle
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 png
+[Parsed_showinfo_1 @ 000002babbe2ecc0] n:   1 pts: 227405 pts_time:2.526722 duration:   3006 duration_time:0.0334  fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:9542F0B0 plane_checksum:[E92617BB D34B5A1F 738E7ED6] mean:[169 112 124] stdev:[35.5 8.2 11.4]
+[Parsed_showinfo_1 @ 000002babbe2ecc0] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 000002babbe2ecc0] n:   2 pts: 453970 pts_time:5.044111 duration:   2615 duration_time:0.0290556 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:76C433FE plane_checksum:[496675CC 7BDD76AF D4FA4774] mean:[169 112 124] stdev:[35.5 8.2 11.5]
+[Parsed_showinfo_1 @ 000002babbe2ecc0] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 000002babbe2ecc0] n:   3 pts: 679621 pts_time:7.551344 duration:   3732 duration_time:0.0414667 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:B9853141 plane_checksum:[76C97A54 206A80C7 FC5B3617] mean:[169 112 124] stdev:[35.6 8.2 11.4]
+[Parsed_showinfo_1 @ 000002babbe2ecc0] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+frame=    2 fps=0.0 q=-0.0 size=N/A time=00:00:02.55 bitrate=N/A speed=5.08x    [Parsed_showinfo_1 @ 000002babbe2ecc0] n:   4 pts: 907251 pts_time:10.080567 duration:   3398 duration_time:0.0377556 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:14C696AB plane_checksum:[6CE6EC2C A45A9DF4 A41B0C7C] mean:[169 112 124] stdev:[35.6 8.2 11.4]
+[Parsed_showinfo_1 @ 000002babbe2ecc0] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 000002babbe2ecc0] n:   5 pts:1133030 pts_time:12.589222 duration:   2968 duration_time:0.0329778 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:0A1C21C0 plane_checksum:[D8E94D2E 83AD695C CE1B6B27] mean:[166 112 124] stdev:[35.8 8.3 11.5]
+[Parsed_showinfo_1 @ 000002babbe2ecc0] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 000002babbe2ecc0] n:   6 pts:1358391 pts_time:15.093233 duration:   2987 duration_time:0.0331889 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:467E877A plane_checksum:[9837360F B030DF44 2BAC7218] mean:[167 112 124] stdev:[35.8 8.3 11.5]
+[Parsed_showinfo_1 @ 000002babbe2ecc0] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 000002babbe2ecc0] n:   7 pts:1583848 pts_time:17.598311 duration:   2177 duration_time:0.0241889 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:8C57F128 plane_checksum:[040016D7 B53F1F27 57ADBB2A] mean:[160 116 128] stdev:[58.3 4.4 6.5]
+[Parsed_showinfo_1 @ 000002babbe2ecc0] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+frame=    6 fps=5.9 q=-0.0 size=N/A time=00:00:12.61 bitrate=N/A speed=12.4x    [Parsed_showinfo_1 @ 000002babbe2ecc0] n:   8 pts:1811378 pts_time:20.126422 duration:   4159 duration_time:0.0462111 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:BF376773 plane_checksum:[4EB297FA 5CFD0631 9EB3C939] mean:[156 117 128] stdev:[54.9 4.5 6.5]
+[Parsed_showinfo_1 @ 000002babbe2ecc0] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 000002babbe2ecc0] n:   9 pts:2036842 pts_time:22.631578 duration:   2650 duration_time:0.0294444 fmt:yuv420p cl:left sar:0/1 s:1080x1920 i:P iskey:0 type:P checksum:6C14680B plane_checksum:[B5819892 35B30641 37AFC929] mean:[156 117 128] stdev:[54.9 4.5 6.5]
+[Parsed_showinfo_1 @ 000002babbe2ecc0] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[out#0/image2 @ 000002babba17040] video:8716KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=   10 fps=7.0 q=-0.0 Lsize=N/A time=00:00:22.67 bitrate=N/A speed=15.9x    

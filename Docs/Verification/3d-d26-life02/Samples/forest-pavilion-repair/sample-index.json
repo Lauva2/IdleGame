@@ -1,0 +1,133 @@
+{
+  "sourceVideo": "Evidence/pavilion-repair.mp4",
+  "sourceSha256": "8C9C39662DDDE9DE8DF5C5DF9BC2E0C365F2C7A8F1F8ACE5249EB1C382231A82",
+  "selection": {
+    "video": "pavilion-repair.mp4",
+    "start": 0,
+    "end": 34,
+    "fps": 0.5,
+    "id": "forest-pavilion-repair"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "81CA4F3020DB6D31E3F132E67A6BDC86157B2434C26D355C619D64A2DA447E7F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0002.png",
+      "sourcePTSSeconds": 2.072489,
+      "sha256": "DAA31EDAF22245E92022F303CB1A76E735131A19BF1C9538AD498349500BA4E2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0003.png",
+      "sourcePTSSeconds": 4.167044,
+      "sha256": "F267E6FB05E1183891EA85EA9A794442D7C5C58AC86C3A3093367D90002DDE71",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0004.png",
+      "sourcePTSSeconds": 6.198567,
+      "sha256": "A7B38454196C799D0CF62A404A41E1E11CA9201AE7C5B4DE204B89C023E9E605",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0005.png",
+      "sourcePTSSeconds": 8.273422,
+      "sha256": "BCF2338E5AAD9228BE64CDD12074C3D43F70E732379D486A6AFAB3F037A35A4C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0006.png",
+      "sourcePTSSeconds": 10.2773,
+      "sha256": "665846223B19AE20678C1D79C3C44A383DCD384EC32EC29D2BE596B3DB27BEAD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0007.png",
+      "sourcePTSSeconds": 12.319056,
+      "sha256": "85768E2C88E3D3862B137019F53C0C77BE8958DF73EB282FE991674DD23E50F5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0008.png",
+      "sourcePTSSeconds": 14.382044,
+      "sha256": "914C89AC24ECAAA26362F1541F1682E2AE6B2982295A743CA6823C8AE4370C60",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0009.png",
+      "sourcePTSSeconds": 16.431656,
+      "sha256": "91F46E3E19CFDF800D2D362252A40ECFCB6E3ADCDDC26EAFBE00825B6ABBB544",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0010.png",
+      "sourcePTSSeconds": 18.443689,
+      "sha256": "0F7359DC3D65649D553AC935A1C49939D52C0F87CB17CA25C6BA89140B2E20AF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0011.png",
+      "sourcePTSSeconds": 20.473722,
+      "sha256": "96BF3203C2AB614C3C96E3DD0664DACD67CF66D82D0B13CD3401142AFF7390C3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0012.png",
+      "sourcePTSSeconds": 22.502156,
+      "sha256": "BCAB350BBE489718D53538C1A08592EC8F2D99099CC084C9C7ADC8DEEAF7D86B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0013.png",
+      "sourcePTSSeconds": 24.5265,
+      "sha256": "1EA7677D1AD2B6A1C74A0096F980C40E8FDC18EF9456900DCB0FE580A9FD4988",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0014.png",
+      "sourcePTSSeconds": 26.555833,
+      "sha256": "BC79642D62F46C8D9CB98703D33AA480FE49051361455A092FD51CFB4162CA66",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0015.png",
+      "sourcePTSSeconds": 28.568511,
+      "sha256": "02D0023DFA1BCA141A53B09E7F212A0A653229885B117BCAD7F51E5B7FF78077",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0016.png",
+      "sourcePTSSeconds": 30.580256,
+      "sha256": "F2A29EB1E94485B5D6CDB1CC451B786DBEF8D4DEE8853BEF66BE029388850812",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-pavilion-repair/frame-0017.png",
+      "sourcePTSSeconds": 32.581489,
+      "sha256": "E1F1D43E51558BABA599D5B725DE0DC2069F55DC2D14FC5DA69526505EA21EBA",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

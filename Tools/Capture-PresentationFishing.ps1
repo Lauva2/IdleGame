@@ -1,4 +1,4 @@
-param([Parameter(Mandatory=$true)][string]$Folder,[switch]$Fit)
+﻿param([Parameter(Mandatory=$true)][string]$Folder,[switch]$Fit)
 $ErrorActionPreference='Stop';Set-Location (Split-Path -Parent $PSScriptRoot)
 $serial=$env:FOREST_ADB_SERIAL;if(!$serial){throw 'Explicit device required'}
 $adb=(Resolve-Path Tools/AndroidSdk/platform-tools/adb.exe).Path
@@ -11,16 +11,16 @@ if($Fit){
  try{
   foreach($profile in @(@{n='Default';w=1080;h=1920;s=1;top=0},@{n='Long';w=1080;h=2340;s=1;top=0},@{n='Narrow';w=720;h=1600;s=2.0/3;top=0},@{n='SafeTall';w=1080;h=1920;s=1;top=84})){
    $n=$profile.n;$s=$profile.s;$h=$profile.h;$top=$profile.top;$dir="$Folder/Evidence/PresentationFit/$n"
-   # The official cutout also shrinks the 3D viewport. Use its measured
-   # pavilion projection rather than adding the entire 84px to the marker.
-   $fishY=if($top){1275}else{[int](1250*$s)}
+   # The target is the real3D landing, projected into the actual viewport;
+   # decorative badges are free to move for readability and are not fixed taps.
+   $dockTap=& Tools/Get-ForestDockPoint.ps1 -Spot 2 -Width $profile.w -Height $h -Top $top
    if(Test-Path $dir){throw 'Keep existing fitting evidence'}
    A @('shell','cmd','overlay','disable',$cutout);A @('shell','wm','size',($profile.w.ToString()+'x'+$h))
    if($top){A @('shell','cmd','overlay','enable',$cutout)}
    & Tools/Activate-ForestReview.ps1 -Folder $Folder -Variant fishing-filled
    $remote="/sdcard/$candidate-presentation-fit-$n.mp4"
    $record=Start-Process -FilePath $adb -ArgumentList '-P','5038','-s',$serial,'shell','screenrecord','--bit-rate','4000000','--time-limit','65',$remote -WindowStyle Hidden -PassThru
-   $steps=@(@{tap=@([int](150*$s),[int](410*$s+$top))},@{tap=@([int](780*$s),$fishY)},@{shot='01-compact-pavilion'},@{tap=@([int](500*$s),[int]($h-85*$s))},@{shot='02-details-and-three-baits'},@{tap=@([int](930*$s),[int]($h-390*$s))},@{shot='03-changed-berry-bait'},@{tap=@([int](500*$s),[int]($h-85*$s))},@{shot='04-expanded-context'},@{tap=@([int](500*$s),[int]($h-85*$s))},@{tap=@([int](717*$s),[int]($h-85*$s))},@{shot='05-zoom-out'},@{swipe=@([int](550*$s),[int](700*$s+$top),[int](650*$s),[int](800*$s+$top),700)},@{shot='06-real-pan'},@{tap=@([int](977*$s),[int]($h-85*$s))},@{wait=14},@{shot='07-recenter-and-actual-catch'},@{tap=@([int](1000*$s),[int](50*$s+$top))},@{shot='08-settings-directly-from-fishing'},@{back=$true},@{shot='09-navigation-after-settings'},@{tap=@([int](780*$s),$fishY)},@{shot='10-reentered-original-spot'},@{tap=@([int](590*$s),[int]($h-230*$s))},@{shot='11-individual-top'},@{drag_hold=@([int](1000*$s),[int]($h-180*$s),[int](1000*$s),[int]($h-700*$s),400,600)},@{shot='12-individual-bottom'},@{back=$true},@{shot='13-global-navigation-restored'},@{tap=@([int](1000*$s),[int](50*$s+$top))},@{shot='14-settings-accessible'})
+   $steps=@(@{tap=@([int](150*$s),[int](410*$s+$top))},@{tap=$dockTap},@{shot='01-compact-pavilion'},@{tap=@([int](500*$s),[int]($h-85*$s))},@{shot='02-details-and-three-baits'},@{tap=@([int](930*$s),[int]($h-390*$s))},@{shot='03-changed-berry-bait'},@{tap=@([int](500*$s),[int]($h-85*$s))},@{shot='04-expanded-context'},@{tap=@([int](500*$s),[int]($h-85*$s))},@{tap=@([int](717*$s),[int]($h-85*$s))},@{shot='05-zoom-out'},@{swipe=@([int](550*$s),[int](700*$s+$top),[int](650*$s),[int](800*$s+$top),700)},@{shot='06-real-pan'},@{tap=@([int](977*$s),[int]($h-85*$s))},@{wait=14},@{shot='07-recenter-and-actual-catch'},@{tap=@([int](1000*$s),[int](50*$s+$top))},@{shot='08-settings-directly-from-fishing'},@{back=$true},@{shot='09-navigation-after-settings'},@{tap=$dockTap},@{shot='10-reentered-original-spot'},@{tap=@([int](590*$s),[int]($h-230*$s))},@{shot='11-individual-top'},@{drag_hold=@([int](1000*$s),[int]($h-180*$s),[int](1000*$s),[int]($h-700*$s),400,600)},@{shot='12-individual-bottom'},@{back=$true},@{shot='13-global-navigation-restored'},@{tap=@([int](1000*$s),[int](50*$s+$top))},@{shot='14-settings-accessible'})
    Plan ('fit-'+$n) $steps $dir
    $record.WaitForExit();if($record.ExitCode -ne 0){throw 'Fitting recorder failed'}
    A @('pull',$remote,"$Folder/Evidence/presentation-fit-$n.mp4")
@@ -39,7 +39,7 @@ if($Fit){
   foreach($spot in @(@{n=2;x=900;mx=780;my=1250;bx=930},@{n=1;x=540;mx=320;my=1380;bx=540},@{n=0;x=180;mx=860;my=880;bx=180})){
    $k=$spot.n
    if($k -ne 2){$steps+=@{tap=@($spot.x,300)}}
-   $steps+=@(@{shot="spot-$k-map"},@{tap=@($spot.mx,$spot.my)},@{shot="spot-$k-compact"},@{tap=@(500,1835)},@{shot="spot-$k-details"},@{tap=@($spot.bx,1530)},@{wait=14},@{shot="spot-$k-actual-catch"},@{tap=@(500,1835)},@{shot="spot-$k-bait-and-context"},@{back=$true},@{shot="spot-$k-leave"})
+   $steps+=@(@{shot="spot-$k-map"},@{tap=(& Tools/Get-ForestDockPoint.ps1 -Spot $k)},@{shot="spot-$k-compact"},@{tap=@(500,1835)},@{shot="spot-$k-details"},@{tap=@($spot.bx,1530)},@{wait=14},@{shot="spot-$k-actual-catch"},@{tap=@(500,1835)},@{shot="spot-$k-bait-and-context"},@{back=$true},@{shot="spot-$k-leave"})
   }
   Plan $variant $steps $dir
   A @('pull','/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save',"$Folder/presentation-spots-$variant-after.save")

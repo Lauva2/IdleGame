@@ -1,0 +1,153 @@
+{
+  "candidate": "3d-d26-life02",
+  "updatedUtc": "2026-10-27T16:28:33.752264+00:00",
+  "version": "0.2.6",
+  "versionCode": 8,
+  "apk": "Builds\\Android\\3d-d26-life02\\ForestShop-3d-d26-life02.apk",
+  "apkSha256": "06A4D99C812FB5E9D68AB34AAC390E51101B8A4777BE636CE5282201EDE809D5",
+  "sourceInputs": 225,
+  "sourceManifestSha256": "E7D973F70D42E917D2D6A98BE5211579069A2147498122E96990B795AD86AA22",
+  "sourceArchiveSha256": "E8F138ADD848EFDF22A123264646FEDFE49DDDBA01D15DD37F7D4511E9292490",
+  "iterationScopeComplete": true,
+  "fullFirstReleaseComplete": false,
+  "independentArt": {
+    "role": "/root/d24_art_review",
+    "report": {
+      "path": "Docs/Reviews/3d-d26-life02/美术评审-R01.md",
+      "bytes": 18655,
+      "sha256": "A4C30B4239CB425FC109F9A26016410C3CEC4A42BF35233746A2EBDEF9CD9D5D"
+    },
+    "score": 91.0,
+    "subscores": [
+      18.5,
+      18.0,
+      13.5,
+      18.5,
+      9.0,
+      9.0,
+      4.5
+    ],
+    "floors": [
+      16,
+      16,
+      12,
+      16,
+      8,
+      8,
+      4
+    ],
+    "allFloorsPassed": true,
+    "allRequiredScenesPassed": true,
+    "observedArtBlockers": 0,
+    "requiredMissingArtEvidence": [],
+    "nativeImagesActuallyViewed": 860,
+    "sourcePTSFramesActuallyViewed": 724,
+    "passed": true,
+    "generalIssues": [
+      "D26-G01",
+      "D26-G02",
+      "D26-G03",
+      "D26-G04",
+      "D26-G05",
+      "D26-G06",
+      "D26-G07"
+    ]
+  },
+  "checks": {
+    "coreTests": 57,
+    "unchangedCoreFilesAndMeta": 14,
+    "lifeWholeStateReplaysPassed": 8,
+    "economicWholeStateIntervalsPassed": 8,
+    "ordinaryAudit": 14,
+    "finalRestorationAudit": 12,
+    "momentPreparedAudit": 19,
+    "lateOrdinarySettingAudit": 7,
+    "lateOrdinaryWholeSettingsReplaySeconds": 460.645814643765,
+    "qualityLandingsPassed": 4,
+    "noticeLandingsPassed": 5,
+    "blockedCasesPassed": 3,
+    "gitBuildInputs225Verified": true,
+    "gitFrozen862Metadata61ImagesAndIndex924BlobsVerified": true
+  },
+  "ordinary": {
+    "latestSupplementFile": "ordinary-simplecheck-final.save",
+    "latestSupplementSha256": "0B5657DF9875EF25BE7B033E859D965EC7438D952D68E936A86965649018E31F",
+    "snapshotCoins": 1341224,
+    "fish": 66,
+    "discoveredSpecies": 6,
+    "moments": {
+      "stages": [
+        3,
+        3,
+        3
+      ],
+      "choices": [
+        0,
+        1,
+        0
+      ]
+    },
+    "originalPlots": 6,
+    "originalShelves": 2,
+    "originalAnimationSettingRestored": true,
+    "fishingPaused": true,
+    "noPreparedProgressMixed": true,
+    "doNotRestoreOlderCheckpointOverNewProgress": true,
+    "snapshotContinuesNormalEarning": true
+  },
+  "environment": {
+    "device": "MuMu5.30.1.3586 instance0",
+    "android": "12/API32",
+    "densityDpi": 280,
+    "fontScale": 1.0,
+    "virtualRefreshHz": 240,
+    "targetFPS": 30,
+    "actualResolutions": [
+      "1080x1920",
+      "1080x2340",
+      "720x1600"
+    ],
+    "simulatedTopCutoutPixels": 84,
+    "finalDefaultDisplayRestored": true
+  },
+  "boundedPerformance": {
+    "seconds": 299.988,
+    "averageFPS": 29.56,
+    "p95Milliseconds": 37.5,
+    "maximumMilliseconds": 150.0,
+    "PSS_KB": 423484,
+    "includesInitialPages": true,
+    "formal30MinuteOrStableOnlyFiveMinuteAcceptance": false,
+    "memoryTrendVerified": false
+  },
+  "storage": {
+    "originalImagesRetained": 860,
+    "originalVideosRetained": 64,
+    "originalMediaShaVerifiedAfterCleanup": 924,
+    "generatedFrameSnapshot": 1013,
+    "actualReviewedFrames": 724,
+    "retainedNecessaryDecodedFrames": 3,
+    "deletedReproducibleFrames": 1010,
+    "releasedLogicalBytes": 1104059079,
+    "necessaryGitStaticImages": 61,
+    "necessaryGitStaticBytes": 61115936,
+    "cleanupAudit": "Docs/Maintenance/2026-10-28-life-samples-cleanup",
+    "frozenIndexesHistorical": true,
+    "removedFramePathsAreNotClaimedPresent": true
+  },
+  "deferred": [
+    "Full human sound/music quality acceptance",
+    "Natural fresh-save whole chapter and12plot purchase chain",
+    "Complete Android abnormal recovery matrix",
+    "Formal continuous30min/stable-only5min/memory trend"
+  ],
+  "acceptedUnverifiedLimits": [
+    "Physical phone performance",
+    "Physical touch",
+    "Real device safe area",
+    "Heat and battery consumption",
+    "Other Android versions",
+    "Large system font adaptation"
+  ],
+  "archiveCorrection": "Original short-interval Tee file retained with5empty bytes; stderr was in original tool transcript. New explicitly labelled reproduction and archive-location correction preserve the rejection without altering original862files, comparator gate or report."
+}

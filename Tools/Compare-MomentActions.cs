@@ -26,7 +26,18 @@ public static class CompareMomentActions
             var before=Read(args[0]);var after=Read(args[1]);var steps=Json.Deserialize<Step[]>(File.ReadAllText(args[2]));
             Check(!before.report.pending && !after.report.pending && !before.fishing.running && !after.fishing.running,"online cosmetic-only interval, fish paused");
             double elapsed=after.playedSeconds-before.playedSeconds;Check(elapsed>=0 && elapsed<=3600,"actual action interval");
-            var replay=new Economy(before);replay.Advance(elapsed);
+            bool fixture=args.Length>3 && args[3]=="--from-fixture";
+            if(fixture)
+            {
+                // A pushed input precedes actual app loading. Reproduce the real
+                // short startup offline settlement, including its report fields,
+                // rather than silently normalizing them to the final snapshot.
+                Check(after.report.away>=0 && after.report.away<30,"fixture startup interval is short, no pending report");
+                long loadedAt=before.utcTicks+(long)Math.Round(after.report.away*TimeSpan.TicksPerSecond);
+                OfflineSettlement.Resume(before,loadedAt);
+            }
+            var replay=new Economy(before);double foreground=after.playedSeconds-before.playedSeconds;
+            Check(foreground>=0,"startup cannot exceed complete interval");replay.Advance(foreground);
             foreach(var step in steps)
             {
                 bool result=step.kind=="visit"?replay.Forest.Visit(step.id):step.kind=="observe"?replay.Moments.Observe(step.id,step.arg):step.kind=="choose"?replay.Moments.Choose(step.id,step.arg):throw new Exception("Unknown recorded action");
@@ -39,7 +50,7 @@ public static class CompareMomentActions
             Check(Math.Abs(before.fishing.remaining-after.fishing.remaining)<1e-10 && Math.Abs(before.fishing.duration-after.fishing.duration)<1e-10,"paused fish clocks");before.fishing.remaining=after.fishing.remaining;before.fishing.duration=after.fishing.duration;
             Check(Math.Abs(before.playedSeconds-after.playedSeconds)<.002 && after.utcTicks>=before.utcTicks,"ordinary monotonic time");before.playedSeconds=after.playedSeconds;before.utcTicks=after.utcTicks;
             Check(Json.Serialize(before)==Json.Serialize(after),"all other saved fields, economy, inventory, quests, RNG, fish and recorded optional progress match");
-            Console.WriteLine("PASS actual Android moment action replay: elapsed="+elapsed+"s actions="+steps.Length+" stages="+string.Join(",",after.moments.stages)+" choices="+string.Join(",",after.moments.choices)+" coins="+after.coins+" fish="+after.fishing.totalCaught+"; full saved state matches within existing clock tolerances");return 0;
+            Console.WriteLine("PASS actual Android moment action replay: elapsed="+elapsed+"s actions="+steps.Length+" stages="+string.Join(",",after.moments.stages)+" choices="+string.Join(",",after.moments.choices)+" coins="+after.coins+" fish="+after.fishing.totalCaught+"; full saved state matches within existing clock tolerances"+(fixture?"; startup OfflineSettlement.Resume replayed separately":""));return 0;
         }
         catch(Exception e){Console.Error.WriteLine(e);return 1;}
     }

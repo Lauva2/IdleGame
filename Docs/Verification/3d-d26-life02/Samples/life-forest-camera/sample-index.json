@@ -1,0 +1,238 @@
+{
+  "sourceVideo": "Evidence/life-Forest-Default.mp4",
+  "sourceSha256": "BCC0F9B80DD9A5D6532223BA48C228067672975BD8A1CB78808E96D57A992819",
+  "selection": {
+    "video": "life-Forest-Default.mp4",
+    "start": 0,
+    "end": 125,
+    "fps": 0.25,
+    "id": "life-forest-camera"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/life-forest-camera/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "3C3AF1FC98257AF6BF6154E37740B02A999AF775FC82B993ACF13C6B9341250E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0002.png",
+      "sourcePTSSeconds": 4.044944,
+      "sha256": "B3B7F8E8D3209065BC601F25A60455688D8531FCD48C148D8ACB1B4D5C8AADDD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0003.png",
+      "sourcePTSSeconds": 8.085756,
+      "sha256": "A5EAF384EC20A7056E6B98294429F91369D137DA7F51B6918977844778DA0EC6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0004.png",
+      "sourcePTSSeconds": 12.154711,
+      "sha256": "72CCC42E5CD59D0950E6561801317134EF24F1220869F00FE3A50391ACBB1F65",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0005.png",
+      "sourcePTSSeconds": 16.156356,
+      "sha256": "F55420B1DE9E7873B7FF13503453499AF1756BE196A81287A7FA41C7D5327C4E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0006.png",
+      "sourcePTSSeconds": 20.156622,
+      "sha256": "5E54CF176CCF200DE057893AA6136012A3876D837A627F81247A0C4B6CCDC3F7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0007.png",
+      "sourcePTSSeconds": 24.164156,
+      "sha256": "1423732D6DB07DE1F76BC3E113FB2C0856F9567CA1174DC0D7A455B31F4E708D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0008.png",
+      "sourcePTSSeconds": 28.187111,
+      "sha256": "3614B39FF21351AE3047270E4B275D4102BADCDAE835B735229B9B4E8C314275",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0009.png",
+      "sourcePTSSeconds": 32.214867,
+      "sha256": "A8A19FE42F6E4C1CBE991DC37445F3B23496DB508DC8A65EE7CDFCCE3B9E33B8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0010.png",
+      "sourcePTSSeconds": 36.2446,
+      "sha256": "ADFB05DAF8DE00A4425AA5EAB57E9555358022E0338E8D72835E788D8FBB60BC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0011.png",
+      "sourcePTSSeconds": 40.257789,
+      "sha256": "7D31F8E5966113C1BA632BB1E0161A59315558107CDFECBA28A27559BACA5178",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0012.png",
+      "sourcePTSSeconds": 44.282411,
+      "sha256": "1C75B63FFD490590FA16A757DD461D35BD3F530B5995087A7D09D0755900DA92",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0013.png",
+      "sourcePTSSeconds": 48.311333,
+      "sha256": "C287B8FA47579224C7824E0D563593C1982288C89B6F7A02D19BEB7AE62A0D1F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0014.png",
+      "sourcePTSSeconds": 52.328256,
+      "sha256": "3AEB3988B5D2135C5FDC4BADF8CD409C497F017B96263C41EBEBF52734C78CCE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0015.png",
+      "sourcePTSSeconds": 56.3397,
+      "sha256": "99413C034E6FC0D0AF2743F88790F3EA41EE1D33654D672B078A942A5D7FD6EB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0016.png",
+      "sourcePTSSeconds": 60.353422,
+      "sha256": "F4FAFF0B5D4940CE783936FB10B2403EEBDF9815B5335CB3C5D79E239D995FE8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0017.png",
+      "sourcePTSSeconds": 64.378967,
+      "sha256": "AE617AD9D999B7C58510107B8336790F6737E597917377876B5DECA58EED354F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0018.png",
+      "sourcePTSSeconds": 68.4206,
+      "sha256": "715F1A2BDD580861A5DAD730192C967A5B8DBE5F10828F3AFA9A131D013CD952",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0019.png",
+      "sourcePTSSeconds": 72.445267,
+      "sha256": "08CFB0C5CA77DD27A69E8A3FD103FAD7E4DE5C06A5B1DACF9BA049D9FB443DB1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0020.png",
+      "sourcePTSSeconds": 76.472667,
+      "sha256": "EBB12DF0E0C8C0A8EE6A87DA5CD69A98935FF6EDE3568D968C236BE462AA521C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0021.png",
+      "sourcePTSSeconds": 80.478533,
+      "sha256": "A81288E01146C55BE93A491928FEB2A378F4A3A7C6D1BE938738A67D4A76159A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0022.png",
+      "sourcePTSSeconds": 84.5075,
+      "sha256": "E067426C7D15606D5267D5873734AE7259A6E3C90D02C42978B5C1449E0B5E8F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0023.png",
+      "sourcePTSSeconds": 88.524967,
+      "sha256": "5D1BC0104E63E514E4FDF5E50E7758AFC774C8CF15AC0C38EF5B401BAEC7C042",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0024.png",
+      "sourcePTSSeconds": 92.550011,
+      "sha256": "9F743D8F056AD7E601B8387E3015EC159A3DA8DDDCD7E78E99683C0A47224687",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0025.png",
+      "sourcePTSSeconds": 96.569889,
+      "sha256": "6B02828627D3BFDDE1428C18999569BD42B797A793B4138E7ACAA5F0B395FECE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0026.png",
+      "sourcePTSSeconds": 100.644756,
+      "sha256": "B6183F0442C806B8CE624EBDD13BE458F8563F0FE741BAFC76F0EF18F8CCD0B5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0027.png",
+      "sourcePTSSeconds": 104.6542,
+      "sha256": "53F425B86024ACFA17B25684F66CB497523CC6E41B186EBD1449D061C90501FF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0028.png",
+      "sourcePTSSeconds": 108.682522,
+      "sha256": "D6DA6648B9BC98317376638D26E799D40C89711F5BCA3F8C8146563F80FF4512",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0029.png",
+      "sourcePTSSeconds": 112.695111,
+      "sha256": "7C49829CD4F6DF52DDE38A4A019909CBFCD9A29A0295041810200616E84629E4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0030.png",
+      "sourcePTSSeconds": 116.720456,
+      "sha256": "61AD99B91F64E8658228B7A9633E8CD0983B6230C654CA67DA266F7C9FC011DE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0031.png",
+      "sourcePTSSeconds": 120.721789,
+      "sha256": "97D29919C86921E45B5618E7795A12EC838A0070E19C8575D9ED9F3BFA36F4C8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-forest-camera/frame-0032.png",
+      "sourcePTSSeconds": 124.7458,
+      "sha256": "9BC28345E02499E7D9A6AC9C6F029291C1B0166D5FD58A4536E3EFE30AB98DC0",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

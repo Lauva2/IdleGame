@@ -1,0 +1,28 @@
+{
+  "candidate": "3d-d26-life02",
+  "images": 2,
+  "bytes": 2638026,
+  "scope": "Necessary original native screenshots and lossless source-PTS frames selected for Git. All other original media remains local with immutable SHA/time indexes; no pixel rewriting.",
+  "rows": [
+    {
+      "path": "Evidence/LifeSimpleShop/02-shop-simple-default.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/LifeSimpleShop/02-shop-simple-default.png",
+      "sha256": "1AE551AFEB9E72FEC1598C4548EE0612399D38644260B4313B6E134F4BAD88B6",
+      "bytes": 1359258,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/LifeSimpleShop/03-shop-simple-near.png",
+      "gitPath": "Docs/Verification/3d-d26-life02/Evidence/LifeSimpleShop/03-shop-simple-near.png",
+      "sha256": "EDEA246B1A7FDF0908192EDE1644010F5089D6A178272AF5E0CEC8716E8568DD",
+      "bytes": 1278768,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    }
+  ]
+}

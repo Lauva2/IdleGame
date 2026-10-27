@@ -1,0 +1,77 @@
+{
+  "files": [
+    {
+      "path": "Assets/Scripts/Core/Economy.cs",
+      "sha256": "526A8BCBC3E150E4D144A5B2CD3306C0362E1A948560769303B20BC98EB333FF",
+      "identicalToD25": true
+    },
+    {
+      "path": "Assets/Scripts/Core/Economy.cs.meta",
+      "sha256": "9924E93436331036831F64F28107341A25CC4AB1707FC66125C29584AF193C08",
+      "identicalToD25": true
+    },
+    {
+      "path": "Assets/Scripts/Core/Fishing.cs",
+      "sha256": "6B18CB3367AE0FDC05F17B335B12ABBB1E45BD2857D5F11CABDB51C0E900503B",
+      "identicalToD25": true
+    },
+    {
+      "path": "Assets/Scripts/Core/Fishing.cs.meta",
+      "sha256": "EBC1501062A80E176CE481ACC74CD9A2CC695A1A8D3A7970097AA67A0B181489",
+      "identicalToD25": true
+    },
+    {
+      "path": "Assets/Scripts/Core/ForestMoments.cs",
+      "sha256": "C59C545F9D6BBEC149D7CF12F71A2760BA908AE536B771637FB3A8FFD9BADB28",
+      "identicalToD25": true
+    },
+    {
+      "path": "Assets/Scripts/Core/ForestMoments.cs.meta",
+      "sha256": "3CFA46B42EA8BE5105A9570EF6783AA8F4EA0E22B139287D5346E1B46C6C0E64",
+      "identicalToD25": true
+    },
+    {
+      "path": "Assets/Scripts/Core/ForestProgress.cs",
+      "sha256": "E5EAEEC6A8276939B2AB0D4770C9C0453AE9FF020BC62E96590BF67A0F0A0B36",
+      "identicalToD25": true
+    },
+    {
+      "path": "Assets/Scripts/Core/ForestProgress.cs.meta",
+      "sha256": "7FB04A53D57A9530BF89C7D832E4D1EF5CE9FDEC5DF1C32EF2312B8F6F17A66D",
+      "identicalToD25": true
+    },
+    {
+      "path": "Assets/Scripts/Core/GameData.cs",
+      "sha256": "09875FA0451E517A51E8724BEE6B45B4B5A3AEB1D0A9980308E0A0572A2DA739",
+      "identicalToD25": true
+    },
+    {
+      "path": "Assets/Scripts/Core/GameData.cs.meta",
+      "sha256": "45F786C4D4FD69C85ACE39772A74DCA87BEE03E5914898128EAC4128825F3F56",
+      "identicalToD25": true
+    },
+    {
+      "path": "Assets/Scripts/Core/Persistence.cs",
+      "sha256": "5AFDAE1D1B5859D443CD72B4B4FD825D40E880462B515883F7F4F8EF06ECD898",
+      "identicalToD25": true
+    },
+    {
+      "path": "Assets/Scripts/Core/Persistence.cs.meta",
+      "sha256": "886E01AFAE59DBE132B431161C9F345B23BC480C542B6BE41259C441F30D4B88",
+      "identicalToD25": true
+    },
+    {
+      "path": "Assets/Scripts/Core/ProductionNotice.cs",
+      "sha256": "F3435B67376DCBBA8C15F8A305978C11ED9A8FFEDB9C7770B924164257FA75A6",
+      "identicalToD25": true
+    },
+    {
+      "path": "Assets/Scripts/Core/ProductionNotice.cs.meta",
+      "sha256": "6C516F1B33419AD10C9DB63E1FBBC4581BAAE193DDC60F4060018FDE320AE0CF",
+      "identicalToD25": true
+    }
+  ],
+  "allIdentical": true,
+  "newCoreRun": "core-tests-r01.log",
+  "totalPassed": 57
+}

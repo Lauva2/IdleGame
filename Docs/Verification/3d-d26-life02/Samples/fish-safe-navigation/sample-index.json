@@ -1,0 +1,105 @@
+{
+  "sourceVideo": "Evidence/presentation-fit-SafeTall.mp4",
+  "sourceSha256": "E9C2E680F35284CF975A69FA418B98C7F9CCBC5B8ADF6BC7990A6559A799BA86",
+  "selection": {
+    "video": "presentation-fit-SafeTall.mp4",
+    "start": 0,
+    "end": 64,
+    "fps": 0.2,
+    "id": "fish-safe-navigation"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/fish-safe-navigation/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "B2BC89D6B5E39BEFE45CDA47BB9777D141BC603388F7CA966A4EC2760E488E2E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-safe-navigation/frame-0002.png",
+      "sourcePTSSeconds": 5.013967,
+      "sha256": "0B37093A0EF6E3C485A0A495733512F1E344BA52C09869FAF5EA3A48C71290BB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-safe-navigation/frame-0003.png",
+      "sourcePTSSeconds": 10.0231,
+      "sha256": "EF2F18E2C71355164DD2BF7918A85248BB07703FCF29943A30983DD942C703F6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-safe-navigation/frame-0004.png",
+      "sourcePTSSeconds": 15.030511,
+      "sha256": "6724F0E0AA73A635D61B469CD947CA1E63B689BD3134D7FAAC16626A4BA40120",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-safe-navigation/frame-0005.png",
+      "sourcePTSSeconds": 20.030711,
+      "sha256": "E3FD5B77468D5A82D4C0C5BD5C5C5D8CAC91BF206B18B3E4636703B143905753",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-safe-navigation/frame-0006.png",
+      "sourcePTSSeconds": 25.063589,
+      "sha256": "4D429E0C73ECAE2097D47D422E23FD66ACC754C89280E3781015F8FF9A86A21B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-safe-navigation/frame-0007.png",
+      "sourcePTSSeconds": 30.068044,
+      "sha256": "ED863F5B3F8A28A6292D818661DBD270FBE690FDBDF537E6AE336E4C67ADB252",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-safe-navigation/frame-0008.png",
+      "sourcePTSSeconds": 35.0761,
+      "sha256": "CDA7E21D22A26771771AC099651E8AB8B5695D39D7370997675C1E7E40BFE206",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-safe-navigation/frame-0009.png",
+      "sourcePTSSeconds": 40.097244,
+      "sha256": "9B44CDED0ED1369509F866C289FBB8DC7AC9A6F76483CDFC85C3DEC6F70D494D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-safe-navigation/frame-0010.png",
+      "sourcePTSSeconds": 45.105267,
+      "sha256": "A2D651E9E5AF997D084532760B95208D1613FFE7BE558CFFA0707B1A82068E8E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-safe-navigation/frame-0011.png",
+      "sourcePTSSeconds": 50.130656,
+      "sha256": "4F4E656E921135A823096006B25F768FB4CE6E9EBEC327BC43CFD35B6E0403BE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-safe-navigation/frame-0012.png",
+      "sourcePTSSeconds": 55.146667,
+      "sha256": "5A8D4429899B1BBE30CC3ECC54F0A95AF9F6AB72CBBD99413A74DA48BA9A2B7B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-safe-navigation/frame-0013.png",
+      "sourcePTSSeconds": 60.1675,
+      "sha256": "341AA3D9C164EBABB2519D9D36FE76A6D1B37A01DD0599F0BFF49727C608C7CD",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

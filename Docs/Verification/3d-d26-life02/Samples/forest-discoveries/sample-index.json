@@ -1,0 +1,182 @@
+{
+  "sourceVideo": "Evidence/forest-dew-resin-vines.mp4",
+  "sourceSha256": "8E700A63B6E48B73F3016081342E997D5F11D1A47C18002EC4B2B641824C2D9F",
+  "selection": {
+    "video": "forest-dew-resin-vines.mp4",
+    "start": 0,
+    "end": 60,
+    "fps": 0.4,
+    "id": "forest-discoveries"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/forest-discoveries/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "27174DD6A3DEE784F6D72C8FBAC15833677A829530C4C963931568A7FEA14FB2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0002.png",
+      "sourcePTSSeconds": 2.504,
+      "sha256": "A9D495EC7F86423DCFD01C3080C7C5A7527F1D2D739D34E437A34500EDDA4A46",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0003.png",
+      "sourcePTSSeconds": 5.047644,
+      "sha256": "6223D02EDFC0731F751B3A7BB5222FAC053B512C728D140E19CBBD36CEFC8074",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0004.png",
+      "sourcePTSSeconds": 7.568522,
+      "sha256": "C7359956F4162B57CF5A37F9BAAB35315FF950E3DFB09D8AE170BFCB6457CBDC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0005.png",
+      "sourcePTSSeconds": 10.073333,
+      "sha256": "B9E2B60A059655240E4E42DE120564A13078B4EFACB52209F3890D35D2268341",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0006.png",
+      "sourcePTSSeconds": 12.589633,
+      "sha256": "8F1A1EA33DFF847B53F5B312E2326EA3568CFABE3A8DFAEA9A3CC74DA6CE8A4B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0007.png",
+      "sourcePTSSeconds": 15.1699,
+      "sha256": "8B3176357B179F39DAB1EB3BD12F49B4935F8A627C0F387920061DBFC07E76A8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0008.png",
+      "sourcePTSSeconds": 17.678989,
+      "sha256": "89EF184A4E6BF6EA44A748B94A5A236ABCBFCFA86D0619CC7DCF880136E9EF07",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0009.png",
+      "sourcePTSSeconds": 20.185644,
+      "sha256": "945E69CDDDF7CE12A905F2B6B39278B61F36A1C95C1490A06F485C647FE03D43",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0010.png",
+      "sourcePTSSeconds": 22.740311,
+      "sha256": "0C93CC04089483B90B483F33579EEC7AB42A62042B1C2CEEBBB42D2D2759F978",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0011.png",
+      "sourcePTSSeconds": 25.252111,
+      "sha256": "7CAD7F369945B01FD6F0D21ACC62AB6BD6ED19396F09C07D749A3FF7D06F8F5F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0012.png",
+      "sourcePTSSeconds": 27.777233,
+      "sha256": "053AE0282E46AE88D940EB88678702EDF8E32C61654555EFFB7A294A4ED6BF1B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0013.png",
+      "sourcePTSSeconds": 30.284378,
+      "sha256": "053AE0282E46AE88D940EB88678702EDF8E32C61654555EFFB7A294A4ED6BF1B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0014.png",
+      "sourcePTSSeconds": 32.792822,
+      "sha256": "106B007360C4E986832E17E8BAA398103FEDE1D1F600DB2FBF4F6611EBD05068",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0015.png",
+      "sourcePTSSeconds": 35.3093,
+      "sha256": "2464B0BC1315AA1CA3D3DAF183BD0A63FB52710A9CF1019AB307AED086119A0F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0016.png",
+      "sourcePTSSeconds": 37.8223,
+      "sha256": "424ABD1B1384051D8C1D6078331B894C1EDB53D7C8B4637F646255B8449AA0A7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0017.png",
+      "sourcePTSSeconds": 40.331,
+      "sha256": "467804B4DA7F1B287F0552836EF6163202A9020C44A8AF715BD014F45398F52B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0018.png",
+      "sourcePTSSeconds": 42.855289,
+      "sha256": "5242CC05264A53BE189B4A2D9832613E8B7C70D13673B454137F8EE83B2B765A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0019.png",
+      "sourcePTSSeconds": 45.3636,
+      "sha256": "FD900666ABB1311DC7340D0FFC172AF195E496FB91FB0923FDDB872211280DCF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0020.png",
+      "sourcePTSSeconds": 47.880389,
+      "sha256": "D072416894FC656ADD81FFD7C4CEE1306402490E47EC965C1F019BE02D394569",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0021.png",
+      "sourcePTSSeconds": 50.388644,
+      "sha256": "DCB1E1ECC01FEE73784239EAA13A8121C14ED69ECB52D34AB7B81786394C951F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0022.png",
+      "sourcePTSSeconds": 52.892989,
+      "sha256": "651426F14D293673FD7EE9D1503DA575AEC58C99E0FDB28247CC5FD1A7C614C9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0023.png",
+      "sourcePTSSeconds": 55.422556,
+      "sha256": "2A7AE1C6A6E15CCBA8F53A90F0AF0D1FC6FD219F8DD007FEB8A948BEA43ED325",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-discoveries/frame-0024.png",
+      "sourcePTSSeconds": 57.931978,
+      "sha256": "85D1175D84D3DE66EF27492C94F5396DDA4568D116E876CE290273169BDE7F07",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

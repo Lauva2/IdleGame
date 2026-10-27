@@ -1,0 +1,40 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\forest-visits.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\forest-visits.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\forest-visits.save: 1 file pushed, 0 skipped. 15.8 MB/s (6744 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\forest-visits.save: 1 file pushed, 0 skipped. 17.4 MB/s (6744 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1289
+WaitTime: 1295
+Complete
+{'tap': [660, 300]}
+{'tap': [355, 980]}
+{'shot': '01-new-tea-recipe'}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'shot': '02-tea-recipe-bottom'}
+{'back': True}
+{'tap': [700, 980]}
+{'shot': '03-new-workbench-recipes'}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'swipe': [850, 1740, 850, 1040, 700]}
+{'shot': '04-spray-and-balm-recipes'}
+{'back': True}
+{'tap': [900, 1850]}
+{'shot': '05-nine-products-top'}
+{'swipe': [1000, 1640, 1000, 640, 750]}
+{'swipe': [1000, 1640, 1000, 640, 750]}
+{'swipe': [1000, 1640, 1000, 640, 750]}
+{'shot': '06-all-new-products-bottom'}
+{'tap': [180, 1850]}
+{'tap': [930, 300]}
+{'shot': '07-new-products-shop-default'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.9 MB/s (4782 bytes in 0.001s)
+/sdcard/3d-d26-life02-market-native-1.mp4: 1 file pulled, 0 skipped. 22.4 MB/s (66491087 bytes in 2.835s)
+/sdcard/3d-d26-life02-market-native-2.mp4: 1 file pulled, 0 skipped. 24.1 MB/s (65757849 bytes in 2.607s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.7 MB/s (4783 bytes in 0.002s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/performance-v2.csv: 1 file pulled, 0 skipped. 9.7 MB/s (59058 bytes in 0.006s)

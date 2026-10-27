@@ -1,0 +1,81 @@
+﻿
+﻿
+﻿PASS valid prepared moment fixture E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\moment-locked.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-locked.save: 1 file pushed, 0 skipped. 8.2 MB/s (3400 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-locked.save: 1 file pushed, 0 skipped. 6.2 MB/s (3400 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1730
+WaitTime: 1737
+Complete
+COMPLETE prepared moment-locked
+{'tap': [950, 160]}
+{'shot': '01-handbook'}
+{'tap': [925, 1805]}
+{'shot': '02-journal-top'}
+{'drag_hold': [1000, 1750, 1000, 1100, 500, 600]}
+{'shot': '03-journal-third-card-footer'}
+{'back': True}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.0 MB/s (3744 bytes in 0.001s)
+COMPLETE moment journal locked
+﻿
+﻿
+﻿PASS valid prepared moment fixture E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\moment-partial.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-partial.save: 1 file pushed, 0 skipped. 16.3 MB/s (6836 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-partial.save: 1 file pushed, 0 skipped. 14.2 MB/s (6836 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1313
+WaitTime: 1320
+Complete
+COMPLETE prepared moment-partial
+{'tap': [950, 160]}
+{'shot': '01-handbook'}
+{'tap': [925, 1805]}
+{'shot': '02-journal-top'}
+{'drag_hold': [1000, 1750, 1000, 1100, 500, 600]}
+{'shot': '03-journal-third-card-footer'}
+{'back': True}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 4.2 MB/s (6828 bytes in 0.002s)
+COMPLETE moment journal partial
+﻿
+﻿
+﻿PASS valid prepared moment fixture E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\moment-finished.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-finished.save: 1 file pushed, 0 skipped. 12.1 MB/s (6833 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-finished.save: 1 file pushed, 0 skipped. 11.5 MB/s (6833 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1335
+WaitTime: 1342
+Complete
+COMPLETE prepared moment-finished
+{'tap': [950, 160]}
+{'shot': '01-handbook'}
+{'tap': [925, 1805]}
+{'shot': '02-journal-top'}
+{'drag_hold': [1000, 1750, 1000, 1100, 500, 600]}
+{'shot': '03-journal-third-card-footer'}
+{'back': True}
+{'tap': [950, 160]}
+{'tap': [150, 1805]}
+{'shot': '04-chapter-from-footer'}
+{'tap': [50, 250]}
+{'tap': [950, 160]}
+{'tap': [415, 1805]}
+{'shot': '05-discovery-from-footer'}
+{'tap': [50, 250]}
+{'tap': [950, 160]}
+{'tap': [675, 1805]}
+{'shot': '06-fish-from-footer'}
+{'tap': [50, 250]}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 4.8 MB/s (6824 bytes in 0.001s)
+COMPLETE moment journal finished

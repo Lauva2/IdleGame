@@ -1,0 +1,182 @@
+{
+  "sourceVideo": "Evidence/fishing-motion-ordinary.mp4",
+  "sourceSha256": "23DFB687138C22BBE18C10C40C0C245F33C9071F0A15A20085DCB50473AC8F75",
+  "selection": {
+    "video": "fishing-motion-ordinary.mp4",
+    "start": 0,
+    "end": 60,
+    "fps": 0.4,
+    "id": "ordinary-fishing"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/ordinary-fishing/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "AC2031F888ACA96BE7978438F086F21A7AE32EBE361CB2AF3810BCF15ACFAFED",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0002.png",
+      "sourcePTSSeconds": 2.561067,
+      "sha256": "71434211008584AB93709B6587B978AD2D31914B716054A9BDF52E6EC7BC2C37",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0003.png",
+      "sourcePTSSeconds": 5.077656,
+      "sha256": "CC430B027E5BD4209873CDA51E5C35EBD7B0BC7A914146C7E9574566E10E5EDC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0004.png",
+      "sourcePTSSeconds": 7.620322,
+      "sha256": "48950EEC7E668A3D893267003F5A6E097797F3D29334579168607524AF733AAC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0005.png",
+      "sourcePTSSeconds": 10.143,
+      "sha256": "3E46CA3A5D95243B3A1D95E70C07BE352BC68AABA2D7AA9648C61E8C8A1F19E8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0006.png",
+      "sourcePTSSeconds": 12.655767,
+      "sha256": "AE38DB92B53E83086C1BFFF42910B519FE71E311955E3DBA08FCCFB08FDE39F4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0007.png",
+      "sourcePTSSeconds": 15.159589,
+      "sha256": "42A8EED8D5B951DFCE0434608920C285E755B84878C2D8D6A078C2652901BC53",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0008.png",
+      "sourcePTSSeconds": 17.659656,
+      "sha256": "AA22D9539E69419B440466EB9FAB668F486A3E7D78BA9BF3923D0ADBA625D2BF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0009.png",
+      "sourcePTSSeconds": 20.164533,
+      "sha256": "212D566355F7BC39BCA4827D63DB980235E3897A294667913406D895C26B10E0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0010.png",
+      "sourcePTSSeconds": 22.681289,
+      "sha256": "6F718AC4E9D400C464198257D39BF6CC09AB922A5D19D8706E3E7BE61A56F298",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0011.png",
+      "sourcePTSSeconds": 25.183567,
+      "sha256": "9FA715543730483ACDE8BC8AC6DCA9783C4D7074E1B5BB7983CB4EF676D150A5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0012.png",
+      "sourcePTSSeconds": 27.710856,
+      "sha256": "1E73E68653ED8A6CCFA2786F8A71DB59BAEADE1654840C1FAD7C7EB198BC1187",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0013.png",
+      "sourcePTSSeconds": 30.231456,
+      "sha256": "E56CD14024EB498851EA0D18E896CF1544A29FD7E950BC52331778226D2293BA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0014.png",
+      "sourcePTSSeconds": 32.7572,
+      "sha256": "3B5A04B6B82286CCAD6FB5BF3588ACFAD22F755580DE0BEF8179338BDDFA945F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0015.png",
+      "sourcePTSSeconds": 35.260356,
+      "sha256": "F1275B57D6D9C1178BA4763C1C23CA55614FDE715BA712B2FC4E1518E4C4FFD6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0016.png",
+      "sourcePTSSeconds": 37.781144,
+      "sha256": "DD8ADAC34CE8FCFCB7562E73C2B6502246F8319395B6E3D32EB8C5AD51EA0D8E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0017.png",
+      "sourcePTSSeconds": 40.301422,
+      "sha256": "3AB2D8806077DA5ACB09F68D714B64848C9797FC5201D2334C3B341B55FE6F9F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0018.png",
+      "sourcePTSSeconds": 42.813967,
+      "sha256": "B752092D0A58BBF5BEBF4EFDD039D3F39F24C619795B6A897A5AB8053A76A0E9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0019.png",
+      "sourcePTSSeconds": 45.334933,
+      "sha256": "2F1E10CE31A014128619028E119BCEB33EFB3EC7311F2051280BEAAE37C9336F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0020.png",
+      "sourcePTSSeconds": 47.847589,
+      "sha256": "92C28ED30322C212775DA0C747FA7595E94A989D742DDF2A566EB0BFC2CF5B85",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0021.png",
+      "sourcePTSSeconds": 50.355411,
+      "sha256": "D838E839F8FCA66B5CD3FB45139DA12821A48585F2741E40898043A34DB2E964",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0022.png",
+      "sourcePTSSeconds": 52.881678,
+      "sha256": "D087E758A2024E73E38ED2657849BAFA447D09D76630E2455A8809F8580598CE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0023.png",
+      "sourcePTSSeconds": 55.393511,
+      "sha256": "1F10A9645C7BCDF648E56286CF24438D4D1B5EF43CF494D21190E9D293061286",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/ordinary-fishing/frame-0024.png",
+      "sourcePTSSeconds": 57.897211,
+      "sha256": "D1381C893A83A1956429091754E7F629D7EFC6C67BDCF956D04B20815FC86412",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

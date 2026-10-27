@@ -18,7 +18,7 @@ foreach($kind in @('new','length','weight','both','ordinary')){
  [DateTime]::UtcNow.ToString('o')|Set-Content "$Folder/$stem-start.txt"
  $record=Start-Process -FilePath $adb -ArgumentList '-P','5038','-s',$serial,'shell','screenrecord','--size','1080x1920','--bit-rate','4000000','--time-limit','28',$remote -WindowStyle Hidden -PassThru
  $recentY=if($PresentationLayout){1690}else{1630}
- $steps=@(@{tap=@(150,410)},@{tap=@(860,880)},@{shot="$kind-start"},@{wait=14},@{shot="$kind-actual-first-landed"},@{tap=@(590,$recentY)},@{shot="$kind-individual-top"},@{drag_hold=@(1000,1740,1000,1150,500,700)},@{shot="$kind-individual-bottom"})
+ $steps=@(@{tap=@(150,410)},@{tap=(& Tools/Get-ForestDockPoint.ps1 -Spot 0)},@{shot="$kind-start"},@{wait=14},@{shot="$kind-actual-first-landed"},@{tap=@(590,$recentY)},@{shot="$kind-individual-top"},@{drag_hold=@(1000,1740,1000,1150,500,700)},@{shot="$kind-individual-bottom"})
  @{directory=$evidence;steps=$steps}|ConvertTo-Json -Depth 6|Set-Content "$Folder/Plans/Notices$noticeSuffix/$kind.json"
  & $python Tools/Forest-DeviceReview.py "$Folder/Plans/Notices$noticeSuffix/$kind.json"
  if($LASTEXITCODE -ne 0){throw 'Native notice plan failed'}

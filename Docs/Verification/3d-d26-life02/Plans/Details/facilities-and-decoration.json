@@ -1,0 +1,170 @@
+{
+  "directory": "Docs/Verification/3d-d26-life02/Evidence/Supplement",
+  "steps": [
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "tap": [
+        200,
+        1690
+      ]
+    },
+    {
+      "shot": "25-workshop-full-facilities"
+    },
+    {
+      "tap": [
+        190,
+        1465
+      ]
+    },
+    {
+      "shot": "26-warehouse-top"
+    },
+    {
+      "swipe": [
+        850,
+        1720,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1720,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "shot": "27-warehouse-bottom"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        540,
+        1465
+      ]
+    },
+    {
+      "shot": "28-expansion-summary"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        890,
+        1465
+      ]
+    },
+    {
+      "shot": "29-decoration-four-choices"
+    },
+    {
+      "tap": [
+        850,
+        1030
+      ]
+    },
+    {
+      "shot": "30-selected-basic-sign"
+    },
+    {
+      "tap": [
+        850,
+        1270
+      ]
+    },
+    {
+      "shot": "30-selected-basic-curtain"
+    },
+    {
+      "tap": [
+        850,
+        1510
+      ]
+    },
+    {
+      "shot": "30-selected-basic-rug"
+    },
+    {
+      "tap": [
+        850,
+        1750
+      ]
+    },
+    {
+      "shot": "30-selected-basic-pot"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "34-workshop-after-real-switches"
+    },
+    {
+      "swipe": [
+        1000,
+        1700,
+        1000,
+        2050,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        1000,
+        1700,
+        1000,
+        2050,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        1000,
+        1700,
+        1000,
+        2050,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        1000,
+        1700,
+        1000,
+        2050,
+        650
+      ]
+    },
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "shot": "35-shop-after-real-switches"
+    },
+    {
+      "tap": [
+        130,
+        300
+      ]
+    },
+    {
+      "shot": "36-overview-after-real-switches"
+    }
+  ]
+}

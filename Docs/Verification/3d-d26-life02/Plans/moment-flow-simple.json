@@ -1,0 +1,366 @@
+{
+  "directory": "Docs/Verification/3d-d26-life02/Evidence/MomentFlow/simple",
+  "steps": [
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        1805
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1280
+      ]
+    },
+    {
+      "shot": "event-0-00-clue"
+    },
+    {
+      "tap": [
+        540,
+        1080
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-0-01-found"
+    },
+    {
+      "tap": [
+        728,
+        942
+      ]
+    },
+    {
+      "shot": "event-0-02-choice"
+    },
+    {
+      "tap": [
+        270,
+        1770
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-0-03-choice0-world"
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        1805
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1280
+      ]
+    },
+    {
+      "tap": [
+        540,
+        1080
+      ]
+    },
+    {
+      "shot": "event-0-04-revisit-card"
+    },
+    {
+      "tap": [
+        800,
+        1770
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-0-05-choice1-world"
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        1805
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1492
+      ]
+    },
+    {
+      "shot": "event-1-00-clue"
+    },
+    {
+      "tap": [
+        540,
+        1080
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-1-01-found"
+    },
+    {
+      "tap": [
+        626,
+        903
+      ]
+    },
+    {
+      "shot": "event-1-02-choice"
+    },
+    {
+      "tap": [
+        270,
+        1770
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-1-03-choice0-world"
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        1805
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1492
+      ]
+    },
+    {
+      "tap": [
+        540,
+        1080
+      ]
+    },
+    {
+      "shot": "event-1-04-revisit-card"
+    },
+    {
+      "tap": [
+        800,
+        1770
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-1-05-choice1-world"
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        1805
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1704
+      ]
+    },
+    {
+      "shot": "event-2-00-clue"
+    },
+    {
+      "tap": [
+        540,
+        1080
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-2-01-found"
+    },
+    {
+      "tap": [
+        783,
+        997
+      ]
+    },
+    {
+      "shot": "event-2-02-choice"
+    },
+    {
+      "tap": [
+        270,
+        1770
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-2-03-choice0-world"
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        1805
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1704
+      ]
+    },
+    {
+      "tap": [
+        540,
+        1080
+      ]
+    },
+    {
+      "shot": "event-2-04-revisit-card"
+    },
+    {
+      "tap": [
+        800,
+        1770
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "event-2-05-choice1-world"
+    },
+    {
+      "tap": [
+        775,
+        1640
+      ]
+    },
+    {
+      "shot": "30-world-zoom-out"
+    },
+    {
+      "swipe": [
+        540,
+        800,
+        100,
+        1500,
+        900
+      ]
+    },
+    {
+      "swipe": [
+        540,
+        800,
+        100,
+        1500,
+        900
+      ]
+    },
+    {
+      "shot": "31-after-two-boundary-drags"
+    },
+    {
+      "tap": [
+        540,
+        1315
+      ]
+    },
+    {
+      "shot": "32-after-tap-at-prior-position"
+    },
+    {
+      "tap": [
+        998,
+        1640
+      ]
+    },
+    {
+      "shot": "33-recenter"
+    },
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "shot": "34-handbook-finished"
+    },
+    {
+      "tap": [
+        925,
+        1805
+      ]
+    },
+    {
+      "shot": "35-journal-top"
+    },
+    {
+      "drag_hold": [
+        1000,
+        1750,
+        1000,
+        1100,
+        500,
+        600
+      ]
+    },
+    {
+      "shot": "36-journal-footer"
+    },
+    {
+      "back": true
+    }
+  ]
+}

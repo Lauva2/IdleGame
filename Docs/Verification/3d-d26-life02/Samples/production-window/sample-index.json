@@ -1,0 +1,126 @@
+{
+  "sourceVideo": "Evidence/production-window.mp4",
+  "sourceSha256": "B94E5646C2732C5BB74D3BEC62CC3F17EBA0576614987AAEA25949B464AC465A",
+  "selection": {
+    "video": "production-window.mp4",
+    "start": 0,
+    "end": 38,
+    "fps": 0.4,
+    "id": "production-window"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/production-window/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "C2B9B313716CBA7D60540B60E1F802E6FF79A168E098B5CADC525D379B75107B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0002.png",
+      "sourcePTSSeconds": 2.528156,
+      "sha256": "E6823BA6575EB3253FF9FB81DCD0C701522F15CC3A4170D3385C9DBE21AC988B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0003.png",
+      "sourcePTSSeconds": 5.036722,
+      "sha256": "85926D177313A519963459D1A9A5771742C5CF7FEE55478DC0E83AB4803036ED",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0004.png",
+      "sourcePTSSeconds": 7.557144,
+      "sha256": "3176E8A5C7E8097328C787B350FD79649821516249FC5C108B5B5D833ACE0A08",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0005.png",
+      "sourcePTSSeconds": 10.077611,
+      "sha256": "16FD9604BA35DB4BFE5498121724C5FC53A9B18305B22DE70E3AFD60B1C2787E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0006.png",
+      "sourcePTSSeconds": 12.5941,
+      "sha256": "72BFE732947EFF949596B1949CA4C7B5088CCADF748ADB4BBEDD58F84716DB0B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0007.png",
+      "sourcePTSSeconds": 15.119522,
+      "sha256": "D71A210DB3921685E3BD6AA2C62D00E16D2BECD14BCA53935A5E5114C1171BC3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0008.png",
+      "sourcePTSSeconds": 17.640233,
+      "sha256": "3176E8A5C7E8097328C787B350FD79649821516249FC5C108B5B5D833ACE0A08",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0009.png",
+      "sourcePTSSeconds": 20.152311,
+      "sha256": "16FD9604BA35DB4BFE5498121724C5FC53A9B18305B22DE70E3AFD60B1C2787E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0010.png",
+      "sourcePTSSeconds": 22.656756,
+      "sha256": "D71A210DB3921685E3BD6AA2C62D00E16D2BECD14BCA53935A5E5114C1171BC3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0011.png",
+      "sourcePTSSeconds": 25.156922,
+      "sha256": "16FD9604BA35DB4BFE5498121724C5FC53A9B18305B22DE70E3AFD60B1C2787E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0012.png",
+      "sourcePTSSeconds": 27.658978,
+      "sha256": "D71A210DB3921685E3BD6AA2C62D00E16D2BECD14BCA53935A5E5114C1171BC3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0013.png",
+      "sourcePTSSeconds": 30.161033,
+      "sha256": "D71A210DB3921685E3BD6AA2C62D00E16D2BECD14BCA53935A5E5114C1171BC3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0014.png",
+      "sourcePTSSeconds": 32.670211,
+      "sha256": "16FD9604BA35DB4BFE5498121724C5FC53A9B18305B22DE70E3AFD60B1C2787E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0015.png",
+      "sourcePTSSeconds": 35.189289,
+      "sha256": "3176E8A5C7E8097328C787B350FD79649821516249FC5C108B5B5D833ACE0A08",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-window/frame-0016.png",
+      "sourcePTSSeconds": 37.715511,
+      "sha256": "72BFE732947EFF949596B1949CA4C7B5088CCADF748ADB4BBEDD58F84716DB0B",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

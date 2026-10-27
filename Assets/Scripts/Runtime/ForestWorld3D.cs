@@ -19,10 +19,17 @@ namespace ForestShop
         {
             var rect = (RectTransform)transform; var parent = (RectTransform)rect.parent;
             Vector2 at = shelf ? world.ShelfMarker(index) : world.PlotMarker(index);
+            if(shelf)
+            {
+                var neighbour=world.ShelfMarker(index==3?2:index+1);
+                bool compact=Mathf.Abs(neighbour.x-at.x)*parent.rect.width<104;
+                rect.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal,compact?48:96);
+                var status=GetComponentInChildren<ForestSymbolGraphic>(true);if(status!=null)status.gameObject.SetActive(!compact);
+            }
             bool visible = at.x > .03f && at.x < .97f && at.y > .035f && at.y < .97f;
             // Keep the full badge above the fixed camera controls and gesture legend.
             if (at.y < .125f && at.x > .65f) visible = false;
-            foreach (var g in GetComponentsInChildren<Graphic>()) g.enabled = visible;
+            foreach (var g in GetComponentsInChildren<Graphic>(true)) g.enabled = visible;
             rect.anchoredPosition = new Vector2(at.x * parent.rect.width - rect.rect.width / 2, -(1 - at.y) * parent.rect.height + rect.rect.height / 2);
         }
         void LateUpdate() { Refresh(); }
@@ -112,7 +119,7 @@ namespace ForestShop
             sun.shadowCustomResolution = 2048;
             Shader.SetGlobalFloat("_ForestShadowTexelSize", 1f / 2048);
             var fill = Group(transform, "Forest reflected light").gameObject.AddComponent<Light>(); fill.type = LightType.Directional; fill.color = Hex(0xC4DDC7); fill.intensity = .18f; fill.transform.localEulerAngles = V(25, 140, 0); fill.cullingMask = 1 << 10;
-            BuildArchitecture(); BuildObjects(); ArrangeForestCourtyard(); BuildExplorationWorld(); BuildFishingWorld(); BuildMoments();
+            BuildArchitecture(); BuildObjects(); ArrangeForestCourtyard(); BuildExplorationWorld(); BuildFishingWorld(); BuildMoments(); BuildSceneLife();
             productionEffects = new ForestProductionEffects(worldRoot, plots, machines, shelves);
             shopping = new ForestShoppingMotion(shopArea, checkout, residentMotion, displayProducts);
             portraitRoot = Group(null, "3D portrait studio", V(2000, 0, 0)); portraitRoot.gameObject.layer = 11;
@@ -137,7 +144,7 @@ namespace ForestShop
         }
         public void RestartVisitSequence() { visitEpoch = Time.unscaledTime; shopping?.Clear(); }
         public void RenderNow() { if (worldCamera != null) worldCamera.Render(); }
-        public void SetViewportAspect(float aspect) { worldCamera.aspect = aspect; }
+        public void SetViewportAspect(float aspect) { worldCamera.aspect = aspect; compositionDirty=true;RefreshCameraComposition(); }
         public Vector2 PlotMarker(int index)
         { Vector3 v = worldCamera.WorldToViewportPoint(plots[index].TransformPoint(V(0, .25f, -.96f))); return new Vector2(v.x, v.y); }
         public Vector2 ShelfMarker(int index)
@@ -173,11 +180,13 @@ namespace ForestShop
             SetForestRegion(region);
             if (state != null) Bind(state);
             if (region == 2 || region == 3) FitArea(region == 2 ? workshopArea : shopArea);
+            RememberRegionCamera();
         }
         public void ResetCamera() { if(FishingFocused)FocusFishing(focusedFishingSpot,fishingFramingY);else SetRegion(Region); }
         public void Zoom(float factor)
         {
-            worldCamera.orthographicSize = Mathf.Clamp(worldCamera.orthographicSize * factor, FishingFocused?3.8f:5, FishingFocused?11:27);
+            if(float.IsNaN(factor) || float.IsInfinity(factor) || factor<=0)return;
+            worldCamera.orthographicSize = Mathf.Clamp(worldCamera.orthographicSize * factor,MinimumCameraSize,MaximumCameraSize);
             ClampCamera();
         }
         Vector3 GroundPoint(Vector2 uv)
@@ -193,17 +202,7 @@ namespace ForestShop
         }
         void ClampCamera()
         {
-            float range = Mathf.Max(2, 28 - CameraSize);
-            var local = CameraFocus;
-            if(FishingFocused)
-            {
-                var anchor=fishingCameraAnchor;
-                var fishBounds=V(Mathf.Clamp(local.x,anchor.x-4.5f,anchor.x+4.5f),local.y,Mathf.Clamp(local.z,anchor.z-4.5f,anchor.z+4.5f));
-                var fishMove=fishBounds-local;cameraFocus+=fishMove;worldCamera.transform.position+=fishMove;return;
-            }
-            if (Region >= 4) { ClampForestCamera(local); return; }
-            Vector3 bounded = V(Mathf.Clamp(local.x, -range - 1, range + 1), local.y, Mathf.Clamp(local.z, -range - 2, range + 3));
-            Vector3 move = bounded - local; cameraFocus += move; worldCamera.transform.position += move;
+            ClampCompositionCamera();
         }
         void FitArea(Transform area)
         {
@@ -236,6 +235,8 @@ namespace ForestShop
             canopy = Group(worldRoot, "Oak leaf canopy");
             woodland = Group(worldRoot, "Surrounding layered woodland");
             string[] trees = { "CanopyOak", "SilverBirch", "WoodlandLinden", "OpenRowan", "YoungBirch", "LowHazel" };
+            var nearGroves=new Transform[8];for(int i=0;i<8;i++)nearGroves[i]=Group(woodland,"Near woodland grove "+i);
+            var distantGroves=Group(woodland,"Distant woodland shelter");
             // Closed forest edge, staggered groves beyond it, one opening for the road.
             for (int row = 0; row < 3; row++) for (int i = 0; i < 32 + row * 8; i++)
             {
@@ -245,10 +246,10 @@ namespace ForestShop
                 if (at.z < -19 && Mathf.Abs(at.x + 5.4f) < 3.8f) continue;
                 if (at.x > 2 && at.x < 17 && at.z > 16 && at.z < 30) continue;
                 float scale = .81f + (i * 7 % 11) * .045f + row * .05f;
-                Sculpture(woodland, "Blender grove " + row + " tree " + i, trees[(i * 7 + i / 3 + row * 3) % 6], at, V(scale * (1 + .13f * Mathf.Sin(i)), scale, scale * (1 + .12f * Mathf.Cos(i))),
+                Sculpture(row==0?nearGroves[i/4]:distantGroves, "Blender grove " + row + " tree " + i, trees[(i * 7 + i / 3 + row * 3) % 6], at, V(scale * (1 + .13f * Mathf.Sin(i)), scale, scale * (1 + .12f * Mathf.Cos(i))),
                     Color.Lerp(Hex(0xC8D7BD), Color.white, .55f + .45f * Mathf.Sin(a * 3 + row))).localEulerAngles = V(0, i * 137.5f, 0);
             }
-            Combine(woodland);
+            Combine(distantGroves);foreach(var grove in nearGroves){Combine(grove);RegisterCameraGrove(grove);}
             for (int floor = 0; floor < 2; floor++)
             {
                 var room = Group(worldRoot, floor == 0 ? "Workshop cutaway" : "Shop cutaway"); if (floor == 0) lowerRoom = room; else upperRoom = room;
@@ -453,6 +454,7 @@ namespace ForestShop
             var livingTree = Group(worldRoot, "Shop's sheltering oak", V(-12.6f, .1f, -8.2f));
             livingTree.localScale = Vector3.one * 1.05f;
             MoveToArea(oak, livingTree); MoveToArea(canopy, livingTree);
+            RegisterCameraGrove(oak);
             workshopRoof = Group(workshopArea, "Workshop honey tiled roof");
             for (int row = 0; row < 4; row++) for (int col = 0; col < 25; col++)
                 Box(workshopRoof, "Warm clay roof tile", V(-6.4f + col * .52f + row % 2 * .13f, 5.15f - row * .11f, 3.2f - row * .85f), V(.57f, .11f, .98f), (row + col) % 4 == 0 ? Hex(0xAB7651) : Hex(0x99734E), V(-8, 0, col % 3 - 1));

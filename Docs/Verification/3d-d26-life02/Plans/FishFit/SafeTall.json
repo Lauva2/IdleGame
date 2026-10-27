@@ -1,0 +1,239 @@
+{
+  "directory": "Docs/Verification/3d-d26-life02/Evidence/FishFit/SafeTall",
+  "steps": [
+    {
+      "tap": [
+        900,
+        1850
+      ]
+    },
+    {
+      "wait": 2
+    },
+    {
+      "tap": [
+        900,
+        384
+      ]
+    },
+    {
+      "wait": 3
+    },
+    {
+      "shot": "01-fish-list"
+    },
+    {
+      "tap": [
+        600,
+        1017
+      ]
+    },
+    {
+      "shot": "02-species-top"
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "shot": "03-species-four-quality-bottom"
+    },
+    {
+      "tap": [
+        850,
+        1810
+      ]
+    },
+    {
+      "shot": "04-actual-go-fishing"
+    },
+    {
+      "tap": [
+        686,
+        1802
+      ]
+    },
+    {
+      "shot": "05-fishing-zoom-out"
+    },
+    {
+      "swipe": [
+        550,
+        784,
+        650,
+        864,
+        700
+      ]
+    },
+    {
+      "shot": "06-fishing-real-pan"
+    },
+    {
+      "tap": [
+        966,
+        1802
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "07-recenter-and-catch"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        540,
+        484
+      ]
+    },
+    {
+      "shot": "08-greenhouse"
+    },
+    {
+      "tap": [
+        180,
+        484
+      ]
+    },
+    {
+      "shot": "09-main-courtyard"
+    },
+    {
+      "tap": [
+        390,
+        384
+      ]
+    },
+    {
+      "shot": "10-garden"
+    },
+    {
+      "tap": [
+        660,
+        384
+      ]
+    },
+    {
+      "shot": "11-workshop"
+    },
+    {
+      "tap": [
+        930,
+        384
+      ]
+    },
+    {
+      "shot": "12-shop"
+    },
+    {
+      "tap": [
+        1000,
+        134
+      ]
+    },
+    {
+      "shot": "13-settings"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        950,
+        244
+      ]
+    },
+    {
+      "shot": "14-handbook"
+    },
+    {
+      "tap": [
+        900,
+        1519
+      ]
+    },
+    {
+      "shot": "15-handbook-secondary-destination"
+    },
+    {
+      "tap": [
+        950,
+        244
+      ]
+    },
+    {
+      "tap": [
+        180,
+        1806
+      ]
+    },
+    {
+      "shot": "16-chapter-progress-top"
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1070,
+        650
+      ]
+    },
+    {
+      "shot": "17-chapter-progress-footer"
+    }
+  ]
+}

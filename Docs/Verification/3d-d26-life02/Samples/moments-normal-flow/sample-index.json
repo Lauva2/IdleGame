@@ -1,0 +1,371 @@
+{
+  "sourceVideo": "Evidence/moment-flow-start.mp4",
+  "sourceSha256": "3A4075564A36D0FC1516B1C31C3515B5040CBCF0704498A4BF66EBC29FCC7922",
+  "selection": {
+    "video": "moment-flow-start.mp4",
+    "start": 0,
+    "end": 145,
+    "fps": 0.35,
+    "id": "moments-normal-flow"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/moments-normal-flow/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "57C6F58B4ED42F4B1D3A49570A777BB50EC2E77FBBB1C9638E52F50386F0CF47",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0002.png",
+      "sourcePTSSeconds": 2.872256,
+      "sha256": "9643A9C01332751008A15F26FD21B6B9C9168F2916AE59C433646776777FBB67",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0003.png",
+      "sourcePTSSeconds": 5.750911,
+      "sha256": "AD5D9284B61C97A843A282A8D2C13958BDCE1BEF175C440BE226441B49812524",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0004.png",
+      "sourcePTSSeconds": 8.634022,
+      "sha256": "7FEF510FE02DB958F1069F9C6C7B29318495B6CE14E3A4B4365C97E31F9A969F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0005.png",
+      "sourcePTSSeconds": 11.534056,
+      "sha256": "31EF0B536C797A3A52831C340B3273F46B22C00F50E99FCD753FE0CCF90BD9B6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0006.png",
+      "sourcePTSSeconds": 14.405489,
+      "sha256": "002521E6107923804F46B6FE73D9B2AF8301329EB3FDBB22E713894CCB00D3DC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0007.png",
+      "sourcePTSSeconds": 17.288733,
+      "sha256": "61A2D384094FD8F47997EA4A218B4B24B4439E587CC2D8F8160122B82982ED46",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0008.png",
+      "sourcePTSSeconds": 20.158778,
+      "sha256": "4BBCE945B56BDB675A45572E7D6AD43762DB01A428F231DCDFCD406EC2F3E757",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0009.png",
+      "sourcePTSSeconds": 23.042478,
+      "sha256": "5E672404E8B3CBF68810F4EC99A6A39D94E8640EF77638260CDB1DDB66E6382A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0010.png",
+      "sourcePTSSeconds": 25.918067,
+      "sha256": "7F2FD93FA8B30713EAA7E4F454F4053479A040E17D7E2E97364312B7A0F5E030",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0011.png",
+      "sourcePTSSeconds": 28.797178,
+      "sha256": "CBA4D0AA2CEC08314FCE14F7AE7C4293FFBDD9F79C9A07E1028957274F0AE4A5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0012.png",
+      "sourcePTSSeconds": 31.738756,
+      "sha256": "E7F0AA83F668C00CDEE9CEDC3F96874DA1357C07DBF899A02C3AD17D648BB8A4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0013.png",
+      "sourcePTSSeconds": 34.623844,
+      "sha256": "29F0B4546BC7F599741E52419816F38FDD5FAB0FA238F4E0A07EC945B6819209",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0014.png",
+      "sourcePTSSeconds": 37.526467,
+      "sha256": "101DD1CB09C262C5F3B379DE6807B47BCA5642CE5AE8B08C672E69BADB998702",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0015.png",
+      "sourcePTSSeconds": 40.436611,
+      "sha256": "91906093469DD5DAEB95B84B6E650706BB521752CDABD8D7ACBC944A30F4EC93",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0016.png",
+      "sourcePTSSeconds": 43.297278,
+      "sha256": "505FB870C3B4E036F573D94FEA576C94FD19AE719DA4EA4344EC5C6AA056A860",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0017.png",
+      "sourcePTSSeconds": 46.175711,
+      "sha256": "5B26264EF8F80E1D9A1EF844728A97D6C82EAE33C9B6ED7D5DCF6ADAB8B04BE6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0018.png",
+      "sourcePTSSeconds": 49.0814,
+      "sha256": "99FBE4F351D3E23C26EF0296F20876E1674E23F7235A742B2BB47C6286159FD4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0019.png",
+      "sourcePTSSeconds": 52.035622,
+      "sha256": "3FEB9F3E41FC10FE8245D35A80F55E74739054F58C8960DF8E10660A9CEED5F1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0020.png",
+      "sourcePTSSeconds": 54.917467,
+      "sha256": "E85C350C0068794BDD39BCB2C5B19F7F314A2650B1D687E22C0A5098270F5C42",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0021.png",
+      "sourcePTSSeconds": 57.7761,
+      "sha256": "6CCF82D838D6E3EFAA177A67C36B1A5146E78251D7B9E5937FBB09C92857CA6B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0022.png",
+      "sourcePTSSeconds": 60.671333,
+      "sha256": "256DFB91F5BAB4860E5345FA802B32E460C3473FB6526D532E80717F9064A4D2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0023.png",
+      "sourcePTSSeconds": 63.538033,
+      "sha256": "E7E8409E402A0B513C2A1E88653049993E149BA74EB4E4B1E210237574C09211",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0024.png",
+      "sourcePTSSeconds": 66.4499,
+      "sha256": "B14DF43C1E6FA3D2A9892BEA60E8AC330128DF752208219E2CD07D772B736A52",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0025.png",
+      "sourcePTSSeconds": 69.325478,
+      "sha256": "A0ACF36714A8F5E6C6575754693CEA5DF730CA1BF89CB115EC69FCD5D18ED20B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0026.png",
+      "sourcePTSSeconds": 72.183722,
+      "sha256": "F956811F4820C4385C4DB67FADB24C3A6D396CEAB0BDDA3D9F65D288C4DC2560",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0027.png",
+      "sourcePTSSeconds": 75.079267,
+      "sha256": "7E2C21F09E38E7BBB3BBC57CF854A05ED5FB9CFA6AD31106289D2FF9392055B6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0028.png",
+      "sourcePTSSeconds": 77.954478,
+      "sha256": "26F6B501D9668F3B7AF07DC93EBCFED8EE4F7539ABEB940274137B7B90D70632",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0029.png",
+      "sourcePTSSeconds": 80.8252,
+      "sha256": "58A17C8ED62F4A1F9783CFAEC3E522D8B08622C4C931BC750846BC1A00B4628A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0030.png",
+      "sourcePTSSeconds": 83.688822,
+      "sha256": "504447FE05663B56DB054BA7668F491A104F22AADE5DA6634FD0A7F920D0F158",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0031.png",
+      "sourcePTSSeconds": 86.5588,
+      "sha256": "6D3BC0F4C40173A30E32210CECE15C87C7AB00D0E4CADC6F3CDCE20877F3AEC3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0032.png",
+      "sourcePTSSeconds": 89.429611,
+      "sha256": "F970EF0172799BDD0A8F99917E779AFB888272C47D588345751032FB84D92BA5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0033.png",
+      "sourcePTSSeconds": 92.317533,
+      "sha256": "95E6FB6A333DA601EBA6F685FC5E0D6F0E7F5D59EDD3177315A05A43E68734CF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0034.png",
+      "sourcePTSSeconds": 95.179378,
+      "sha256": "AB59B816D7AA2AA7E5C939DD9DD05893F798B25EA654FA26DCA777D209A4847C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0035.png",
+      "sourcePTSSeconds": 98.054411,
+      "sha256": "EB5E9E6CD7633917CA387598F2C4B414413C07695076AE3E335256C0CB549026",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0036.png",
+      "sourcePTSSeconds": 100.917122,
+      "sha256": "9AE84DF0464873971746F0843603FF93D51A681B3FC38C681778ED09F3B899FE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0037.png",
+      "sourcePTSSeconds": 103.779256,
+      "sha256": "AC61540528855D359CC2963B52E17EDB235AED385E2353E0CC4963DE3B6A33F7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0038.png",
+      "sourcePTSSeconds": 106.650311,
+      "sha256": "B4882F3095C9E88E6C631986BA74B86826F8F870A8DE9DDE857608D237B7985C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0039.png",
+      "sourcePTSSeconds": 109.5294,
+      "sha256": "20B4E8E9D694942BE1441D4C64092C1B821CAB16CFFF0F73D3422FF6724E0500",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0040.png",
+      "sourcePTSSeconds": 112.4091,
+      "sha256": "FC4F01E55B3996686B366E1DD1898A0B3F89027B6F4C969FD5CF9C7C75B2B2D0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0041.png",
+      "sourcePTSSeconds": 115.311556,
+      "sha256": "4EEC89C35AA22B17A04D6A02B4ADF5688FF4150C6114B0BA1C0A7D03FA3A9DD8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0042.png",
+      "sourcePTSSeconds": 118.175622,
+      "sha256": "E26DC73A7AA988A41919AA9A9956EF993365E05638104F0AD8BAC6B139EB937D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0043.png",
+      "sourcePTSSeconds": 121.058644,
+      "sha256": "C097CE53657927F3A0DB1DF1FE524C052FFBFDFD80B35AE03E465D3E6D7B0B16",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0044.png",
+      "sourcePTSSeconds": 123.933578,
+      "sha256": "EA94598CAEB8043F178EB28C77864EECA6950213165E60D89D0DE9A4A558BBD9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0045.png",
+      "sourcePTSSeconds": 126.801167,
+      "sha256": "2EEF6C312C0D9B6461C89386A0BD98E30D94A916E62BE680E7D67033AEAC8B16",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0046.png",
+      "sourcePTSSeconds": 129.675378,
+      "sha256": "AB982320DBC1A03174799B45BF72FD32578AED0001CCAD3AE94C33003566C4A0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0047.png",
+      "sourcePTSSeconds": 132.554511,
+      "sha256": "24FC43F3A07DC1A71AF9C0DACE7648580D983969B0A0703F17671BCCD21019EB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0048.png",
+      "sourcePTSSeconds": 135.438056,
+      "sha256": "8D6A562F5C4721FB678422F3F6054D9E3970D4298206DED7A38D2A92AD590F7B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0049.png",
+      "sourcePTSSeconds": 138.2962,
+      "sha256": "497A629861AE0FC2499587710ECD44DABAB3BF06994B6AE27A222CEBE8E50FC4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0050.png",
+      "sourcePTSSeconds": 141.154511,
+      "sha256": "5EB42E8CAD6A600C9EBD0911344A7730F1054770CFF882F7BE194ADF8C815DEB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-normal-flow/frame-0051.png",
+      "sourcePTSSeconds": 144.020922,
+      "sha256": "0035D02FF9C8E797709C064F2E527BB10E7F494B25FF393B2D6E357EFC51B2F1",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

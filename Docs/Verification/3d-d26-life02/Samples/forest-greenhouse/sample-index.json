@@ -1,0 +1,168 @@
+{
+  "sourceVideo": "Evidence/forest-greenhouse.mp4",
+  "sourceSha256": "E32CC5628535635916F70521BB9F234E74716EE16280638947F771321E7D4295",
+  "selection": {
+    "video": "forest-greenhouse.mp4",
+    "start": 0,
+    "end": 55,
+    "fps": 0.4,
+    "id": "forest-greenhouse"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/forest-greenhouse/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "FD9CF43B1D1E6FBBF814B7710B737EB52FC2CFCF5731A858F8DDBAD5F6BBD57B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0002.png",
+      "sourcePTSSeconds": 2.538756,
+      "sha256": "93DFD53688926DB972283388C2680F6BD5B396CEF15BB80D25239417A60F8211",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0003.png",
+      "sourcePTSSeconds": 5.046678,
+      "sha256": "036BDE764C1A5116475BF25C9CBF709A04C236BD54CBADEE604880405CD36332",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0004.png",
+      "sourcePTSSeconds": 7.640467,
+      "sha256": "3BA6CFFA8CDB265BE2BC6D9D209F50BF8F56B52FA62B59FD5E77A97D132FDDFF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0005.png",
+      "sourcePTSSeconds": 10.169156,
+      "sha256": "92E8D97834A766E54D0D8B185488A383BD911C8D1057067EBAAF764EC0B4021D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0006.png",
+      "sourcePTSSeconds": 12.678122,
+      "sha256": "31C972220EB928EC3DC136D3F3B0939B7304128949CE61DD5DBF9E5B8346BC70",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0007.png",
+      "sourcePTSSeconds": 15.2238,
+      "sha256": "17F70F9B56B81252FE35FA852EC92A5EF559113AE268FC48229749EFC485E6FE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0008.png",
+      "sourcePTSSeconds": 17.729856,
+      "sha256": "2AAF7E0E08D4CA41BBF274307EDB962F3990D8BE1C6B926EC80CAF08466E70C7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0009.png",
+      "sourcePTSSeconds": 20.268289,
+      "sha256": "4E6929D9E8420249670DB3024950AA641437ABE0361DEBD15B4FC5011F205ADF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0010.png",
+      "sourcePTSSeconds": 22.792656,
+      "sha256": "E2B38EDAB3220BFD14931D960C0FEE2281ECA116052B47568F7F1ADD17D6D012",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0011.png",
+      "sourcePTSSeconds": 25.356333,
+      "sha256": "BAEE127C738A8DF040585E86900AD40267AB17D29A41DD0F02B78BF5D6C3C701",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0012.png",
+      "sourcePTSSeconds": 27.8624,
+      "sha256": "C2F0E9D70796EA9AD453F7BF2CB2913BDBAC4A350A329DFDE68D56B935452FEC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0013.png",
+      "sourcePTSSeconds": 30.394989,
+      "sha256": "63340FFA7015EE935011F4A7CB01D61E6C6D34BB2BEE2C2BB90DB01A05102050",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0014.png",
+      "sourcePTSSeconds": 32.908467,
+      "sha256": "41D014F1388FA878F9D866B20499740E1D6DBC072208ADC1DCC8302F94C8E56B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0015.png",
+      "sourcePTSSeconds": 35.429133,
+      "sha256": "71483DB16E9628165724F6CD81982FB2090778EA3FBBB422F94D0E388D424FCE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0016.png",
+      "sourcePTSSeconds": 37.936533,
+      "sha256": "45895C9BB7ED5E363C992220647C8B5E7D656767B84ED26A0465738C7FDEF96D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0017.png",
+      "sourcePTSSeconds": 40.450333,
+      "sha256": "D81953F4FE8F116D092ABC44C4B52B9596829A5E6DA6EF65F1A7F460F033B7ED",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0018.png",
+      "sourcePTSSeconds": 42.984722,
+      "sha256": "BD86D735AD9C0630D78DCA468B61530BED653CA481A63A30BCEC26CFA05806E2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0019.png",
+      "sourcePTSSeconds": 45.512356,
+      "sha256": "8EBDDACD44FFCAA64B88DBFFA189010B3B1C90ECB228E075D6A284B42568E004",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0020.png",
+      "sourcePTSSeconds": 48.016778,
+      "sha256": "EBE573E1CB76E666F72C47A00207413D7D8BC16E764BC9074091DA16FD14A9C0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0021.png",
+      "sourcePTSSeconds": 50.533689,
+      "sha256": "47C039CF73483B60864D7C18DBE01EBA8E9675EFAF72FAFD1584D6143A9BA24A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/forest-greenhouse/frame-0022.png",
+      "sourcePTSSeconds": 53.041867,
+      "sha256": "77F2219972271C57131B88126836A4A190646E0E4E7586BFCE6FC7B0E1401E30",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+PASS Ordinary SaveStore never opens
+FAIL System.NullReferenceException: Object reference not set to an instance of an object
+  at ForestShop.Editor.ForestLifePreview.Region (System.Int32 region) [0x00011] in E:\UnityProject\IdleGame\Assets\Editor\ForestLifePreview.cs:43 
+  at ForestShop.Editor.ForestLifePreview.Capture () [0x001e2] in E:\UnityProject\IdleGame\Assets\Editor\ForestLifePreview.cs:82 

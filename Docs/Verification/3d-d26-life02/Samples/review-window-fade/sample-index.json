@@ -1,0 +1,84 @@
+{
+  "sourceVideo": "Evidence/production-window.mp4",
+  "sourceSha256": "B94E5646C2732C5BB74D3BEC62CC3F17EBA0576614987AAEA25949B464AC465A",
+  "selection": {
+    "video": "production-window.mp4",
+    "start": 3.5,
+    "end": 7,
+    "fps": 3,
+    "id": "review-window-fade"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/review-window-fade/frame-0001.png",
+      "sourcePTSSeconds": 3.529089,
+      "sha256": "D1BEE35BA1CC7E0F622A7B28ED572999686C8ACB5D66B05C0A8867B09BFBDA2C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-window-fade/frame-0002.png",
+      "sourcePTSSeconds": 3.899544,
+      "sha256": "6F49EA365F888935DB20106342C2FC455ED02D846B326BCE06BA8E0E4A435AA1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-window-fade/frame-0003.png",
+      "sourcePTSSeconds": 4.279756,
+      "sha256": "8DA26B481784400F7EC98A6AA5D918DAD47731EEAF72FC4F3032184AA980F0EB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-window-fade/frame-0004.png",
+      "sourcePTSSeconds": 4.637222,
+      "sha256": "44F75AAFCB46423AA5DC04364E2CF332C18F7C41903B0F50906FAE52BF5B5B88",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-window-fade/frame-0005.png",
+      "sourcePTSSeconds": 4.975456,
+      "sha256": "5A7636C6FEB9F0C748CFE47EE0E7F1D083FD4BB0DF78693A728F96A27DD23604",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-window-fade/frame-0006.png",
+      "sourcePTSSeconds": 5.3457,
+      "sha256": "B86D90F75B8D2A71C1479EEB7CA321ABB17BE42A9AC6CE768B8A1110D6AA3BDD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-window-fade/frame-0007.png",
+      "sourcePTSSeconds": 5.686156,
+      "sha256": "E28769709135E76C671B5DA88E1EE33E521E0A6A8EC02F0F76C4A2216B490FAB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-window-fade/frame-0008.png",
+      "sourcePTSSeconds": 6.0208,
+      "sha256": "8E1E2DDF7099A3F0C04F91EA3CDBF691C49E90954908FAC801637ACC7F63760F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-window-fade/frame-0009.png",
+      "sourcePTSSeconds": 6.3951,
+      "sha256": "5C46CFCC8EF908D1DE0A3A3ED785F804E4C2F6BDBEDB72E417FB5230EF5CFAD7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-window-fade/frame-0010.png",
+      "sourcePTSSeconds": 6.731933,
+      "sha256": "6718313CB7D777A9747108F90C3FC0CF71D55284FCEE4B24A2B071C7A7515F61",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

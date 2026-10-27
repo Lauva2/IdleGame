@@ -1,0 +1,50 @@
+{
+  "directory": "Docs\\Verification\\3d-d26-life02\\Evidence\\LifeSimpleShop",
+  "steps": [
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "tap": [
+        1000,
+        50
+      ]
+    },
+    {
+      "shot": "00-settings-before"
+    },
+    {
+      "tap": [
+        850,
+        1450
+      ]
+    },
+    {
+      "shot": "01-settings-simple"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "02-shop-simple-default"
+    },
+    {
+      "tap": [
+        888,
+        1572
+      ]
+    },
+    {
+      "tap": [
+        888,
+        1572
+      ]
+    },
+    {
+      "shot": "03-shop-simple-near"
+    }
+  ]
+}

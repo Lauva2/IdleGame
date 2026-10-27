@@ -1,0 +1,49 @@
+{
+  "role": "/root/d24_art_review",
+  "archivedUtc": "2026-10-27T16:18:43.879211+00:00",
+  "assembly": "Three original collaboration message text parts preserved separately, concatenated in order with one LF between files. No wording, scores or qualifications edited.",
+  "parts": [
+    {
+      "path": "Docs/Reviews/3d-d26-life02/美术评审-R01-part1.txt",
+      "bytes": 4624,
+      "sha256": "F7D0B6101A0E4CB82EA962510153A3E857091CDAC8A758687A07D39482C3E4AC"
+    },
+    {
+      "path": "Docs/Reviews/3d-d26-life02/美术评审-R01-part2.txt",
+      "bytes": 5983,
+      "sha256": "C7BFB4E85C43CF1E015C8481AEA281B5E9216D212F95C7211CFCA833D85862E9"
+    },
+    {
+      "path": "Docs/Reviews/3d-d26-life02/美术评审-R01-part3.txt",
+      "bytes": 7905,
+      "sha256": "B8EA49D7D47947208967A8B44B4D8E7FF4BA4EDB23971958E2A4DE1B7400B3AC"
+    }
+  ],
+  "report": {
+    "path": "Docs/Reviews/3d-d26-life02/美术评审-R01.md",
+    "bytes": 18655,
+    "sha256": "A4C30B4239CB425FC109F9A26016410C3CEC4A42BF35233746A2EBDEF9CD9D5D"
+  },
+  "score": 91.0,
+  "subscores": [
+    18.5,
+    18.0,
+    13.5,
+    18.5,
+    9.0,
+    9.0,
+    4.5
+  ],
+  "floors": [
+    16,
+    16,
+    12,
+    16,
+    8,
+    8,
+    4
+  ],
+  "nativeImagesActuallyViewed": 860,
+  "sourcePTSFramesActuallyViewed": 724,
+  "wholeFirstReleaseAccepted": false
+}

@@ -77,6 +77,7 @@ namespace ForestShop
             }
             Combine(ground);
             var trees = Group(forestScene, "Layered Blender forest shelter");
+            var groves=new Transform[24];for(int i=0;i<24;i++)groves[i]=Group(trees,"Forest camera grove "+i);
             string[] species = { "CanopyOak", "SilverBirch", "WoodlandLinden", "OpenRowan", "YoungBirch", "LowHazel" };
             for (int zone = 0; zone < 3; zone++) for (int i = 0; i < 20; i++)
             {
@@ -94,9 +95,9 @@ namespace ForestShop
                 foreach (var spot in FishingOrigins) if(Mathf.Abs(at.x-spot.x)<4 && at.z>spot.z-6 && at.z<spot.z+3) coversDiscovery=true;
                 if (coversDiscovery || TreeCoversMoment(at) || at.x > -61 && at.x < -53 && at.z > 59 && at.z < 72) continue;
                 float scale = .65f + i % 5 * .065f;
-                Sculpture(trees, "Forest canopy " + zone + " " + i, species[(i * 7 + zone) % 6], at, Vector3.one * scale, Color.Lerp(Hex(0xA5B79C), Color.white, .75f)).localEulerAngles = V(0, i * 137.5f, 0);
+                Sculpture(groves[zone*8+i*8/20], "Forest canopy " + zone + " " + i, species[(i * 7 + zone) % 6], at, Vector3.one * scale, Color.Lerp(Hex(0xA5B79C), Color.white, .75f)).localEulerAngles = V(0, i * 137.5f, 0);
             }
-            Combine(trees);
+            foreach(var grove in groves){Combine(grove);RegisterCameraGrove(grove);}
             for (int node = 0; node < 3; node++) BuildForage(node);
             bridgeOld = Bridge(false); bridgeNew = Bridge(true);
             vinesClosed = VineGate(false); vinesOpen = VineGate(true);
@@ -229,18 +230,12 @@ namespace ForestShop
             cameraFocus = focus; worldCamera.orthographicSize = region == 7 ? 7.2f : 11.8f;
             worldCamera.transform.position = focus + (region == 7 ? V(.5f, 22, -19) : V(1, 27, -25)); worldCamera.transform.LookAt(focus);
         }
-        void ClampForestCamera(Vector3 local)
-        {
-            Vector3 bounded = Region == 7 ? V(Mathf.Clamp(local.x, 5, 13), local.y, Mathf.Clamp(local.z, 19, 27))
-                : V(Mathf.Clamp(local.x, -75, -31), local.y, Mathf.Clamp(local.z, 27, 80));
-            var move = bounded - local; cameraFocus += move; worldCamera.transform.position += move;
-        }
         public Vector2 ForestMarker(int index)
         {
             if(index>=10)return MomentMarker(index-10);
             if(index>=7) return FishingMarker(index-7);
             var target = index < 3 ? forageAnchors[index] : nurseryAnchors[index - 3];
-            var v = worldCamera.WorldToViewportPoint(target.position + V(0, index < 3 ? .1f : .18f, index < 3 ? -3.1f : -1.2f)); return new Vector2(v.x, v.y);
+            var v = worldCamera.WorldToViewportPoint(target.position + V(0,index<3?.6f:.5f,0)); return new Vector2(v.x, v.y);
         }
         void BindForest()
         {

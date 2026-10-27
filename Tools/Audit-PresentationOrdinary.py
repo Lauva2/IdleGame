@@ -39,5 +39,7 @@ if '--moment-actions' in sys.argv:
     moment,_=read('ordinary-moments-after.save')
     checks['new_moments_have_full_recorded_action_replay']='PASS actual Android moment action replay:' in (q/'ordinary-moment-online-replay.txt').read_text(encoding='utf-8-sig')
     checks['events_and_arrangements_preserved_after_fishing_and_background']=moment['moments']==paused['moments']==bg['moments']==after['moments'] and moment['moments']['stages']==[3,3,3]
+elif 'moments' in before:
+    checks['existing_moments_and_arrangements_preserved']=before['moments']==paused['moments']==bg['moments']==after['moments']
 result=dict(beforeSha256=bsha,afterSha256=asha,beforeCoins=before['coins'],afterCoins=after['coins'],beforeFish=before['fishing']['totalCaught'],fish=f['totalCaught'],discovered=sum(e['count']>0 for e in f['entries']),salesDelta=after['sales']-before['sales'],checks=checks,allPassed=all(checks.values()),scope='Actual ordinary save, ordinary UI and wall time only before all prepared evidence. Existing legitimate income is retained in the protected baseline. Optional moment changes, when requested, require their own full-state action replay. Clock-only tolerance1e-10 seconds follows the existing Core verifier; all other fish fields stay exact.')
 (q/'ordinary-fishing-audit.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8');print(json.dumps(result,ensure_ascii=False,indent=2));assert result['allPassed']

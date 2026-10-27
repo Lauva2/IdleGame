@@ -1,0 +1,119 @@
+{
+  "sourceVideo": "Evidence/production-workshop.mp4",
+  "sourceSha256": "150B1645AB5A59CBEE4114FF3624A46BF1FEAA2773183AB26C6F2842554EC409",
+  "selection": {
+    "video": "production-workshop.mp4",
+    "start": 24.5,
+    "end": 29.5,
+    "fps": 3,
+    "id": "review-workbench-finish"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/review-workbench-finish/frame-0001.png",
+      "sourcePTSSeconds": 24.513389,
+      "sha256": "F76F62F95CD34557106E5014FAA7BCA7F086B03C19271454F5550EC25081E0E0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0002.png",
+      "sourcePTSSeconds": 24.876944,
+      "sha256": "E62AD5A63C5761BDE91D63667B7D70A34083402FFC024E8BC8DF3CF30B8E1239",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0003.png",
+      "sourcePTSSeconds": 25.226189,
+      "sha256": "50781B267010281DA9AD3338EACAC6287710760B6725C2E11C2E888E1F18AE23",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0004.png",
+      "sourcePTSSeconds": 25.564422,
+      "sha256": "C7A0399A942A256DDFAC85F00E4171263E4C24734251AB495501025058C2A0A3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0005.png",
+      "sourcePTSSeconds": 25.909578,
+      "sha256": "D1F30D4DA8A0484B789CAF41518902470C3F15931245A6F1F29E24266E2409F1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0006.png",
+      "sourcePTSSeconds": 26.2724,
+      "sha256": "E80A990249028CB574B2C8C4746FAE31A3302BB038E8B4091D774E0F8F3ABA4B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0007.png",
+      "sourcePTSSeconds": 26.622611,
+      "sha256": "04BF7F90BFC31085CFEABEE4475DC7FFED5C1DCD64B30C8F62287CA60EB08C5C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0008.png",
+      "sourcePTSSeconds": 26.980511,
+      "sha256": "0E2A32985EE72442752C6CD65E681F5CF53DC39BF8B8B68FDB2457686A298529",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0009.png",
+      "sourcePTSSeconds": 27.363567,
+      "sha256": "B3031C2845C082C015840EFFD296C96A57EF6C832EDAE67C7EF65B71B663A635",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0010.png",
+      "sourcePTSSeconds": 27.717878,
+      "sha256": "78E09DE533186AF19A6AA5DEFF6F33AD2003BFBF76B7F0E6A8C229E1EF6163BD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0011.png",
+      "sourcePTSSeconds": 28.055567,
+      "sha256": "9F8809E6309EDA215137B18638C1CAC7D5637F3B90F5608DD32FD6F4635BA31D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0012.png",
+      "sourcePTSSeconds": 28.405322,
+      "sha256": "0CCB4CBCC32E81D91199B029891B8C015B1A189F3D91F30286911B8A9F887B8A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0013.png",
+      "sourcePTSSeconds": 28.763922,
+      "sha256": "CD063A665A0EC8D1E0C9C4F07B556B1D2DDAA31E687AD14B3C66989036987286",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0014.png",
+      "sourcePTSSeconds": 29.130133,
+      "sha256": "5C95CCD4CE3EB788AC7A4DC7740AAB09E86D8CBB4F4A3E2AF13CA7E43006317B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-workbench-finish/frame-0015.png",
+      "sourcePTSSeconds": 29.467956,
+      "sha256": "455B443C01E2B1EAAE8D8C66FC7EEC0297FB41F71A122A6E0A3D7119CA4332D7",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

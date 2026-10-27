@@ -1,0 +1,311 @@
+﻿
+﻿
+﻿PASS prepared journey fixture journey-entry
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-entry.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-entry.save: 1 file pushed, 0 skipped. 9.9 MB/s (3751 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-entry.save: 1 file pushed, 0 skipped. 10.2 MB/s (3751 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1226
+WaitTime: 1231
+Complete
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.1 MB/s (4302 bytes in 0.001s)
+{'tap': [950, 160]}
+{'shot': '01-handbook'}
+{'tap': [900, 1287]}
+{'shot': '02-main-destination'}
+{'back': True}
+{'tap': [950, 160]}
+{'tap': [900, 1519]}
+{'shot': '03-secondary-destination'}
+{'tap': [50, 250]}
+{'tap': [900, 1850]}
+{'tap': [900, 300]}
+{'shot': '04-fish-progress'}
+{'tap': [850, 650]}
+{'shot': '05-clue-or-record-top'}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'shot': '06-clue-or-record-footer'}
+{'tap': [850, 1810]}
+{'shot': '07-locked-habitat-condition'}
+{'back': True}
+{'back': True}
+{'tap': [180, 1850]}
+/sdcard/3d-d26-life02-journey-entry.mp4: 1 file pulled, 0 skipped. 24.5 MB/s (20384403 bytes in 0.794s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.8 MB/s (4446 bytes in 0.001s)
+﻿PASS actual Android online replay: elapsed=40.0541700007561s, simplified=False, coins=25570, sales=60570; all inventory, production and facility states match; fish state unchanged
+﻿
+COMPLETE journey-entry (explicit prepared state, actual UI, original media)
+﻿
+﻿
+﻿PASS prepared journey fixture journey-berry
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-berry.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-berry.save: 1 file pushed, 0 skipped. 9.2 MB/s (4126 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-berry.save: 1 file pushed, 0 skipped. 11.9 MB/s (4126 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1409
+WaitTime: 1415
+Complete
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.1 MB/s (4639 bytes in 0.001s)
+{'tap': [950, 160]}
+{'shot': '01-handbook'}
+{'tap': [900, 1287]}
+{'shot': '02-main-destination'}
+{'back': True}
+{'tap': [950, 160]}
+{'tap': [900, 1519]}
+{'shot': '03-secondary-destination'}
+{'tap': [50, 250]}
+{'tap': [900, 1850]}
+{'tap': [900, 300]}
+{'shot': '04-fish-progress'}
+{'tap': [850, 650]}
+{'shot': '05-clue-or-record-top'}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'shot': '06-clue-or-record-footer'}
+{'back': True}
+{'tap': [180, 1850]}
+/sdcard/3d-d26-life02-journey-berry.mp4: 1 file pulled, 0 skipped. 23.7 MB/s (20953855 bytes in 0.845s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.2 MB/s (4815 bytes in 0.001s)
+﻿PASS actual Android online replay: elapsed=40.0458566157649s, simplified=False, coins=25570, sales=60570; all inventory, production and facility states match; fish state unchanged
+﻿
+COMPLETE journey-berry (explicit prepared state, actual UI, original media)
+﻿
+﻿
+﻿PASS prepared journey fixture journey-dew
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-dew.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-dew.save: 1 file pushed, 0 skipped. 11.8 MB/s (4125 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-dew.save: 1 file pushed, 0 skipped. 9.0 MB/s (4125 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1590
+WaitTime: 1596
+Complete
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.8 MB/s (4638 bytes in 0.002s)
+{'tap': [950, 160]}
+{'shot': '01-handbook'}
+{'tap': [900, 1287]}
+{'shot': '02-main-destination'}
+{'back': True}
+{'tap': [950, 160]}
+{'tap': [900, 1519]}
+{'shot': '03-secondary-destination'}
+{'tap': [50, 250]}
+{'tap': [900, 1850]}
+{'tap': [900, 300]}
+{'shot': '04-fish-progress'}
+{'tap': [850, 650]}
+{'shot': '05-clue-or-record-top'}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'shot': '06-clue-or-record-footer'}
+{'back': True}
+{'tap': [180, 1850]}
+/sdcard/3d-d26-life02-journey-dew.mp4: 1 file pulled, 0 skipped. 12.4 MB/s (12292044 bytes in 0.943s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.0 MB/s (4807 bytes in 0.002s)
+﻿PASS actual Android online replay: elapsed=40.0709366943665s, simplified=False, coins=25570, sales=60570; all inventory, production and facility states match; fish state unchanged
+﻿
+COMPLETE journey-dew (explicit prepared state, actual UI, original media)
+﻿
+﻿
+﻿PASS prepared journey fixture journey-resin
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-resin.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-resin.save: 1 file pushed, 0 skipped. 3.2 MB/s (4124 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-resin.save: 1 file pushed, 0 skipped. 8.9 MB/s (4124 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2179
+WaitTime: 2200
+Complete
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.6 MB/s (4637 bytes in 0.003s)
+{'tap': [950, 160]}
+{'shot': '01-handbook'}
+{'tap': [900, 1287]}
+{'shot': '02-main-destination'}
+{'back': True}
+{'tap': [950, 160]}
+{'tap': [900, 1519]}
+{'shot': '03-secondary-destination'}
+{'tap': [50, 250]}
+{'tap': [900, 1850]}
+{'tap': [900, 300]}
+{'shot': '04-fish-progress'}
+{'tap': [850, 650]}
+{'shot': '05-clue-or-record-top'}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'shot': '06-clue-or-record-footer'}
+{'back': True}
+{'tap': [180, 1850]}
+/sdcard/3d-d26-life02-journey-resin.mp4: 1 file pulled, 0 skipped. 20.4 MB/s (18780153 bytes in 0.876s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.4 MB/s (4822 bytes in 0.001s)
+﻿PASS actual Android online replay: elapsed=40.0542199420816s, simplified=False, coins=25570, sales=60570; all inventory, production and facility states match; fish state unchanged
+﻿
+COMPLETE journey-resin (explicit prepared state, actual UI, original media)
+﻿
+﻿
+﻿PASS prepared journey fixture journey-partial
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-partial.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-partial.save: 1 file pushed, 0 skipped. 8.6 MB/s (4301 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-partial.save: 1 file pushed, 0 skipped. 9.0 MB/s (4301 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1344
+WaitTime: 1351
+Complete
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.4 MB/s (4879 bytes in 0.001s)
+{'tap': [950, 160]}
+{'shot': '01-handbook'}
+{'tap': [900, 1287]}
+{'shot': '02-main-destination'}
+{'back': True}
+{'tap': [950, 160]}
+{'tap': [900, 1519]}
+{'shot': '03-secondary-destination'}
+{'tap': [50, 250]}
+{'tap': [900, 1850]}
+{'tap': [900, 300]}
+{'shot': '04-fish-progress'}
+{'tap': [850, 650]}
+{'shot': '05-clue-or-record-top'}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'shot': '06-clue-or-record-footer'}
+{'back': True}
+{'tap': [180, 1850]}
+/sdcard/3d-d26-life02-journey-partial.mp4: 1 file pulled, 0 skipped. 21.3 MB/s (20408458 bytes in 0.915s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.3 MB/s (5037 bytes in 0.001s)
+﻿PASS actual Android online replay: elapsed=40.0625232381317s, simplified=False, coins=25570, sales=60570; all inventory, production and facility states match; fish state unchanged
+﻿
+COMPLETE journey-partial (explicit prepared state, actual UI, original media)
+﻿
+﻿
+﻿PASS prepared journey fixture journey-complete
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-complete.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-complete.save: 1 file pushed, 0 skipped. 15.9 MB/s (7018 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-complete.save: 1 file pushed, 0 skipped. 18.4 MB/s (7018 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1291
+WaitTime: 1301
+Complete
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 5.3 MB/s (7596 bytes in 0.001s)
+{'tap': [950, 160]}
+{'shot': '01-handbook'}
+{'tap': [900, 1287]}
+{'shot': '02-main-destination'}
+{'back': True}
+{'tap': [950, 160]}
+{'tap': [900, 1519]}
+{'shot': '03-secondary-destination'}
+{'tap': [50, 250]}
+{'tap': [900, 1850]}
+{'tap': [900, 300]}
+{'shot': '04-fish-progress'}
+{'tap': [850, 650]}
+{'shot': '05-clue-or-record-top'}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'shot': '06-clue-or-record-footer'}
+{'back': True}
+{'tap': [180, 1850]}
+/sdcard/3d-d26-life02-journey-complete.mp4: 1 file pulled, 0 skipped. 22.6 MB/s (20256097 bytes in 0.855s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 5.1 MB/s (7766 bytes in 0.001s)
+﻿PASS actual Android online replay: elapsed=40.0833665753453s, simplified=False, coins=25570, sales=60570; all inventory, production and facility states match; fish state unchanged
+﻿
+COMPLETE journey-complete (explicit prepared state, actual UI, original media)
+﻿
+﻿
+﻿PASS prepared journey fixture journey-deliver
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-deliver.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-deliver.save: 1 file pushed, 0 skipped. 11.0 MB/s (4126 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\journey-deliver.save: 1 file pushed, 0 skipped. 9.7 MB/s (4126 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1393
+WaitTime: 1408
+Complete
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.1 MB/s (4702 bytes in 0.002s)
+{'tap': [950, 160]}
+{'shot': '01-handbook'}
+{'tap': [900, 1287]}
+{'shot': '02-main-destination'}
+{'back': True}
+{'tap': [950, 160]}
+{'tap': [900, 1519]}
+{'shot': '03-secondary-destination'}
+{'tap': [50, 250]}
+{'tap': [900, 1850]}
+{'tap': [900, 300]}
+{'shot': '04-fish-progress'}
+{'tap': [850, 650]}
+{'shot': '05-clue-or-record-top'}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'swipe': [1000, 1740, 1000, 1050, 600]}
+{'shot': '06-clue-or-record-footer'}
+{'back': True}
+{'tap': [180, 1850]}
+/sdcard/3d-d26-life02-journey-deliver.mp4: 1 file pulled, 0 skipped. 24.0 MB/s (21191933 bytes in 0.841s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.2 MB/s (4827 bytes in 0.004s)
+﻿PASS actual Android online replay: elapsed=40.0458565887566s, simplified=False, coins=25570, sales=60570; all inventory, production and facility states match; fish state unchanged
+﻿
+COMPLETE journey-deliver (explicit prepared state, actual UI, original media)

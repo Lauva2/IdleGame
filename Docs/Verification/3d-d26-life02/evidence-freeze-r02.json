@@ -1,0 +1,24 @@
+{
+  "candidate": "3d-d26-life02",
+  "utc": "2026-10-27T13:52:01.491083+00:00",
+  "apkSha256": "06A4D99C812FB5E9D68AB34AAC390E51101B8A4777BE636CE5282201EDE809D5",
+  "sourceManifestSha256": "E7D973F70D42E917D2D6A98BE5211579069A2147498122E96990B795AD86AA22",
+  "indices": [
+    {
+      "path": "original-media-index-r02.json",
+      "sha256": "D0044D3DBC6124F3AFDE2B4A23527A3319F7F53F49C3EA74B8E7DB8000A1BAC0",
+      "rows": 917
+    },
+    {
+      "path": "sample-media-index-r02.json",
+      "sha256": "589D93DEB2305D1C9E636CD5617DF46DDD5652889FDCA5B235010345B2537E9E",
+      "rows": 1007
+    }
+  ],
+  "originalImages": 854,
+  "originalVideos": 63,
+  "sampledFrames": 1007,
+  "originalBytes": 2950075280,
+  "sampleBytes": 1100187320,
+  "scope": "Original media and necessary source-PTS samples retained locally on E. No full-video decode requirement or assertion all frames visually checked. Sampling is not a substitute for independent review or whole-product acceptance."
+}

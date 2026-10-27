@@ -1,0 +1,31 @@
+{
+  "scope": "Late real ordinary setting-only supplement, no fixture load or restoration of an old checkpoint. Full original-to-final online interval replayed; the12s movie is a separate static-standing observation, not a30s interval.",
+  "beforeSha256": "EED5264528B8EC196A37A2C28C4AEF7E215FE6336F40049001A454A2C5109828",
+  "finalSha256": "0B5657DF9875EF25BE7B033E859D965EC7438D952D68E936A86965649018E31F",
+  "coins": 1341224,
+  "fish": 66,
+  "moments": {
+    "stages": [
+      3,
+      3,
+      3
+    ],
+    "choices": [
+      0,
+      1,
+      0
+    ]
+  },
+  "shortClipSaveInterval": 20.00416326057166,
+  "wholeSettingsInterval": 460.64581464382354,
+  "checks": {
+    "real_simple_mode_during_clip": true,
+    "original_settings_restored": true,
+    "fish_exactly_kept": true,
+    "moments_exactly_kept": true,
+    "no_fixture_or_purchase": true,
+    "no_rollback": true,
+    "full_interval_replayed": true
+  },
+  "allPassed": true
+}

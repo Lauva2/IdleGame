@@ -1,0 +1,47 @@
+{
+  "directory": "Docs/Verification/3d-d26-life02/Evidence/ZoomSales",
+  "steps": [
+    {
+      "swipe": [
+        550,
+        1000,
+        1000,
+        1450,
+        900
+      ]
+    },
+    {
+      "swipe": [
+        550,
+        1000,
+        1000,
+        1450,
+        900
+      ]
+    },
+    {
+      "swipe": [
+        550,
+        1000,
+        1000,
+        1450,
+        900
+      ]
+    },
+    {
+      "swipe": [
+        550,
+        1000,
+        1000,
+        1450,
+        900
+      ]
+    },
+    {
+      "wait": 3
+    },
+    {
+      "shot": "05-real-pan-far-away-from-shelves"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+﻿
+﻿
+﻿PASS prepared review fixture fishing-filled
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\fishing-filled.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 19.8 MB/s (7099 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\fishing-filled.save: 1 file pushed, 0 skipped. 16.0 MB/s (7099 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1452
+WaitTime: 1456
+Complete
+{'tap': [150, 410]}
+{'shot': 'filled-01-actual-map'}
+{'tap': [897, 1086]}
+{'shot': 'filled-02-pavilion-wait'}
+{'tap': [500, 1835]}
+{'shot': 'filled-02b-expanded-details'}
+{'tap': [930, 1530]}
+{'wait': 14}
+{'shot': 'filled-03-actual-berry-bait-catch'}
+{'tap': [500, 1835]}
+{'tap': [717, 1835]}
+{'shot': 'filled-04-zoom-out'}
+{'swipe': [550, 700, 650, 800, 700]}
+{'shot': 'filled-05-real-pan'}
+{'tap': [977, 1835]}
+{'shot': 'filled-06-recenter'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 5.3 MB/s (7063 bytes in 0.001s)
+/sdcard/3d-d26-life02-fishing-motion-pavilion-filled.mp4: 1 file pulled, 0 skipped. 22.0 MB/s (36627861 bytes in 1.586s)
+﻿
+﻿
+﻿PASS prepared review fixture fishing-simple
+﻿
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\fishing-simple.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\fishing-simple.save: 1 file pushed, 0 skipped. 15.9 MB/s (7098 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\fishing-simple.save: 1 file pushed, 0 skipped. 17.0 MB/s (7098 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1252
+WaitTime: 1266
+Complete
+{'tap': [150, 410]}
+{'shot': 'simple-01-actual-map'}
+{'tap': [897, 1086]}
+{'shot': 'simple-02-pavilion-wait'}
+{'tap': [500, 1835]}
+{'shot': 'simple-02b-expanded-details'}
+{'tap': [930, 1530]}
+{'wait': 14}
+{'shot': 'simple-03-actual-berry-bait-catch'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.3 MB/s (7056 bytes in 0.005s)
+/sdcard/3d-d26-life02-fishing-motion-pavilion-simple.mp4: 1 file pulled, 0 skipped. 24.2 MB/s (32885762 bytes in 1.295s)

@@ -1,0 +1,11 @@
+{
+  "candidate": "3d-d26-life02",
+  "gitTree": ":",
+  "frozenMetadata": 838,
+  "necessaryImages": 59,
+  "submissionIndexAlsoVerified": true,
+  "totalBlobs": 898,
+  "allPassed": true,
+  "mismatches": [],
+  "scope": "Current frozen QA metadata, necessary PNGs and the submission index equal exact Git blob bytes. APK source inputs have a separate225-file check; no EOL conversion substituted native saves, logs, reports or image pixels."
+}

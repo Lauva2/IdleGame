@@ -1,0 +1,63 @@
+{
+  "sourceVideo": "Evidence/shop-closeup-offscreen-source.mp4",
+  "sourceSha256": "2C81B0F4EC66856F42081361AAF4C4E0D74C4180386B3AA545489DA529A16094",
+  "selection": {
+    "video": "shop-closeup-offscreen-source.mp4",
+    "start": 0,
+    "end": 34,
+    "fps": 0.2,
+    "id": "shop-source-boundary"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/shop-source-boundary/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "527426B3F3D3E2B1C1149C63C7DF83618F5C2B93263C924F1835E6265EF08242",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-source-boundary/frame-0002.png",
+      "sourcePTSSeconds": 5.020044,
+      "sha256": "A8F38CF0CE0FD508BA5EA86D7F7280F38E1890BAF5376492E3701541480464BE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-source-boundary/frame-0003.png",
+      "sourcePTSSeconds": 10.032278,
+      "sha256": "E46E7CF1F1356AB87F8511D204E0E95EAB2B2557F4CCCD28019FC066F6C6C63C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-source-boundary/frame-0004.png",
+      "sourcePTSSeconds": 15.035944,
+      "sha256": "8573F866C87C29BDC6910BCA1814EA23CEFF881E345AB404E637AD6AF1EDC39A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-source-boundary/frame-0005.png",
+      "sourcePTSSeconds": 20.040378,
+      "sha256": "FC68ED981195898BECC4901A69DC08C48AF619DD2E6EFED54D8A3D929A176EDD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-source-boundary/frame-0006.png",
+      "sourcePTSSeconds": 25.044367,
+      "sha256": "D76FDFCFEB4A03973469917420A8DCF3926572069CD0D59BA52910B4982F826F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-source-boundary/frame-0007.png",
+      "sourcePTSSeconds": 30.073567,
+      "sha256": "4AB5D55C9F6E1A09564BFD2C883CE97200CF72C6AA875AFF44C3EFD01D2BAF98",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

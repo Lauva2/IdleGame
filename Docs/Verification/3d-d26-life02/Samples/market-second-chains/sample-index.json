@@ -1,0 +1,385 @@
+{
+  "sourceVideo": "Evidence/market-native-2.mp4",
+  "sourceSha256": "3840EC83E5C6836A97B22FB7B9E411137E13F88ED13314E20FD987F67897112D",
+  "selection": {
+    "video": "market-native-2.mp4",
+    "start": 0,
+    "end": 157,
+    "fps": 0.333333,
+    "id": "market-second-chains"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/market-second-chains/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "D46C7BCEAA9F2C9F591B428F6D8C1A939274029182C6C0DEDE29FA044E751608",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0002.png",
+      "sourcePTSSeconds": 3.022678,
+      "sha256": "C40A7BA9CC1B281334808A4522D652C253F5F9AB919CF709164F88588FAFF87E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0003.png",
+      "sourcePTSSeconds": 6.045589,
+      "sha256": "6C252DE2C54D44B8950E8566F250F07E775FF1396BB888D70CABA2EAA0DBF6B3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0004.png",
+      "sourcePTSSeconds": 9.073711,
+      "sha256": "1E5C161CAD47D3786B911CF61D0D4C26D62D1E7085A8D3C20DD6E2807E91E3DC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0005.png",
+      "sourcePTSSeconds": 12.1055,
+      "sha256": "EFEAA8FA5E2092C79261C9C2C6669E5FD243C2A0399D50C1AF87BB7D22458BAE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0006.png",
+      "sourcePTSSeconds": 15.109111,
+      "sha256": "939BF6262C3597C57683EE17A26B94C93DF641500D492A94244608EC55D21729",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0007.png",
+      "sourcePTSSeconds": 18.112922,
+      "sha256": "688AB1DD323D791540C03A39F98D846369439F38836DAEBB5914F56382C0609B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0008.png",
+      "sourcePTSSeconds": 21.142867,
+      "sha256": "3D1C1E1FD37282F189A55889D1BE344C6EDF1E27393FB74E76EE92705549A812",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0009.png",
+      "sourcePTSSeconds": 24.163656,
+      "sha256": "1F3868799F1B79D42484F31168C8375E4456441FADBA8F2F6018CDC95F3F457B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0010.png",
+      "sourcePTSSeconds": 27.1685,
+      "sha256": "2562B00AF0397CF4E6EC4212835283B4F6A2401538360AB4859053C3CEA39B68",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0011.png",
+      "sourcePTSSeconds": 30.180244,
+      "sha256": "BD445020C06688D033E3F36D60CD68F69BBF14CA7C607B01A2F17A514E985B75",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0012.png",
+      "sourcePTSSeconds": 33.197811,
+      "sha256": "8ABB353B71EA5CE728DE68B0A596E5243822D33C3A814C0AC11F1477348B9CBD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0013.png",
+      "sourcePTSSeconds": 36.216533,
+      "sha256": "F35043A447591DE9EA79B4C749F309ACEEF560CF3C79E7C0A4A3E5C212980EB0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0014.png",
+      "sourcePTSSeconds": 39.231367,
+      "sha256": "778CB7A38305D21C8C00683879E99FE4B514CC0F5E99EBA875E20C555032A701",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0015.png",
+      "sourcePTSSeconds": 42.249111,
+      "sha256": "D9A8AB843A430AAC2037D08FCDAD13E5DB020A84BAF03002E9E33F33DB41E432",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0016.png",
+      "sourcePTSSeconds": 45.263267,
+      "sha256": "7342879839D011C976CF522ACDB6A9ACEF05DFC067E82DBC7E4901D2B3FD575F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0017.png",
+      "sourcePTSSeconds": 48.272289,
+      "sha256": "D1A633E6A8C1AEA7853D1D1E8E18002286C4A4B003D54A53481944A542CCCFA8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0018.png",
+      "sourcePTSSeconds": 51.288844,
+      "sha256": "C253947FB0337C0FB59B981E57D2D8790AC116E44FDE0FB7516250F2AF3CABB5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0019.png",
+      "sourcePTSSeconds": 54.288867,
+      "sha256": "FD7ED6664006D0A017C42B86C2D5BE461CCA68496C21241AA6708BA1D1862007",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0020.png",
+      "sourcePTSSeconds": 57.305656,
+      "sha256": "73F8823A355C8B9F1A636580FA9E5E3543CC036029F277AD9C37CA2747831775",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0021.png",
+      "sourcePTSSeconds": 60.310867,
+      "sha256": "BBB0DD4E07EF8F900F6482932A546F81295C5C9FF06C9D330D7EF4374DEC221A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0022.png",
+      "sourcePTSSeconds": 63.338889,
+      "sha256": "38E429C92DD06EF6AC4F8206DF714A51D3777EA15E9DD48B35F49C68120B8966",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0023.png",
+      "sourcePTSSeconds": 66.352433,
+      "sha256": "F8B8E50E122304D28F76783A7447A921ADAD2E4D07F5F1ABF2BD9949B1E301AE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0024.png",
+      "sourcePTSSeconds": 69.356011,
+      "sha256": "9E2F34CB80F02C0FBC29C5CA84A788720D61FD3D444119B1F981C1EEA5A362CB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0025.png",
+      "sourcePTSSeconds": 72.376789,
+      "sha256": "7225D17D24BAA486F01A2D1AA1C85EA0DAC39DF94615F0D9ADCDCCBA7DE34D32",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0026.png",
+      "sourcePTSSeconds": 75.412967,
+      "sha256": "474A11D19DFAE9FB63A39536C88B067DBB20AA4BF3F23B7629B85CEA33578289",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0027.png",
+      "sourcePTSSeconds": 78.438767,
+      "sha256": "46D345422A3DC177CCE4722960617D3D12A25E9E3947770B4FB84D3F8997B2E5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0028.png",
+      "sourcePTSSeconds": 81.444156,
+      "sha256": "9DA27B16E717ECD752FC45FCC0EC49F87446528C88BAB6AA46B2FD4A631E1ED5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0029.png",
+      "sourcePTSSeconds": 84.451522,
+      "sha256": "0AF69B4BA325D1AF42C4448C69D55C7550283E1A2155848D328BC3C78AB6D258",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0030.png",
+      "sourcePTSSeconds": 87.464856,
+      "sha256": "4E61C147024A3DA1BA23ADB8B207EB9F56D30DB3F98B2D381E5AA90196F222AD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0031.png",
+      "sourcePTSSeconds": 90.469556,
+      "sha256": "8A059685C646BC2F426C82D4270D50A3597C0EB94FA0A114C7112070B712E2BB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0032.png",
+      "sourcePTSSeconds": 93.486378,
+      "sha256": "AFC63BFD55A6F29C68E873E80481EDB82584642EB43ABD2ED09E7694021A8407",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0033.png",
+      "sourcePTSSeconds": 96.5021,
+      "sha256": "86124A9D848B28BCE9D607D74C2002036C26A525394442EDF8EA684DF3AA7B16",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0034.png",
+      "sourcePTSSeconds": 99.5028,
+      "sha256": "B123FA03DCEAE5D41D1FF26B6FA575523235660E10E2BD964AF1A9FDC5738A68",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0035.png",
+      "sourcePTSSeconds": 102.513778,
+      "sha256": "A8E46FF566538D738F81616607945D23BBF6030F8A2C6A8C21A7DC368E9E2701",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0036.png",
+      "sourcePTSSeconds": 105.531133,
+      "sha256": "84577A02BCFA7A8C139E48C516169667196C72D446EC9D7C136A07675D7501B5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0037.png",
+      "sourcePTSSeconds": 108.555822,
+      "sha256": "230AA14B6BABCC30BED294CD9965EF2617878C954ACC39BFB6C50D945770CB12",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0038.png",
+      "sourcePTSSeconds": 111.5643,
+      "sha256": "462DD598D301752952163E6EBF88ECEA2005B2E066B21A592B3D4BAEF8238B25",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0039.png",
+      "sourcePTSSeconds": 114.593044,
+      "sha256": "FCB9645DB1F5312835BB6D7637C663AD43F238E180C2817CD893578458FEE794",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0040.png",
+      "sourcePTSSeconds": 117.593222,
+      "sha256": "C8E6A26096DDE53278BC14FD8FD1C9D6456B0F160BA0B6485BB8520F6CD651F5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0041.png",
+      "sourcePTSSeconds": 120.626544,
+      "sha256": "71D8DBE08836E06AB339F93E515FB9C23BEA90F148E9C6D7029B8B3DEC5B5F37",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0042.png",
+      "sourcePTSSeconds": 123.635689,
+      "sha256": "8AEE618158F75FCE7E9BD34B71062E1D57C6E9AFC818381759DD866E840889C1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0043.png",
+      "sourcePTSSeconds": 126.664178,
+      "sha256": "83283B9F3DFBA3AC0D53657F16E7428E2F9534B6D15FE5EE6D0A454E44327DE5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0044.png",
+      "sourcePTSSeconds": 129.673256,
+      "sha256": "D90A9CB9DD4304142E555889212F8E31D99C129F37091B2B10599ED8F20DA957",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0045.png",
+      "sourcePTSSeconds": 132.697544,
+      "sha256": "070DD70262A75F6C771E05A7AAE024F6EAD9DDB303D405F0D619F3C4B44CB286",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0046.png",
+      "sourcePTSSeconds": 135.709789,
+      "sha256": "4DDEE3BD055B8474CBACECF7DA9D139A555F1C94E42A3D16624B31CAA5A96B95",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0047.png",
+      "sourcePTSSeconds": 138.726789,
+      "sha256": "4D5C0DF209FD8AADACDECDD01F0872B4793B81E37AC48AAEFBC410CD79987504",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0048.png",
+      "sourcePTSSeconds": 141.747767,
+      "sha256": "8E74F464CD916B9BB9639704E774EC4DB4762DF4E0924B9D22A543CDA5F635D0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0049.png",
+      "sourcePTSSeconds": 144.764689,
+      "sha256": "6AB4CE1FCAFC16CB363ADFF046FC7A6FCAA5B392DA72C8B2727B498EFDAE8A7D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0050.png",
+      "sourcePTSSeconds": 147.7728,
+      "sha256": "7072D41D1523EE264A0D9E745E2F48840A74B4322DB435E2373383E19D334A72",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0051.png",
+      "sourcePTSSeconds": 150.781056,
+      "sha256": "8403B18DE269C503C0160F4A62FF32CC75D5218B6B038249A20C177769FCDEF7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0052.png",
+      "sourcePTSSeconds": 153.785133,
+      "sha256": "61979915027CAF8EE0997B08EE29FA1BF17464647B3AF74CECF77801C45AF58D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-second-chains/frame-0053.png",
+      "sourcePTSSeconds": 156.794033,
+      "sha256": "3585C4521A9FD0E99E527D0FD0A4558A1CABA9C7C487794BF75E8214F9CA5163",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+--------- beginning of main
+10-27 19:21:29.288 11305 11305 I Zygote  : fakeProductInfoIfNeed callded! com.forestatelier.curioshop
+10-27 19:21:29.289 11305 11305 I Zygote  : fake Product info com.forestatelier.curioshop not matched any pattern
+10-27 19:21:29.289 11305 11305 I Zygote  : fakeProductInfoFromProperties callded! com.forestatelier.curioshop
+10-27 19:21:29.304 11305 11305 E NemuAppNameUtil: save data success
+10-27 19:21:29.329 11305 11305 E linker  : do_dlopen failed
+10-27 19:21:29.329 11305 11305 E linker  : load selected hp /system/etc/mumu-configs/shared_libs/libhp12_x86_64.so failed
+10-27 19:21:29.329 11305 11305 E linker  : library "/system/etc/mumu-configs/shared_libs/libhp12_x86_64.so" ("/system/etc/mumu-configs/shared_libs/libhp12_x86_64.so") needed or dlopened by "/apex/com.android.art/lib64/libnativebridge.so" is not accessible for the namespace: [name="com_android_art", ld_library_paths="", default_library_paths="/apex/com.android.art/lib64", permitted_paths="/apex/com.android.art/lib64:/system/lib64:/data:/apex/com.android.art/javalib"]
+10-27 19:21:29.329 11305 11305 E linker  : do_dlopen failed
+10-27 19:21:29.329 11305 11305 E linker  : load origin hp /system/etc/mumu-configs/shared_libs/libhp12_x86_64.so failed
+10-27 19:21:29.361 11305 11305 E linker  : hp entrace has not been loaded, ignored
+10-27 19:21:29.379 11305 11305 W nativebridge: LLLog DoRedirectTranslator not is_gte
+10-27 19:21:29.382 11305 11305 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: No such file or directory
+10-27 19:21:29.382 11305 11305 I Zygote  : seccomp disabled by setenforce 0
+10-27 19:21:29.396 11305 11305 W elier.curiosho: Unexpected CPU variant for X86 using defaults: x86_64
+10-27 19:21:29.398 11305 11305 V libnb   : enter native_bridge2_initialize /data/user/0/com.forestatelier.curioshop/code_cache arm64
+10-27 19:21:29.398 11305 11305 E libnb   : The translator implementation library has not been set.
+10-27 19:21:29.482 11305 11305 E libnb   : get_callbacks native_handle 0xfa886d6722562d97: 1 libnb:/system/lib64/libhoudini.so
+10-27 19:21:29.482 11305 11305 I libnb   : Found /system/lib64/libhoudini.so version 6
+10-27 19:21:29.482 11305 11305 D HP      : no libmumuhooker.so
+10-27 19:21:29.487 11305 11305 D houdini : [11305] Intel Bridge Technology for Netease internal evaluation only, Copyright(C) Intel Corp. 2012-2025.
+10-27 19:21:29.487 11305 11305 D houdini : [11305] Use permitted only under a valid evaluation software license agreement - all other rights reserved.
+10-27 19:21:29.487 11305 11305 D houdini : [11305] Initialize library(version: 12.0.1_z.Netease_ev4 RELEASE)... successfully.
+10-27 19:21:29.487 11305 11305 W HP      : x_initialize private_dir:/data/user/0/com.forestatelier.curioshop/code_cache instruction_set:arm64 getMethodShorty:0x79201193c340 ret:1
+10-27 19:21:29.497 11305 11305 E elier.curiosho: Not starting debugger since process cannot load the jdwp agent.
+10-27 19:21:29.513 11305 11305 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+10-27 19:21:29.548 11305 11338 E ashmem  : memfd: ro.vndk.version not defined or invalid (), this is mandated since P.
+10-27 19:21:29.551 11305 11305 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10046; state: ENABLED
+10-27 19:21:29.907 11305 11305 I Typeface: Preloading /system/fonts/Roboto-Regular.ttf
+10-27 19:21:30.014 11305 11305 V GraphicsEnvironment: ANGLE Developer option for 'com.forestatelier.curioshop' set to: 'default'
+10-27 19:21:30.014 11305 11305 V GraphicsEnvironment: ANGLE GameManagerService for com.forestatelier.curioshop: false
+10-27 19:21:30.014 11305 11305 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-27 19:21:30.018 11305 11305 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-27 19:21:30.019 11305 11305 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-27 19:21:30.358 11305 11411 D libEGL  : loaded /system/lib64/egl/libEGL_emulation.so
+10-27 19:21:30.362 11305 11305 I dTi     : type=1400 audit(0.0:34425): avc: denied { read write } for name="vaddress" dev="tmpfs" ino=11505 scontext=u:r:untrusted_app:s0:c46,c256,c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1 app=com.forestatelier.curioshop
+10-27 19:21:30.362 11305 11305 I dTi     : type=1400 audit(0.0:34426): avc: denied { open } for path="/dev/vaddress" dev="tmpfs" ino=11505 scontext=u:r:untrusted_app:s0:c46,c256,c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1 app=com.forestatelier.curioshop
+10-27 19:21:30.362 11305 11305 I dTi     : type=1400 audit(0.0:34427): avc: denied { ioctl } for path="/dev/vaddress" dev="tmpfs" ino=11505 ioctlcmd=0x4c15 scontext=u:r:untrusted_app:s0:c46,c256,c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1 app=com.forestatelier.curioshop
+10-27 19:21:30.362 11305 11305 I dTi     : type=1400 audit(0.0:34428): avc: denied { map } for path="/dev/vaddress" dev="tmpfs" ino=11505 scontext=u:r:untrusted_app:s0:c46,c256,c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1 app=com.forestatelier.curioshop
+10-27 19:21:30.381 11305 11411 D elier.curiosho: Features: 0 0 0
+10-27 19:21:30.381 11305 11411 E elier.curiosho: vulkan version is 4211029
+10-27 19:21:30.385 11305 11411 D libEGL  : loaded /system/lib64/egl/libGLESv1_CM_emulation.so
+10-27 19:21:30.387 11305 11411 D libEGL  : loaded /system/lib64/egl/libGLESv2_emulation.so
+10-27 19:21:30.405 11305 11411 E GraphicsEnv: Failed to get gpu service
+10-27 19:21:30.677 11305 11305 I IL2CPP  : JNI_OnLoad
+10-27 19:21:30.763 11305 11305 D hw-ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+10-27 19:21:30.763 11305 11305 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@4.0::IMapper instance: default
+10-27 19:21:30.764 11305 11305 I Gralloc4: mapper 4.x is not supported
+10-27 19:21:30.764 11305 11305 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@3.0::IMapper instance: default
+10-27 19:21:30.764 11305 11305 W Gralloc3: mapper 3.x is not supported
+10-27 19:21:30.764 11305 11305 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@2.0::IMapper instance: default
+10-27 19:21:30.765 11305 11305 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@4.0::IAllocator instance: default
+10-27 19:21:30.766 11305 11305 W Gralloc4: allocator 4.x is not supported
+10-27 19:21:30.766 11305 11305 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@3.0::IAllocator instance: default
+10-27 19:21:30.767 11305 11305 W Gralloc3: allocator 3.x is not supported
+10-27 19:21:30.767 11305 11305 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@2.0::IAllocator instance: default
+10-27 19:21:30.781 11305 11305 D elier.curiosho: Features: 0 0 0
+10-27 19:21:30.781 11305 11305 E elier.curiosho: vulkan version is 4211029
+10-27 19:21:30.785 11305 11305 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-27 19:21:30.903 11305 11439 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-27 19:21:30.977 11305 11439 I Unity   : SystemInfo CPU = x86-64 SSE3 SSE4.1 SSE4.2 AVX, Cores = 4, Memory = 5949mb
+10-27 19:21:30.977 11305 11439 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf), 0 little (mask: 0x0)
+10-27 19:21:30.978 11305 11439 I Unity   : ApplicationInfo com.forestatelier.curioshop version 0.2.6
+10-27 19:21:30.978 11305 11439 I Unity   : Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch, Version '2022.3.62f2 (7670c08855a9)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+10-27 19:21:31.332 11305 11439 I Unity   : Company Name: Forest Atelier
+10-27 19:21:31.332 11305 11439 I Unity   : Product Name: 林间奇物铺
+10-27 19:21:31.345 11305 11439 D elier.curiosho: Features: 0 0 0
+10-27 19:21:31.345 11305 11439 E elier.curiosho: vulkan version is 4211029
+10-27 19:21:31.348 11305 11439 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.configstore@1.0::ISurfaceFlingerConfigs instance: default
+10-27 19:21:31.363 11305 11439 E EGL_emulation: [getAttribValue] Bad attribute idx
+10-27 19:21:31.363 11305 11439 D EGL_emulation: eglGetConfigAttrib: bad attrib 0x1
+10-27 19:21:31.363 11305 11439 E EGL_emulation: tid 11439: eglGetConfigAttrib(1034): error 0x3004 (EGL_BAD_ATTRIBUTE)
+10-27 19:21:31.384 11305 11439 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-27 19:21:31.423 11305 11439 D Unity   :  GL_ANDROID_extension_pack_es31a GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_copy_image GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_primitive_bounding_box GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_io_blocks GL_EXT_shader_texture_lod GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture
+10-27 19:21:31.423 11305 11439 D Unity   : _sRGB_decode GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_geometry_shader GL_OES_packed_depth_stencil GL_OES_primitive_bounding_box GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader
+10-27 19:21:31.423 11305 11439 D Unity   : _image_atomic GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float
+10-27 19:21:31.443 11305 11553 D elier.curiosho: Features: 0 0 0
+10-27 19:21:31.443 11305 11553 E elier.curiosho: vulkan version is 4211029
+10-27 19:21:31.520 11305 11439 D elier.curiosho: PlayerBase::PlayerBase()
+10-27 19:21:31.520 11305 11439 D elier.curiosho: TrackPlayerBase::TrackPlayerBase()
+10-27 19:21:31.520 11305 11439 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+10-27 19:21:31.523 11305 11439 I AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST successful; frameCount 0 -> 4096
+10-27 19:21:31.717 11305 11439 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-27 19:21:31.726 11305 11439 V MediaRouter: Selecting route: RouteInfo{ name=手机, description=null, status=null, category=RouteCategory{ name=系统 types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-27 19:21:31.726 11305 11439 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=true, BT route=null
+10-27 19:21:31.956 11305 11439 I IL2CPP  : Locale zh-CN
+10-27 19:21:32.205 11305 11439 I Unity   : FOREST_STARTUP shell 0.440
+10-27 19:21:32.205 11305 11439 I Unity   : ForestShop.<OpenShop>d__53:MoveNext()
+10-27 19:21:32.205 11305 11439 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+10-27 19:21:32.205 11305 11439 I Unity   : 
+10-27 19:21:32.502 11305 11439 I Unity   : FOREST_STARTUP save-ready 0.759
+10-27 19:21:32.502 11305 11439 I Unity   : ForestShop.<OpenShop>d__53:MoveNext()
+10-27 19:21:32.502 11305 11439 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+10-27 19:21:32.502 11305 11439 I Unity   : 
+10-27 19:21:32.600 11305 11553 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-27 19:21:35.008 11305 11439 I Unity   : FOREST_STARTUP world-ready 3.264
+10-27 19:21:35.008 11305 11439 I Unity   : ForestShop.<OpenShop>d__53:MoveNext()
+10-27 19:21:35.008 11305 11439 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+10-27 19:21:35.008 11305 11439 I Unity   : 
+10-27 19:21:35.360 11305 11553 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-27 19:21:35.372 11305 11305 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+10-27 19:21:35.415 11305 11439 I Unity   : FOREST_STARTUP interactive 3.669
+10-27 19:21:35.415 11305 11439 I Unity   : ForestShop.<OpenShop>d__53:MoveNext()
+10-27 19:21:35.415 11305 11439 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+10-27 19:21:35.415 11305 11439 I Unity   : 

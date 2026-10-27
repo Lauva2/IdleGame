@@ -7,6 +7,7 @@ $candidate=Split-Path -Leaf $Folder
 function Plan($name){
  # Reuse the recorded input plan; capture fresh framebuffer from the new APK.
  $p=Get-Content "Docs/Verification/3d-d21-forest05/Plans/forest-$name.json" -Raw|ConvertFrom-Json
+ if($name -eq 'locked'){$p.steps[2].tap=& Tools/Get-ForestDockPoint.ps1 -Spot 0}
  $p.directory="$Folder/Evidence/Forest"
  $p|ConvertTo-Json -Depth 7|Set-Content "$Folder/Plans/forest-$name.json"
  & $python Tools/Forest-DeviceReview.py "$Folder/Plans/forest-$name.json"

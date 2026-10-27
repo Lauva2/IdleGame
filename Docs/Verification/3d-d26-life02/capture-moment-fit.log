@@ -1,0 +1,304 @@
+﻿
+﻿
+﻿PASS valid prepared moment fixture E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\moment-await.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-await.save: 1 file pushed, 0 skipped. 13.8 MB/s (6836 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-await.save: 1 file pushed, 0 skipped. 16.1 MB/s (6836 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1553
+WaitTime: 1573
+Complete
+COMPLETE prepared moment-await
+{'tap': [950, 160]}
+{'shot': '00-handbook-and-four-footer-links'}
+{'tap': [925, 1805]}
+{'shot': '01-all-three-pending-cards'}
+{'drag_hold': [1000, 1750, 1000, 1120, 500, 600]}
+{'shot': '02-third-card-and-footer'}
+{'back': True}
+{'tap': [950, 160]}
+{'tap': [925, 1805]}
+{'tap': [900, 1280]}
+{'shot': 'event-0-10-actual-object'}
+{'tap': [540, 1076]}
+{'shot': 'event-0-11-choice-card'}
+{'tap': [270, 1770]}
+{'wait': 1}
+{'shot': 'event-0-12-choice0-world'}
+{'tap': [950, 160]}
+{'tap': [925, 1805]}
+{'tap': [900, 1280]}
+{'tap': [540, 1076]}
+{'tap': [800, 1770]}
+{'wait': 1}
+{'shot': 'event-0-13-choice1-world'}
+{'tap': [950, 160]}
+{'tap': [925, 1805]}
+{'tap': [900, 1492]}
+{'shot': 'event-1-10-actual-object'}
+{'tap': [540, 1076]}
+{'shot': 'event-1-11-choice-card'}
+{'tap': [270, 1770]}
+{'wait': 1}
+{'shot': 'event-1-12-choice0-world'}
+{'tap': [950, 160]}
+{'tap': [925, 1805]}
+{'tap': [900, 1492]}
+{'tap': [540, 1076]}
+{'tap': [800, 1770]}
+{'wait': 1}
+{'shot': 'event-1-13-choice1-world'}
+{'tap': [950, 160]}
+{'tap': [925, 1805]}
+{'tap': [900, 1704]}
+{'shot': 'event-2-10-actual-object'}
+{'tap': [540, 1076]}
+{'shot': 'event-2-11-choice-card'}
+{'tap': [270, 1770]}
+{'wait': 1}
+{'shot': 'event-2-12-choice0-world'}
+{'tap': [950, 160]}
+{'tap': [925, 1805]}
+{'tap': [900, 1704]}
+{'tap': [540, 1076]}
+{'tap': [800, 1770]}
+{'wait': 1}
+{'shot': 'event-2-13-choice1-world'}
+{'tap': [950, 160]}
+{'tap': [925, 1805]}
+{'shot': '30-completed-journal'}
+{'back': True}
+/sdcard/3d-d26-life02-moment-fit-Default.mp4: 1 file pulled, 0 skipped. 25.1 MB/s (53356641 bytes in 2.030s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 4.1 MB/s (6824 bytes in 0.002s)
+COMPLETE moment fitting Default
+﻿
+﻿
+﻿PASS valid prepared moment fixture E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\moment-await.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-await.save: 1 file pushed, 0 skipped. 16.9 MB/s (6836 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-await.save: 1 file pushed, 0 skipped. 14.2 MB/s (6836 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1484
+WaitTime: 1494
+Complete
+COMPLETE prepared moment-await
+{'tap': [950, 160]}
+{'shot': '00-handbook-and-four-footer-links'}
+{'tap': [925, 2225]}
+{'shot': '01-all-three-pending-cards'}
+{'drag_hold': [1000, 2170, 1000, 1540, 500, 600]}
+{'shot': '02-third-card-and-footer'}
+{'back': True}
+{'tap': [950, 160]}
+{'tap': [925, 2225]}
+{'tap': [900, 1700]}
+{'shot': 'event-0-10-actual-object'}
+{'tap': [540, 1088]}
+{'shot': 'event-0-11-choice-card'}
+{'tap': [270, 2190]}
+{'wait': 1}
+{'shot': 'event-0-12-choice0-world'}
+{'tap': [950, 160]}
+{'tap': [925, 2225]}
+{'tap': [900, 1700]}
+{'tap': [540, 1088]}
+{'tap': [800, 2190]}
+{'wait': 1}
+{'shot': 'event-0-13-choice1-world'}
+{'tap': [950, 160]}
+{'tap': [925, 2225]}
+{'tap': [900, 1912]}
+{'shot': 'event-1-10-actual-object'}
+{'tap': [540, 1088]}
+{'shot': 'event-1-11-choice-card'}
+{'tap': [270, 2190]}
+{'wait': 1}
+{'shot': 'event-1-12-choice0-world'}
+{'tap': [950, 160]}
+{'tap': [925, 2225]}
+{'tap': [900, 1912]}
+{'tap': [540, 1088]}
+{'tap': [800, 2190]}
+{'wait': 1}
+{'shot': 'event-1-13-choice1-world'}
+{'tap': [950, 160]}
+{'tap': [925, 2225]}
+{'tap': [900, 2124]}
+{'shot': 'event-2-10-actual-object'}
+{'tap': [540, 1088]}
+{'shot': 'event-2-11-choice-card'}
+{'tap': [270, 2190]}
+{'wait': 1}
+{'shot': 'event-2-12-choice0-world'}
+{'tap': [950, 160]}
+{'tap': [925, 2225]}
+{'tap': [900, 2124]}
+{'tap': [540, 1088]}
+{'tap': [800, 2190]}
+{'wait': 1}
+{'shot': 'event-2-13-choice1-world'}
+{'tap': [950, 160]}
+{'tap': [925, 2225]}
+{'shot': '30-completed-journal'}
+{'back': True}
+/sdcard/3d-d26-life02-moment-fit-Long.mp4: 1 file pulled, 0 skipped. 22.5 MB/s (57995206 bytes in 2.456s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.8 MB/s (6822 bytes in 0.002s)
+COMPLETE moment fitting Long
+﻿
+﻿
+﻿PASS valid prepared moment fixture E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\moment-await.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-await.save: 1 file pushed, 0 skipped. 11.6 MB/s (6836 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-await.save: 1 file pushed, 0 skipped. 8.4 MB/s (6836 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1277
+WaitTime: 1284
+Complete
+COMPLETE prepared moment-await
+{'tap': [633, 107]}
+{'shot': '00-handbook-and-four-footer-links'}
+{'tap': [617, 1523]}
+{'shot': '01-all-three-pending-cards'}
+{'drag_hold': [667, 1487, 667, 1067, 500, 600]}
+{'shot': '02-third-card-and-footer'}
+{'back': True}
+{'tap': [633, 107]}
+{'tap': [617, 1523]}
+{'tap': [600, 1173]}
+{'shot': 'event-0-10-actual-object'}
+{'tap': [360, 725]}
+{'shot': 'event-0-11-choice-card'}
+{'tap': [180, 1500]}
+{'wait': 1}
+{'shot': 'event-0-12-choice0-world'}
+{'tap': [633, 107]}
+{'tap': [617, 1523]}
+{'tap': [600, 1173]}
+{'tap': [360, 725]}
+{'tap': [533, 1500]}
+{'wait': 1}
+{'shot': 'event-0-13-choice1-world'}
+{'tap': [633, 107]}
+{'tap': [617, 1523]}
+{'tap': [600, 1315]}
+{'shot': 'event-1-10-actual-object'}
+{'tap': [360, 725]}
+{'shot': 'event-1-11-choice-card'}
+{'tap': [180, 1500]}
+{'wait': 1}
+{'shot': 'event-1-12-choice0-world'}
+{'tap': [633, 107]}
+{'tap': [617, 1523]}
+{'tap': [600, 1315]}
+{'tap': [360, 725]}
+{'tap': [533, 1500]}
+{'wait': 1}
+{'shot': 'event-1-13-choice1-world'}
+{'tap': [633, 107]}
+{'tap': [617, 1523]}
+{'tap': [600, 1456]}
+{'shot': 'event-2-10-actual-object'}
+{'tap': [360, 725]}
+{'shot': 'event-2-11-choice-card'}
+{'tap': [180, 1500]}
+{'wait': 1}
+{'shot': 'event-2-12-choice0-world'}
+{'tap': [633, 107]}
+{'tap': [617, 1523]}
+{'tap': [600, 1456]}
+{'tap': [360, 725]}
+{'tap': [533, 1500]}
+{'wait': 1}
+{'shot': 'event-2-13-choice1-world'}
+{'tap': [633, 107]}
+{'tap': [617, 1523]}
+{'shot': '30-completed-journal'}
+{'back': True}
+/sdcard/3d-d26-life02-moment-fit-Narrow.mp4: 1 file pulled, 0 skipped. 22.5 MB/s (41023778 bytes in 1.741s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.3 MB/s (6825 bytes in 0.002s)
+COMPLETE moment fitting Narrow
+﻿
+﻿
+﻿PASS valid prepared moment fixture E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\moment-await.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-await.save: 1 file pushed, 0 skipped. 16.2 MB/s (6836 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-await.save: 1 file pushed, 0 skipped. 16.7 MB/s (6836 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1677
+WaitTime: 1684
+Complete
+COMPLETE prepared moment-await
+{'tap': [950, 244]}
+{'shot': '00-handbook-and-four-footer-links'}
+{'tap': [925, 1805]}
+{'shot': '01-all-three-pending-cards'}
+{'drag_hold': [1000, 1750, 1000, 1120, 500, 600]}
+{'shot': '02-third-card-and-footer'}
+{'back': True}
+{'tap': [950, 244]}
+{'tap': [925, 1805]}
+{'tap': [900, 1280]}
+{'shot': 'event-0-10-actual-object'}
+{'tap': [540, 1118]}
+{'shot': 'event-0-11-choice-card'}
+{'tap': [270, 1770]}
+{'wait': 1}
+{'shot': 'event-0-12-choice0-world'}
+{'tap': [950, 244]}
+{'tap': [925, 1805]}
+{'tap': [900, 1280]}
+{'tap': [540, 1118]}
+{'tap': [800, 1770]}
+{'wait': 1}
+{'shot': 'event-0-13-choice1-world'}
+{'tap': [950, 244]}
+{'tap': [925, 1805]}
+{'tap': [900, 1492]}
+{'shot': 'event-1-10-actual-object'}
+{'tap': [540, 1118]}
+{'shot': 'event-1-11-choice-card'}
+{'tap': [270, 1770]}
+{'wait': 1}
+{'shot': 'event-1-12-choice0-world'}
+{'tap': [950, 244]}
+{'tap': [925, 1805]}
+{'tap': [900, 1492]}
+{'tap': [540, 1118]}
+{'tap': [800, 1770]}
+{'wait': 1}
+{'shot': 'event-1-13-choice1-world'}
+{'tap': [950, 244]}
+{'tap': [925, 1805]}
+{'tap': [900, 1704]}
+{'shot': 'event-2-10-actual-object'}
+{'tap': [540, 1118]}
+{'shot': 'event-2-11-choice-card'}
+{'tap': [270, 1770]}
+{'wait': 1}
+{'shot': 'event-2-12-choice0-world'}
+{'tap': [950, 244]}
+{'tap': [925, 1805]}
+{'tap': [900, 1704]}
+{'tap': [540, 1118]}
+{'tap': [800, 1770]}
+{'wait': 1}
+{'shot': 'event-2-13-choice1-world'}
+{'tap': [950, 244]}
+{'tap': [925, 1805]}
+{'shot': '30-completed-journal'}
+{'back': True}
+/sdcard/3d-d26-life02-moment-fit-SafeTall.mp4: 1 file pulled, 0 skipped. 22.4 MB/s (46491886 bytes in 1.981s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 4.5 MB/s (6824 bytes in 0.001s)
+COMPLETE moment fitting SafeTall

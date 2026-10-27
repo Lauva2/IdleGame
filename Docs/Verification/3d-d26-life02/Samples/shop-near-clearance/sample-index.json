@@ -1,0 +1,126 @@
+{
+  "sourceVideo": "Evidence/shop-closeup-zoom-clearance.mp4",
+  "sourceSha256": "881CA6BB260647E5F43DDCB8454F3DA8F44098E8C597FB857FF95A05EA5BF977",
+  "selection": {
+    "video": "shop-closeup-zoom-clearance.mp4",
+    "start": 0,
+    "end": 39,
+    "fps": 0.4,
+    "id": "shop-near-clearance"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/shop-near-clearance/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "CEBDAAABE94FF08A6ED381D4C34BC58B98BA327158A0487E8AA3AAF7ECA2218F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0002.png",
+      "sourcePTSSeconds": 2.529711,
+      "sha256": "FDBA361B2660997133D8292AED9CB8C30AD24C95B291B7E3EC68F85043F7D7CB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0003.png",
+      "sourcePTSSeconds": 5.045611,
+      "sha256": "0EE00EACA118E10B986A6E2C3C624202E4B3BE2476DF02F2A28C28C34C19426D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0004.png",
+      "sourcePTSSeconds": 7.570544,
+      "sha256": "6693B792BF296AE4A47C2ACD09D5D3895B333EF3CC13571A3D3327168D749373",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0005.png",
+      "sourcePTSSeconds": 10.087322,
+      "sha256": "F6410D011DC8EDC6485135ED84F05338B2E0C1A73D5C8355F191967278350A79",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0006.png",
+      "sourcePTSSeconds": 12.620711,
+      "sha256": "DF64AB6217FFB4363A175A75C4A179EB4C87770F6E8303D01FD784A810C48B81",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0007.png",
+      "sourcePTSSeconds": 15.150822,
+      "sha256": "B39855D6EF2916CC89203EC08E7CED5D423DFBA40CF96D2A85644E5703B622E4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0008.png",
+      "sourcePTSSeconds": 17.670767,
+      "sha256": "1B04418906754F16DC0B909C3A77EEA2EA7FD29DB455DB7A0E805CF212093615",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0009.png",
+      "sourcePTSSeconds": 20.174689,
+      "sha256": "A3081E54879E04D313B38B1F01F6D2E8CFB88E355ED329B4FF9AD4D4CE0CFFC4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0010.png",
+      "sourcePTSSeconds": 22.687644,
+      "sha256": "974D9A4A9029F255CF63C91D53C6411EEFB972D3EADD45F2691361BF4063D164",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0011.png",
+      "sourcePTSSeconds": 25.204489,
+      "sha256": "DC69B2B019DF4D228DD70B78C85951051437FA0D31969F3B0A8A3376A4572701",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0012.png",
+      "sourcePTSSeconds": 27.716556,
+      "sha256": "7BDFBF353979896E3A8601CF0DCF83794C6E1046A1665E07152EE2A2B5CD0B51",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0013.png",
+      "sourcePTSSeconds": 30.233211,
+      "sha256": "5352FE14C6AE6CC63B95BB2A4B8EE82126D4FD73F0678167930069495159C5AB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0014.png",
+      "sourcePTSSeconds": 32.742767,
+      "sha256": "710EF6303A9394244C4C345EA38A5FB4B3666CACD2A71AE0BFF48C5BDA0F2141",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0015.png",
+      "sourcePTSSeconds": 35.249889,
+      "sha256": "6C40EE03C627417E2528FF208D652D9472E6C3B0D89DC8EC022825579A58A18F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/shop-near-clearance/frame-0016.png",
+      "sourcePTSSeconds": 37.770833,
+      "sha256": "BF69F465254DF958794AC0E4E70486756AE594425EC071C446560D59B9BFB04E",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

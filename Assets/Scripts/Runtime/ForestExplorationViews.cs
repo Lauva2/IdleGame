@@ -10,16 +10,92 @@ namespace ForestShop
     public sealed class ForestExploreMarker : MonoBehaviour
     {
         public ForestWorld3D world; public int index;
+        Image tether;
         public void Refresh()
         {
-            var rect = (RectTransform)transform; var parent = (RectTransform)rect.parent;
-            var at = world.ForestMarker(index);
-            bool visible = !world.FishingFocused && at.x > .10f && at.x < .90f && at.y > .17f && at.y < .94f;
+            var parent=(RectTransform)transform.parent;
+            var layout=parent.GetComponent<ForestMarkerLayout>();if(layout==null)layout=parent.gameObject.AddComponent<ForestMarkerLayout>();
+            layout.RefreshMarkers();
+        }
+        public void Place(bool visible,Vector2 center,Vector2 source)
+        {
+            var rect=(RectTransform)transform;
+            if(tether==null)
+            {
+                var child=new GameObject("Link to actual forest object",typeof(RectTransform),typeof(CanvasRenderer),typeof(Image));child.transform.SetParent(transform,false);child.transform.SetAsFirstSibling();
+                tether=child.GetComponent<Image>();tether.color=new Color(.36f,.43f,.27f,.65f);tether.raycastTarget=false;
+                var line=tether.rectTransform;line.anchorMin=line.anchorMax=new Vector2(.5f,.5f);line.pivot=new Vector2(0,.5f);
+            }
             foreach (var g in GetComponentsInChildren<Graphic>()) g.enabled = visible;
             GetComponent<Button>().interactable = visible; GetComponent<Image>().raycastTarget = visible;
-            rect.anchoredPosition = new Vector2(at.x * parent.rect.width - rect.rect.width / 2, -(1 - at.y) * parent.rect.height + rect.rect.height / 2);
+            rect.anchoredPosition=new Vector2(center.x-rect.rect.width/2,-center.y+rect.rect.height/2);
+            var delta=new Vector2(source.x-center.x,center.y-source.y);
+            float t=Mathf.Min(rect.rect.width*.5f/Mathf.Max(.01f,Mathf.Abs(delta.x)),rect.rect.height*.5f/Mathf.Max(.01f,Mathf.Abs(delta.y)));
+            var from=delta*Mathf.Min(1,t);var to=delta-delta.normalized*18;
+            tether.gameObject.SetActive(visible && to.magnitude>from.magnitude+8);
+            tether.enabled=visible;
+            tether.rectTransform.anchoredPosition=from;tether.rectTransform.sizeDelta=new Vector2(Mathf.Max(0,(to-from).magnitude),2);
+            tether.rectTransform.localEulerAngles=new Vector3(0,0,Mathf.Atan2(delta.y,delta.x)*Mathf.Rad2Deg);
         }
         void LateUpdate() { Refresh(); }
+    }
+    // Deterministic layout for all badges in a viewport: protect physical objects
+    // and already placed badges, with a short non-interactive source connection.
+    public sealed class ForestMarkerLayout : MonoBehaviour
+    {
+        ForestExploreMarker[] markers;Vector2[] anchors;Rect[] protectedObjects;bool[] visible;int children=-1;
+        readonly System.Collections.Generic.List<Rect> placed=new System.Collections.Generic.List<Rect>();
+        static readonly Vector2[] Offsets={new Vector2(0,140),new Vector2(0,-140),new Vector2(210,12),new Vector2(-210,12),new Vector2(0,220),new Vector2(210,150),new Vector2(-210,150)};
+        public void RefreshMarkers()
+        {
+            var parent=(RectTransform)transform;
+            if(children!=transform.childCount)
+            {
+                markers=GetComponentsInChildren<ForestExploreMarker>();Array.Sort(markers,(a,b)=>a.index.CompareTo(b.index));children=transform.childCount;
+                anchors=new Vector2[markers.Length];protectedObjects=new Rect[markers.Length];visible=new bool[markers.Length];
+            }
+            if(markers==null)return;
+            for(int i=0;i<markers.Length;i++)
+            {
+                var at=markers[i].world.ForestMarker(markers[i].index);
+                visible[i]=!markers[i].world.FishingFocused && at.x>.06f && at.x<.94f && at.y>.08f && at.y<.94f;
+                anchors[i]=new Vector2(at.x*parent.rect.width,(1-at.y)*parent.rect.height);
+                protectedObjects[i]=new Rect(anchors[i]-new Vector2(64,68),new Vector2(128,136));
+                if(visible[i] && markers[i].index==12)
+                {
+                    var physical=markers[i].world.MomentMarkerFootprint(2);
+                    var model=new Rect(physical.x*parent.rect.width-14,(1-physical.yMax)*parent.rect.height-14,physical.width*parent.rect.width+28,physical.height*parent.rect.height+28);
+                    var point=protectedObjects[i];protectedObjects[i]=Rect.MinMaxRect(Mathf.Min(point.xMin,model.xMin),Mathf.Min(point.yMin,model.yMin),Mathf.Max(point.xMax,model.xMax),Mathf.Max(point.yMax,model.yMax));
+                }
+            }
+            placed.Clear();
+            for(int i=0;i<markers.Length;i++)
+            {
+                var rect=(RectTransform)markers[i].transform;bool found=false;Vector2 position=anchors[i];
+                if(visible[i])for(int option=0;option<Offsets.Length;option++)
+                {
+                    int order=markers[i].index>=10?(option==1?4:option==4?1:option):option;var offset=Offsets[order];
+                    var candidate=anchors[i]+offset;var box=new Rect(candidate-rect.rect.size*.5f,rect.rect.size);
+                    if(box.xMin<18 || box.xMax>parent.rect.width-18 || box.yMin<18 || box.yMax>parent.rect.height-18)continue;
+                    if(box.Overlaps(new Rect(715,parent.rect.height-128,365,128)))continue;
+                    bool overlap=false;
+                    for(int j=0;j<markers.Length;j++)if(visible[j] && box.Overlaps(protectedObjects[j]))overlap=true;
+                    // Neighbouring zones can share the same view: protect every
+                    // visible landing and float, not only this zone's badge.
+                    for(int spot=0;spot<3;spot++)
+                    {
+                        var uv=markers[i].world.FishingFloatMarker(spot);var bobber=new Vector2(uv.x*parent.rect.width,(1-uv.y)*parent.rect.height);
+                        if(uv.x>0 && uv.x<1 && uv.y>0 && uv.y<1 && box.Overlaps(new Rect(bobber-Vector2.one*48,Vector2.one*96)))overlap=true;
+                        var dock=markers[i].world.FishingMarker(spot);var landing=new Vector2(dock.x*parent.rect.width,(1-dock.y)*parent.rect.height);
+                        if(dock.x>0 && dock.x<1 && dock.y>0 && dock.y<1 && box.Overlaps(new Rect(landing-new Vector2(64,68),new Vector2(128,136))))overlap=true;
+                    }
+                    foreach(var other in placed)if(box.Overlaps(other))overlap=true;
+                    if(overlap)continue;
+                    position=candidate;placed.Add(new Rect(box.x-8,box.y-8,box.width+16,box.height+16));found=true;break;
+                }
+                markers[i].Place(found,position,anchors[i]);
+            }
+        }
     }
     public sealed partial class ForestApp
     {

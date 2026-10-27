@@ -1,0 +1,4 @@
+﻿System.Exception: Mismatch: at least 30 actual simulated online seconds
+  at CompareAndroidOnline.Equal (System.Boolean ok, System.String name) [0x00014] in <4eb6dea5e2ea444482cb4d303606af84>:0 
+  at CompareAndroidOnline.Main (System.String[] args) [0x00059] in <4eb6dea5e2ea444482cb4d303606af84>:0 
+﻿

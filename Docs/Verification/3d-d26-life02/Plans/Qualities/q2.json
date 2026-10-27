@@ -1,0 +1,56 @@
+{
+  "directory": "Docs/Verification/3d-d26-life02/Evidence/Qualities",
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        864,
+        811
+      ]
+    },
+    {
+      "shot": "q2-wait"
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "q2-actual-first-landed"
+    },
+    {
+      "tap": [
+        590,
+        1690
+      ]
+    },
+    {
+      "shot": "q2-individual-detail-top"
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1050,
+        700
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1050,
+        700
+      ]
+    },
+    {
+      "shot": "q2-individual-detail-bottom"
+    }
+  ]
+}

@@ -144,7 +144,13 @@ namespace ForestShop
             if(finished)
             {
                 Tube(p,"Ribbon from page",V(.3f,.87f,-.1f),V(.48f,.88f,-.88f),.026f,Coral);
-                if(choice==0)Shape(p,"Leaf bookmark facing the path",OakLeaf(),V(.46f,.4f,-.95f),Vector3.one*.85f,Leaf,V(-22,0,-12));
+                if(choice==0)
+                {
+                    var leaf=Group(p,"Leaf bookmark with pale stitched edge",V(.46f,.56f,-.95f));leaf.localEulerAngles=V(-38,0,-12);
+                    Shape(leaf,"Pale leaf bookmark binding",OakLeaf(),Vector3.zero,V(1.13f,1,1.15f),Cream);
+                    Shape(leaf,"Deep green leaf bookmark",OakLeaf(),V(0,.034f,0),V(.88f,1,.94f),Deep);
+                    Tube(leaf,"Leaf bookmark golden midrib",V(0,.065f,-.38f),V(0,.065f,.39f),.018f,Gold);
+                }
                 else Shape(p,"Five-point bookmark facing the path",Star(),V(.49f,.77f,-.95f),Vector3.one*1.7f,Gold,V(-58,0,0));
             }
             Acorn(p,V(-.82f,.8f,.37f),.55f);Combine(p);

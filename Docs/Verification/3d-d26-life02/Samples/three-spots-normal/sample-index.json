@@ -1,0 +1,259 @@
+{
+  "sourceVideo": "Evidence/presentation-spots-fishing-filled.mp4",
+  "sourceSha256": "8385CB92E01FB27E83D831957718740105C296B0192EAE44F21A2DBDF29885DE",
+  "selection": {
+    "video": "presentation-spots-fishing-filled.mp4",
+    "start": 0,
+    "end": 99,
+    "fps": 0.35,
+    "id": "three-spots-normal"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/three-spots-normal/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "AF95EA6F2088F36A8B15341CD55C66D629B1E72B38865CB0EC90F67942498704",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0002.png",
+      "sourcePTSSeconds": 2.859756,
+      "sha256": "146DA20C25054DC25DD0F0D35CF3F63A05CDD4AA53DBEE843891E9C708D8D9C8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0003.png",
+      "sourcePTSSeconds": 5.743556,
+      "sha256": "D139A09F9E1004CD0D8639D3281DF0A9C82110B5E448AD275F5CC5C509B5C2C0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0004.png",
+      "sourcePTSSeconds": 8.601667,
+      "sha256": "916ED2A86D9A2AB4BF6542FF9B787EF985567F3A9B678048F85F2A5A8FA3C464",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0005.png",
+      "sourcePTSSeconds": 11.4826,
+      "sha256": "8191F4AD25C354218EC0E3B854D14E79F6E2428C9D5FB8364CCAEAB9179BD6DC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0006.png",
+      "sourcePTSSeconds": 14.359544,
+      "sha256": "7BDE225CED72F006B294C4EB99642C5C33F3326095432B4FF66D9BE7238BBD34",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0007.png",
+      "sourcePTSSeconds": 17.247167,
+      "sha256": "A57F4415F5674BD67294DCBDD4933E22BFAC7BDBE004AFBDE25965F827AC066B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0008.png",
+      "sourcePTSSeconds": 20.1158,
+      "sha256": "6B44265115270250560809F8C07341E5EEF1DA1E816B3147A837A663D0E1E345",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0009.png",
+      "sourcePTSSeconds": 23.022433,
+      "sha256": "15667C68C5BC6C06A2B72AF4B8A69CBC9625CB7761949CF24428EDB3E6230E45",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0010.png",
+      "sourcePTSSeconds": 25.895444,
+      "sha256": "AC9D915830F2C00A49918F31EEFE4970D2FF30FE37E60AC7EA7C899B66E7970B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0011.png",
+      "sourcePTSSeconds": 28.823956,
+      "sha256": "2F98401264B869B77CD0DF7D27DED52B04BE7B02A221A3FDC3BBEEBB55D5CD9B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0012.png",
+      "sourcePTSSeconds": 31.729211,
+      "sha256": "3179503262652DA31A88D948DF74D4A27D940FCE104A307A650A0167B21E2421",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0013.png",
+      "sourcePTSSeconds": 34.6055,
+      "sha256": "ADE692724102FE0AE6FD464EF7958952DCA34CA1BBE4488EC85CDDEB855BFF5F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0014.png",
+      "sourcePTSSeconds": 37.472022,
+      "sha256": "C9CB175C4102564747D7F53605ED97AE44F67E2B90AA09B1E1AF4AF44D9FD416",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0015.png",
+      "sourcePTSSeconds": 40.355422,
+      "sha256": "5A84F82FCFBCE4CA4D006D619F3A3C6E2D59FC5D6875ADDEE499678687C206F5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0016.png",
+      "sourcePTSSeconds": 43.226411,
+      "sha256": "A8CB6B443E2A6C9B208C2BD61042C9BDE6E90E7E938A5ECBAE3A5C1ED2A06DE2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0017.png",
+      "sourcePTSSeconds": 46.164611,
+      "sha256": "60E28CF22F3942C7EB0D483A5AA6A81F6624482848A852719E373676803EEB21",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0018.png",
+      "sourcePTSSeconds": 49.026989,
+      "sha256": "66AFD35056F01E2EB0349FC7950EE4FA7155BD8D85A08AB9AD2311210A6AE334",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0019.png",
+      "sourcePTSSeconds": 51.909911,
+      "sha256": "5280CAC684231343EE55ED1176240A7EEC7B272F7A4332C7912665D978629EFD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0020.png",
+      "sourcePTSSeconds": 54.784989,
+      "sha256": "E71BB4E3DE2C09233C9C9AFBAD4CABD017F9D83C3B130B30F85B9BCECD5F566A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0021.png",
+      "sourcePTSSeconds": 57.651656,
+      "sha256": "F71C668CE72905AFBDC44139B56A562B4912F38879B4380B0E50B7299259F446",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0022.png",
+      "sourcePTSSeconds": 60.518244,
+      "sha256": "B66B072A7252CE2A80436275D0B5A00ADFBE1D219A99A009D8D4505E7419C8DA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0023.png",
+      "sourcePTSSeconds": 63.410067,
+      "sha256": "C6431180F93463B7BADCDFB18746CC625D1F88D1A6A152AF72ED055C7571E9CA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0024.png",
+      "sourcePTSSeconds": 66.273311,
+      "sha256": "93DD314DE45F3F28FDF7863325CB5899ACF03E5772F09F56EEB549982DAB88F5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0025.png",
+      "sourcePTSSeconds": 69.143344,
+      "sha256": "C9673FB571493315E96B6ED9BF059CF1B28615BC7BC50BE89E49FC699FF814DC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0026.png",
+      "sourcePTSSeconds": 72.022367,
+      "sha256": "D454FF657BAB779F7C9AC54E57824C66AE39F0EF12F4667C84E532198D68EC57",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0027.png",
+      "sourcePTSSeconds": 74.901622,
+      "sha256": "A08D92DBF8CA70BC672599A4CAEB89360CA681D49402C0CEDAFA7E9C782C5092",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0028.png",
+      "sourcePTSSeconds": 77.785011,
+      "sha256": "0F43914D6C735027637DB72A57E76806409970D111F5ED6D7F1E00C4843A1495",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0029.png",
+      "sourcePTSSeconds": 80.647678,
+      "sha256": "394B864C299E28208A489F89029230ECF7D74A1A998299B3E908500F5218A2B8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0030.png",
+      "sourcePTSSeconds": 83.526444,
+      "sha256": "E8CEFC56156FFF10251F43879F71019E036D9D91E037947A7971ACBBD4B1F021",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0031.png",
+      "sourcePTSSeconds": 86.413867,
+      "sha256": "330C13FB7F6F78FA4702DEA4BEA606C11EEC40E8FE8AD87CC58EE25445523CCE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0032.png",
+      "sourcePTSSeconds": 89.284567,
+      "sha256": "172FA93531C84BAF61C10475071FE3C577FA9457C44B452AF27749011B0CACE9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0033.png",
+      "sourcePTSSeconds": 92.167989,
+      "sha256": "721FAB8FFB62C84151654A01DE845F6462CE559E306B748B8664227E70D5116E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0034.png",
+      "sourcePTSSeconds": 95.051233,
+      "sha256": "0D05E81D245D585817E3C94D9193258F036AE903C376D7C6E1AC4D0474EBD191",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/three-spots-normal/frame-0035.png",
+      "sourcePTSSeconds": 97.938722,
+      "sha256": "C66FDF18F70985D1B6DBF56E3BB9D6875A4AFD6012BB89C41EED8F9076307964",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

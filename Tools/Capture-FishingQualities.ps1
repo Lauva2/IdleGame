@@ -14,7 +14,7 @@ for($q=0;$q -lt 4;$q++){
     [DateTime]::UtcNow.ToString('o')|Set-Content "$Folder/quality-q$q-start.txt"
     $record=Start-Process -FilePath $adb -ArgumentList '-P','5038','-s',$serial,'shell','screenrecord','--size','1080x1920','--bit-rate','4000000','--time-limit','32',$remote -WindowStyle Hidden -PassThru
     $recentY=if($PresentationLayout){1690}else{1630}
-    $steps=@(@{tap=@(150,410)},@{tap=@(860,880)},@{shot="q$q-wait"},@{wait=14},@{shot="q$q-actual-first-landed"},@{tap=@(590,$recentY)},@{shot="q$q-individual-detail-top"},@{swipe=@(850,1740,850,1050,700)},@{swipe=@(850,1740,850,1050,700)},@{shot="q$q-individual-detail-bottom"})
+    $steps=@(@{tap=@(150,410)},@{tap=(& Tools/Get-ForestDockPoint.ps1 -Spot 0)},@{shot="q$q-wait"},@{wait=14},@{shot="q$q-actual-first-landed"},@{tap=@(590,$recentY)},@{shot="q$q-individual-detail-top"},@{swipe=@(850,1740,850,1050,700)},@{swipe=@(850,1740,850,1050,700)},@{shot="q$q-individual-detail-bottom"})
     @{directory="$Folder/Evidence/Qualities";steps=$steps}|ConvertTo-Json -Depth 6|Set-Content "$Folder/Plans/Qualities/q$q.json"
     & $python Tools/Forest-DeviceReview.py "$Folder/Plans/Qualities/q$q.json"
     if($LASTEXITCODE -ne 0){throw 'Actual auto-land quality plan failed'}

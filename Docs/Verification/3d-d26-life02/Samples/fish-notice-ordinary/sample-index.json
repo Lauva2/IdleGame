@@ -1,0 +1,84 @@
+{
+  "sourceVideo": "Evidence/fishing-motion-notice-ordinary.mp4",
+  "sourceSha256": "5CBFCCCCD0474E2F7DD6384DABFCCA3F0D11B70AB8849CC2D906167A4BB2E42E",
+  "selection": {
+    "video": "fishing-motion-notice-ordinary.mp4",
+    "start": 0,
+    "end": 24,
+    "fps": 0.4,
+    "id": "fish-notice-ordinary"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/fish-notice-ordinary/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "E1365D6028253B2A0C278140B396C41CC2A990BA44B2BBA4159D8DD08997FFEC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-notice-ordinary/frame-0002.png",
+      "sourcePTSSeconds": 2.540211,
+      "sha256": "BF8E5C92EB03F92D2D571BEC0A23ABF507286F296AF8A98F0CCBC712A3FDC439",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-notice-ordinary/frame-0003.png",
+      "sourcePTSSeconds": 5.057189,
+      "sha256": "0179807CB0DA0BB22B971032B60F1A2514C3A5C005D93C8FC9519A721CC39FAF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-notice-ordinary/frame-0004.png",
+      "sourcePTSSeconds": 7.557756,
+      "sha256": "00AE5CBB27C1FAEA6572E5CDF4921F49F54DA73291D927BC8A7F1AD2A878BD5F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-notice-ordinary/frame-0005.png",
+      "sourcePTSSeconds": 10.087378,
+      "sha256": "EA34F01EBDDB79BF9EE0F062A9B58593EE2A3EC5F5902358A43F1833CBDB017F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-notice-ordinary/frame-0006.png",
+      "sourcePTSSeconds": 12.607278,
+      "sha256": "0A2DFEB246CFB6556BBCFF72C796C2D868FF3324FC00D8459D0C50414D61F5E9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-notice-ordinary/frame-0007.png",
+      "sourcePTSSeconds": 15.127789,
+      "sha256": "76924A7FB28BCC48ECD656B8A8B12266E98CC75C92D385185AC7E12164B8B1CF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-notice-ordinary/frame-0008.png",
+      "sourcePTSSeconds": 17.628667,
+      "sha256": "9B4916C0514562995EF5CCA1A11BB103CC555F2D76B858CA7792348DC6338275",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-notice-ordinary/frame-0009.png",
+      "sourcePTSSeconds": 20.1492,
+      "sha256": "7D5A87D6B729CEE8C988838D9A7A1965AF1ABB1E658ABA83F8FEAA1CD27A9E9D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-notice-ordinary/frame-0010.png",
+      "sourcePTSSeconds": 22.6907,
+      "sha256": "7D5A87D6B729CEE8C988838D9A7A1965AF1ABB1E658ABA83F8FEAA1CD27A9E9D",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

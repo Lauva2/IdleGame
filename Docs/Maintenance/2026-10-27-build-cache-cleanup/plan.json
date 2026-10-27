@@ -1,0 +1,41 @@
+{
+  "utc": "2026-10-27T12:00:51.4834187Z",
+  "authorization": "Standing user request to remove unused project files; reversible generated build cache cleanup during authorized local work.",
+  "targets": [
+    {
+      "relative": "Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build",
+      "bytes": 231164701.0,
+      "absolute": "E:\\UnityProject\\IdleGame\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build",
+      "files": 220
+    },
+    {
+      "relative": "Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build",
+      "bytes": 561163404.0,
+      "absolute": "E:\\UnityProject\\IdleGame\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build",
+      "files": 196
+    },
+    {
+      "relative": "Library/Bee/artifacts/Android",
+      "bytes": 1716484307.0,
+      "absolute": "E:\\UnityProject\\IdleGame\\Library\\Bee\\artifacts\\Android",
+      "files": 1064
+    }
+  ],
+  "retained": [
+    {
+      "path": "Builds\\Android\\3d-d26-life02\\ForestShop-3d-d26-life02.apk",
+      "sha256": "06A4D99C812FB5E9D68AB34AAC390E51101B8A4777BE636CE5282201EDE809D5"
+    },
+    {
+      "path": "Builds\\Android\\3d-d26-life02\\build-source-inputs.zip",
+      "sha256": "E8F138ADD848EFDF22A123264646FEDFE49DDDBA01D15DD37F7D4511E9292490"
+    },
+    {
+      "path": "Docs\\Verification\\3d-d26-life02\\source-files.sha256",
+      "sha256": "E7D973F70D42E917D2D6A98BE5211579069A2147498122E96990B795AD86AA22"
+    }
+  ],
+  "candidate": "3d-d26-life02",
+  "freeBefore": 2280468480,
+  "scope": "Only three fixed, untracked Unity-generated Android intermediate/cache directories. Unity is stopped, all absolute targets and ancestors verified, links refused. Frozen APK/source ZIP/manifests, Assets, saves and original QA media retained. Regenerated on a future build."
+}

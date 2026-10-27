@@ -1,0 +1,210 @@
+{
+  "sourceVideo": "Evidence/life-Courtyard-Default.mp4",
+  "sourceSha256": "2E9C573FBB2D08CC7DF58F3849E7B7DF2F3B62E299E4B1864AF72E76F0A994BB",
+  "selection": {
+    "video": "life-Courtyard-Default.mp4",
+    "start": 3,
+    "end": 13,
+    "fps": 3,
+    "id": "life-courtyard-transition"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/life-courtyard-transition/frame-0001.png",
+      "sourcePTSSeconds": 3.0339,
+      "sha256": "574BFE758223725A7D615D1D51800713110343FEE0EE344706908AAFA2DD1CDC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0002.png",
+      "sourcePTSSeconds": 3.380656,
+      "sha256": "C7D88043D4CE012F02A877B293353A81C174FA290BCB62A401A195DE697A642F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0003.png",
+      "sourcePTSSeconds": 3.750811,
+      "sha256": "73354C21B0131D0FF9C713C9A5FCBEAE1D924F6929593889406251813F7FCFE4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0004.png",
+      "sourcePTSSeconds": 4.116767,
+      "sha256": "87D17404D1D29CE586B1092F04287E7304B0457513CA90DE8C01C9BB6ABF23E4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0005.png",
+      "sourcePTSSeconds": 4.478256,
+      "sha256": "4AEF8B841C588172B568ED39C0B7638543F3357D0B289FE4FEAD3380D164EF27",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0006.png",
+      "sourcePTSSeconds": 4.841911,
+      "sha256": "8373BAABE81E2CE9E228401B643F5DD7525057A698D3A866CFAB7D857570F10A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0007.png",
+      "sourcePTSSeconds": 5.183222,
+      "sha256": "C5990D761E190F27E5CB4F2A517AE10383609671C7E08A22862D0BD98C068E07",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0008.png",
+      "sourcePTSSeconds": 5.516911,
+      "sha256": "A01E81B49622CE9E312A9A84CFB93DA977720AE528E23B8C0BD28D56EA235E54",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0009.png",
+      "sourcePTSSeconds": 5.866411,
+      "sha256": "852AC05453A0ED97B05200C855771FE2B0E2AF563BA330EFC67E2F771CC88945",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0010.png",
+      "sourcePTSSeconds": 6.300622,
+      "sha256": "6923725A6006E85C8A90837D276D674930C2E16099E6E99611164FE40E76DA0E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0011.png",
+      "sourcePTSSeconds": 6.708256,
+      "sha256": "90256F26A7EFA5976D18AE63F7DFAEB3BB41B0C929F77267F5BEB83C3E1E31A0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0012.png",
+      "sourcePTSSeconds": 7.047544,
+      "sha256": "A8D530B666A6DAB611A3878AF9B43947E0F9EAE3EF6DDFE83AA83FC683F5CE6D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0013.png",
+      "sourcePTSSeconds": 7.440611,
+      "sha256": "F05807DA58E3C3232CEBBE4E2097E63D5BDAAD5AACAB00FB19559197FEC949CF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0014.png",
+      "sourcePTSSeconds": 7.787622,
+      "sha256": "62D86D174C3475B973B3FEFEFDDA59F601A7EED584B8177F1EFCC97BE4509BF0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0015.png",
+      "sourcePTSSeconds": 8.142711,
+      "sha256": "C1414331FA0B45FF67A6E626B6086C3322F859BFB47245CE4BDC7B293CB0CA76",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0016.png",
+      "sourcePTSSeconds": 8.531144,
+      "sha256": "3D4D64B495198867013F5970B2FD6079F05FB1A55A06D825D8C9313C0FD48B89",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0017.png",
+      "sourcePTSSeconds": 8.8717,
+      "sha256": "BF9DA7BF85349B7270F857F6058A7327EFE4C231CF9774144AD266A418C41B8C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0018.png",
+      "sourcePTSSeconds": 9.222067,
+      "sha256": "CB71B8D560476ACDCF27737F1F96FB4AAA80D555B8E9F4622CA7BE03462B6C37",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0019.png",
+      "sourcePTSSeconds": 9.5792,
+      "sha256": "8A002362F11BAC26AFA68C28E7B9E55AC51443EA22C657C0D2C79CAB79683960",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0020.png",
+      "sourcePTSSeconds": 9.9419,
+      "sha256": "12E02E2E2035931397FC1DF8B3E9B5C21B25F6B57CB2D3C5CFB943B00E56D42F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0021.png",
+      "sourcePTSSeconds": 10.285144,
+      "sha256": "E582FDB8B1E5908AC9055165CB87ADF3ABBF5E74E58D95EE671FDB5EE2454282",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0022.png",
+      "sourcePTSSeconds": 10.645656,
+      "sha256": "BD3A1990F907AA6F61A6719FED218989CF48E4DAF800FD5B9D6DEC1F6B798091",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0023.png",
+      "sourcePTSSeconds": 10.993022,
+      "sha256": "0500AB31ACC71385877D38E1AF06223625A8266549361BB0FE49E3110EF1221E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0024.png",
+      "sourcePTSSeconds": 11.342167,
+      "sha256": "96987AB7DFCF2DCDD801BD0BE360E77723B225B5BD92715BB4DC3AEE3623E7CF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0025.png",
+      "sourcePTSSeconds": 11.708067,
+      "sha256": "B5DF54530E7912D0FAB74673B0A43609B6B260C80864749EB2644B9476045182",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0026.png",
+      "sourcePTSSeconds": 12.070833,
+      "sha256": "3D6C5EE7707A73BDB29EAF52F761420FCED1E0C42FB115FF7FBBE6CB65436EC8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0027.png",
+      "sourcePTSSeconds": 12.422278,
+      "sha256": "83A7883BA1417288014DECD449E086EB1135346B8B286EB7EBD99CC76EC1EA79",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-transition/frame-0028.png",
+      "sourcePTSSeconds": 12.786378,
+      "sha256": "1FCF864FFA826733EC5FE67196DAE345C218DF1E76ABCE07F671AB9FAA2FE6A0",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "sourceVideo": "Evidence/Startup/final-cold-start.mp4",
+  "sourceSha256": "478BA2B183A1246A469BDF5C7F6C125CCF40D3838EEDF03EE23E9D0BA85F45BC",
+  "selection": {
+    "video": "Startup/final-cold-start.mp4",
+    "start": 0,
+    "end": 17,
+    "fps": 1,
+    "id": "final-cold-start"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/final-cold-start/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "810B388EA85DE988C9E09D5BFB3F94ED2137C7E2DBDC49AD3066FDBCB8723D62",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/final-cold-start/frame-0002.png",
+      "sourcePTSSeconds": 1.006133,
+      "sha256": "7562F9BD7F624A26AFCD96D27BDC6B8AFBCDF9AEDE94B6029EC120090D9E4787",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/final-cold-start/frame-0003.png",
+      "sourcePTSSeconds": 2.012378,
+      "sha256": "4C1F00F07BB4C57341B2179E4988ED08545AB2A71707EACF2444F82B10D9A635",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/final-cold-start/frame-0004.png",
+      "sourcePTSSeconds": 5.086011,
+      "sha256": "6A04CB8B5E48CAF98D5B8575BF315E05B3181825048FC32A42A63D3B05919A7C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/final-cold-start/frame-0005.png",
+      "sourcePTSSeconds": 6.093722,
+      "sha256": "37084E6E74F9C5268F1BE971BB6AB7FD58A47E75E2FFA40EF9437DA2BA4B2300",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/final-cold-start/frame-0006.png",
+      "sourcePTSSeconds": 7.102111,
+      "sha256": "D483DC539B50B1419156040647294727C6AF67823DD4E12D7DC5B5DCDCC4E6C7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/final-cold-start/frame-0007.png",
+      "sourcePTSSeconds": 8.1272,
+      "sha256": "37084E6E74F9C5268F1BE971BB6AB7FD58A47E75E2FFA40EF9437DA2BA4B2300",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/final-cold-start/frame-0008.png",
+      "sourcePTSSeconds": 9.127244,
+      "sha256": "D483DC539B50B1419156040647294727C6AF67823DD4E12D7DC5B5DCDCC4E6C7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/final-cold-start/frame-0009.png",
+      "sourcePTSSeconds": 10.139378,
+      "sha256": "37084E6E74F9C5268F1BE971BB6AB7FD58A47E75E2FFA40EF9437DA2BA4B2300",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/final-cold-start/frame-0010.png",
+      "sourcePTSSeconds": 11.143533,
+      "sha256": "D483DC539B50B1419156040647294727C6AF67823DD4E12D7DC5B5DCDCC4E6C7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/final-cold-start/frame-0011.png",
+      "sourcePTSSeconds": 12.143556,
+      "sha256": "37084E6E74F9C5268F1BE971BB6AB7FD58A47E75E2FFA40EF9437DA2BA4B2300",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/final-cold-start/frame-0012.png",
+      "sourcePTSSeconds": 13.164411,
+      "sha256": "D483DC539B50B1419156040647294727C6AF67823DD4E12D7DC5B5DCDCC4E6C7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/final-cold-start/frame-0013.png",
+      "sourcePTSSeconds": 14.193567,
+      "sha256": "9B1FE60466E711F756E906E09AC4E9D12D610687AB8830F6794B6ED8B9D623A5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/final-cold-start/frame-0014.png",
+      "sourcePTSSeconds": 15.197967,
+      "sha256": "51E28645B6451C3FE908B88558B7C5F05F1CFF13A4660B03C0755C6AA5E131F5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/final-cold-start/frame-0015.png",
+      "sourcePTSSeconds": 16.201922,
+      "sha256": "9B1FE60466E711F756E906E09AC4E9D12D610687AB8830F6794B6ED8B9D623A5",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

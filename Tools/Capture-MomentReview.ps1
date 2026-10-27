@@ -38,7 +38,10 @@ try{
     $steps+=Nav $id 1 1920 0
     $steps+=@(@{tap=@(540,1080)},@{shot="event-$id-04-revisit-card"},@{tap=@(800,1770)},@{wait=1},@{shot="event-$id-05-choice1-world"})
    }
-   $steps+=@(@{tap=@(775,1640)},@{shot='30-world-zoom-out'},@{swipe=@(540,800,100,1500,900)},@{swipe=@(540,800,100,1500,900)},@{shot='31-target-moved-outside-source'},@{tap=@(540,1315)},@{shot='32-no-fixed-ghost-choice-card'},@{tap=@(998,1640)},@{shot='33-recenter'})
+   # Region limits may deliberately keep the object visible after these drags.
+   # Neutral names avoid asserting that an offscreen/ghost test succeeded solely
+   # because the legacy gesture sequence was replayed.
+   $steps+=@(@{tap=@(775,1640)},@{shot='30-world-zoom-out'},@{swipe=@(540,800,100,1500,900)},@{swipe=@(540,800,100,1500,900)},@{shot='31-after-two-boundary-drags'},@{tap=@(540,1315)},@{shot='32-after-tap-at-prior-position'},@{tap=@(998,1640)},@{shot='33-recenter'})
    $steps+=@(@{tap=@(950,160)},@{shot='34-handbook-finished'},@{tap=@(925,1805)},@{shot='35-journal-top'},@{drag_hold=@(1000,1750,1000,1100,500,600)},@{shot='36-journal-footer'},@{back=$true})
    Plan ('flow-'+$variant) $steps $dir
    A @('pull','/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save',"$Folder/moment-flow-$variant-after.save")

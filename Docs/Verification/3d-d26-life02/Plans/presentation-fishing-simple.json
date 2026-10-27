@@ -1,0 +1,167 @@
+{
+  "directory": "Docs/Verification/3d-d26-life02/Evidence/PresentationSpots/fishing-simple",
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "shot": "spot-2-map"
+    },
+    {
+      "tap": [
+        897,
+        1086
+      ]
+    },
+    {
+      "shot": "spot-2-compact"
+    },
+    {
+      "tap": [
+        500,
+        1835
+      ]
+    },
+    {
+      "shot": "spot-2-details"
+    },
+    {
+      "tap": [
+        930,
+        1530
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "spot-2-actual-catch"
+    },
+    {
+      "tap": [
+        500,
+        1835
+      ]
+    },
+    {
+      "shot": "spot-2-bait-and-context"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "spot-2-leave"
+    },
+    {
+      "tap": [
+        540,
+        300
+      ]
+    },
+    {
+      "shot": "spot-1-map"
+    },
+    {
+      "tap": [
+        327,
+        1287
+      ]
+    },
+    {
+      "shot": "spot-1-compact"
+    },
+    {
+      "tap": [
+        500,
+        1835
+      ]
+    },
+    {
+      "shot": "spot-1-details"
+    },
+    {
+      "tap": [
+        540,
+        1530
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "spot-1-actual-catch"
+    },
+    {
+      "tap": [
+        500,
+        1835
+      ]
+    },
+    {
+      "shot": "spot-1-bait-and-context"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "spot-1-leave"
+    },
+    {
+      "tap": [
+        180,
+        300
+      ]
+    },
+    {
+      "shot": "spot-0-map"
+    },
+    {
+      "tap": [
+        864,
+        811
+      ]
+    },
+    {
+      "shot": "spot-0-compact"
+    },
+    {
+      "tap": [
+        500,
+        1835
+      ]
+    },
+    {
+      "shot": "spot-0-details"
+    },
+    {
+      "tap": [
+        180,
+        1530
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "spot-0-actual-catch"
+    },
+    {
+      "tap": [
+        500,
+        1835
+      ]
+    },
+    {
+      "shot": "spot-0-bait-and-context"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "spot-0-leave"
+    }
+  ]
+}

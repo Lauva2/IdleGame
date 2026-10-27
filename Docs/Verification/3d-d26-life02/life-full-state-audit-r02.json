@@ -1,0 +1,199 @@
+{
+  "scope": "Read-only full saved-state replay from each applied fixture SHA to its HOME save.\n\nIncludes startup foreground ticks before the movie, not a claim of video duration.\nActual navigation/occlusion must still be visually reviewed in native media.",
+  "startupMethod": "OfflineSettlement.Resume using actual startup report.away, then remaining foreground elapsed; all report fields reproduced, not copied from final.",
+  "rows": [
+    {
+      "group": "Courtyard",
+      "profile": "Default",
+      "appliedFixture": "Prepared/History/late-7457020C89AE5A57AEAB97564BD768B480095BFAD8A4593D38E1CB4E5646CC15.save",
+      "fixtureSha256": "7457020C89AE5A57AEAB97564BD768B480095BFAD8A4593D38E1CB4E5646CC15",
+      "after": "life-Courtyard-Default-after.save",
+      "afterSha256": "4D259EDF0A90FEE0DC7B7EBD7F67358A50E8D0BBCBAEE5A39D21D78F3D90E2FC",
+      "passed": true,
+      "coins": 27052,
+      "fish": 0,
+      "moments": {
+        "stages": [
+          0,
+          0,
+          0
+        ],
+        "choices": [
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "recordedActions": 0
+    },
+    {
+      "group": "Courtyard",
+      "profile": "Long",
+      "appliedFixture": "Prepared/History/late-845F4226B8CF366B3CFAEBB3F99C6EEAA27B45ABBBED4F82164AA570DF3DEF83.save",
+      "fixtureSha256": "845F4226B8CF366B3CFAEBB3F99C6EEAA27B45ABBBED4F82164AA570DF3DEF83",
+      "after": "life-Courtyard-Long-after.save",
+      "afterSha256": "DBE0267C47B0D8EFED01700FBB0AFD99D81BE1498A0812476676DA0E513848B5",
+      "passed": true,
+      "coins": 27052,
+      "fish": 0,
+      "moments": {
+        "stages": [
+          0,
+          0,
+          0
+        ],
+        "choices": [
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "recordedActions": 0
+    },
+    {
+      "group": "Courtyard",
+      "profile": "Narrow",
+      "appliedFixture": "Prepared/History/late-2B50C2C744DB26DE2DBC10954D943F3D272AA562C04B86EAB3009D5D2D2FA3A9.save",
+      "fixtureSha256": "2B50C2C744DB26DE2DBC10954D943F3D272AA562C04B86EAB3009D5D2D2FA3A9",
+      "after": "life-Courtyard-Narrow-after.save",
+      "afterSha256": "A9E32F45005A396A09621C8828EC725CAC12005D85258C853A7F011FDF84EB61",
+      "passed": true,
+      "coins": 26824,
+      "fish": 0,
+      "moments": {
+        "stages": [
+          0,
+          0,
+          0
+        ],
+        "choices": [
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "recordedActions": 0
+    },
+    {
+      "group": "Courtyard",
+      "profile": "SafeTall",
+      "appliedFixture": "Prepared/History/late-2A08A022997441376249DB998C68778234E8F88FE2B573981226236134F6AF22.save",
+      "fixtureSha256": "2A08A022997441376249DB998C68778234E8F88FE2B573981226236134F6AF22",
+      "after": "life-Courtyard-SafeTall-after.save",
+      "afterSha256": "3AFD7A40FEB3D1CB193F786CF7A433A62D7DDE140609E6896AC0EDEBF207D4CD",
+      "passed": true,
+      "coins": 27052,
+      "fish": 0,
+      "moments": {
+        "stages": [
+          0,
+          0,
+          0
+        ],
+        "choices": [
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "recordedActions": 0
+    },
+    {
+      "group": "Forest",
+      "profile": "Default",
+      "appliedFixture": "Prepared/History/moment-finished-5FB6AD5589137D0B00CAB1B1DA76025F4F254223B6557A32B021D2BB35C30498.save",
+      "fixtureSha256": "5FB6AD5589137D0B00CAB1B1DA76025F4F254223B6557A32B021D2BB35C30498",
+      "after": "life-Forest-Default-after.save",
+      "afterSha256": "B8C41209E227CE259A85AE17197DE2C6A9781AB396B7D0C5B5AF01B6D022558C",
+      "passed": true,
+      "coins": 1299314,
+      "fish": 61,
+      "moments": {
+        "stages": [
+          3,
+          3,
+          3
+        ],
+        "choices": [
+          0,
+          1,
+          1
+        ]
+      },
+      "recordedActions": 6
+    },
+    {
+      "group": "Forest",
+      "profile": "Long",
+      "appliedFixture": "Prepared/History/moment-finished-676B6F4264683418855B8DFF64F2B80AFA08CE507095D373EA2A06550721FA23.save",
+      "fixtureSha256": "676B6F4264683418855B8DFF64F2B80AFA08CE507095D373EA2A06550721FA23",
+      "after": "life-Forest-Long-after.save",
+      "afterSha256": "BD5BB5B89AE1CAD2552854985D105918F849674DF83F248D89E2164B6FAEB350",
+      "passed": true,
+      "coins": 1299314,
+      "fish": 61,
+      "moments": {
+        "stages": [
+          3,
+          3,
+          3
+        ],
+        "choices": [
+          0,
+          1,
+          1
+        ]
+      },
+      "recordedActions": 6
+    },
+    {
+      "group": "Forest",
+      "profile": "Narrow",
+      "appliedFixture": "Prepared/History/moment-finished-7C036C3D019F13715C0AF51ABC282767F35132B1D32219D5C14734D5938B36B8.save",
+      "fixtureSha256": "7C036C3D019F13715C0AF51ABC282767F35132B1D32219D5C14734D5938B36B8",
+      "after": "life-Forest-Narrow-after.save",
+      "afterSha256": "1FBA16618AF0B308E90F816CBB1D167712B4B6FFDCC2FDA31040A9DF20C6D5C6",
+      "passed": true,
+      "coins": 1299314,
+      "fish": 61,
+      "moments": {
+        "stages": [
+          3,
+          3,
+          3
+        ],
+        "choices": [
+          0,
+          1,
+          1
+        ]
+      },
+      "recordedActions": 6
+    },
+    {
+      "group": "Forest",
+      "profile": "SafeTall",
+      "appliedFixture": "Prepared/moment-finished.save",
+      "fixtureSha256": "1046829229D0F7548009D844FB18941F761CB6700851CED3A1F7404B7FACA6ED",
+      "after": "life-Forest-SafeTall-after.save",
+      "afterSha256": "9E3CB5747A091DFC6C6D81C267B2D236308BD73382635BD09853F661F608A3E2",
+      "passed": true,
+      "coins": 1299374,
+      "fish": 61,
+      "moments": {
+        "stages": [
+          3,
+          3,
+          3
+        ],
+        "choices": [
+          0,
+          1,
+          1
+        ]
+      },
+      "recordedActions": 6
+    }
+  ],
+  "allPassed": true
+}

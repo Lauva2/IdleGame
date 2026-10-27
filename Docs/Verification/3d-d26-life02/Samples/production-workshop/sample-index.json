@@ -1,0 +1,98 @@
+{
+  "sourceVideo": "Evidence/production-workshop.mp4",
+  "sourceSha256": "150B1645AB5A59CBEE4114FF3624A46BF1FEAA2773183AB26C6F2842554EC409",
+  "selection": {
+    "video": "production-workshop.mp4",
+    "start": 0,
+    "end": 29,
+    "fps": 0.4,
+    "id": "production-workshop"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/production-workshop/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "36DBFACD346F68849A5E7E9CF0F1B6CF480393F000A9940E16BE1456BC239352",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-workshop/frame-0002.png",
+      "sourcePTSSeconds": 2.544856,
+      "sha256": "DB25730D9B788A6D88F5CD41BE9311FB38C22F0C5B58F197DBDA35E280AE793C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-workshop/frame-0003.png",
+      "sourcePTSSeconds": 5.053322,
+      "sha256": "7255442F181BD91CB9F34ED4ABDBBBC8BE493EC5E00BEFC458F48E7A02068291",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-workshop/frame-0004.png",
+      "sourcePTSSeconds": 7.5646,
+      "sha256": "7BE329E4E2509A0BAA6619EC148F06B4B3A63A699FFF78785683202C3DBE1033",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-workshop/frame-0005.png",
+      "sourcePTSSeconds": 10.102822,
+      "sha256": "4CB0C88980AEB77438A917671D300EB5416B1F75FE3BC6EAD07FD0756E714C6E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-workshop/frame-0006.png",
+      "sourcePTSSeconds": 12.606744,
+      "sha256": "1C4D4FB90A52F74EF381E1B4F0BDB6E939A7B9DCF9E78BB5547D0B9683E4A783",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-workshop/frame-0007.png",
+      "sourcePTSSeconds": 15.121878,
+      "sha256": "46D1CFDC4A19C2752B3B6CDB818E3DD1DD2E88360D0C70D83A16E03210A9D4A6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-workshop/frame-0008.png",
+      "sourcePTSSeconds": 17.639233,
+      "sha256": "749011A28622C58D67E6140D69BAEAB8D3140B49DBF90E12C0472885776139F6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-workshop/frame-0009.png",
+      "sourcePTSSeconds": 20.146811,
+      "sha256": "463EFAA1E6DC682C12E0CE5693536E6758CB0DE1184472A432964CF181057D97",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-workshop/frame-0010.png",
+      "sourcePTSSeconds": 22.675856,
+      "sha256": "DC82DEC64D6FB47BE4295B726041EE6EECFFCAF7EE140D3FC534B71339E94183",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-workshop/frame-0011.png",
+      "sourcePTSSeconds": 25.192944,
+      "sha256": "5E1E4E0334DC3A5BF1B4D79F821C6F75CD2440883C1E879B770F099F3FFAEA8A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-workshop/frame-0012.png",
+      "sourcePTSSeconds": 27.717878,
+      "sha256": "78E09DE533186AF19A6AA5DEFF6F33AD2003BFBF76B7F0E6A8C229E1EF6163BD",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

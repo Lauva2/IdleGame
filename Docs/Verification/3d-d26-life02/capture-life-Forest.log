@@ -1,0 +1,796 @@
+﻿
+﻿
+﻿PASS valid prepared moment fixture E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\moment-finished.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-finished.save: 1 file pushed, 0 skipped. 11.6 MB/s (6833 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-finished.save: 1 file pushed, 0 skipped. 11.3 MB/s (6833 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2025
+WaitTime: 2032
+Complete
+COMPLETE prepared moment-finished
+{'tap': [150, 410]}
+{'tap': [170, 290]}
+{'shot': 'region-4-00-default'}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'shot': 'region-4-01-wide-cap'}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'shot': 'region-4-02-near-cap'}
+{'swipe': [650, 875, 180, 1327, 500]}
+{'swipe': [650, 875, 180, 1327, 500]}
+{'shot': 'region-4-03-boundary-a'}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'shot': 'region-4-04-boundary-b'}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'shot': 'region-4-05-boundary-c'}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'shot': 'region-4-06-boundary-d'}
+{'tap': [998, 1640]}
+{'shot': 'region-4-07-recenter'}
+{'tap': [520, 290]}
+{'shot': 'region-5-00-default'}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'shot': 'region-5-01-wide-cap'}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'shot': 'region-5-02-near-cap'}
+{'swipe': [650, 875, 180, 1327, 500]}
+{'swipe': [650, 875, 180, 1327, 500]}
+{'shot': 'region-5-03-boundary-a'}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'shot': 'region-5-04-boundary-b'}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'shot': 'region-5-05-boundary-c'}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'shot': 'region-5-06-boundary-d'}
+{'tap': [998, 1640]}
+{'shot': 'region-5-07-recenter'}
+{'tap': [870, 290]}
+{'shot': 'region-6-00-default'}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'shot': 'region-6-01-wide-cap'}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'shot': 'region-6-02-near-cap'}
+{'swipe': [650, 875, 180, 1327, 500]}
+{'swipe': [650, 875, 180, 1327, 500]}
+{'shot': 'region-6-03-boundary-a'}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'shot': 'region-6-04-boundary-b'}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'shot': 'region-6-05-boundary-c'}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'shot': 'region-6-06-boundary-d'}
+{'tap': [998, 1640]}
+{'shot': 'region-6-07-recenter'}
+{'tap': [530, 390]}
+{'shot': 'region-7-00-default'}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'shot': 'region-7-01-wide-cap'}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'shot': 'region-7-02-near-cap'}
+{'swipe': [650, 875, 180, 1327, 500]}
+{'swipe': [650, 875, 180, 1327, 500]}
+{'shot': 'region-7-03-boundary-a'}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'swipe': [180, 1101, 920, 1101, 500]}
+{'shot': 'region-7-04-boundary-b'}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'swipe': [540, 1327, 540, 875, 500]}
+{'shot': 'region-7-05-boundary-c'}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'swipe': [920, 1101, 180, 1101, 500]}
+{'shot': 'region-7-06-boundary-d'}
+{'tap': [998, 1640]}
+{'shot': 'region-7-07-recenter'}
+{'tap': [950, 160]}
+{'tap': [925, 1805]}
+{'tap': [900, 1704]}
+{'shot': '30-leaf-focused'}
+{'tap': [540, 1076]}
+{'shot': '31-bookmark-choice-card'}
+{'tap': [800, 1770]}
+{'wait': 3}
+{'shot': '32-star-focused'}
+/sdcard/3d-d26-life02-life-Forest-Default.mp4: 1 file pulled, 0 skipped. 22.9 MB/s (91615662 bytes in 3.810s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.7 MB/s (6815 bytes in 0.004s)
+COMPLETE life Forest Default
+﻿
+﻿
+﻿PASS valid prepared moment fixture E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\moment-finished.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-finished.save: 1 file pushed, 0 skipped. 10.5 MB/s (6833 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-finished.save: 1 file pushed, 0 skipped. 10.2 MB/s (6833 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2051
+WaitTime: 2077
+Complete
+COMPLETE prepared moment-finished
+{'tap': [150, 410]}
+{'tap': [170, 290]}
+{'shot': 'region-4-00-default'}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'shot': 'region-4-01-wide-cap'}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'shot': 'region-4-02-near-cap'}
+{'swipe': [650, 883, 180, 1344, 500]}
+{'swipe': [650, 883, 180, 1344, 500]}
+{'shot': 'region-4-03-boundary-a'}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'shot': 'region-4-04-boundary-b'}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'shot': 'region-4-05-boundary-c'}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'shot': 'region-4-06-boundary-d'}
+{'tap': [998, 1664]}
+{'shot': 'region-4-07-recenter'}
+{'tap': [520, 290]}
+{'shot': 'region-5-00-default'}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'shot': 'region-5-01-wide-cap'}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'shot': 'region-5-02-near-cap'}
+{'swipe': [650, 883, 180, 1344, 500]}
+{'swipe': [650, 883, 180, 1344, 500]}
+{'shot': 'region-5-03-boundary-a'}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'shot': 'region-5-04-boundary-b'}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'shot': 'region-5-05-boundary-c'}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'shot': 'region-5-06-boundary-d'}
+{'tap': [998, 1664]}
+{'shot': 'region-5-07-recenter'}
+{'tap': [870, 290]}
+{'shot': 'region-6-00-default'}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'shot': 'region-6-01-wide-cap'}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'shot': 'region-6-02-near-cap'}
+{'swipe': [650, 883, 180, 1344, 500]}
+{'swipe': [650, 883, 180, 1344, 500]}
+{'shot': 'region-6-03-boundary-a'}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'shot': 'region-6-04-boundary-b'}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'shot': 'region-6-05-boundary-c'}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'shot': 'region-6-06-boundary-d'}
+{'tap': [998, 1664]}
+{'shot': 'region-6-07-recenter'}
+{'tap': [530, 390]}
+{'shot': 'region-7-00-default'}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'tap': [775, 1664]}
+{'shot': 'region-7-01-wide-cap'}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'tap': [885, 1664]}
+{'shot': 'region-7-02-near-cap'}
+{'swipe': [650, 883, 180, 1344, 500]}
+{'swipe': [650, 883, 180, 1344, 500]}
+{'shot': 'region-7-03-boundary-a'}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'swipe': [180, 1114, 920, 1114, 500]}
+{'shot': 'region-7-04-boundary-b'}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'swipe': [540, 1344, 540, 883, 500]}
+{'shot': 'region-7-05-boundary-c'}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'swipe': [920, 1114, 180, 1114, 500]}
+{'shot': 'region-7-06-boundary-d'}
+{'tap': [998, 1664]}
+{'shot': 'region-7-07-recenter'}
+{'tap': [950, 160]}
+{'tap': [925, 2225]}
+{'tap': [900, 2124]}
+{'shot': '30-leaf-focused'}
+{'tap': [540, 1088]}
+{'shot': '31-bookmark-choice-card'}
+{'tap': [800, 2190]}
+{'wait': 3}
+{'shot': '32-star-focused'}
+/sdcard/3d-d26-life02-life-Forest-Long.mp4: 1 file pulled, 0 skipped. 19.4 MB/s (82296589 bytes in 4.038s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.3 MB/s (6798 bytes in 0.002s)
+COMPLETE life Forest Long
+﻿
+﻿
+﻿PASS valid prepared moment fixture E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\moment-finished.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-finished.save: 1 file pushed, 0 skipped. 14.9 MB/s (6833 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-finished.save: 1 file pushed, 0 skipped. 14.8 MB/s (6833 bytes in 0.000s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1760
+WaitTime: 1764
+Complete
+COMPLETE prepared moment-finished
+{'tap': [100, 273]}
+{'tap': [113, 193]}
+{'shot': 'region-4-00-default'}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'shot': 'region-4-01-wide-cap'}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'shot': 'region-4-02-near-cap'}
+{'swipe': [433, 589, 120, 896, 500]}
+{'swipe': [433, 589, 120, 896, 500]}
+{'shot': 'region-4-03-boundary-a'}
+{'swipe': [120, 742, 613, 742, 500]}
+{'swipe': [120, 742, 613, 742, 500]}
+{'swipe': [120, 742, 613, 742, 500]}
+{'swipe': [120, 742, 613, 742, 500]}
+{'shot': 'region-4-04-boundary-b'}
+{'swipe': [360, 896, 360, 589, 500]}
+{'swipe': [360, 896, 360, 589, 500]}
+{'swipe': [360, 896, 360, 589, 500]}
+{'swipe': [360, 896, 360, 589, 500]}
+{'shot': 'region-4-05-boundary-c'}
+{'swipe': [613, 742, 120, 742, 500]}
+{'swipe': [613, 742, 120, 742, 500]}
+{'swipe': [613, 742, 120, 742, 500]}
+{'swipe': [613, 742, 120, 742, 500]}
+{'shot': 'region-4-06-boundary-d'}
+{'tap': [665, 1109]}
+{'shot': 'region-4-07-recenter'}
+{'tap': [347, 193]}
+{'shot': 'region-5-00-default'}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'shot': 'region-5-01-wide-cap'}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'shot': 'region-5-02-near-cap'}
+{'swipe': [433, 589, 120, 896, 500]}
+{'swipe': [433, 589, 120, 896, 500]}
+{'shot': 'region-5-03-boundary-a'}
+{'swipe': [120, 742, 613, 742, 500]}
+{'swipe': [120, 742, 613, 742, 500]}
+{'swipe': [120, 742, 613, 742, 500]}
+{'swipe': [120, 742, 613, 742, 500]}
+{'shot': 'region-5-04-boundary-b'}
+{'swipe': [360, 896, 360, 589, 500]}
+{'swipe': [360, 896, 360, 589, 500]}
+{'swipe': [360, 896, 360, 589, 500]}
+{'swipe': [360, 896, 360, 589, 500]}
+{'shot': 'region-5-05-boundary-c'}
+{'swipe': [613, 742, 120, 742, 500]}
+{'swipe': [613, 742, 120, 742, 500]}
+{'swipe': [613, 742, 120, 742, 500]}
+{'swipe': [613, 742, 120, 742, 500]}
+{'shot': 'region-5-06-boundary-d'}
+{'tap': [665, 1109]}
+{'shot': 'region-5-07-recenter'}
+{'tap': [580, 193]}
+{'shot': 'region-6-00-default'}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'shot': 'region-6-01-wide-cap'}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'shot': 'region-6-02-near-cap'}
+{'swipe': [433, 589, 120, 896, 500]}
+{'swipe': [433, 589, 120, 896, 500]}
+{'shot': 'region-6-03-boundary-a'}
+{'swipe': [120, 742, 613, 742, 500]}
+{'swipe': [120, 742, 613, 742, 500]}
+{'swipe': [120, 742, 613, 742, 500]}
+{'swipe': [120, 742, 613, 742, 500]}
+{'shot': 'region-6-04-boundary-b'}
+{'swipe': [360, 896, 360, 589, 500]}
+{'swipe': [360, 896, 360, 589, 500]}
+{'swipe': [360, 896, 360, 589, 500]}
+{'swipe': [360, 896, 360, 589, 500]}
+{'shot': 'region-6-05-boundary-c'}
+{'swipe': [613, 742, 120, 742, 500]}
+{'swipe': [613, 742, 120, 742, 500]}
+{'swipe': [613, 742, 120, 742, 500]}
+{'swipe': [613, 742, 120, 742, 500]}
+{'shot': 'region-6-06-boundary-d'}
+{'tap': [665, 1109]}
+{'shot': 'region-6-07-recenter'}
+{'tap': [353, 260]}
+{'shot': 'region-7-00-default'}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'tap': [517, 1109]}
+{'shot': 'region-7-01-wide-cap'}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'tap': [590, 1109]}
+{'shot': 'region-7-02-near-cap'}
+{'swipe': [433, 589, 120, 896, 500]}
+{'swipe': [433, 589, 120, 896, 500]}
+{'shot': 'region-7-03-boundary-a'}
+{'swipe': [120, 742, 613, 742, 500]}
+{'swipe': [120, 742, 613, 742, 500]}
+{'swipe': [120, 742, 613, 742, 500]}
+{'swipe': [120, 742, 613, 742, 500]}
+{'shot': 'region-7-04-boundary-b'}
+{'swipe': [360, 896, 360, 589, 500]}
+{'swipe': [360, 896, 360, 589, 500]}
+{'swipe': [360, 896, 360, 589, 500]}
+{'swipe': [360, 896, 360, 589, 500]}
+{'shot': 'region-7-05-boundary-c'}
+{'swipe': [613, 742, 120, 742, 500]}
+{'swipe': [613, 742, 120, 742, 500]}
+{'swipe': [613, 742, 120, 742, 500]}
+{'swipe': [613, 742, 120, 742, 500]}
+{'shot': 'region-7-06-boundary-d'}
+{'tap': [665, 1109]}
+{'shot': 'region-7-07-recenter'}
+{'tap': [633, 107]}
+{'tap': [617, 1523]}
+{'tap': [600, 1456]}
+{'shot': '30-leaf-focused'}
+{'tap': [360, 725]}
+{'shot': '31-bookmark-choice-card'}
+{'tap': [533, 1500]}
+{'wait': 3}
+{'shot': '32-star-focused'}
+/sdcard/3d-d26-life02-life-Forest-Narrow.mp4: 1 file pulled, 0 skipped. 17.1 MB/s (62021016 bytes in 3.463s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.2 MB/s (6828 bytes in 0.002s)
+COMPLETE life Forest Narrow
+﻿
+﻿
+﻿PASS valid prepared moment fixture E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02\Prepared\moment-finished.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-finished.save: 1 file pushed, 0 skipped. 10.2 MB/s (6833 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d26-life02/Prepared/moment-finished.save: 1 file pushed, 0 skipped. 10.1 MB/s (6833 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1887
+WaitTime: 1904
+Complete
+COMPLETE prepared moment-finished
+{'tap': [150, 494]}
+{'tap': [170, 374]}
+{'shot': 'region-4-00-default'}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'shot': 'region-4-01-wide-cap'}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'shot': 'region-4-02-near-cap'}
+{'swipe': [650, 930, 180, 1352, 500]}
+{'swipe': [650, 930, 180, 1352, 500]}
+{'shot': 'region-4-03-boundary-a'}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'shot': 'region-4-04-boundary-b'}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'shot': 'region-4-05-boundary-c'}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'shot': 'region-4-06-boundary-d'}
+{'tap': [998, 1640]}
+{'shot': 'region-4-07-recenter'}
+{'tap': [520, 374]}
+{'shot': 'region-5-00-default'}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'shot': 'region-5-01-wide-cap'}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'shot': 'region-5-02-near-cap'}
+{'swipe': [650, 930, 180, 1352, 500]}
+{'swipe': [650, 930, 180, 1352, 500]}
+{'shot': 'region-5-03-boundary-a'}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'shot': 'region-5-04-boundary-b'}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'shot': 'region-5-05-boundary-c'}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'shot': 'region-5-06-boundary-d'}
+{'tap': [998, 1640]}
+{'shot': 'region-5-07-recenter'}
+{'tap': [870, 374]}
+{'shot': 'region-6-00-default'}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'shot': 'region-6-01-wide-cap'}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'shot': 'region-6-02-near-cap'}
+{'swipe': [650, 930, 180, 1352, 500]}
+{'swipe': [650, 930, 180, 1352, 500]}
+{'shot': 'region-6-03-boundary-a'}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'shot': 'region-6-04-boundary-b'}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'shot': 'region-6-05-boundary-c'}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'shot': 'region-6-06-boundary-d'}
+{'tap': [998, 1640]}
+{'shot': 'region-6-07-recenter'}
+{'tap': [530, 474]}
+{'shot': 'region-7-00-default'}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'tap': [775, 1640]}
+{'shot': 'region-7-01-wide-cap'}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'tap': [885, 1640]}
+{'shot': 'region-7-02-near-cap'}
+{'swipe': [650, 930, 180, 1352, 500]}
+{'swipe': [650, 930, 180, 1352, 500]}
+{'shot': 'region-7-03-boundary-a'}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'swipe': [180, 1141, 920, 1141, 500]}
+{'shot': 'region-7-04-boundary-b'}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'swipe': [540, 1352, 540, 930, 500]}
+{'shot': 'region-7-05-boundary-c'}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'swipe': [920, 1141, 180, 1141, 500]}
+{'shot': 'region-7-06-boundary-d'}
+{'tap': [998, 1640]}
+{'shot': 'region-7-07-recenter'}
+{'tap': [950, 244]}
+{'tap': [925, 1805]}
+{'tap': [900, 1704]}
+{'shot': '30-leaf-focused'}
+{'tap': [540, 1118]}
+{'shot': '31-bookmark-choice-card'}
+{'tap': [800, 1770]}
+{'wait': 3}
+{'shot': '32-star-focused'}
+/sdcard/3d-d26-life02-life-Forest-SafeTall.mp4: 1 file pulled, 0 skipped. 17.2 MB/s (73983984 bytes in 4.111s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.2 MB/s (6805 bytes in 0.002s)
+COMPLETE life Forest SafeTall

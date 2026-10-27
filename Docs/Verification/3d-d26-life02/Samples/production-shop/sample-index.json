@@ -1,0 +1,98 @@
+{
+  "sourceVideo": "Evidence/production-shop.mp4",
+  "sourceSha256": "FD4374FE9B88901BBD094380C7A196DD7D7D5961B7E3C70A0FBF3AA7158E93AA",
+  "selection": {
+    "video": "production-shop.mp4",
+    "start": 0,
+    "end": 29,
+    "fps": 0.4,
+    "id": "production-shop"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/production-shop/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "19489D40E4C65E9C8A504A6BB8A743FC4E911E03271A764BA2BA584656DB03F6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-shop/frame-0002.png",
+      "sourcePTSSeconds": 2.533433,
+      "sha256": "86603AA7CDF8DAE4463CD36F51FCDB0C2C784A8ED0EFF4D1D01BE43F68BA2A4F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-shop/frame-0003.png",
+      "sourcePTSSeconds": 5.059989,
+      "sha256": "AC1E3F672A6C6B1637018C84892D637091723931A06DB991C6006AE44CC161CB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-shop/frame-0004.png",
+      "sourcePTSSeconds": 7.578911,
+      "sha256": "016D71D07A847CFBA3EEBB534CCA8041066885479578D1F65BA5300D81E529A7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-shop/frame-0005.png",
+      "sourcePTSSeconds": 10.103722,
+      "sha256": "FDB258D84DAB4B2663C445CAB169135CC0978B3A2BD9A2DFB4470A1D6660DE15",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-shop/frame-0006.png",
+      "sourcePTSSeconds": 12.624878,
+      "sha256": "E2422EA025A6182B18726C42B55F81A902A78EFC9990637CA80AA0C240B7F6EE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-shop/frame-0007.png",
+      "sourcePTSSeconds": 15.126067,
+      "sha256": "FD8DE84C310D4217C2F8A7F21BA719F42EB8059CDA44CD11D456B92462A8D25F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-shop/frame-0008.png",
+      "sourcePTSSeconds": 17.637689,
+      "sha256": "E45BAABCFDF6C6716CDDCFF9957FBFEA20785151E0FFC63731B1D7323A3D3641",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-shop/frame-0009.png",
+      "sourcePTSSeconds": 20.1501,
+      "sha256": "987C6F2DE95BB29264C1E9D5BB050D31655B0E2DF8E47F51777EE4F0E556AB49",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-shop/frame-0010.png",
+      "sourcePTSSeconds": 22.666467,
+      "sha256": "6C19BE7137B67EEBAC4872FAD26766A954671550BC98639800827E73C521B56A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-shop/frame-0011.png",
+      "sourcePTSSeconds": 25.1792,
+      "sha256": "94291214558BD8FA4B1C44801729A9CB87F093678D4DF300E8253A0FC70A3F84",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/production-shop/frame-0012.png",
+      "sourcePTSSeconds": 27.696344,
+      "sha256": "69F4EDEA6D8738D0749E3538D9F4CB02611C4D8BCA556A4A091386EBE3B7D942",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

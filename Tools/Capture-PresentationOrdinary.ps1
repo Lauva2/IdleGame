@@ -8,8 +8,9 @@ $mono='C:/Program Files/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/MonoBleedingEd
 New-Item -ItemType Directory -Force -Path "$Folder/Plans","$Folder/Evidence/Ordinary" | Out-Null
 function A([string[]]$p){& $adb -P 5038 -s $serial @p;if($LASTEXITCODE -ne 0){throw 'Ordinary command failed'}}
 function Plan($name,$steps){$p="$Folder/Plans/ordinary-$name.json";@{directory="$Folder/Evidence/Ordinary";steps=$steps}|ConvertTo-Json -Depth 7|Set-Content $p;& $python Tools/Forest-DeviceReview.py $p;if($LASTEXITCODE -ne 0){throw 'Ordinary inputs failed'}}
-if($AfterMoments){Plan 'enter' @(@{shot='01-ordinary-after-moments'},@{tap=@(180,300)},@{tap=@(860,880)},@{shot='03-ordinary-compact'})}
-else{Plan 'enter' @(@{shot='01-update-report'},@{tap=@(850,1780)},@{shot='02-actual-claim'},@{tap=@(150,410)},@{tap=@(860,880)},@{shot='03-ordinary-compact'})}
+$dockTap=& Tools/Get-ForestDockPoint.ps1 -Spot 0
+if($AfterMoments){Plan 'enter' @(@{shot='01-ordinary-after-moments'},@{tap=@(180,300)},@{tap=$dockTap},@{shot='03-ordinary-compact'})}
+else{Plan 'enter' @(@{shot='01-update-report'},@{tap=@(850,1780)},@{shot='02-actual-claim'},@{tap=@(150,410)},@{tap=@(180,300)},@{tap=$dockTap},@{shot='03-ordinary-compact'})}
 A @('pull','/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save',"$Folder/ordinary-fishing-start.save")
 $candidate=Split-Path -Leaf $Folder;$remote="/sdcard/$candidate-ordinary-fishing.mp4"
 $record=Start-Process -FilePath $adb -ArgumentList '-P','5038','-s',$serial,'shell','screenrecord','--size','1080x1920','--bit-rate','4000000','--time-limit','65',$remote -WindowStyle Hidden -PassThru

@@ -1,0 +1,385 @@
+{
+  "sourceVideo": "Evidence/market-native-1.mp4",
+  "sourceSha256": "AC1374C7A5ADD1E138F180EA3457B9C43DC5E5BBE023B1D4B2F696BBF4451152",
+  "selection": {
+    "video": "market-native-1.mp4",
+    "start": 0,
+    "end": 157,
+    "fps": 0.333333,
+    "id": "market-first-chains"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/market-first-chains/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "D710014B98E98A7A0711C794F7953588879F28F09CA7879D9403707C787935A7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0002.png",
+      "sourcePTSSeconds": 3.005122,
+      "sha256": "13C08C70E7A0A06AE803BE861D9635411B498B607480E235B3A02019A08E3A9B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0003.png",
+      "sourcePTSSeconds": 6.025967,
+      "sha256": "C74DDE5C8E632C1B4704D49AE47D81FA3345FCA701AD7394759DD503C8EFA669",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0004.png",
+      "sourcePTSSeconds": 9.054989,
+      "sha256": "02E78426B3FAB5498CABC3A2DE08A8F5778DF4ABFC98CC722B904059546624AE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0005.png",
+      "sourcePTSSeconds": 12.067678,
+      "sha256": "BFBA5133385A9528A3E434695C6ED436F5B1383035F753E6A3C7FC0EAB77582C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0006.png",
+      "sourcePTSSeconds": 15.100678,
+      "sha256": "3BB4401FDFFBC60077C29F182D90E12AB6AB71A1AD63C5200A362EB9163717C8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0007.png",
+      "sourcePTSSeconds": 18.104944,
+      "sha256": "86A46A42803D43179331D452C365617A0DC3464BCCA324B16B26F7FC29093E68",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0008.png",
+      "sourcePTSSeconds": 21.118967,
+      "sha256": "ABBB9E0C8E057A85F732FD8DF2A3044FAF51B5F508D6D7859748FA9BA0575393",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0009.png",
+      "sourcePTSSeconds": 24.150922,
+      "sha256": "26714A079A4B288301DCB527F2F88E0EDDC8A1C898917576C42A670B193E68CD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0010.png",
+      "sourcePTSSeconds": 27.171711,
+      "sha256": "4855C4919C07F71CE4F1DDFDB4DA3A2D648CB9D3276736EF77BE9FA0BBFC7E5C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0011.png",
+      "sourcePTSSeconds": 30.184156,
+      "sha256": "A43350C76FE24366DBAD25D7B1A22057C353FCFB9348553E9FA8F30FA232A744",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0012.png",
+      "sourcePTSSeconds": 33.206389,
+      "sha256": "A26CA71564C74400D70C5B27CC373608993B200D3DFD2A23E6AB58A86D821EBD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0013.png",
+      "sourcePTSSeconds": 36.226967,
+      "sha256": "C698FA4FF56614B407701089CC07EEEA553B03203A5EBA22D60C493DEF9C1281",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0014.png",
+      "sourcePTSSeconds": 39.251678,
+      "sha256": "8D6E4F7E480DC646FCD8931EAEE705ABE39BC94C61D47D61B36923D355AA55FF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0015.png",
+      "sourcePTSSeconds": 42.265756,
+      "sha256": "B1FA6E51E71A7E976354F15B484E4CE621CB09C680A493729954D12C53FF711E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0016.png",
+      "sourcePTSSeconds": 45.280667,
+      "sha256": "E538741C419F60466B760C1660F11DBC5B42A504C26AE6E7691CC78EC71E02C3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0017.png",
+      "sourcePTSSeconds": 48.313889,
+      "sha256": "267026DFC95EFBF48A6FDBB8AE848CCAB7CB6C3BEA52C6CC3FEE58E4B6BE87FC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0018.png",
+      "sourcePTSSeconds": 51.343156,
+      "sha256": "12E9656EF8FFDDE3D618685DDBB89B6A90D666AED5F3032B400EB0A599ACCBB7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0019.png",
+      "sourcePTSSeconds": 54.355456,
+      "sha256": "B5AAC91F7FDF0FB59FEF65D266CFD78BF847FC13BF368C359917CCC9ADD7B2D3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0020.png",
+      "sourcePTSSeconds": 57.3597,
+      "sha256": "5F1C9663BE02E2D9E18BD4071FDF92071E37D3E0A34DBDE85DAA55AFF809FD31",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0021.png",
+      "sourcePTSSeconds": 60.368722,
+      "sha256": "C40A7003087596768A082584F130256553DF4C865D4D58C142559EFBE4F6A901",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0022.png",
+      "sourcePTSSeconds": 63.393333,
+      "sha256": "4AEEA4294A6E8D04FAB5703547A0E14449CA9DF89390786425755071317897CF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0023.png",
+      "sourcePTSSeconds": 66.418456,
+      "sha256": "86CDDA1915C51DD7D1092D6B40E9D1A585FB3C06E440A5A58E5083A3D110F39B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0024.png",
+      "sourcePTSSeconds": 69.435078,
+      "sha256": "95122F169FF1797C9696644979F9A410F6DE33D66BE099D3B62BA155B2B934B2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0025.png",
+      "sourcePTSSeconds": 72.468589,
+      "sha256": "ADE72BD22DB182A990CADF45BB18DB36E6FF59B691B27C007BA45DABF73DBAC9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0026.png",
+      "sourcePTSSeconds": 75.476578,
+      "sha256": "D2BD0FC4488DEFDA3798936280BCFF5BFE6BC7DFFE4E0E736C1383ED65491A0B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0027.png",
+      "sourcePTSSeconds": 78.485322,
+      "sha256": "BA22167D53B165AC526F387947541A65222FF04A49BDC8CFDE3CE867153F8182",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0028.png",
+      "sourcePTSSeconds": 81.518678,
+      "sha256": "F6C951BB6BFAE3E50F1F7A20AE3B68C2DB3E48B3D6E587AB2023A750509861DA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0029.png",
+      "sourcePTSSeconds": 84.5187,
+      "sha256": "EFE514C59436C881C4B5309A3148C67DE912B895FFBFE3288FB0B1DF8F165955",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0030.png",
+      "sourcePTSSeconds": 87.531156,
+      "sha256": "11C3B6946EF59AEF02B5BAB214DC545061975BB2B4E7D603E06F789755D17EF6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0031.png",
+      "sourcePTSSeconds": 90.564622,
+      "sha256": "14143784010B94E02A2A32C307E9A25E1C3D7D5016C2F79E36CA343020E91C79",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0032.png",
+      "sourcePTSSeconds": 93.581389,
+      "sha256": "18F887BD7B7BDD0A44E88876BE8A3852D793A1FE90507AC1F3BF51EAFDFDAA56",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0033.png",
+      "sourcePTSSeconds": 96.586256,
+      "sha256": "D3B5DF7C00ECED9EAA5BE6064A6559A47A2E7B4AF53D48B93B534F9FA276A625",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0034.png",
+      "sourcePTSSeconds": 99.607089,
+      "sha256": "98C97B04A1882B6D1230DF6293BCE35D7C2F7E8C927B7D978E4634DD4F8FD69D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0035.png",
+      "sourcePTSSeconds": 102.627989,
+      "sha256": "E61F8A7E683632AD09785BC629CC70BD51D2343CEC1DDCF3CF38B2E053EE2DAF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0036.png",
+      "sourcePTSSeconds": 105.629911,
+      "sha256": "2F751DAA38462C45D6E9F3EE1B139F1831D4EC09C726E64B6C83DE04F4D527ED",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0037.png",
+      "sourcePTSSeconds": 108.657433,
+      "sha256": "668C039CC6A305CABCC3C3BAC5640208FEE1244154181D7BAF170B444724A0A9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0038.png",
+      "sourcePTSSeconds": 111.6612,
+      "sha256": "33E7422D53D8334F080A51DAC45472C3F1AA727D73C7C4A5A539AEADA8A2FC3D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0039.png",
+      "sourcePTSSeconds": 114.661811,
+      "sha256": "4D8386E1E81D2AF2FCC4D4EA243214F323610A144B01EB01B69D7BB29E0F2173",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0040.png",
+      "sourcePTSSeconds": 117.669056,
+      "sha256": "9A4CECE1160588F87370DBAF8EBC69E11D0A1FFAC1B6B8892BD546D8694A6599",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0041.png",
+      "sourcePTSSeconds": 120.681644,
+      "sha256": "6395265571BF508E64D884C07B4CA4E5380FDF74796F6770A80B4D51678E12A7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0042.png",
+      "sourcePTSSeconds": 123.681911,
+      "sha256": "57376800B607A28D45C7024EDA8B59971354A89314B8764128EF5DBDC1EB1B5B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0043.png",
+      "sourcePTSSeconds": 126.686378,
+      "sha256": "F2F0B843C6011F64E31529DABF9975416EC4DB9FE614449651A8E301B71CBF0B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0044.png",
+      "sourcePTSSeconds": 129.715644,
+      "sha256": "E3ABE20A4EE6BA8579EA1D0534CD71B8C96FA638C92952E1E88DA50916677921",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0045.png",
+      "sourcePTSSeconds": 132.741322,
+      "sha256": "DB456A7C4D2047B1C5D45BA75558C155C637EFD0580FEAB1EF74FBDBA3BF069B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0046.png",
+      "sourcePTSSeconds": 135.758511,
+      "sha256": "8FA3C81B94FFE5BBF124A7ECBC1DB5DF0EAEB9EDB32F3458E4B3E3D2D4713CF6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0047.png",
+      "sourcePTSSeconds": 138.782189,
+      "sha256": "F1FB592EF6DEB90F49A83B702B777126AA27CB0BDD24118B6BEAE875DCB074FF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0048.png",
+      "sourcePTSSeconds": 141.807989,
+      "sha256": "6C7779F0FC3A85C0D20C569800EA6E10B1510F6D082DE174C6ED74A831BFD61D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0049.png",
+      "sourcePTSSeconds": 144.836044,
+      "sha256": "1A454B94855FC643F5B5F9CEADF7B1BFE067970A831EBBD5513DC30A37F90678",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0050.png",
+      "sourcePTSSeconds": 147.849589,
+      "sha256": "02ACF018BE55D698FFBE2390E1D357465C5B10434A0A6F14645A2F2E3B053DA6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0051.png",
+      "sourcePTSSeconds": 150.870578,
+      "sha256": "9819CD3E3AD6C1E41555C4E23C62F007FF9141CD72174716EFB67B987A6D1B8A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0052.png",
+      "sourcePTSSeconds": 153.887378,
+      "sha256": "5EE72030DF500CC92FBD31884B42D8B94BDD75DEC806841B8B3E53892306D78C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/market-first-chains/frame-0053.png",
+      "sourcePTSSeconds": 156.911544,
+      "sha256": "09ACAA92A43AF8B8BAF58E6B56B0A62A76493D25C68DE651B8DF2B2A9E59E395",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

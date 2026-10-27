@@ -1,0 +1,38 @@
+{
+  "steps": [
+    {
+      "shot": "01-update-report"
+    },
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "shot": "02-actual-claim"
+    },
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        180,
+        300
+      ]
+    },
+    {
+      "tap": [
+        864,
+        811
+      ]
+    },
+    {
+      "shot": "03-ordinary-compact"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d26-life02/Evidence/Ordinary"
+}

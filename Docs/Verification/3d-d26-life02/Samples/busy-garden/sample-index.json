@@ -1,0 +1,77 @@
+{
+  "sourceVideo": "Evidence/busy-garden.mp4",
+  "sourceSha256": "4BDEA91DD9ACC80879C8ABBF015AD6EEC03AC3F85194519203A5A8996022F202",
+  "selection": {
+    "video": "busy-garden.mp4",
+    "start": 0,
+    "end": 29,
+    "fps": 0.3,
+    "id": "busy-garden"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/busy-garden/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "F1AA88FBCB271C0B8A195B20FEB706677D71F8EF1F3CDE5E9422896B45253BB2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0002.png",
+      "sourcePTSSeconds": 3.358433,
+      "sha256": "2EB405722EBEF7E9A75A0BDABF519CA6A6CF1EC96E4BB737203C6ED6FB086B84",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0003.png",
+      "sourcePTSSeconds": 6.696067,
+      "sha256": "D3F2BA3CB4254DC92C00E22D21B819AA85DE4E62E81DF41BA1CAD8FBB3C98417",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0004.png",
+      "sourcePTSSeconds": 10.033689,
+      "sha256": "2C61B853F16BC81CDEF0503A988D2E68C3C099FD6E29DC67DE3C2E25C139C7CF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0005.png",
+      "sourcePTSSeconds": 13.396111,
+      "sha256": "3AA7F94CDA4123D708814EBCAC95D9167092A055ED2AB456FB8174806EFF9612",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0006.png",
+      "sourcePTSSeconds": 16.733811,
+      "sha256": "0E062275C90A9346D3BA7DFE16E421A6328A637FFC0FE33B865641BEAE44100C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0007.png",
+      "sourcePTSSeconds": 20.101022,
+      "sha256": "D2E7CAAE1B17F9FB70D30576B0C89C0A053B6E87610944B0C9A2D7A4DAEFA716",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0008.png",
+      "sourcePTSSeconds": 23.441967,
+      "sha256": "56553297C0CA070A0278D9FA6046A3EB13B833F172CBE34A3933152D33450A2B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/busy-garden/frame-0009.png",
+      "sourcePTSSeconds": 26.8004,
+      "sha256": "3F467CF5DDA331D54C87811E7D9E54C9EC9BCE276A76EEC8B829EDF6E4825B6C",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "sourceVideo": "Evidence/fishing-quality-q3.mp4",
+  "sourceSha256": "349A0054FB9E71196A846675B62D60567C804EB14367BBC3CD8F47351CEB2D11",
+  "selection": {
+    "video": "fishing-quality-q3.mp4",
+    "start": 0,
+    "end": 25,
+    "fps": 1,
+    "id": "fish-prized-quality"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/fish-prized-quality/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "458C69F52B49AFA387D6FC125C51856C15219659831DD519086CDCBD952721AC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0002.png",
+      "sourcePTSSeconds": 1.025311,
+      "sha256": "B9549E1CA26B6368959E370B24E0757FC0F89DA2B403A8E88E6ACB0D8F48FD81",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0003.png",
+      "sourcePTSSeconds": 2.039189,
+      "sha256": "E1635D3726B3CAE36EF85454A49A74F6CAA8BBB89C5F06FC865557ABDE479720",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0004.png",
+      "sourcePTSSeconds": 3.052222,
+      "sha256": "36C557CAAFEC3B76BE1ACE8C08E8A786B0FE9E49A1969CB055050A03983A2151",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0005.png",
+      "sourcePTSSeconds": 4.076711,
+      "sha256": "25177F612028CE7766D7A21A4126A6D2D949967BB1FBE71BF596E40330138E1A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0006.png",
+      "sourcePTSSeconds": 5.089256,
+      "sha256": "B4705AB1643AA1C67F97924B9E9BA75798B4CD355CC1208BD1322246E5BC17F2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0007.png",
+      "sourcePTSSeconds": 6.101967,
+      "sha256": "499CE0B65213EF5A230C630E0D329D92043AAA5AED5CD62CA25F68ED528C7571",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0008.png",
+      "sourcePTSSeconds": 7.122367,
+      "sha256": "78F61D202DC6AFA25B91923BD101AC1CB1E7FC33711615FA13FADFC963BCE4C4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0009.png",
+      "sourcePTSSeconds": 8.139333,
+      "sha256": "F72BEAD020F1FF650EA92CF020A9E7600CA7EAAF7B7D5EDDFFCB2BFFFC907CA6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0010.png",
+      "sourcePTSSeconds": 9.1766,
+      "sha256": "A32910EF1A72A8EDEDC90B96B45F85C7AE4D04A51A23EBDCEFF16A6639608EEF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0011.png",
+      "sourcePTSSeconds": 10.180667,
+      "sha256": "82D811965675E4421672350C600453147B49EE9EA67626E690A2F43526B53D5F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0012.png",
+      "sourcePTSSeconds": 11.195822,
+      "sha256": "A154CB96E52E8920777AD696EC7DD1BC027109B9CBB022B147C73EE508ABF2C2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0013.png",
+      "sourcePTSSeconds": 12.201567,
+      "sha256": "7C8F28211C11F72F16249C804AB4B5D942CFE281EB61558D6368E3629554D0F8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0014.png",
+      "sourcePTSSeconds": 13.210822,
+      "sha256": "4B3D88149693F16A9BCC2C343812A52E0246F0F1129547090F49BD18CAC7745A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0015.png",
+      "sourcePTSSeconds": 14.243333,
+      "sha256": "E236A8D2124139BD8C2224F8319077CEB07D5267CDD22F11AB980D2E10D2031B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0016.png",
+      "sourcePTSSeconds": 15.243944,
+      "sha256": "3DB100F54858C103A612A3E07DF3DDB8EFFF40528DA9A18EF63377C29BF94D32",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0017.png",
+      "sourcePTSSeconds": 16.254811,
+      "sha256": "B8F39B4B4933A79BBF8C4CEE8DEAD2C9D45B244E138541B72008D73A7662DEF1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0018.png",
+      "sourcePTSSeconds": 17.263433,
+      "sha256": "3055EBEEA39FD0DE4E88AFA3B3B9966E8390692766AC4FB1446152E202870771",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0019.png",
+      "sourcePTSSeconds": 18.302256,
+      "sha256": "D088931928349A3E700CEA1EB675F183CA5B5A40B668E76A11863F49D71468A7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0020.png",
+      "sourcePTSSeconds": 19.302567,
+      "sha256": "E6E17D816A78CBEEE14C1E030D183E98C5A3F1746A5EE9CDE77D5030AC771294",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0021.png",
+      "sourcePTSSeconds": 20.335722,
+      "sha256": "8BF6C542A67278A81023E58E0006BFA79A44898C35D08131BE7C73DAF229BD03",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0022.png",
+      "sourcePTSSeconds": 21.343467,
+      "sha256": "A7E2F0F4B798BAF59D84A8B894E9DF8BBB118AC11A6A2A0B8703671CA4709029",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0023.png",
+      "sourcePTSSeconds": 22.364522,
+      "sha256": "1FB1448B99B4B72C4293D30BA74BFC403A796B5E95D13A127B3AF9D43BC1CDB6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0024.png",
+      "sourcePTSSeconds": 23.3812,
+      "sha256": "CF5D5D3703D55E857D39FC020AE8657593FCBD85092942CFB98DA76931F3CC2C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-prized-quality/frame-0025.png",
+      "sourcePTSSeconds": 24.381211,
+      "sha256": "CF5D5D3703D55E857D39FC020AE8657593FCBD85092942CFB98DA76931F3CC2C",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

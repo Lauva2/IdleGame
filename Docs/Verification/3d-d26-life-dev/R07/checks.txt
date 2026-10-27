@@ -1,0 +1,68 @@
+PASS Ordinary SaveStore never opens
+PASS Zoom cap does not pull region toward map origin 0
+CAMERA region=0 corner=0 size=5 focus=(-5.5000, 1.8000, -12.0000)
+CAMERA region=0 corner=1 size=5 focus=(5.5000, 1.8000, -12.0000)
+CAMERA region=0 corner=2 size=5 focus=(-2.1954, 1.8000, 17.6626)
+CAMERA region=0 corner=3 size=5 focus=(10.5000, 1.8000, 24.0000)
+PASS Exact region recenter 0
+PASS Zoom cap does not pull region toward map origin 1
+CAMERA region=1 corner=0 size=5 focus=(2.2500, 0.4000, 3.9500)
+CAMERA region=1 corner=1 size=5 focus=(15.7500, 0.4000, 3.9500)
+CAMERA region=1 corner=2 size=5 focus=(2.2500, 0.4000, 12.1500)
+CAMERA region=1 corner=3 size=5 focus=(15.7500, 0.4000, 12.1500)
+PASS Exact region recenter 1
+PASS Actual ray target plot0
+PASS Actual ray target plot1
+PASS Actual ray target plot2
+PASS Actual ray target plot3
+PASS Actual ray target plot4
+PASS Actual ray target plot5
+PASS Actual ray target plot6
+PASS Actual ray target plot7
+PASS Actual ray target plot8
+PASS Actual ray target plot9
+PASS Actual ray target plot10
+PASS Actual ray target plot11
+PASS Zoom cap does not pull region toward map origin 2
+CAMERA region=2 corner=0 size=5 focus=(-17.0061, 2.8192, 4.9087)
+CAMERA region=2 corner=1 size=5 focus=(-3.5061, 2.8192, 4.9087)
+CAMERA region=2 corner=2 size=5 focus=(-17.0061, 2.8192, 13.1087)
+CAMERA region=2 corner=3 size=5 focus=(-3.5061, 2.8192, 13.1087)
+PASS Exact region recenter 2
+PASS Actual ray target machine0
+PASS Actual ray target machine1
+PASS Zoom cap does not pull region toward map origin 3
+CAMERA region=3 corner=0 size=5 focus=(-6.0491, 2.4458, -13.9655)
+CAMERA region=3 corner=1 size=5 focus=(7.4509, 2.4458, -13.9655)
+CAMERA region=3 corner=2 size=5 focus=(-6.0491, 2.4458, -5.7655)
+CAMERA region=3 corner=3 size=5 focus=(7.4509, 2.4458, -5.7655)
+PASS Exact region recenter 3
+PASS Actual ray target shelf0
+PASS Actual ray target shelf1
+PASS Actual ray target shelf2
+PASS Actual ray target shelf3
+PASS Zoom cap does not pull region toward map origin 4
+CAMERA region=4 corner=0 size=5 focus=(-49.8000, 1.3000, 33.9000)
+CAMERA region=4 corner=1 size=5 focus=(-40.2000, 1.3000, 33.9000)
+CAMERA region=4 corner=2 size=5 focus=(-49.8000, 1.3000, 43.5000)
+CAMERA region=4 corner=3 size=5 focus=(-40.2000, 1.3000, 43.5000)
+PASS Exact region recenter 4
+PASS Zoom cap does not pull region toward map origin 5
+CAMERA region=5 corner=0 size=5 focus=(-49.8000, 1.3000, 50.9000)
+CAMERA region=5 corner=1 size=5 focus=(-40.2000, 1.3000, 50.9000)
+CAMERA region=5 corner=2 size=5 focus=(-49.8000, 1.3000, 60.5000)
+CAMERA region=5 corner=3 size=5 focus=(-40.2000, 1.3000, 60.5000)
+PASS Exact region recenter 5
+PASS Zoom cap does not pull region toward map origin 6
+CAMERA region=6 corner=0 size=5 focus=(-64.8000, 1.3000, 64.9000)
+CAMERA region=6 corner=1 size=5 focus=(-55.2000, 1.3000, 64.9000)
+CAMERA region=6 corner=2 size=5 focus=(-64.8000, 1.3000, 74.5000)
+CAMERA region=6 corner=3 size=5 focus=(-55.2000, 1.3000, 74.5000)
+PASS Exact region recenter 6
+PASS Zoom cap does not pull region toward map origin 7
+CAMERA region=7 corner=0 size=4.5 focus=(4.2500, 1.3000, 18.1500)
+CAMERA region=7 corner=1 size=4.5 focus=(13.7500, 1.3000, 18.1500)
+CAMERA region=7 corner=2 size=4.5 focus=(4.2500, 1.3000, 27.6500)
+CAMERA region=7 corner=3 size=4.5 focus=(13.7500, 1.3000, 27.6500)
+PASS Exact region recenter 7
+PASS Visual camera and props do not mutate any saved game field

@@ -1,0 +1,44 @@
+{
+  "directory": "Docs/Verification/3d-d26-life02/Evidence/Pavilion",
+  "steps": [
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "shot": "simple-01-actual-map"
+    },
+    {
+      "tap": [
+        897,
+        1086
+      ]
+    },
+    {
+      "shot": "simple-02-pavilion-wait"
+    },
+    {
+      "tap": [
+        500,
+        1835
+      ]
+    },
+    {
+      "shot": "simple-02b-expanded-details"
+    },
+    {
+      "tap": [
+        930,
+        1530
+      ]
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "simple-03-actual-berry-bait-catch"
+    }
+  ]
+}

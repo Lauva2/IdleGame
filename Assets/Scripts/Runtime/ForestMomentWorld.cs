@@ -46,14 +46,30 @@ namespace ForestShop
         public Vector2 MomentMarker(int id)
         {
             if(state==null || !ForestMomentRules.Unlocked(state,id))return new Vector2(-10,-10);
-            var at=worldCamera.WorldToViewportPoint(MomentTarget(id).position+V(0,.05f,-2.8f));
+            // The shared viewport layout places the badge beside this real source.
+            var at=worldCamera.WorldToViewportPoint(MomentTarget(id).position+V(0,.6f,0));
             return at.z<=0?new Vector2(-10,-10):new Vector2(at.x,at.y);
+        }
+        public Rect MomentMarkerFootprint(int id)
+        {
+            var min=Vector2.one*float.PositiveInfinity;var max=-Vector2.one*float.PositiveInfinity;
+            foreach(var renderer in MomentTarget(id).GetComponentsInChildren<MeshRenderer>())
+            {
+                if(!renderer.enabled)continue;var b=renderer.bounds;
+                for(int x=-1;x<=1;x+=2)for(int y=-1;y<=1;y+=2)for(int z=-1;z<=1;z+=2)
+                {
+                    var p=worldCamera.WorldToViewportPoint(b.center+Vector3.Scale(b.extents,V(x,y,z)));
+                    min=Vector2.Min(min,new Vector2(p.x,p.y));max=Vector2.Max(max,new Vector2(p.x,p.y));
+                }
+            }
+            return float.IsInfinity(min.x)?new Rect(-10,-10,0,0):Rect.MinMaxRect(min.x,min.y,max.x,max.y);
         }
         public void FocusMoment(int id)
         {
             if(state==null || !ForestMomentRules.Unlocked(state,id))return;
             var focus=MomentTarget(id).position+V(0,.75f,0);var move=focus-cameraFocus;
             cameraFocus=focus;worldCamera.transform.position+=move;worldCamera.orthographicSize=6.6f;
+            compositionDirty=true;RefreshCameraComposition();
         }
         public void PresentMoment(int id)
         { if(state!=null && id>=0 && id<3 && state.moments.stages[id]==3)momentRevealAt[id]=Time.unscaledTime; }

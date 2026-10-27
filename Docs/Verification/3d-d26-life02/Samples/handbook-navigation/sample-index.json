@@ -1,0 +1,70 @@
+{
+  "sourceVideo": "Evidence/Journey/journey-deliver.mp4",
+  "sourceSha256": "1DED01B7D6DFB45CA0B81885A5E51329FCD9F5521D27FBA181B5EFB40172CC82",
+  "selection": {
+    "video": "Journey/journey-deliver.mp4",
+    "start": 0,
+    "end": 39,
+    "fps": 0.2,
+    "id": "handbook-navigation"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/handbook-navigation/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "B7709DD7613CA39628FABACD9B88BDE78E3CE306B3EE0A04E71E5A05119ECF7D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/handbook-navigation/frame-0002.png",
+      "sourcePTSSeconds": 5.023756,
+      "sha256": "A11062ACCB07A1AB908F10C1593E17C991FAA16F25FF3F6FEC9DBCB29F06EAAF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/handbook-navigation/frame-0003.png",
+      "sourcePTSSeconds": 10.048244,
+      "sha256": "64BCB92C14005EDE02B38881A761D9B4EFBBC8A046E4385A604C36A8BEC89186",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/handbook-navigation/frame-0004.png",
+      "sourcePTSSeconds": 15.060578,
+      "sha256": "4132163CA85E4BA1B32B9D482ECAA58F61A5FF74A5D83B7A20252B24D54C1F72",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/handbook-navigation/frame-0005.png",
+      "sourcePTSSeconds": 20.085256,
+      "sha256": "700755A0E3A0DA63917D16FC5131111535DED045FBAA68F5238CCB7CFDB4C842",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/handbook-navigation/frame-0006.png",
+      "sourcePTSSeconds": 25.114489,
+      "sha256": "3C97E0564505A85E19068DFFAE309DF510B457A89E0AB6745AE7DF4DB12A48BE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/handbook-navigation/frame-0007.png",
+      "sourcePTSSeconds": 30.131,
+      "sha256": "8391A65B060C14E6A019FA5CC44A10CB8AFA0DAF0A210D4234797591BFF28A47",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/handbook-navigation/frame-0008.png",
+      "sourcePTSSeconds": 35.1342,
+      "sha256": "2D2D9B1CAC5464EB1113C804BB2F6D18BCD62EF421B1B51F83B5E758ABFD27F5",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "sourceVideo": "Evidence/simple-shop-native.mp4",
+  "sourceSha256": "6C1D658926C1351D4B81A6E2F5B72C67FEC4CF51C2642FDC2C5D13742260C5C9",
+  "selection": {
+    "video": "simple-shop-native.mp4",
+    "start": 0,
+    "end": 11,
+    "fps": 0.5,
+    "id": "simple-shop-standing"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/simple-shop-standing/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "316B2CFA13200E58849D5B626205DB841DA077A63F8816AEC2921A9B110A424D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-shop-standing/frame-0002.png",
+      "sourcePTSSeconds": 2.0101,
+      "sha256": "32BD33938CE39624468CDE226A3B83B8136FE9CBEE8155A1EA4D295FFE3B4DD0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-shop-standing/frame-0003.png",
+      "sourcePTSSeconds": 4.030078,
+      "sha256": "2FF8E9E08F86A9C84D0E3429D9C9AF26DB1E063502BC51DF7E85C0A35172ECA7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-shop-standing/frame-0004.png",
+      "sourcePTSSeconds": 6.0466,
+      "sha256": "2FF8E9E08F86A9C84D0E3429D9C9AF26DB1E063502BC51DF7E85C0A35172ECA7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-shop-standing/frame-0005.png",
+      "sourcePTSSeconds": 8.059144,
+      "sha256": "A05CD107E2BA12F6880562AFAB73832AE8C2D83A36BFCE49CB50B2BF653F58CF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/simple-shop-standing/frame-0006.png",
+      "sourcePTSSeconds": 10.088733,
+      "sha256": "F992F438A1B9408A3579C86F43D75B3E30A3A95D8E95B37729B8BBC39156B871",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

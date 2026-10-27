@@ -1,0 +1,30 @@
+{
+  "scope": "Only the listed fixed, untracked Unity-generated Android intermediate/export cache directories. Unity is stopped, all absolute targets and ancestors verified, links refused. Frozen APK/source ZIP/manifests, Assets, saves, original QA media and native debug symbols retained. Regenerated on a future build.",
+  "utc": "2026-10-27T13:36:10.4250047Z",
+  "retained": [
+    {
+      "path": "Builds\\Android\\3d-d26-life02\\ForestShop-3d-d26-life02.apk",
+      "sha256": "06A4D99C812FB5E9D68AB34AAC390E51101B8A4777BE636CE5282201EDE809D5"
+    },
+    {
+      "path": "Builds\\Android\\3d-d26-life02\\build-source-inputs.zip",
+      "sha256": "E8F138ADD848EFDF22A123264646FEDFE49DDDBA01D15DD37F7D4511E9292490"
+    },
+    {
+      "path": "Docs\\Verification\\3d-d26-life02\\source-files.sha256",
+      "sha256": "E7D973F70D42E917D2D6A98BE5211579069A2147498122E96990B795AD86AA22"
+    }
+  ],
+  "cacheGroup": "AndroidExport",
+  "freeBefore": 522633216,
+  "candidate": "3d-d26-life02",
+  "authorization": "Standing user request to remove unused project files; reversible generated build cache cleanup during authorized local work.",
+  "targets": [
+    {
+      "relative": "Library/Bee/Android/Prj",
+      "absolute": "E:\\UnityProject\\IdleGame\\Library\\Bee\\Android\\Prj",
+      "bytes": 292832936.0,
+      "files": 349
+    }
+  ]
+}

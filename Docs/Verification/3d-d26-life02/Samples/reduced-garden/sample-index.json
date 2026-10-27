@@ -1,0 +1,56 @@
+{
+  "sourceVideo": "Evidence/reduced-garden.mp4",
+  "sourceSha256": "1094FF9BFA1AD20E26E44AF858D791E86F51E103F489D460C5BA144E946CC3E4",
+  "selection": {
+    "video": "reduced-garden.mp4",
+    "start": 0,
+    "end": 29,
+    "fps": 0.2,
+    "id": "reduced-garden"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/reduced-garden/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "A25AF90A92DF07A3B4F231F8C0F677CDCB0605BE4DA95B1656C36DFC61300225",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/reduced-garden/frame-0002.png",
+      "sourcePTSSeconds": 5.0028,
+      "sha256": "94E3B9D396582C617C3A47D00E8FCFA4BFF24128BA52B8F9BA3FBDFC748C523F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/reduced-garden/frame-0003.png",
+      "sourcePTSSeconds": 10.006267,
+      "sha256": "0FEE5CDA8325B2C7D5D3D80CDC8DAF6074D559559CF1F954D51AA3E62429C365",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/reduced-garden/frame-0004.png",
+      "sourcePTSSeconds": 15.019744,
+      "sha256": "40071860433F2754F6BC7B948B12BBD451CABD24E18A4F16DC60CF7DB8C6A2FF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/reduced-garden/frame-0005.png",
+      "sourcePTSSeconds": 20.021989,
+      "sha256": "26F2A2A89B5F19F774E7B87E94F9E564E113D2BDA042992894E5B8AAA6EA5A8C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/reduced-garden/frame-0006.png",
+      "sourcePTSSeconds": 25.04,
+      "sha256": "48ABE24157A9C80506CAD0471B28FB3D1541F4F056390DA26958CADBC54575F7",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

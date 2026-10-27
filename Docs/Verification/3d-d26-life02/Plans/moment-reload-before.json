@@ -1,0 +1,38 @@
+{
+  "directory": "Docs/Verification/3d-d26-life02/Evidence/MomentReload",
+  "steps": [
+    {
+      "tap": [
+        950,
+        160
+      ]
+    },
+    {
+      "tap": [
+        925,
+        1805
+      ]
+    },
+    {
+      "tap": [
+        900,
+        1704
+      ]
+    },
+    {
+      "tap": [
+        540,
+        1080
+      ]
+    },
+    {
+      "shot": "01-pending-choice-before-close"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "02-closed-without-choice"
+    }
+  ]
+}

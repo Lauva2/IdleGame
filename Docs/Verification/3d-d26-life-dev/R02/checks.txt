@@ -1,0 +1,36 @@
+PASS Ordinary SaveStore never opens
+PASS Zoom cap does not pull region toward map origin 0
+PASS Exact region recenter 0
+PASS Zoom cap does not pull region toward map origin 1
+PASS Exact region recenter 1
+PASS Actual ray target plot0
+PASS Actual ray target plot1
+PASS Actual ray target plot2
+PASS Actual ray target plot3
+PASS Actual ray target plot4
+PASS Actual ray target plot5
+PASS Actual ray target plot6
+PASS Actual ray target plot7
+PASS Actual ray target plot8
+PASS Actual ray target plot9
+PASS Actual ray target plot10
+PASS Actual ray target plot11
+PASS Zoom cap does not pull region toward map origin 2
+PASS Exact region recenter 2
+PASS Actual ray target machine0
+PASS Actual ray target machine1
+PASS Zoom cap does not pull region toward map origin 3
+PASS Exact region recenter 3
+PASS Actual ray target shelf0
+PASS Actual ray target shelf1
+PASS Actual ray target shelf2
+PASS Actual ray target shelf3
+PASS Zoom cap does not pull region toward map origin 4
+PASS Exact region recenter 4
+PASS Zoom cap does not pull region toward map origin 5
+PASS Exact region recenter 5
+PASS Zoom cap does not pull region toward map origin 6
+PASS Exact region recenter 6
+PASS Zoom cap does not pull region toward map origin 7
+PASS Exact region recenter 7
+PASS Visual camera and props do not mutate any saved game field

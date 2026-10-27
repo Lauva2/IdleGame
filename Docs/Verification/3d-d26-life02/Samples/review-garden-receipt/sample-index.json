@@ -1,0 +1,77 @@
+{
+  "sourceVideo": "Evidence/production-garden.mp4",
+  "sourceSha256": "398770E2D58BF2A3633FF4076175C6741C1C874698DFF580EDA38BB108E38EED",
+  "selection": {
+    "video": "production-garden.mp4",
+    "start": 1,
+    "end": 4,
+    "fps": 3,
+    "id": "review-garden-receipt"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/review-garden-receipt/frame-0001.png",
+      "sourcePTSSeconds": 1.0004,
+      "sha256": "95B1C8D5ABCE401C5EF1E0EC42214C85A8B4E125DE07094202F31FF19302DD49",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-garden-receipt/frame-0002.png",
+      "sourcePTSSeconds": 1.341167,
+      "sha256": "EFD8C9817193356215F8B6AE24ADC2AF62EE29502A0AAD14142C71E850276E0F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-garden-receipt/frame-0003.png",
+      "sourcePTSSeconds": 1.690289,
+      "sha256": "DE18906A64EDA9977B99C374F20830155A23A709D06DC0224EFDF3329BF91187",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-garden-receipt/frame-0004.png",
+      "sourcePTSSeconds": 2.076467,
+      "sha256": "0B0F8C3A0EBD7A308D8FB773E33608C3B91FB51F7BBDB327CD10E59FF9E51111",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-garden-receipt/frame-0005.png",
+      "sourcePTSSeconds": 2.414311,
+      "sha256": "08A79DAD880ADD8C15F8E0A4D02E6F3136CF072816125B8CD36BE6DC64A3C4B3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-garden-receipt/frame-0006.png",
+      "sourcePTSSeconds": 2.764989,
+      "sha256": "179BBD65C2D23EE134E0D0E9605A86B671AD163FCD323D9E444F48962EC1CEF2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-garden-receipt/frame-0007.png",
+      "sourcePTSSeconds": 3.1152,
+      "sha256": "96B7713168EA609FA3C49DDD7E58DD6513592390A5B0CA9C1D724A321FA76F9F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-garden-receipt/frame-0008.png",
+      "sourcePTSSeconds": 3.482644,
+      "sha256": "EF4E9DF751550DA8D0D7EC18F4214513F60CFF0BE588F9115D910C12D5D25584",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/review-garden-receipt/frame-0009.png",
+      "sourcePTSSeconds": 3.820156,
+      "sha256": "DD1A1742E370FCA78D7E0AF57BE5D1C5AE759B9F6CFA2CF35487C59BCB4BB0E4",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

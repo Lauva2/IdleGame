@@ -1,0 +1,56 @@
+{
+  "sourceVideo": "Evidence/reduced-workshop.mp4",
+  "sourceSha256": "0949FDC6A44E18E73B840AA4CC1214C703890D885954CFCE0EA74F0591FE524B",
+  "selection": {
+    "video": "reduced-workshop.mp4",
+    "start": 0,
+    "end": 29,
+    "fps": 0.2,
+    "id": "reduced-workshop"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/reduced-workshop/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "D5001306AE5FA4E1030BF2E097FC2607FB7CC5A731C87CD483BFD6A17AF2BC7A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/reduced-workshop/frame-0002.png",
+      "sourcePTSSeconds": 5.029944,
+      "sha256": "77C8FEB7239BB219818E706BEC15CF718204A94F900592CB50B53665F7269ABE",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/reduced-workshop/frame-0003.png",
+      "sourcePTSSeconds": 10.051811,
+      "sha256": "CBA9C1FE3B8D569420EF5242A84EA48FDA6E2CB2A24DE30B283AECB479C26EB6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/reduced-workshop/frame-0004.png",
+      "sourcePTSSeconds": 15.058744,
+      "sha256": "35259EBDEF57D7E57A4AFCEADF4B65235CDF125FAB5EED2087763EE89D332444",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/reduced-workshop/frame-0005.png",
+      "sourcePTSSeconds": 20.091989,
+      "sha256": "28CAA33973E0B7E7C4ACDF48C2FF6E09A46985B300E9175FC630AFC1D71103A4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/reduced-workshop/frame-0006.png",
+      "sourcePTSSeconds": 25.125056,
+      "sha256": "F37D98C0798EA461E42B02CF877C98848EF6EA4A1B44B794437BA445F73CEE10",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

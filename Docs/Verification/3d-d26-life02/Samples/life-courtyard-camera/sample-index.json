@@ -1,0 +1,238 @@
+{
+  "sourceVideo": "Evidence/life-Courtyard-Default.mp4",
+  "sourceSha256": "2E9C573FBB2D08CC7DF58F3849E7B7DF2F3B62E299E4B1864AF72E76F0A994BB",
+  "selection": {
+    "video": "life-Courtyard-Default.mp4",
+    "start": 0,
+    "end": 125,
+    "fps": 0.25,
+    "id": "life-courtyard-camera"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/life-courtyard-camera/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "6ABCA150E3DA9630CCC53BFB561BD32731831EAD536293D4D7E50D3801EE6E16",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0002.png",
+      "sourcePTSSeconds": 4.033411,
+      "sha256": "8FC67560681D13E5F91E2C8A99D2CA6A214B495166F47374F0D66263CBB1D7B6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0003.png",
+      "sourcePTSSeconds": 8.049922,
+      "sha256": "7E5183DC47A34E1B1FC403BC2D4F2D4DABD27250F3CAF62DCAA296FE04861BA1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0004.png",
+      "sourcePTSSeconds": 12.070833,
+      "sha256": "3D6C5EE7707A73BDB29EAF52F761420FCED1E0C42FB115FF7FBBE6CB65436EC8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0005.png",
+      "sourcePTSSeconds": 16.094889,
+      "sha256": "8C287EDA9F1A4AE36FF418BF6B60900B832A79E8BCA934A3A5D6D4BEFCFF75F9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0006.png",
+      "sourcePTSSeconds": 20.109722,
+      "sha256": "49A8335111D74187158307751D2DBDD8C139822172CFFB1A81A3CF6F24612A89",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0007.png",
+      "sourcePTSSeconds": 24.1134,
+      "sha256": "937A2A3E792362351922A69A32EC1C34F3A38AE97997BE99579BEC4FB4587974",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0008.png",
+      "sourcePTSSeconds": 28.159422,
+      "sha256": "D644E5A10A191C2499FFAE2954DBFD9F2C85B21263556A72F104003979EA7C57",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0009.png",
+      "sourcePTSSeconds": 32.165333,
+      "sha256": "CFEC4D1138E454DA4F3A8E559E2D9B4754085D2B04BE3585531DC09CDF56792A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0010.png",
+      "sourcePTSSeconds": 36.175722,
+      "sha256": "0909223ABBAB3B4D6163966A5A20CFDA378525152F91AAE962D10DCF8F20FDBD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0011.png",
+      "sourcePTSSeconds": 40.208511,
+      "sha256": "228956CA426C720A6C8B25CD73760FEE1552E0606ACDC314457E35E7DA5AFF6B",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0012.png",
+      "sourcePTSSeconds": 44.242256,
+      "sha256": "0B2BE5222620271F3BBF4412666EE53F088232AB80908F97E10FAD4CB22CE5DC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0013.png",
+      "sourcePTSSeconds": 48.245033,
+      "sha256": "7F53C18746A43D34529EC1A5E8C9DBFA584582AC36207F9F5996EEE54B2A94A2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0014.png",
+      "sourcePTSSeconds": 52.286656,
+      "sha256": "85C3F59E1B5E4472AD03B612AFBCB56EC0EAF4816E3AD7A38A81481DA76B1624",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0015.png",
+      "sourcePTSSeconds": 56.3148,
+      "sha256": "5430D09C547542F5EA9035B679F88DD114CDA9D74B15503DB165B946CCB7E8B6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0016.png",
+      "sourcePTSSeconds": 60.335822,
+      "sha256": "89BC04E154748A14832EBABC362F78839F9651A489007A5BB0AAEF190055586E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0017.png",
+      "sourcePTSSeconds": 64.354444,
+      "sha256": "887E9FF19B8DCB9B70C40E8977D2B11EFB5B28DD7219CA8D08B51F54572FF716",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0018.png",
+      "sourcePTSSeconds": 68.365133,
+      "sha256": "2B6AD083E038F4340A280501A36E367D714387DA00120A8B1B41E05AFB022331",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0019.png",
+      "sourcePTSSeconds": 72.4277,
+      "sha256": "A3DFA89A2EBF56CF490B4715E955D2BBC74F30E73ED7D1E4A45475D857957655",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0020.png",
+      "sourcePTSSeconds": 76.433711,
+      "sha256": "86BE4FF0B90570693FDF484037D0CA275A1AB4BE4E7A79F391840402652473F8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0021.png",
+      "sourcePTSSeconds": 80.467444,
+      "sha256": "66200DFD3BBAE3890DD2FBDA71486FB2094D6AC61C772144637E66A663FB6DD5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0022.png",
+      "sourcePTSSeconds": 84.479211,
+      "sha256": "727C8BC5F91CE49A1E7D61021A0BE68431C2385657E1B5A875AAD15C84C1101A",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0023.png",
+      "sourcePTSSeconds": 88.484422,
+      "sha256": "B5679A6CFBF247ED1ECF63C3E9FBA44F9A9807D931FA988BB594ED21B7CD7AD4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0024.png",
+      "sourcePTSSeconds": 92.496944,
+      "sha256": "4B7E480A8C4CF7E2AFD33C179881CA94371C4199D9DA8B153476618A0B0DF061",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0025.png",
+      "sourcePTSSeconds": 96.522611,
+      "sha256": "426EBAE0EAF0CFB89701A59D1EA6ABB8CA1C73999126B3D324258330A43F3727",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0026.png",
+      "sourcePTSSeconds": 100.541411,
+      "sha256": "3AE00846E9658BDCE53F91E5470114709B6B74E453EBA22D01531DD527FEE3FA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0027.png",
+      "sourcePTSSeconds": 104.584189,
+      "sha256": "D421D86AF77EE7939DA28B14C008B24916783EAD1C4B2E61B1E4B6CA79BB6F12",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0028.png",
+      "sourcePTSSeconds": 108.600644,
+      "sha256": "A24B7F2A6CB9E37E5A3F136CCFE4E5BC5938C04DCF649BD6D38B3A33BBCE6571",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0029.png",
+      "sourcePTSSeconds": 112.621767,
+      "sha256": "904C6B86751CC22297DA0EED39B996F2AC2033ECB6BF74AA2CE762CB34C0D6FA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0030.png",
+      "sourcePTSSeconds": 116.644111,
+      "sha256": "4992DAD87D46CFFC2469F9B9A744649A492E66707A0EFD3DDC83F8B1688CF24D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0031.png",
+      "sourcePTSSeconds": 120.6594,
+      "sha256": "ECED438262FB76E4600B659539A891774D1555431F1EFADCB9173B8D4769E6D9",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/life-courtyard-camera/frame-0032.png",
+      "sourcePTSSeconds": 124.6651,
+      "sha256": "A9561147FC8784D51F07EDFF0C295635A908472B125A84B17C06B0C6FF21E399",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

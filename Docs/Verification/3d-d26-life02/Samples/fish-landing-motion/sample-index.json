@@ -1,0 +1,224 @@
+{
+  "sourceVideo": "Evidence/fishing-quality-q3.mp4",
+  "sourceSha256": "349A0054FB9E71196A846675B62D60567C804EB14367BBC3CD8F47351CEB2D11",
+  "selection": {
+    "video": "fishing-quality-q3.mp4",
+    "start": 9,
+    "end": 17,
+    "fps": 4,
+    "id": "fish-landing-motion"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/fish-landing-motion/frame-0001.png",
+      "sourcePTSSeconds": 9.001833,
+      "sha256": "C16B1F111718274C31BEB478B27E5CDD5A132592F0EB3C6E0384961F09275033",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0002.png",
+      "sourcePTSSeconds": 9.276578,
+      "sha256": "502EFD5B9E3C723E6AEBC75B0AB3A2828A13D54E4303CEA55BC6FD0B993165AF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0003.png",
+      "sourcePTSSeconds": 9.543478,
+      "sha256": "36843FD9CA7A6853A9A08572A77D48A8431754931782FA057897E026977B63D3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0004.png",
+      "sourcePTSSeconds": 9.840156,
+      "sha256": "F8E1635B7A72936A89965D9B6BE9942DFA14E2483BC865CC821DF6A94B00DA7F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0005.png",
+      "sourcePTSSeconds": 10.114089,
+      "sha256": "202B16785B332FD1515C8EB7A162457711A5A2623D79A02908FDD1939BF7CC58",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0006.png",
+      "sourcePTSSeconds": 10.389133,
+      "sha256": "BF76575F83FA032E0173EBD6C6E260BBE950629D26BED443BE92961E6336CBA3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0007.png",
+      "sourcePTSSeconds": 10.663411,
+      "sha256": "E4DE6761E6329615C18F491E747F1E86C5BDCC754C9787A55C3710CAAC7F1711",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0008.png",
+      "sourcePTSSeconds": 10.930589,
+      "sha256": "B580C7E5F0BECEEE33A4DF32918C1F48796CF10AEEF97D5DE0A58BE41E55B7C3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0009.png",
+      "sourcePTSSeconds": 11.195822,
+      "sha256": "A154CB96E52E8920777AD696EC7DD1BC027109B9CBB022B147C73EE508ABF2C2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0010.png",
+      "sourcePTSSeconds": 11.472256,
+      "sha256": "E43913811801FA97E55E4B0ABC43388E2A6636B7D3AEF0D9E29F3644BE3E20D0",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0011.png",
+      "sourcePTSSeconds": 11.765856,
+      "sha256": "96F11989AAFEDCEB9C29AED9B709AC52C39BF2051FCDAF95898DF2FB236E43DF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0012.png",
+      "sourcePTSSeconds": 12.059733,
+      "sha256": "454D7069C32504F6BF0650C5FAB0F3092705A36E4C85B52A6E46BBF8F60B934E",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0013.png",
+      "sourcePTSSeconds": 12.330756,
+      "sha256": "9ED04FC0AB8590FAB358E69AE819104BEF09C8EE05D0859C933B8002B1E6792C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0014.png",
+      "sourcePTSSeconds": 12.610067,
+      "sha256": "D31D14640A5A7CB27996B194B6EBEEC4DDF280B4DDB41A8C5D2D4B5D0E0D9FE5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0015.png",
+      "sourcePTSSeconds": 12.864089,
+      "sha256": "E1806F7E9CD8881DF6B1D2D280468BBDF97C2AEF7A3D6FCA9C98B5C5666287B7",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0016.png",
+      "sourcePTSSeconds": 13.143422,
+      "sha256": "D82A781A02503F793B336A89B95EAE5AE0695BDA4A30A8AD566123C92ADD6A40",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0017.png",
+      "sourcePTSSeconds": 13.405633,
+      "sha256": "319A4921E659C98C7D35BC4DBF35C9642B9075A7BB6786630EA786750BAFD469",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0018.png",
+      "sourcePTSSeconds": 13.660067,
+      "sha256": "940C16AEB9943B4EB238235EC3AA11049D5F96C0875DB245DBA4628594878A61",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0019.png",
+      "sourcePTSSeconds": 13.943111,
+      "sha256": "1A897AC80A2169CC34C878E9333FF711FBC425A1EC0789346A9C834CAF34A6AB",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0020.png",
+      "sourcePTSSeconds": 14.209889,
+      "sha256": "B1137C7DF8349860325B0658A67410B8DB8CF3C68FEB8CEB08AEE94BA8C1C559",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0021.png",
+      "sourcePTSSeconds": 14.476611,
+      "sha256": "056C59BEE0E606B7FB050E58A42036AC7C803959396EDD36ED001EC97DF5DD6D",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0022.png",
+      "sourcePTSSeconds": 14.743789,
+      "sha256": "69DA00A0DEAD7604D6164A4EDADEE5ADE6C0E055ED7F30AD4D56D29A26C1648C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0023.png",
+      "sourcePTSSeconds": 15.0225,
+      "sha256": "CC1E010BD9CB8195DE06D8343599AF3B05AD996E3A5DAA98BA0FE4D3D92DCA95",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0024.png",
+      "sourcePTSSeconds": 15.280767,
+      "sha256": "0707A23956E3F98A83078D81CBFDAA0560018CBB169316E9C2D992A514025B1F",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0025.png",
+      "sourcePTSSeconds": 15.555644,
+      "sha256": "3282883E3D7F8DDBA7B83F661DEC0285370A1B15AE97CB8F73C32B8AFB29EA79",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0026.png",
+      "sourcePTSSeconds": 15.826656,
+      "sha256": "196E94ABBDCB607330187ED37A7F94916B3B33F8582811277977D94D20ACA9B4",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0027.png",
+      "sourcePTSSeconds": 16.085533,
+      "sha256": "E61FA3511CD19CD1FC68D515B7A652248BDC317A615E2A7B9E3BA183D86FEF97",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0028.png",
+      "sourcePTSSeconds": 16.3392,
+      "sha256": "5FACC363A1DDFA1FEB7E0199DEA50C8E040F4AC0B096B656EF9EFC9EBE2ECEEA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0029.png",
+      "sourcePTSSeconds": 16.605789,
+      "sha256": "931BA5CBC4A3DE1CC7905EB60DBE1628A4923C82606E14E5B8626BCD30D12ACC",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/fish-landing-motion/frame-0030.png",
+      "sourcePTSSeconds": 16.884833,
+      "sha256": "68469BDDA96F62899A188C0590BB0E81A9C9CA311910C4728D8B75286A126356",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

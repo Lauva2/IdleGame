@@ -1,0 +1,70 @@
+{
+  "sourceVideo": "Evidence/Startup/moment-pending-reload.mp4",
+  "sourceSha256": "B1DBBE73495631C0F22267535483B9248D93D3CB7672F32F9F0F61668E562FD5",
+  "selection": {
+    "video": "Startup/moment-pending-reload.mp4",
+    "start": 0,
+    "end": 17,
+    "fps": 0.5,
+    "id": "moments-pending-reload"
+  },
+  "operation": "ffmpeg select at original source PTS; native encoded size/orientation, RGB24 lossless PNG; no resizing/cropping/compositing",
+  "frames": [
+    {
+      "path": "Samples/moments-pending-reload/frame-0001.png",
+      "sourcePTSSeconds": 0.0,
+      "sha256": "BA89F05084A43FD96E73233507B6A71394ED1FF799D76A4CCD4A8C285DB877E2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-pending-reload/frame-0002.png",
+      "sourcePTSSeconds": 2.042022,
+      "sha256": "65B307E992CC402CEA378D686FCD3F720AFDD10CDB7761F95DC91AF61854DDC2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-pending-reload/frame-0003.png",
+      "sourcePTSSeconds": 5.248478,
+      "sha256": "1C69055941354ED375E30811FDD586324D72DE3BA51C3140A031F3AFBC0FB8A6",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-pending-reload/frame-0004.png",
+      "sourcePTSSeconds": 7.312289,
+      "sha256": "9D1C6E70602CA4ACC887317991CF6BE115B691C1D64ECB2B6C6F0DAA24E85A56",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-pending-reload/frame-0005.png",
+      "sourcePTSSeconds": 9.340733,
+      "sha256": "4166AFD18B4F25E96854F9DB451BAC1385291F9CB580B1E51AA4B5BB9CC90AA2",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-pending-reload/frame-0006.png",
+      "sourcePTSSeconds": 11.353656,
+      "sha256": "11FF60FDE33A696C96609B9EC0E8D4EBA74E5ABE8BB985CB15FC4B00AE5DE8A5",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-pending-reload/frame-0007.png",
+      "sourcePTSSeconds": 13.357489,
+      "sha256": "24F866A6916D2BD6C6F2FBB1BA2D6EEF70BA0A0ACC64CA3C643C99BBBF053483",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Samples/moments-pending-reload/frame-0008.png",
+      "sourcePTSSeconds": 15.361656,
+      "sha256": "7218C2C6E4488DFCAE7EE509ECC355FE5935D2AEC55047EA21CB7826B04499C5",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

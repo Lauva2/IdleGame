@@ -1,0 +1,32 @@
+{
+  "directory": "Docs\\Verification\\3d-d26-life02\\Evidence\\LifeSimpleShop",
+  "steps": [
+    {
+      "tap": [
+        1000,
+        50
+      ]
+    },
+    {
+      "tap": [
+        850,
+        1450
+      ]
+    },
+    {
+      "shot": "04-settings-restored"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        130,
+        300
+      ]
+    },
+    {
+      "shot": "05-ordinary-overview-restored"
+    }
+  ]
+}
