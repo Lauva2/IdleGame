@@ -1,0 +1,93 @@
+{
+  "scope": "Only the fixed untracked Android export and compilation cache inside the exact recorded task scratch Bee directory. Physical ancestors and contents verified without links. Native debug artifacts, logical junction, source assets, saves, delivered APK and original media retained.",
+  "targets": [
+    {
+      "relative": "Android/Prj",
+      "bytes": 1085509278.0,
+      "absolute": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\Scratch\\IdleGame\\d27\\Bee\\Android\\Prj",
+      "files": 766
+    },
+    {
+      "relative": "artifacts/Android",
+      "bytes": 1717099082.0,
+      "absolute": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\Scratch\\IdleGame\\d27\\Bee\\artifacts\\Android",
+      "files": 1064
+    }
+  ],
+  "freeBefore": {
+    "C": 32697880576,
+    "E": 1700511744
+  },
+  "utc": "2026-10-28T01:32:34.0737844Z",
+  "nativeDebugArtifacts": [
+    {
+      "sha256": "4D616D5610BCBB85DA08628C96B052C1B99B9444D4FDE2836F984E356DA953A4",
+      "bytes": 200578144,
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\Scratch\\IdleGame\\d27\\Bee\\artifacts\\objcopy_5lmi\\libil2cpp.dbg.so"
+    },
+    {
+      "sha256": "1482360C2DE935B00E7C857E7A7F1D6DEF29594AAA7327DE40EE9D72DFDA6E93",
+      "bytes": 22757464,
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\Scratch\\IdleGame\\d27\\Bee\\artifacts\\objcopy_5lmi\\libil2cpp.so"
+    },
+    {
+      "sha256": "150463AE8C8BB2ECBA0FC797967441B557CEFA67ECD511DAA4B55F84D81B12AA",
+      "bytes": 17895256,
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\Scratch\\IdleGame\\d27\\Bee\\artifacts\\objcopy_5lmi\\libil2cpp.sym.so"
+    },
+    {
+      "sha256": "AA8C56C4339EEA85B8125F49D0BD5E0A3F857FE98D35BABA008CF58EBB269F27",
+      "bytes": 22757360,
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\Scratch\\IdleGame\\d27\\Bee\\artifacts\\objcopy_5lmi\\stripped\\libil2cpp.so"
+    },
+    {
+      "sha256": "793138CF75B2B5CD083601D2CF1C3A3FA6692E3FB33FECBD9A832579367EBD94",
+      "bytes": 160414656,
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\Scratch\\IdleGame\\d27\\Bee\\artifacts\\objcopy_b9ry\\libil2cpp.dbg.so"
+    },
+    {
+      "sha256": "3E92EA3DFE229C87A824762A820D58BAAF672688E822D1374D23C974F349B6D8",
+      "bytes": 19491732,
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\Scratch\\IdleGame\\d27\\Bee\\artifacts\\objcopy_b9ry\\libil2cpp.so"
+    },
+    {
+      "sha256": "D5D9B32C6DF37E19E73477B73E92CB0002CB6C22E8D831071AB2DC25FF7E159C",
+      "bytes": 15662640,
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\Scratch\\IdleGame\\d27\\Bee\\artifacts\\objcopy_b9ry\\libil2cpp.sym.so"
+    },
+    {
+      "sha256": "F78CCE27DCCC5D81B2F339D8AC61B9CBE686B4F9A56D62969219577EAD43E990",
+      "bytes": 19491652,
+      "path": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\Scratch\\IdleGame\\d27\\Bee\\artifacts\\objcopy_b9ry\\stripped\\libil2cpp.so"
+    }
+  ],
+  "retained": [
+    {
+      "sha256": "AAF4883120A9A00FC115D1101C56C5CC0E6C019AEAEC249FCF8B758901506F6A",
+      "path": "E:\\UnityProject\\IdleGame\\Builds\\Android\\3d-d27-life03\\ForestShop-3d-d27-life03.apk"
+    },
+    {
+      "sha256": "AFBA2421F4998C1AC5FA85C41510FD2547CFBD353244AC783080C90D932C5D8B",
+      "path": "E:\\UnityProject\\IdleGame\\Builds\\Android\\3d-d27-life03\\build-source-inputs.zip"
+    },
+    {
+      "sha256": "60D26D46039E78ED3996C2E1CEAB8C3BF6D53D2EE4A820DCF143778C37681D3E",
+      "path": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d27-life03\\source-files.sha256"
+    }
+  ],
+  "mapping": {
+    "utc": "2026-10-28T00:41:44.0266297Z",
+    "logical": "E:\\UnityProject\\IdleGame\\Library\\Bee",
+    "physical": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\Scratch\\IdleGame\\d27\\Bee",
+    "copiedFiles": 927,
+    "copiedBytes": 549402370.0,
+    "allSourceAndCopiedHashesMatch": true,
+    "recoveredVerification": true,
+    "initialError": "The copy, source verification, removal and junction creation succeeded. Final check treated a scalar Target string as an array. It was corrected to @($link.Target)[0]; all physical and logical hashes were rechecked without copying or deleting again.",
+    "freeAfter": {
+      "C": 35978506240,
+      "E": 2096336896
+    }
+  },
+  "candidate": "3d-d27-life03"
+}

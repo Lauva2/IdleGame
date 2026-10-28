@@ -1,4 +1,4 @@
-param([Parameter(Mandatory=$true)][string]$Folder,[string[]]$Variants=@('journey-entry','journey-berry','journey-dew','journey-resin','journey-partial','journey-complete','journey-deliver'))
+param([Parameter(Mandatory=$true)][string]$Folder,[string[]]$Variants=@('journey-entry','journey-berry','journey-dew','journey-resin','journey-partial','journey-complete','journey-deliver'),[switch]$StillsOnly)
 $ErrorActionPreference='Stop';Set-Location (Split-Path -Parent $PSScriptRoot)
 $serial=$env:FOREST_ADB_SERIAL;if(!$serial){throw 'Explicit ADB serial required'}
 $adb=(Resolve-Path Tools/AndroidSdk/platform-tools/adb.exe).Path
@@ -26,11 +26,18 @@ foreach($variant in $Variants){
     @{directory="$Folder/Evidence/Journey/$variant";steps=$steps}|ConvertTo-Json -Depth 7|Set-Content $plan
     $remote="/sdcard/$candidate-$variant.mp4"
     [DateTime]::UtcNow.ToString('o')|Set-Content "$Folder/$variant-start.txt"
-    $record=Start-Process -FilePath $adb -ArgumentList '-P','5038','-s',$serial,'shell','screenrecord','--size','1080x1920','--bit-rate','4000000','--time-limit','40',$remote -WindowStyle Hidden -PassThru
+    $interval=[Diagnostics.Stopwatch]::StartNew()
+    if(!$StillsOnly){$record=Start-Process -FilePath $adb -ArgumentList '-P','5038','-s',$serial,'shell','screenrecord','--size','1080x1920','--bit-rate','4000000','--time-limit','40',$remote -WindowStyle Hidden -PassThru}
     & $python Tools/Forest-DeviceReview.py $plan
     if($LASTEXITCODE -ne 0){throw 'Journey UI plan failed'}
-    $record.WaitForExit();if($record.ExitCode -ne 0){throw 'Journey recorder failed'}
-    & $adb -P 5038 -s $serial pull $remote "$Folder/Evidence/Journey/$variant.mp4"
+    if(!$StillsOnly){
+      $record.WaitForExit();if($record.ExitCode -ne 0){throw 'Journey recorder failed'}
+      & $adb -P 5038 -s $serial pull $remote "$Folder/Evidence/Journey/$variant.mp4"
+    }else{
+      # Keep a real eligible online interval for the full-state comparator.
+      if($interval.Elapsed.TotalSeconds -lt 33){Start-Sleep -Milliseconds ([int]((33-$interval.Elapsed.TotalSeconds)*1000))}
+      'Native screenshots and timestamped UI inputs, no movie for this interval.'|Set-Content "$Folder/$variant-stills-only.txt"
+    }
     & $adb -P 5038 -s $serial pull /sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save "$Folder/$variant-after.save"
     & 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/MonoBleedingEdge/bin/mono.exe' Tools/TestOutput/CompareOnline.exe "$Folder/$variant-before.save" "$Folder/$variant-after.save" | Tee-Object -FilePath "$Folder/$variant-online-replay.txt"
     if($LASTEXITCODE -ne 0){throw 'Actual journey interval state replay failed'}

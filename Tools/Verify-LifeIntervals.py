@@ -9,6 +9,8 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 q=(ROOT/sys.argv[1]).resolve();assert q.is_relative_to(ROOT/'Docs/Verification')
 tag=sys.argv[2];assert re.fullmatch(r'[a-zA-Z0-9-]+',tag)
+expected_cases=int(sys.argv[3]) if len(sys.argv)>3 else 8
+assert expected_cases in (2,4,6,8), 'Explicit complete Courtyard/Forest profile pairs required'
 mono='C:/Program Files/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/MonoBleedingEdge/bin/mono.exe'
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest().upper()
 def read(p):
@@ -35,7 +37,7 @@ for after in sorted(q.glob('life-*-after.save')):
     (out/(name+'-replay.txt')).write_text(output,encoding='utf8')
     state=read(after)
     rows.append(dict(group=group,profile=profile,appliedFixture=source.relative_to(q).as_posix(),fixtureSha256=record['sha256'],after=after.name,afterSha256=sha(after),passed=result.returncode==0,coins=state['coins'],fish=state['fishing']['totalCaught'],moments=state['moments'],recordedActions=len(steps)))
-result=dict(scope=__doc__.strip(),startupMethod='OfflineSettlement.Resume using actual startup report.away, then remaining foreground elapsed; all report fields reproduced, not copied from final.',rows=rows,allPassed=len(rows)==8 and all(r['passed'] for r in rows))
+result=dict(scope=__doc__.strip(),expectedCases=expected_cases,startupMethod='OfflineSettlement.Resume using actual startup report.away, then remaining foreground elapsed; all report fields reproduced, not copied from final.',rows=rows,allPassed=len(rows)==expected_cases and all(r['passed'] for r in rows))
 audit.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 print(json.dumps(dict(cases=len(rows),allPassed=result['allPassed'],failures=[r['after'] for r in rows if not r['passed']]),ensure_ascii=False,indent=2))
 assert result['allPassed']

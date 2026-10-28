@@ -45,8 +45,7 @@ namespace ForestShop
             var order = Engine.ActiveOrder;
             if (order != null)
             {
-                if (order.forestStory) return ForestSupplyStep(order.item);
-                return new JourneyStep("照看已接的心愿", Catalog.Items[order.item] + " " + State.items[order.item] + "/" + order.count + (order.reserve ? " · 已预留" : " · 未预留"), "一份心愿，按自己的节奏完成", "orders", 0, ForestSymbol.Orders);
+                return SupplyStep(order.item,order.count,true);
             }
             if (!State.chapterComplete)
             {
@@ -54,7 +53,8 @@ namespace ForestShop
                 if (State.stories < 5) return new JourneyStep("听听邻居的心愿", "接取故事委托，带着商品去见熟悉的邻居。", "熟客故事 " + State.stories + "/5", "orders", 0, ForestSymbol.Orders);
                 if (!State.sideRoom) return new JourneyStep("修复小店侧屋", "备好修缮所需，给小店添一间温暖的屋子。", "查看当前修复条件", "expansion", 0, ForestSymbol.Expand);
                 if (State.reputation < 150) return new JourneyStep("积攒小店声望", "完成邻居委托，筹备开张茶会。", "声望 " + State.reputation + "/150", "orders", 0, ForestSymbol.Reputation);
-                if (SoldKinds() < 6) return new JourneyStep("让六种商品见见客人", "查看尚未首售的商品，再安排货架售卖。", "已首售 " + SoldKinds() + "/6", "products", 0, ForestSymbol.Collection);
+                if (SoldKinds() < 6)
+                    for(int item=0;item<Catalog.OriginalItems;item++)if(State.sold[item]==0)return SupplyStep(item,1,false);
                 return new JourneyStep("照看小店营业", "安排原料、加工与货架，慢慢筹备开张茶会。", "累计销售 " + Math.Min(60000, State.sales).ToString("N0") + "/60,000", "shop", 3, ForestSymbol.Shop);
             }
             var f = State.forest;
@@ -80,24 +80,7 @@ namespace ForestShop
             if (Engine.ActiveOrder == null)
                 return new JourneyStep("接取" + ForestRules.RequestTitles[item - 6], "接取时可预留商品，再安排原料与加工。", progress, "orders", 0, ForestSymbol.Orders);
             if (State.items[item] >= count) return new JourneyStep("交付林间心愿", "商品已备好，前往委托板确认交付。", progress, "orders", 0, ForestSymbol.Orders);
-            var machine = State.machines[Catalog.Machine[item]];
-            if (machine.workItem == item && machine.remaining > 0)
-                return new JourneyStep(Catalog.Items[item] + "制作中", "剩余 " + Math.Ceiling(machine.remaining) + " 秒 · 完成后继续准备心愿商品。", progress, "machine", Catalog.Machine[item], ForestSymbol.Timer);
-            for (int crop = 0; crop < Catalog.Crops.Length; crop++)
-            {
-                if (State.crops[crop] >= Catalog.Materials[item][crop]) continue;
-                if (crop == 6) return new JourneyStep("采集温润的松脂", "松脂来自苔石林地，带回工坊制作护木香膏。", progress, "forage", 2, ForestSymbol.Harvest);
-                if (crop >= 4)
-                {
-                    int bed = Array.FindIndex(State.forest.beds, b => b.workItem == crop && b.remaining > 0);
-                    if (bed >= 0) return new JourneyStep(Catalog.Crops[crop] + "培育中", "剩余 " + Math.Ceiling(State.forest.beds[bed].remaining) + " 秒 · 成熟后自动补充原料。", progress, "nursery", bed, ForestSymbol.Timer);
-                    bed = Array.FindIndex(State.forest.beds, b => b.config == crop);
-                    return new JourneyStep((bed < 0 ? "培育" : "查看培育 · ") + Catalog.Crops[crop], bed < 0 ? "温室中选择种苗，成熟后自动补充原料。" : "查看这个培育位的当前状态与种苗安排。", progress, "nursery", Math.Max(0, bed), ForestSymbol.Greenhouse);
-                }
-                int plot = Array.FindIndex(State.plots, p => p.config == crop || p.workItem == crop);
-                return new JourneyStep("补足" + Catalog.Crops[crop], "查看庭院的种植安排，再回工坊继续加工。", progress, "plot", Math.Max(0, plot), ForestSymbol.Garden);
-            }
-            return new JourneyStep("制作" + Catalog.Items[item], "原料已备好，在工坊选择配方并等待加工。", progress, "machine", Catalog.Machine[item], ForestSymbol.Workshop);
+            return SupplyStep(item,count,true);
         }
         int NextUnfoundFish()
         {
@@ -132,7 +115,7 @@ namespace ForestShop
             if (step.Target == "forest-repair") { OpenObject("forest-repair", step.Index); return; }
             if (step.Target == "forage") { GoForest(step.Index); OpenObject("forage", step.Index); return; }
             if (step.Target == "greenhouse" || step.Target == "nursery") { GoGreenhouse(); if (step.Target == "nursery") OpenObject("nursery", step.Index); return; }
-            int region = step.Target == "plot" ? 1 : step.Target == "machine" ? 2 : step.Target == "shop" ? step.Index : 0;
+            int region = step.Target == "plot" ? 1 : step.Target == "machine" ? 2 : step.Target == "shelf" ? 3 : step.Target == "shop" ? step.Index : 0;
             World().SetRegion(region); shopPosition = 1; shopBuilt = false; ShowPage("小店");
             if (step.Target != "shop") OpenObject(step.Target, step.Index);
         }

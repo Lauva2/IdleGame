@@ -1,0 +1,45 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save: 1 file pushed, 0 skipped. 1.5 MB/s (6533 bytes in 0.004s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save: 1 file pushed, 0 skipped. 8.0 MB/s (6533 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2979
+WaitTime: 3010
+Complete
+{'tap': [930, 300]}
+{'shot': '00-simple-five-visible'}
+{'tap': [530, 1684]}
+{'shot': '01-known-neighbours'}
+{'tap': [850, 1180]}
+{'shot': 'note-0-full'}
+{'tap': [850, 1830]}
+{'shot': 'note-0-closed'}
+{'tap': [530, 1684]}
+{'tap': [850, 1334]}
+{'shot': 'note-1-full'}
+{'tap': [850, 1830]}
+{'shot': 'note-1-closed'}
+{'tap': [530, 1684]}
+{'tap': [850, 1488]}
+{'shot': 'note-2-full'}
+{'tap': [850, 1830]}
+{'shot': 'note-2-closed'}
+{'tap': [530, 1684]}
+{'tap': [850, 1642]}
+{'shot': 'note-3-full'}
+{'tap': [850, 1830]}
+{'shot': 'note-3-closed'}
+{'tap': [530, 1684]}
+{'tap': [850, 1796]}
+{'shot': 'note-4-full'}
+{'tap': [850, 1830]}
+{'shot': 'note-4-closed'}
+/sdcard/3d-d27-life03-resident-fit-Default.mp4: 1 file pulled, 0 skipped. 12.0 MB/s (12080678 bytes in 0.963s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 0.3 MB/s (4450 bytes in 0.013s)
+COMPLETE resident fit Default

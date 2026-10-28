@@ -1,0 +1,78 @@
+{
+  "candidate": "3d-d27-life03",
+  "images": 7,
+  "bytes": 7690258,
+  "scope": "Necessary original native screenshots and lossless source-PTS frames selected for Git. All other original media remains local with immutable SHA/time indexes; no pixel rewriting.",
+  "rows": [
+    {
+      "path": "Evidence/Residents/fit-Default/00-simple-five-visible.png",
+      "gitPath": "Docs/Verification/3d-d27-life03/Evidence/Residents/fit-Default/00-simple-five-visible.png",
+      "sha256": "82FCD3D44850133DE1C3DB7C8FB24126BB504674CF3AAB4CFD0241820121E2FE",
+      "bytes": 1377567,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Residents/front-SafeTall/00-longest-note-foreground.png",
+      "gitPath": "Docs/Verification/3d-d27-life03/Evidence/Residents/front-SafeTall/00-longest-note-foreground.png",
+      "sha256": "03AF8C398699EF06F708684ECA119F236C581BDE6A553198E8132659FB8EFE06",
+      "bytes": 758405,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Residents/fit-Narrow/note-0-full.png",
+      "gitPath": "Docs/Verification/3d-d27-life03/Evidence/Residents/fit-Narrow/note-0-full.png",
+      "sha256": "73C73BAF004F6E7D0F84DEEE1ACFA935DE2D2AEE9505567655ACCFBEDC77233B",
+      "bytes": 636756,
+      "width": 720,
+      "height": 1600,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Residents/rays/01-ray-0-note.png",
+      "gitPath": "Docs/Verification/3d-d27-life03/Evidence/Residents/rays/01-ray-0-note.png",
+      "sha256": "E9883C3345B8EB8FFB92A913F16CD150838C03343AB5FA1BAC8B10D5B9B014AF",
+      "bytes": 897096,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Residents/rays/10-drag-from-resident-no-note.png",
+      "gitPath": "Docs/Verification/3d-d27-life03/Evidence/Residents/rays/10-drag-from-resident-no-note.png",
+      "sha256": "6E7D5C733CAC1E0458393A8F42FA35890566B8355EEFBDA4F670C8830774778F",
+      "bytes": 1359732,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Residents/greeting-first/01-recognition-gate.png",
+      "gitPath": "Docs/Verification/3d-d27-life03/Evidence/Residents/greeting-first/01-recognition-gate.png",
+      "sha256": "919798F4167C44C7956303811DE0570F567802A7859A7493663F13F17282CED7",
+      "bytes": 982065,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    },
+    {
+      "path": "Evidence/Residents/ambient/courtyard-cycle.png",
+      "gitPath": "Docs/Verification/3d-d27-life03/Evidence/Residents/ambient/courtyard-cycle.png",
+      "sha256": "13BE93DAC074F41E5871F900DE47A8ACF9C27DA3548129B55B923B26F4DF4BF6",
+      "bytes": 1678637,
+      "width": 1080,
+      "height": 1920,
+      "sourcePTSSeconds": null,
+      "sourceVideo": null
+    }
+  ]
+}

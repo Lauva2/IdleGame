@@ -1,0 +1,89 @@
+{
+  "directory": "Docs/Verification/3d-d27-life03/Evidence/Residents/ambient",
+  "steps": [
+    {
+      "shot": "courtyard-rest"
+    },
+    {
+      "wait": 9
+    },
+    {
+      "shot": "courtyard-cycle"
+    },
+    {
+      "tap": [
+        390,
+        300
+      ]
+    },
+    {
+      "wait": 9
+    },
+    {
+      "shot": "garden-and-mature-feedback"
+    },
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "wait": 9
+    },
+    {
+      "shot": "workshop-and-feedback"
+    },
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        170,
+        290
+      ]
+    },
+    {
+      "shot": "forest-0-start"
+    },
+    {
+      "wait": 9
+    },
+    {
+      "shot": "forest-0-cycle"
+    },
+    {
+      "tap": [
+        520,
+        290
+      ]
+    },
+    {
+      "shot": "forest-1-start"
+    },
+    {
+      "wait": 9
+    },
+    {
+      "shot": "forest-1-cycle"
+    },
+    {
+      "tap": [
+        870,
+        290
+      ]
+    },
+    {
+      "shot": "forest-2-start"
+    },
+    {
+      "wait": 9
+    },
+    {
+      "shot": "forest-2-cycle"
+    }
+  ]
+}

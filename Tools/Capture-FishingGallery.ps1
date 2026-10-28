@@ -1,4 +1,4 @@
-param([Parameter(Mandatory=$true)][string]$Folder,[string]$RunTag='r01',[switch]$JourneyLayout)
+param([Parameter(Mandatory=$true)][string]$Folder,[string]$RunTag='r01',[switch]$JourneyLayout,[switch]$StillsOnly)
 $ErrorActionPreference='Stop';Set-Location (Split-Path -Parent $PSScriptRoot)
 $serial=if($env:FOREST_ADB_SERIAL){$env:FOREST_ADB_SERIAL}else{'127.0.0.1:16384'}
 $adb=(Resolve-Path Tools/AndroidSdk/platform-tools/adb.exe).Path
@@ -24,8 +24,10 @@ $steps+=@(@{shot='15-recent-thirtieth-and-retention-note'},@{tap=@(180,1850)},@{
 New-Item -ItemType Directory -Force -Path "$Folder/Plans/Gallery"|Out-Null
 @{directory="$Folder/Evidence/Gallery-$RunTag";steps=$steps}|ConvertTo-Json -Depth 6|Set-Content "$Folder/Plans/Gallery/gallery-$RunTag.json"
 $remote="/sdcard/$candidate-fishing-gallery-$RunTag.mp4";[DateTime]::UtcNow.ToString('o')|Set-Content "$Folder/fishing-gallery-$RunTag-start.txt"
-$record=Start-Process -FilePath $adb -ArgumentList '-P','5038','-s',$serial,'shell','screenrecord','--size','1080x1920','--bit-rate','4000000','--time-limit','180',$remote -WindowStyle Hidden -PassThru
+if(!$StillsOnly){$record=Start-Process -FilePath $adb -ArgumentList '-P','5038','-s',$serial,'shell','screenrecord','--size','1080x1920','--bit-rate','4000000','--time-limit','180',$remote -WindowStyle Hidden -PassThru}
 & $python Tools/Forest-DeviceReview.py "$Folder/Plans/Gallery/gallery-$RunTag.json"
 if($LASTEXITCODE -ne 0){throw 'Gallery actual UI input failed'}
-$record.WaitForExit();if($record.ExitCode -ne 0){throw 'Gallery recorder failed'}
-& $adb -P 5038 -s $serial pull $remote "$Folder/Evidence/fishing-gallery-$RunTag.mp4"
+if(!$StillsOnly){
+ $record.WaitForExit();if($record.ExitCode -ne 0){throw 'Gallery recorder failed'}
+ & $adb -P 5038 -s $serial pull $remote "$Folder/Evidence/fishing-gallery-$RunTag.mp4"
+}else{'Native gallery screenshots and timestamped UI inputs only; automatic landing dynamics are recorded separately.'|Set-Content "$Folder/fishing-gallery-$RunTag-stills-only.txt"}

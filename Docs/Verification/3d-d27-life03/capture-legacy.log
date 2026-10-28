@@ -1,0 +1,59 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\states.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\states.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\states.save: 1 file pushed, 0 skipped. 11.9 MB/s (6531 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\states.save: 1 file pushed, 0 skipped. 9.5 MB/s (6531 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 3005
+WaitTime: 3014
+Complete
+{'tap': [930, 300]}
+{'shot': '01-empty-reserved-shelf-symbols'}
+{'tap': [200, 1690]}
+{'shot': '02-empty-reserved-written-status'}
+{'tap': [540, 1850]}
+{'shot': '03-shortage-order'}
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\unrestored.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\unrestored.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\unrestored.save: 1 file pushed, 0 skipped. 8.1 MB/s (6035 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\unrestored.save: 1 file pushed, 0 skipped. 9.5 MB/s (6035 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2118
+WaitTime: 2127
+Complete
+{'shot': '04-annex-before-overview'}
+{'tap': [930, 300]}
+{'shot': '05-basic-sign-pot'}
+{'tap': [660, 300]}
+{'shot': '06-basic-curtain-rug'}
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\chapter.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\chapter.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\chapter.save: 1 file pushed, 0 skipped. 11.6 MB/s (6535 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\chapter.save: 1 file pushed, 0 skipped. 9.3 MB/s (6535 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2185
+WaitTime: 2190
+Complete
+{'shot': '07-prepared-chapter'}
+{'back': True}
+{'tap': [930, 300]}
+{'shot': '08-reward-sign-pot'}
+{'tap': [660, 300]}
+{'shot': '09-reward-curtain-rug'}

@@ -1,0 +1,35 @@
+{
+  "directory": "Docs/Verification/3d-d27-life03/Evidence/Residents/greeting-first",
+  "steps": [
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "shot": "00-progress-world"
+    },
+    {
+      "tap": [
+        530,
+        1684
+      ]
+    },
+    {
+      "shot": "01-recognition-gate"
+    },
+    {
+      "tap": [
+        850,
+        1720
+      ]
+    },
+    {
+      "shot": "02-progress-note-0"
+    },
+    {
+      "back": true
+    }
+  ]
+}

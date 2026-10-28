@@ -1,6 +1,7 @@
 param(
  [Parameter(Mandatory=$true)][string]$Folder,
- [ValidateSet('Flow','Fit','States','Reload','All')][string]$Group='All'
+ [ValidateSet('Flow','Fit','States','Reload','All')][string]$Group='All',
+ [switch]$Compact
 )
 $ErrorActionPreference='Stop'
 Set-Location (Split-Path -Parent $PSScriptRoot)
@@ -11,7 +12,7 @@ foreach($part in @('Flow','Fit','States','Reload')){
  $log="$Folder/capture-moment-$($part.ToLowerInvariant()).log"
  if(Test-Path -LiteralPath $log){throw ('Preserve previous capture log: '+$log)}
  try{
-  & Tools/Capture-MomentReview.ps1 -Folder $Folder -Group $part *> $log
+  & Tools/Capture-MomentReview.ps1 -Folder $Folder -Group $part -Compact:$Compact *> $log
   if($LASTEXITCODE -ne 0){throw ('Native capture failed: '+$part)}
   Write-Output ('COMPLETE moments '+$part)
  }catch{

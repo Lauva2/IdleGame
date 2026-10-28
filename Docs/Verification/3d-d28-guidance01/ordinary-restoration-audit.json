@@ -1,0 +1,27 @@
+{
+  "scope": "Exact latest pre-update ordinary pair restoration, actual updated-APK cold start, Core offline replay and real report close. Final snapshot is not a formal whole-game or abnormal-state acceptance.",
+  "checks": {
+    "protected_pair_restored_as_exact_bytes": true,
+    "offline_replay_passed": true,
+    "fish_records_rng_candidate_and_paused_clocks_kept": true,
+    "chapter_and_resident_progress_kept": true,
+    "forest_progress_kept": true,
+    "optional_moments_and_choices_kept": true,
+    "settings_kept": true,
+    "final_configurations_follow_resumed_report": true,
+    "isolated_order_not_restored": true,
+    "money_only_from_normal_sales": true,
+    "report_closed_after_real_input": true,
+    "fishing_paused": true
+  },
+  "allPassed": true,
+  "fish": 72,
+  "species": 6,
+  "coins": 1526834,
+  "plots": 6,
+  "shelves": 2,
+  "awaySeconds": 439.952218,
+  "offlineCoins": 1164,
+  "finalPrimarySha256": "4885BD63DA905C445D6D0D2AC45DBB69852E1AE040CAE4258DC65EA8CC1C35A3",
+  "finalBackupSha256": "72B25B10E0B94C711E709C97AF8FEE7BCE84BC4969AF6DFCBA116A6135E113EF"
+}

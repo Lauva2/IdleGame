@@ -1,0 +1,107 @@
+{
+  "directory": "Docs/Verification/3d-d27-life03/Evidence/Residents/greeting-after",
+  "steps": [
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "shot": "00-progress-world"
+    },
+    {
+      "tap": [
+        530,
+        1684
+      ]
+    },
+    {
+      "shot": "01-recognition-gate"
+    },
+    {
+      "tap": [
+        850,
+        1180
+      ]
+    },
+    {
+      "shot": "02-progress-note-0"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        530,
+        1684
+      ]
+    },
+    {
+      "tap": [
+        850,
+        1334
+      ]
+    },
+    {
+      "shot": "02-progress-note-1"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        530,
+        1684
+      ]
+    },
+    {
+      "tap": [
+        850,
+        1488
+      ]
+    },
+    {
+      "shot": "02-progress-note-2"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        530,
+        1684
+      ]
+    },
+    {
+      "tap": [
+        850,
+        1642
+      ]
+    },
+    {
+      "shot": "02-progress-note-3"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        530,
+        1684
+      ]
+    },
+    {
+      "tap": [
+        850,
+        1796
+      ]
+    },
+    {
+      "shot": "02-progress-note-4"
+    },
+    {
+      "back": true
+    }
+  ]
+}

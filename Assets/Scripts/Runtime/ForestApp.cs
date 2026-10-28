@@ -241,7 +241,10 @@ namespace ForestShop
             IconButton(header, "", ForestSymbol.Settings, 950, 6, 100, 88, ShowSettings).name = "Settings";
             var goal = Panel(safe, "Current goal", Sand); AnchorBar(goal, true, 88); goal.anchoredPosition = new Vector2(0, -100);
             goalSymbol = Symbol(goal, ForestSymbol.Tea, 30, 13, 60);
-            goalLabel = Label(goal, "", 31, Ink, 108, 8, 700, 72);
+            goalLabel = Label(goal, "", 31, Ink, 108, 8, 648, 72);
+            Symbol(goal,ForestSymbol.Arrow,766,24,40);
+            var goalAction=goal.gameObject.AddComponent<Button>();goalAction.transition=UnityEngine.UI.Selectable.Transition.None;
+            goalAction.onClick.AddListener(()=>{if(State!=null && !State.report.pending)GoJourney(JourneySteps(true)[0]);});
             IconButton(goal, "手册", ForestSymbol.Collection, 838, 5, 220, 78, ShowJourneyHandbook).name = "Journey handbook";
             var productionBar = Panel(safe, "Production updates", new Color32(226, 234, 211, 255)); AnchorBar(productionBar, true, 56); productionBar.anchoredPosition = new Vector2(0, -188);
             productionFlow = Rect(productionBar, "Automatic production flow", 300, 0, 480, 56);

@@ -13,6 +13,9 @@ namespace ForestShop
         bool routeStarted;
         Vector3 lastRoute;
         float lastPhase, routeDistance;
+        float greetedAt = -10;
+
+        public void Greet() { greetedAt = Time.unscaledTime; }
 
         public void Pose(float stride, float reach, float glance = 0, bool animate = false)
         {
@@ -70,7 +73,11 @@ namespace ForestShop
             transform.localPosition = routePosition;
             SetFoot(leftFoot, leftPoint, leftGround + left.lift / parentScale, left, -.27f, routePosition, modelScale);
             SetFoot(rightFoot, rightPoint, rightGround + right.lift / parentScale, right, .27f, routePosition, modelScale);
-            float nod = reach > .01f && phase >= 36 && phase < 37.4f ? Mathf.Sin((phase - 36) * Mathf.PI / 1.4f) : 0;
+            // A small acknowledgement while standing never interrupts a route
+            // or takes over the right hand used by the real-sale presentation.
+            float greeting = !walking ? Mathf.Sin(Mathf.Clamp01((Time.unscaledTime - greetedAt) / 1.25f) * Mathf.PI) : 0;
+            float nod = !walking && phase >= 37 && phase < 37.8f ? Mathf.Sin((phase - 37) * Mathf.PI / .8f) * .5f : 0;
+            nod = Mathf.Max(nod, greeting * .7f);
             PoseUpperBody(stride, reach, glance, true, nod, stairs && walking ? 3 : walking ? 1.5f : 0);
             JoinLegs();
         }
@@ -184,10 +191,11 @@ namespace ForestShop
             if (body == null) body = transform.Find("Sculpted body");
             if (body != null)
             {
-                body.localPosition = new Vector3(-stride * .025f, -Mathf.Abs(stride) * .012f, 0);
-                body.localRotation = Quaternion.Euler(-lean - nod * 7 - glance * 2.5f, glance * 3, stride * 1.4f);
+                float breath = animate ? Mathf.Sin(Time.unscaledTime * (1.5f + resident * .08f) + resident) * .004f : 0;
+                body.localPosition = new Vector3(-stride * .025f, -Mathf.Abs(stride) * .012f + breath, 0);
+                body.localRotation = Quaternion.Euler(-lean - nod * 7 - glance * (resident == 0 ? 4 : 2.5f), glance * (resident == 2 ? -5 : 3), stride * 1.4f);
             }
-            leftArm.localEulerAngles = new Vector3(-stride * 15 + glance * 29, -glance * 5, -13 - glance * 8);
+            leftArm.localEulerAngles = new Vector3(-stride * 15 + glance * (resident == 4 ? 19 : 29) + nod * 14, -glance * 5, -13 - glance * 8 - nod * 4);
             rightArm.localEulerAngles = new Vector3(Mathf.Lerp(stride * 15 + glance * 6, 82, reach), -reach * 5, 13 + reach * 3);
             leftArm.localScale = rightArm.localScale = Vector3.one;
             if (body != null) PlaceShoulders();

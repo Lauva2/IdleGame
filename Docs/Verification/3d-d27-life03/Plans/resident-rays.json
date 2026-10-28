@@ -1,0 +1,199 @@
+{
+  "directory": "Docs/Verification/3d-d27-life03/Evidence/Residents/rays",
+  "steps": [
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "shot": "00-five-world-targets"
+    },
+    {
+      "tap": [
+        233,
+        1145
+      ]
+    },
+    {
+      "shot": "01-ray-0-note"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "02-ray-0-closed"
+    },
+    {
+      "tap": [
+        313,
+        1140
+      ]
+    },
+    {
+      "shot": "01-ray-1-note"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "02-ray-1-closed"
+    },
+    {
+      "tap": [
+        484,
+        1140
+      ]
+    },
+    {
+      "shot": "01-ray-2-note"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "02-ray-2-closed"
+    },
+    {
+      "tap": [
+        647,
+        1160
+      ]
+    },
+    {
+      "shot": "01-ray-3-note"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "02-ray-3-closed"
+    },
+    {
+      "tap": [
+        764,
+        1174
+      ]
+    },
+    {
+      "shot": "01-ray-4-note"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "02-ray-4-closed"
+    },
+    {
+      "drag_hold": [
+        647,
+        1160,
+        650,
+        900,
+        650,
+        400
+      ]
+    },
+    {
+      "shot": "10-drag-from-resident-no-note"
+    },
+    {
+      "tap": [
+        647,
+        1160
+      ]
+    },
+    {
+      "shot": "11-prior-position-after-drag"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        998,
+        1572
+      ]
+    },
+    {
+      "shot": "12-recentered"
+    },
+    {
+      "tap": [
+        764,
+        1174
+      ]
+    },
+    {
+      "shot": "13-recentered-bear-note"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        775,
+        1572
+      ]
+    },
+    {
+      "tap": [
+        775,
+        1572
+      ]
+    },
+    {
+      "tap": [
+        775,
+        1572
+      ]
+    },
+    {
+      "tap": [
+        775,
+        1572
+      ]
+    },
+    {
+      "tap": [
+        775,
+        1572
+      ]
+    },
+    {
+      "shot": "14-wide"
+    },
+    {
+      "drag_hold": [
+        300,
+        900,
+        700,
+        1020,
+        600,
+        400
+      ]
+    },
+    {
+      "shot": "15-wide-drag"
+    },
+    {
+      "tap": [
+        998,
+        1572
+      ]
+    },
+    {
+      "tap": [
+        484,
+        1140
+      ]
+    },
+    {
+      "shot": "16-after-zoom-pan-resident-note"
+    },
+    {
+      "back": true
+    }
+  ]
+}

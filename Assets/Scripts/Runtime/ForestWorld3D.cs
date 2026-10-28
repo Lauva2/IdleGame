@@ -119,7 +119,7 @@ namespace ForestShop
             sun.shadowCustomResolution = 2048;
             Shader.SetGlobalFloat("_ForestShadowTexelSize", 1f / 2048);
             var fill = Group(transform, "Forest reflected light").gameObject.AddComponent<Light>(); fill.type = LightType.Directional; fill.color = Hex(0xC4DDC7); fill.intensity = .18f; fill.transform.localEulerAngles = V(25, 140, 0); fill.cullingMask = 1 << 10;
-            BuildArchitecture(); BuildObjects(); ArrangeForestCourtyard(); BuildExplorationWorld(); BuildFishingWorld(); BuildMoments(); BuildSceneLife();
+            BuildArchitecture(); BuildObjects(); ArrangeForestCourtyard(); BuildExplorationWorld(); BuildFishingWorld(); BuildMoments(); BuildSceneLife(); BuildAmbientLife();
             productionEffects = new ForestProductionEffects(worldRoot, plots, machines, shelves);
             shopping = new ForestShoppingMotion(shopArea, checkout, residentMotion, displayProducts);
             portraitRoot = Group(null, "3D portrait studio", V(2000, 0, 0)); portraitRoot.gameObject.layer = 11;
@@ -637,6 +637,7 @@ namespace ForestShop
             for (int i = 0; i < 5; i++)
             {
                 visitors[i] = ForestModels.Resident(worldRoot, i); visitors[i].localPosition = V(-4.8f + i * 2.4f, 4.64f, ShopLaneZ); visitors[i].localScale = Vector3.one * .62f; residentMotion[i] = visitors[i].GetComponent<ForestResidentMotion>();
+                Hotspot(visitors[i], "resident", i, V(0, 1.05f, 0), V(1.05f, 1.9f, 1));
             }
             checkout = Group(upperRoom, "Little checkout desk", V(-3.7f, 4.64f, -1.2f));
             checkout.localRotation = Quaternion.Euler(0, -90, 0);
@@ -658,7 +659,12 @@ namespace ForestShop
         {
             if(FishingFocused)return;
             Ray ray = worldCamera.ViewportPointToRay(uv);
-            if (Physics.Raycast(ray, out var hit, 100, 1 << 10)) { var target = hit.collider.GetComponent<ForestObject3D>(); if (target != null) Selected?.Invoke(target.kind, target.index); }
+            if (Physics.Raycast(ray, out var hit, 100, 1 << 10))
+            {
+                var target = hit.collider.GetComponent<ForestObject3D>();
+                if (target != null && (target.kind != "resident" || ForestResidentNotes.Known(state, target.index)))
+                    Selected?.Invoke(target.kind, target.index);
+            }
         }
         public void Bind(GameState current)
         {
@@ -696,8 +702,15 @@ namespace ForestShop
             bool stirring = state.machines.Length > 0 && state.machines[0].remaining > 0 && state.machines[0].workItem >= 0 && !state.report.pending && !state.simpleAnimation;
             if (stirring) stirringPhase += Time.unscaledDeltaTime;
             if (spoon != null) spoon.localEulerAngles = stirring ? V(-18 + Mathf.Sin(stirringPhase * 1.5f) * 7, stirringPhase * 26, -28) : V(-18, 0, -28);
+            UpdateAmbientLife();
             UpdateResidents();
         }
+        public void GreetResident(int resident)
+        {
+            if (ForestResidentNotes.Known(state, resident)) residentMotion[resident].Greet();
+        }
+        static Vector3 ShopTravel(Vector3 from, Vector3 to, float progress)
+            => Vector3.Lerp(from, to, Mathf.SmoothStep(0, 1, progress));
         void UpdateResidents()
         {
             if (state == null) return;
@@ -728,20 +741,20 @@ namespace ForestShop
                 if (phase < 8) { at = Vector3.Lerp(outside, foot, phase / 8); yaw = 180; walking = true; }
                 else if (phase < 11) { at = Vector3.Lerp(foot, entrance, (phase - 8) / 3); yaw = 180; walking = true; }
                 else if (phase < 13) { at = Vector3.Lerp(entrance, entryLane, (phase - 11) / 2); yaw = 180; walking = true; }
-                else if (phase < 17) { at = Vector3.Lerp(entryLane, shelfLane, (phase - 13) / 4); yaw = -90; walking = true; }
-                else if (phase < 20) { at = Vector3.Lerp(shelfLane, browse, (phase - 17) / 3); yaw = 180; walking = true; }
-                else if (phase < 27) { at = browse; yaw = 180 + Mathf.Sin(phase * .6f) * 8; walking = false; }
-                else if (phase < 30) { at = Vector3.Lerp(browse, shelfLane, (phase - 27) / 3); yaw = 0; walking = true; }
-                else if (phase < 34) { at = Vector3.Lerp(shelfLane, counter, (phase - 30) / 4); yaw = Quaternion.LookRotation(shelfLane - counter).eulerAngles.y; walking = true; }
+                else if (phase < 17) { at = ShopTravel(entryLane, shelfLane, (phase - 13) / 4); yaw = -90; walking = true; }
+                else if (phase < 20) { at = ShopTravel(shelfLane, browse, (phase - 17) / 3); yaw = 180; walking = true; }
+                else if (phase < 27) { at = browse; yaw = 180 + Mathf.Sin((phase - 20) * .7f) * 5; walking = false; }
+                else if (phase < 30) { at = ShopTravel(browse, shelfLane, (phase - 27) / 3); yaw = 0; walking = true; }
+                else if (phase < 34) { at = ShopTravel(shelfLane, counter, (phase - 30) / 4); yaw = Quaternion.LookRotation(shelfLane - counter).eulerAngles.y; walking = true; }
                 else if (phase < 38) { at = counter; yaw = 90; walking = false; }
-                else if (phase < 39) { at = Vector3.Lerp(counter, entryLane, phase - 38); yaw = Quaternion.LookRotation(counter - entryLane).eulerAngles.y; walking = true; }
+                else if (phase < 39) { at = ShopTravel(counter, entryLane, phase - 38); yaw = Quaternion.LookRotation(counter - entryLane).eulerAngles.y; walking = true; }
                 else if (phase < 41) { at = Vector3.Lerp(entryLane, entrance, (phase - 39) / 2); yaw = 0; walking = true; }
                 else if (phase < 44) { at = Vector3.Lerp(entrance, foot, (phase - 41) / 3); yaw = 0; walking = true; }
                 else { at = Vector3.Lerp(foot, outside, Mathf.Clamp01((phase - 44) / 8)); yaw = 0; walking = true; }
-                if (simple) { at = V(-4.8f + i * 2.4f, 4.64f, ShopLaneZ); yaw = -8; walking = false; }
+                if (simple) { at = V(-4.8f + i * 2.4f + (i == 0 ? 1.2f : i == 4 ? -.65f : 0), 4.64f, ShopLaneZ); yaw = -8; walking = false; }
                 float browseGesture = !simple && phase >= 21 && phase < 26 ? Mathf.Sin((phase - 21) * Mathf.PI / 5) : 0;
                 Quaternion facing = simple ? Quaternion.Euler(0, yaw, 0)
-                    : Quaternion.RotateTowards(visitors[i].localRotation, Quaternion.Euler(0, yaw, 0), 240 * Time.unscaledDeltaTime);
+                    : Quaternion.RotateTowards(visitors[i].localRotation, Quaternion.Euler(0, yaw, 0), 180 * Time.unscaledDeltaTime);
                 residentMotion[i].PoseRoute(at, facing, phase, walking, 0, browseGesture, !simple);
                 shopping?.Pose(i, phase, i % state.shelves.Length, known && phase < 51.8f, simple);
             }

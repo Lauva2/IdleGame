@@ -1,4 +1,4 @@
-param([Parameter(Mandatory=$true)][string]$Folder,[ValidateSet('Legacy','Journey','Fishing','Presentation','All')][string]$Group='All')
+param([Parameter(Mandatory=$true)][string]$Folder,[ValidateSet('Legacy','Journey','Fishing','Presentation','All')][string]$Group='All',[switch]$Compact)
 $ErrorActionPreference='Stop';Set-Location (Split-Path -Parent $PSScriptRoot)
 if(!$env:FOREST_ADB_SERIAL){throw 'Explicit device required'}
 function Step([string]$Name,[scriptblock]$Run){
@@ -14,12 +14,12 @@ if($Group -in @('Legacy','All')){
  Step 'decorations' { & Tools/Capture-ForestReviewDetails.ps1 -Folder $Folder -Mode Facilities }
 }
 if($Group -in @('Journey','All')){
- Step 'journey' { & Tools/Capture-JourneyReview.ps1 -Folder $Folder }
+ Step 'journey' { & Tools/Capture-JourneyReview.ps1 -Folder $Folder -StillsOnly:$Compact }
  Step 'resin-fit' { & Tools/Capture-JourneyResinFit.ps1 -Folder $Folder }
  Step 'pavilion-fit' { & Tools/Capture-JourneyPavilion.ps1 -Folder $Folder }
 }
 if($Group -in @('Fishing','All')){
- Step 'fish-gallery' { & Tools/Capture-FishingGallery.ps1 -Folder $Folder -RunTag r01 -JourneyLayout }
+ Step 'fish-gallery' { & Tools/Capture-FishingGallery.ps1 -Folder $Folder -RunTag r01 -JourneyLayout -StillsOnly:$Compact }
  Step 'fish-qualities' { & Tools/Capture-FishingQualities.ps1 -Folder $Folder -PresentationLayout }
  Step 'fish-notices' { & Tools/Capture-FishingNotices.ps1 -Folder $Folder -PresentationLayout }
  Step 'fish-fit' { & Tools/Capture-FishingAdaptation.ps1 -Folder $Folder -JourneyLayout }

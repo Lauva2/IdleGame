@@ -1,0 +1,43 @@
+{
+  "scope": "Latest actual ordinary primary/backup, after all isolated fixtures; no prepared resources or fish are restored. Snapshot money continues to grow during normal foreground operation.",
+  "checkpointSha256": "C692957D109D8E5157DC4552667076FBF4EA18EAC586767A926C9C6F8391A9B6",
+  "backupSha256": "51E1BE2704AE0D228533BE64D3EF31218ACB197CBD287F33B436B514707DD3B8",
+  "finalSaveSha256": "B9AFA566D62C619036E546F57213C89A6CEE80FC7D48480C90D5A46330F98CF2",
+  "coins": 1515320,
+  "sales": 1544358,
+  "fish": 72,
+  "discovered": 6,
+  "plots": 6,
+  "shelves": 2,
+  "awaySeconds": 46629.657471,
+  "offlineCoins": 75840,
+  "pausedClockRoundtripErrorSeconds": 0.0,
+  "pausedClockToleranceSeconds": 1e-10,
+  "checks": {
+    "latest_documented_primary_and_backup_restored_exactly": true,
+    "protected_primary_is_latest_audited_ordinary": true,
+    "all_fish_records_and_paused_clock_unchanged": true,
+    "normal_catches_and_species_kept": true,
+    "no_pending_report_after_actual_claim": true,
+    "fishing_paused": true,
+    "original_chapter_and_forest_progress_kept": true,
+    "ordinary_configuration_kept": true,
+    "money_only_follows_original_sales": true,
+    "protected_progress_not_rolled_back": true,
+    "full_offline_replay_passed": true,
+    "latest_ordinary_moments_and_arrangements_kept": true
+  },
+  "allPassed": true,
+  "moments": {
+    "stages": [
+      3,
+      3,
+      3
+    ],
+    "choices": [
+      0,
+      1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+﻿
+﻿
+﻿PASS valid prepared moment fixture E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\moment-finished.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03/Prepared/moment-finished.save: 1 file pushed, 0 skipped. 10.8 MB/s (6779 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03/Prepared/moment-finished.save: 1 file pushed, 0 skipped. 10.6 MB/s (6779 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1376
+WaitTime: 1380
+Complete
+COMPLETE prepared moment-finished
+{'shot': 'courtyard-rest'}
+{'wait': 9}
+{'shot': 'courtyard-cycle'}
+{'tap': [390, 300]}
+{'wait': 9}
+{'shot': 'garden-and-mature-feedback'}
+{'tap': [660, 300]}
+{'wait': 9}
+{'shot': 'workshop-and-feedback'}
+{'tap': [150, 410]}
+{'tap': [170, 290]}
+{'shot': 'forest-0-start'}
+{'wait': 9}
+{'shot': 'forest-0-cycle'}
+{'tap': [520, 290]}
+{'shot': 'forest-1-start'}
+{'wait': 9}
+{'shot': 'forest-1-cycle'}
+{'tap': [870, 290]}
+{'shot': 'forest-2-start'}
+{'wait': 9}
+{'shot': 'forest-2-cycle'}
+/sdcard/3d-d27-life03-resident-ambient-regions.mp4: 1 file pulled, 0 skipped. 16.2 MB/s (30534413 bytes in 1.795s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 0.6 MB/s (6847 bytes in 0.011s)

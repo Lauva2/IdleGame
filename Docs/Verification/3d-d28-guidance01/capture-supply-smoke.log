@@ -1,0 +1,25 @@
+PREPARED supply-smoke; not ordinary progress
+﻿
+Docs/Verification/3d-d28-guidance01/Prepared/supply-smoke.save: 1 file pushed, 0 skipped. 5.5 MB/s (6536 bytes in 0.001s)
+Docs/Verification/3d-d28-guidance01/Prepared/supply-smoke.save: 1 file pushed, 0 skipped. 12.5 MB/s (6536 bytes in 0.000s)
+{'shot': '01-started-current-goal'}
+{'tap': [400, 145]}
+{'shot': '02-top-goal-ingredient'}
+{'back': True}
+{'tap': [530, 1850]}
+{'shot': '03-order-stock-and-reservation'}
+{'tap': [850, 853]}
+{'shot': '04-supply-route-reserved'}
+{'tap': [850, 1600]}
+{'shot': '05-ingredient-plot-destination'}
+{'back': True}
+{'tap': [530, 1850]}
+{'tap': [850, 853]}
+{'shot': '06-route-footer'}
+{'tap': [850, 1770]}
+{'shot': '07-recipe-destination'}
+{'back': True}
+/sdcard/3d-d28-guidance01-supply-smoke.mp4: 1 file pulled, 0 skipped. 20.3 MB/s (6097354 bytes in 0.286s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.5 MB/s (6935 bytes in 0.003s)
+﻿
+COMPLETE bounded supply smoke; restore ordinary pair next

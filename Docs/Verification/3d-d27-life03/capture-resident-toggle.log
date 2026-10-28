@@ -1,0 +1,46 @@
+﻿
+﻿
+﻿PASS valid prepared moment fixture E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\moment-finished.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03/Prepared/moment-finished.save: 1 file pushed, 0 skipped. 9.6 MB/s (6779 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03/Prepared/moment-finished.save: 1 file pushed, 0 skipped. 10.7 MB/s (6779 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1430
+WaitTime: 1437
+Complete
+COMPLETE prepared moment-finished
+{'shot': '00-normal-courtyard'}
+{'wait': 9}
+{'tap': [1000, 50]}
+{'shot': '01-setting-before'}
+{'tap': [850, 1471]}
+{'shot': '02-setting-actually-simplified'}
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 3.1 MB/s (6851 bytes in 0.002s)
+{'back': True}
+{'wait': 9}
+{'shot': '03-simple-courtyard-rest'}
+{'tap': [930, 300]}
+{'wait': 3}
+{'shot': '04-simple-all-five'}
+{'tap': [390, 300]}
+{'wait': 3}
+{'shot': '05-simple-garden'}
+{'tap': [660, 300]}
+{'wait': 3}
+{'shot': '06-simple-workshop'}
+{'tap': [150, 410]}
+{'tap': [170, 290]}
+{'wait': 9}
+{'shot': '07-simple-forest-rest'}
+{'tap': [1000, 50]}
+{'shot': '08-setting-simple-kept'}
+{'tap': [850, 1471]}
+{'shot': '09-setting-actually-full'}
+{'back': True}
+{'wait': 9}
+{'shot': '10-normal-forest-cycle'}
+/sdcard/3d-d27-life03-resident-toggle.mp4: 1 file pulled, 0 skipped. 14.9 MB/s (26460895 bytes in 1.689s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 2.0 MB/s (6822 bytes in 0.003s)

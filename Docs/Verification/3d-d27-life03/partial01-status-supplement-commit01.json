@@ -1,0 +1,45 @@
+{
+  "scope": "partial01 remains the original historical point-in-time index. Later fixture activations, growing input journals and appended status continued after it; these current paths no longer assert equality to that earlier metadata snapshot. Original APK/source archive/manifest and independent reports remain separately preserved; original media index partial01 is not overwritten. Current handoff metadata receives a new commit01 snapshot.",
+  "changedCurrentPaths": [
+    {
+      "path": "Evidence/Ordinary/actions.jsonl",
+      "partial01Sha256": "3102DF65A36E8CE770A1A83AFEA97C9389BE9B50FDA3814DD3AF71427BF48C26",
+      "currentSha256": "9553FC24ACDF690166479BEECCC378E8266F7122823C1640E88D5C2E05551A7D"
+    },
+    {
+      "path": "Prepared/greeting-after.save",
+      "partial01Sha256": "492EED33CFD8FFAE143561BAE6BE782B45C4FC95B0E04CEC681302C3FC597445",
+      "currentSha256": "70D95146112F441E99E55429271BA099AAF34A97D847731854AF0F566A423D81"
+    },
+    {
+      "path": "Prepared/greeting-first.save",
+      "partial01Sha256": "064D93DC54D5779A14134A157DDAC23E26FA041E7D2B844BA5AA030489988431",
+      "currentSha256": "1407D458A6773AFB3D6F9C02CEF4D0E6CD9644856C43903509407589740AEB36"
+    },
+    {
+      "path": "Prepared/greeting-middle.save",
+      "partial01Sha256": "BDF32308339178C8AA57FDA49DBE5A2936BFB08AAE773CDE7B9849D45684EB48",
+      "currentSha256": "611566FF43B557F532228B9EB16422B5D9E3DEC1D3BA3DE32497B6C79F8C3BA1"
+    },
+    {
+      "path": "Prepared/simple.save",
+      "partial01Sha256": "34B990F386922F08A28CF649259D31ABEBCC3E883DBDDBE6585B39DF253963A5",
+      "currentSha256": "F8F841E5EE865E10975C84035F047DD677C2FA3A8A96C2D0677BCA8E5167B709"
+    },
+    {
+      "path": "prepared-activation.txt",
+      "partial01Sha256": "3A09676CA24CB6E8A1B6B258F76CB7FA3EF327B967B1625476608350966E3E4E",
+      "currentSha256": "0EE888E63E0375BE0C32D4B67BB26986D1DB9E5EB3551F8AC0F13E1FC51E1A94"
+    },
+    {
+      "path": "prepared-input-identity.jsonl",
+      "partial01Sha256": "C3D446C6F8B04E7367EF0962AED54929016C52E95766716E2C7D5C47F4A7C5BF",
+      "currentSha256": "EE96EB038B5239C2389B370456D9AAA6CE1C6287E7B7772EF5086DFE45D055A0"
+    },
+    {
+      "path": "阶段验证记录.md",
+      "partial01Sha256": "81C4BD565568891C0A29D6911E47289732EB0748712F6436B5A40760DF488826",
+      "currentSha256": "5ECE8F3CF72C6D3870215C98E48DA5C522F9C0D8C3B8000196873B683C21405A"
+    }
+  ]
+}

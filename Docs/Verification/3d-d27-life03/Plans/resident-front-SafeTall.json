@@ -1,0 +1,26 @@
+{
+  "directory": "Docs/Verification/3d-d27-life03/Evidence/Residents/front-SafeTall",
+  "steps": [
+    {
+      "tap": [
+        930,
+        384
+      ]
+    },
+    {
+      "tap": [
+        530,
+        1740
+      ]
+    },
+    {
+      "tap": [
+        850,
+        1488
+      ]
+    },
+    {
+      "shot": "00-longest-note-foreground"
+    }
+  ]
+}

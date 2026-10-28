@@ -1,0 +1,93 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\greeting-first.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\greeting-first.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\greeting-first.save: 1 file pushed, 0 skipped. 10.7 MB/s (5239 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\greeting-first.save: 1 file pushed, 0 skipped. 7.3 MB/s (5239 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1384
+WaitTime: 1391
+Complete
+{'tap': [930, 300]}
+{'shot': '00-progress-world'}
+{'tap': [530, 1684]}
+{'shot': '01-recognition-gate'}
+{'tap': [850, 1720]}
+{'shot': '02-progress-note-0'}
+{'back': True}
+/sdcard/3d-d27-life03-greeting-first.mp4: 1 file pulled, 0 skipped. 20.5 MB/s (3745125 bytes in 0.175s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.4 MB/s (2954 bytes in 0.002s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\greeting-middle.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\greeting-middle.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\greeting-middle.save: 1 file pushed, 0 skipped. 11.7 MB/s (6537 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\greeting-middle.save: 1 file pushed, 0 skipped. 10.6 MB/s (6537 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1236
+WaitTime: 1240
+Complete
+{'tap': [930, 300]}
+{'shot': '00-progress-world'}
+{'tap': [530, 1684]}
+{'shot': '01-recognition-gate'}
+{'tap': [850, 1471]}
+{'shot': '02-progress-note-0'}
+{'back': True}
+{'tap': [530, 1684]}
+{'tap': [850, 1625]}
+{'shot': '02-progress-note-1'}
+{'back': True}
+{'tap': [530, 1684]}
+{'tap': [850, 1779]}
+{'shot': '02-progress-note-2'}
+{'back': True}
+/sdcard/3d-d27-life03-greeting-middle.mp4: 1 file pulled, 0 skipped. 18.4 MB/s (7422183 bytes in 0.384s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.8 MB/s (4454 bytes in 0.002s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\greeting-after.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\greeting-after.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\greeting-after.save: 1 file pushed, 0 skipped. 10.3 MB/s (6533 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\greeting-after.save: 1 file pushed, 0 skipped. 8.5 MB/s (6533 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1530
+WaitTime: 1537
+Complete
+{'tap': [930, 300]}
+{'shot': '00-progress-world'}
+{'tap': [530, 1684]}
+{'shot': '01-recognition-gate'}
+{'tap': [850, 1180]}
+{'shot': '02-progress-note-0'}
+{'back': True}
+{'tap': [530, 1684]}
+{'tap': [850, 1334]}
+{'shot': '02-progress-note-1'}
+{'back': True}
+{'tap': [530, 1684]}
+{'tap': [850, 1488]}
+{'shot': '02-progress-note-2'}
+{'back': True}
+{'tap': [530, 1684]}
+{'tap': [850, 1642]}
+{'shot': '02-progress-note-3'}
+{'back': True}
+{'tap': [530, 1684]}
+{'tap': [850, 1796]}
+{'shot': '02-progress-note-4'}
+{'back': True}
+/sdcard/3d-d27-life03-greeting-after.mp4: 1 file pulled, 0 skipped. 17.9 MB/s (10211915 bytes in 0.545s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.6 MB/s (4441 bytes in 0.003s)

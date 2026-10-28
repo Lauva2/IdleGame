@@ -1,0 +1,50 @@
+{
+  "steps": [
+    {
+      "shot": "04-reward-dialogue-rabbit-top"
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1760,
+        850,
+        1300,
+        650
+      ]
+    },
+    {
+      "wait": 1
+    },
+    {
+      "shot": "04-reward-dialogue-rabbit-bottom"
+    }
+  ],
+  "directory": "E:\\UnityProject\\IdleGame\\Docs\\Verification\\3d-d27-life03\\Evidence\\Panels\\Default"
+}

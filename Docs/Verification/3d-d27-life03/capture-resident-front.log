@@ -1,0 +1,86 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save: 1 file pushed, 0 skipped. 4.7 MB/s (6533 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save: 1 file pushed, 0 skipped. 9.7 MB/s (6533 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2079
+WaitTime: 2086
+Complete
+{'tap': [930, 300]}
+{'tap': [530, 1684]}
+{'tap': [850, 1488]}
+{'shot': '00-longest-note-foreground'}
+{'tap': [850, 1830]}
+{'shot': '01-actual-footer-close'}
+COMPLETE game-foreground fit Default
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save: 1 file pushed, 0 skipped. 3.7 MB/s (6533 bytes in 0.002s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save: 1 file pushed, 0 skipped. 9.5 MB/s (6533 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2074
+WaitTime: 2079
+Complete
+{'tap': [930, 300]}
+{'tap': [530, 1684]}
+{'tap': [850, 1908]}
+{'shot': '00-longest-note-foreground'}
+{'tap': [850, 2250]}
+{'shot': '01-actual-footer-close'}
+COMPLETE game-foreground fit Long
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save.tmp: 1 file pulled, 0 skipped. 0.6 MB/s (4444 bytes in 0.007s)
+PRESERVED prior temporary input before prepared replacement
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save: 1 file pushed, 0 skipped. 6.2 MB/s (6533 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save: 1 file pushed, 0 skipped. 9.1 MB/s (6533 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1478
+WaitTime: 1483
+Complete
+{'tap': [620, 200]}
+{'tap': [353, 1123]}
+{'tap': [567, 1312]}
+{'shot': '00-longest-note-foreground'}
+{'tap': [567, 1540]}
+{'shot': '01-actual-footer-close'}
+COMPLETE game-foreground fit Narrow
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save: 1 file pushed, 0 skipped. 9.5 MB/s (6533 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save: 1 file pushed, 0 skipped. 10.3 MB/s (6533 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1340
+WaitTime: 1348
+Complete
+{'tap': [930, 384]}
+{'tap': [530, 1740]}
+{'tap': [850, 1488]}
+{'shot': '00-longest-note-foreground'}
+{'tap': [850, 1830]}
+{'shot': '01-actual-footer-close'}
+COMPLETE game-foreground fit SafeTall

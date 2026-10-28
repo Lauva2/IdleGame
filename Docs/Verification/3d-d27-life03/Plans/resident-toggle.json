@@ -1,0 +1,95 @@
+{
+  "steps": [
+    {
+      "back": true
+    },
+    {
+      "wait": 9
+    },
+    {
+      "shot": "03-simple-courtyard-rest"
+    },
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "wait": 3
+    },
+    {
+      "shot": "04-simple-all-five"
+    },
+    {
+      "tap": [
+        390,
+        300
+      ]
+    },
+    {
+      "wait": 3
+    },
+    {
+      "shot": "05-simple-garden"
+    },
+    {
+      "tap": [
+        660,
+        300
+      ]
+    },
+    {
+      "wait": 3
+    },
+    {
+      "shot": "06-simple-workshop"
+    },
+    {
+      "tap": [
+        150,
+        410
+      ]
+    },
+    {
+      "tap": [
+        170,
+        290
+      ]
+    },
+    {
+      "wait": 9
+    },
+    {
+      "shot": "07-simple-forest-rest"
+    },
+    {
+      "tap": [
+        1000,
+        50
+      ]
+    },
+    {
+      "shot": "08-setting-simple-kept"
+    },
+    {
+      "tap": [
+        850,
+        1471
+      ]
+    },
+    {
+      "shot": "09-setting-actually-full"
+    },
+    {
+      "back": true
+    },
+    {
+      "wait": 9
+    },
+    {
+      "shot": "10-normal-forest-cycle"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d27-life03/Evidence/Residents/toggle"
+}

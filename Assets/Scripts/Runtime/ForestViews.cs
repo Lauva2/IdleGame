@@ -28,6 +28,7 @@ namespace ForestShop
                     if (index == State.plots.Length) OpenObject("expansion", 0);
                     else Toast("田地按顺序开放，请先查看第 " + (State.plots.Length + 1) + " 块地的扩建条件。", 3);
                 }
+                else if (kind == "resident") ShowResidentNote(index);
                 else OpenObject(kind, index);
             };
             return world3D;
@@ -152,7 +153,9 @@ namespace ForestShop
             IconButton(view, "", ForestSymbol.ZoomOut, 730, viewHeight - 108, 96, 88, () => world.Zoom(1.22f)).name = "Map zoom out";
             IconButton(view, "", ForestSymbol.ZoomIn, 840, viewHeight - 108, 96, 88, () => world.Zoom(1 / 1.22f)).name = "Map zoom in";
             IconButton(view, "", ForestSymbol.Recenter, 950, viewHeight - 108, 96, 88, world.ResetCamera).name = "Map recenter";
-            Label(content, "拖动平移 · 双指缩放", 23, Sage, 350, viewTop + viewHeight + 12, 350, 72, TextAnchor.MiddleCenter).name = "Camera gestures outside world";
+            if (world.Region == 3)
+                Button(content, "问候邻居", 350, viewTop + viewHeight + 12, 350, 72, ShowResidentNotes).name = "Resident greetings";
+            else Label(content, "拖动平移 · 双指缩放", 23, Sage, 350, viewTop + viewHeight + 12, 350, 72, TextAnchor.MiddleCenter).name = "Camera gestures outside world";
             if (world.Region == 3)
                 IconButton(view, "", ForestSymbol.Info, 956, 16, 96, 88, ShowShelfHelp).name = "Shelf details";
             if (world.Region == 1) for (int i = 0; i < Catalog.MaxPlots; i++)
@@ -305,7 +308,7 @@ namespace ForestShop
                 Button(card, o.story || o.forestStory ? "暂停故事" : "取消委托", 535, 252, 450, 67, () => Act(Engine.CancelOrder, o.story || o.forestStory ? "故事已暂停，可随时继续。" : "委托已取消，下次刷新替换。"));
                 var deliver = Button(card, "交付委托", 25, 332, 600, 65, () => Act(Engine.DeliverOrder, "心愿已完成，奖励已存档。"), true, true);
                 bindings.Add(() => deliver.interactable = State.items[o.item] >= o.count);
-                Button(card, "前往设备", 655, 332, 330, 65, () => { ShowPage("小店"); OpenObject("machine", Catalog.Machine[o.item]); });
+                Button(card, "备货路线", 655, 332, 330, 65, () => ShowSupplyGuide(o.item));
             }
             else
             {
@@ -448,6 +451,11 @@ namespace ForestShop
                 if (index >= State.machines.Length) { CloseSheet(); OpenObject("expansion", 0); return; }
                 var f = State.machines[index]; var status = Label(sheetContent, "", 29, Ink, 38, sheetY, 1000, 115); sheetY += 130;
                 modalBindings.Add(() => status.text = "等级 " + f.level + "/5 · " + Engine.MachineStatus(f) + (f.pending >= 0 ? "\n下轮配方：" + Catalog.Items[f.pending] : "\n材料充足时自动循环加工"));
+                if(f.config>=0)
+                {
+                    int guideItem=f.pending>=0?f.pending:f.config;
+                    Row("原料与去向",Catalog.Items[guideItem]+" · 查看材料来源与去向。",ItemIcon(guideItem),"备货路线",()=>ShowSupplyGuide(f.pending>=0?f.pending:f.config));
+                }
                 if (f.pending >= 0) Row("待切换配方", Catalog.Items[f.pending], ItemIcon(f.pending), "取消切换", () => { Engine.CancelSwitch(f); Save(); OpenObject(type, index); });
                 for (int i = 0; i < Catalog.Items.Length; i++)
                 {

@@ -1,9 +1,10 @@
-param([Parameter(Mandatory=$true)][string]$Folder,[Parameter(Mandatory=$true)][ValidateSet('Flow','Fit','States','Reload')][string]$Group,[ValidateSet('Default','Long','Narrow','SafeTall')][string[]]$Profiles=@('Default','Long','Narrow','SafeTall'),[ValidatePattern('^[a-z0-9-]*$')][string]$RunTag='')
+param([Parameter(Mandatory=$true)][string]$Folder,[Parameter(Mandatory=$true)][ValidateSet('Flow','Fit','States','Reload')][string]$Group,[ValidateSet('Default','Long','Narrow','SafeTall')][string[]]$Profiles=@('Default','Long','Narrow','SafeTall'),[ValidatePattern('^[a-z0-9-]*$')][string]$RunTag='',[switch]$Compact)
 $ErrorActionPreference='Stop';Set-Location (Split-Path -Parent $PSScriptRoot)
 if(!$env:FOREST_ADB_SERIAL){throw 'Explicit device required'}
 $serial=$env:FOREST_ADB_SERIAL;$adb=(Resolve-Path Tools/AndroidSdk/platform-tools/adb.exe).Path
 $python='C:/Users/Lauva/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
 $candidate=Split-Path -Leaf $Folder;$cutout='com.android.internal.display.cutout.emulation.tall'
+. Tools/Forest-ReviewRecorder.ps1
 foreach($name in @('normal-restorable.save','normal-restorable.save.bak','ordinary-fishing-audit.json')){if(!(Test-Path "$Folder/$name")){throw 'Protect and audit all latest ordinary progress before fixtures'}}
 function A([string[]]$p){& $adb -P 5038 -s $serial @p;if($LASTEXITCODE -ne 0){throw 'Moment review device action failed'}}
 function Plan($name,$steps,$dir){
@@ -18,10 +19,11 @@ function RecordStart($name,$seconds){
  $file="$Folder/Evidence/$name.mp4";if(Test-Path $file){throw 'Keep original recording'}
  $remote="/sdcard/$candidate-$name.mp4"
  [DateTime]::UtcNow.ToString('o')|Set-Content "$Folder/$name-start.txt"
+ if($Compact){return (Start-ForestReviewRecorder $Folder $name 180)}
  $process=Start-Process -FilePath $adb -ArgumentList '-P','5038','-s',$serial,'shell','screenrecord','--bit-rate','4000000','--time-limit',([string]$seconds),$remote -WindowStyle Hidden -PassThru
  @{process=$process;remote=$remote;file=$file}
 }
-function RecordEnd($record){$record.process.WaitForExit();if($record.process.ExitCode -ne 0){throw 'Moment recorder failed'};A @('pull',$record.remote,$record.file)}
+function RecordEnd($record){if($Compact){Stop-ForestReviewRecorder $record;return};$record.process.WaitForExit();if($record.process.ExitCode -ne 0){throw 'Moment recorder failed'};A @('pull',$record.remote,$record.file)}
 try{
  A @('shell','cmd','overlay','disable',$cutout);A @('shell','wm','size','reset')
  if($Group -eq 'Flow'){
@@ -42,7 +44,9 @@ try{
    # Neutral names avoid asserting that an offscreen/ghost test succeeded solely
    # because the legacy gesture sequence was replayed.
    $steps+=@(@{tap=@(775,1640)},@{shot='30-world-zoom-out'},@{swipe=@(540,800,100,1500,900)},@{swipe=@(540,800,100,1500,900)},@{shot='31-after-two-boundary-drags'},@{tap=@(540,1315)},@{shot='32-after-tap-at-prior-position'},@{tap=@(998,1640)},@{shot='33-recenter'})
-   $steps+=@(@{tap=@(950,160)},@{shot='34-handbook-finished'},@{tap=@(925,1805)},@{shot='35-journal-top'},@{drag_hold=@(1000,1750,1000,1100,500,600)},@{shot='36-journal-footer'},@{back=$true})
+   # The prior-position tap can legitimately open a pavilion card while it is
+   # still visible. Close it before exercising the four handbook entrances.
+   $steps+=@(@{back=$true},@{tap=@(950,160)},@{shot='34-handbook-finished'},@{tap=@(925,1805)},@{shot='35-journal-top'},@{drag_hold=@(1000,1750,1000,1100,500,600)},@{shot='36-journal-footer'},@{back=$true})
    Plan ('flow-'+$variant) $steps $dir
    A @('pull','/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save',"$Folder/moment-flow-$variant-after.save")
    RecordEnd $record

@@ -1,0 +1,19 @@
+{
+  "candidate": "3d-d27-life03",
+  "utc": "2026-10-28T01:10:04.386709+00:00",
+  "sourceBaseCommit": "1a1150fe8e6214f4a138e0b6d6c8bae968753ac9",
+  "sourceInputFiles": 233,
+  "sourceManifest": "Docs\\Verification\\3d-d27-life03\\source-files.sha256",
+  "sourceManifestSha256": "60D26D46039E78ED3996C2E1CEAB8C3BF6D53D2EE4A820DCF143778C37681D3E",
+  "apk": "Builds\\Android\\3d-d27-life03\\ForestShop-3d-d27-life03.apk",
+  "apkBytes": 45751490,
+  "apkSha256": "AAF4883120A9A00FC115D1101C56C5CC0E6C019AEAEC249FCF8B758901506F6A",
+  "sourceArchive": "Builds\\Android\\3d-d27-life03\\build-source-inputs.zip",
+  "sourceArchiveBytes": 57895468,
+  "sourceArchiveSha256": "AFBA2421F4998C1AC5FA85C41510FD2547CFBD353244AC783080C90D932C5D8B",
+  "sourceArchiveVerified": true,
+  "build": "Unity2022.3.62f2 IL2CPP Release ARM64+ARMv7 non-development GLES3 API23-32",
+  "version": "0.2.7",
+  "versionCode": 9,
+  "artAcceptance": "Pending independent evaluation of this exact APK. Editor and earlier candidate scores do not transfer."
+}

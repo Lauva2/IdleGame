@@ -1,0 +1,19 @@
+{
+  "candidate": "3d-d28-guidance01",
+  "utc": "2026-10-28T15:21:27.666532+00:00",
+  "sourceBaseCommit": "1a1150fe8e6214f4a138e0b6d6c8bae968753ac9",
+  "sourceInputFiles": 239,
+  "sourceManifest": "Docs\\Verification\\3d-d28-guidance01\\source-files.sha256",
+  "sourceManifestSha256": "C042DA1C7DDCA806D490EBA0FD635CE2914B030413E67EC96B58672E90864438",
+  "apk": "Builds\\Android\\3d-d28-guidance01\\ForestShop-3d-d28-guidance01.apk",
+  "apkBytes": 45764592,
+  "apkSha256": "FCA53C338F9922EA5E2CE18DA9C99CB4947D10A4274A268116AF0ED8593B60F5",
+  "sourceArchive": "Builds\\Android\\3d-d28-guidance01\\build-source-inputs.zip",
+  "sourceArchiveBytes": 57903702,
+  "sourceArchiveSha256": "30DE9A0B81B256B8F6A64C2D2B244610AD46F99086B0130F2CEF9405779966FB",
+  "sourceArchiveVerified": true,
+  "build": "Unity2022.3.62f2 IL2CPP Release ARM64+ARMv7 non-development GLES3 API23-32",
+  "version": "0.2.8",
+  "versionCode": 10,
+  "artAcceptance": "Pending independent evaluation of this exact APK. Editor and earlier candidate scores do not transfer."
+}

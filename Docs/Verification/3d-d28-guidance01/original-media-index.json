@@ -1,0 +1,80 @@
+{
+  "scope": "Native originals only, no decoded frames generated.",
+  "files": [
+    {
+      "path": "Evidence/Ordinary/01-restored-report.png",
+      "bytes": 784981,
+      "sha256": "59895819EF3C320705140E70BA907F3F27EA9CD91C64408D52E7F7A3CD00AC91",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/02-report-footer.png",
+      "bytes": 785156,
+      "sha256": "1EBA2DCA2E71C4F762F6745296D9785B9F11986DB5EF9F922F5136944D55A6A8",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Ordinary/03-normal-progress-restored.png",
+      "bytes": 1682422,
+      "sha256": "AA10C16DFFFCE77E5B95D687BEB495D2365525CB13273209CA992E82B15DAE86",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Smoke/01-started-current-goal.png",
+      "bytes": 1684859,
+      "sha256": "EF01DDB2A60D4C9E4E3D1C7A2779DEEC91EEFEB2C6A0E2B94B55917CE357001C",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Smoke/02-top-goal-ingredient.png",
+      "bytes": 433234,
+      "sha256": "C498D89634C2AC8540F733015EAC4CF4B667E85A927F94897890DAEA765FEB28",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Smoke/03-order-stock-and-reservation.png",
+      "bytes": 255972,
+      "sha256": "CDB053403F491641BDC2EAF517554E4FF41DD4F32499C50870A5284E97CF4979",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Smoke/04-supply-route-reserved.png",
+      "bytes": 245793,
+      "sha256": "3C825D23215D3C4453604162B9BDE0935026BD043A73C09EAA38F26BE55938AA",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Smoke/05-ingredient-plot-destination.png",
+      "bytes": 433619,
+      "sha256": "90F88007277358234CEF7A723C261C943E43C84A26083BF9A0E6D5AACF9EC5AF",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Smoke/06-route-footer.png",
+      "bytes": 245486,
+      "sha256": "004FCAEAD8E5ED7818895D4980634768917ECE58FC6F3130DDBFB7E5928EF351",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/Smoke/07-recipe-destination.png",
+      "bytes": 512645,
+      "sha256": "237AD400829000BDF2ACE21D997831C9AB003F524B1B21A715B2F8B36D2071CD",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "Evidence/supply-smoke.mp4",
+      "bytes": 6097354,
+      "sha256": "21F037E283D170A4376ABE27B4AEFEC565D4901CB7E9A2CA62451D680BEBC78A"
+    }
+  ]
+}

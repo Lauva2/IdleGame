@@ -1,0 +1,77 @@
+{
+  "directory": "Docs/Verification/3d-d28-guidance01/Evidence/Smoke",
+  "steps": [
+    {
+      "shot": "01-started-current-goal"
+    },
+    {
+      "tap": [
+        400,
+        145
+      ]
+    },
+    {
+      "shot": "02-top-goal-ingredient"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        530,
+        1850
+      ]
+    },
+    {
+      "shot": "03-order-stock-and-reservation"
+    },
+    {
+      "tap": [
+        850,
+        853
+      ]
+    },
+    {
+      "shot": "04-supply-route-reserved"
+    },
+    {
+      "tap": [
+        850,
+        1600
+      ]
+    },
+    {
+      "shot": "05-ingredient-plot-destination"
+    },
+    {
+      "back": true
+    },
+    {
+      "tap": [
+        530,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        850,
+        853
+      ]
+    },
+    {
+      "shot": "06-route-footer"
+    },
+    {
+      "tap": [
+        850,
+        1770
+      ]
+    },
+    {
+      "shot": "07-recipe-destination"
+    },
+    {
+      "back": true
+    }
+  ]
+}

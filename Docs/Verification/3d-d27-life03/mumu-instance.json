@@ -1,0 +1,22 @@
+{
+  "index": "0",
+  "name": "MuMu安卓设备",
+  "is_main": true,
+  "error_code": 0,
+  "disk_size_bytes": 48099220214,
+  "created_timestamp": 1754038199112343,
+  "is_android_started": true,
+  "is_process_started": true,
+  "hyperv_enabled": false,
+  "main_wnd": "003E08D6",
+  "render_wnd": "00180944",
+  "adb_port": 16384,
+  "adb_host_ip": "127.0.0.1",
+  "pid": 8520,
+  "vt_enabled": true,
+  "player_state": "start_finished",
+  "launch_err_msg": "",
+  "launch_err_code": 0,
+  "launch_time": 801872,
+  "headless_pid": 22948
+}

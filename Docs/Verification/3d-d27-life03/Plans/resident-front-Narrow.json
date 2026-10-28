@@ -1,0 +1,26 @@
+{
+  "directory": "Docs/Verification/3d-d27-life03/Evidence/Residents/front-Narrow",
+  "steps": [
+    {
+      "tap": [
+        620,
+        200
+      ]
+    },
+    {
+      "tap": [
+        353,
+        1123
+      ]
+    },
+    {
+      "tap": [
+        567,
+        1312
+      ]
+    },
+    {
+      "shot": "00-longest-note-foreground"
+    }
+  ]
+}

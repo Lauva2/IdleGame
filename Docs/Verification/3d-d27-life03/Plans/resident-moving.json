@@ -1,0 +1,53 @@
+{
+  "steps": [
+    {
+      "tap": [
+        930,
+        300
+      ]
+    },
+    {
+      "shot": "00-normal-route"
+    },
+    {
+      "wait": 8
+    },
+    {
+      "shot": "01-browsing-actor"
+    },
+    {
+      "tap": [
+        308,
+        971
+      ]
+    },
+    {
+      "shot": "02-actual-world-greeting"
+    },
+    {
+      "wait": 14
+    },
+    {
+      "shot": "03-world-continues-behind-card"
+    },
+    {
+      "back": true
+    },
+    {
+      "shot": "04-return-to-moving-route"
+    },
+    {
+      "tap": [
+        308,
+        971
+      ]
+    },
+    {
+      "shot": "05-prior-position-later"
+    },
+    {
+      "back": true
+    }
+  ],
+  "directory": "Docs/Verification/3d-d27-life03/Evidence/Residents/moving"
+}

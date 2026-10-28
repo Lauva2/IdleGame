@@ -1,0 +1,24 @@
+{
+  "candidate": "3d-d28-guidance01",
+  "utc": "2026-10-28T15:40:49.658246+00:00",
+  "apkSha256": "FCA53C338F9922EA5E2CE18DA9C99CB4947D10A4274A268116AF0ED8593B60F5",
+  "sourceManifestSha256": "C042DA1C7DDCA806D490EBA0FD635CE2914B030413E67EC96B58672E90864438",
+  "indices": [
+    {
+      "path": "original-media-index-commit01.json",
+      "sha256": "84FCFE8897D323F7DD7CDFB026BD0A504F032A398160F56621E309B28BBCBC62",
+      "rows": 11
+    },
+    {
+      "path": "sample-media-index-commit01.json",
+      "sha256": "7532AC742A5DA00FB43A5FFD3572E530BB8D0E24C732EACF7D2C8AAF7B2099B5",
+      "rows": 0
+    }
+  ],
+  "originalImages": 10,
+  "originalVideos": 1,
+  "sampledFrames": 0,
+  "originalBytes": 13161521,
+  "sampleBytes": 0,
+  "scope": "Original media and necessary source-PTS samples retained locally on E. No full-video decode requirement or assertion all frames visually checked. Sampling is not a substitute for independent review or whole-product acceptance."
+}

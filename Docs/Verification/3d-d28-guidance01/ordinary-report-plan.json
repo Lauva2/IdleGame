@@ -1,0 +1,38 @@
+{
+  "steps": [
+    {
+      "shot": "01-restored-report"
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1040,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1040,
+        650
+      ]
+    },
+    {
+      "swipe": [
+        850,
+        1740,
+        850,
+        1040,
+        650
+      ]
+    },
+    {
+      "shot": "02-report-footer"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d28-guidance01/Evidence/Ordinary"
+}

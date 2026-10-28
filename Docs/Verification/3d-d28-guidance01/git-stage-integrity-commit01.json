@@ -1,0 +1,10 @@
+{
+  "currentCandidate": "3d-d28-guidance01",
+  "frozenSourceInputs": 239,
+  "verifiedGitIndexBlobs": 657,
+  "allPassed": true,
+  "necessaryImages": 17,
+  "stagedFiles": 473,
+  "forbiddenArtifacts": [],
+  "scope": "Exact staged bytes match current0.2.8 source inputs, frozen handoff metadata, independent reports and necessary unchanged PNGs. Historical0.2.7 inputs verified against its local archive separately. No additional gameplay tests or final acceptance claim."
+}

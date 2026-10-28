@@ -1,0 +1,47 @@
+{
+  "directory": "Docs/Verification/3d-d27-life03/Evidence/Ordinary",
+  "steps": [
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "wait": 2
+    },
+    {
+      "shot": "42-final-ordinary-after-claim"
+    },
+    {
+      "tap": [
+        900,
+        1850
+      ]
+    },
+    {
+      "tap": [
+        900,
+        300
+      ]
+    },
+    {
+      "tap": [
+        535,
+        751
+      ]
+    },
+    {
+      "shot": "43-final-ordinary-fish-progress"
+    },
+    {
+      "tap": [
+        180,
+        1850
+      ]
+    },
+    {
+      "shot": "44-final-ordinary-overview"
+    }
+  ]
+}

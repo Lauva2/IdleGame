@@ -1,0 +1,60 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save: 1 file pushed, 0 skipped. 10.1 MB/s (6533 bytes in 0.001s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\simple.save: 1 file pushed, 0 skipped. 10.0 MB/s (6533 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1317
+WaitTime: 1323
+Complete
+{'tap': [930, 300]}
+{'shot': '00-five-world-targets'}
+{'tap': [233, 1145]}
+{'shot': '01-ray-0-note'}
+{'back': True}
+{'shot': '02-ray-0-closed'}
+{'tap': [313, 1140]}
+{'shot': '01-ray-1-note'}
+{'back': True}
+{'shot': '02-ray-1-closed'}
+{'tap': [484, 1140]}
+{'shot': '01-ray-2-note'}
+{'back': True}
+{'shot': '02-ray-2-closed'}
+{'tap': [647, 1160]}
+{'shot': '01-ray-3-note'}
+{'back': True}
+{'shot': '02-ray-3-closed'}
+{'tap': [764, 1174]}
+{'shot': '01-ray-4-note'}
+{'back': True}
+{'shot': '02-ray-4-closed'}
+{'drag_hold': [647, 1160, 650, 900, 650, 400]}
+{'shot': '10-drag-from-resident-no-note'}
+{'tap': [647, 1160]}
+{'shot': '11-prior-position-after-drag'}
+{'back': True}
+{'tap': [998, 1572]}
+{'shot': '12-recentered'}
+{'tap': [764, 1174]}
+{'shot': '13-recentered-bear-note'}
+{'back': True}
+{'tap': [775, 1572]}
+{'tap': [775, 1572]}
+{'tap': [775, 1572]}
+{'tap': [775, 1572]}
+{'tap': [775, 1572]}
+{'shot': '14-wide'}
+{'drag_hold': [300, 900, 700, 1020, 600, 400]}
+{'shot': '15-wide-drag'}
+{'tap': [998, 1572]}
+{'tap': [484, 1140]}
+{'shot': '16-after-zoom-pan-resident-note'}
+{'back': True}
+/sdcard/3d-d27-life03-resident-rays.mp4: 1 file pulled, 0 skipped. 15.3 MB/s (23060229 bytes in 1.441s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.3 MB/s (4441 bytes in 0.003s)

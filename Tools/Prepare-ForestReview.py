@@ -6,7 +6,7 @@ import json, hashlib, sys, copy, time
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 folder=(root/sys.argv[1]).resolve(); assert folder.is_relative_to(root/'Docs/Verification')
-kind=sys.argv[2]; assert kind in ('late','visits','initial','unrestored','states','chapter','report','dialogue0','dialogue1','dialogue2','dialogue3','dialogue4','blocked-full','blocked-input','blocked-reserve','busy','simple','resume')
+kind=sys.argv[2]; assert kind in ('late','visits','initial','unrestored','states','chapter','report','dialogue0','dialogue1','dialogue2','dialogue3','dialogue4','blocked-full','blocked-input','blocked-reserve','busy','simple','resume','greeting-first','greeting-middle','greeting-after')
 lines=(folder/'normal-held.save').read_bytes().split(b'\n',3)
 assert hashlib.sha256(lines[3]).hexdigest().upper().encode()==lines[2]
 s=json.loads(lines[3]); f=lambda c=-1,w=-1,r=-1:dict(level=1,config=c,pending=-2,workItem=w,remaining=r)
@@ -27,6 +27,12 @@ elif kind in ('blocked-input','blocked-reserve'):
         s['items'][1]=7; s['orders'][0].update(item=1,count=7,active=True,reserve=True)
 elif kind=='initial':
     s.update(coins=50,reputation=0,sales=0,harvests=0,crafts=0,sold=[0]*6,crops=[0]*4,items=[0]*6,friendship=[0]*5,warehouse=1,plots=[f(0,0,0)],machines=[f()],shelves=[f(r=8)],orders=[],stories=0,tutorial=0,welcomeRead=False,sideRoom=False,chapterComplete=False,chapterCelebrated=False,decoration=[False]*4,nextOrderId=1)
+elif kind=='greeting-first':
+    s.update(coins=50,reputation=0,sales=0,harvests=0,crafts=0,sold=[0]*6,crops=[0]*4,items=[0]*6,friendship=[0]*5,warehouse=1,plots=[f(0,0,20)],machines=[f(0,0,15)],shelves=[f(0,r=8)],orders=[],stories=0,tutorial=4,welcomeRead=True,sideRoom=False,chapterComplete=False,chapterCelebrated=False,decoration=[False]*4,nextOrderId=1,simpleAnimation=True)
+elif kind=='greeting-middle':
+    s.update(stories=2,friendship=[10,10,0,0,0],sideRoom=False,chapterComplete=False,chapterCelebrated=False,decoration=[False]*4,simpleAnimation=True)
+elif kind=='greeting-after':
+    s.update(friendship=[10]*5,simpleAnimation=True)
 elif kind=='unrestored':
     s.update(sideRoom=False,chapterComplete=False,chapterCelebrated=False,decoration=[False]*4)
     s['plots']=s['plots'][:4]

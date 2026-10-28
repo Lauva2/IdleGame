@@ -1,0 +1,4648 @@
+{
+  "freeBefore": {
+    "E": 1545105408,
+    "C": 36535103488
+  },
+  "utc": "2026-10-28T00:36:11.3020048Z",
+  "files": [
+    {
+      "sha256": "9F3DC49C636733B3496DCA4659641A6C0D21DCD9E17788DEA5348BCDCFCE17D4",
+      "bytes": 1022209,
+      "path": "1300b0aEDbg-inputdata.json"
+    },
+    {
+      "sha256": "5912C27D520D86C1D5D4F524AAE7182FAA906DD7E74E55927191C2004953842F",
+      "bytes": 2867024,
+      "path": "1300b0aEDbg.dag"
+    },
+    {
+      "sha256": "254A8978D9497F066E27E0747661B4788B6B4FC7C82CA85603FB1116A81AC0A9",
+      "bytes": 119520,
+      "path": "1300b0aEDbg.dag_derived"
+    },
+    {
+      "sha256": "AF5570F5A1810B7AF78CAF4BC70A660F0DF51E42BAF91D4DE5B2328DE0E83DFC",
+      "bytes": 8,
+      "path": "1300b0aEDbg.dag_fsmtime"
+    },
+    {
+      "sha256": "156A3E655CD6775EC9EF8E7A8E0E3295A795C965E7C369857BFF96779A252CEC",
+      "bytes": 1640313,
+      "path": "1300b0aEDbg.dag.json"
+    },
+    {
+      "sha256": "061043ABB25A7B4F3BB85C0E446F941AA3A6B87CCBEE44A2F4468649335FFE56",
+      "bytes": 8805,
+      "path": "1300b0aEDbg.dag.outputdata"
+    },
+    {
+      "sha256": "C277093F2423A69B7B7EA4950E5735825333AB521EB21F2F4FB722E9642D7006",
+      "bytes": 1344121,
+      "path": "1300b0aEDbg.dag.payloads"
+    },
+    {
+      "sha256": "D92033CC2E1D45E55F888083B8C80934ABC5E058D8C5489BB1BB4FEB9594E2A0",
+      "bytes": 7723,
+      "path": "1300b0aEDbgSkipCompile-inputdata.json"
+    },
+    {
+      "sha256": "4EE6ABF0DFC1F19269FC54AF10626B717B9D90BF1B8195F9969A87DD7F328AC6",
+      "bytes": 8496,
+      "path": "1300b0aEDbgSkipCompile.dag"
+    },
+    {
+      "sha256": "D52E9C84D97B373F871822181E01057203C640880D54EA614850524D28FE1FA9",
+      "bytes": 592,
+      "path": "1300b0aEDbgSkipCompile.dag_derived"
+    },
+    {
+      "sha256": "AF5570F5A1810B7AF78CAF4BC70A660F0DF51E42BAF91D4DE5B2328DE0E83DFC",
+      "bytes": 8,
+      "path": "1300b0aEDbgSkipCompile.dag_fsmtime"
+    },
+    {
+      "sha256": "4F141E4941F988A5D0022726A3D38E3B9DC5B26A1E2BE590202048F913E9E68A",
+      "bytes": 10090,
+      "path": "1300b0aEDbgSkipCompile.dag.json"
+    },
+    {
+      "sha256": "6AE753C3AD3480C14D822C0236B689C5D689494E1BB8CF50C819CF0FA0D045CA",
+      "bytes": 82,
+      "path": "1300b0aEDbgSkipCompile.dag.outputdata"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "1300b0aEDbgSkipCompile.dag.payloads"
+    },
+    {
+      "sha256": "91ADE899D81CF2483E73060E533058EEB1AF0A89EAC3E604E219C55C5DEC95E8",
+      "bytes": 320170,
+      "path": "1300b0aP-inputdata.json"
+    },
+    {
+      "sha256": "7E312DED25157A316FA9D2C7F373A454EBC4FAA8680BEEE3E0BE6D124811F80E",
+      "bytes": 859680,
+      "path": "1300b0aP.dag"
+    },
+    {
+      "sha256": "F4990C79DB7338B417EF33D41D515319A4B7144D702F3A38BEF13517B354B48F",
+      "bytes": 35360,
+      "path": "1300b0aP.dag_derived"
+    },
+    {
+      "sha256": "5C51258F6CF57383D8B788A7C9B5780F58758A5313C3DF200677BEEF83FC6381",
+      "bytes": 8,
+      "path": "1300b0aP.dag_fsmtime"
+    },
+    {
+      "sha256": "1221D048BEA923CFDA0B82E447E1ECFF25EF02F2D81466C6B083A4708625B233",
+      "bytes": 509270,
+      "path": "1300b0aP.dag.json"
+    },
+    {
+      "sha256": "F0B136F93776EB5DCCC3176014E540405AF91B6B7D2ED773C80009146F335CFE",
+      "bytes": 2244,
+      "path": "1300b0aP.dag.outputdata"
+    },
+    {
+      "sha256": "3CFFC683D8029B673D667093248CAFDEC8B6BE58E4E85E97A506AD359BF112FD",
+      "bytes": 383229,
+      "path": "1300b0aP.dag.payloads"
+    },
+    {
+      "sha256": "60C6C5739915156DF07F32A1B51BB42AC67ABBDFE517A6BBEC344CE8E94A9B16",
+      "bytes": 1020850,
+      "path": "1900b0aEDbg-inputdata.json"
+    },
+    {
+      "sha256": "CFD86267ACA461B61F87B6552A9819A484CF6112E7CAF8A7BF01E3105091BBFD",
+      "bytes": 2871312,
+      "path": "1900b0aEDbg.dag"
+    },
+    {
+      "sha256": "B4E16F50CF1F3C8892EC101E74CE71DFA09AC9FF8BFA0ACAEBC606EADEC04A7E",
+      "bytes": 119808,
+      "path": "1900b0aEDbg.dag_derived"
+    },
+    {
+      "sha256": "8661BCBCA499EAA9CDCB8010EB1A28545262BCC510CC08EB1FA7D6648E15DD1E",
+      "bytes": 8,
+      "path": "1900b0aEDbg.dag_fsmtime"
+    },
+    {
+      "sha256": "0D479F120C730B7079BCF3071FC25CA5105A6414F7AC060731DFD0985EF8F23C",
+      "bytes": 1644655,
+      "path": "1900b0aEDbg.dag.json"
+    },
+    {
+      "sha256": "225C8D2229E71223F4A7F6B9DA23EED14834536D10CF3D9048D7237B72084054",
+      "bytes": 8805,
+      "path": "1900b0aEDbg.dag.outputdata"
+    },
+    {
+      "sha256": "D93469C8857221778D528CFEDF8C81E2AB544B891E757394D01E1AFABD01D195",
+      "bytes": 1344371,
+      "path": "1900b0aEDbg.dag.payloads"
+    },
+    {
+      "sha256": "4D7FE0397FACC9DD73B0738134539124ED4E5820D0A3F42F18AF73A7FD8C3AB7",
+      "bytes": 594315,
+      "path": "backend1.traceevents"
+    },
+    {
+      "sha256": "46383536CA916E21561BFC40AC2DDD00D079224E57A4BBEBD96D0FCD9D5F7E56",
+      "bytes": 228216,
+      "path": "backend2.traceevents"
+    },
+    {
+      "sha256": "8858A427FCAEB145B94F66F1640FF84CE479EECDF548043BD88861E140C79FE8",
+      "bytes": 607734,
+      "path": "backend3.traceevents"
+    },
+    {
+      "sha256": "E929A6C5C36FC69549604A1036BE8EE2CBF59830182C25B7B9F2F70E7E504852",
+      "bytes": 647361,
+      "path": "backend4.traceevents"
+    },
+    {
+      "sha256": "254377153E73E6D476633C5E36AFFA9B3B9591CBDA4B15F448C9FD972D40CBD8",
+      "bytes": 127,
+      "path": "bee_backend.info"
+    },
+    {
+      "sha256": "01A4FB17CF6958EB074DFB7750BB41B803345CB4BF4973B7D554F8CD3FB514E2",
+      "bytes": 3382,
+      "path": "buildprogram0.traceevents"
+    },
+    {
+      "sha256": "41C1E95A9A07EF84A82AEB2D3E3F63974EAFAC0DF2D199C4474AE0012DB2A88F",
+      "bytes": 3375,
+      "path": "buildprogram1.traceevents"
+    },
+    {
+      "sha256": "0C4A0B712E34C9301EC706738B663359A72094E0C3763120C1FE8BC8CA4AC290",
+      "bytes": 3378,
+      "path": "buildprogram2.traceevents"
+    },
+    {
+      "sha256": "08C64E1E2D96C587C5CA90B3678A1209C12E9D4B88185E23C0EDC056D2746577",
+      "bytes": 1885413,
+      "path": "buildreport.json"
+    },
+    {
+      "sha256": "5514FEBDD572148AAC744FE181D436CBA0F878E22F12F168EC4FDBE754BEEA41",
+      "bytes": 9110,
+      "path": "buildreport.json_0.traceevents"
+    },
+    {
+      "sha256": "177AC51AB55FE191EF1CDB193B75CEBBD70CE681DC19FA421317D71E9E0F25C7",
+      "bytes": 177801,
+      "path": "buildreport.json_1.traceevents"
+    },
+    {
+      "sha256": "6C1C1EA2F9BE4FC86528E3BEBB7783AC29E794867CE8E7D2BFA5678D785B1CCB",
+      "bytes": 948080,
+      "path": "buildreport.json_2.traceevents"
+    },
+    {
+      "sha256": "AEF2EEB75DDE1CBB5D5E54A989AAFE9473099324CA82BE04FD7632CA1958E0D4",
+      "bytes": 282023,
+      "path": "fullprofile.json"
+    },
+    {
+      "sha256": "990909AFD98EA4FF53F662DDC3DB8CDCBD184B3E2E1D348E0310D87C1268FE34",
+      "bytes": 43621,
+      "path": "Player631e5d82-inputdata.json"
+    },
+    {
+      "sha256": "7DBFB690D28FB1B58CB138C62C4CF877CFD4DA21BD85B18D95A92814C6BC1FD7",
+      "bytes": 2582352,
+      "path": "Player631e5d82.dag"
+    },
+    {
+      "sha256": "1A78B88740DA62E3929687D80919D00D980445F82FABC793054F6B5DFC308DD4",
+      "bytes": 159920,
+      "path": "Player631e5d82.dag_derived"
+    },
+    {
+      "sha256": "AF5570F5A1810B7AF78CAF4BC70A660F0DF51E42BAF91D4DE5B2328DE0E83DFC",
+      "bytes": 8,
+      "path": "Player631e5d82.dag_fsmtime"
+    },
+    {
+      "sha256": "0510ED3C53C4F25FD8560863B06F4CF530F0E388DA8DB93C21FB47AB54FBCCE0",
+      "bytes": 2511573,
+      "path": "Player631e5d82.dag.json"
+    },
+    {
+      "sha256": "85E0DFECC4B01EA73CF142CB00ECF9EC2EB3CBBBD249F15D43CAA24EE77D0CF0",
+      "bytes": 38964,
+      "path": "Player631e5d82.dag.outputdata"
+    },
+    {
+      "sha256": "CAE0490BF76C4AC902A5B9308200FF359122F838C084059D908053A8D419A9F9",
+      "bytes": 263245,
+      "path": "Player631e5d82.dag.payloads"
+    },
+    {
+      "sha256": "5DDE056794558A64F3A69B128354B18A54475BB75D1D11AD94FEFA1675EC7A8C",
+      "bytes": 823008,
+      "path": "tundra.digestcache"
+    },
+    {
+      "sha256": "7630C02CAD06CF6DCDE351C4B8D7782F2BFEDDD2808E559ADA32FFAEFA5D9739",
+      "bytes": 660159,
+      "path": "tundra.log.json"
+    },
+    {
+      "sha256": "08FD49F41E46D37D84FDE72F66B66F465C08D9376BDCB8DBF53F55A253C72AB6",
+      "bytes": 180480,
+      "path": "tundra.scancache"
+    },
+    {
+      "sha256": "3B4CC07E57125586BAF152331FB42CC6232A9F1B9B36F55CF0A8D98EA6EE47D5",
+      "bytes": 1435424,
+      "path": "TundraBuildState.state"
+    },
+    {
+      "sha256": "EEA7D3A4966210FD0AEDE3AE0F986E5D44302E24AA6A234DAAD91D0F4FF0C3AB",
+      "bytes": 1435424,
+      "path": "TundraBuildState.state.map"
+    },
+    {
+      "sha256": "A9315ADA5CC7F074F077C447ADD11C1A6EA81EA664C564942DFD00B8A7A8689A",
+      "bytes": 722508,
+      "path": "artifacts\\il2cpp_conv_qamp.traceevents"
+    },
+    {
+      "sha256": "34817D6D9F75FEC97B2BFC5C82E70938A48B06F0C85BAD6B3C8C65B4DDBB0AF4",
+      "bytes": 22213,
+      "path": "artifacts\\unitylinker_xy1a.traceevents"
+    },
+    {
+      "sha256": "D15C93EE0325FAA5C77007C55848E42FC9640F81CFA9BEA7417C8FA40BC34399",
+      "bytes": 130560,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp-Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp-Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "D187ED6E155F256A8852E601C0A0F9C6D431960E3BE645851F9A5F1797CF9A94",
+      "bytes": 10645,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp-Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "195306CCE22226F281410BC766D98E90A77D07A4F856A4D539C5FF82C17FCA55",
+      "bytes": 53676,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp-Editor.pdb"
+    },
+    {
+      "sha256": "2CE50D98C8DC7E258DFDDAB7BB406F1509A259B1908E379BE26C4D02537A1E0D",
+      "bytes": 11264,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp-Editor.ref.dll"
+    },
+    {
+      "sha256": "EEA62BFE9746D7655D360BF1183AA1993645C191B379B33331231CCD51D8ADD8",
+      "bytes": 28762,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp-Editor.rsp"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp-Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp-Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "B0CFCE460DC3B6AACC427584B7EC5460CA0AB972B1A1FFC8D6BDF1A7ED49E71E",
+      "bytes": 384000,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp.dll.mvfrm"
+    },
+    {
+      "sha256": "F84C7FF69AB81437D67FE54E8E4604B462ADB9B7482329259042254ED8B9F0F5",
+      "bytes": 9418,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "08789FFAEABC2B593B1575952EA77B651DAA70C609A5439CEEFF9482BD5E053C",
+      "bytes": 146012,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp.pdb"
+    },
+    {
+      "sha256": "0779FD83BC74595A05989C423C3D98369FB937C92B400D6BA6B47D0737CFB3CF",
+      "bytes": 45568,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp.ref.dll"
+    },
+    {
+      "sha256": "43EFFFC29CF40DED93C2933F553F2ACB802E5C2BE3EB4E683B4B190C6310A066",
+      "bytes": 27450,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp.rsp"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Assembly-CSharp.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "07CCF2B0E716978F3AD39DB7556422A65FE4CDA18B4FBAB5BD7DC0B1BA5E800A",
+      "bytes": 6144,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.CollabProxy.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.CollabProxy.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "F0B441EDB10180ACF4F689B36FA45658C1FEE9EB8F6D7EB3BB9BF716A560EE26",
+      "bytes": 8708,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.CollabProxy.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "1A4F8F6EC85D232C1211DE1923AECA10B34F3FC4856AB29A6989FAA5C5AAB24C",
+      "bytes": 18296,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.CollabProxy.Editor.pdb"
+    },
+    {
+      "sha256": "477997ACA302361CC98C2A4B7E27E1B877B6E21934B22D954639FB50AE615C9E",
+      "bytes": 5632,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.CollabProxy.Editor.ref.dll"
+    },
+    {
+      "sha256": "F998588ED58E64CAA323664BA7AB95C27DA023A33F2A576B4E260004C716276D",
+      "bytes": 26524,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.CollabProxy.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.CollabProxy.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.CollabProxy.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "928916B43E1E9160C32CFE9C881E114C944D566F1307B81E363097C4A7ECA8EE",
+      "bytes": 9216,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.EditorCoroutines.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.EditorCoroutines.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "66F8C66FC9130A024238029DBE3706AEEAE873A459BFCD9C56BA90DF34D4511B",
+      "bytes": 8623,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.EditorCoroutines.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "763864363FF968BF4AD0F7FA47DC903B5A5C1A103A8D54CD0B8DC0135FB92BAA",
+      "bytes": 19756,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.EditorCoroutines.Editor.pdb"
+    },
+    {
+      "sha256": "D84032D9D235BF0C25B005F71F96E86DE73C5668B57929A7B3E6BC008044523E",
+      "bytes": 6656,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.EditorCoroutines.Editor.ref.dll"
+    },
+    {
+      "sha256": "C99EABB979B8717C706552EAF17B366282AD12DFE0A11E371650C3056BC4D92A",
+      "bytes": 26735,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.EditorCoroutines.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.EditorCoroutines.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "21032E1417929453AFE4DE257A941869FA330ECE8024E96084DBD72ADD541C2D",
+      "bytes": 291328,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "66F8C66FC9130A024238029DBE3706AEEAE873A459BFCD9C56BA90DF34D4511B",
+      "bytes": 8623,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "DFFC5E24249FA4C6858BC82954976813FA62CF13B8FA2A7123D95AA282BF6BD1",
+      "bytes": 161772,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.pdb"
+    },
+    {
+      "sha256": "438BA97105FF4F46D98EC0AE8948FA78B1A376983796CEB4F103F841633307A4",
+      "bytes": 56832,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.ref.dll"
+    },
+    {
+      "sha256": "E37A070474EA6B442D3A16029D7F61E03D6661FFE07BB3AD77512795BAF745DA",
+      "bytes": 29479,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "67ACE6B9565261D379C57C76E15DC7023C60477D5F36F7ACCC7188312C6B1ED5",
+      "bytes": 738304,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.PlasticSCM.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.PlasticSCM.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "AB745CA37AD06B6B7393347F842E3B86ECC43C1AF5B6559F1C1911CD87984572",
+      "bytes": 8172,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.PlasticSCM.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "16883038EF223C3117E5ADC48C343BD1CBBB16E355AA55F382AB795E38438673",
+      "bytes": 387916,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.PlasticSCM.Editor.pdb"
+    },
+    {
+      "sha256": "362ED628B31F506F230D5C9F9273C01811FC6BAD1A07368A2B60D012C95AD414",
+      "bytes": 258048,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.PlasticSCM.Editor.ref.dll"
+    },
+    {
+      "sha256": "36CC4FAAF05DDC03F7DEE3DEDEE9BE944C631323F92B3AA1DA12E51751332ECD",
+      "bytes": 57691,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.PlasticSCM.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.PlasticSCM.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.PlasticSCM.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "7560D076BF2B49FE74CE4F174529D819FD4332303920F2BBC5CC477BFAB85E65",
+      "bytes": 82944,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Rider.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Rider.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "8FDA676552B0A2765EABBA9299A2AB938C5B017B2E5285C6A680373B807FC6BE",
+      "bytes": 8085,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Rider.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "5643B55F66A485B9D8998D8F1DCB3C4702F5BF7688C4B839DCB904531C716768",
+      "bytes": 49608,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Rider.Editor.pdb"
+    },
+    {
+      "sha256": "1C6021812344E5EED7CB8E88049A6D67895CFA1FE5214D4599ED6283D532B96A",
+      "bytes": 27648,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Rider.Editor.ref.dll"
+    },
+    {
+      "sha256": "62F49C2999C37BE87286A6893CC8010153BB1DF3F61D4B3BC0E95410BA6A210C",
+      "bytes": 29310,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Rider.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Rider.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Rider.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "CEAE18AF298B8500B5C0F22EEC6F50B1BC563C1CE8D7A7A03EDCB1FEB0213DC3",
+      "bytes": 46080,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Settings.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Settings.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "66F8C66FC9130A024238029DBE3706AEEAE873A459BFCD9C56BA90DF34D4511B",
+      "bytes": 8623,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Settings.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "75DCCB411415172CDFAF3154DE44492BE907B4820EF3A154E1750FA9895095DF",
+      "bytes": 34832,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Settings.Editor.pdb"
+    },
+    {
+      "sha256": "7090881A3C2D0EED86DC817A45A615B83E8D2779CBB8B237FF12E1C6121CC4DF",
+      "bytes": 15872,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Settings.Editor.ref.dll"
+    },
+    {
+      "sha256": "CC523BEE7D5B48512C6C0EC2D1294BDCE9D257975839F678649959CCDDDDF694",
+      "bytes": 27442,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Settings.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Settings.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Settings.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "F0B65CF50ADA39ABCBF37D93C4376D60F34C750C7E564020EE1285447588CB18",
+      "bytes": 143360,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "BFC3429446027E76D2C569749069E32D5DEB34661CA226CCAD75C6AF03CE7E9A",
+      "bytes": 8404,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "0AD02B83EA49C05712CD58F178B6AF6A1185FDE6AB0F0949D2A3BF5098B437F9",
+      "bytes": 28160,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm"
+    },
+    {
+      "sha256": "66F8C66FC9130A024238029DBE3706AEEAE873A459BFCD9C56BA90DF34D4511B",
+      "bytes": 8623,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "49618CF712FBF86A7D2FD8F634B8406877780152F57168567BBF3CF237006FF1",
+      "bytes": 27136,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb"
+    },
+    {
+      "sha256": "83F5136EB246EEB9D1FDE8A7949FBD540ED3177AD51AD5E37E6772C90EB5B405",
+      "bytes": 18432,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll"
+    },
+    {
+      "sha256": "A9578DAE1D2082F38B9E165CDD9E08DF4BB4E6AA000D670D9555A490A4C67C7F",
+      "bytes": 28201,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "7E7FE2247C293AF5242F6D7CBEA1160E47EB431DFD2E07F8B0F49E81AFECFA5E",
+      "bytes": 13312,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm"
+    },
+    {
+      "sha256": "66F8C66FC9130A024238029DBE3706AEEAE873A459BFCD9C56BA90DF34D4511B",
+      "bytes": 8623,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "FFAB69363C5140C293C1D3725CFB487A87129797B6BD4FF46C7FD4444C6B0594",
+      "bytes": 22176,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb"
+    },
+    {
+      "sha256": "A66DF165D53C91F9395DB78AAF61764D95C9FA6353218B28B177DEA6CC5A5496",
+      "bytes": 6656,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll"
+    },
+    {
+      "sha256": "BCE3C59679ADF25F27EC71F0B702A4470F8E3F3F47A9601324C19E57EDDDEA82",
+      "bytes": 26985,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "A46C512DA0C0F72D103FE575AD7925098AACB9C62189B6CBE2DE962AB50F9CB0",
+      "bytes": 73548,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.pdb"
+    },
+    {
+      "sha256": "A6A13ABB232AE2442CF64A4D66B7D156C6A8F5498CEF6A85CE8711D160934045",
+      "bytes": 40960,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.ref.dll"
+    },
+    {
+      "sha256": "77CF331B953402A4701704135000B6FB65765CF23BE0A68F3F6D5EC4A3A1FF4C",
+      "bytes": 30788,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "63B15A49EACFC9A88E0D5BA700AFDD627E51151F06B3C104BF86A1CFD1A9C4DA",
+      "bytes": 452608,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.dll.mvfrm"
+    },
+    {
+      "sha256": "D73CB4C709A228D07307FF6260420F55D72A076E58556BFE24FE738F0E3AE66C",
+      "bytes": 8102,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "621A3B84A3E29F762E91CBD697965D6EE894AAF06C81CF0C7403FA7E110B94EE",
+      "bytes": 245248,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "EA472A90E72484640F17CB5160007D291B18BDA2F320945757082AC008E205C4",
+      "bytes": 8702,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "C097D26A9DA4B2C7A254BE5537CAA6D3FE7C76D5367EE10C9A2E473B2834746A",
+      "bytes": 109052,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.Editor.pdb"
+    },
+    {
+      "sha256": "32A182168462F3FA87E2986D75A63267DA939718A3E8D092120C3F070B8930BD",
+      "bytes": 33792,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.Editor.ref.dll"
+    },
+    {
+      "sha256": "DF7E0651B2D2486923E02E66CFBC81AEF1EAA6BD2E76A723607A824AF867D74C",
+      "bytes": 30852,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "B7F32ACDCF618F0CF55298AF281EFD3E19852BC2F930BA0E4345B4407A45602A",
+      "bytes": 243696,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.pdb"
+    },
+    {
+      "sha256": "D8C5AA9538FC451F5C5ECC36C623CBEA4286BFF957D0405121E2BDDD5E95D799",
+      "bytes": 103936,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.ref.dll"
+    },
+    {
+      "sha256": "CA0F7B295BB22EDF76312EDDD9E21E36DB8BFEACE95C815059E8492C0A920723",
+      "bytes": 30163,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.TextMeshPro.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "DA9994F2505B596CD710ABB60B4B1847EA8FB3E0D16126A5656EA7D47178DF9E",
+      "bytes": 162304,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.dll.mvfrm"
+    },
+    {
+      "sha256": "D73CB4C709A228D07307FF6260420F55D72A076E58556BFE24FE738F0E3AE66C",
+      "bytes": 8102,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "D08EF5627590D390401DD48510FC02C1C407C3392CB92CD01B5E28DDFBCB7CBA",
+      "bytes": 797696,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "81B9F3CFB2EA85030C0EDADBC34884065D7FD1B98370D1E4D201D110664F6825",
+      "bytes": 8699,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "257C05E004B9C771252734E8FF52583B16139C2B1102A1E8277FB2BD42A8DFA4",
+      "bytes": 418780,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.Editor.pdb"
+    },
+    {
+      "sha256": "D0E825F085EA66D1734E6BAC2E0861DE5B27C6C03AD8DDE86A60CBCEDD909E04",
+      "bytes": 274432,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.Editor.ref.dll"
+    },
+    {
+      "sha256": "EDDC033A182A220BE6B512392FF33EEF22A088E1491E80B530D8A40661396FED",
+      "bytes": 50467,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "F62F65CD3CDAEA94EEF5C9A2C3732D39F209E1CE8F58E4A7FA090D57040341A0",
+      "bytes": 96068,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.pdb"
+    },
+    {
+      "sha256": "58138C3B4DB9CC991DF1C79BFA096089BE6A284A0C8088BD25AE914DBE04CCE4",
+      "bytes": 64000,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.ref.dll"
+    },
+    {
+      "sha256": "571689659D1156CA8342CF803F9B0F5D1D55C0155943510AF4CD27FDB1A72119",
+      "bytes": 31196,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.Timeline.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "013C67E3EE9E1152021B9EB04025B9EAAB1879C83D2B8606F6A9453F75A4FA12",
+      "bytes": 674304,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.dll.mvfrm"
+    },
+    {
+      "sha256": "D73CB4C709A228D07307FF6260420F55D72A076E58556BFE24FE738F0E3AE66C",
+      "bytes": 8102,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "32A48A723F67EE970F29E1BF48B68765BE88BCC41BC13CE7CDD99D131C34E75E",
+      "bytes": 1195008,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "3C28EF6D4DB861FB9488457020B433A5009B2CF1EFB634F1A5777F26064882C5",
+      "bytes": 8711,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "261620C853FB448B2A0AD9ADAB4616BB7965D423CB81DA80E0332881F76DBCB0",
+      "bytes": 467120,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.pdb"
+    },
+    {
+      "sha256": "F280CCB724C9176049B957E65F63F18C24D2FFD6EE86AB01F4B3DEB291A9731B",
+      "bytes": 475648,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.ref.dll"
+    },
+    {
+      "sha256": "66F13B0A9BBB72C87BD4CF1C4CF22D1B0F27CF22B85E9A86BCF21F6BCF981656",
+      "bytes": 82935,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "AA2034C9D3449144CDD14E8FFCA07C07135FEBBFC4493D6501E9552D29E1C300",
+      "bytes": 336604,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.pdb"
+    },
+    {
+      "sha256": "CB28E3F41FC8310BE31A1B55092A753097F964053A61C96370F8A0990AFAED86",
+      "bytes": 293888,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.ref.dll"
+    },
+    {
+      "sha256": "2216F8729E2A540E09988F9034957B419026333D547A3E6C149D49567AA87AC9",
+      "bytes": 78691,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Core.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "7C9DF4F3F0E65780CEB47A11B1F16217E17090FDEAE4DF67CE3706AC6EB5C561",
+      "bytes": 427008,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.dll.mvfrm"
+    },
+    {
+      "sha256": "A7702C73ADA60CE7CE89096DB6DF80C64A50C82B30EC059C4CAD07A63658DDF6",
+      "bytes": 8190,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "4472B3A68BBA9689EFEE3667379833CE95889A86EB5752020F515DA07BCB3DE2",
+      "bytes": 364544,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "6681FA0128524949D6BB7AC96BAAA3AE56F05144B9F770960009ECFA1D0950D4",
+      "bytes": 8894,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "DBCD5CA4895E4084F77BB1E523E6694B7F8638095F5E310A0E48EAC5DB4A421F",
+      "bytes": 147260,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.pdb"
+    },
+    {
+      "sha256": "9C09435340D9359A01AFC1A4F48AC9BF1C76C5A6ED50A682CA27D48F1E53A21F",
+      "bytes": 137216,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.ref.dll"
+    },
+    {
+      "sha256": "6806A3338D6FE33D2115AD4BD074606B5219B3F951E9C305DACEEE2710209C5C",
+      "bytes": 46799,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "58F7991123D8D1BB6C26F77247332806F6700F22D757C6389361C334EB5BDC7D",
+      "bytes": 220072,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.pdb"
+    },
+    {
+      "sha256": "9B9CDCAFF5E04CAC3F68BDE3A9AA170001B664187374DC38249D5DE97B6BF10E",
+      "bytes": 211456,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.ref.dll"
+    },
+    {
+      "sha256": "9DC8E1C7F389D628C3D5F070A84ED1C5016F6CA780406F667A522DE341FC23B1",
+      "bytes": 73997,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "8AA6347F6AAFBBBD2B744C394EC77A0AEBABDA866B4ADDC9BAA0D5FF9602ED53",
+      "bytes": 18944,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "769BEE71018D580E8F027BEE719B9D4525C5B7911D19025511508CDEEA8BEA82",
+      "bytes": 9078,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "31F3B106FCFBD5EED412E1B87F98E25A181E0CCE960052D16A9636B4E7BE49BF",
+      "bytes": 22056,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.pdb"
+    },
+    {
+      "sha256": "171E23AE736B6188F11E22F8BC22D201CB7A14E7FA77CF52FCFB9536E310DE59",
+      "bytes": 8704,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.ref.dll"
+    },
+    {
+      "sha256": "EE600519269B18B4969B08C2EF822F91F58F3C74EB9931F5D2E24E87DBC0613A",
+      "bytes": 28010,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "26859B04EBDEBAFC55E674C34BBEA2CAB97C3E7D4E73674E7C069037B1A10A75",
+      "bytes": 14336,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "897677358CC60241A74050C8B5313FEE3368861DE6F606AF5D95422954142E37",
+      "bytes": 9174,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "1BF252678253431AD3BD1D9F6AB944098500E2EB730FA1234DFACFFE385D4254",
+      "bytes": 21740,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.pdb"
+    },
+    {
+      "sha256": "338AD8BB4649286B21085390C6E62E02DA62742C2374C95C6E562D988EF41BFF",
+      "bytes": 5632,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.ref.dll"
+    },
+    {
+      "sha256": "FBE5FF71AF7EDFF12E937D90B7C380493F53DD0D5BEE8206E9B78855FD4CA37F",
+      "bytes": 26994,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "2F5E38E02AE4365DEA95C1B2885B4C30E756C63DC00DC2657F4F220C764E90A4",
+      "bytes": 33792,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.dll.mvfrm"
+    },
+    {
+      "sha256": "B26E35C8918F651339442CB8BBAAD5C5156AA9B0CA3CECFC5567DC6C66892642",
+      "bytes": 8278,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "3524F75D9C5B2E1D1F7111D3E47BCA4982BD30ADCD0CDDBF9869E4A19348F1BF",
+      "bytes": 104960,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "769BEE71018D580E8F027BEE719B9D4525C5B7911D19025511508CDEEA8BEA82",
+      "bytes": 9078,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "F51A3ADFCD4871FC2C6962F9F77B31657428528D09B616AD4F9E06551DE8820F",
+      "bytes": 52412,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.Editor.pdb"
+    },
+    {
+      "sha256": "B5CD031941EA6D4C09512F37FBF4A80841FB23052A1D7B831C4BFF9AC596E3E7",
+      "bytes": 50688,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.Editor.ref.dll"
+    },
+    {
+      "sha256": "FCA07574093EA14BC63DDB3145FB804D5CAE501CB477396DBB12F061C78E5F1A",
+      "bytes": 34779,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "D6D030B44D0F67DC21C4B22659EF80D600BA36A3568405B132511CA561530D01",
+      "bytes": 30244,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.pdb"
+    },
+    {
+      "sha256": "BE5388E7796D03B77D079F3DFAF826CAB036F61664EDAC4CE2ADD996F1B0E328",
+      "bytes": 22528,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.ref.dll"
+    },
+    {
+      "sha256": "DA12AF6E9F5EFBC5C75AF023E803D78D0F2C815677281D65233815917CB3B687",
+      "bytes": 28379,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualScripting.State.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "28D45C00328919D236305BA645B0B2A673288965CA330EA7A2334D7ED52EFAAD",
+      "bytes": 147968,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualStudio.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualStudio.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "8FDA676552B0A2765EABBA9299A2AB938C5B017B2E5285C6A680373B807FC6BE",
+      "bytes": 8085,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualStudio.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "6D9642E8E7B46FE56179EE854437E79A236E7AB6A75CE74D33E865419BA8AB2A",
+      "bytes": 77328,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualStudio.Editor.pdb"
+    },
+    {
+      "sha256": "07CE8908591EDB7A50CD185D539D58227AEFA215220E0B4DF51DF6453E1C4D69",
+      "bytes": 51712,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualStudio.Editor.ref.dll"
+    },
+    {
+      "sha256": "C26204E46DAC0C63F41097027BA35260CEDC202253EB0A0BB0D99F2DEED80B87",
+      "bytes": 29424,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualStudio.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualStudio.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VisualStudio.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "D88557CE7C6E901D73628FD74A5BD39BCBCFA375938D7ADEB7D89474C7E65B88",
+      "bytes": 50688,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VSCode.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VSCode.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "66F8C66FC9130A024238029DBE3706AEEAE873A459BFCD9C56BA90DF34D4511B",
+      "bytes": 8623,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VSCode.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "475C1F030EF10DDACD5BCB08BAFBB545FF8F59ED5A707D9828913003F74971AD",
+      "bytes": 30772,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VSCode.Editor.pdb"
+    },
+    {
+      "sha256": "F460C7D68DED56E3B067FED644D27472387E196BBFB83A0B6D3F13E2C279C582",
+      "bytes": 13824,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VSCode.Editor.ref.dll"
+    },
+    {
+      "sha256": "C6106D79C410169EEC817847F44DCA40BC060954336AD7065E1E79A6256E445D",
+      "bytes": 27095,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VSCode.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VSCode.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\Unity.VSCode.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "E13CEF9C0D7705EE51A04334D5979DB3D6D208C1879A8DE17E6DD0CF32CEFE34",
+      "bytes": 240128,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.TestRunner.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.TestRunner.dll.mvfrm"
+    },
+    {
+      "sha256": "CB6057BA5C043E48AC5E17D4F84AD5CAFE35040F87F8C43E6F40BCFEFC754DE2",
+      "bytes": 7849,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.TestRunner.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "16E008DCD929D166DA06B4304285AA88594D1B0E1F2A4703DB282E386BA9DC29",
+      "bytes": 123668,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.TestRunner.pdb"
+    },
+    {
+      "sha256": "B6C6D7205969F665D241D9C5BABC9159A3A9D8046A4ED48FD87984BD82FEA8C5",
+      "bytes": 101888,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.TestRunner.ref.dll"
+    },
+    {
+      "sha256": "4479244F6A15ABE5F8769E373C84864D8C3B90DA242C60AC37B107AFFDD9E42F",
+      "bytes": 43706,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.TestRunner.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.TestRunner.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.TestRunner.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "C04A92196F692E557718DC0D8B082FD4ABFB10787D716C7B7463DCBB1F7260D2",
+      "bytes": 102400,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.UI.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.UI.dll.mvfrm"
+    },
+    {
+      "sha256": "23A4DDB9D815CD156986B2149AE1CCD14D71B07CFD1D10DE35C1B8340F3871E6",
+      "bytes": 8547,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.UI.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "871EFDC906BB40F18FF68D1A2B461AC07E15232CEBBB09C0DF7E691F351E9D89",
+      "bytes": 53632,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.UI.pdb"
+    },
+    {
+      "sha256": "EA7C9288E1AE992C51DED8CD2E55BD3D35AE4B7BB19218F7D0602C7D7D29BC1B",
+      "bytes": 23552,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.UI.ref.dll"
+    },
+    {
+      "sha256": "CA45F5F762BA0536D4D01C6E0E33F4473F76E2163BF0AA9CF4DB91ED1BD15086",
+      "bytes": 29278,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.UI.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.UI.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEditor.UI.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "6D69456429BDF7D901E2FCE94FE090CE97BE3270DAD6C349A9BD7C96860552CA",
+      "bytes": 144896,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.TestRunner.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.TestRunner.dll.mvfrm"
+    },
+    {
+      "sha256": "ED9C1C68D50633941504D8395AEA37A76AD360C7B6602E3408BE10B7850B4E82",
+      "bytes": 7412,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.TestRunner.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "2E6CD66E77272CC7DC695D2A7AC768FE5FB852B9B70E1BBE2A603B46D1580F74",
+      "bytes": 78220,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.TestRunner.pdb"
+    },
+    {
+      "sha256": "F8C0CD50B869A298758DA38CC5AFA3845B18DE3BC53D06D7483FAF6B63AB7170",
+      "bytes": 70144,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.TestRunner.ref.dll"
+    },
+    {
+      "sha256": "61D1E4DF0CB5710161F7E9562AE4AA2DB109F6E16B7AFFC332AB3B03F9D8BB0A",
+      "bytes": 37520,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.TestRunner.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.TestRunner.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.TestRunner.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "F3B270D73BEEA4C62EC1ED47DD9E3684F04D0AC1139B8B3826217027C1105EBD",
+      "bytes": 300544,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.UI.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.UI.dll.mvfrm"
+    },
+    {
+      "sha256": "317A49CCACB62F7F5DC37F34D4E37D1CB5486DC8DC9799F088F0ABD6DE9D6EB0",
+      "bytes": 7950,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.UI.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "EF2E0C0BBDEDD7671F9820DD25C7C87D7F5F1F9587AB82BB01CCB9F8483F8068",
+      "bytes": 184680,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.UI.pdb"
+    },
+    {
+      "sha256": "483F0E3F0822B9175856D81962BDE48918F0016DDF1AE434B6C420D088DB2638",
+      "bytes": 100864,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.UI.ref.dll"
+    },
+    {
+      "sha256": "E2E45EA14EB7DC636E1017E0E1FD8F29D352B06502B5DCEC5D73F4D9ABB94EA4",
+      "bytes": 32004,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.UI.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.UI.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aEDbg.dag\\UnityEngine.UI.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "F2A88E56A74F7E4FC2E712F2CDBB9B916897BC213C9240E8C20DC3D2603A20A8",
+      "bytes": 357376,
+      "path": "artifacts\\1300b0aP.dag\\Assembly-CSharp.dll"
+    },
+    {
+      "sha256": "C88ACB05F3B42D883757AF6C93B8E1B2E9FFD0BC31570BC76B278BB281ED8F01",
+      "bytes": 1838,
+      "path": "artifacts\\1300b0aP.dag\\Assembly-CSharp.dll.mvfrm"
+    },
+    {
+      "sha256": "6B70D970CFF9977731B050BA803125730B9CE1AAADB3EB58BEE3AB033A70C7A2",
+      "bytes": 6113,
+      "path": "artifacts\\1300b0aP.dag\\Assembly-CSharp.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "BD8D9F7A3C7AC770A4A89DE66E9330BF3AAC3D24F9744E417E2D1AE470B8C19E",
+      "bytes": 112096,
+      "path": "artifacts\\1300b0aP.dag\\Assembly-CSharp.pdb"
+    },
+    {
+      "sha256": "EB1D17887ECB8C6905E09B21D7A7CB205CDD49166A2B23AF7530825070CDC411",
+      "bytes": 45568,
+      "path": "artifacts\\1300b0aP.dag\\Assembly-CSharp.ref.dll"
+    },
+    {
+      "sha256": "AA84F7052BD64658330F4082B1A585EF1599310463001F02A8A19427B0B3B86F",
+      "bytes": 26272,
+      "path": "artifacts\\1300b0aP.dag\\Assembly-CSharp.rsp"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\1300b0aP.dag\\Assembly-CSharp.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aP.dag\\Assembly-CSharp.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "8A7AF30D99005ED8213CF39DD748FC7F6793DEB8571342A0E93ED14F4ABB9FA7",
+      "bytes": 380416,
+      "path": "artifacts\\1300b0aP.dag\\Unity.TextMeshPro.dll"
+    },
+    {
+      "sha256": "C88ACB05F3B42D883757AF6C93B8E1B2E9FFD0BC31570BC76B278BB281ED8F01",
+      "bytes": 1838,
+      "path": "artifacts\\1300b0aP.dag\\Unity.TextMeshPro.dll.mvfrm"
+    },
+    {
+      "sha256": "DD6EFEA10F36A87697859BBDCFE2C3D113BDF4B01519DDB22D4B2107E864F2DC",
+      "bytes": 5693,
+      "path": "artifacts\\1300b0aP.dag\\Unity.TextMeshPro.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "F9FE08EA8D0BBEF57E75172E01D96C227256929B143F10593F07108A9C2F6247",
+      "bytes": 168968,
+      "path": "artifacts\\1300b0aP.dag\\Unity.TextMeshPro.pdb"
+    },
+    {
+      "sha256": "1D27CC793C1F71CB81C392B308FA37B8C9A2E943D7B37C9B70AFC3B10B5D874C",
+      "bytes": 102912,
+      "path": "artifacts\\1300b0aP.dag\\Unity.TextMeshPro.ref.dll"
+    },
+    {
+      "sha256": "FE81E8C9F0EDB137FB8FF7F12ADC5C4C904F00D5DFFB5D15A6C17FCE7D281E0F",
+      "bytes": 29358,
+      "path": "artifacts\\1300b0aP.dag\\Unity.TextMeshPro.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aP.dag\\Unity.TextMeshPro.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aP.dag\\Unity.TextMeshPro.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "F7C3FC7091830F413E1A1EA79DFFAB0700543AD8CF594150C77FFA1B446A3649",
+      "bytes": 127488,
+      "path": "artifacts\\1300b0aP.dag\\Unity.Timeline.dll"
+    },
+    {
+      "sha256": "C88ACB05F3B42D883757AF6C93B8E1B2E9FFD0BC31570BC76B278BB281ED8F01",
+      "bytes": 1838,
+      "path": "artifacts\\1300b0aP.dag\\Unity.Timeline.dll.mvfrm"
+    },
+    {
+      "sha256": "DD6EFEA10F36A87697859BBDCFE2C3D113BDF4B01519DDB22D4B2107E864F2DC",
+      "bytes": 5693,
+      "path": "artifacts\\1300b0aP.dag\\Unity.Timeline.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "E8C1F07EDD41A73B6FD3D602AD5263CEC2F371CE8B874D7B66443D6A4AE432CD",
+      "bytes": 67852,
+      "path": "artifacts\\1300b0aP.dag\\Unity.Timeline.pdb"
+    },
+    {
+      "sha256": "9AD2F48A954FADC4C9B1017EA966920245D2608CB66201F358659FFD6971E691",
+      "bytes": 60416,
+      "path": "artifacts\\1300b0aP.dag\\Unity.Timeline.ref.dll"
+    },
+    {
+      "sha256": "654DAE2A18021E77F3A5E142B852AB990D81CD0DDAFB3124EF7E4CA0AE535BEA",
+      "bytes": 30391,
+      "path": "artifacts\\1300b0aP.dag\\Unity.Timeline.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aP.dag\\Unity.Timeline.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aP.dag\\Unity.Timeline.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "3D845202715A1095CB90CA455B421BAEE9C97FD728A9349EE5C07169BEC4C315",
+      "bytes": 625152,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Core.dll"
+    },
+    {
+      "sha256": "C88ACB05F3B42D883757AF6C93B8E1B2E9FFD0BC31570BC76B278BB281ED8F01",
+      "bytes": 1838,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Core.dll.mvfrm"
+    },
+    {
+      "sha256": "DD6EFEA10F36A87697859BBDCFE2C3D113BDF4B01519DDB22D4B2107E864F2DC",
+      "bytes": 5693,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Core.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "AA1EFEE925500359C574DC2804B867317B2170600D814244640174B39B3E9288",
+      "bytes": 267544,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Core.pdb"
+    },
+    {
+      "sha256": "4D9E9FA435C4171D9CE85C68A94A2856C611468078BB54500CD9B8068C318542",
+      "bytes": 289792,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Core.ref.dll"
+    },
+    {
+      "sha256": "433B5B1983B7D74D8D39C8230EB01DCB59EAE6A54EF9E042E67363AC55B04200",
+      "bytes": 77886,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Core.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Core.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Core.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "9B95715101FE2ED58404A43B0D7DBD17F6E8A8945F73618C54798F817F99BA69",
+      "bytes": 401408,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "sha256": "C88ACB05F3B42D883757AF6C93B8E1B2E9FFD0BC31570BC76B278BB281ED8F01",
+      "bytes": 1838,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Flow.dll.mvfrm"
+    },
+    {
+      "sha256": "CC0A352F6F750DEADCD8CC3BCD7CF1DC2F8723B735FDFCD0FBDB2D13279AFFEF",
+      "bytes": 5781,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Flow.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "6241B894D513AA7326483A2A65C2402FCCF95335229687A4D5113B80A831FC86",
+      "bytes": 184516,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Flow.pdb"
+    },
+    {
+      "sha256": "CF1529E00CCD833693FD7B47F8FE68C96AD5BA5FAFE5B6A1DF2D46B3D19ACDD6",
+      "bytes": 211456,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Flow.ref.dll"
+    },
+    {
+      "sha256": "6BCE9F2C6FE27E3DB370AC5399979D22BF27024923253E3876DA87CDFC41E3D9",
+      "bytes": 73189,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Flow.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Flow.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "8E193E31C5C66FD260D7C1C092B587997B36B1B91D6B55415762E3A30C7D3D25",
+      "bytes": 32256,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.State.dll"
+    },
+    {
+      "sha256": "C88ACB05F3B42D883757AF6C93B8E1B2E9FFD0BC31570BC76B278BB281ED8F01",
+      "bytes": 1838,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.State.dll.mvfrm"
+    },
+    {
+      "sha256": "A31F58C4830F4171EA29C991F42DA8173E0EB18C911BF01CF63BB1931D127810",
+      "bytes": 5869,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.State.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "476F28F68C5B3F8D21BD74ADA0E6DF263773C52FE1945D961F22C38F413AA1A9",
+      "bytes": 26132,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.State.pdb"
+    },
+    {
+      "sha256": "103ADFA4CF3AFC033BBF58E92594DBBEFA4762109FFE5E782A8531AFC180963A",
+      "bytes": 22016,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.State.ref.dll"
+    },
+    {
+      "sha256": "9C6CF4293E6452BC0D106CD73BCE2EB7DFE107B3DA717A64E7AF0A6CB98D7525",
+      "bytes": 27568,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.State.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.State.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aP.dag\\Unity.VisualScripting.State.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "1C9A57C55D949DA69B4797A40E4CE7C58315BE461D6CF5FE58B34FA3727D29D5",
+      "bytes": 134656,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.TestRunner.dll"
+    },
+    {
+      "sha256": "C88ACB05F3B42D883757AF6C93B8E1B2E9FFD0BC31570BC76B278BB281ED8F01",
+      "bytes": 1838,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.TestRunner.dll.mvfrm"
+    },
+    {
+      "sha256": "121F4BC5E906A038CA44B620A03E920D4CE5F78BD22299888293E54494C6BE9C",
+      "bytes": 5523,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.TestRunner.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "8E6DBE35E075E5FDEB0C058693757C128E69CDF709ACBA33AE784C52646ED46E",
+      "bytes": 65748,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.TestRunner.pdb"
+    },
+    {
+      "sha256": "5920355CDF863E1450AF459F8E2397FE63E38000064E930ED08BB53EAB903DBD",
+      "bytes": 70144,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.TestRunner.ref.dll"
+    },
+    {
+      "sha256": "92C7C2ACB848A66ED52B16C8CA04EF3C313C73E7BE7276169F7F89D1CD4636E5",
+      "bytes": 37700,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.TestRunner.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.TestRunner.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.TestRunner.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "686FC0EA6F794E7A550AE5D8F1D1EDB812E55DC8DAE52333AFD20E38BD12EF25",
+      "bytes": 264704,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.UI.dll"
+    },
+    {
+      "sha256": "C88ACB05F3B42D883757AF6C93B8E1B2E9FFD0BC31570BC76B278BB281ED8F01",
+      "bytes": 1838,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.UI.dll.mvfrm"
+    },
+    {
+      "sha256": "678351C27EE8EEA8DFABC68D47D42AFD36A0BEC80DA99FA9DFB91490854A56DE",
+      "bytes": 5617,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.UI.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "6255675EE974EBFE46589BF1BA55FE7761DF2CFBED854CF34B09F0E039FF043B",
+      "bytes": 134960,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.UI.pdb"
+    },
+    {
+      "sha256": "2E46BDC6FE5FBC21B1C26D31E6D46008A1F6AB5FC8C8129874B1DE63D5FA0DF1",
+      "bytes": 99840,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.UI.ref.dll"
+    },
+    {
+      "sha256": "05573B7206015D08D7B59E1267153064B3310CCF7D036EF958EB0C4263609EDA",
+      "bytes": 31268,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.UI.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.UI.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1300b0aP.dag\\UnityEngine.UI.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "D7AB8A440E70E59039D6D93DEAD3B018ABDACF8B2343791DB9D77954B41A49F4",
+      "bytes": 111104,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp-Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp-Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "FA99ED8824375BDEAAC7733A353850E2A3DA21BF764213408085B3E148C003F4",
+      "bytes": 10645,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp-Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "D79F3C642AE211ACF4E408DB4883D1E007481EF336F4E4921599A8528457F00A",
+      "bytes": 46904,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp-Editor.pdb"
+    },
+    {
+      "sha256": "C613742F43D723E05C53344B6A22B4A7394385CCD6ACE828A256CCA5E8A9AF4F",
+      "bytes": 10240,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp-Editor.ref.dll"
+    },
+    {
+      "sha256": "EB03BAAE0FB2F6A5B4FC2D591C1743C973D34DDF35B4417F13538AB72B811478",
+      "bytes": 28529,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp-Editor.rsp"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp-Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp-Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "95A5524249D7C3030E1F41F1720ACB5EBE6A6F72617AD9A08159158CE9180DF5",
+      "bytes": 338432,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp.dll.mvfrm"
+    },
+    {
+      "sha256": "8017CC5AF0A0B2A2D6FDCE6EC9340F5A0750A9065964F1576BE2F73A432514F8",
+      "bytes": 9689,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "182E8387681379BCFEE9995988FA8F000171AB96FF233AE1BF6F2D0EF25F4327",
+      "bytes": 130520,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp.pdb"
+    },
+    {
+      "sha256": "75FD95B4A9AC69BE35F46AD3ED25A23AC7E351C1D276E082E61CAE780F00F3A0",
+      "bytes": 42496,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp.ref.dll"
+    },
+    {
+      "sha256": "BB3555B1FC46D1D72258DE6CBAAF06411A02B8091E5A60C5DFC0E5E9F746439A",
+      "bytes": 27219,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp.rsp"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Assembly-CSharp.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "C5CCC699123E849F8FC3FC4CF6F77A5C85C11B0441B84B686267E0F938B7CE3D",
+      "bytes": 6144,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.CollabProxy.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.CollabProxy.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "EB0503798F321F8B817F9E7DBB1BB2A4F32CBAA2E3C31DB8146C7B9C33D411FD",
+      "bytes": 8708,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.CollabProxy.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "04F7F0F927A13FCFF4E82C498DC5D78DEDB86A93CFDF0A781DC72CA6E4AB84BC",
+      "bytes": 18200,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.CollabProxy.Editor.pdb"
+    },
+    {
+      "sha256": "477997ACA302361CC98C2A4B7E27E1B877B6E21934B22D954639FB50AE615C9E",
+      "bytes": 5632,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.CollabProxy.Editor.ref.dll"
+    },
+    {
+      "sha256": "AD39360BC73AE384B6824999F9140F8760BE14472E3B3308303B013B9424530F",
+      "bytes": 26403,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.CollabProxy.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.CollabProxy.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.CollabProxy.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "605A1673BE0CF25F34A969C6C9B8F2267F5F91D8D3A2BFB11D9969477AA99017",
+      "bytes": 9216,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.EditorCoroutines.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.EditorCoroutines.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "9E49930C63AC6EEA2FFEAE7B9AD8B3D4CCEBA3F294F807EE6E94747A234C5F34",
+      "bytes": 8623,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.EditorCoroutines.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "CFD78447581538FCD94D38D90692AF1CB9ACBAE060F72457B853A267216E8F1C",
+      "bytes": 19656,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.EditorCoroutines.Editor.pdb"
+    },
+    {
+      "sha256": "D84032D9D235BF0C25B005F71F96E86DE73C5668B57929A7B3E6BC008044523E",
+      "bytes": 6656,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.EditorCoroutines.Editor.ref.dll"
+    },
+    {
+      "sha256": "CA7FE072F48D848E1DA32B9ECC7BFDEB24AF2DEBB121D372F85977AB2E7DE525",
+      "bytes": 26614,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.EditorCoroutines.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.EditorCoroutines.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "83EFF8B49319D174B4DE4878E33EFE04974622F5979278EC78C35F210EBB1EEF",
+      "bytes": 291328,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "9E49930C63AC6EEA2FFEAE7B9AD8B3D4CCEBA3F294F807EE6E94747A234C5F34",
+      "bytes": 8623,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "9BA4CFE28EDDB30C1C282BB0A83FC865676FF7C557C7EC2604A231494D050D28",
+      "bytes": 161672,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.pdb"
+    },
+    {
+      "sha256": "438BA97105FF4F46D98EC0AE8948FA78B1A376983796CEB4F103F841633307A4",
+      "bytes": 56832,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.ref.dll"
+    },
+    {
+      "sha256": "F9D2C5C86ED5D2EB597FAB4919B0344DB1091306969F27C9C100D46D28DD9331",
+      "bytes": 29358,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "92A78C7C7C34AD336813B61CEB9E3C4C72736D2FC129657DE492FBB7390BE59F",
+      "bytes": 738304,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.PlasticSCM.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.PlasticSCM.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "CB15377923991181BCFD5DF3D6D59E59AB51E25C7B649F4132F6BFCFF7DA49E4",
+      "bytes": 8172,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.PlasticSCM.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "CD0F9858F4FF82773FBB25A595DFD529596AC7C749C20B8B5DB65A952DF77E60",
+      "bytes": 387820,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.PlasticSCM.Editor.pdb"
+    },
+    {
+      "sha256": "362ED628B31F506F230D5C9F9273C01811FC6BAD1A07368A2B60D012C95AD414",
+      "bytes": 258048,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.PlasticSCM.Editor.ref.dll"
+    },
+    {
+      "sha256": "D0EBBEECE72EBA7B89878538BB46C7F9DABA9EAFE05716E92921A9B4E74969C6",
+      "bytes": 57570,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.PlasticSCM.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.PlasticSCM.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.PlasticSCM.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "C2DB3EA5F2C5AFCF38E0E93BE321E5CE202108BDD0146D00B7FC5C9C5E73BC39",
+      "bytes": 82944,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Rider.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Rider.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "973712DAA40EE7DDCC33283BF96BCEC8382689110E81C9DE4A41C953941F1D6B",
+      "bytes": 8085,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Rider.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "1BE535801D3BEC3B3FDC7AE2A15581BC9ADDE88DB8527C130FCFA6C1C30A0790",
+      "bytes": 49508,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Rider.Editor.pdb"
+    },
+    {
+      "sha256": "1C6021812344E5EED7CB8E88049A6D67895CFA1FE5214D4599ED6283D532B96A",
+      "bytes": 27648,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Rider.Editor.ref.dll"
+    },
+    {
+      "sha256": "C9FC74339989DD840BC6DA82C8F13EA7EF7E482F9398657249522E13AF3E8288",
+      "bytes": 29189,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Rider.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Rider.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Rider.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "A6138CA4722C079162310B82A9E4106DCC248AA7B10C66271BD10A2497CE9B00",
+      "bytes": 46080,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Settings.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Settings.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "9E49930C63AC6EEA2FFEAE7B9AD8B3D4CCEBA3F294F807EE6E94747A234C5F34",
+      "bytes": 8623,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Settings.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "BC4B931A27A1311222590A6B5F402F030C019F60E16A0F8EC2B098B3320A8820",
+      "bytes": 34732,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Settings.Editor.pdb"
+    },
+    {
+      "sha256": "7090881A3C2D0EED86DC817A45A615B83E8D2779CBB8B237FF12E1C6121CC4DF",
+      "bytes": 15872,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Settings.Editor.ref.dll"
+    },
+    {
+      "sha256": "4564D530A829DF0E4023FD1754EB5A3332352A5DFE79DA4E0044337889B07ABE",
+      "bytes": 27321,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Settings.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Settings.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Settings.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "17F5539C02A51E60C2D12F348A80E1EC57894688C6BD0D5E866887E9A921992B",
+      "bytes": 143360,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "773806654D6217377EB5306D2EB6DFBA43E23519758CCE6945304DA5BEADBEF1",
+      "bytes": 8404,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "D4B9643B5144BE58182251DE093489F7F02CB353B38A1A4941A6C3D1029D90F9",
+      "bytes": 28160,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm"
+    },
+    {
+      "sha256": "9E49930C63AC6EEA2FFEAE7B9AD8B3D4CCEBA3F294F807EE6E94747A234C5F34",
+      "bytes": 8623,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "5E6293E40A921EE6271CE0B7E09DB5624F3520381E62E193B58486E558FEB716",
+      "bytes": 27036,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb"
+    },
+    {
+      "sha256": "83F5136EB246EEB9D1FDE8A7949FBD540ED3177AD51AD5E37E6772C90EB5B405",
+      "bytes": 18432,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll"
+    },
+    {
+      "sha256": "228604EFD90EF36969D4ECBDC9A0AC0152D33E155B0CF7526796BAAC03465E34",
+      "bytes": 28080,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "3515FCCC528B155604903987B1F95418897112DE8E2ADEDD715B1659657C01FA",
+      "bytes": 13312,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm"
+    },
+    {
+      "sha256": "9E49930C63AC6EEA2FFEAE7B9AD8B3D4CCEBA3F294F807EE6E94747A234C5F34",
+      "bytes": 8623,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "FF59080236650CA9A3D4F483B2EDC03F39EEC2663B665B92424FFD800164581C",
+      "bytes": 22076,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb"
+    },
+    {
+      "sha256": "A66DF165D53C91F9395DB78AAF61764D95C9FA6353218B28B177DEA6CC5A5496",
+      "bytes": 6656,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll"
+    },
+    {
+      "sha256": "4F820F316F5EF23C144F30653EA2844F734D264C704086CA841D33B239D00254",
+      "bytes": 26864,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "C0443FD4A3C95B23B4D21963B53DED80E549B6B1F7900AA83D73A28840AFDE0B",
+      "bytes": 73452,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.pdb"
+    },
+    {
+      "sha256": "A6A13ABB232AE2442CF64A4D66B7D156C6A8F5498CEF6A85CE8711D160934045",
+      "bytes": 40960,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.ref.dll"
+    },
+    {
+      "sha256": "84C3E581FCEE199ECE222116EF6D475E8F71D76699047D56AAA7000F7017063B",
+      "bytes": 30667,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "994CEF2C26CA5BDE25840BC9C9B45209D0A3610E3908FEC7B4F1A6EA78E34085",
+      "bytes": 452608,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.dll.mvfrm"
+    },
+    {
+      "sha256": "1621BF046B1AC9B491242D45B2CF2175AFBE920BD1D66E31C4AF63C4A33257CB",
+      "bytes": 8373,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "EE35D00A8BFD9B31230DC68D2D68F8D575E1878940B3E995B1BB14ED9621625F",
+      "bytes": 245248,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "80BD5C822AAFFDB43424CC705F74A410F2267CE21C7EFCC3A1A5CADEEE12284F",
+      "bytes": 8702,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "DF81E13CD8C36179D2C1502853C9FBB0515F6D36319C5066556C1E81BBA62A85",
+      "bytes": 108956,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.Editor.pdb"
+    },
+    {
+      "sha256": "32A182168462F3FA87E2986D75A63267DA939718A3E8D092120C3F070B8930BD",
+      "bytes": 33792,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.Editor.ref.dll"
+    },
+    {
+      "sha256": "96F04C85111167C6F544FDC3D60C897FD7E6B1BCF467F3D0E85F322820508CD3",
+      "bytes": 30731,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "C8E133F7E478D6F70A65B77F89B66C8CBD362AEB415A68D969117BB31A79744D",
+      "bytes": 243788,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.pdb"
+    },
+    {
+      "sha256": "D8C5AA9538FC451F5C5ECC36C623CBEA4286BFF957D0405121E2BDDD5E95D799",
+      "bytes": 103936,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.ref.dll"
+    },
+    {
+      "sha256": "C5DC261E2E0DB86016C9E5C17FCD0EDA8D9162AEE2718173271DE31DAA484D69",
+      "bytes": 30301,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.TextMeshPro.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "B4949C1616DCA0EEE3B03A9EBB0D107FD1224ABB6FD34DBD56456A6856D775BB",
+      "bytes": 162304,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.dll.mvfrm"
+    },
+    {
+      "sha256": "1621BF046B1AC9B491242D45B2CF2175AFBE920BD1D66E31C4AF63C4A33257CB",
+      "bytes": 8373,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "79BD859629159FF23FC7DA95579EBC93EF5A62B26A89525AD938C76524FDF8FE",
+      "bytes": 797696,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "CC137537AC6ACB53E3302527FE30B57E2FA2D098AD34E15BC22C50A67BA061BE",
+      "bytes": 8699,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "55206B759C235CF9B1D1CCD83EEA4A033EDCA943FCE3C7302CC8C7746566C27D",
+      "bytes": 418684,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.Editor.pdb"
+    },
+    {
+      "sha256": "D0E825F085EA66D1734E6BAC2E0861DE5B27C6C03AD8DDE86A60CBCEDD909E04",
+      "bytes": 274432,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.Editor.ref.dll"
+    },
+    {
+      "sha256": "6C5EDA1A328BF8CA99517D14B37EB0B280BD44102B2EE53FDF34177032F3740D",
+      "bytes": 50346,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "8684FD44A27C74968509DFF2A9AB45F86DF4949CED2BA4322B22ABA2602A2ADF",
+      "bytes": 96160,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.pdb"
+    },
+    {
+      "sha256": "58138C3B4DB9CC991DF1C79BFA096089BE6A284A0C8088BD25AE914DBE04CCE4",
+      "bytes": 64000,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.ref.dll"
+    },
+    {
+      "sha256": "F11D3E2511FA61AB30100831CFC670519EB0A8A09F8E0E5D94D697928B13387F",
+      "bytes": 31334,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.Timeline.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "BD38B9536234B546A737F1617DFDF758FC633219A11AB372192117D070AEFFA6",
+      "bytes": 674304,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.dll.mvfrm"
+    },
+    {
+      "sha256": "1621BF046B1AC9B491242D45B2CF2175AFBE920BD1D66E31C4AF63C4A33257CB",
+      "bytes": 8373,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "27D36E91B9EB0990AD9C77CE71B4A61C166DBE4CCE4EFC068DB323A94DFD67EF",
+      "bytes": 1195008,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "92E2A1539598F2EE332BD2230C3CDCB52BC36944CA52CC7EF9FB440664303E27",
+      "bytes": 8711,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "B8ECE6688EB8BFA94825A531407E5AB8C1942F23AEAC6B593F3A7265C213D601",
+      "bytes": 467020,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.pdb"
+    },
+    {
+      "sha256": "F280CCB724C9176049B957E65F63F18C24D2FFD6EE86AB01F4B3DEB291A9731B",
+      "bytes": 475648,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.ref.dll"
+    },
+    {
+      "sha256": "EA003A34E01142B3DB6B6975CDF7365E64741A425A140B0B6BB7CED7CB53B4F1",
+      "bytes": 82814,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "166FE6C791274706F904FACF29B578AB9BB290540407F8B0FFCF3C5C3EB5D8F6",
+      "bytes": 336696,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.pdb"
+    },
+    {
+      "sha256": "CB28E3F41FC8310BE31A1B55092A753097F964053A61C96370F8A0990AFAED86",
+      "bytes": 293888,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.ref.dll"
+    },
+    {
+      "sha256": "5922D99F5DC4E43CD7D2747BC00847B8D98943E66FB13D8050F926F02A81AB9C",
+      "bytes": 78829,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Core.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "8F52D98B0113AE2622EB0A3D557316353CF323E90761F5002EF8A3C6AA473B9A",
+      "bytes": 427008,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.dll.mvfrm"
+    },
+    {
+      "sha256": "C31F5605F76E06F6AAA537F91A29CA5AA168D1C269E7AB2CFB04FDDAAF900DD9",
+      "bytes": 8461,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "98801D0B2ABA91DAE3BF0CBEFDC584D6E1C3BFD52E6768D0514715AD7AFBB7B6",
+      "bytes": 363520,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "8AE417FB266BB4D6881098EF8E6693B42A191F7C5FFFABAAF13F2EFD3E4E8DC9",
+      "bytes": 8894,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "464BA426CCD2327465695C2DBCD6B7A911543127FCEBEEE5ED4A366942DA608F",
+      "bytes": 147096,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.pdb"
+    },
+    {
+      "sha256": "9C09435340D9359A01AFC1A4F48AC9BF1C76C5A6ED50A682CA27D48F1E53A21F",
+      "bytes": 137216,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.ref.dll"
+    },
+    {
+      "sha256": "5B92AA79DADEB03438C542299D85B306FDB742D68E098BE8B591237AC85A3DDB",
+      "bytes": 46678,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "4A4B1948C9F0ADCE6F5C40734580E519F2C92EF4437354F0C0CA7BE0F1BCA419",
+      "bytes": 220164,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.pdb"
+    },
+    {
+      "sha256": "9B9CDCAFF5E04CAC3F68BDE3A9AA170001B664187374DC38249D5DE97B6BF10E",
+      "bytes": 211456,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.ref.dll"
+    },
+    {
+      "sha256": "20B88B6D7AAA626485A3CDA39B1AE76CEC5CE82B526059E3A533B69F70726D73",
+      "bytes": 74135,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "1066A4F7528BA4B6F0D23E6D0506B20ADAAFE259532BE13250C250255E5A3058",
+      "bytes": 18944,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "57D7E3E4472B62DFE169D4652B467A78602371A180597A5AAD6B97D137BB2FF9",
+      "bytes": 9078,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "B1E18FA3E814CF57481E93F7566203271E55637B77AB4F62F3A6FB9D1BE1A4D7",
+      "bytes": 21960,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.pdb"
+    },
+    {
+      "sha256": "171E23AE736B6188F11E22F8BC22D201CB7A14E7FA77CF52FCFB9536E310DE59",
+      "bytes": 8704,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.ref.dll"
+    },
+    {
+      "sha256": "D7AAC1C8F695892B5F4AEDBAA62E8BC7AE3D07088568FD5C2C0A3D3975610492",
+      "bytes": 27889,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "A28E0C12D67AEC9EC60D097557B5313E527FE356CE5EB19E4A3F50F04A3796AB",
+      "bytes": 14336,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "1E9E820285C0B3CFA593F983B5AC4F2CE95912C01145C1E2F0C3294734DA583F",
+      "bytes": 9174,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "1EFEBB855615162866A320DB7A4900604A9B04BE33325DBE4BCABCF8B6594003",
+      "bytes": 21644,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.pdb"
+    },
+    {
+      "sha256": "338AD8BB4649286B21085390C6E62E02DA62742C2374C95C6E562D988EF41BFF",
+      "bytes": 5632,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.ref.dll"
+    },
+    {
+      "sha256": "53F4F5547B63C8AC91DF205133D60983FB9830577D07B5CDBE4125F408AD7014",
+      "bytes": 26873,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "DCFBA67D90340801A3AAF0B584B7194BE1FFFE740D3D1779746D9D23F913C49E",
+      "bytes": 33792,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.dll.mvfrm"
+    },
+    {
+      "sha256": "C5429D4DDF1E30D5B426DAB859820981533B305073E3B4A872FD65BD4126FB7E",
+      "bytes": 8549,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "7BAD4757C699BFE0E6938DCF5F03E479248560B54B1755041C2CD38826F9B5C2",
+      "bytes": 104960,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "57D7E3E4472B62DFE169D4652B467A78602371A180597A5AAD6B97D137BB2FF9",
+      "bytes": 9078,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "60074B95BA1820E112536B498E550D22A67B41A74FF1B669B9C85BC7187B384E",
+      "bytes": 52312,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.Editor.pdb"
+    },
+    {
+      "sha256": "B5CD031941EA6D4C09512F37FBF4A80841FB23052A1D7B831C4BFF9AC596E3E7",
+      "bytes": 50688,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.Editor.ref.dll"
+    },
+    {
+      "sha256": "94CE3756C123EE6953817B09A6F50F0A439A3AC4F974F353E3A14B76638B4AE0",
+      "bytes": 34658,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "098C8C597B4430B3089960A6E63FFB50BB94BB9820A355BE42CA13E2D1FC06A5",
+      "bytes": 30340,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.pdb"
+    },
+    {
+      "sha256": "BE5388E7796D03B77D079F3DFAF826CAB036F61664EDAC4CE2ADD996F1B0E328",
+      "bytes": 22528,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.ref.dll"
+    },
+    {
+      "sha256": "8A822F37531BE284D57742343D0DFF4388AD6C97AE68A352B8A7B594722B9E7A",
+      "bytes": 28517,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualScripting.State.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "7DE689C2D2ED573D84C6CFA3ECB5C31EC7039800F62490278506D93A4F7EC6C9",
+      "bytes": 147968,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualStudio.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualStudio.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "973712DAA40EE7DDCC33283BF96BCEC8382689110E81C9DE4A41C953941F1D6B",
+      "bytes": 8085,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualStudio.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "EEB9D6B0740C09FCBBA027A4A0F77F2974E0A20DA05D70CFBBA7852133AF38AC",
+      "bytes": 77232,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualStudio.Editor.pdb"
+    },
+    {
+      "sha256": "07CE8908591EDB7A50CD185D539D58227AEFA215220E0B4DF51DF6453E1C4D69",
+      "bytes": 51712,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualStudio.Editor.ref.dll"
+    },
+    {
+      "sha256": "57E9AB5E3951F0778C41378DDF4A6B250095AC648BE3252C76E267A167C3B3BC",
+      "bytes": 29303,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualStudio.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualStudio.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VisualStudio.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "175A72C9C7E980A2140DAE5672F4B943203233A53B7550CAC257F4643EA78825",
+      "bytes": 50688,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VSCode.Editor.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VSCode.Editor.dll.mvfrm"
+    },
+    {
+      "sha256": "9E49930C63AC6EEA2FFEAE7B9AD8B3D4CCEBA3F294F807EE6E94747A234C5F34",
+      "bytes": 8623,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VSCode.Editor.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "9AEAD261656B58390269ABE0E5C2B8216A1E8E6DB21D91600A50E9AD9F998B13",
+      "bytes": 30676,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VSCode.Editor.pdb"
+    },
+    {
+      "sha256": "F460C7D68DED56E3B067FED644D27472387E196BBFB83A0B6D3F13E2C279C582",
+      "bytes": 13824,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VSCode.Editor.ref.dll"
+    },
+    {
+      "sha256": "ABB9CEC606D942AA6F42A791A9D737740A233EE322B48DD72966A3F891D5B7AA",
+      "bytes": 26974,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VSCode.Editor.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VSCode.Editor.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\Unity.VSCode.Editor.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "6DC654A92EB9412F7E36131CFDAD2C0BE8B55DA1B3B9C29218D4550EABF3D642",
+      "bytes": 240128,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.TestRunner.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.TestRunner.dll.mvfrm"
+    },
+    {
+      "sha256": "83F64AAC615707CE1184F1AD2DF56D1E546E3E70659BDCFF0C9A549A5202E5AF",
+      "bytes": 7849,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.TestRunner.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "69C9931822BA10B776D85413CF4E43F46A6F497BCD87DFB4D12DF1AB48ED5233",
+      "bytes": 123572,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.TestRunner.pdb"
+    },
+    {
+      "sha256": "B6C6D7205969F665D241D9C5BABC9159A3A9D8046A4ED48FD87984BD82FEA8C5",
+      "bytes": 101888,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.TestRunner.ref.dll"
+    },
+    {
+      "sha256": "A5E0597157377AECA46CB93F4E1825BFE44649D3B7B637CE2BCA4CD0F3077B3C",
+      "bytes": 43585,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.TestRunner.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.TestRunner.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.TestRunner.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "99FE64D7E7E5C103DF8A0DB73BFAA7C45C8FFE010C7FB2875F5F0F803F65DDD0",
+      "bytes": 102400,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.UI.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.UI.dll.mvfrm"
+    },
+    {
+      "sha256": "7E405CD9D54D0C3C50764E4BE6389DFCD07AA616342FF04544D81F50FE4BEDF6",
+      "bytes": 8547,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.UI.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "6A370A24ABEE6E8A995EBD1371B13FCC407EEF31154B4B241AA858670AB54594",
+      "bytes": 53536,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.UI.pdb"
+    },
+    {
+      "sha256": "EA7C9288E1AE992C51DED8CD2E55BD3D35AE4B7BB19218F7D0602C7D7D29BC1B",
+      "bytes": 23552,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.UI.ref.dll"
+    },
+    {
+      "sha256": "3101F2BCBC3333933196756A3C1A984685E54F88E3D904EAB243C3C0846EFEDF",
+      "bytes": 29157,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.UI.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.UI.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEditor.UI.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "F6668487075BF976120863FF747FD9A2EF8B0C42AC38E2AEA769FEB00C2A4C90",
+      "bytes": 144896,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.TestRunner.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.TestRunner.dll.mvfrm"
+    },
+    {
+      "sha256": "844F306482E56FD098B0E5786A8467CB3671A3759AE67FE76E5216B540B77C48",
+      "bytes": 7683,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.TestRunner.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "B0356E9094779FA82DB92757E7F59962A31A36CA93980C61356E732A6016D225",
+      "bytes": 78312,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.TestRunner.pdb"
+    },
+    {
+      "sha256": "F8C0CD50B869A298758DA38CC5AFA3845B18DE3BC53D06D7483FAF6B63AB7170",
+      "bytes": 70144,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.TestRunner.ref.dll"
+    },
+    {
+      "sha256": "76B332D26CE2DB3F68EB9AB7B5684E5AEF869C93D48F128A598660B0B3C28BBC",
+      "bytes": 37658,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.TestRunner.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.TestRunner.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.TestRunner.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "5BBFF45A28D6A74AD3FDE14FBBBB9E6D001CA3532E1C87E54F4309FF93C3BB13",
+      "bytes": 300544,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.UI.dll"
+    },
+    {
+      "sha256": "FA46D3DAFA820F1084CC77EECE064B50180279498C22A16FD20E85125D74C3BC",
+      "bytes": 3074,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.UI.dll.mvfrm"
+    },
+    {
+      "sha256": "A094FAD38A70BE0B8AA8CB9F1C090674FDDC2396E2AB56C5F618EFC1B090997F",
+      "bytes": 8221,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.UI.dll.mvfrm.rsp"
+    },
+    {
+      "sha256": "8CDFA28B1CD50B081807C680C64CE7B0694B64760C52E82A9202C727078BC411",
+      "bytes": 184692,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.UI.pdb"
+    },
+    {
+      "sha256": "63D25B66B66DADEBF329179EC070E73852817785A0BAE3566AB4D685D1D4DC92",
+      "bytes": 100864,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.UI.ref.dll"
+    },
+    {
+      "sha256": "43E0AE64311D78775B15B4BC963A4AFDAA6193D3FB2AFA2E6145B5623E4B24F3",
+      "bytes": 32142,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.UI.rsp"
+    },
+    {
+      "sha256": "C627A5B958CCBAE16FDD1356F0BDED61144233032B5DD95A115B6C5708E826E9",
+      "bytes": 37,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.UI.rsp2"
+    },
+    {
+      "sha256": "29418521059240E0DD6AE3FC617BE62E64E5D72723AD26FB9EE55D4AA89929BE",
+      "bytes": 24,
+      "path": "artifacts\\1900b0aEDbg.dag\\UnityEngine.UI.UnityAdditionalFile.txt"
+    },
+    {
+      "sha256": "189A713E9B46532D9AC44DF273C2FC1151BCF00DF9001EA0CBC0A687C116F6AA",
+      "bytes": 1857,
+      "path": "artifacts\\csharpactions\\Assembly-CSharp-FeaturesChecked.txt_ki5r.info"
+    },
+    {
+      "sha256": "307D0D22602443DE4F280CDBFD3B09C55998A9A5DB8B1AC6D9DA4E65DF656F0D",
+      "bytes": 33446,
+      "path": "artifacts\\csharpactions\\boot.config_x4e9.info"
+    },
+    {
+      "sha256": "94DED25349C35AA4C6051E6DBB94F30EE068799D0D28B3439CC07A6A0D928AAF",
+      "bytes": 4376,
+      "path": "artifacts\\csharpactions\\build.gradle_ea8i.info"
+    },
+    {
+      "sha256": "633AC45DB100A3B3BF01A2D20101F52CFBD86147A9316CB188071117230695D9",
+      "bytes": 641,
+      "path": "artifacts\\csharpactions\\globalgamemanagers.assets_wxz5.info"
+    },
+    {
+      "sha256": "816F455BCC112D65F3B0799602C76D2D80BF3797657FD5FBC836ABCD69FC0845",
+      "bytes": 8165,
+      "path": "artifacts\\csharpactions\\LauncherManifestDiag.txt_zvqu.info"
+    },
+    {
+      "sha256": "54165A662515D9D6AA8B5AB7A681A6E49A5E48BEAAEE6C0826A75D55777F7157",
+      "bytes": 565,
+      "path": "artifacts\\csharpactions\\level0_isf5.info"
+    },
+    {
+      "sha256": "62CF2F7F08C3ACEA17493E46760B85F3FA905E54F1E7CA92756BE0FBBB0D4C0E",
+      "bytes": 1853,
+      "path": "artifacts\\csharpactions\\Mono.Security-FeaturesChecked.txt_pcel.info"
+    },
+    {
+      "sha256": "2142A35CEC3A41218E45CF5BDDA1376F4DE8D999321F0544F9BF81B5C3C92284",
+      "bytes": 1843,
+      "path": "artifacts\\csharpactions\\mscorlib-FeaturesChecked.txt_pwj8.info"
+    },
+    {
+      "sha256": "303AD32F3BB8D1F9C1EC630F9CA430FA792B14BF85DB956B47A66BCA0FE642BC",
+      "bytes": 621,
+      "path": "artifacts\\csharpactions\\sharedassets0.assets_v4ez.info"
+    },
+    {
+      "sha256": "CE2B9C7AA1035A81D26AA6E09D2C5FA9E12B9BCDEA8B4FCE3EF8AD817E83C8B0",
+      "bytes": 1839,
+      "path": "artifacts\\csharpactions\\System-FeaturesChecked.txt_v90b.info"
+    },
+    {
+      "sha256": "884E8D2CE222DC757CC05E69BBD98925E0505B4A8E1A7C8E6A1FEB51255B5DB2",
+      "bytes": 1867,
+      "path": "artifacts\\csharpactions\\System.Configuration-FeaturesChecked.txt_vfp9.info"
+    },
+    {
+      "sha256": "D6E84C9CD21CD9BC560A0DA4080FB9B8CF12A1119B678FD15387FD6B98C28DD6",
+      "bytes": 1849,
+      "path": "artifacts\\csharpactions\\System.Core-FeaturesChecked.txt_k2yd.info"
+    },
+    {
+      "sha256": "A238D2C678A8C8A619AA00DEC34D9F08A652CC5A7A7A9484A8C2B3F5ECCA4A15",
+      "bytes": 1847,
+      "path": "artifacts\\csharpactions\\System.Xml-FeaturesChecked.txt_wnnz.info"
+    },
+    {
+      "sha256": "4276FBAD5EA90BEF491635FC6CAA6A09C653BCD5B01AF856419855BF8C88E697",
+      "bytes": 4162,
+      "path": "artifacts\\csharpactions\\unity_app_guid_vxsp.info"
+    },
+    {
+      "sha256": "BD86ECE122695BF572F1D8FAAD1161FD886EC2B21F6F34FDB7403C0D535DF566",
+      "bytes": 1118,
+      "path": "artifacts\\csharpactions\\UnityClassRegistration.cpp_aja1.info"
+    },
+    {
+      "sha256": "B2389DBFA0DB423BA3F64F7610BAA80F2AD5AFCB75DB59C33BA9AD772DFDB651",
+      "bytes": 1849,
+      "path": "artifacts\\csharpactions\\UnityEngine-FeaturesChecked.txt_x1ug.info"
+    },
+    {
+      "sha256": "28BE6075E3EA9C4D647924147EDA86DFC61DA9C6D0B16D8BD086279ADFE05BD2",
+      "bytes": 1883,
+      "path": "artifacts\\csharpactions\\UnityEngine.AndroidJNIModule-FeaturesChecked.txt_x3ln.info"
+    },
+    {
+      "sha256": "A7F9010D5A6698023B9E0787685FA7671459767D6113921CCF610F145842E31D",
+      "bytes": 1881,
+      "path": "artifacts\\csharpactions\\UnityEngine.AnimationModule-FeaturesChecked.txt_3sdh.info"
+    },
+    {
+      "sha256": "2202988332EC25F6284A0C2802B3826B57753D400583D491D786EB4553FDC798",
+      "bytes": 1873,
+      "path": "artifacts\\csharpactions\\UnityEngine.AudioModule-FeaturesChecked.txt_tbfa.info"
+    },
+    {
+      "sha256": "FC07A839F81468A9911A0CC0CB49F7F78B08A30D5568735BA663B05E20D7A285",
+      "bytes": 1871,
+      "path": "artifacts\\csharpactions\\UnityEngine.CoreModule-FeaturesChecked.txt_uimb.info"
+    },
+    {
+      "sha256": "7E0CBD6AF936265DB7AC4F89D69B55AEDBDF948B912C93969045D133A8F28272",
+      "bytes": 1871,
+      "path": "artifacts\\csharpactions\\UnityEngine.GridModule-FeaturesChecked.txt_5p9t.info"
+    },
+    {
+      "sha256": "D2EBB80BBCF2B4144EE7EF69B7737C2E391A1515E39E9C82D93C3B5503A70175",
+      "bytes": 1893,
+      "path": "artifacts\\csharpactions\\UnityEngine.ImageConversionModule-FeaturesChecked.txt_cml2.info"
+    },
+    {
+      "sha256": "2B734DBC12234C062EB38FAE34919229AEF5B25710978EB7C12B371742340E30",
+      "bytes": 1873,
+      "path": "artifacts\\csharpactions\\UnityEngine.IMGUIModule-FeaturesChecked.txt_ufk2.info"
+    },
+    {
+      "sha256": "47AFB1BB1A10D7161DC4534CB7E98E5C55F7DA2F93F97B5C0E423B5E41817F74",
+      "bytes": 1885,
+      "path": "artifacts\\csharpactions\\UnityEngine.InputLegacyModule-FeaturesChecked.txt_y5my.info"
+    },
+    {
+      "sha256": "D3BF657429FA0B1F5AB21C749C4F8B4A8F155A7B4C185BCCB9C2E506910476F0",
+      "bytes": 1889,
+      "path": "artifacts\\csharpactions\\UnityEngine.JSONSerializeModule-FeaturesChecked.txt_vjsc.info"
+    },
+    {
+      "sha256": "DBFAD83C88F6AF0A6C8F2E5A1109B6EC03568E26F032A2FC6090260BD4FBDD7E",
+      "bytes": 1881,
+      "path": "artifacts\\csharpactions\\UnityEngine.Physics2DModule-FeaturesChecked.txt_45hf.info"
+    },
+    {
+      "sha256": "DA124EA351FFEF5C9D24EFB20D947D7AAF7B3FC81ABD7477E3D6CF1460F49CE4",
+      "bytes": 1877,
+      "path": "artifacts\\csharpactions\\UnityEngine.PhysicsModule-FeaturesChecked.txt_2l1t.info"
+    },
+    {
+      "sha256": "C637543A9B67F5E4D9E5F2B7079F6ABDDAE8B139B069CAF42F800D068D88C5A1",
+      "bytes": 1883,
+      "path": "artifacts\\csharpactions\\UnityEngine.PropertiesModule-FeaturesChecked.txt_m9z5.info"
+    },
+    {
+      "sha256": "D473A9933FF1588AA9BD40205245B836B40D04E62EDBC07F30A330EFEC8B8DC9",
+      "bytes": 1889,
+      "path": "artifacts\\csharpactions\\UnityEngine.ScreenCaptureModule-FeaturesChecked.txt_dsz7.info"
+    },
+    {
+      "sha256": "28A7FB03102ADFD30CA276307DB452FD859B34E9758A4F34DF8B05DFCDA2665E",
+      "bytes": 1893,
+      "path": "artifacts\\csharpactions\\UnityEngine.SharedInternalsModule-FeaturesChecked.txt_sm9d.info"
+    },
+    {
+      "sha256": "DB2A8C47DBFB1F8CEC8DEFD2D984D4D62BB2FDA719958A65C964D4C03FE9826B",
+      "bytes": 1885,
+      "path": "artifacts\\csharpactions\\UnityEngine.SpriteShapeModule-FeaturesChecked.txt_zrrh.info"
+    },
+    {
+      "sha256": "E838E3A0E62F428E4C17A2EE5CE8FB6E14BC0F6F68A5D7DB016F1011EAC7F80B",
+      "bytes": 1899,
+      "path": "artifacts\\csharpactions\\UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt_4rfo.info"
+    },
+    {
+      "sha256": "B16EFAC1D5B91020AD86B4851183C4BC54CF2F908F6B601542A0C7DE706074DA",
+      "bytes": 1899,
+      "path": "artifacts\\csharpactions\\UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt_el85.info"
+    },
+    {
+      "sha256": "4D9DBB386E6CDECC068620DEEBA31D0C492436F1B38E3747EE9082FFD8D2F27E",
+      "bytes": 1889,
+      "path": "artifacts\\csharpactions\\UnityEngine.TextRenderingModule-FeaturesChecked.txt_ighi.info"
+    },
+    {
+      "sha256": "2BDE41D15B60D4C0DFFCD147AA0268E91F9B1D5601A5D8357F96190DD1135175",
+      "bytes": 1877,
+      "path": "artifacts\\csharpactions\\UnityEngine.TilemapModule-FeaturesChecked.txt_xct4.info"
+    },
+    {
+      "sha256": "ECE7730B33A347E8A93343618822A9F4EDF4FD34052F86C3D4928D661D3BCA0B",
+      "bytes": 1855,
+      "path": "artifacts\\csharpactions\\UnityEngine.UI-FeaturesChecked.txt_v0bu.info"
+    },
+    {
+      "sha256": "C4CD283CE22AC3A96EF5F1C75B6A3A716BD483F9C4A4F1D4CA65EDEA599879D9",
+      "bytes": 1883,
+      "path": "artifacts\\csharpactions\\UnityEngine.UIElementsModule-FeaturesChecked.txt_aabo.info"
+    },
+    {
+      "sha256": "4D01FDEFE32D982524BCE7E6F4E6AC4BB67F8A5353CCC07252066231DDB5702A",
+      "bytes": 1867,
+      "path": "artifacts\\csharpactions\\UnityEngine.UIModule-FeaturesChecked.txt_zatd.info"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Android.Gradle.dll_F35201486FC64FB5.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Android.GradleProject.dll_8A061D2DC2D11250.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Android.Types.dll_B83C9BBD7ED43157.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.EditorCoroutines.Editor.ref.dll_139783C22DD5D328.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.EditorCoroutines.Editor.ref.dll_A9E741B2F4D7FC42.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Performance.Profile-Analyzer.Editor.ref.dll_0325D8536A3DFD38.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Performance.Profile-Analyzer.Editor.ref.dll_7F7FA9B9E03669D2.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Plastic.Antlr3.Runtime.dll_E09CC82FEF75E5B7.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Plastic.Newtonsoft.Json.dll_9148C07F9746948E.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.PlasticSCM.Editor.ref.dll_038935ADFCD4A11D.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.PlasticSCM.Editor.ref.dll_EBB1919501649DC3.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Rider.Editor.ref.dll_07D7D7B7487B1198.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Rider.Editor.ref.dll_12912411083945D2.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Settings.Editor.ref.dll_3ADD6EDBB44CBA7D.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Settings.Editor.ref.dll_7FC13EE358CAD697.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll_785F74917A23DD9A.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll_BF6AC3C71CAA8CC0.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll_BC3B5CE4CA86DA8D.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll_FA96BB8C3E5A37A7.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.TestTools.CodeCoverage.Editor.ref.dll_9A34A38FCDEB0C06.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.TestTools.CodeCoverage.Editor.ref.dll_BD81B1708A4B02E0.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.TextMeshPro.Editor.ref.dll_37E92434B2D8A6CF.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.TextMeshPro.Editor.ref.dll_EEDCF50BDD4614C9.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.TextMeshPro.ref.dll_2E746244A5BDAEA0.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.TextMeshPro.ref.dll_4A5B02DEDB940168.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.TextMeshPro.ref.dll_A4B478B3CE6E8702.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Timeline.Editor.ref.dll_0DA365A2C678CBF9.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Timeline.Editor.ref.dll_C8BF959B21FAAFDF.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Timeline.ref.dll_08E11C037DD39E3A.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Timeline.ref.dll_733236CB90539738.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.Timeline.ref.dll_F120A7CC9CFB2CF2.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.Antlr3.Runtime.dll_FBC62C826EB2B4B0.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.Core.Editor.ref.dll_065CC54F8DD2A924.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.Core.Editor.ref.dll_FC307210FD20098A.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.Core.ref.dll_0D56696115997497.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.Core.ref.dll_0FD4FE2CDCC99BDF.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.Core.ref.dll_2F2D99604E6B235D.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.Flow.Editor.ref.dll_79615AC00BFE94CB.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.Flow.Editor.ref.dll_838DADFE9CB13465.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.Flow.ref.dll_546749B797A2E946.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.Flow.ref.dll_56E5DE835ED3108E.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.Flow.ref.dll_763E79B6D074980C.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.IonicZip.dll_840FAE5C8A141D5B.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.SettingsProvider.Editor.ref.dll_160037ECA11C30F5.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.SettingsProvider.Editor.ref.dll_DB47A982A779F40F.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.Shared.Editor.ref.dll_4001A5F96077EEE4.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.Shared.Editor.ref.dll_634EB3DA1CD7E5BE.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.State.Editor.ref.dll_8F55C37B46854258.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.State.Editor.ref.dll_C201EBD4F8323092.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.State.ref.dll_06ABD95DCD3386E9.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.State.ref.dll_A70CD23EFCFC9D47.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.State.ref.dll_BD4E09F68F0E7D0F.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.TextureAssets.dll_E1772EF4FEB70289.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualScripting.YamlDotNet.dll_4A5905A13DE9A491.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualStudio.Editor.ref.dll_0788C6E0BDFBBC54.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VisualStudio.Editor.ref.dll_AC85F13A47E869BA.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VSCode.Editor.ref.dll_4366BA9A3B756B20.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\Unity.VSCode.Editor.ref.dll_D22D9E199E54CE46.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.Android.Extensions.dll_8A6A5D2FBCA25F15.mvfrm"
+    },
+    {
+      "sha256": "57F80590FDF48E8461C3EFF95B1AC55BC13E1DBC565C8540CB4A412B7014004B",
+      "bytes": 1040,
+      "path": "artifacts\\mvdfrm\\UnityEditor.CoreModule.dll_21007A3B456B5F4D.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.DeviceSimulatorModule.dll_3D18AF45F3114B04.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.DiagnosticsModule.dll_BE890F42D3C11C52.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.dll_B8A3847F291148B8.mvfrm"
+    },
+    {
+      "sha256": "CB09956051B7DE4E52755AC1CAAE44EE2856A2917A99F7433FF7BD52A55BEF6E",
+      "bytes": 52,
+      "path": "artifacts\\mvdfrm\\UnityEditor.EditorToolbarModule.dll_2D962FC351F44054.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.Graphs.dll_EC1AA48A4A4A5C7F.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.GraphViewModule.dll_CF3E91EA67B4E9E9.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.PresetsUIModule.dll_8AA4CACC6A0D41EE.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.QuickSearchModule.dll_499890502C9818AB.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.SceneTemplateModule.dll_5135A08150E0EA8C.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.SceneViewModule.dll_0DEE74F25CD7B6F7.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.TestRunner.ref.dll_1236C9FFD38EBE96.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.TestRunner.ref.dll_3CEDFFDC50464BDC.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.TextCoreFontEngineModule.dll_4EB020E9EBEA362B.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.TextCoreTextEngineModule.dll_9698575B7B6DEF49.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.UI.ref.dll_5DAE2CC8CF4B8C9E.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.UI.ref.dll_DB9C9DC9DBF32258.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.UIBuilderModule.dll_23C73F06DA6D631D.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.UIElementsModule.dll_25BE26AD97DA1D69.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.UIElementsSamplesModule.dll_4892F9936F0AAD94.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.UnityConnectModule.dll_5DF4C37066DAB483.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEditor.WindowsStandalone.Extensions.dll_AD7C9731B96B6C23.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.AccessibilityModule.dll_20D14344D0861E6D.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.AccessibilityModule.dll_83DB0C1851571229.mvfrm"
+    },
+    {
+      "sha256": "7A7B347CE24FE5322FAD15B46923EB9FAE2D06E70B307D443E6BC30B636C6812",
+      "bytes": 211,
+      "path": "artifacts\\mvdfrm\\UnityEngine.AIModule.dll_3C8CEA992356867D.mvfrm"
+    },
+    {
+      "sha256": "7A7B347CE24FE5322FAD15B46923EB9FAE2D06E70B307D443E6BC30B636C6812",
+      "bytes": 211,
+      "path": "artifacts\\mvdfrm\\UnityEngine.AIModule.dll_C35401EB94D0C601.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.AndroidJNIModule.dll_A4070F80E0F98C3F.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.AndroidJNIModule.dll_CCA3095112438ABB.mvfrm"
+    },
+    {
+      "sha256": "31C1BA74B365EA7E6836C1CBE3FBC839D4C8D2AB6F59250C1C2325D4F4C17C33",
+      "bytes": 421,
+      "path": "artifacts\\mvdfrm\\UnityEngine.AnimationModule.dll_322EE67DEF4E19D3.mvfrm"
+    },
+    {
+      "sha256": "31C1BA74B365EA7E6836C1CBE3FBC839D4C8D2AB6F59250C1C2325D4F4C17C33",
+      "bytes": 421,
+      "path": "artifacts\\mvdfrm\\UnityEngine.AnimationModule.dll_9DC40E134211BE8F.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ARModule.dll_7CC6C6EEF1EE24CA.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ARModule.dll_F5FFAF9C8073E546.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.AssetBundleModule.dll_8D81C3418EFECD9D.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.AssetBundleModule.dll_B27659ECB168F961.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.AudioModule.dll_2284E7FBD8BC4E05.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.AudioModule.dll_35C299B87BDE63C1.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ClothModule.dll_896D44F6B2D92CE9.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ClothModule.dll_9CAAF6B355FB42A5.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ClusterInputModule.dll_DD91388618628749.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ClusterRendererModule.dll_42C571B762CC5888.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ContentLoadModule.dll_26981C825D81758A.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ContentLoadModule.dll_4B8CB32D7FEBA14E.mvfrm"
+    },
+    {
+      "sha256": "79B48767374710435C5C2A323FA4E1C90E230D4D16C181A2F3A735F565AD2CF4",
+      "bytes": 608,
+      "path": "artifacts\\mvdfrm\\UnityEngine.CoreModule.dll_44214D8DED70CA78.mvfrm"
+    },
+    {
+      "sha256": "309D021B214CAC33B27D17DEDB73C1042907C117B0D746A06FBA5F7878FEE318",
+      "bytes": 464,
+      "path": "artifacts\\mvdfrm\\UnityEngine.CoreModule.dll_7289BC59AE05B274.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.CrashReportingModule.dll_3448A13B4966568C.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.CrashReportingModule.dll_7E1EFB7069A69910.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.DirectorModule.dll_1E5290605ED5F695.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.DirectorModule.dll_93FEC9FB358EFD91.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.dll_7BD128839A20ECE1.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.dll_EB47CB578784D59D.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.DSPGraphModule.dll_23A3F1C9D136C7B6.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.DSPGraphModule.dll_99502B64A7EFCEB2.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.GameCenterModule.dll_CE54599BA73A7D30.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.GameCenterModule.dll_F6F0536BD8847BAC.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.GIModule.dll_5B904AF9307FAE1B.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.GIModule.dll_D4C933A6BF056E97.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.GridModule.dll_2192697C05C5606F.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.GridModule.dll_4FFAD847C65A486B.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.HotReloadModule.dll_1F0CCC191D44DA11.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.HotReloadModule.dll_B377A483CA813555.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ImageConversionModule.dll_6352EB5428FE0D40.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ImageConversionModule.dll_AEB76F67E4F1107C.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.IMGUIModule.dll_5AE487629EEDE1E6.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.IMGUIModule.dll_6E22391F420FF7A2.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.InputLegacyModule.dll_1EC6DE6026F0838E.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.InputLegacyModule.dll_43BB750B495AAF52.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.InputModule.dll_88FAAFAC4EF472A9.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.InputModule.dll_9C386168F2168865.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.JSONSerializeModule.dll_80E8CC80CFC17EF7.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.JSONSerializeModule.dll_E3F29554509272B3.mvfrm"
+    },
+    {
+      "sha256": "B7E845FEAC74526FDCA4B03B92192E71E9C4A52ED1D8B04D98AB96ACE374EC4D",
+      "bytes": 32,
+      "path": "artifacts\\mvdfrm\\UnityEngine.LocalizationModule.dll_1BDE02D8AFDE7A42.mvfrm"
+    },
+    {
+      "sha256": "B7E845FEAC74526FDCA4B03B92192E71E9C4A52ED1D8B04D98AB96ACE374EC4D",
+      "bytes": 32,
+      "path": "artifacts\\mvdfrm\\UnityEngine.LocalizationModule.dll_C8C83AC2BF4B603E.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.NVIDIAModule.dll_8D3DB91011CE7DE4.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ParticleSystemModule.dll_875AEA87B777E21A.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ParticleSystemModule.dll_D13144BCD7B8249E.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.PerformanceReportingModule.dll_0C985A9E8384BB33.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.PerformanceReportingModule.dll_FDA165308740D737.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.Physics2DModule.dll_7ED4D66E904B1168.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.Physics2DModule.dll_EA69FE03E30EB624.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.PhysicsModule.dll_1D59B66202B580B2.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.PhysicsModule.dll_27F246F99E191B76.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ProfilerModule.dll_5098C996F82F7DA2.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ProfilerModule.dll_C6450331CEE8849E.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.PropertiesModule.dll_242B92AA4B6FDFE8.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.PropertiesModule.dll_FB8F98DA1A25E16C.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_07FE8F3E4CF66EED.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_4B770C04AF3F5231.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ScreenCaptureModule.dll_9AD07A05E42DAB59.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.ScreenCaptureModule.dll_FDDA42D964FE9F15.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.SharedInternalsModule.dll_32C8AE3D5C1F0BCC.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.SharedInternalsModule.dll_E7642A29A02C0890.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.SpriteMaskModule.dll_B780CC2BC8AA12AA.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.SpriteMaskModule.dll_E01CC5FBF9F41126.mvfrm"
+    },
+    {
+      "sha256": "A66399E426D90F76E30F143EDDA083B8336775C46A24E12C95C9E6413DF99FD9",
+      "bytes": 172,
+      "path": "artifacts\\mvdfrm\\UnityEngine.SpriteShapeModule.dll_A6E2F09C44A105A7.mvfrm"
+    },
+    {
+      "sha256": "A66399E426D90F76E30F143EDDA083B8336775C46A24E12C95C9E6413DF99FD9",
+      "bytes": 172,
+      "path": "artifacts\\mvdfrm\\UnityEngine.SpriteShapeModule.dll_CBD78747670B316B.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.StreamingModule.dll_5258FB63919975CD.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.StreamingModule.dll_E6C3D3CE3ED5D111.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.SubstanceModule.dll_2F040FACDCEC73DB.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.SubstanceModule.dll_C36EE8178A28CF1F.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.SubsystemsModule.dll_222E328D96F1FABD.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.SubsystemsModule.dll_4ACA2C5DC83BF939.mvfrm"
+    },
+    {
+      "sha256": "C825A78EB2C8BC3915E09282CDC67509EDB2F9BC78D7C46C64F25161B5194A86",
+      "bytes": 124,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TerrainModule.dll_37A031D0D873C9A0.mvfrm"
+    },
+    {
+      "sha256": "C825A78EB2C8BC3915E09282CDC67509EDB2F9BC78D7C46C64F25161B5194A86",
+      "bytes": 124,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TerrainModule.dll_4238C26873D76464.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TerrainPhysicsModule.dll_87D5935AD0BADCA7.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TerrainPhysicsModule.dll_D1ABED8FF0FB1F2B.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TestRunner.ref.dll_090C4A8A7C09A9C7.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TestRunner.ref.dll_DE5514ADFF521C81.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TextCoreFontEngineModule.dll_332CBCED27153172.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TextCoreFontEngineModule.dll_CD0F9C3CFEE7F4F6.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TextCoreTextEngineModule.dll_14F7D2AE8E6BAE14.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TextCoreTextEngineModule.dll_7B14F35EB698EA90.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TextRenderingModule.dll_2719B4E41C361F0A.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TextRenderingModule.dll_C40FEC109B652B4E.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TilemapModule.dll_D69C9951F030AAA9.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TilemapModule.dll_E13529E98B94456D.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TLSModule.dll_047881AAE91D5506.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.TLSModule.dll_FC72F41B37069ECA.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UI.ref.dll_1A140323D56DB509.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UI.ref.dll_98027424E2154AC3.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UI.ref.dll_AFC2E85BC2EDBC0B.mvfrm"
+    },
+    {
+      "sha256": "7C0F5B75561966BD57D6A13ACDC42A3FFC642022B625F08F80EB66C8F40E8FF3",
+      "bytes": 414,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UIElementsModule.dll_266C93F59A1E36B4.mvfrm"
+    },
+    {
+      "sha256": "7C0F5B75561966BD57D6A13ACDC42A3FFC642022B625F08F80EB66C8F40E8FF3",
+      "bytes": 414,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UIElementsModule.dll_4F088DC5CB683530.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UIModule.dll_380088C67F9D8C29.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UIModule.dll_BEC7A018F117CBAD.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UmbraModule.dll_9D59941465E2F978.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UmbraModule.dll_B09745D109050F34.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityAnalyticsCommonModule.dll_98E02274A1297595.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityAnalyticsCommonModule.dll_A7D717E29D6D5991.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityAnalyticsModule.dll_A6FA5B51639F3416.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityAnalyticsModule.dll_F0D0B58683DF769A.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityConnectModule.dll_4B54477F6162B52E.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityConnectModule.dll_F83E7F6970CF9B2A.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityCurlModule.dll_654B87AF5F620BC0.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityCurlModule.dll_D0E0AF44B225B07C.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityTestProtocolModule.dll_0455AF85C90602EA.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityTestProtocolModule.dll_3A509E4DBECC002E.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityWebRequestAssetBundleModule.dll_60417E3AED3DFCEB.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityWebRequestAssetBundleModule.dll_7B9A4E2B6FED7767.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityWebRequestAudioModule.dll_759DB90F0DABA1CF.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityWebRequestAudioModule.dll_8494AE7D09EF85CB.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityWebRequestModule.dll_74F1F2FE33F2A7BF.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityWebRequestModule.dll_C0567711EFE5AAFB.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityWebRequestTextureModule.dll_1A07940D2B789300.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityWebRequestTextureModule.dll_5FF66A9FC0F61784.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityWebRequestWWWModule.dll_45D738BAA658A6FC.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.UnityWebRequestWWWModule.dll_DFBA180A7E2B6A80.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.VehiclesModule.dll_0BC1C37AAFB8CD2C.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.VehiclesModule.dll_961589DFD8FFC630.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.VFXModule.dll_7D518C8A0D740837.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.VFXModule.dll_85571A19BF8ABE73.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.VideoModule.dll_478E6C669B4E69AA.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.VideoModule.dll_5ACC1E233E707F66.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.VirtualTexturingModule.dll_4F71E31F238CAF16.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.VRModule.dll_1199C69E92D25125.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.VRModule.dll_8AD2AF4C215811A1.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.WindModule.dll_BA7028B67EA748E1.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.WindModule.dll_E8D897823F3C30DD.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.XRModule.dll_445889A31C0C9E83.mvfrm"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "artifacts\\mvdfrm\\UnityEngine.XRModule.dll_BD917250AA925EFF.mvfrm"
+    },
+    {
+      "sha256": "73AF9670471A8DB10D2C8DAC3B47259D29C39A9C2F7928663462E7E5BEBB92D7",
+      "bytes": 200505336,
+      "path": "artifacts\\objcopy_5lmi\\libil2cpp.dbg.so"
+    },
+    {
+      "sha256": "5879C3BF4D382152C09E7AFFCAF03949D5D903968B976C094594BB2CF34C0BAC",
+      "bytes": 22747960,
+      "path": "artifacts\\objcopy_5lmi\\libil2cpp.so"
+    },
+    {
+      "sha256": "D848B6F1C86405C7FD213BAD48A7A395FA1EFB167A6B02CE093AD0BBF146DE74",
+      "bytes": 17877376,
+      "path": "artifacts\\objcopy_5lmi\\libil2cpp.sym.so"
+    },
+    {
+      "sha256": "87EEAD8B8A3B1B18C90EAFAFE09B5CFC2571E05DDD929BC345653B6167F2317D",
+      "bytes": 22747856,
+      "path": "artifacts\\objcopy_5lmi\\stripped\\libil2cpp.so"
+    },
+    {
+      "sha256": "235DBA9DF2EC99C4EAF88D5AAC1B038F5693FBCCE21DD383EB78614E9C54EFE1",
+      "bytes": 160365872,
+      "path": "artifacts\\objcopy_b9ry\\libil2cpp.dbg.so"
+    },
+    {
+      "sha256": "690941B85774BB5CFC4BB8006C0557DD68AED2C94D5470F4F28137B731D4BCE1",
+      "bytes": 19482828,
+      "path": "artifacts\\objcopy_b9ry\\libil2cpp.so"
+    },
+    {
+      "sha256": "FDECF0B194AC2FC78923ADC0BDA4863230DFAABD404675191468443E456A00E4",
+      "bytes": 15648028,
+      "path": "artifacts\\objcopy_b9ry\\libil2cpp.sym.so"
+    },
+    {
+      "sha256": "E600DC9A3193F4D26635D93E661AED3D71CEFACB7B0576BB8B7B464A24219FF8",
+      "bytes": 19482748,
+      "path": "artifacts\\objcopy_b9ry\\stripped\\libil2cpp.so"
+    },
+    {
+      "sha256": "02889F5DCE322BED7B145302DC2528473FA769910B391B9771A91B081A71FF2B",
+      "bytes": 17969,
+      "path": "artifacts\\rsp\\12438370367218343051.rsp"
+    },
+    {
+      "sha256": "1BFE3279B67F99B09EF52C767833FB5404C6A9ED9F3B1337A5D1F4BEE52C7121",
+      "bytes": 36284,
+      "path": "artifacts\\rsp\\15480574324126670887.rsp"
+    },
+    {
+      "sha256": "35AA7AE7DDB305AC12746D838F1CEF0FB98E99CA0879BF96C704281262FE7EF4",
+      "bytes": 18069,
+      "path": "artifacts\\rsp\\8926815466332706443.rsp"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\0032d5ff5a09c391f63898423773c625_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\079fc4403ac3000c878d9a5a0ad051f1_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\0e78315fab2cd5bd8daa0deca90e51e3_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\160cb23f044103371a239238a5485adc_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\164a513d2ff897d6d8a1d113bb021446_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\23cd675b68241db9d5a9bb71923c3310_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\23d5fa15a28ba2e97306a35b39b26cd5_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\2545c37d6820c16f0aa036cdd58c05a7_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\2738c3c4224faeea749c979e0208ac11_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\2917e112a0f799d21d6de35225d38944_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\2d1fe0f04e59433283931202e267f785_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\3196e3ac93bb8258aceda5552128c26c_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\425776646f3e8edab7636040f48cf73e_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\44ab9b324e8e261838bf3a60a87457cc_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\461c381e3015d71986d532fa3f81e881_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\4cebdee52657797929cc1dec8d60b393_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\4d2f6791cfe07d5306aa1043c0e33a9d_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\54435761cda9fc4d4710e97bb9990198_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\581a7a62157452da3303ce178ff244d3_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\58f2137db5eabbf85d1056306487fa65_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\5b844f35e63aff4feac1d827fe6fec1a_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\5c07e693f14740a32d4b9e21ac7b226b_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\5d4616cf9d8628e2f51dd2c6a154b20f_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\629abbcd436945fc818ad0ae921307f9_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\649f69437964cc14c2a3525cfc526d2d_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\68bf7154e011c26f7a5d0150b040e79d_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\6b3618aef22867d53c7af9abe62ee922_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\6f7c8a6131aa3ce6477fd48628a898cf_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\73a3a69220f01dc504d1bbb458b61338_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\7ca42c642b3ae1651ad7fda974b9e693_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\7f341b0ae477b03212ad4a40d7613184_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\8919fceab23c53ea1dbec6d970090a8d_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\8929e6b48ef178cb0988a7b2a9533acf_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\9890c5696752a8a99dbc2fc9532899f6_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\989eca4880a48b8a91c9f08234d37418_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\98b763ebdfee3ee58cdaec3b92fad95b_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\a393deb9cc8f7a07160f87bf17dbe682_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\a970f39a519b08ab885168e9d691b5dc_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\afa2451e907dfa3b3ec55a3f4ab146b4_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\b0ba94c6e87edffde6dc044cbce9a2d2_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\b48cbf92237c36ea79ca60c743259fa8_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\c172543f6e8ce2063e132ad50d6731fd_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\c1799169b0f50169acb3d5c90860a561_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\c3e961f095fdb29080f0bc0ad5d4be8f_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\c986225c28b9e80d047cd10ca6bdb827_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\d1e0524e7d630c725c3f79634cbe8a92_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\d32c83617406153170e19924512c294b_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\d84291c64a62ebd6f54fd98e3510e9d0_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\df13636b0b7625de70986de3e4194829_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\e238ae2bd18beeffed376b225fbfed83_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\e4f8449bc93b06973e132ad57dd37669_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\e684d038ba4dde6ba9a66d488415e570_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\efda1f0439a7360dff1e58a1ae817b69_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\f18018d5070bdce9ca9ba20dcac593a1_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\f182e106f4481644c9c86f4a9ff65fde_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\f4a22fd741f2ee07fc7c3bf33a40f419_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\f5bf53755939be05bca81994b56ac8c4_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\f8a5a1a144923d613da82a3be45ad03b_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\fcd014bf56d7bcce5f18a077b7b0c8ff_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\fd74ae00f9dd67cef103fd64cfa69f8b_out"
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "path": "CachedNodeOutput\\ff4daa178678ff69bf64c4d925e36c66_out"
+    },
+    {
+      "sha256": "F2A88E56A74F7E4FC2E712F2CDBB9B916897BC213C9240E8C20DC3D2603A20A8",
+      "bytes": 357376,
+      "path": "PlayerScriptAssemblies\\Assembly-CSharp.dll"
+    },
+    {
+      "sha256": "BD8D9F7A3C7AC770A4A89DE66E9330BF3AAC3D24F9744E417E2D1AE470B8C19E",
+      "bytes": 112096,
+      "path": "PlayerScriptAssemblies\\Assembly-CSharp.pdb"
+    },
+    {
+      "sha256": "8A7AF30D99005ED8213CF39DD748FC7F6793DEB8571342A0E93ED14F4ABB9FA7",
+      "bytes": 380416,
+      "path": "PlayerScriptAssemblies\\Unity.TextMeshPro.dll"
+    },
+    {
+      "sha256": "F9FE08EA8D0BBEF57E75172E01D96C227256929B143F10593F07108A9C2F6247",
+      "bytes": 168968,
+      "path": "PlayerScriptAssemblies\\Unity.TextMeshPro.pdb"
+    },
+    {
+      "sha256": "F7C3FC7091830F413E1A1EA79DFFAB0700543AD8CF594150C77FFA1B446A3649",
+      "bytes": 127488,
+      "path": "PlayerScriptAssemblies\\Unity.Timeline.dll"
+    },
+    {
+      "sha256": "E8C1F07EDD41A73B6FD3D602AD5263CEC2F371CE8B874D7B66443D6A4AE432CD",
+      "bytes": 67852,
+      "path": "PlayerScriptAssemblies\\Unity.Timeline.pdb"
+    },
+    {
+      "sha256": "3D845202715A1095CB90CA455B421BAEE9C97FD728A9349EE5C07169BEC4C315",
+      "bytes": 625152,
+      "path": "PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll"
+    },
+    {
+      "sha256": "AA1EFEE925500359C574DC2804B867317B2170600D814244640174B39B3E9288",
+      "bytes": 267544,
+      "path": "PlayerScriptAssemblies\\Unity.VisualScripting.Core.pdb"
+    },
+    {
+      "sha256": "9B95715101FE2ED58404A43B0D7DBD17F6E8A8945F73618C54798F817F99BA69",
+      "bytes": 401408,
+      "path": "PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "sha256": "6241B894D513AA7326483A2A65C2402FCCF95335229687A4D5113B80A831FC86",
+      "bytes": 184516,
+      "path": "PlayerScriptAssemblies\\Unity.VisualScripting.Flow.pdb"
+    },
+    {
+      "sha256": "8E193E31C5C66FD260D7C1C092B587997B36B1B91D6B55415762E3A30C7D3D25",
+      "bytes": 32256,
+      "path": "PlayerScriptAssemblies\\Unity.VisualScripting.State.dll"
+    },
+    {
+      "sha256": "476F28F68C5B3F8D21BD74ADA0E6DF263773C52FE1945D961F22C38F413AA1A9",
+      "bytes": 26132,
+      "path": "PlayerScriptAssemblies\\Unity.VisualScripting.State.pdb"
+    },
+    {
+      "sha256": "1C9A57C55D949DA69B4797A40E4CE7C58315BE461D6CF5FE58B34FA3727D29D5",
+      "bytes": 134656,
+      "path": "PlayerScriptAssemblies\\UnityEngine.TestRunner.dll"
+    },
+    {
+      "sha256": "8E6DBE35E075E5FDEB0C058693757C128E69CDF709ACBA33AE784C52646ED46E",
+      "bytes": 65748,
+      "path": "PlayerScriptAssemblies\\UnityEngine.TestRunner.pdb"
+    },
+    {
+      "sha256": "686FC0EA6F794E7A550AE5D8F1D1EDB812E55DC8DAE52333AFD20E38BD12EF25",
+      "bytes": 264704,
+      "path": "PlayerScriptAssemblies\\UnityEngine.UI.dll"
+    },
+    {
+      "sha256": "6255675EE974EBFE46589BF1BA55FE7761DF2CFBED854CF34B09F0E039FF043B",
+      "bytes": 134960,
+      "path": "PlayerScriptAssemblies\\UnityEngine.UI.pdb"
+    }
+  ],
+  "physical": "C:\\Users\\Lauva\\.codex\\visualizations\\2026\\10\\22\\01a16331-da0c-7212-86b6-d3ab1a2524e9\\Scratch\\IdleGame\\d27\\Bee",
+  "cleanup": "After build, stop Unity/workers, verify this exact mapping and remove only regenerable build intermediates inside its recorded physical cache. Never recursively delete the entire project Library or a computed unchecked target.",
+  "scope": "Only an untracked Unity-generated Bee cache is copied into task-authorized C scratch and byte-verified before replacing the old E directory with a junction. Source assets, saves, APKs and original evidence are not moved.",
+  "logical": "E:\\UnityProject\\IdleGame\\Library\\Bee"
+}

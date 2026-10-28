@@ -1,0 +1,1083 @@
+TASK null id=2 userId=0
+  ACTIVITY app.lawnchair/.LawnchairLauncher ea8c370 pid=1670
+    Local Activity 25c680a State:
+      mResumed=false mStopped=true mFinished=false
+      mIsInMultiWindowMode=false mIsInPictureInPictureMode=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 460mcc65535mnc [zh_CN] ldltr sw411dp w914dp h387dp 280dpi nrml long land finger -keyb/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1600, 720) mAppBounds=Rect(0, 0 - 1600, 720) mMaxBounds=Rect(0, 0 - 1600, 720) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROTATION_90} as.2 s.17 fontWeightAdjustment=0}
+      mLoadersStarted=true
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@37f04d2
+        mContainer=android.app.Activity$HostCallbacks@37f04d2
+        mCurState=3 mStateSaved=true mDestroyed=false
+    ViewRoot:
+      mAdded=true
+      mRemoved=false
+      mStopped=true
+      mPausedForTransition=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      mIsAmbientMode=false
+      mUnbufferedInputSource=0
+      mAttachInfo=       AttachInfo:
+        mHasWindowFocus=false
+        mWindowVisibility=8
+        mInTouchMode=true
+        mUnbufferedDispatchRequested=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$WindowInputEventReceiver
+       mInputChannel: 9b4bf13 app.lawnchair/app.lawnchair.LawnchairLauncher (client)
+       mSeqMap: {}
+       mReceiverPtr:
+        mInputConsumer:
+          mResampleTouch = false
+          mChannel = 9b4bf13 app.lawnchair/app.lawnchair.LawnchairLauncher (client)
+          mMsgDeferred: false
+          Batches:
+              <empty>
+          mSeqChains:
+              <empty>
+          mConsumeTimes:
+              <empty>
+          
+        mBatchedInputEventPending: false
+        mOutboundQueue:
+          <empty>
+        
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=923560 (12154 ms ago)
+    InsetsController:
+      InsetsState
+        mDisplayFrame=Rect(0, 0 - 1600, 720)
+        mDisplayCutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=0 displayHeight=0 density={0.0} cutoutSpec={} rotation={0} scale={0.0}}}}
+        mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}
+        mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1752, 0 - 1896, 42) rotation=1}
+          InsetsSource type=ITYPE_STATUS_BAR frame=[0,0][1600,42] visible=true
+          InsetsSource type=ITYPE_TOP_MANDATORY_GESTURES frame=[0,0][1600,42] visible=true
+          InsetsSource type=ITYPE_TOP_TAPPABLE_ELEMENT frame=[0,0][1600,42] visible=true
+          InsetsSource type=ITYPE_IME frame=[0,0][0,0] visible=false
+    View Hierarchy:
+      DecorView@cf939a3[LawnchairLauncher]
+        android.widget.LinearLayout{cbf64a0 V.E...... ......ID 0,0-1600,720}
+          android.view.ViewStub{1e6c859 G.E...... ......I. 0,0-0,0 #10201b3 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{e249c1e V.E...... ......ID 0,0-1600,720 #1020002 android:id/content}
+            com.android.launcher3.LauncherRootView{a5bccff V.E...... ......ID 0,0-1600,720 #7f0a01a0 app:id/launcher}
+              com.android.launcher3.dragndrop.DragLayer{dc62acc V.E...... ......ID 0,0-1600,720 #7f0a0111 app:id/drag_layer}
+                com.android.launcher3.views.AccessibilityActionsView{4329115 V.E...... ........ 0,42-1600,720}
+                com.android.launcher3.Workspace{cfa5c2a V.ED..... .......D 0,0-1600,720 #7f0a0370 app:id/workspace}
+                  com.android.launcher3.CellLayout{79f88ca V.ED..... .......D 15,108-1585,537}
+                    com.android.launcher3.ShortcutAndWidgetContainer{d6fa3b V.E...... .......D 92,0-1478,419}
+                      com.android.launcher3.views.DoubleShadowBubbleTextView{68b558 VFED..CL. ......ID 792,0-990,104 #b}
+                      com.android.launcher3.views.DoubleShadowBubbleTextView{de636b1 VFED..CL. ......ID 990,0-1188,104 #c}
+                      com.android.launcher3.views.DoubleShadowBubbleTextView{d956796 VFED..CL. ......ID 1188,0-1386,104 #d}
+                      com.android.launcher3.views.DoubleShadowBubbleTextView{230ff17 VFED..CL. ......ID 792,104-990,208 #e}
+                      com.android.launcher3.views.DoubleShadowBubbleTextView{f5fcf04 VFED..CL. ......ID 990,104-1188,208 #11}
+                      app.lawnchair.o{df68ced VFE....L. R.....ID 396,0-792,208 #a}
+                        android.widget.RelativeLayout{d386722 V.E...... ......ID -23,-45-419,253 #7f0a056d app:id/widgetDailyDiscoveryLayout}
+                          android.widget.ImageView{6bc75b3 V.ED..... ......ID 0,0-442,298 #7f0a0543 app:id/widgetDailyDiscoveryBg}
+                          android.widget.ImageView{58cd770 V.ED..... ......ID 23,21-419,56 #7f0a056e app:id/widgetDailyDiscoveryTitleIv}
+                          android.widget.GridLayout{73c0ae9 V.E...... .......D 8,75-434,282 #7f0a0554 app:id/widgetDailyDiscoveryGridLayout}
+                            android.widget.RelativeLayout{919d36e VFE...C.. .......D 7,0-97,87 #7f0a0544 app:id/widgetDailyDiscoveryGrid1}
+                              android.widget.ImageView{37eba0f V.ED..... ......ID 13,0-76,63 #7f0a054c app:id/widgetDailyDiscoveryGridIcon1}
+                              android.widget.ImageView{3ffa9c G.ED..... ......I. 0,0-0,0 #7f0a055d app:id/widgetDailyDiscoveryGridShadow1}
+                              android.widget.TextView{a416ca5 G.ED..... ......I. 0,0-0,0 #7f0a0565 app:id/widgetDailyDiscoveryGridTip1}
+                              android.widget.TextView{993b87a V.ED..... ........ 0,65-90,87 #7f0a0555 app:id/widgetDailyDiscoveryGridName1}
+                            android.widget.RelativeLayout{e76e82b VFE...C.. .......D 111,0-201,87 #7f0a0545 app:id/widgetDailyDiscoveryGrid2}
+                              android.widget.ImageView{fa02488 V.ED..... ......ID 13,0-76,63 #7f0a054d app:id/widgetDailyDiscoveryGridIcon2}
+                              android.widget.ImageView{b812e21 G.ED..... ......I. 0,0-0,0 #7f0a055e app:id/widgetDailyDiscoveryGridShadow2}
+                              android.widget.TextView{94e246 G.ED..... ......I. 0,0-0,0 #7f0a0566 app:id/widgetDailyDiscoveryGridTip2}
+                              android.widget.TextView{479dc07 V.ED..... ........ 0,65-90,87 #7f0a0556 app:id/widgetDailyDiscoveryGridName2}
+                            android.widget.RelativeLayout{d570134 VFE...C.. .......D 215,0-305,87 #7f0a0546 app:id/widgetDailyDiscoveryGrid3}
+                              android.widget.ImageView{2a18b5d V.ED..... ......ID 13,0-76,63 #7f0a054e app:id/widgetDailyDiscoveryGridIcon3}
+                              android.widget.ImageView{e2cdcd2 G.ED..... ......I. 0,0-0,0 #7f0a055f app:id/widgetDailyDiscoveryGridShadow3}
+                              android.widget.TextView{ce31a3 G.ED..... ......I. 0,0-0,0 #7f0a0567 app:id/widgetDailyDiscoveryGridTip3}
+                              android.widget.TextView{1fcfca0 V.ED..... ........ 0,65-90,87 #7f0a0557 app:id/widgetDailyDiscoveryGridName3}
+                            android.widget.RelativeLayout{1708059 VFE...C.. .......D 319,0-409,87 #7f0a0547 app:id/widgetDailyDiscoveryGrid4}
+                              android.widget.ImageView{1d7f41e V.ED..... ......ID 13,0-76,63 #7f0a054f app:id/widgetDailyDiscoveryGridIcon4}
+                              android.widget.ImageView{28844ff G.ED..... ......I. 0,0-0,0 #7f0a0560 app:id/widgetDailyDiscoveryGridShadow4}
+                              android.widget.TextView{54542cc G.ED..... ......I. 0,0-0,0 #7f0a0568 app:id/widgetDailyDiscoveryGridTip4}
+                              android.widget.TextView{e9fc915 V.ED..... ........ 0,65-90,87 #7f0a0558 app:id/widgetDailyDiscoveryGridName4}
+                            android.widget.RelativeLayout{48b342a VFE...C.. .......D 7,102-97,189 #7f0a0548 app:id/widgetDailyDiscoveryGrid5}
+                              android.widget.ImageView{ba6321b V.ED..... ......ID 13,0-76,63 #7f0a0550 app:id/widgetDailyDiscoveryGridIcon5}
+                              android.widget.ImageView{4e9bfb8 G.ED..... ......I. 0,0-0,0 #7f0a0561 app:id/widgetDailyDiscoveryGridShadow5}
+                              android.widget.TextView{40e191 G.ED..... ......I. 0,0-0,0 #7f0a0569 app:id/widgetDailyDiscoveryGridTip5}
+                              android.widget.TextView{78068f6 V.ED..... ........ 0,65-90,87 #7f0a0559 app:id/widgetDailyDiscoveryGridName5}
+                            android.widget.RelativeLayout{5ebd4f7 VFE...C.. .......D 111,102-201,189 #7f0a0549 app:id/widgetDailyDiscoveryGrid6}
+                              android.widget.ImageView{e571f64 V.ED..... ......ID 13,0-76,63 #7f0a0551 app:id/widgetDailyDiscoveryGridIcon6}
+                              android.widget.ImageView{20105cd G.ED..... ......I. 0,0-0,0 #7f0a0562 app:id/widgetDailyDiscoveryGridShadow6}
+                              android.widget.TextView{3c21e82 G.ED..... ......I. 0,0-0,0 #7f0a056a app:id/widgetDailyDiscoveryGridTip6}
+                              android.widget.TextView{97ec993 V.ED..... ........ 0,65-90,87 #7f0a055a app:id/widgetDailyDiscoveryGridName6}
+                            android.widget.RelativeLayout{718cdd0 VFE...C.. .......D 215,102-305,189 #7f0a054a app:id/widgetDailyDiscoveryGrid7}
+                              android.widget.ImageView{32531c9 V.ED..... ......ID 13,0-76,63 #7f0a0552 app:id/widgetDailyDiscoveryGridIcon7}
+                              android.widget.ImageView{677a0ce G.ED..... ......I. 0,0-0,0 #7f0a0563 app:id/widgetDailyDiscoveryGridShadow7}
+                              android.widget.TextView{1426bef G.ED..... ......I. 0,0-0,0 #7f0a056b app:id/widgetDailyDiscoveryGridTip7}
+                              android.widget.TextView{4f6fc V.ED..... ........ 0,65-90,87 #7f0a055b app:id/widgetDailyDiscoveryGridName7}
+                            android.widget.RelativeLayout{8462185 VFE...C.. .......D 319,102-409,189 #7f0a054b app:id/widgetDailyDiscoveryGrid8}
+                              android.widget.ImageView{5f0fbda V.ED..... ......ID 13,0-76,63 #7f0a0553 app:id/widgetDailyDiscoveryGridIcon8}
+                              android.widget.ImageView{8f3d80b G.ED..... ......I. 0,0-0,0 #7f0a0564 app:id/widgetDailyDiscoveryGridShadow8}
+                              android.widget.TextView{f2886e8 G.ED..... ......I. 0,0-0,0 #7f0a056c app:id/widgetDailyDiscoveryGridTip8}
+                              android.widget.TextView{ccc5101 V.ED..... ........ 0,65-90,87 #7f0a055c app:id/widgetDailyDiscoveryGridName8}
+                      app.lawnchair.o{b72fba6 VFE....L. R.....ID 0,0-396,208 #9}
+                        android.widget.FrameLayout{105e9e7 V.E...... ......ID 69,17-327,191 #7f0a0542 app:id/widgetAdvertiseBannerLayout}
+                          android.widget.ViewFlipper{c732994 VFE...C.. .......D 1,1-257,173 #7f0a0532 app:id/widgetAdBannerFlipper}
+                            android.widget.RelativeLayout{2bfc3d V.E...... .......D 0,0-256,172 #7f0a053a app:id/widgetAdBannerFlipperLayout1}
+                              android.widget.ImageView{dc32c32 V.ED..... ......ID 0,0-256,172 #7f0a0534 app:id/widgetAdBannerFlipperBg1}
+                              android.widget.TextView{43d3d83 V.ED..... ......ID 0,117-256,172 #7f0a053e app:id/widgetAdBannerFlipperShadow1}
+                              android.widget.ImageView{d234b00 G.ED..... ......I. 0,0-0,0 #7f0a0538 app:id/widgetAdBannerFlipperIcon1}
+                              android.widget.TextView{ae11f39 V.ED..... ........ 9,151-75,163 #7f0a0536 app:id/widgetAdBannerFlipperDesc1}
+                              android.widget.TextView{873d97e V.ED..... ........ 9,133-86,150 #7f0a053c app:id/widgetAdBannerFlipperName1}
+                            android.widget.RelativeLayout{b0c2edf G.E...... ......I. 0,0-0,0 #7f0a053b app:id/widgetAdBannerFlipperLayout2}
+                              android.widget.ImageView{9f2172c V.ED..... ......I. 0,0-0,0 #7f0a0535 app:id/widgetAdBannerFlipperBg2}
+                              android.widget.TextView{72b75f5 V.ED..... ......I. 0,0-0,0 #7f0a053f app:id/widgetAdBannerFlipperShadow2}
+                              android.widget.ImageView{bf00f8a V.ED..... ......I. 0,0-0,0 #7f0a0539 app:id/widgetAdBannerFlipperIcon2}
+                              android.widget.TextView{8aed9fb V.ED..... ......ID 0,0-0,0 #7f0a0537 app:id/widgetAdBannerFlipperDesc2}
+                              android.widget.TextView{bff7a18 V.ED..... ......ID 0,0-0,0 #7f0a053d app:id/widgetAdBannerFlipperName2}
+                          android.widget.LinearLayout{98a7c71 VFE...C.. ......ID 223,152-249,165 #7f0a0531 app:id/widgetAdBannerBarLayout}
+                            android.widget.ImageView{2479a56 VFED..C.. ......ID 4,2-13,11 #7f0a052c app:id/widgetAdBannerBar1}
+                            android.widget.ImageView{e071ad7 VFED..C.. ......ID 13,2-22,11 #7f0a052d app:id/widgetAdBannerBar2}
+                            android.widget.ImageView{c7e1fc4 GFED..C.. ......I. 0,0-0,0 #7f0a052e app:id/widgetAdBannerBar3}
+                            android.widget.ImageView{4f96ead GFED..C.. ......I. 0,0-0,0 #7f0a052f app:id/widgetAdBannerBar4}
+                            android.widget.ImageView{4bb05e2 GFED..C.. ......I. 0,0-0,0 #7f0a0530 app:id/widgetAdBannerBar5}
+                          android.widget.ImageView{e388d73 IFED..C.. ......I. 1,72-19,101 #7f0a0541 app:id/widgetAdBannerPreSwitch}
+                          android.widget.ImageView{31f7430 IFED..C.. ......I. 239,72-257,101 #7f0a0540 app:id/widgetAdBannerNextSwitch}
+                com.android.launcher3.Hotseat{c50738e V.ED..... .......D 0,581-1600,720 #7f0a017a app:id/hotseat}
+                  com.android.launcher3.ShortcutAndWidgetContainer{f4aa7af V.E...... .......D 578,55-1022,108}
+                    com.android.launcher3.views.DoubleShadowBubbleTextView{6eb48a9 VFED..CL. ......ID 0,0-74,53 #1}
+                    com.android.launcher3.views.DoubleShadowBubbleTextView{e079e2e VFED..CL. ......ID 74,0-148,53 #2}
+                    com.android.launcher3.views.DoubleShadowBubbleTextView{1048dcf VFED..CL. ......ID 148,0-222,53 #3}
+                    com.android.launcher3.views.DoubleShadowBubbleTextView{f3fa35c VFED..CL. ......ID 296,0-370,53 #5}
+                    com.android.launcher3.folder.FolderIcon{706c665 VFE...CL. ......ID 370,0-444,53 #6}
+                      com.android.launcher3.views.DoubleShadowBubbleTextView{5736f3a I.ED..... ......ID 0,64-74,64 #7f0a0142 app:id/folder_icon_name}
+                  android.view.View{bbb6666 V.ED..... ........ 578,152-1022,152}
+                com.android.launcher3.pageindicators.WorkspacePageIndicator{e1dda7 V.ED..... ........ 0,537-1600,581 #7f0a023a app:id/page_indicator}
+                i5.c{7de7254 V.E...... ......ID 0,42-1600,86 #7f0a0203 app:id/mumu_search_bar}
+                  androidx.constraintlayout.widget.ConstraintLayout{18475fd V.E...... ......ID 0,0-1600,44 #7f0a0286 app:id/searchRoot}
+                    androidx.constraintlayout.widget.ConstraintLayout{782f2 V.E...... ......ID 420,0-1180,44 #7f0a0284 app:id/searchBar}
+                      android.widget.TextView{644ad43 GFED..C.. ......I. 0,0-760,44 #7f0a0287 app:id/searchText}
+                      android.widget.ImageView{cda5fc0 V.ED..C.. ......ID 724,10-748,34 #7f0a0285 app:id/searchIcon}
+                      com.mumu.core.search.DisableScrollRecyclerView{a774f9 VFED..... ......ID 0,0-724,44 #7f0a0283 app:id/searchAdListView}
+                com.android.launcher3.DropTargetBar{b228ca2 I.E...... ......ID 7,112-1593,208 #7f0a0112 app:id/drop_target_bar}
+                  com.android.launcher3.DeleteDropTarget{bdb6d33 V.ED..... ......ID 318,0-474,96 #7f0a00f4 app:id/delete_target_text}
+                  com.android.launcher3.SecondaryDropTarget{2538f0 V.ED..... ......ID 1111,0-1267,96 #7f0a032f app:id/uninstall_target_text}
+                app.lawnchair.views.LawnchairScrimView{d28e69 V.ED..... ......ID 0,0-1600,720 #7f0a027d app:id/scrim_view}
+                com.android.launcher3.allapps.LauncherAllAppsContainerView{f40d0ee I.ED..... ......ID 0,0-1600,720 #7f0a007f app:id/apps_view}
+                  com.android.launcher3.allapps.AllAppsRecyclerView{455a98f VFED..... ......ID 0,116-1600,720 #7f0a007c app:id/apps_list_view}
+                  com.android.launcher3.allapps.FloatingHeaderView{5201a81 V.E...... ......ID 0,116-1600,193 #7f0a006c app:id/all_apps_header}
+                    com.android.launcher3.appprediction.PredictionRowView{5bcf41c G.E...... ......I. 0,0-0,0 #7f0a0251 app:id/prediction_row}
+                      com.android.launcher3.BubbleTextView{ee637eb GFED..CL. ......I. 0,0-0,0 #7f0a0185 app:id/icon}
+                      com.android.launcher3.BubbleTextView{7d19948 GFED..CL. ......I. 0,0-0,0 #7f0a0185 app:id/icon}
+                      com.android.launcher3.BubbleTextView{6a263e1 GFED..CL. ......I. 0,0-0,0 #7f0a0185 app:id/icon}
+                      com.android.launcher3.BubbleTextView{e994506 GFED..CL. ......I. 0,0-0,0 #7f0a0185 app:id/icon}
+                      com.android.launcher3.BubbleTextView{2ee67c7 GFED..CL. ......I. 0,0-0,0 #7f0a0185 app:id/icon}
+                      com.android.launcher3.BubbleTextView{e0b01f4 GFED..CL. ......I. 0,0-0,0 #7f0a0185 app:id/icon}
+                    com.android.launcher3.appprediction.AppsDividerView{c4f3b87 G.ED..... ......I. 0,0-0,0 #7f0a007b app:id/apps_divider_view}
+                    com.android.launcher3.workprofile.PersonalWorkSlidingTabStrip{349aab4 G.E...... ......I. 0,0-0,0 #7f0a02e7 app:id/tabs}
+                      android.widget.Button{398b6dd VFED..C.. ......I. 0,0-0,0 #7f0a02e4 app:id/tab_personal}
+                      android.widget.Button{bab6252 VFED..C.. ......I. 0,0-0,0 #7f0a02e5 app:id/tab_work}
+                  app.lawnchair.allapps.AllAppsSearchInput{d5a0923 VFE...C.. ......ID 0,60-1600,171 #7f0a028e app:id/search_container_all_apps}
+                    android.widget.FrameLayout{230be20 VFE...... ......ID 107,15-1493,111 #7f0a029c app:id/search_wrapper}
+                      android.widget.TextView{56ee3d9 I.ED..... ......ID 29,0-1305,96 #7f0a0174 app:id/hint}
+                      app.lawnchair.allapps.FallbackSearchInputView{c79519e VFED..CL. ......ID 29,0-1305,96 #7f0a0195 app:id/input}
+                    android.widget.ImageButton{4ba147f GFED..C.. ......I. 0,0-0,0 #7f0a003d app:id/action_btn}
+                  android.widget.TextView{eb39c4c V.ED..... ......ID 1458,116-1565,205 #7f0a0131 app:id/fast_scroller_popup}
+                  com.android.launcher3.views.RecyclerViewFastScroller{ae0e495 V.ED..... ......ID 1541,116-1648,720 #7f0a0130 app:id/fast_scroller}
+                com.android.quickstep.views.LauncherRecentsView{7a4e9aa I.ED..... ......I. 0,0-1600,720 #7f0a0238 app:id/overview_panel}
+                app.lawnchair.overview.LawnchairOverviewActionsView{3e5799b I.E...... ......ID 0,601-1600,720 #7f0a0237 app:id/overview_actions_view}
+                  android.widget.LinearLayout{ca43138 V.E...... ......ID 0,15-1600,104 #7f0a003e app:id/action_buttons}
+                    android.widget.Space{2383511 I.ED..... ......I. 0,0-399,1}
+                    app.lawnchair.views.CustomButton{e3ff676 VFED..C.. ......ID 399,0-597,89 #7f0a0056 app:id/action_screenshot}
+                    android.widget.Space{3981477 I.ED..... ......I. 597,0-996,1}
+                    app.lawnchair.views.CustomButton{90728e4 VFED..C.. ......ID 996,0-1201,89 #7f0a003f app:id/action_clear_all}
+                    android.widget.Space{ada114d I.ED..... ......I. 1201,0-1600,1}
+              com.mumu.core.view.MuMuRootView{ead0402 V.E...... ........ 0,42-1600,720 #7f0a0202 app:id/mumu_root_view}
+                androidx.constraintlayout.widget.ConstraintLayout{26f8113 V.E...... ........ 0,0-1600,678}
+                  androidx.constraintlayout.widget.ConstraintLayout{a7fef50 I.E...... ......ID 0,0-470,553 #7f0a025b app:id/qrCodeView}
+                    android.view.View{b437549 V.ED..... ......ID 0,0-470,470}
+                    android.widget.ImageView{8eb5e4e V.ED..... ......ID 2,2-468,468 #7f0a0259 app:id/qrCodeImageView}
+                    android.widget.TextView{1471b6f V.ED..... ......ID 0,468-470,553 #7f0a025a app:id/qrCodeTextView}
+    Looper (main, tid 2) {c7cb07c}
+      Message 0: { when=+155ms callback=i5.c$g target=android.os.Handler }
+      (Total messages: 1, polling=false, quitting=false)
+    AutofillManager:
+      sessionId: 2147483647
+      state: UNKNOWN
+      context: app.lawnchair.LawnchairLauncher@25c680a
+      service client: null
+      client: app.lawnchair.LawnchairLauncher@25c680a (android.os.BinderProxy@b2c9e3d)
+      enabled: false
+      enabledAugmentedOnly: false
+      hasService: true
+      hasCallback: false
+      onInvisibleCalled false
+      last autofilled data: null
+      id of last fill UI shown: null
+      tracked views: null
+      fillable ids: null
+      entered ids: null
+      save trigger id: null
+      save on finish(): false
+      options: logLvl=0, compatMode=false, augmented=false, appDisabledExpiration=0
+      compat mode enabled: false
+      debug: false verbose: false
+    Autofill Compat Mode: false
+    No ContentCaptureManager
+    No UiTranslationController
+    ResourcesManager:
+      total apks: 10
+      resources: 19
+      resource impls: 28
+    Misc:
+    	deviceProfile isTransposed=false
+    	orientation=2
+    	mSystemUiController: mStates=[10, 0, 0, 0, 1280]
+    	mActivityFlags: 0
+    	mForceInvisible: 0
+    	mWorkspaceLoading=false
+    	mPendingRequestArgs=null mPendingActivityResult=null
+    	mRotationHelper: [mStateHandlerRequest=0, mCurrentStateRequest=0, mLastActivityFlags=-1, mIgnoreAutoRotateSettings=false, mHomeRotationEnabled=true, mForceAllowRotationForTesting=false]
+    	mAppWidgetHost.isListening: false
+    DragLayer:
+    	dragLayerAlpha : [1.0, 1.0, 1.0]
+    StateManager:
+    	mLastStableState:Normal
+    	mCurrentStableState:Normal
+    	mState:Normal
+    	mRestState:null
+    	isInTransition:false
+    PopupDataProvider:
+    	mPackageUserToDotInfos:{}
+    DeviceProfile:
+    	1 dp = 1.84375 px
+    	isTablet:false
+    	isPhone:true
+    	transposeLayoutWithOrientation:true
+    	isLandscape:true
+    	isMultiWindowMode:false
+    	isTwoPanels:false
+    	windowX: 0.0px (0.0dp)
+    	windowY: 0.0px (0.0dp)
+    	widthPx: 1600.0px (867.79663dp)
+    	heightPx: 720.0px (390.50848dp)
+    	availableWidthPx: 1600.0px (867.79663dp)
+    	availableHeightPx: 678.0px (367.72882dp)
+    	aspectRatio:2.2222223
+    	isScalableGrid:false
+    	inv.numColumns: 7
+    	inv.numRows: 4
+    	minCellSize: PointF(0.0, 0.0)dp
+    	cellWidthPx: 64.0px (34.711864dp)
+    	cellHeightPx: 89.0px (48.271187dp)
+    	getCellSize().x: 198.0px (107.38983dp)
+    	getCellSize().y: 104.0px (56.40678dp)
+    	cellLayoutBorderSpacePx Horizontal: 0.0px (0.0dp)
+    	cellLayoutBorderSpacePx Vertical: 0.0px (0.0dp)
+    	iconSizePx: 56.0px (30.37288dp)
+    	iconTextSizePx: 13.0px (7.0508475dp)
+    	iconDrawablePaddingPx: 8.0px (4.338983dp)
+    	folderCellWidthPx: 182.0px (98.71186dp)
+    	folderCellHeightPx: 140.0px (75.932205dp)
+    	folderChildIconSizePx: 88.0px (47.728813dp)
+    	folderChildTextSizePx: 22.0px (11.932203dp)
+    	folderChildDrawablePaddingPx: 7.0px (3.79661dp)
+    	folderCellLayoutBorderSpaceOriginalPx: 0.0px (0.0dp)
+    	folderCellLayoutBorderSpacePx Horizontal: 0.0px (0.0dp)
+    	folderCellLayoutBorderSpacePx Vertical: 0.0px (0.0dp)
+    	allAppsIconSizePx: 88.0px (47.728813dp)
+    	allAppsIconTextSizePx: 22.0px (11.932203dp)
+    	allAppsIconDrawablePaddingPx: 13.0px (7.0508475dp)
+    	allAppsCellHeightPx: 191.0px (103.59322dp)
+    	numShownAllAppsColumns: 6
+    	hotseatBarSizePx: 139.0px (75.38983dp)
+    	hotseatCellHeightPx: 63.0px (34.16949dp)
+    	hotseatBarTopPaddingPx: 55.0px (29.83051dp)
+    	hotseatBarBottomPaddingPx: 4.0px (2.1694915dp)
+    	hotseatBarSidePaddingStartPx: 0.0px (0.0dp)
+    	hotseatBarSidePaddingEndPx: 0.0px (0.0dp)
+    	numShownHotseatIcons: 6
+    	isTaskbarPresent:false
+    	isTaskbarPresentInApps:false
+    	taskbarSize: 0.0px (0.0dp)
+    	desiredWorkspaceHorizontalMarginPx: 15.0px (8.135593dp)
+    	workspacePadding.left: 15.0px (8.135593dp)
+    	workspacePadding.top: 66.0px (35.79661dp)
+    	workspacePadding.right: 15.0px (8.135593dp)
+    	workspacePadding.bottom: 183.0px (99.254234dp)
+    	iconScale: 0.63380283px (0.34375748dp)
+    	cellScaleToFit : 0.63380283px (0.34375748dp)
+    	extraSpace: 0.0px (0.0dp)
+    	unscaled extraSpace: 0.0px (0.0dp)
+    	workspaceTopPadding: 0.0px (0.0dp)
+    	workspaceBottomPadding: 0.0px (0.0dp)
+    	extraHotseatBottomPadding: 0.0px (0.0dp)
+
+--- logfile: log-0 ---
+2026/10/27 上午12:00 ModelWriter removing items from db 
+2026/10/27 上午12:00 ModelWriter removing items from db 
+2026/10/27 上午12:00 ModelWriter removing items from db 
+2026/10/27 上午12:00 ModelWriter removing items from db 
+2026/10/27 上午12:00 ModelWriter removing items from db 
+2026/10/27 上午12:00 ModelWriter removing items from db 
+2026/10/27 上午12:00 ModelWriter removing items from db 
+2026/10/27 上午12:00 ModelWriter removing items from db 
+2026/10/27 上午12:00 ModelWriter removing items from db 
+2026/10/27 上午12:00 ModelWriter removing items from db 
+2026/10/27 上午12:00 ModelWriter removing items from db 
+2026/10/27 上午12:00 ModelWriter removing items from db 
+2026/10/27 上午12:00 ModelWriter removing items from db 
+2026/10/27 上午2:41 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午2:41 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午2:43 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午2:43 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午2:43 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午2:43 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午2:43 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午2:43 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午2:43 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午2:43 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午2:43 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午2:50 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午2:50 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午2:52 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午2:52 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:21 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:21 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:21 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:21 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:21 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:21 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:22 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:22 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:22 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:22 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:37 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:51 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:51 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:52 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:52 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:52 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:52 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:53 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:53 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:53 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:53 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:53 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:53 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:53 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:53 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:56 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:56 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:56 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:56 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:56 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:56 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:56 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:56 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:58 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:58 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:58 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:58 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:58 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 上午3:58 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 上午3:58 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午7:40 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午7:40 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午7:43 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午7:43 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午7:43 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午7:43 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午7:51 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午7:51 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午7:53 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午7:53 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:35 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:35 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:35 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:35 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:35 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:35 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:36 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:36 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:36 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:36 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:36 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:36 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:42 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:50 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:50 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:50 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:50 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:50 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:50 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:51 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:51 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:51 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:51 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:51 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:51 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:51 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:51 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午8:51 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午8:51 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:05 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:05 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:05 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:05 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:05 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:05 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:06 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:06 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:06 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:06 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:06 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:06 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:10 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:10 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:10 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:10 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:10 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:10 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:10 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:11 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:11 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:21 ModelWriter removing items from db 
+2026/10/27 下午9:21 ModelWriter removing items from db 
+2026/10/27 下午9:21 ModelWriter removing items from db 
+2026/10/27 下午9:21 ModelWriter removing items from db 
+2026/10/27 下午9:21 ModelWriter removing items from db 
+2026/10/27 下午9:21 ModelWriter removing items from db 
+2026/10/27 下午9:21 ModelWriter removing items from db 
+2026/10/27 下午9:21 ModelWriter removing items from db 
+2026/10/27 下午9:21 ModelWriter removing items from db 
+2026/10/27 下午9:21 ModelWriter removing items from db 
+2026/10/27 下午9:21 ModelWriter removing items from db 
+2026/10/27 下午9:21 ModelWriter removing items from db 
+2026/10/27 下午9:21 ModelWriter removing items from db 
+2026/10/27 下午9:31 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:31 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:33 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:33 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:33 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:33 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:33 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:33 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:33 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:33 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:33 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:33 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:33 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/27 下午9:33 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:33 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/27 下午9:33 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+
+--- logfile: log-1 ---
+2026/10/28 上午12:00 ModelWriter removing items from db 
+2026/10/28 上午12:00 ModelWriter removing items from db 
+2026/10/28 上午12:00 ModelWriter removing items from db 
+2026/10/28 上午12:00 ModelWriter removing items from db 
+2026/10/28 上午12:00 ModelWriter removing items from db 
+2026/10/28 上午12:00 ModelWriter removing items from db 
+2026/10/28 上午12:00 ModelWriter removing items from db 
+2026/10/28 上午12:00 ModelWriter removing items from db 
+2026/10/28 上午12:00 ModelWriter removing items from db 
+2026/10/28 上午12:00 ModelWriter removing items from db 
+2026/10/28 上午12:00 ModelWriter removing items from db 
+2026/10/28 上午12:00 ModelWriter removing items from db 
+2026/10/28 上午12:00 ModelWriter removing items from db 
+2026/10/28 上午9:23 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:23 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:23 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:23 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:23 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:23 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:30 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:30 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:30 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:30 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:30 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:30 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:30 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:30 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:31 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:31 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:31 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:31 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:31 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:31 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:32 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:32 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:32 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:32 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:39 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:39 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:39 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:39 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:39 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:39 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:39 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:39 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 上午9:40 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 上午9:40 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 下午8:59 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 下午8:59 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 下午9:13 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 下午9:13 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 下午9:13 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 下午9:13 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 下午9:13 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 下午9:13 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 下午9:13 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 下午9:13 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/28 下午9:13 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/28 下午9:13 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+
+--- logfile: log-2 ---
+2026/10/25 上午12:00 ModelWriter removing items from db 
+2026/10/25 上午12:00 ModelWriter removing items from db 
+2026/10/25 上午12:00 ModelWriter removing items from db 
+2026/10/25 上午12:00 ModelWriter removing items from db 
+2026/10/25 上午12:00 ModelWriter removing items from db 
+2026/10/25 上午12:00 ModelWriter removing items from db 
+2026/10/25 上午12:00 ModelWriter removing items from db 
+2026/10/25 上午12:00 ModelWriter removing items from db 
+2026/10/25 上午12:00 ModelWriter removing items from db 
+2026/10/25 上午12:00 ModelWriter removing items from db 
+2026/10/25 上午12:00 ModelWriter removing items from db 
+2026/10/25 上午12:00 ModelWriter removing items from db 
+2026/10/25 上午12:00 ModelWriter removing items from db 
+2026/10/25 上午1:57 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午1:57 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:12 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:12 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:12 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:12 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:12 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:12 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:13 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:13 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:13 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:13 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:13 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:13 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:14 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:14 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:14 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:14 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:14 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:14 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:14 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:14 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:15 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:15 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:15 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:15 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:15 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:15 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:15 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:15 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:15 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:15 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:15 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:15 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:35 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:35 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:35 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:35 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:35 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:35 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 上午4:35 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 上午4:35 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午3:13 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午3:13 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午3:13 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午3:13 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午3:13 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午3:13 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午3:14 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午3:14 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午3:14 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午3:14 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午3:14 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午3:14 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午3:14 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午3:14 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午3:24 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午3:24 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午3:24 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午3:24 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午3:24 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午3:24 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午3:24 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午3:24 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午3:24 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午3:24 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午3:24 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午3:24 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午3:24 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午3:24 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:17 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:17 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:17 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:17 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:17 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:17 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:18 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:18 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:18 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:18 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:18 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:18 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:18 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:18 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:18 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:18 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:24 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:24 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:24 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:24 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:24 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:24 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:24 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:24 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:25 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:25 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:25 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:25 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:25 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:25 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:33 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:33 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:33 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:33 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:33 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:33 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:34 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:34 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:34 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:34 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:34 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:34 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:34 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:34 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:35 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:35 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:36 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:36 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:36 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:36 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:36 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:36 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:36 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:36 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:36 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:36 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午7:36 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/25 下午7:36 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/25 下午10:12 ModelWriter removing items from db 
+2026/10/25 下午10:12 ModelWriter removing items from db 
+2026/10/25 下午10:12 ModelWriter removing items from db 
+2026/10/25 下午10:12 ModelWriter removing items from db 
+2026/10/25 下午10:12 ModelWriter removing items from db 
+2026/10/25 下午10:12 ModelWriter removing items from db 
+2026/10/25 下午10:12 ModelWriter removing items from db 
+2026/10/25 下午10:12 ModelWriter removing items from db 
+2026/10/25 下午10:12 ModelWriter removing items from db 
+2026/10/25 下午10:12 ModelWriter removing items from db 
+2026/10/25 下午10:12 ModelWriter removing items from db 
+2026/10/25 下午10:12 ModelWriter removing items from db 
+2026/10/25 下午10:12 ModelWriter removing items from db 
+
+--- logfile: log-3 ---
+2026/10/26 上午12:00 ModelWriter removing items from db 
+2026/10/26 上午12:00 ModelWriter removing items from db 
+2026/10/26 上午12:00 ModelWriter removing items from db 
+2026/10/26 上午12:00 ModelWriter removing items from db 
+2026/10/26 上午12:00 ModelWriter removing items from db 
+2026/10/26 上午12:00 ModelWriter removing items from db 
+2026/10/26 上午12:00 ModelWriter removing items from db 
+2026/10/26 上午12:00 ModelWriter removing items from db 
+2026/10/26 上午12:00 ModelWriter removing items from db 
+2026/10/26 上午12:00 ModelWriter removing items from db 
+2026/10/26 上午12:00 ModelWriter removing items from db 
+2026/10/26 上午12:00 ModelWriter removing items from db 
+2026/10/26 上午12:00 ModelWriter removing items from db 
+2026/10/26 下午10:14 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午10:14 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:13 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:13 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:13 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:13 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:14 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:14 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:14 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:14 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:14 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:14 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:14 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:14 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:15 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:15 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:15 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:15 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:15 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:15 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:15 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:15 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:21 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:21 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:21 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:21 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:21 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:21 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:21 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:21 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:22 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:22 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:29 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:29 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:43 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:43 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:43 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:43 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:43 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:43 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:44 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:44 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:44 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:44 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:44 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:44 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:44 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:44 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:44 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:44 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:47 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:47 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:47 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:47 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:47 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:47 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:47 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:47 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:49 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:49 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:49 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:49 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:49 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:49 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+2026/10/26 下午11:49 LoaderTask package not yet restored: com.nemu.googleinstaller
+2026/10/26 下午11:49 LoaderTask package not yet restored: com.speedsoftware.rootexplorer
+    Data Model:
+     ---- workspace items 
+    	WorkspaceItemInfo(id=1 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a1bf6a
+hotseat {
+  index: 0
+} targetComponent=ComponentInfo{com.android.settings/com.android.settings.Settings} screen=0 cell(0,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=设置)
+    	WorkspaceItemInfo(id=2 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a1ca63
+hotseat {
+  index: 1
+} targetComponent=ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity} screen=1 cell(1,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=图库)
+    	WorkspaceItemInfo(id=3 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a1d55c
+hotseat {
+  index: 2
+} targetComponent=ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity} screen=2 cell(2,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=文件)
+    	WorkspaceItemInfo(id=5 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a1eb4e
+hotseat {
+  index: 4
+} targetComponent=ComponentInfo{com.netease.mumu.cloner/com.netease.mumu.cloner.multi.MainActivity} screen=4 cell(4,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=应用分身)
+    	FolderInfo(id=6 type=FOLDER container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a1f647
+hotseat {
+  index: 5
+} targetComponent=null screen=5 cell(5,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=小工具; labelState=SUGGESTED)
+    	WorkspaceItemInfo(id=11 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1aad59e
+workspace {
+  grid_x: 4
+  grid_y: 0
+  page_index: 0
+} targetComponent=ComponentInfo{com.mumu.store/com.mumu.store.MainActivity} screen=0 cell(4,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=游戏中心)
+    	WorkspaceItemInfo(id=12 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1ad1b2b
+workspace {
+  grid_x: 5
+  grid_y: 0
+  page_index: 0
+} targetComponent=ComponentInfo{bin.mt.plus/bin.mt.plus.MainLightIcon} screen=0 cell(5,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=MT管理器)
+    	WorkspaceItemInfo(id=13 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1af60b8
+workspace {
+  grid_x: 6
+  grid_y: 0
+  page_index: 0
+} targetComponent=ComponentInfo{com.bilibili.azurlane/com.manjuu.azurlane.MainActivity} screen=0 cell(6,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=碧蓝航线)
+    	WorkspaceItemInfo(id=14 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1aae097
+workspace {
+  grid_x: 4
+  grid_y: 1
+  page_index: 0
+} targetComponent=ComponentInfo{com.android.chromium/com.google.android.apps.chrome.Main} screen=0 cell(4,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=浏览器)
+    	WorkspaceItemInfo(id=17 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1ad2624
+workspace {
+  grid_x: 5
+  grid_y: 1
+  page_index: 0
+} targetComponent=ComponentInfo{com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity} screen=0 cell(5,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=林间奇物铺)
+     ---- appwidget items 
+    	LauncherAppWidgetInfo(id=9 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a1bf6a
+workspace {
+  grid_x: 0
+  grid_y: 0
+  page_index: 0
+} targetComponent=ComponentInfo{com.mumu.store/com.mumu.store.widget.appWidgetProvider.AdBannerWidgetProvider} screen=0 cell(0,0) span(2,2) minSpan(2,2) rank=0 user=UserHandle{0} title=null providerName=ComponentInfo{com.mumu.store/com.mumu.store.widget.appWidgetProvider.AdBannerWidgetProvider} appWidgetId=9)
+    	LauncherAppWidgetInfo(id=10 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a64a84
+workspace {
+  grid_x: 2
+  grid_y: 0
+  page_index: 0
+} targetComponent=ComponentInfo{com.mumu.store/com.mumu.store.widget.appWidgetProvider.DailyDiscoveryWidgetProvider} screen=0 cell(2,0) span(2,2) minSpan(2,2) rank=0 user=UserHandle{0} title=null providerName=ComponentInfo{com.mumu.store/com.mumu.store.widget.appWidgetProvider.DailyDiscoveryWidgetProvider} appWidgetId=10)
+     ---- folder items 
+    	FolderInfo(id=6 type=FOLDER container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a1f647
+hotseat {
+  index: 5
+} targetComponent=null screen=5 cell(5,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=小工具; labelState=SUGGESTED)
+     ---- items id map 
+    	WorkspaceItemInfo(id=1 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a1bf6a
+hotseat {
+  index: 0
+} targetComponent=ComponentInfo{com.android.settings/com.android.settings.Settings} screen=0 cell(0,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=设置)
+    	WorkspaceItemInfo(id=2 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a1ca63
+hotseat {
+  index: 1
+} targetComponent=ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity} screen=1 cell(1,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=图库)
+    	WorkspaceItemInfo(id=3 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a1d55c
+hotseat {
+  index: 2
+} targetComponent=ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity} screen=2 cell(2,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=文件)
+    	WorkspaceItemInfo(id=5 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a1eb4e
+hotseat {
+  index: 4
+} targetComponent=ComponentInfo{com.netease.mumu.cloner/com.netease.mumu.cloner.multi.MainActivity} screen=4 cell(4,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=应用分身)
+    	FolderInfo(id=6 type=FOLDER container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a1f647
+hotseat {
+  index: 5
+} targetComponent=null screen=5 cell(5,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=小工具; labelState=SUGGESTED)
+    	WorkspaceItemInfo(id=7 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7bc6f targetComponent=ComponentInfo{com.nemu.googleinstaller/} screen=0 cell(0,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=谷歌安装器)
+    	WorkspaceItemInfo(id=8 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7bc6f targetComponent=ComponentInfo{com.speedsoftware.rootexplorer/} screen=0 cell(1,0) span(1,1) minSpan(1,1) rank=1 user=UserHandle{0} title=RE文件管理器)
+    	LauncherAppWidgetInfo(id=9 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a1bf6a
+workspace {
+  grid_x: 0
+  grid_y: 0
+  page_index: 0
+} targetComponent=ComponentInfo{com.mumu.store/com.mumu.store.widget.appWidgetProvider.AdBannerWidgetProvider} screen=0 cell(0,0) span(2,2) minSpan(2,2) rank=0 user=UserHandle{0} title=null providerName=ComponentInfo{com.mumu.store/com.mumu.store.widget.appWidgetProvider.AdBannerWidgetProvider} appWidgetId=9)
+    	LauncherAppWidgetInfo(id=10 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1a64a84
+workspace {
+  grid_x: 2
+  grid_y: 0
+  page_index: 0
+} targetComponent=ComponentInfo{com.mumu.store/com.mumu.store.widget.appWidgetProvider.DailyDiscoveryWidgetProvider} screen=0 cell(2,0) span(2,2) minSpan(2,2) rank=0 user=UserHandle{0} title=null providerName=ComponentInfo{com.mumu.store/com.mumu.store.widget.appWidgetProvider.DailyDiscoveryWidgetProvider} appWidgetId=10)
+    	WorkspaceItemInfo(id=11 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1aad59e
+workspace {
+  grid_x: 4
+  grid_y: 0
+  page_index: 0
+} targetComponent=ComponentInfo{com.mumu.store/com.mumu.store.MainActivity} screen=0 cell(4,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=游戏中心)
+    	WorkspaceItemInfo(id=12 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1ad1b2b
+workspace {
+  grid_x: 5
+  grid_y: 0
+  page_index: 0
+} targetComponent=ComponentInfo{bin.mt.plus/bin.mt.plus.MainLightIcon} screen=0 cell(5,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=MT管理器)
+    	WorkspaceItemInfo(id=13 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1af60b8
+workspace {
+  grid_x: 6
+  grid_y: 0
+  page_index: 0
+} targetComponent=ComponentInfo{com.bilibili.azurlane/com.manjuu.azurlane.MainActivity} screen=0 cell(6,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=碧蓝航线)
+    	WorkspaceItemInfo(id=14 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1aae097
+workspace {
+  grid_x: 4
+  grid_y: 1
+  page_index: 0
+} targetComponent=ComponentInfo{com.android.chromium/com.google.android.apps.chrome.Main} screen=0 cell(4,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=浏览器)
+    	WorkspaceItemInfo(id=17 type=APP container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@1ad2624
+workspace {
+  grid_x: 5
+  grid_y: 1
+  page_index: 0
+} targetComponent=ComponentInfo{com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity} screen=0 cell(5,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=林间奇物铺)
+    DepthController
+    	mMaxBlurRadius=23
+    	mCrossWindowBlursEnabled=true
+    	mSurface=Surface(name=null)/@0xaff8481
+    	mOverlayScrollProgress=0.0
+    	mDepth=0.0
+    	mCurrentBlur=0
+    	mBlurDisabledForAppLaunch=false
+    	mInEarlyWakeUp=false
+    	mIgnoreStateChangesDuringMultiWindowAnimation=false
+
+QuickstepLauncher:
+    	mOrientationState: [this=RecentsOrientedState@144358016 mOrientationHandler=PortraitPagedViewHandler@99674406 mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=1 mRecentsRotation=1 isRecentsActivityRotationAllowed=true mSystemRotation=true mStateId=38785 mFlags=303]
+
+TASK 10046:com.forestatelier.curioshop id=900 userId=0
+  ACTIVITY com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity 34a0210 pid=3398
+    Local Activity 3cdf91e State:
+      mResumed=true mStopped=false mFinished=false
+      mIsInMultiWindowMode=false mIsInPictureInPictureMode=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 460mcc65535mnc [zh_CN] ldltr sw411dp w411dp h890dp 280dpi nrml long port finger -keyb/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 720, 1600) mAppBounds=Rect(0, 0 - 720, 1600) mMaxBounds=Rect(0, 0 - 720, 1600) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.3 fontWeightAdjustment=0}
+      mLoadersStarted=true
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@bce65ff
+        mContainer=android.app.Activity$HostCallbacks@bce65ff
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true
+      mRemoved=false
+      mStopped=false
+      mPausedForTransition=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      mIsAmbientMode=false
+      mUnbufferedInputSource=0
+      mAttachInfo=       AttachInfo:
+        mHasWindowFocus=true
+        mWindowVisibility=0
+        mInTouchMode=true
+        mUnbufferedDispatchRequested=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$WindowInputEventReceiver
+       mInputChannel: 75f0d1e com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity (client)
+       mSeqMap: {}
+       mReceiverPtr:
+        mInputConsumer:
+          mResampleTouch = false
+          mChannel = 75f0d1e com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity (client)
+          mMsgDeferred: false
+          Batches:
+              <empty>
+          mSeqChains:
+              <empty>
+          mConsumeTimes:
+              <empty>
+          
+        mBatchedInputEventPending: false
+        mOutboundQueue:
+          <empty>
+        
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=928014 (7730 ms ago)
+    InsetsController:
+      InsetsState
+        mDisplayFrame=Rect(0, 0 - 720, 1600)
+        mDisplayCutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=0 displayHeight=0 density={0.0} cutoutSpec={} rotation={0} scale={0.0}}}}
+        mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}
+        mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(912, 0 - 1056, 42) rotation=0}
+          InsetsSource type=ITYPE_STATUS_BAR frame=[0,0][720,42] visible=false
+          InsetsSource type=ITYPE_TOP_MANDATORY_GESTURES frame=[0,0][720,42] visible=true
+          InsetsSource type=ITYPE_TOP_TAPPABLE_ELEMENT frame=[0,0][720,42] visible=true
+          InsetsSource type=ITYPE_IME frame=[0,0][0,0] visible=false
+    View Hierarchy:
+      DecorView@c2f4fcc[UnityPlayerActivity]
+        android.widget.LinearLayout{e3d5215 V.E...... ......I. 0,0-720,1600}
+          android.view.ViewStub{5c892a G.E...... ......I. 0,0-0,0 #10201b3 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{9ad631b V.E...... ......I. 0,0-720,1600 #1020002 android:id/content}
+            com.unity3d.player.UnityPlayer{4e79cb8 V.E...... ......I. 0,0-720,1600}
+              com.unity3d.player.i0{6adfa91 V.E...... ......I. 0,0-720,1600}
+                com.unity3d.player.f{7920df6 VFE...... .F....I. 0,0-720,1600 #7f030000 app:id/unitySurfaceView aid=1073741824}
+    Looper (main, tid 2) {bb515f7}
+      (Total messages: 0, polling=false, quitting=false)
+    AutofillManager:
+      sessionId: 2147483647
+      state: UNKNOWN
+      context: com.unity3d.player.UnityPlayerActivity@3cdf91e
+      service client: null
+      client: com.unity3d.player.UnityPlayerActivity@3cdf91e (android.os.BinderProxy@876498a)
+      enabled: false
+      enabledAugmentedOnly: false
+      hasService: true
+      hasCallback: false
+      onInvisibleCalled false
+      last autofilled data: null
+      id of last fill UI shown: null
+      tracked views: null
+      fillable ids: null
+      entered ids: null
+      save trigger id: null
+      save on finish(): false
+      options: logLvl=0, compatMode=false, augmented=false, appDisabledExpiration=0
+      compat mode enabled: false
+      debug: false verbose: false
+    Autofill Compat Mode: false
+    No ContentCaptureManager
+    No UiTranslationController
+    ResourcesManager:
+      total apks: 3
+      resources: 3
+      resource impls: 2

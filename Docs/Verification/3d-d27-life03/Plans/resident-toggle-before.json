@@ -1,0 +1,29 @@
+{
+  "steps": [
+    {
+      "shot": "00-normal-courtyard"
+    },
+    {
+      "wait": 9
+    },
+    {
+      "tap": [
+        1000,
+        50
+      ]
+    },
+    {
+      "shot": "01-setting-before"
+    },
+    {
+      "tap": [
+        850,
+        1471
+      ]
+    },
+    {
+      "shot": "02-setting-actually-simplified"
+    }
+  ],
+  "directory": "Docs/Verification/3d-d27-life03/Evidence/Residents/toggle-before"
+}

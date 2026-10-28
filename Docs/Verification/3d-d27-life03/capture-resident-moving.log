@@ -1,0 +1,29 @@
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\visits.save
+﻿
+﻿
+﻿PASS prepared fixture validates against actual game rules: E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\visits.save
+﻿
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\visits.save: 1 file pushed, 0 skipped. 13.8 MB/s (6534 bytes in 0.000s)
+E:\UnityProject\IdleGame\Docs\Verification\3d-d27-life03\Prepared\visits.save: 1 file pushed, 0 skipped. 8.2 MB/s (6534 bytes in 0.001s)
+Starting: Intent { cmp=com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.forestatelier.curioshop/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1553
+WaitTime: 1565
+Complete
+{'tap': [930, 300]}
+{'shot': '00-normal-route'}
+{'wait': 8}
+{'shot': '01-browsing-actor'}
+{'tap': [308, 971]}
+{'shot': '02-actual-world-greeting'}
+{'wait': 14}
+{'shot': '03-world-continues-behind-card'}
+{'back': True}
+{'shot': '04-return-to-moving-route'}
+{'tap': [308, 971]}
+{'shot': '05-prior-position-later'}
+{'back': True}
+/sdcard/3d-d27-life03-resident-moving.mp4: 1 file pulled, 0 skipped. 14.5 MB/s (13500468 bytes in 0.886s)
+/sdcard/Android/data/com.forestatelier.curioshop/files/forest-shop.save: 1 file pulled, 0 skipped. 1.1 MB/s (4448 bytes in 0.004s)

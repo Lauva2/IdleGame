@@ -1,0 +1,46 @@
+{
+  "scope": "Replay every saved field across actual greeting/ambient capture intervals.\nRead-only greetings have no Core action. Forest navigation uses existing visit\nactions; the verifier reconstructs startup resume and production from the\nexact labelled fixture, not from fields copied out of the final save.\n",
+  "rows": [
+    {
+      "name": "fit-Default",
+      "variant": "simple",
+      "source": "Prepared/History/simple-0D7F4939ABFD12178AA2CC68EE4E8D74D0E3ECA660219498C7E6C0A2F1EBA71A.save",
+      "sourceSha256": "0D7F4939ABFD12178AA2CC68EE4E8D74D0E3ECA660219498C7E6C0A2F1EBA71A",
+      "after": "resident-fit-Default-after.save",
+      "afterSha256": "82E9EDA6CCDB8B921DF789FDE06E3685FE568FCC6CE7550FBE40EA81DA86EA7A",
+      "recordedCoreActions": 0,
+      "passed": true
+    },
+    {
+      "name": "fit-Long",
+      "variant": "simple",
+      "source": "Prepared/History/simple-6BCBBDA1CABF37F91EB6FCA610951A188C70B47F26A3EF8C90A8DCB3C5E04B04.save",
+      "sourceSha256": "6BCBBDA1CABF37F91EB6FCA610951A188C70B47F26A3EF8C90A8DCB3C5E04B04",
+      "after": "resident-fit-Long-after.save",
+      "afterSha256": "F7EA2299AC9F242F56D64A89F2697F6CC759F56BFBA5DCFE29CB0F129F2FD6F6",
+      "recordedCoreActions": 0,
+      "passed": true
+    },
+    {
+      "name": "fit-Narrow",
+      "variant": "simple",
+      "source": "Prepared/History/simple-7D2B0FBCA400569A13487F89015E23A409BC07C09B92300A4E0F7E3B3A1A9750.save",
+      "sourceSha256": "7D2B0FBCA400569A13487F89015E23A409BC07C09B92300A4E0F7E3B3A1A9750",
+      "after": "resident-fit-Narrow-after.save",
+      "afterSha256": "CE027E4049C85F17DFA3D239851E56499A0941C63F1A10890FF1A6E31E308512",
+      "recordedCoreActions": 0,
+      "passed": true
+    },
+    {
+      "name": "fit-SafeTall",
+      "variant": "simple",
+      "source": "Prepared/simple.save",
+      "sourceSha256": "34B990F386922F08A28CF649259D31ABEBCC3E883DBDDBE6585B39DF253963A5",
+      "after": "resident-fit-SafeTall-after.save",
+      "afterSha256": "8C7FF9308C7D17A3632D364BD4B23E8E3CA1D39320E1BBE8C984C3DAD3597B29",
+      "recordedCoreActions": 0,
+      "passed": true
+    }
+  ],
+  "allPassed": true
+}

@@ -1,0 +1,286 @@
+{
+  "utc": "2026-10-28T15:43:56.610634+00:00",
+  "candidate": "3d-d28-guidance01",
+  "apkSha256": "FCA53C338F9922EA5E2CE18DA9C99CB4947D10A4274A268116AF0ED8593B60F5",
+  "sourceInputsVerified": 239,
+  "sourceManifestSha256": "C042DA1C7DDCA806D490EBA0FD635CE2914B030413E67EC96B58672E90864438",
+  "sourceArchiveSha256": "30DE9A0B81B256B8F6A64C2D2B244610AD46F99086B0130F2CEF9405779966FB",
+  "files": [
+    {
+      "path": "android-version.txt",
+      "bytes": 4,
+      "sha256": "F2BF6CB915EC521520920F625E9A641F22BAE7808A5F5DB7867C431C1A79440F"
+    },
+    {
+      "path": "apk-signature.txt",
+      "bytes": 701,
+      "sha256": "423C0D4296D1D80257BE43BE5CD3D08C6C80D819C3B69F818657DA344CAA05C1"
+    },
+    {
+      "path": "build-info.json",
+      "bytes": 1059,
+      "sha256": "8C6F84D4CFCC60AB37A40B50CDB8BD5E7A2576273DBA2B275EC396161FB0778E"
+    },
+    {
+      "path": "build-process-id.txt",
+      "bytes": 7,
+      "sha256": "54886A4BEE1D7F44763BCA7DB1E703D7B3E23DCBE2D7ED88243F8263C886BD4C"
+    },
+    {
+      "path": "capture-supply-smoke.log",
+      "bytes": 1063,
+      "sha256": "EFC49F2A95074AD336DC59DB67142031C8C481FBCE609DD2A69A62DCAD72F095"
+    },
+    {
+      "path": "display-density.txt",
+      "bytes": 23,
+      "sha256": "4E309992E0743BEFC6766BA7FEB661A1CAC84BBF6FF453C02CEDC7184CED2454"
+    },
+    {
+      "path": "display-size.txt",
+      "bytes": 26,
+      "sha256": "EEC97D239CB14AEAF2CCC1389377822D46D72B51C6F0FA437AC1CDC30553A653"
+    },
+    {
+      "path": "Evidence/Ordinary/actions.jsonl",
+      "bytes": 682,
+      "sha256": "F67CACD70D1647CFFCCB114F15287B3068FDBFD9C7D1C6A84E2B31795795893B"
+    },
+    {
+      "path": "Evidence/Smoke/actions.jsonl",
+      "bytes": 1363,
+      "sha256": "D07F1C449E443691E9137A2BFF287EF49C09593F5BE335989C0AA70EC4FBDC55"
+    },
+    {
+      "path": "Evidence/supply-smoke.mp4.json",
+      "bytes": 424,
+      "sha256": "3FEF316278BAC2FB4F51474DEA8364A733A27B11C94E294AAEEFB91486D72703"
+    },
+    {
+      "path": "evidence-freeze-commit01.json",
+      "bytes": 992,
+      "sha256": "B96395F87EFCE189D96AF1E2EC49BE695B9C63C7F6127FD6AFF93C8EE1272598"
+    },
+    {
+      "path": "installed-apk-sha256.txt",
+      "bytes": 166,
+      "sha256": "AA52597047A94011389451D46F90138EBD5DE753B806700913A6DE1AEF09AA5E"
+    },
+    {
+      "path": "installed-version.txt",
+      "bytes": 95,
+      "sha256": "65E1162C4EFECE340722AF5AA75FA2B16E40EDE821609393AAFE417EA73793A9"
+    },
+    {
+      "path": "isolated-last.save",
+      "bytes": 6935,
+      "sha256": "496A7F2F6FE5AF0274F900BF8EA274EF3273C354B66F10E0E3ADBDAC54390CAB"
+    },
+    {
+      "path": "isolated-last.save.bak",
+      "bytes": 6922,
+      "sha256": "B9D23B0EA0862BA94FD07F8EAA5010024554F0387969518987B711E63BD85064"
+    },
+    {
+      "path": "mumu-instance-before.json",
+      "bytes": 261,
+      "sha256": "DFA2403E2228E6FC002A5C98F0DC5E970CD3C6AE04CA7EAA26CA71B763E6C704"
+    },
+    {
+      "path": "mumu-version.json",
+      "bytes": 34,
+      "sha256": "C51A7A51103D20F3E4141411B345B77DD09C24F1FA85B67FFE5F6EC9AFCB1612"
+    },
+    {
+      "path": "normal-held.save",
+      "bytes": 6818,
+      "sha256": "1E30FD01EA09FF2CED208B33D180A1C86AC2F1161942AA4B81B5E37DDD46D4C8"
+    },
+    {
+      "path": "normal-held.save.bak",
+      "bytes": 6844,
+      "sha256": "9F7FE15BBF5A7001015766693E0DD9068411D8870B7AF2D4D6CB6B0C381A7400"
+    },
+    {
+      "path": "normal-logcat.txt",
+      "bytes": 4739,
+      "sha256": "A38C012F4AFFF185E4BBAC4B0C9D43CA83B3E8A7716C582C9BCE5F2D4440CC1D"
+    },
+    {
+      "path": "ordinary-am-start.txt",
+      "bytes": 245,
+      "sha256": "EAEEF9FBE58DC120DAE4E4628E30CFDE4303DF9945860634C4849E9DA386B6FB"
+    },
+    {
+      "path": "ordinary-claim-plan.json",
+      "bytes": 257,
+      "sha256": "E6413E3E091A6A3E8CBA2E4C64744A9F184869CF51A5B056BC082FB5AC2C0CF6"
+    },
+    {
+      "path": "ordinary-final-foreground.txt",
+      "bytes": 319,
+      "sha256": "DD41AF09FA20BE9295A26F5B02E818A919C43A7FBED3E680F095AAF51E882B64"
+    },
+    {
+      "path": "ordinary-final.save",
+      "bytes": 6809,
+      "sha256": "4885BD63DA905C445D6D0D2AC45DBB69852E1AE040CAE4258DC65EA8CC1C35A3"
+    },
+    {
+      "path": "ordinary-final.save.bak",
+      "bytes": 6822,
+      "sha256": "72B25B10E0B94C711E709C97AF8FEE7BCE84BC4969AF6DFCBA116A6135E113EF"
+    },
+    {
+      "path": "ordinary-offline-replay.txt",
+      "bytes": 119,
+      "sha256": "0DF2854DB293AAF21F6334AA64932F4112EB4CEEDA08F4F5F1E7D270E4F8F795"
+    },
+    {
+      "path": "ordinary-report-plan.json",
+      "bytes": 536,
+      "sha256": "63B746FC612B7F54CE79AE485207D8657DC5604321628EEF73938F685BF6D655"
+    },
+    {
+      "path": "ordinary-report.save",
+      "bytes": 6821,
+      "sha256": "5A30B79B40BE11BF883430A19C6CAFAABCFBB8865FBB7E7EE6EE71F1B69E4A85"
+    },
+    {
+      "path": "ordinary-restoration-audit.json",
+      "bytes": 1113,
+      "sha256": "0549F482CA84AF9D55FBDCBA9201701E6342756166731B1533708C2B427BA4C0"
+    },
+    {
+      "path": "ordinary-restored-device-sha256.txt",
+      "bytes": 282,
+      "sha256": "5FDCA60A5FF7D65BA015BE0266004EC2782E1B9BB194039EE543E6BF80461682"
+    },
+    {
+      "path": "original-media-index-commit01.json",
+      "bytes": 3063,
+      "sha256": "84FCFE8897D323F7DD7CDFB026BD0A504F032A398160F56621E309B28BBCBC62"
+    },
+    {
+      "path": "original-media-index.json",
+      "bytes": 2556,
+      "sha256": "1E6D5F29276AA6BF9FEAA0C7D9C0F442C951D61D44EC9DCD3679BA4EEAFA9C8C"
+    },
+    {
+      "path": "Prepared/supply-smoke-scope.json",
+      "bytes": 609,
+      "sha256": "2C8C56670B1A0B393CB6D8F890324062C6677A87F5AFBD6F27F1FC9060F14E57"
+    },
+    {
+      "path": "Prepared/supply-smoke.save",
+      "bytes": 6536,
+      "sha256": "E28254C52381240F03B3122CB39A61E55EB06660239E4ED765692EAB47605576"
+    },
+    {
+      "path": "protected-ordinary-sha256.json",
+      "bytes": 391,
+      "sha256": "A511031B6D50A46A933952ABBA9561226B7763A2939D44F48265CC9BAFB4FC60"
+    },
+    {
+      "path": "protected-ordinary-summary.json",
+      "bytes": 240,
+      "sha256": "5C2395AC54A5F78CA284EA13114DEA21B061273C8634CCEDF9B473E014E7C038"
+    },
+    {
+      "path": "ProtectedOrdinary/before.save",
+      "bytes": 6818,
+      "sha256": "1E30FD01EA09FF2CED208B33D180A1C86AC2F1161942AA4B81B5E37DDD46D4C8"
+    },
+    {
+      "path": "ProtectedOrdinary/before.save.bak",
+      "bytes": 6844,
+      "sha256": "9F7FE15BBF5A7001015766693E0DD9068411D8870B7AF2D4D6CB6B0C381A7400"
+    },
+    {
+      "path": "sample-media-index-commit01.json",
+      "bytes": 103,
+      "sha256": "7532AC742A5DA00FB43A5FFD3572E530BB8D0E24C732EACF7D2C8AAF7B2099B5"
+    },
+    {
+      "path": "smoke-after.save",
+      "bytes": 6935,
+      "sha256": "496A7F2F6FE5AF0274F900BF8EA274EF3273C354B66F10E0E3ADBDAC54390CAB"
+    },
+    {
+      "path": "smoke-am-start.txt",
+      "bytes": 245,
+      "sha256": "A2B4704CC9F4F4630797FC83276545077902A520E6C9C0CCE77D8FB7F3052D36"
+    },
+    {
+      "path": "smoke-core-actions.json",
+      "bytes": 4,
+      "sha256": "A5338D955B09046EC0B16F3A9625B7955C763AAE07DC722E474E6078745F932F"
+    },
+    {
+      "path": "smoke-fixture-applied.txt",
+      "bytes": 30,
+      "sha256": "BB504D788B01CB09CEA8C7752C268406B44443671B6DF16A3E63DD0B1961150C"
+    },
+    {
+      "path": "smoke-foreground-window.txt",
+      "bytes": 10795,
+      "sha256": "0DA001F38F068FC18AFAA34740009BF1EE3391E33DEC857E8A259ED7DB935AB4"
+    },
+    {
+      "path": "smoke-full-state-replay.txt",
+      "bytes": 244,
+      "sha256": "3516254989E7D0C2F1F9407D4288F12330B1227BD1A2F672113DC8CECF8873EF"
+    },
+    {
+      "path": "smoke-input-plan.json",
+      "bytes": 1068,
+      "sha256": "E1045D5CF607EEC220F96FF8602D66F9BF4093F5CBF506540B8D109086E988B5"
+    },
+    {
+      "path": "smoke-prepared-validation.txt",
+      "bytes": 126,
+      "sha256": "83256E59159297261BE47BDF1A535BC0F3B9B41E01C9C2609CE2641CE4C4DBFA"
+    },
+    {
+      "path": "source-files.sha256",
+      "bytes": 25870,
+      "sha256": "C042DA1C7DDCA806D490EBA0FD635CE2914B030413E67EC96B58672E90864438"
+    },
+    {
+      "path": "unity-build-summary.txt",
+      "bytes": 182,
+      "sha256": "0769723C2AACCE0A01C15D77EFD7DAD1FB88CAE55A3FA03B16FA0715C919092E"
+    },
+    {
+      "path": "update-install.txt",
+      "bytes": 38,
+      "sha256": "C4AA470ACAFCF8576C15B0F0B5AE7E852D1EC5413372D0E6A9272E788E1306D3"
+    },
+    {
+      "path": "versioned-media-paths-commit01.txt",
+      "bytes": 651,
+      "sha256": "200FECD0187FC676CE8FA7A16BBF485BD7AE01FDDA6BDDA1F1BBC981072670F4"
+    },
+    {
+      "path": "versioned-media-request-commit01.json",
+      "bytes": 408,
+      "sha256": "596782D60B584CCC697AF8948813C71D21CA42247399186FD8BA83017CD14737"
+    },
+    {
+      "path": "versioned-media-selection-commit01.json",
+      "bytes": 3435,
+      "sha256": "00B911ACD6F9C6AEA4ACA8C9A112ACFE24CA39160234EA21A6DD7DFE5E0DCA12"
+    },
+    {
+      "path": "版本提交说明.md",
+      "bytes": 1074,
+      "sha256": "D1363405672B68BDE1665B83B6CB632882EE679978A8A21668134ECE63F71A81"
+    },
+    {
+      "path": "试玩验证.md",
+      "bytes": 4161,
+      "sha256": "D55AF2557C2E8AC765DB046DAC5F2F3CEA6AED00022C77A40D76FA7A72587C73"
+    }
+  ],
+  "scope": "Metadata, raw logs, fixture/ordinary saves, plans, audits and guides present at submission. Original media and source-PTS frames are frozen separately. Later independent report/status documents are separate additions, not silent edits to this index."
+}

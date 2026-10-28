@@ -1,0 +1,17 @@
+{
+  "directory": "Docs/Verification/3d-d28-guidance01/Evidence/Ordinary",
+  "steps": [
+    {
+      "tap": [
+        850,
+        1780
+      ]
+    },
+    {
+      "wait": 2
+    },
+    {
+      "shot": "03-normal-progress-restored"
+    }
+  ]
+}
